@@ -10,7 +10,7 @@ SITE = "Power Saving Guide"
 BASE = "https://powersavingguide.com"
 YEAR = date.today().year
 LAUNCH = "2026-06-03"
-INDEXNOW_KEY = "a3f1c9e74b8d42a6915e0c7d2f6b8a41"
+INDEXNOW_KEY = "8941122d5f9c4564a7267b028b081df0"
 
 ANALYTICS = (
     '<script data-goatcounter="https://stats.powersavingguide.com/count" '
@@ -1239,6 +1239,192 @@ PAGES["energy-saving-myths"] = dict(
 ''',
 )
 
+PAGES["solar-battery-storage"] = dict(
+    title="Solar battery storage: worth adding or not?",
+    description="How a home battery works with solar panels, why it lifts self-consumption, the trade-off between usefulness and cost, battery sizing, lifespan and the case for charging a battery from cheap off-peak electricity even without solar.",
+    active="guides",
+    blurb="A battery stores your midday sun for the evening. It makes solar more useful but rarely pays back faster.",
+    body='''
+  <section class="section"><div class="wrap prose">
+    <p class="lede">A home battery is the natural-seeming companion to solar panels, and the question of whether to add one comes up in almost every solar quote. The honest position is that a battery makes a solar system more useful and more satisfying to live with, but it does not automatically make it pay back sooner, and for some homes it does the opposite. Understanding why lets you judge whether it is right for you.</p>
+
+    <h2>The problem a battery solves</h2>
+    <p>As the <a href="solar-panels-the-basics.html">solar basics</a> guide explains, the power you generate and use yourself is worth far more than the power you export to the grid for a low rate. The trouble is timing: panels generate most at midday, while a typical household uses most electricity in the morning and evening. Without storage, much of the midday generation is exported cheaply just when you are not there to use it, and then you buy expensive grid electricity back in the evening. A battery bridges that gap by storing the daytime surplus and releasing it when you need it after dark.</p>
+
+    <h2>How it lifts self-consumption</h2>
+    <p>By soaking up the midday excess and feeding it back in the evening peak, a battery raises the share of your own generation that you actually use rather than export. That is genuinely valuable, because every stored unit you later use is a unit of expensive grid electricity you did not have to buy. For a household that is out all day, where solar alone would export most of its output, a battery can be the difference between a system that mostly benefits the grid and one that mostly benefits you. The usefulness gain is real and immediate.</p>
+
+    <h2>Why it rarely speeds up payback</h2>
+    <p>Here is the catch that the usefulness story hides. Batteries are expensive, and the saving a battery adds, the difference between the low export rate and the higher import rate on the units it shifts, is real but modest per unit. Add the cost of the battery to the system and the extra saving often takes a long time to repay, frequently longer than the panels alone. So a battery typically improves how much of your solar you capture while lengthening, not shortening, the payback of the whole package. It buys usefulness and resilience, not a faster return.</p>
+
+    <h2>Sizing it sensibly</h2>
+    <p>Bigger is not automatically better. A battery far larger than your evening usage spends much of its capacity idle, paying for storage you never fill or empty, while one too small spills surplus you could have kept. The sweet spot is roughly matched to the evening and overnight usage you want to cover from stored sun, taking account of how much surplus your panels actually produce. An oversized battery is a common way to spend money that never earns its keep, so be sceptical of a quote that simply pushes the largest unit.</p>
+
+    <h2>Lifespan and the long view</h2>
+    <p>A battery is a consumable in a way panels are not. It degrades with use over the years, holding less charge as it ages, and may well need replacing within the life of the panels above it. That replacement cost belongs in any honest payback sum, and it is one reason the battery economics are tighter than the panel economics. Treat the battery as a component with a finite life, not a one-off purchase that lasts as long as the roof array.</p>
+
+    <h2>The off-peak twist, even without solar</h2>
+    <p>There is a use for a home battery that does not need solar at all. On a time-of-use tariff with cheap overnight electricity, you can charge the battery from the grid in the cheap window and run the house from it during the expensive day, pocketing the difference. With a <a href="smart-meters-explained.html">smart meter</a> and a tariff that has a wide enough gap between off-peak and peak rates, this arbitrage can stack on top of solar, or stand on its own. It turns the battery from a solar accessory into a way of buying all your electricity at the cheap rate, which for some households is the stronger case of the two.</p>
+
+    <h2>So, add one or not?</h2>
+    <p>Add a battery if you are out during the day and would otherwise export most of your solar, if you value evening self-sufficiency and some resilience to short outages, or if a time-of-use tariff lets you charge cheaply overnight. Be cautious if your payback expectation is short, if someone is home to use power as it is generated anyway, or if the quote leans on an oversized unit. As with the panels themselves in the <a href="is-solar-worth-it.html">is solar worth it</a> guide, do the cheap efficiency basics first, and treat the battery as a considered add-on rather than a default yes.</p>
+  </div></section>
+''',
+)
+
+PAGES["portable-heaters-running-cost"] = dict(
+    title="Portable electric heaters: what they really cost",
+    description="The running cost of plug-in electric heaters, why they are expensive to run despite being cheap to buy, when a portable heater is actually the economical choice, and how the different types compare.",
+    active="guides",
+    blurb="Cheap to buy, dear to run. When a plug-in heater saves money and when it quietly drains your wallet.",
+    body='''
+  <section class="section"><div class="wrap prose">
+    <p class="lede">A plug-in electric heater costs little to buy and warms a room quickly, which makes it tempting in a cold snap. What the price tag hides is that electric heating is one of the most expensive ways to make warmth there is, so a cheap heater can run up a startling bill if you use it as a main source. Used cleverly, though, it can genuinely save money. The difference is all in how and when you reach for it.</p>
+
+    <h2>Why electric heat is expensive</h2>
+    <p>Every plug-in heater is essentially the same on cost: it turns electricity into heat at full efficiency, so a two-kilowatt heater uses two kilowatt-hours an hour whatever its shape or marketing. The expense is not inefficiency but the price of the fuel, because electricity costs several times more per unit than the gas a central heating boiler burns. So heating a room electrically costs far more than heating it with gas, even though the heater itself was cheap. Put a typical heater's wattage and a few hours a day into the <a href="appliance-running-cost.html">running cost calculator</a> and the figure is sobering.</p>
+
+    <h2>When a portable heater actually saves</h2>
+    <p>Despite all that, there is a real case for one. If you are spending the evening in a single room while the rest of the house sits empty, heating just that room with a portable heater can cost less than firing up the whole central heating system to warm the entire house. The trick is that you are heating one small space instead of many, so even at the dear electric rate the total can come out lower. This is the heater's proper job: spot-heating one occupied room, not replacing the central heating for the whole home.</p>
+
+    <h2>Heat the person, not the room</h2>
+    <p>The cheapest electric warmth of all heats you rather than the air. A small radiant or halogen heater pointed at where you sit, or a low-wattage heated throw or electric blanket, warms you directly for a fraction of the power needed to bring a whole room up to temperature. A heated throw might draw a hundred watts or so against a fan heater's two thousand, an enormous difference for similar comfort if you are sitting still. As the <a href="electric-blanket-vs-heating.html">electric blanket</a> guide covers, heating the body is often the smartest electric heating there is.</p>
+
+    <h2>Do the types differ on cost?</h2>
+    <p>For the same wattage, all electric heaters cost the same to run for a given time, because they all convert electricity to heat completely; the watts on the label decide the cost, not the technology. What differs is how the heat feels and how it is delivered. A fan heater warms a room fast but noisily and stops the moment it is off. A convector or oil-filled radiator heats more gently and evenly and an oil-filled one stays warm a while after switching off. A radiant or halogen heater warms objects and people in its line of sight quickly, which suits spot-heating. Choose by how you want the heat, then control the cost through the wattage and the hours, not by hoping one type is secretly cheaper.</p>
+
+    <h2>Keeping the bill in check</h2>
+    <p>If you use a portable heater, run it on a thermostat or timer where it has one, so it is not blasting at full power once the room is warm, and pick the lowest setting that keeps you comfortable. Close the door to keep the heat in the room you are paying to warm, and combine it with the free measures: a draught-sealed room and a closed curtain hold the warmth so the heater works less. And never leave one running in an empty room, since at the electric rate that is money burned for nothing.</p>
+
+    <h2>The honest place for them</h2>
+    <p>A portable electric heater is a targeted tool, not a heating system. It earns its keep warming one occupied room when heating the whole house would be wasteful, or warming you directly while you sit, and it costs you dearly if used as a substitute for properly sorted-out central heating. Get the <a href="thermostat-settings.html">heating controls</a>, <a href="draught-proofing.html">draughts</a> and insulation right first, and keep the plug-in heater for the genuine spot-heating job it is good at.</p>
+  </div></section>
+''',
+)
+
+PAGES["winter-energy-checklist"] = dict(
+    title="Getting your home ready for winter",
+    description="A practical autumn checklist to cut winter energy bills: heating controls and timing, bleeding radiators, draughts and curtains, protecting pipes, servicing the boiler, and the order to tackle it in.",
+    active="guides",
+    blurb="A run-through to do each autumn so the cold months cost less. Mostly free, an afternoon's work.",
+    body='''
+  <section class="section"><div class="wrap prose">
+    <p class="lede">Most of a year's energy spending lands in the cold months, so a little preparation in autumn pays off all winter. None of this is dramatic, and most of it costs nothing, but worked through as a checklist before the first real cold it turns a house that haemorrhages heat into one that holds it. Here is the run-through, roughly in the order worth doing.</p>
+
+    <h2>Set and time the heating</h2>
+    <p>Start where the money is. Set the room <a href="thermostat-settings.html">thermostat</a> to the lowest temperature that is genuinely comfortable, a degree lower than habit if you can manage it with a jumper, and programme the heating to come on shortly before you wake and return and to drop back when you are out or asleep. Turn down the radiator valves in rooms you rarely use so you are not heating empty space. This single afternoon of setting controls properly is the biggest saving on the list.</p>
+
+    <h2>Tune the heating system</h2>
+    <p>Before the system works hard all winter, get more out of every unit of gas. <a href="how-to-bleed-radiators.html">Bleed the radiators</a> so they fill with hot water right to the top, move furniture and long curtains off them so the heat reaches the room, and turn down the <a href="boiler-flow-temperature.html">boiler flow temperature</a> to the low fifties so a condensing boiler runs in its efficient mode. If the boiler has not been serviced in a while, autumn is the time, both for efficiency and to catch a fault before it leaves you cold in January.</p>
+
+    <h2>Stop the heat escaping</h2>
+    <p>Now seal the leaks. Walk the house on a windy day and <a href="draught-proofing.html">draught-proof</a> the doors, windows, letterbox, loft hatch and the gaps around pipes and skirting, leaving the deliberate ventilation alone. Check the <a href="loft-insulation.html">loft insulation</a> is at full depth and top it up if the joists are showing. Hang or close heavy lined <a href="curtains-for-warmth.html">curtains</a> at dusk to keep the day's warmth in. Together these make the house feel warmer at a lower setting, which is where the heating saving comes from.</p>
+
+    <h2>Protect against the freeze</h2>
+    <p>A cold snap can cost far more than a high bill if a pipe bursts. Lag any exposed water pipes in unheated lofts, garages and outbuildings, and insulate the boiler's external condensate pipe, which can freeze and lock the boiler out on the coldest mornings. Know where your stopcock is. If you will be away, leave the heating ticking over on a low frost-protection setting rather than off entirely, so the house never drops to the point where pipes freeze.</p>
+
+    <h2>Sort the hot water and the smaller stuff</h2>
+    <p>Fit or check the <a href="cylinder-jacket-and-pipe-lagging.html">cylinder jacket</a> if you have a hot-water tank, and lag the nearby pipes, so stored hot water stays hot. Swap any remaining old bulbs for <a href="led-lighting.html">LEDs</a> now the dark evenings are drawing in and the lights are on for longer. Dig out the draught excluders, the warm bedding and the heated throw before you need them, so comfort does not tempt you to crank the thermostat up.</p>
+
+    <h2>The order that pays</h2>
+    <p>If you do nothing else, set and time the heating and seal the worst draughts, because those two cost nothing and deliver most of the benefit. Tune the boiler and top up the loft next. Leave any big spending, new windows, major insulation, a new boiler, for a considered decision rather than a panic in the first cold week. Worked through each autumn, this checklist is the difference between dreading the winter bills and barely noticing them.</p>
+  </div></section>
+''',
+)
+
+PAGES["keeping-cool-without-air-con"] = dict(
+    title="Keeping cool in summer without air conditioning",
+    description="How to keep a home cool in hot weather using little or no energy: shading and timing the windows, blocking the sun, using fans efficiently, and why a fan and air conditioning cost wildly different amounts to run.",
+    active="guides",
+    blurb="Block the sun by day, flush the cool in at night, and use a fan not a compressor. Cool rooms for pennies.",
+    body='''
+  <section class="section"><div class="wrap prose">
+    <p class="lede">Hot spells are becoming more common, and the instinct is to reach for air conditioning, which is one of the heaviest electrical loads a home can run. Before you do, a handful of free or near-free habits keep a house markedly cooler, and where you do need help, a fan costs a tiny fraction of what a cooling compressor does. The same logic that governs keeping heat in during winter governs keeping it out in summer.</p>
+
+    <h2>Block the sun before it gets in</h2>
+    <p>The biggest source of unwanted summer heat is sunlight pouring through glass and warming everything it lands on. The cheapest cooling is to stop it at the window. Close curtains and blinds on the sunny side of the house during the day, particularly south and west-facing windows in the afternoon, and the room stays noticeably cooler. External shading, an awning, a shutter, even a temporary reflective blind, works better still because it stops the heat before it passes the glass. The same heavy <a href="curtains-for-warmth.html">curtains</a> that keep warmth in during winter keep the sun's heat out in summer.</p>
+
+    <h2>Time the windows to the temperature</h2>
+    <p>Opening windows feels like the obvious move, but timing matters. On a hot day the air outside is often warmer than inside by afternoon, so throwing the windows open then lets heat in rather than out. Instead, keep windows and curtains shut through the hottest part of the day to hold the cool, then open them wide in the evening and overnight when the outside air has dropped below the inside temperature, flushing the day's heat out and drawing cool air in. Opening windows on opposite sides of the house creates a through-draught that clears warm air quickly.</p>
+
+    <h2>Use fans the clever way</h2>
+    <p>A fan does not cool the air; it moves it, and moving air cools you by helping sweat evaporate, so a fan is only worth running when someone is in the room to feel it. Running a fan in an empty room is pure waste. A fan placed to draw cool evening air in through a window, or to push hot air out, helps flush the house. The crucial point on cost is that a fan draws only tens of watts, so running one for hours costs very little, as the <a href="appliance-running-cost.html">running cost calculator</a> will show.</p>
+
+    <h2>Turn off the heat sources indoors</h2>
+    <p>Your home makes its own heat, and on a hot day it all adds up. The oven and hob throw out a lot, so cook outside, use the <a href="air-fryer-running-cost.html">air fryer</a> or microwave, or eat cold food on the hottest days. Lights, especially any remaining old bulbs, and electronics left running all give off warmth, so switch off what you are not using. Even drying washing indoors adds heat and humidity. Removing these small internal sources keeps the baseline temperature down for nothing.</p>
+
+    <h2>The cost gap between a fan and a compressor</h2>
+    <p>This is the number that should give anyone pause before buying a portable air conditioner. A fan uses tens of watts; a portable air conditioner with a compressor draws around a kilowatt or more, perhaps thirty to fifty times as much, so running one through a heatwave can add a serious sum to the bill. Air conditioning genuinely cools the air where a fan cannot, but it is an expensive last resort, not a first move. Exhaust the free measures and the fan first, and reserve real cooling for the rare days when nothing else is enough.</p>
+
+    <h2>If you do use cooling, use it well</h2>
+    <p>Where air conditioning is genuinely needed, the same discipline that controls any heavy load keeps the cost down. Cool only the room you are in rather than the whole house, shut its door and windows so you are not cooling the outdoors, set the target temperature modestly rather than as cold as it will go, and switch it off when you leave. Combined with shading and night ventilation, occasional, targeted cooling on the worst days costs far less than running a unit flat out because the free measures were skipped.</p>
+  </div></section>
+''',
+)
+
+PAGES["saving-energy-when-renting"] = dict(
+    title="Cutting energy bills when you rent",
+    description="Practical ways tenants can lower energy bills without making permanent changes: the no-cost habits, the cheap removable measures, what to ask the landlord for, and the tenant rights around energy efficiency.",
+    active="guides",
+    blurb="You cannot insulate someone else's walls, but renters have more levers than they think. Here they are.",
+    body='''
+  <section class="section"><div class="wrap prose">
+    <p class="lede">Most energy-saving advice assumes you own your home and can insulate the loft or replace the boiler. Renters are stuck with someone else's building and someone else's appliances, which feels like there is little to be done. In fact tenants have more levers than they think, between the free habits, cheap removable measures, and things the landlord can be asked or required to sort out.</p>
+
+    <h2>Start with what costs nothing</h2>
+    <p>The biggest savings need no permission and no spending, because they are about how you use the home rather than changing it. Set the <a href="thermostat-settings.html">thermostat</a> a degree lower and time the heating to when you are actually in, turn down the radiator valves in rooms you do not use, wash clothes at <a href="washing-at-30-degrees.html">thirty degrees</a> and dry them on an airer rather than the dryer, boil only the water you need, and switch off the hungry standby devices. None of this touches the building, and together it makes a real dent whatever the state of the place.</p>
+
+    <h2>Cheap, removable measures</h2>
+    <p>You can improve a rented home temporarily with things you take with you when you leave. Removable draught excluders for doors, the cheap self-adhesive foam strips for window and door gaps, a chimney balloon in an unused fireplace, and heavy lined <a href="curtains-for-warmth.html">curtains</a> all cut heat loss and come away cleanly. Shrink-fit window insulation film is an inexpensive winter fix for single-glazed windows and peels off in spring. A <a href="cylinder-jacket-and-pipe-lagging.html">cylinder jacket</a>, if there is an exposed hot-water tank, is cheap and you can take it with you. These are tenant-friendly because they leave no trace.</p>
+
+    <h2>Take your lighting with you</h2>
+    <p>If the place still has old halogen or incandescent bulbs, swap them for <a href="led-lighting.html">LEDs</a>, which pay for themselves quickly through lower bills. Keep the original bulbs in a drawer and put them back when you move, taking your LEDs to the next place. It is one of the few efficiency improvements you can literally pack and carry, and it works in any rental.</p>
+
+    <h2>Choose your own tariff</h2>
+    <p>If you pay the energy bills directly and the account is in your name, you are usually free to switch supplier and tariff just as an owner would, which needs no landlord involvement and changes nothing physical. Make sure you are not languishing on an expensive default rate, submit regular meter readings so you are billed for what you use rather than an estimate, and compare on total annual cost as the <a href="switching-suppliers.html">switching guide</a> sets out. This is often the single biggest saving available to a renter, because it sidesteps the building entirely.</p>
+
+    <h2>What to ask the landlord for</h2>
+    <p>Some improvements need the landlord, and many are in their interest too, since an efficient property is more lettable and protects the building. It is reasonable to ask for loft insulation to be topped up, draughty external doors and windows to be sorted, an ageing inefficient boiler to be replaced, and a hot-water cylinder to be properly insulated. Framing it around tenant comfort, lower running costs and avoiding damp and condensation, which insulation and ventilation help prevent, tends to land better than demands. Get agreement in writing before spending your own money on anything fixed.</p>
+
+    <h2>Know the minimum standards</h2>
+    <p>Rented homes are generally subject to minimum energy-efficiency standards, and a property below a certain energy rating may not legally be let in many cases. If you are in a cold, clearly inefficient home, it is worth checking the property's energy performance certificate, which a landlord must usually provide, and understanding the standards that apply where you live. A property that falls short can give you grounds to press for improvements. The exact rules vary by jurisdiction and change over time, so check the current local position rather than relying on a fixed figure, but the principle is that tenants are not entirely without protection here.</p>
+  </div></section>
+''',
+)
+
+PAGES["quick-wins-under-a-tenner"] = dict(
+    title="Energy-saving quick wins under a tenner",
+    description="Cheap, fast energy-saving buys that cost very little and pay back quickly: draught strips, radiator reflectors, LED bulbs, a chimney balloon, pipe lagging, a plug-in energy monitor and more, with what each one does.",
+    active="guides",
+    blurb="A shopping list of small buys that each pay for themselves fast. Stack them and the bill really moves.",
+    body='''
+  <section class="section"><div class="wrap prose">
+    <p class="lede">Not every saving needs a big spend or a contractor. A handful of cheap buys, none of them more than the price of a takeaway, each pay for themselves within a season or two, and stacked together they take a meaningful slice off a bill. Here is the shopping list, with what each one actually does, so you can spend a tenner at a time and see it come back.</p>
+
+    <h2>Draught strips and excluders</h2>
+    <p>A few pounds of self-adhesive foam or rubber strip seals the gaps around doors and windows, and a door brush or excluder stops the draught under an external door. This is the classic quick win: cheap, quick to fit, and you feel the difference the same evening because the room holds its warmth and feels comfortable at a lower setting. The full method is on the <a href="draught-proofing.html">draught-proofing</a> guide, but a single strip pack is the place to start.</p>
+
+    <h2>LED bulbs</h2>
+    <p>A single <a href="led-lighting.html">LED bulb</a> costs little and uses a fraction of the electricity of the old halogen or incandescent it replaces, lasting for years. Replace the bulbs in the rooms where the lights are on longest first, the kitchen and living room, and each one pays for itself quickly. There is no cheaper fit-and-forget saving, and you can buy them one or two at a time.</p>
+
+    <h2>A chimney draught excluder</h2>
+    <p>An open, unused chimney lets warm air stream out around the clock and can be one of the biggest draughts in the house. A chimney balloon or a wool chimney draught excluder costs only a few pounds and plugs the gap while still letting the flue breathe a little. Just remember to remove it before lighting a fire. For a house with a redundant fireplace, this is a surprising amount of saving for very little money.</p>
+
+    <h2>Pipe and cylinder lagging</h2>
+    <p>Foam pipe lagging slips over exposed hot-water pipes for a pittance and keeps the water hot on its way to the tap, while also protecting cold pipes from freezing. If you have a hot-water tank, a <a href="cylinder-jacket-and-pipe-lagging.html">cylinder jacket</a> is one of the fastest paybacks of all, stopping the heat you have paid for leaking away while the tank waits. Both are cheap, both fit by hand, and both save every day.</p>
+
+    <h2>Radiator reflector panels</h2>
+    <p>Behind radiators on external walls, a reflective panel or even foil on card bounces heat back into the room instead of letting it soak into the cold wall and escape. The saving per radiator is small, but the cost is tiny, so on the radiators that sit against outside walls it is worth doing, as the <a href="radiator-reflectors.html">radiator reflector</a> guide explains. Only bother with the ones on external walls.</p>
+
+    <h2>A plug-in energy monitor</h2>
+    <p>This one does not save energy itself; it tells you where to look. A cheap plug-in monitor sits between an appliance and the socket and shows exactly what it draws, revealing the hungry devices and the worst standby offenders so you can act on facts rather than guesses. Used to find one genuinely thirsty appliance or a power-hungry old set-top box, it pays for itself many times over. The <a href="using-a-plug-in-energy-monitor.html">energy monitor</a> guide covers how to use one.</p>
+
+    <h2>The radiator key and a shower timer</h2>
+    <p>The smallest buys of all still earn their place. A radiator bleed key costs almost nothing and lets you <a href="how-to-bleed-radiators.html">bleed trapped air</a> so radiators heat fully and the boiler works less. A simple shower timer, or just a chosen four-minute song, nudges shorter showers and less hot water heated. Add these to the list above and you have spent a few tenners across a season for savings that repeat for years.</p>
+  </div></section>
+''',
+)
+
 GUIDES_ORDER = [
     # Heating and the building fabric
     "loft-insulation", "draught-proofing", "cavity-wall-insulation", "solid-wall-insulation",
@@ -1246,7 +1432,7 @@ GUIDES_ORDER = [
     "curtains-for-warmth", "radiator-reflectors",
     "thermostat-settings", "smart-thermostats", "radiator-valves-and-zoning",
     "how-to-bleed-radiators", "boiler-flow-temperature", "how-condensing-boilers-work",
-    "heat-pumps-explained",
+    "heat-pumps-explained", "portable-heaters-running-cost",
     # Hot water
     "hot-water-savings", "cylinder-jacket-and-pipe-lagging", "immersion-heater-cost",
     "low-flow-showerheads",
@@ -1260,11 +1446,13 @@ GUIDES_ORDER = [
     "understanding-energy-bill", "switching-suppliers", "smart-meters-explained",
     "economy-7-and-night-rates",
     # Solar and renewables
-    "solar-panels-the-basics", "is-solar-worth-it",
+    "solar-panels-the-basics", "is-solar-worth-it", "solar-battery-storage",
     # Fuel, driving and EVs
     "hypermiling", "ev-charging-at-home-cost",
-    # Myths and quick wins
-    "energy-saving-myths",
+    # Seasonal
+    "winter-energy-checklist", "keeping-cool-without-air-con",
+    # Myths, renting and quick wins
+    "energy-saving-myths", "saving-energy-when-renting", "quick-wins-under-a-tenner",
 ]
 
 
