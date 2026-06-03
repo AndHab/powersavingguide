@@ -1053,6 +1053,192 @@ PAGES["electric-shower-cost"] = dict(
 ''',
 )
 
+PAGES["smart-meters-explained"] = dict(
+    title="Smart meters: what they do and what they do not",
+    description="A clear, honest guide to smart meters: how they work, the in-home display, why a smart meter does not by itself save money, the half-hourly data that unlocks cheaper tariffs, and the common problems and how to deal with them.",
+    active="guides",
+    blurb="They end estimated bills and unlock cheaper tariffs, but the meter itself saves you nothing. Here is the real story.",
+    body='''
+  <section class="section"><div class="wrap prose">
+    <p class="lede">Smart meters arrive wrapped in a lot of promise and a fair amount of suspicion, and the truth sits between the two. A smart meter is a useful piece of kit that ends estimated billing and opens the door to genuinely cheaper ways of buying energy, but the meter on its own does not lower your bill by a single penny. Everything depends on what you do with it.</p>
+
+    <h2>What a smart meter actually is</h2>
+    <p>A smart meter is simply a gas or electricity meter that records your usage digitally and sends the readings to your supplier automatically over a dedicated mobile-style network, with no phone line or home broadband involved. It replaces the old habit of someone reading the dial, or you sending a photo of it. For electricity it can record how much you use in each half-hour period; for gas it records totals at intervals. That automatic, accurate, frequent reading is the whole technical change. Everything else people associate with smart meters flows from having that data.</p>
+
+    <h2>The in-home display, and its limits</h2>
+    <p>Most installations come with a small screen, the in-home display, that shows your usage in near real time and in money as well as units. This is the part that can genuinely change behaviour, because for the first time you can watch the cost tick up when you switch the kettle, the shower or the oven on, and see the difference when you turn the heating down. For a week or two it is fascinating and educational, and it helps you find the hungry appliances the <a href="appliance-running-cost.html">running cost calculator</a> would otherwise have to estimate. The limit is human: the novelty fades, the display ends up ignored behind the fruit bowl, and the saving from watching it tails off. Treat it as a teaching tool for the first month rather than a permanent money-saver.</p>
+
+    <h2>Why the meter alone saves nothing</h2>
+    <p>This is the point the marketing skates over. A smart meter measures what you use more accurately; it does not use less for you. If your habits do not change and your tariff does not change, your bill is the same as it was with the old meter, give or take the end of estimated guesswork. The savings people attribute to smart meters really come from two things the meter makes possible: behaviour change prompted by seeing the cost, and access to tariffs that need half-hourly data to work. The meter is the key, not the saving itself.</p>
+
+    <h2>Accurate bills, and the end of estimates</h2>
+    <p>The most reliable benefit is mundane but real. With automatic readings you are billed for exactly what you used, not a supplier's estimate that leaves you either building up credit you have to chase back or sliding into a debt that lands as a nasty catch-up bill. As the <a href="understanding-energy-bill.html">understanding your bill</a> guide explains, an estimated bill can be well wide of the mark, so ending the estimates alone is worth having, especially if your usage is unusual or has changed.</p>
+
+    <h2>The data that unlocks cheaper tariffs</h2>
+    <p>The bigger prize is the half-hourly electricity data, because it makes time-of-use tariffs possible. These charge different prices at different times of day: cheap overnight or off-peak rates, dearer peak rates. If you can shift heavy use into the cheap windows, charging an electric car, running the washing or heating water with an <a href="immersion-heater-cost.html">immersion</a>, the savings can be substantial. The older <a href="economy-7-and-night-rates.html">Economy 7</a> arrangement was a blunt version of the same idea; smart meters allow far more flexible modern versions. Without a smart meter, none of these tariffs are open to you, which is the clearest practical reason to have one.</p>
+
+    <h2>The common problems</h2>
+    <p>Smart meters have earned some of their bad reputation. The biggest historical issue was that an early-generation meter often went dumb if you switched supplier, losing its smart features until the new supplier re-enrolled it; the later generation is designed to carry over between suppliers, so a meter installed now is far less likely to suffer this. Some homes in poor signal areas struggle to connect, since the meter relies on a wireless network. And the in-home display can lose its link to the meter, usually fixed by moving it closer or restarting it. None of these are reasons to refuse a meter outright, but they are worth knowing so you are not surprised.</p>
+
+    <h2>Should you get one?</h2>
+    <p>For most households the sensible answer is yes, but with clear eyes. Get one because it ends estimated bills, because it lets you find your hungry appliances, and above all because it is the entry ticket to time-of-use tariffs that can actually cut your costs if your usage is flexible. Do not get one expecting the box itself to shrink the bill, and do not feel you must accept one if you are happy submitting your own readings and your tariff gives you no reason to switch. The meter is a tool; the saving still comes from how you use energy and how you buy it.</p>
+  </div></section>
+''',
+)
+
+PAGES["economy-7-and-night-rates"] = dict(
+    title="Economy 7 and night-rate tariffs: are they worth it?",
+    description="How Economy 7 and other night-rate electricity tariffs work, who genuinely saves on them and who loses, the role of storage heaters and immersion timers, and how to work out whether the split rate suits your home.",
+    active="guides",
+    blurb="Cheap electricity overnight, dearer by day. Brilliant for some homes, a quiet loss for others. How to tell which you are.",
+    body='''
+  <section class="section"><div class="wrap prose">
+    <p class="lede">Economy 7 is the long-standing arrangement that gives you cheaper electricity for seven hours overnight in exchange for a higher price during the day. It can be a real money-saver or a quiet penalty, and which one it is depends almost entirely on when you use your electricity. Getting this wrong costs people money for years without their realising.</p>
+
+    <h2>How the split rate works</h2>
+    <p>On a standard single-rate tariff every unit costs the same whatever the hour. Economy 7 splits the day in two: a cheap rate for a seven-hour block at night, often somewhere between midnight and seven in the morning though the exact window varies by region and meter, and a more expensive rate the rest of the time. Your meter records day and night usage separately, either as two registers on one meter or as readings you submit as two figures. The night rate can be markedly cheaper than the single rate, but the crucial catch is that the day rate is markedly dearer than it.</p>
+
+    <h2>Who genuinely saves</h2>
+    <p>The tariff rewards a home that does a lot of its electrical work at night. Classic winners are houses heated by electric storage heaters, which deliberately soak up cheap night electricity into their bricks and release the warmth through the day, and homes that heat water with an <a href="immersion-heater-cost.html">immersion heater on a timer</a> overnight. Add in running the dishwasher and washing machine on a delay timer so they finish in the small hours, and charging an electric car overnight, and a household can push the majority of its usage into the cheap window. For these homes Economy 7 can cut the electricity bill considerably.</p>
+
+    <h2>Who quietly loses</h2>
+    <p>The flip side catches a lot of people. If you have gas central heating and gas hot water, most of your electricity goes on lighting, cooking, the kettle, the telly and appliances used in the evening, all of it at the expensive day rate. For that household the dear daytime price more than wipes out the cheap nights, and they would be better off on a flat single rate. Plenty of homes sit on Economy 7 by inheritance, because a previous occupant had storage heaters long since removed, and lose money on it year after year without knowing.</p>
+
+    <h2>Doing the rough sum</h2>
+    <p>You do not need to be precise to see which camp you are in. Find your day and night usage split from a recent bill or your meter's two registers. As a rough guide, Economy 7 tends to pay off only if you can get something approaching forty per cent or more of your electricity onto the night rate; below that the expensive daytime units usually cost you more than the cheap nights save. Feed your appliance wattages and likely night-time hours into the <a href="appliance-running-cost.html">running cost calculator</a> to see how much you could realistically shift, then weigh that cheap-rate saving against paying the higher day rate on everything else.</p>
+
+    <h2>Making the most of it if you stay</h2>
+    <p>If Economy 7 does suit you, the saving comes from discipline about timing. Use delay-start timers on the washing machine and dishwasher so they run in the cheap window, set the immersion and any storage heaters to charge overnight, and charge an EV then too. Be careful with high-power daytime use, since an electric shower or a load of tumble drying at the day rate is now noticeably dearer than it would be on a single tariff. The whole game is to move the heavy, schedulable loads into the night and keep expensive habits out of the day.</p>
+
+    <h2>The modern picture</h2>
+    <p>Economy 7 is the old, blunt version of charging by time of day. A <a href="smart-meters-explained.html">smart meter</a> opens up more flexible modern time-of-use tariffs with cheaper or even occasionally free off-peak periods, which can suit EV owners and flexible households better than the fixed seven-hour block. If you are weighing up Economy 7, it is worth checking whether a smart time-of-use tariff would serve you better, since the principle is the same but the windows and rates are often more generous. As with any tariff change, compare the total annual cost for your own pattern of use rather than the headline rates alone, as the <a href="switching-suppliers.html">switching guide</a> sets out.</p>
+  </div></section>
+''',
+)
+
+PAGES["solar-panels-the-basics"] = dict(
+    title="Solar panels: the basics, in plain English",
+    description="A jargon-free explanation of how domestic solar panels work, what a typical system is made of, what affects how much they generate, the difference between using and exporting power, and what to realistically expect from a roof in the UK.",
+    active="guides",
+    blurb="How a roof full of panels actually works, what drives the output, and why using your own power matters most.",
+    body='''
+  <section class="section"><div class="wrap prose">
+    <p class="lede">Solar panels have gone from exotic to ordinary, but the way they work and, more importantly, the way they save you money is still widely misunderstood. Before deciding whether they are worth it for your home, which the <a href="is-solar-worth-it.html">is solar worth it</a> guide tackles, it helps to understand plainly what the kit does and what governs how much you get from it.</p>
+
+    <h2>How a panel makes electricity</h2>
+    <p>A solar photovoltaic panel turns daylight directly into electricity. It does not need direct sunshine or heat to work, only light, so it still generates on a bright overcast day, just less than in full sun. Each panel produces direct current, the same kind a battery gives, which is no use to your house as it stands. So the second key component, the inverter, converts that direct current into the alternating current your home and the grid actually use. Panels on the roof, an inverter somewhere like the loft or a cupboard, and the wiring to tie it into your consumer unit: that is the heart of a system.</p>
+
+    <h2>What the parts are</h2>
+    <p>A domestic installation is a roof array of panels wired together, an inverter, a generation meter that records how much the system produces, and the connection into your fuse board. Many systems now add a battery, which stores surplus daytime generation for use in the evening, and that battery changes the economics enough to deserve its own treatment in the <a href="solar-battery-storage.html">battery storage</a> guide. The size of a system is given in kilowatts peak, its output under ideal test conditions, and a typical house array might be a few kilowatts peak across eight to sixteen panels, roof space permitting.</p>
+
+    <h2>What governs how much you get</h2>
+    <p>Output depends on things you can influence and things you cannot. Roof direction matters most: a south-facing roof generates the most over a year, east and west less but spread across morning and afternoon, and north-facing roofs are generally not worth it. The pitch of the roof, the absence of shading from trees, chimneys or neighbouring buildings, and simply how sunny your region is all play in. So does the season, with long summer days producing several times what short, low-sun winter days manage. A realistic expectation for the UK is a system that does well from spring to autumn and modestly in deep winter, not one that runs your house off-grid year round.</p>
+
+    <h2>The part that matters: using versus exporting</h2>
+    <p>This is the single most important idea for the money side. Electricity your panels make and you use yourself at that moment is worth the full price you would otherwise have paid to buy it, which is the expensive retail rate. Electricity you generate but do not use is exported to the grid, and you are paid for that export at a much lower rate. So the value of a solar system depends heavily on how much of its output you consume yourself rather than spilling to the grid. A house with someone home in the daytime, or with the dishwasher, washing and hot water timed to run while the sun is up, captures far more value than one that exports most of its generation while everyone is out.</p>
+
+    <h2>Shifting your use to the sunshine</h2>
+    <p>Because self-used power is worth so much more than exported power, the practical trick with solar is to move flexible loads into daylight hours. Running the washing machine, dishwasher and any <a href="immersion-heater-cost.html">immersion water heating</a> in the middle of a sunny day, and charging an electric car then if you can, soaks up generation you would otherwise sell cheap and buy back dear. A battery does this automatically by storing the midday surplus for the evening peak. Either way, the aim is to consume your own sunshine rather than hand it to the grid for a pittance.</p>
+
+    <h2>What to realistically expect</h2>
+    <p>Solar is not a magic switch that ends your bills, and anyone promising that is overselling. A well-sited system meaningfully reduces the electricity you buy, most strongly in the lighter half of the year, and pays you a little for what you export. It works best as one part of a sensible whole, fitted to a home that has already done the cheap efficiency basics so the generation goes further. Understand it as a long-term reduction in your bills and a modest hedge against rising prices, and it makes sense; expect overnight independence and it will disappoint.</p>
+  </div></section>
+''',
+)
+
+PAGES["is-solar-worth-it"] = dict(
+    title="Is solar worth it for your home?",
+    description="An honest framework for deciding whether domestic solar panels pay off: the factors that make or break the case, how self-consumption drives the return, the role of batteries and export payments, and the questions to ask before signing.",
+    active="guides",
+    blurb="No hype, no doom. The factors that actually decide whether panels pay off, and how to judge a quote.",
+    body='''
+  <section class="section"><div class="wrap prose">
+    <p class="lede">Whether solar panels are worth it does not have one answer, because it depends on your roof, your habits and your reasons for fitting them. What it does have is a clear set of factors that push the case one way or the other. Run your own situation through them honestly and you can judge a quote without relying on the salesperson's optimism. The how-it-works detail sits in the <a href="solar-panels-the-basics.html">solar basics</a> guide; this one is about the decision.</p>
+
+    <h2>The roof comes first</h2>
+    <p>No amount of clever financing rescues a poor roof. A south-facing, unshaded roof at a reasonable pitch is the strong case; east and west roofs still work but generate less; a north-facing or heavily shaded roof rarely justifies the cost. Shading is a particular killer, because even partial shade across part of the array at the wrong time of day can drag the output down disproportionately. Before anything else, be honest about which way your roof faces and what shades it through the day. If the roof is wrong, the rest of the sums do not matter.</p>
+
+    <h2>Self-consumption makes or breaks the return</h2>
+    <p>As the basics guide stresses, power you use yourself is worth several times what you are paid to export. So the return hinges on how much of your generation you actually consume. A household with someone home during the day, or one willing to shift the washing, dishwasher, hot water and car charging into daylight, captures far more value than one that exports most of its midday output while the house is empty. When you weigh a quote, the assumed self-consumption rate matters as much as the headline generation figure, and an honest installer will discuss it rather than assuming you use everything you make.</p>
+
+    <h2>Where batteries fit</h2>
+    <p>A <a href="solar-battery-storage.html">battery</a> stores your surplus midday generation for use in the evening, which lifts self-consumption and therefore the value of the system, especially for households out all day. The catch is that batteries are expensive, so they improve the usefulness of solar while often lengthening the overall payback rather than shortening it. Whether to add one is a separate calculation, not an automatic yes. For some homes it transforms the case; for others it is a costly extra that the export payments would have covered more cheaply.</p>
+
+    <h2>Export payments and the moving goalposts</h2>
+    <p>You are paid for the electricity you export to the grid, which adds a modest income on top of the savings from self-used power. Export rates vary between suppliers and change over time, so treat any figure in a sales projection as a snapshot rather than a guarantee. The same caution applies to the assumed price of the grid electricity you are displacing, since the whole saving scales with how dear that electricity is. Because both numbers move, be wary of glossy payback calculations that present a single confident figure; ask what prices and what self-consumption rate they assumed.</p>
+
+    <h2>The honest payback picture</h2>
+    <p>A well-sited system with decent self-consumption typically pays for itself over a long but not unreasonable span and then generates free power for many years beyond, since panels last a long time. It is a long-term investment, closer to overpaying your mortgage than to a quick win, and it competes for your money with the cheaper efficiency jobs that pay back far faster. The sensible order is to do the <a href="loft-insulation.html">insulation</a>, <a href="draught-proofing.html">draught-proofing</a> and heating basics first, since they cost less and return sooner, and then consider solar as the larger, slower-burn step once the easy savings are banked.</p>
+
+    <h2>Questions to ask before you sign</h2>
+    <p>When you get a quote, ask what generation it predicts for your specific roof orientation and shading, not a generic figure; what self-consumption rate it assumes and why; what electricity price and export rate underpin the payback; whether a battery is included and what the sums look like without it; and what warranties cover the panels and, separately, the inverter, which is the component most likely to need replacing within the system's life. A reputable installer answers these plainly. Vague, pressured or too-good-to-be-true answers are the signal to walk away and get another quote.</p>
+  </div></section>
+''',
+)
+
+PAGES["ev-charging-at-home-cost"] = dict(
+    title="What it costs to charge an electric car at home",
+    description="How to work out the cost of home EV charging, why the tariff matters more than anything, the big saving from off-peak overnight rates, how home charging compares with public rapid chargers, and how it stacks up against petrol.",
+    active="guides",
+    blurb="Charging at home off-peak is the cheapest motoring fuel there is. How to work out your cost per mile.",
+    body='''
+  <section class="section"><div class="wrap prose">
+    <p class="lede">One of the real attractions of an electric car is how cheap it can be to run, but only if you charge it sensibly. Home charging on the right tariff is about the lowest-cost way there is to fuel a car; home charging on the wrong tariff, or relying on public rapid chargers, can erode much of that advantage. The difference comes down to the price you pay per kilowatt-hour.</p>
+
+    <h2>The simple sum</h2>
+    <p>Charging an EV is just buying electricity, so the cost is the energy you put in multiplied by your price per unit. An electric car's efficiency is usually quoted in miles per kilowatt-hour, and a typical car manages somewhere around three to four miles from each kWh, depending on the car, the weather and how you drive. So to drive a given number of miles you divide by that figure to get the kWh needed, then multiply by your electricity price. The <a href="appliance-running-cost.html">running cost calculator</a> handles the arithmetic if you treat the charger as the appliance and your weekly mileage as the usage.</p>
+
+    <h2>Why the tariff is everything</h2>
+    <p>Here is the lever that dwarfs all others. Charge from a standard day-rate tariff and an EV is reasonably cheap to run. Charge overnight on a dedicated off-peak EV tariff, where the unit price in the small hours can be a fraction of the daytime rate, and the cost per mile drops to a level petrol cannot approach. The same energy, bought at the cheap overnight window instead of the peak, can cost a third or less. This is why a <a href="smart-meters-explained.html">smart meter</a> and a time-of-use tariff are close to essential for getting the most from an electric car at home.</p>
+
+    <h2>A worked example</h2>
+    <p>Take a car doing three and a half miles per kWh and a week of two hundred miles. That is roughly fifty-seven kWh of charging. At an example peak rate of 30p per kWh that week costs around seventeen pounds; at an example off-peak rate of 8p per kWh it costs under five. Those numbers are illustrative and your own rates will differ, but the shape is the point: the tariff, not the car, decides whether your electric motoring is merely cheaper than petrol or dramatically so. Shifting charging into the off-peak window is the single biggest thing you control.</p>
+
+    <h2>Home charger versus the three-pin plug</h2>
+    <p>You can charge from an ordinary three-pin socket, but it is slow, delivering only a few miles of range per hour, and a domestic socket is not really designed for hours of heavy continuous draw. A dedicated home wall charger is faster, safer for sustained charging, and crucially can be scheduled to run only during your cheap off-peak window automatically. For anyone charging regularly at home, a proper charger usually earns its keep through convenience and by making off-peak charging effortless rather than something you have to remember to start and stop.</p>
+
+    <h2>Home versus public charging</h2>
+    <p>Charging at home off-peak is the cheapest option by a wide margin. Public charging, especially rapid and ultra-rapid chargers, is far more expensive per unit, sometimes several times the home off-peak rate, because you are paying for speed, convenience and the cost of the infrastructure. That is fine as an occasional top-up on a long journey, but a driver who relies on public rapid charging for everyday miles loses much of the running-cost advantage an EV should give. The model that saves the most is simple: do the bulk of your charging slowly and cheaply at home overnight, and use public chargers only to extend range on longer trips.</p>
+
+    <h2>How it compares with petrol</h2>
+    <p>Even on a standard tariff, the cost per mile of an electric car is generally below that of an equivalent petrol or diesel car, and on an off-peak home tariff it is far below. The fuel saving is one of the clearest running-cost advantages of going electric, though it should be weighed against the whole picture of buying and owning the car rather than treated alone. If you are still running a combustion car, the habits on the <a href="hypermiling.html">hypermiling</a> and <a href="driving.html">fuel and driving</a> pages remain the way to trim its thirst; if you have gone electric, the equivalent skill is simply charging at the right time.</p>
+  </div></section>
+''',
+)
+
+PAGES["energy-saving-myths"] = dict(
+    title="Energy-saving myths that cost you money",
+    description="The common energy-saving beliefs that are wrong or exaggerated, from leaving the heating on low all day to unplugging phone chargers, and the small number of changes that genuinely move the bill instead.",
+    active="guides",
+    blurb="Leaving the heating on low all day, unplugging chargers, turning lights off for seconds: which advice is just wrong.",
+    body='''
+  <section class="section"><div class="wrap prose">
+    <p class="lede">A surprising amount of received wisdom about saving energy is either plain wrong or so trivial that obsessing over it distracts from the things that actually matter. Believing the myths can cost you money directly, and worse, it can convince you that you are doing your bit while the expensive stuff runs unquestioned. Here are the common ones, and what the truth points you towards instead.</p>
+
+    <h2>Leaving the heating on low all day is cheaper</h2>
+    <p>This is the most stubborn myth of all. The claim is that it costs more to reheat a cold house than to keep it ticking over warm all day, so you should never let it cool. For almost every home this is false. A house constantly leaks heat to the colder outdoors, and the warmer you keep it the faster it leaks, so heating an empty house all day simply pays to replace heat you did not need. A well-timed system that warms the house when you are in and lets it cool when you are out or asleep uses less. The <a href="thermostat-settings.html">thermostat settings</a> guide covers how to time it properly.</p>
+
+    <h2>Unplugging your phone charger saves meaningful money</h2>
+    <p>A charger left in the wall with nothing plugged into it draws so little that switching it off saves a few pence a year at most. It is harmless to unplug it, but presenting it as a serious saving is the kind of advice that makes people feel virtuous while the <a href="tumble-dryer-cost.html">tumble dryer</a> quietly costs them a hundred times as much. The real standby savings come from the genuinely hungry always-on devices, as the <a href="standby-power-the-full-story.html">standby power</a> guide explains, not from the charger.</p>
+
+    <h2>Turning lights off for a moment uses more than leaving them on</h2>
+    <p>This was loosely true in the era of fluorescent tubes, where the start-up surge and the wear on the tube meant very brief switching had a small cost. With modern <a href="led-lighting.html">LED lighting</a> it is simply false: an LED costs effectively nothing to switch and wears no faster for it, so turn lights off whenever you leave a room, even briefly. The old rule has long outlived the technology that justified it.</p>
+
+    <h2>Cranking the thermostat up heats the house faster</h2>
+    <p>Turning the thermostat to its maximum does not make the house warm up any quicker; it only changes the temperature at which the heating stops. A thermostat is a target, not an accelerator. Setting it to twenty-eight to warm a cold room faster than setting it to twenty achieves nothing except that, if you forget it, the house overshoots to an expensive twenty-eight. Set it to the temperature you actually want and let it get there.</p>
+
+    <h2>Boiling a full kettle is fine, the water keeps for later</h2>
+    <p>Reboiling water you boiled earlier means heating it from cold again, so filling the kettle to the top for one cup wastes the energy used to heat all the water you did not use. The <a href="kettle-energy-saving.html">kettle guide</a> covers this, but the myth that a full kettle is harmless because the hot water is somehow saved is worth naming, because the water cools back down and the next cup starts from cold regardless.</p>
+
+    <h2>Energy-saving gadgets and boxes that slash your bill</h2>
+    <p>Be wary of devices sold with claims to cut your electricity use by some large percentage simply by being plugged in, whether described as power optimisers, voltage savers or similar. For an ordinary domestic supply these generally do little or nothing useful, and the bold percentage claims do not survive scrutiny. The things that genuinely cut bills are unglamorous: insulation, draught-proofing, heating controls, efficient habits and the right tariff. If a single plug-in box really delivered what is claimed, it would not need to be sold by the myth.</p>
+
+    <h2>What actually moves the bill</h2>
+    <p>Strip away the myths and the real list is short and dull, which is exactly why it works. Heating dominates most bills, so turning the thermostat down a degree, timing the heating to your day, sealing draughts and insulating the loft do the heavy lifting. After that come the hungry appliances, the <a href="tumble-dryer-cost.html">dryer</a>, the heating of <a href="hot-water-savings.html">water</a>, the electric shower, where habits and efficient use save real money. Put your own appliances through the <a href="appliance-running-cost.html">cost calculator</a> and the priorities sort themselves out. Spend your effort where the energy goes, and let the phone charger be.</p>
+  </div></section>
+''',
+)
+
 GUIDES_ORDER = [
     # Heating and the building fabric
     "loft-insulation", "draught-proofing", "cavity-wall-insulation", "solid-wall-insulation",
@@ -1070,10 +1256,15 @@ GUIDES_ORDER = [
     "dishwasher-efficiency", "kettle-energy-saving", "electric-shower-cost",
     "air-fryer-running-cost", "oven-microwave-air-fryer-compared", "slow-cooker-economy",
     "induction-vs-gas-hob",
-    # Bills and tariffs
-    "understanding-energy-bill", "switching-suppliers",
-    # Fuel and driving
-    "hypermiling",
+    # Bills, tariffs and meters
+    "understanding-energy-bill", "switching-suppliers", "smart-meters-explained",
+    "economy-7-and-night-rates",
+    # Solar and renewables
+    "solar-panels-the-basics", "is-solar-worth-it",
+    # Fuel, driving and EVs
+    "hypermiling", "ev-charging-at-home-cost",
+    # Myths and quick wins
+    "energy-saving-myths",
 ]
 
 
