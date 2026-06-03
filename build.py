@@ -37,7 +37,7 @@ def nav_html(active):
     return "\n        ".join(out)
 
 
-def page(slug, title, description, body, active=None):
+def page(slug, title, description, body, active=None, pubdate=None):
     import json as _json
     full_title = title if slug == "index" else f"{title} | {SITE}"
     active = active or slug
@@ -49,7 +49,7 @@ def page(slug, title, description, body, active=None):
     else:
         ld = {"@context": "https://schema.org", "@type": "Article",
               "headline": title, "description": description,
-              "datePublished": LAUNCH, "dateModified": date.today().isoformat(),
+              "datePublished": pubdate or LAUNCH, "dateModified": date.today().isoformat(),
               "inLanguage": "en-GB", "mainEntityOfPage": url,
               "author": {"@type": "Organization", "name": SITE},
               "publisher": {"@type": "Organization", "name": SITE}}
@@ -1605,7 +1605,149 @@ PAGES["drying-clothes-without-a-tumble-dryer"] = dict(
 ''',
 )
 
+PAGES["hot-tub-running-cost"] = dict(
+    title="What a hot tub really costs to run",
+    description="A hot tub is one of the most expensive things you can keep at home. Why it costs so much, what drives the figure, and how to keep the running cost under control.",
+    active="guides",
+    blurb="One of the priciest things you can plug in at home. What drives the cost and how to tame it.",
+    pubdate="2026-06-06",
+    body='''
+  <section class="section"><div class="wrap prose">
+    <p class="lede">A hot tub is a lovely thing to own and a quietly alarming thing to run. Unlike most appliances, which cost something only while you use them, a hot tub spends most of its life keeping a large body of water hot and gently circulating whether you are in it or not. That round-the-clock duty is what makes it one of the most expensive items a household can keep.</p>
+    <h2>Why it costs so much</h2>
+    <p>Two things run up the bill. The first is heating: keeping a few hundred litres of water at around 38 degrees, day and night, in the open air, means the heater fires regularly to replace heat lost to the cold around it. The second is the circulation and filtration pump, which runs for hours every day to keep the water clean, and which on many tubs also helps move heat about. Heating water is energy-hungry at the best of times, and a hot tub does it continuously, which is the opposite of how you keep an energy bill down.</p>
+    <h2>What it adds up to</h2>
+    <p>The honest answer is that it varies enormously, from a manageable monthly sum for a well-insulated tub used in summer to a genuinely painful one for a poorly insulated tub kept hot through a cold winter. Rather than trust a single scary figure, find your tub's heater and pump wattage and put them through the <a href="appliance-running-cost.html">running cost calculator</a> with a realistic estimate of how many hours a day each runs. The result is usually a wake-up call, and it tells you your own number rather than someone else's.</p>
+    <h2>The factors that decide your bill</h2>
+    <p>A handful of things separate a cheap-to-run tub from a ruinous one. Insulation is the biggest: a well-insulated cabinet and, above all, a thick, well-fitting, undamaged cover make a huge difference, because most of the heat escapes from the surface. The temperature you hold matters, since every degree costs more to maintain. So does the weather, as a cold, windy, exposed location loses heat far faster than a sheltered one. And of course how often and how long you use it, since opening the cover and reheating after a soak both add up.</p>
+    <h2>How to cut the cost</h2>
+    <p>Start with the cover, because it is the cheapest big win: keep it on whenever the tub is not in use, replace it when it becomes waterlogged and heavy, and consider a thermal blanket on the water surface underneath it. Set the temperature to the lowest you actually enjoy. Site the tub somewhere sheltered from wind. If you only use it at weekends, work out whether dropping the temperature between uses saves more than the energy to reheat, which depends on your tub and climate. And if you are on a tariff with cheap off-peak electricity, heating mainly in that window helps.</p>
+    <h2>The honest bottom line</h2>
+    <p>A hot tub is a luxury, and run as one it carries a luxury running cost that no amount of tweaking makes trivial. The sensible approach is to go in with eyes open: know roughly what it costs you using the calculator, keep that cover on religiously, hold a sensible temperature, and treat the bill as part of the price of the pleasure rather than a surprise. The single most effective thing you can do is also the simplest, which is to never leave it uncovered.</p>
+  </div></section>
+''',
+)
+
+PAGES["ground-vs-air-source-heat-pumps"] = dict(
+    title="Ground source versus air source heat pumps",
+    description="Both heat pumps move heat rather than burn fuel, but ground source and air source differ on efficiency, installation cost and disruption. How to tell which suits your home.",
+    active="guides",
+    blurb="Both move heat instead of making it. How the two types differ on efficiency, cost and disruption.",
+    pubdate="2026-06-08",
+    body='''
+  <section class="section"><div class="wrap prose">
+    <p class="lede">If you have read the <a href="heat-pumps-explained.html">heat pumps explained</a> guide, you know the basic trick: a heat pump gathers warmth from outside and concentrates it to heat your home, delivering several units of heat for each unit of electricity. The two main types, ground source and air source, do the same job but gather that warmth from different places, and that difference shapes the cost, the efficiency and how much your garden gets dug up.</p>
+    <h2>Same idea, different source</h2>
+    <p>An air source heat pump takes heat from the outside air using a unit that sits outside the house, much like an air conditioner working in reverse. A ground source heat pump takes heat from the ground instead, through pipes buried in trenches or sunk down boreholes, where the temperature stays fairly constant all year. That last point is the crux: the ground a metre or two down barely changes temperature between summer and winter, while the air can be freezing on the very days you most need heat.</p>
+    <h2>Efficiency</h2>
+    <p>Because the ground is a warmer, steadier source in winter than cold air, a ground source system tends to run more efficiently and more consistently, especially in the depths of a cold snap when an air source unit has to work hardest against the lowest temperatures. Air source pumps have improved a great deal and perform well in most British winters, but on the coldest days their efficiency dips while a ground source system carries on much as before. Over a year, ground source usually edges it on running cost.</p>
+    <h2>Installation cost and disruption</h2>
+    <p>This is where the picture flips. An air source unit is comparatively cheap and quick to install, needing little more than a spot outside for the unit and the connections indoors, which is why the great majority of installations are air source. Ground source is a bigger undertaking: you need either enough land for long trenches or the budget for deep boreholes, plus the groundworks to install the pipe loops, all of which costs substantially more and makes more mess. The hardware lasts a long time, but the upfront figure and the disruption are real barriers.</p>
+    <h2>Which suits you</h2>
+    <p>Air source suits most homes, particularly where space is limited, budgets are tighter, or you want a simpler job, and it pairs well with the same insulate-first approach every heating upgrade needs. Ground source comes into its own where you have the land and the budget, want the best long-term efficiency, or are building or deeply renovating anyway so the groundworks are less of an imposition. Both reward a well-insulated, draught-proofed home that can be kept warm with gentle, steady heat rather than short hot blasts.</p>
+    <h2>The bottom line</h2>
+    <p>Ground source heat pumps are generally the more efficient and steadier performers, but they cost more and need land and groundworks, while air source pumps are cheaper, simpler and good enough for most homes, at a small efficiency cost on the coldest days. For the average household the practical choice is usually air source; ground source makes most sense with the space, the budget and a long horizon. Either way, do the cheap fabric improvements first so whichever pump you fit has less work to do.</p>
+  </div></section>
+''',
+)
+
+PAGES["solar-water-heating"] = dict(
+    title="Solar water heating: still worth it next to solar panels?",
+    description="Solar thermal panels heat your water directly, which is different from the electricity-generating PV panels most people fit. How it works, what it delivers, and where it still makes sense.",
+    active="guides",
+    blurb="Solar thermal heats your water directly. How it differs from PV, and where it still earns its place.",
+    pubdate="2026-06-10",
+    body='''
+  <section class="section"><div class="wrap prose">
+    <p class="lede">When people say solar these days they usually mean the electricity-generating panels covered in the <a href="solar-panels-the-basics.html">solar basics</a> guide. But there is an older, more single-minded technology that is easy to forget: solar water heating, or solar thermal, which uses the sun to heat your hot water directly rather than to make electricity. It does one job, and for that job it does it well.</p>
+    <h2>How it works</h2>
+    <p>Solar thermal uses collectors on the roof, either flat panels or evacuated glass tubes, through which a fluid circulates. The sun heats that fluid, which is pumped down to a coil inside your hot-water cylinder, transferring its warmth to the water you actually use. It needs a compatible cylinder, usually one with two coils so the boiler or immersion can top up the heat when the sun cannot, and it works alongside your existing heating rather than replacing it.</p>
+    <h2>What it delivers</h2>
+    <p>On a sunny day in the warmer half of the year, solar thermal can provide most or all of a household's hot water, which is a meaningful chunk of the energy bill given that <a href="hot-water-savings.html">heating water</a> is often the second largest use in a home. In winter it delivers far less, because there is less sun and the incoming water is colder, so your boiler does most of the work then. Realistically it covers a good share of your annual hot water, concentrated in spring through autumn, rather than the whole year.</p>
+    <h2>Solar thermal versus solar PV</h2>
+    <p>This is the live question, because roof space and budget are limited. Solar thermal is very efficient at its one task of heating water, more so per square metre than PV is at the same job. But PV is far more flexible: it makes electricity you can use for anything, including heating water through an immersion via a simple diverter, as well as running the house and charging a car. Because of that flexibility, and falling panel prices, many households now fit PV instead and use some of its output for hot water, getting water heating as one benefit among several rather than a single-purpose system.</p>
+    <h2>Is it worth it?</h2>
+    <p>Solar thermal still makes sense in specific situations: where hot-water demand is high, where you want the most efficient possible water heating from limited roof space, or where you are replacing the cylinder anyway and the system can be fitted neatly. For many others, PV with a hot-water diverter is the more versatile use of the same roof and money. As with any larger investment, do the cheap efficiency basics first, get a proper assessment for your specific roof and demand, and treat the payback as long and steady rather than quick.</p>
+    <h2>The bottom line</h2>
+    <p>Solar water heating is a proven, efficient way to cover much of your hot water from spring to autumn, working alongside your boiler for the rest. Its limitation is that it does only that one thing, while solar PV makes flexible electricity that can heat water and much else, which is why PV has become the more popular choice. If hot water is your priority and the fit is right, solar thermal still earns its keep; for most, PV is the more adaptable option.</p>
+  </div></section>
+''',
+)
+
+PAGES["ev-running-cost-vs-petrol"] = dict(
+    title="Electric car versus petrol: the running-cost comparison",
+    description="Beyond the price at the pump or the plug, how an electric car and a petrol car compare to run day to day, where the savings are real, and the caveats that affect the total picture.",
+    active="guides",
+    blurb="Fuel is only part of it. How an EV and a petrol car really compare to run, and where the savings are real.",
+    pubdate="2026-06-12",
+    body='''
+  <section class="section"><div class="wrap prose">
+    <p class="lede">The headline reason people consider an electric car is running cost, and on the day-to-day numbers an EV genuinely tends to win, especially if you can charge at home. But fuel is only one line of the comparison, and an honest look at how the two stack up has to take in servicing, the caveats around charging, and the bigger costs of owning the car at all.</p>
+    <h2>Energy versus fuel, per mile</h2>
+    <p>This is where the EV pulls ahead. As the <a href="ev-charging-at-home-cost.html">home charging</a> guide sets out, an electric car charged on an off-peak overnight tariff can cost only a few pence a mile in energy, a level petrol simply cannot reach, because each mile of petrol is several times dearer than the equivalent cheap-rate electricity. Even on a standard electricity tariff the EV usually costs less per mile than a comparable petrol car. The size of the win depends heavily on your tariff, so the off-peak charging is the lever that turns a modest saving into a large one.</p>
+    <h2>Servicing and maintenance</h2>
+    <p>An electric car has far fewer moving parts than a petrol one: no oil changes, no exhaust, no clutch, far less to wear out, and regenerative braking even spares the brake pads. That generally means lower routine servicing and maintenance costs over the years. Petrol cars have a long, familiar list of consumables and services that quietly add up, and the EV sidesteps most of it.</p>
+    <h2>The caveats</h2>
+    <p>The day-to-day savings come with conditions worth stating plainly. If you cannot charge at home and rely on public rapid chargers, the per-mile cost rises sharply and can approach petrol, eroding the main advantage. Electric cars also tend to cost more to buy upfront, and depreciation and battery longevity are part of the lifetime sum, not just the energy. So the running-cost win is real but it sits inside a bigger picture that includes the purchase price and how you will charge.</p>
+    <h2>The total picture</h2>
+    <p>Put together, an electric car driven by someone who charges at home, especially off-peak, usually costs noticeably less to run and maintain than an equivalent petrol car, and the fuel saving is the clearest single advantage of going electric. Whether that adds up to a better overall deal depends on the upfront cost, how long you keep the car, and your charging situation. If you still run petrol, the habits on the <a href="hypermiling.html">hypermiling</a> page remain the way to trim its thirst; if you go electric, charging at the right time is the equivalent skill.</p>
+    <h2>The bottom line</h2>
+    <p>On running costs, the electric car generally wins: cheaper energy per mile, especially on an off-peak home tariff, and lower servicing thanks to far fewer moving parts. The caveats are upfront price, depreciation, and the fact that relying on public rapid charging undercuts the fuel saving. Decide on the whole-life cost and your charging reality, not the per-mile figure alone, but that per-mile figure is firmly in the EV's favour.</p>
+  </div></section>
+''',
+)
+
+PAGES["energy-performance-certificate-explained"] = dict(
+    title="Your EPC explained: what the energy rating means",
+    description="The A to G energy rating on your home, what an Energy Performance Certificate actually tells you, where it matters, its limitations, and how to improve your rating.",
+    active="guides",
+    blurb="The A-to-G rating on your home: what it really tells you, where it matters, and how to improve it.",
+    pubdate="2026-06-14",
+    body='''
+  <section class="section"><div class="wrap prose">
+    <p class="lede">If you have bought, sold or rented a home, you will have seen an Energy Performance Certificate, the coloured chart that rates a property from A down to G. It is one of the few official measures of how energy-efficient a home is, and it is worth understanding what it does and does not tell you, because it is easy to read too much or too little into it.</p>
+    <h2>What an EPC is</h2>
+    <p>An EPC rates a property's energy efficiency on a scale from A, the most efficient, to G, the least, based on an assessment of its construction, insulation, heating system, hot water and lighting. The certificate comes with an estimated energy cost and, usefully, a list of recommended improvements with a sense of their impact. It is produced by an accredited assessor who surveys the property, and it is valid for a number of years.</p>
+    <h2>Where it matters</h2>
+    <p>An EPC is required when a home is built, sold or let, so it follows your property at the big moments. For landlords it carries extra weight, because rented homes generally have to meet a minimum energy rating to be let legally, and that threshold has been tightening over time. The rating can also affect eligibility for some grants and schemes, and increasingly buyers and tenants look at it as a guide to what a place will cost to keep warm. The exact rules and minimum standards vary by jurisdiction and change, so check the current local position rather than assuming.</p>
+    <h2>What it does and does not tell you</h2>
+    <p>Here is the important caveat: an EPC is a standardised model, not a measurement of your actual bills. It assumes a typical household and standard patterns of use, so two identical homes get the same rating even if one family runs the heating constantly and another barely at all. Your real costs depend on how you live as much as on the building. Treat the EPC as a fair guide to the fabric and systems of the home, and a useful to-do list, rather than a prediction of your personal bill.</p>
+    <h2>How to improve your rating</h2>
+    <p>The improvements that lift an EPC are the same ones that genuinely cut bills, which is reassuring. Topping up <a href="loft-insulation.html">loft insulation</a>, insulating walls, <a href="draught-proofing.html">draught-proofing</a>, upgrading an old and inefficient heating system, improving hot-water and cylinder insulation, and switching to <a href="led-lighting.html">LED lighting</a> all tend to move the rating up. The certificate's own recommendation list is ranked roughly by impact, so it is a sensible place to start, and doing the cheap, high-value jobs first gets you the best return before any big spending.</p>
+    <h2>The bottom line</h2>
+    <p>An EPC rates your home's energy efficiency from A to G based on its fabric and systems, matters most when selling or letting and for meeting rental standards, and comes with a handy list of improvements. Just remember it is a model of the building, not a readout of your actual bills, which depend on how you live. Use it as a guide and a checklist, lean on the cheap fabric improvements first, and the rating and your bills tend to move up together.</p>
+  </div></section>
+''',
+)
+
+PAGES["home-working-energy-cost"] = dict(
+    title="The energy cost of working from home",
+    description="Working from home shifts energy use onto your own bill, mostly through daytime heating. What it adds, what it saves against the commute, and how to keep the cost down.",
+    active="guides",
+    blurb="Home working moves energy onto your bill, mostly daytime heating. What it adds and how to trim it.",
+    pubdate="2026-06-16",
+    body='''
+  <section class="section"><div class="wrap prose">
+    <p class="lede">Working from home moved a chunk of energy use out of the office and onto your own bill, and while the gadgets get the blame, the real cost is somewhere less obvious. Knowing where it actually goes lets you keep the home-working bill modest rather than letting it creep up unnoticed.</p>
+    <h2>What home working adds</h2>
+    <p>By far the biggest addition is heating. An empty house on a workday used to coast along cool until you got home; now it needs to be warm all day while you are in it, and daytime heating in winter is the single largest extra cost of working from home. The electronics, by contrast, are minor: a laptop draws very little, and even a desktop with a couple of monitors is small next to the heating, as the <a href="standby-power-the-full-story.html">standby power</a> and device guides explain. Add a few cups of tea from the <a href="appliance-running-cost.html">kettle</a> and some extra lighting, and the device side stays modest.</p>
+    <h2>What it costs</h2>
+    <p>Because heating dominates, your home-working cost depends mostly on the weather and your house: high through a cold winter, almost nothing in summer. The electricity for your kit is a small, steady addition you can estimate by putting your computer and monitor wattage through the <a href="appliance-running-cost.html">running cost calculator</a> for the hours you work. Do that and you will see the heating is the thing worth managing, not the laptop.</p>
+    <h2>How to cut it</h2>
+    <p>The trick is to stop heating the whole house when you only occupy one room of it. Work in one room and heat that room rather than the entire home, turning down the <a href="radiator-valves-and-zoning.html">radiator valves</a> elsewhere and setting the main <a href="thermostat-settings.html">thermostat</a> to suit where you actually are. A small amount of targeted heat, or even a heated throw while you sit still at a desk, costs far less than warming every room you are not in. Layer up, keep the door shut, and let the rest of the house stay cool. Switch your kit and screens off at the end of the day rather than leaving them idling.</p>
+    <h2>The commute trade-off</h2>
+    <p>It is worth keeping the whole ledger in view. Working from home adds to your home energy bill, but it removes the cost and energy of commuting, which for many people is far larger than the extra heating, especially if the commute was by car. So while your household bill goes up, your total spending and energy use often go down once the fuel or fares you are no longer paying are counted. The home-working cost is real, but it is usually a transfer from a bigger expense rather than a brand-new one.</p>
+    <h2>The bottom line</h2>
+    <p>The energy cost of working from home is mostly daytime heating, not the computer, so the way to control it is to heat the room you work in rather than the whole house, using zoning, a lower thermostat and a bit of layering. Against that, you save the commute, which often more than covers the extra. Manage the heating sensibly and home working need not cost much at all.</p>
+  </div></section>
+''',
+)
+
+
 GUIDES_ORDER = [
+    # Scheduled additions (drip out by pubdate)
+    "hot-tub-running-cost", "ground-vs-air-source-heat-pumps", "solar-water-heating",
+    "ev-running-cost-vs-petrol", "energy-performance-certificate-explained", "home-working-energy-cost",
     # Heating and the building fabric
     "loft-insulation", "draught-proofing", "cavity-wall-insulation", "solid-wall-insulation",
     "underfloor-insulation", "is-double-glazing-worth-it", "secondary-glazing",
@@ -1638,6 +1780,12 @@ GUIDES_ORDER = [
 ]
 
 
+def _live(slug):
+    """A page is live if it has no pubdate or its pubdate has arrived."""
+    pd = PAGES[slug].get("pubdate")
+    return pd is None or date.fromisoformat(pd) <= date.today()
+
+
 def _guide_tile(slug):
     p = PAGES[slug]
     return (f'        <a class="tile" href="{slug}.html"><h2>{html.escape(p["title"])}</h2>'
@@ -1651,7 +1799,7 @@ PAGES["guides"] = dict(
   <section class="section"><div class="wrap">
     <p class="lede">Single-topic guides that go a level deeper than the section pages. More are added regularly.</p>
     <div class="grid-cards">
-''' + ("\n".join(_guide_tile(s) for s in GUIDES_ORDER) if GUIDES_ORDER else
+''' + ("\n".join(_guide_tile(s) for s in GUIDES_ORDER if _live(s)) if any(_live(s) for s in GUIDES_ORDER) else
        '      <a class="tile" href="electricity.html"><h2>Start with electricity</h2><p>While the dedicated guides grow, the section pages are the place to begin.</p></a>') + '''
     </div>
   </div></section>
@@ -1663,11 +1811,15 @@ def main():
     import os
     here = os.path.dirname(os.path.abspath(__file__))
     for slug, p in PAGES.items():
-        out = page(slug, p["title"], p["description"], p["body"], p.get("active"))
+        if not _live(slug):
+            continue
+        out = page(slug, p["title"], p["description"], p["body"], p.get("active"), p.get("pubdate"))
         open(os.path.join(here, f"{slug}.html"), "w", encoding="utf-8").write(out)
     today = date.today().isoformat()
     urls = []
     for slug in PAGES:
+        if not _live(slug):
+            continue
         loc = BASE + ("/" if slug == "index" else f"/{slug}.html")
         prio = "1.0" if slug == "index" else "0.7"
         urls.append(f"  <url><loc>{loc}</loc><lastmod>{today}</lastmod><changefreq>weekly</changefreq><priority>{prio}</priority></url>")
@@ -1677,7 +1829,8 @@ def main():
     open(os.path.join(here, "robots.txt"), "w", encoding="utf-8").write(
         f"User-agent: *\nAllow: /\n\nSitemap: {BASE}/sitemap.xml\n")
     open(os.path.join(here, INDEXNOW_KEY + ".txt"), "w", encoding="utf-8").write(INDEXNOW_KEY)
-    print("built", len(PAGES), "pages + sitemap.xml + robots.txt + IndexNow key")
+    _livecount = sum(1 for s in PAGES if _live(s))
+    print("built", _livecount, "of", len(PAGES), "pages (rest scheduled ahead) + sitemap.xml + robots.txt + IndexNow key")
 
 
 if __name__ == "__main__":
