@@ -1533,6 +1533,78 @@ PAGES["broadband-router-always-on"] = dict(
 ''',
 )
 
+PAGES["standing-charges-explained"] = dict(
+    title="Standing charges explained, and what you can do about them",
+    description="What the daily standing charge on your gas and electricity bill actually pays for, why you pay it even when you use nothing, why it varies by region and payment method, a worked example, and when a no-standing-charge tariff is worth it.",
+    active="guides",
+    blurb="The fixed daily fee you pay before using a single unit. What it covers, and the narrow cases where you can dodge it.",
+    body='''
+  <section class="section"><div class="wrap prose">
+    <p class="lede">A standing charge is the fixed daily fee on your energy bill that you pay before you have drawn a single unit of gas or electricity. It shows up as a modest number in pence per day, it is easy to skim past, and across a year it grows into a real slice of what you hand over. Knowing what it covers, why it varies so much, and the few situations where you can sidestep it is worth the few minutes it takes to get your head round.</p>
+
+    <h2>What the standing charge actually pays for</h2>
+    <p>The standing charge is the cost of keeping your home connected to the network rather than the cost of the energy you pull through it. It covers maintaining the wires, cables and pipes that reach your property, reading and servicing the meter, running your account, and a share of wider industry costs that suppliers are obliged to collect from everyone. Some of those costs are nothing to do with how much you personally burn; they are spread evenly across every connected household. A flat sitting empty for a month, drawing almost nothing, still owes the daily fee for staying plugged in.</p>
+
+    <h2>Why your bill has two separate parts</h2>
+    <p>Every energy bill is built from two numbers. There is the standing charge, a fixed amount per day that does not move whatever you do, and there is the unit rate, a price per kilowatt hour that you pay only on the energy you actually use. Use more and the second number climbs; the first stays put. This is why turning off lights and cutting your usage trims the variable part of the bill but never touches the fixed part. To see how the usage side stacks up appliance by appliance, the <a href="appliance-running-cost.html">running cost calculator</a> lets you plug in your own unit rate, but the standing charge sits underneath all of that as a floor you cannot cut by being frugal.</p>
+
+    <h2>Two charges, gas and electricity</h2>
+    <p>A home on mains gas and electricity pays a standing charge on each fuel, so there are two daily fees quietly running in the background, not one. A property with no gas supply pays only the electricity charge, which is one reason all-electric homes sometimes come out ahead on fixed costs even though their unit usage is higher. If you are on a two-rate meter such as <a href="economy-7-and-night-rates.html">Economy 7</a>, the standing charge works the same way; it is the day and night unit rates that differ, not the fixed daily fee.</p>
+
+    <h2>Why it varies by region and how you pay</h2>
+    <p>Two identical houses in different parts of the country can carry noticeably different standing charges. The biggest reason is the local network: the cost of distributing energy varies from region to region depending on the wires, the distances and the upkeep, and that regional cost is baked into the charge. How you pay matters too. Paying by direct debit is usually the cheapest route, while prepayment meters and paying on receipt of a paper bill can attract different fixed costs. The regulator caps the standing charge on standard tariffs, but the cap itself differs by region and by payment method, so there is no single national figure to memorise. The only number that matters is the one printed on your own tariff.</p>
+
+    <h2>A worked example</h2>
+    <p>Take an illustrative case to see the shape of it. Suppose the electricity standing charge is 60p a day and the gas charge is 30p a day. That is 90p every day before you have boiled a kettle or run the heating, which works out at about £6.30 a week and a little over £328 across a year, none of it related to how careful you are. Now picture a small, efficient flat that uses very little energy: that household might find the fixed daily fees make up a large fraction of the whole bill, while the actual energy is a smaller part. A large, busy family home with high usage pays the same fixed fees, but they shrink to a small slice of a much bigger total. The figures here are an example to show the mechanics, not a quote; your own pence-per-day numbers are on your bill.</p>
+
+    <h2>Can you avoid it? No-standing-charge tariffs</h2>
+    <p>A handful of suppliers offer tariffs with no standing charge at all, and on paper that sounds like a clean escape. The catch is that the fixed cost has to be recovered somewhere, so these deals carry a higher unit rate to make up for it. That maths only works in your favour if you use very little energy, because then the saving on the missing daily fee outweighs the extra you pay per unit. A second home, a rarely used flat or a single person in a tiny space can come out ahead on a no-standing-charge deal; a normal household that uses a fair amount of energy almost always pays more overall, because the higher unit rate bites on every kilowatt hour. Run the comparison on your own usage before assuming a zero-standing tariff is cheaper, since for most homes it is not.</p>
+
+    <h2>Who the standing charge hits hardest</h2>
+    <p>The fixed nature of the charge falls heaviest on low users. If you have insulated well, switched to efficient appliances and cut your consumption right down, you reach a point where most of your bill is the standing charge and there is little usage left to trim. That can feel unfair, and it shapes where your effort is best spent: for a very low user the lever is the tariff and the standing charge itself, not yet more usage cuts. For a high user the priority is the other way round, since the unit rate on a lot of energy dwarfs the fixed fee, and the savings live in the heating, the hot water and the heavy appliances. The <a href="understanding-energy-bill.html">guide to reading your bill</a> shows where each of these numbers sits.</p>
+
+    <h2>Where to find yours and what to check</h2>
+    <p>Your standing charges are printed on every bill and on your annual statement, usually in the tariff details, shown separately for gas and electricity in pence per day. It is worth a look whenever your deal is up for renewal or when you are thinking of <a href="switching-suppliers.html">switching supplier</a>, because a tariff with a tempting unit rate can hide a high standing charge, and one with a low daily fee can carry a steep unit rate. Compare both numbers together rather than fixating on the headline price per unit. Work out roughly how much energy you use across a year, multiply by the unit rate, add the standing charge over 365 days, and you have a like-for-like total that tells you which deal costs less in practice for the way you live.</p>
+  </div></section>
+''',
+)
+
+PAGES["drying-clothes-without-a-tumble-dryer"] = dict(
+    title="Drying clothes without a tumble dryer",
+    description="The cheaper ways to dry a wash, from a hard spin and a washing line to heated airers and dehumidifiers, what each costs to run with worked examples, the condensation trap of drying indoors, and how to match the method to your home.",
+    active="guides",
+    blurb="The dryer is one of the thirstiest things in the house. Several cheaper ways to get a load dry, and what each really costs.",
+    body='''
+  <section class="section"><div class="wrap prose">
+    <p class="lede">A tumble dryer is one of the thirstiest appliances in the house, and for much of the year you do not need it at all. There are cheaper ways to get a load dry, from the entirely free (a washing line and a hard spin) to a couple of low-watt gadgets that cost pennies a session. The skill is in matching the method to the weather, the space you have and how quickly you need the clothes back.</p>
+
+    <h2>Why the tumble dryer is the expensive option</h2>
+    <p>A tumble dryer dries clothes by heating air and tumbling the load through it, and heating air takes a great deal of electricity. A traditional vented or condenser dryer pulls something like two to three kilowatts while it runs, so a full cycle can get through a few units of electricity; at an example price of 30p per kWh that puts a single load somewhere around 60p to 90p, and several loads a week mount up over a year. Newer heat pump dryers are far gentler on electricity, often using roughly a third as much, though they cost more to buy and dry more slowly. The full breakdown sits on the <a href="tumble-dryer-cost.html">tumble dryer running cost</a> guide; the point here is that almost any method without a large heating element undercuts it, so the dryer is best kept for the days nothing else will do.</p>
+
+    <h2>Get more water out before you start</h2>
+    <p>The biggest free win happens in the washing machine, before drying begins at all. A faster spin flings more water out of the fabric mechanically, and water thrown out by the spin is water you do not then have to evaporate with electricity or time. Selecting a 1400 spin rather than 1000, where the fabric can take it, leaves the load noticeably drier coming out of the drum, which shortens every drying method that follows. Delicate items and certain fabrics need a gentler spin, so it is not a blanket rule, but for towels, bedding and everyday cottons a hard final spin is close to free money. The <a href="washing-machine-running-cost.html">washing machine running cost</a> guide covers the spin settings, and washing on a sensible <a href="washing-at-30-degrees.html">cool cycle</a> keeps the wash itself cheap to begin with.</p>
+
+    <h2>The free option: line and air drying</h2>
+    <p>Outdoors on a breezy day, even in winter, a washing line dries a load for nothing. Wind matters more than warmth here, since moving air carries moisture away even when it is cold, so a bright blustery January afternoon can dry a line of washing surprisingly well. Indoors, a clothes horse near a slightly open window or in a room with decent airflow costs nothing to run either, though it is slow and, done carelessly, it dumps moisture into the house. Air drying is the cheapest method there is, and for households with outdoor space and a flexible routine it handles most of the year on its own.</p>
+
+    <h2>Heated clothes airers</h2>
+    <p>A heated airer is a folding rack with warm bars, and its appeal is the modest power draw: typically somewhere around 100 to 300 watts, against the two to three kilowatts of a tumble dryer. Run a 300 watt airer for, say, five hours and you have used about 1.5 kWh, which at an example 30p per kWh is roughly 45p, and a smaller model left on for a shorter spell costs less again. Draping a sheet or a fitted cover over the loaded airer traps the warm air around the clothes and speeds things up considerably for no extra electricity. Drying is slower than a dryer, so an airer suits a household that can hang a load in the evening and collect it dry the next day rather than one needing clothes back within the hour. To check the figure for your own model, its wattage and a typical run time go straight into the <a href="appliance-running-cost.html">running cost calculator</a>.</p>
+
+    <h2>Dehumidifiers: drying the room, not the clothes</h2>
+    <p>A dehumidifier takes a different approach. Instead of heating the washing, it pulls moisture out of the air in the room, which speeds the drying of anything hanging there and, as a bonus, protects the house from damp and condensation. A typical domestic dehumidifier draws around 150 to 300 watts, similar territory to a heated airer, so running one for a few hours to dry a room of washing costs pennies rather than pounds. The water it removes collects in a tank you empty, visible proof of the moisture it is taking out of the air before that moisture can settle on cold walls and windows. In a damp flat the same machine earns its keep year round, not just on wash day.</p>
+
+    <h2>Pairing an airer with a dehumidifier</h2>
+    <p>The combination that works best for indoor drying is a heated or ordinary airer in a smallish room with the door shut and a dehumidifier running alongside it. The airer encourages evaporation, the dehumidifier whisks the resulting moisture out of the air so the clothes keep giving up water rather than reaching a soggy stalemate, and the closed room concentrates the effect. Two low-watt devices together still draw far less than a tumble dryer, so even running both for a few hours the total stays low, perhaps under a pound for a full load at example rates, while the room stays dry and the washing comes out fresh. For a flat with no outdoor space this pairing is often the cheapest reliable way to dry clothes through the wetter months.</p>
+
+    <h2>The damp trap of drying indoors</h2>
+    <p>A wet wash holds litres of water, and when it dries indoors that water has to go somewhere. Without ventilation or a dehumidifier it ends up on the coldest surfaces in the house, the windows and outside walls, where it feeds condensation and, in time, mould. That is the hidden cost of careless indoor drying: a cheaper energy bill paid for with a damp home. The fixes are simple. Crack a window or run an extractor fan in the room where clothes are drying, or let a dehumidifier do the same job by capturing the moisture directly. Slinging wet washing over radiators is tempting and cheapish, but it chills the radiator, makes the boiler work harder to heat the room and adds the same load of moisture to the air, so an airer next to a warm radiator beats draping clothes straight onto it.</p>
+
+    <h2>Matching the method to your home</h2>
+    <p>Which approach wins comes down to your space and your schedule. A house with a garden and a flexible routine should lean on the washing line whenever the weather allows and keep a cheap clothes horse for wet days. A flat with no outdoor space is the natural home for a heated airer and a dehumidifier working together, with the door shut and the moisture managed. Anyone who must have a load dry within the hour, for shift work or a sudden soaking, keeps a tumble dryer for those moments while drying everything else the cheaper way. Start with a hard spin every time, dry for free outdoors when you can, reach for the low-watt gadgets when you cannot, and save the dryer for the days nothing else will do.</p>
+  </div></section>
+''',
+)
+
 GUIDES_ORDER = [
     # Heating and the building fabric
     "loft-insulation", "draught-proofing", "cavity-wall-insulation", "solid-wall-insulation",
@@ -1551,9 +1623,10 @@ GUIDES_ORDER = [
     "air-fryer-running-cost", "oven-microwave-air-fryer-compared", "slow-cooker-economy",
     "induction-vs-gas-hob", "using-a-plug-in-energy-monitor",
     "television-and-entertainment-energy", "broadband-router-always-on",
+    "drying-clothes-without-a-tumble-dryer",
     # Bills, tariffs and meters
     "understanding-energy-bill", "switching-suppliers", "smart-meters-explained",
-    "economy-7-and-night-rates",
+    "economy-7-and-night-rates", "standing-charges-explained",
     # Solar and renewables
     "solar-panels-the-basics", "is-solar-worth-it", "solar-battery-storage",
     # Fuel, driving and EVs
