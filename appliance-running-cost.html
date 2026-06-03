@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en-GB">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Appliance running cost calculator | Power Saving Guide</title>
+  <meta name="description" content="Work out what any appliance costs to run: enter its wattage, how long it runs and your price per kWh, and get the cost per use, per day and per year in your own currency.">
+  <link rel="canonical" href="https://powersavingguide.com/appliance-running-cost.html">
+  <meta name="robots" content="index, follow">
+  <meta property="og:site_name" content="Power Saving Guide">
+  <meta property="og:type" content="article">
+  <meta property="og:title" content="Appliance running cost calculator | Power Saving Guide">
+  <meta property="og:description" content="Work out what any appliance costs to run: enter its wattage, how long it runs and your price per kWh, and get the cost per use, per day and per year in your own currency.">
+  <meta property="og:url" content="https://powersavingguide.com/appliance-running-cost.html">
+  <meta property="og:locale" content="en_GB">
+  <meta name="twitter:card" content="summary">
+  <script type="application/ld+json">{"@context": "https://schema.org", "@type": "Article", "headline": "Appliance running cost calculator", "description": "Work out what any appliance costs to run: enter its wattage, how long it runs and your price per kWh, and get the cost per use, per day and per year in your own currency.", "datePublished": "2026-06-03", "dateModified": "2026-06-03", "inLanguage": "en-GB", "mainEntityOfPage": "https://powersavingguide.com/appliance-running-cost.html", "author": {"@type": "Organization", "name": "Power Saving Guide"}, "publisher": {"@type": "Organization", "name": "Power Saving Guide"}}</script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,600&family=Inter:wght@400;500;600&display=swap" rel="stylesheet" media="print" onload="this.media='all'">
+  <noscript><link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,600&family=Inter:wght@400;500;600&display=swap" rel="stylesheet"></noscript>
+  <script data-goatcounter="https://stats.powersavingguide.com/count" async src="//stats.powersavingguide.com/count.js"></script>
+</head>
+<body>
+  <nav class="nav--bar"><div class="wrap nav-inner">
+    <a class="brand" href="index.html">Power Saving Guide</a>
+    <input type="checkbox" id="nt" class="navtoggle">
+    <label for="nt" class="navburger" aria-label="Menu">≡</label>
+    <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="electricity.html">Electricity</a></li>
+        <li><a href="heating.html">Heating &amp; gas</a></li>
+        <li><a href="driving.html">Fuel &amp; driving</a></li>
+        <li><a href="appliance-running-cost.html" class="active">Cost calculator</a></li>
+        <li><a href="guides.html">Guides</a></li>
+        <li><a href="about.html">About</a></li>
+    </ul>
+  </div></nav>
+
+  <header class="page-head"><div class="wrap"><h1>Appliance running cost calculator</h1></div></header>
+  <main>
+
+  <section class="section"><div class="wrap prose">
+    <p class="lede">Enter an appliance's power in watts, how long it runs and what you pay per unit (kWh), and this works out what it costs you per use, per day and per year. Everything happens in your browser; nothing is saved or sent.</p>
+    <style>
+      .calc label{display:block;font-weight:600;color:var(--ink-strong);margin:14px 0 5px}
+      .calc input,.calc select{width:100%;max-width:340px;padding:10px 12px;border:1px solid var(--line);border-radius:9px;font-size:1rem;font-family:inherit;background:#fff}
+      .calc .row{display:grid;grid-template-columns:1fr 1fr;gap:18px;max-width:520px}
+      .calc button{margin-top:20px;background:var(--accent);color:#10243a;border:0;border-radius:999px;padding:13px 28px;font-weight:700;font-size:1rem;cursor:pointer}
+      .calc button:hover{filter:brightness(1.05)}
+      #res{display:none;margin-top:26px;border:1px solid var(--line);border-radius:14px;padding:20px;background:#fff}
+      #res .big{font-size:2.1rem;font-weight:700;color:var(--ink-strong);line-height:1.1}
+      #res .grid{display:grid;grid-template-columns:repeat(3,1fr);gap:14px;margin-top:8px}
+      #res .b{text-align:center;border:1px solid var(--line);border-radius:12px;padding:14px 8px}
+      #res .b .n{font-size:1.5rem;font-weight:700;color:var(--ink-strong)}
+      #res .b .l{font-size:.78rem;text-transform:uppercase;letter-spacing:.04em;color:var(--muted)}
+    </style>
+    <div class="calc">
+      <div class="row">
+        <div><label for="w">Power (watts)</label><input id="w" type="number" min="0" value="2000" inputmode="numeric"></div>
+        <div><label for="price">Price per kWh (your currency)</label><input id="price" type="number" min="0" step="0.01" value="0.30" inputmode="decimal"></div>
+      </div>
+      <div class="row">
+        <div><label for="hrs">Hours each time it runs</label><input id="hrs" type="number" min="0" step="0.1" value="1" inputmode="decimal"></div>
+        <div><label for="days">Times per week</label><input id="days" type="number" min="0" step="1" value="7" inputmode="numeric"></div>
+      </div>
+      <button id="go">Work it out</button>
+    </div>
+    <div id="res">
+      <p>This appliance costs about <span class="big" id="perUse"></span> each time you run it.</p>
+      <div class="grid">
+        <div class="b"><div class="n" id="perWeek"></div><div class="l">per week</div></div>
+        <div class="b"><div class="n" id="perYear"></div><div class="l">per year</div></div>
+        <div class="b"><div class="n" id="kwhYr"></div><div class="l">kWh per year</div></div>
+      </div>
+      <p class="note" id="tip" style="margin-top:14px;color:var(--muted);font-size:.9rem"></p>
+    </div>
+    <p style="margin-top:24px">Not sure of an appliance's wattage? It is usually printed on a label on the back or base, or in the manual. A plug-in energy monitor measures it directly and pays for itself quickly if you have a few mystery devices. For where the big users hide, see <a href="electricity.html">electricity in the home</a>.</p>
+  </div></section>
+  <script>
+  (function(){
+    var $=function(i){return document.getElementById(i);};
+    function money(x){return x.toFixed(2);}
+    $("go").addEventListener("click",function(){
+      var w=parseFloat($("w").value),p=parseFloat($("price").value),h=parseFloat($("hrs").value),d=parseFloat($("days").value);
+      if([w,p,h,d].some(function(x){return isNaN(x)||x<0;}))return;
+      var kwhUse=w/1000*h;
+      var perUse=kwhUse*p;
+      var perYear=perUse*d*52;
+      var kwhYr=kwhUse*d*52;
+      $("perUse").textContent=money(perUse);
+      $("perWeek").textContent=money(perUse*d);
+      $("perYear").textContent=money(perYear);
+      $("kwhYr").textContent=Math.round(kwhYr).toLocaleString();
+      var tip="";
+      if(perYear>100)tip="That is a meaningful chunk of a bill. Worth asking whether it can run less, run cooler, or be replaced with something more efficient.";
+      else if(perYear<10)tip="This is a minnow. Switching it off religiously will save you very little; spend your effort on the bigger users.";
+      else tip="A middling cost. Small habit changes here add up over a year without much sacrifice.";
+      $("tip").textContent=tip;
+      $("res").style.display="block";$("res").scrollIntoView({behavior:"smooth",block:"nearest"});
+    });
+  })();
+  </script>
+
+  </main>
+  <footer class="footer"><div class="wrap">
+    <p class="foot-brand">Power Saving Guide</p>
+    <p>A practical, independent guide to cutting your electricity, gas and fuel bills. Plain advice, no gadgets to buy.</p>
+    <p class="foot-links"><a href="electricity.html">Electricity</a> · <a href="heating.html">Heating &amp; gas</a> · <a href="driving.html">Fuel &amp; driving</a> · <a href="appliance-running-cost.html">Cost calculator</a> · <a href="guides.html">Guides</a> · <a href="about.html">About</a> · <a href="privacy.html">Privacy</a></p>
+    <p class="copy">&copy; <span>2026</span> Power Saving Guide. Figures are worked examples; check your own tariff and meter. Cookieless analytics, see the <a href="privacy.html">privacy page</a>.</p>
+  </div></footer>
+</body>
+</html>
