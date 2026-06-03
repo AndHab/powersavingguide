@@ -1425,6 +1425,114 @@ PAGES["quick-wins-under-a-tenner"] = dict(
 ''',
 )
 
+PAGES["electric-blanket-vs-heating"] = dict(
+    title="Electric blanket versus heating the whole house",
+    description="Why heating the bed or the body with an electric blanket can cost a fraction of warming a whole house, how the running costs compare, the safety points to watch, and when each makes sense.",
+    active="guides",
+    blurb="Warming the bed costs pennies; warming the house costs pounds. When heating the person beats heating the room.",
+    body='''
+  <section class="section"><div class="wrap prose">
+    <p class="lede">There is an old principle in keeping warm cheaply: heat the person, not the building. An electric blanket is the clearest example of it. Warming the small space immediately around your body costs a tiny fraction of bringing a whole house, or even a whole bedroom, up to temperature, and on a cold night the difference in cost is enormous for very similar comfort.</p>
+
+    <h2>Why heating the body wins on cost</h2>
+    <p>To warm a room you have to heat all the air in it and, through that, the walls, furniture and everything else, and much of that warmth then leaks away to the colder outdoors and gets replaced again. An electric blanket skips all of that and puts a modest amount of heat exactly where you are. A typical electric blanket or heated throw draws somewhere in the region of fifty to a hundred and fifty watts, against the two or three thousand watts of a fan heater or the far larger output of central heating. Putting those figures into the <a href="appliance-running-cost.html">running cost calculator</a> shows the gap starkly: a few pence for an evening under a blanket, against pounds for heating the house.</p>
+
+    <h2>Underblanket, overblanket and heated throws</h2>
+    <p>There are a few forms and they suit different uses. An underblanket sits on the mattress beneath the sheet and warms the bed, often used to take the chill off before you get in and then switched off or turned low to sleep. An overblanket lies on top like a duvet and warms you as you lie under it. A heated throw is a portable version for the sofa, draped over you while you watch television or read. All work on the same cheap principle, and a heated throw in particular can let you keep the living-room heating lower through an evening because you are warm under it regardless.</p>
+
+    <h2>The running-cost comparison</h2>
+    <p>Consider a winter evening. Heating the living room with central heating or a <a href="portable-heaters-running-cost.html">portable electric heater</a> warms the whole space at a cost of pounds over a few hours. Sitting under a heated throw drawing a hundred watts or so costs a few pence for the same period, while the thermostat can sit lower because your body is warm. At bedtime, warming the bed with an underblanket for half an hour costs almost nothing, against the expense of heating the bedroom to stay comfortable all night. The blanket does not replace heating the house entirely, but it lets you heat it less, which is where the saving lands.</p>
+
+    <h2>Safety, which matters here</h2>
+    <p>Electric blankets are safe when looked after but deserve respect because they combine electricity, heat and bedding. Buy one carrying the proper safety marks, check it regularly for fraying, scorch marks or damaged wiring, and replace an old or worn one rather than nursing it along. Follow the instructions on whether it can be left on overnight, since many modern underblankets are designed for all-night use on a low setting while older or cheaper ones are meant only for pre-warming. Do not use one that is creased or folded in a way the maker warns against, keep it flat, and never combine a blanket with a hot-water bottle. Unplug it if in doubt.</p>
+
+    <h2>When each makes sense</h2>
+    <p>Heating the person is the smart, cheap choice when one or two people are sitting still in the evening or warming a bed, which is most of the time the question comes up. Heating the room or house properly still matters when there are several people spread around, when you need the whole space comfortable for activity rather than sitting, or to keep the building above the point where damp and cold cause problems. The two work together: keep the house at a sensible base temperature as the <a href="thermostat-settings.html">thermostat settings</a> guide describes, then top up your own comfort cheaply with a blanket or throw rather than cranking the heating for everyone.</p>
+  </div></section>
+''',
+)
+
+PAGES["using-a-plug-in-energy-monitor"] = dict(
+    title="Using a plug-in energy monitor to find the hungry appliances",
+    description="How a cheap plug-in energy monitor works, what to measure with it, how to read standby and running costs from it, the difference from a whole-house display, and how to turn its readings into savings.",
+    active="guides",
+    blurb="A few pounds of kit that ends the guesswork. Plug it in and see exactly what each appliance costs.",
+    body='''
+  <section class="section"><div class="wrap prose">
+    <p class="lede">Most energy advice asks you to estimate and assume. A plug-in energy monitor replaces the guesswork with measurement. It is a cheap gadget that sits between an appliance and the socket and tells you exactly what that appliance draws, both when running and when idle, so you can spend your effort on the things that actually cost money rather than the things you imagine do.</p>
+
+    <h2>What it is and how it works</h2>
+    <p>A plug-in monitor is a small adaptor: you plug it into the wall, plug the appliance into it, and a display shows the power being drawn in watts, and usually the energy used in kilowatt-hours over time. Better ones let you enter your price per unit so they show running cost directly in money. They cost only a few pounds, and unlike a whole-house display they tell you about one specific device at a time, which is exactly what you need to hunt down a culprit.</p>
+
+    <h2>Reading running cost</h2>
+    <p>The instantaneous watts tell you how hungry something is at that moment, but the useful figure is the energy used over real use. Leave the monitor in place for a representative day or week on a fridge, a games console or a router, and it accumulates the kilowatt-hours, which you multiply by your price per unit, or read straight off if you entered the price. This is how you turn a vague worry into a number. Feed the same figures into the <a href="appliance-running-cost.html">running cost calculator</a> to project the annual cost, and the priorities sort themselves: the device costing fifty pounds a year earns attention, the one costing fifty pence does not.</p>
+
+    <h2>Catching the standby offenders</h2>
+    <p>The monitor is at its most revealing on standby power. Plug it into the cluster of devices around the television, or an old set-top box, or a desktop computer left in sleep, and read what they draw while apparently off. As the <a href="standby-power-the-full-story.html">standby power</a> guide explains, the offenders are wildly uneven: some devices genuinely sip nothing, while others quietly pull several watts around the clock. The monitor names and shames them in seconds, so you can put the real culprits on a switched socket and leave the innocent ones alone instead of unplugging everything on principle.</p>
+
+    <h2>What is worth measuring</h2>
+    <p>Spend your measuring time on the unknowns and the suspected hogs. The fridge and freezer, since they run constantly and the figure surprises people. The <a href="tumble-dryer-cost.html">tumble dryer</a> and washing machine on a real cycle. The cluster of always-on electronics. An old appliance you suspect is inefficient, to decide whether replacing it is worth it. Mystery devices whose label you cannot find. There is less point monitoring things whose cost you can already work out from a clear wattage label and obvious usage, like a lamp or a kettle.</p>
+
+    <h2>From reading to saving</h2>
+    <p>A monitor saves nothing by itself; it tells you where to act. Once it has found a hungry always-on device, you can switch it off properly, replace an inefficient old appliance whose running cost justifies the change, or simply use a thirsty one less or more cleverly. The value is in cutting through assumption: people routinely fret over trivial loads while a genuine drain runs unnoticed, and a few pounds of monitor, used on a handful of devices, pays for itself many times over by pointing your effort at the right target. It is the most useful few pounds in this whole list of <a href="quick-wins-under-a-tenner.html">quick wins</a>.</p>
+  </div></section>
+''',
+)
+
+PAGES["television-and-entertainment-energy"] = dict(
+    title="Televisions, consoles and home entertainment: the real cost",
+    description="How much electricity a modern television and games console actually use, why screen size and brightness matter, the standby trap with consoles and set-top boxes, and simple settings that cut the cost.",
+    active="guides",
+    blurb="The telly itself is modest; the box of tricks around it is where the waste hides. What to switch and what to ignore.",
+    body='''
+  <section class="section"><div class="wrap prose">
+    <p class="lede">The corner of the living room with the television, the box that feeds it, a games console and a sound system feels like it ought to be an energy drain, and parts of it are, though not always the parts you expect. The screen itself is usually modest in use; the bigger waste tends to hide in what those devices do when you think they are off.</p>
+
+    <h2>What a television actually draws</h2>
+    <p>A modern flat television is fairly efficient in use, drawing perhaps several tens to a couple of hundred watts depending mostly on its size and how bright the picture is. A small set sips very little; a very large, very bright one in a dark room can draw noticeably more. Run a few hours an evening, even the larger sets cost a manageable amount over a year, which the <a href="appliance-running-cost.html">running cost calculator</a> will quantify for your own model and viewing. The television is rarely the villain of the electricity bill; it is a steady, middling cost rather than a heavy hitter.</p>
+
+    <h2>Screen size and brightness</h2>
+    <p>Two things move a television's consumption most: the size of the panel and the brightness setting. A bigger screen has more area to light, so consumption climbs with size. Many televisions also ship in a vivid, retina-searing shop-floor picture mode set far brighter than a normal room needs, which uses more power for a picture that is often less pleasant to watch. Switching to a standard or home picture mode, and turning the backlight down to a comfortable level, trims the running cost and usually improves the viewing. Any automatic brightness or eco setting that dims the panel to suit the room helps too.</p>
+
+    <h2>The standby trap</h2>
+    <p>Here is where the real waste tends to sit, and it is rarely the television. Games consoles are the prime suspects: left in a connected or instant-on standby so they can download updates and wake quickly, some draw a meaningful amount around the clock, far more than a truly-off device. Set-top boxes and digital recorders are similar, staying half-awake to record and update. Over a year, a console and a recorder idling in these modes can quietly cost more than the television does in active use. A <a href="using-a-plug-in-energy-monitor.html">plug-in energy monitor</a> reveals exactly which of your devices are doing this.</p>
+
+    <h2>Settings that cut the cost</h2>
+    <p>The fixes are mostly free. On a games console, switch off the instant-on or connected standby in its power settings and let it power down fully when you finish, accepting that it takes a little longer to start and updates when you next turn it on. On a television, use the picture and eco settings above. Across the whole cluster, the device-by-device habits matter less than one simple move described next.</p>
+
+    <h2>The one-switch solution</h2>
+    <p>Rather than hunting through menus or crawling behind the unit each night, put the television, console, sound bar and the rest of the entertainment cluster on a single switched extension lead, and turn the lot off at the wall with one switch when you go to bed. That kills the standby draw of everything in one action, while leaving devices that genuinely need to stay on, like anything that records overnight, on a separate socket. It is the same principle as the wider <a href="standby-power-the-full-story.html">standby power</a> advice: do not fuss over every gadget, target the cluster that actually wastes power and switch it off together.</p>
+  </div></section>
+''',
+)
+
+PAGES["broadband-router-always-on"] = dict(
+    title="The broadband router and other always-on devices",
+    description="Why the broadband router is usually left on around the clock, what it and other always-on devices cost, when leaving them on is justified, and how to think about the small but constant loads in a connected home.",
+    active="guides",
+    blurb="Small draw, but it never sleeps. What the router and the other always-on bits really add up to in a year.",
+    body='''
+  <section class="section"><div class="wrap prose">
+    <p class="lede">A modern home hums with devices that never switch off: the broadband router, the smart speaker, the doorbell, the various little boxes with a standby light. None of them draws much at any one moment, but running every hour of every day, the constant loads add up to a real, if modest, slice of the electricity bill. Knowing which are worth leaving on, and which are quietly wasteful, keeps that slice in proportion.</p>
+
+    <h2>What the router costs</h2>
+    <p>A broadband router draws only a handful of watts, but because it typically runs around the clock those watts accumulate into a steady annual figure, the kind of small constant load that the <a href="appliance-running-cost.html">running cost calculator</a> shows is more than the moment-to-moment draw suggests. It is not a large cost, comfortably in the every-little-helps category rather than among the heavy hitters, but it is real, and it is the archetype of the always-on device: trivial per hour, noticeable per year.</p>
+
+    <h2>Why people leave it on, and when that is right</h2>
+    <p>Routers are usually left on permanently for good reasons. They take a few minutes to reconnect, some home services such as internet-connected security cameras, smart heating or a landline that runs over broadband depend on the connection staying up, and frequent power cycling does the hardware no favours. For a household that uses the connection through the day, or relies on always-connected devices, leaving the router on is the sensible choice and the small running cost is the price of the convenience. There is little point switching it off for the sake of pennies if it disrupts things you rely on.</p>
+
+    <h2>When switching off is worth it</h2>
+    <p>The case for turning it off is narrow but real. If the house is genuinely empty and nothing depends on the connection, for instance overnight in a home with no smart devices or while away on holiday, switching the router off saves its standing draw and is fine for the hardware over those longer breaks. The judgement is simply whether anything needs it while you are not there. For most connected homes the answer is yes for short absences and no for long ones, so the holiday switch-off is the main opportunity.</p>
+
+    <h2>The other always-on bits</h2>
+    <p>Beyond the router sit the smart speakers, the voice assistants, the video doorbell, the standby lights on chargers and appliances, and the clocks on the oven and microwave. Individually each is tiny; collectively they form the baseline load your house draws even when you are doing nothing. The honest position, set out more fully in the <a href="standby-power-the-full-story.html">standby power</a> guide, is that this baseline is worth a tidy-up but not an obsession. Find the genuinely thirsty always-on devices with a <a href="using-a-plug-in-energy-monitor.html">plug-in monitor</a> and deal with those; leave the truly trivial ones be.</p>
+
+    <h2>Keeping it in proportion</h2>
+    <p>The always-on loads are a useful reminder of the principle running through this whole site: chase the big users first. The router and its companions are worth knowing about and tidying where it costs you nothing, but they will never rival the heating, the hot water or the <a href="tumble-dryer-cost.html">tumble dryer</a>. Switch off the entertainment cluster at night, turn the router off when the house is empty for a stretch if nothing needs it, and then stop worrying about the small constant loads and put your effort where the real money goes.</p>
+  </div></section>
+''',
+)
+
 GUIDES_ORDER = [
     # Heating and the building fabric
     "loft-insulation", "draught-proofing", "cavity-wall-insulation", "solid-wall-insulation",
@@ -1432,7 +1540,7 @@ GUIDES_ORDER = [
     "curtains-for-warmth", "radiator-reflectors",
     "thermostat-settings", "smart-thermostats", "radiator-valves-and-zoning",
     "how-to-bleed-radiators", "boiler-flow-temperature", "how-condensing-boilers-work",
-    "heat-pumps-explained", "portable-heaters-running-cost",
+    "heat-pumps-explained", "portable-heaters-running-cost", "electric-blanket-vs-heating",
     # Hot water
     "hot-water-savings", "cylinder-jacket-and-pipe-lagging", "immersion-heater-cost",
     "low-flow-showerheads",
@@ -1441,7 +1549,8 @@ GUIDES_ORDER = [
     "fridge-freezer-efficiency", "washing-at-30-degrees", "washing-machine-running-cost",
     "dishwasher-efficiency", "kettle-energy-saving", "electric-shower-cost",
     "air-fryer-running-cost", "oven-microwave-air-fryer-compared", "slow-cooker-economy",
-    "induction-vs-gas-hob",
+    "induction-vs-gas-hob", "using-a-plug-in-energy-monitor",
+    "television-and-entertainment-energy", "broadband-router-always-on",
     # Bills, tariffs and meters
     "understanding-energy-bill", "switching-suppliers", "smart-meters-explained",
     "economy-7-and-night-rates",
