@@ -1743,6 +1743,72 @@ PAGES["home-working-energy-cost"] = dict(
 ''',
 )
 
+PAGES["storage-heaters-explained"] = dict(
+    title="Storage heaters: getting the cheap heat right",
+    description="How night storage heaters work, why they only pay off on an off-peak tariff, what the input and output dials actually do, how to set them through the week, the difference modern high-retention models make, and a worked example of what they cost to charge.",
+    active="guides",
+    blurb="Cheap, even heat if you run them right; expensive if you don't. How to set the dials and feed them the right tariff.",
+    body='''
+  <section class="section"><div class="wrap prose">
+    <p class="lede">Storage heaters divide opinion, and most of that comes down to how they are run rather than the heaters themselves. Feed them the right tariff and set the controls properly and they give cheap, even warmth right through a winter. Run them badly, which is very common, and you end up paying peak rates for heat that has all leaked away by the time the evening turns cold. This guide is about staying on the right side of that line.</p>
+
+    <h2>How a storage heater works</h2>
+    <p>Inside the case sits a stack of dense ceramic or clay bricks, wrapped in insulation, with electric heating elements buried among them. Overnight, when electricity is cheaper, the elements warm those bricks to a high temperature and the insulation holds the heat in. Through the following day the bricks release that warmth slowly into the room. Nothing burns, there is no flue, and the appliance is really a battery for heat rather than for fuel. That one idea, charge cheaply at night and discharge slowly through the day, drives everything about how a storage heater should be run and explains every way they go wrong.</p>
+
+    <h2>Why they only pay off on a night tariff</h2>
+    <p>The whole economic case rests on cheap overnight electricity. A storage heater charges during the off-peak window of a two-rate tariff such as Economy 7 or Economy 10, paying the low night unit rate for the energy it banks. Put the same heater on a single flat rate and it charges at full price, losing its entire reason to exist; at that point an ordinary panel or convector heater would warm the room on demand for the same money and waste nothing storing it. So the first question to ask of any storage heater is what tariff is feeding it. The mechanics of those off-peak deals are set out in the <a href="economy-7-and-night-rates.html">Economy 7 and night rates</a> guide, and because the meter has to be able to tell night from day, the <a href="smart-meters-explained.html">smart meters</a> guide is worth reading alongside it.</p>
+
+    <h2>The two dials: input and output</h2>
+    <p>Older storage heaters carry two controls, and most of the trouble traces back to muddling them up. Input, sometimes labelled charge, decides how much heat the bricks take on overnight; turn it up ahead of a cold snap and down again in milder weather. Output, sometimes labelled boost or room temperature, works a flap that lets the stored heat escape during the day. The classic error is leaving output wide open first thing in the morning, so the heater pours out its warmth by lunchtime and has nothing left for the cold evening when you actually want it. Keep output low or shut while the house is empty, then open it up once you are home. A useful way to hold the two apart in your head: input is how much you charge, output is how fast you spend it.</p>
+
+    <h2>Setting them through the week</h2>
+    <p>Storage heaters reward a bit of forward thinking, because they respond to last night's setting rather than this minute's. Watch the forecast and lift the input the evening before a cold day, then drop it back when a milder spell arrives, so you are not banking a full charge the bricks will never need. That lag is the awkward part: a sudden mild day after you charged for frost leaves you with surplus heat and no way to claw the money back, while an unexpected cold snap catches the bricks half full. Over a week the pattern tends to settle, with the heaters in the rooms you live in set higher and those in halls and spare rooms kept low. If your weekend at home looks different from your working week, adjust the input to match, since there is no point charging a study heater for a Saturday you will spend in the kitchen.</p>
+
+    <h2>Old bricks versus modern retention models</h2>
+    <p>Not all storage heaters are the same vintage. The old manual sort, with nothing but an input and an output dial, leak heat steadily whether you want it or not, which is why so many flats heated this way are too warm at breakfast and chilly by nine in the evening. Newer high heat retention models are better insulated, hold their charge for longer, and add a fan, a proper room thermostat and a programmer, so they release heat closer to when you ask for it rather than dribbling it away all day. If you are stuck with ancient units and the bills are high, replacing them with modern retention models can sharpen the control considerably, though the heat still costs the same per unit; the gain is in waste avoided, not in cheaper electricity.</p>
+
+    <h2>What they cost to charge</h2>
+    <p>A storage heater is rated by how much energy it can bank, often quoted in kilowatt-hours. Suppose a heater stores 6 kWh in a full overnight charge. At an example off-peak rate of 12p per kWh that is about 72p to fill it, whereas the same 6 kWh charged at an example daytime rate of 30p would cost 1.80, so the night rate is plainly doing the heavy lifting. You can put your own heaters through the <a href="appliance-running-cost.html">running cost calculator</a> by entering the heater's wattage and the number of hours it charges overnight. The figure to keep an eye on is any daytime boost: that top-up is drawn at the expensive peak rate, so a heater that has run dry and gets boosted every evening can quietly cancel out the saving the off-peak charge was supposed to deliver. A couple of well-set heaters that rarely need boosting will always beat a houseful of badly set ones leaning on the boost button.</p>
+
+    <h2>When something else makes more sense</h2>
+    <p>Storage heaters earn their keep in homes off the gas grid, in many flats, and anywhere a night tariff is already in place. If your home has mains gas, a gas central heating system is usually cheaper to run than electric storage heat, so the comparison is worth doing before you spend on replacement units. A <a href="heat-pumps-explained.html">heat pump</a> is another route for an all-electric home, turning each unit of electricity into several units of heat, though it is a far larger project. And if you rent and the storage heaters came with the flat, the realistic aim is to run the ones you have well rather than to replace them, which is covered in the <a href="saving-energy-when-renting.html">saving energy when renting</a> guide. Whatever the setup, the principle holds: these heaters only ever make sense paired with a cheap night rate, and they only ever feel good when the output is held back until you are there to enjoy it.</p>
+  </div></section>
+''',
+)
+
+PAGES["energy-labels-explained"] = dict(
+    title="Energy labels: reading the rating before you buy",
+    description="How to read the energy efficiency label on appliances: what the A to G scale means after the 2021 reset, why the annual kWh figure matters more than the letter, a worked example of how a pricier efficient model can be cheaper overall, and where the label can mislead.",
+    active="guides",
+    blurb="The letter grade is the least useful part. How to read the annual kWh figure and buy the model that's cheaper to run.",
+    body='''
+  <section class="section"><div class="wrap prose">
+    <p class="lede">The coloured label stuck to the front of a new fridge or washing machine is one of the few honest comparisons you get while shopping, yet most people glance at the letter and move on. The letter is the least useful part. Buried in the small print is a number that tells you, in kilowatt-hours, roughly what the thing will cost to run every year, and that number is what separates a cheap appliance from a cheap-to-own one.</p>
+
+    <h2>What the label actually tells you</h2>
+    <p>An energy label packs several facts into one card. The big coloured arrow gives the overall efficiency grade. Below it sit the figures that earned that grade: an annual or per-cycle energy use in kWh, and depending on the product a water use, a spin rating, a noise level in decibels and a capacity. The grade is a quick summary, but it is the kWh figure that you can turn into money. The same label format now runs across fridges and freezers, washing machines, dishwashers, tumble dryers, televisions and more, so once you can read one you can read them all.</p>
+
+    <h2>The A to G scale and the 2021 reset</h2>
+    <p>For years the scale crept upward until almost everything was rated A, then A+, then A++ and A+++, which made the grades close to meaningless because nearly every model clustered at the top. In 2021 the labels were reset to a plain A to G scale, and the bar was raised hard, so that at launch hardly anything reached A and a great many decent appliances landed at C, D or E. A modern E is not a bad appliance; it is simply being judged against a tougher, more spread-out yardstick than the old A+++ ever was. If you are comparing an older model carrying a plus-rated label with a newer one on the reset scale, the letters are not speaking the same language, which is another reason to drop down to the kWh figure and compare like with like.</p>
+
+    <h2>The number that matters most</h2>
+    <p>Find the kWh figure and you can stop guessing. For a fridge or freezer it is usually given as kWh per year, since the appliance runs continuously. For a washing machine, dishwasher or dryer it is often given per 100 cycles, because how much you use it is up to you, so you scale it to your own washing habits. Either way the sum is the same one the <a href="appliance-running-cost.html">running cost calculator</a> does: kWh multiplied by your price per unit gives the yearly cost. A fridge-freezer listed at 150 kWh a year, at an example 30p per kWh, costs about 45 a year to run; one listed at 300 kWh costs about 90. That 45 gap repeats every year for the decade or more the appliance lasts.</p>
+
+    <h2>Why a pricier model can be the cheaper one</h2>
+    <p>This is where the label changes a buying decision. Say two washing machines sit side by side, one 60 cheaper to buy but using noticeably more electricity and water per cycle. Run the efficient one through a few years of your actual washing and the running-cost difference can swallow that 60 saving and keep going. The cheaper sticker price is real, but it is a one-off, while the running cost lands every year you own the thing. For appliances that run constantly, like the fridge-freezer, or often, like the washing machine, the lifetime running cost usually dwarfs the small difference in purchase price, so the efficient model is frequently the cheaper choice once you count the whole bill rather than just the till receipt.</p>
+
+    <h2>Reading the label for the big users</h2>
+    <p>Spend the effort where the energy goes. A fridge-freezer never switches off, so its annual kWh figure is worth real attention, as the <a href="fridge-freezer-efficiency.html">fridge and freezer</a> guide sets out. A washing machine's energy use is dominated by heating water, so the per-cycle figure and the wash temperatures it offers both matter, and the <a href="washing-machine-running-cost.html">washing machine running cost</a> guide goes into the detail. Tumble dryers vary enormously, with heat-pump models using a fraction of the electricity of the old vented sort, a gap the label makes obvious; the <a href="tumble-dryer-cost.html">tumble dryer</a> guide explains why. For a kettle or a toaster the label barely matters, because the appliance runs for minutes a day and the running cost is trivial whichever you pick.</p>
+
+    <h2>Where the label can mislead</h2>
+    <p>Treat the figures as a fair comparison, not a promise. The annual kWh is measured under a standard test programme that may look nothing like how you use the machine: a washing machine's quoted figure usually assumes the eco setting, which runs longer and cooler than the quick wash most people reach for, so your real use can run higher. Capacity matters too, since a large efficient appliance can use more in total than a small inefficient one if you only ever half-fill it, and the grade rewards efficiency for the size rather than the absolute amount. The label is excellent for ranking similar models against each other; it is weaker as a forecast of your own bill, which is why pairing it with the running-cost sum for your own habits is the sensible move.</p>
+
+    <h2>Using it alongside the running-cost sums</h2>
+    <p>The label and the calculator work best together. The label hands you a tested, comparable kWh figure you would struggle to measure yourself, and the running-cost calculator turns that figure into pounds at your own tariff over the hours you actually use the thing. Look past the letter to the kWh, scale it to how you really live, and weigh the yearly running cost against the difference in sticker price. Do that for the appliances that run long and often and you will buy fewer regrets, because the cheap appliance and the cheap-to-run appliance are rarely the same one, and the label is how you tell them apart before the money has left your pocket.</p>
+  </div></section>
+''',
+)
+
 
 GUIDES_ORDER = [
     # Scheduled additions (drip out by pubdate)
@@ -1755,6 +1821,7 @@ GUIDES_ORDER = [
     "thermostat-settings", "smart-thermostats", "radiator-valves-and-zoning",
     "how-to-bleed-radiators", "boiler-flow-temperature", "how-condensing-boilers-work",
     "heat-pumps-explained", "portable-heaters-running-cost", "electric-blanket-vs-heating",
+    "storage-heaters-explained",
     # Hot water
     "hot-water-savings", "cylinder-jacket-and-pipe-lagging", "immersion-heater-cost",
     "low-flow-showerheads",
@@ -1765,7 +1832,7 @@ GUIDES_ORDER = [
     "air-fryer-running-cost", "oven-microwave-air-fryer-compared", "slow-cooker-economy",
     "induction-vs-gas-hob", "using-a-plug-in-energy-monitor",
     "television-and-entertainment-energy", "broadband-router-always-on",
-    "drying-clothes-without-a-tumble-dryer",
+    "drying-clothes-without-a-tumble-dryer", "energy-labels-explained",
     # Bills, tariffs and meters
     "understanding-energy-bill", "switching-suppliers", "smart-meters-explained",
     "economy-7-and-night-rates", "standing-charges-explained",
