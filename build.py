@@ -782,7 +782,7 @@ PAGES["heat-pumps-explained"] = dict(
   <section class="section"><div class="wrap prose">
     <p class="lede">Heat pumps attract a lot of noise, some of it overcooked in both directions. Stripped of the jargon, a heat pump is a proven, efficient way to heat a home with electricity, and whether it is right for you comes down mostly to your house and how it is run rather than the technology itself.</p>
     <h2>Heat moved, not made</h2>
-    <p>A heat pump does not burn anything or glow like an electric heater. It works like a fridge in reverse, using a little electricity to gather warmth from the outside air, even on a cold day there is heat in it, and concentrate it to a useful temperature for your radiators and hot water. Because it moves existing heat rather than creating it, it can deliver several units of warmth for each unit of electricity, which is why it can beat a gas boiler on energy used even though electricity costs more per unit.</p>
+    <p>A heat pump does not burn anything or glow like an electric heater. It works like a fridge in reverse, using a little electricity to gather warmth from the outside air, even on a cold day there is heat in it, and concentrate it to a useful temperature for your radiators and hot water. Because it moves existing heat rather than creating it, it can deliver several units of warmth for each unit of electricity, which is why it can beat a gas boiler on energy used even though electricity costs more per unit. Whether it beats a boiler on running cost too is a closer question, worked out in the <a href="heat-pump-running-cost-vs-gas-boiler.html">heat pump versus gas boiler running cost</a> guide.</p>
     <h2>It likes low and slow</h2>
     <p>A heat pump is happiest producing a gentle, steady warmth rather than blasting out very hot water on demand. It runs at lower flow temperatures than a traditional boiler, so it pairs best with larger radiators or underfloor heating and with a home that holds its heat. This is why the advice is always to insulate and <a href="draught-proofing.html">draught-proof</a> first: a leaky house forces the pump to work hard at high temperatures, which is where running costs and complaints come from.</p>
     <h2>The house makes or breaks it</h2>
@@ -1520,6 +1520,240 @@ PAGES["ev-cost-vs-petrol-per-year"] = dict(
 ''',
 )
 
+PAGES["air-conditioning-running-cost"] = dict(
+    title="How much does it cost to run air conditioning?",
+    description="What air conditioning costs to run in the UK: the cost per hour and per day for a portable unit and a fixed split system, why a compressor is so much dearer than a fan, what the energy rating and the venting hose change, and how to keep the bill down on the hottest days.",
+    active="guides",
+    blurb="A compressor draws thirty to fifty times what a fan does. The cost per hour and per day, and how to keep it down.",
+    body='''
+  <section class="section"><div class="wrap prose">
+    <style>
+      .ev-key{background:var(--paper-alt,#f4f1ea);border:1px solid var(--line);border-radius:12px;padding:18px 22px;margin:6px 0 8px}
+      .ev-key p{margin:0}
+      .ev-table{width:100%;border-collapse:collapse;margin:14px 0;font-size:.97rem}
+      .ev-table th,.ev-table td{border:1px solid var(--line);padding:9px 12px;text-align:left}
+      .ev-table th{background:var(--paper-alt,#f4f1ea);font-weight:600}
+      .ev-table td:not(:first-child),.ev-table th:not(:first-child){text-align:right}
+      .ev-note{font-size:.9rem;color:var(--ink-soft,#5b5b5b)}
+      @media(max-width:560px){.ev-table{font-size:.86rem}.ev-table th,.ev-table td{padding:7px 8px}}
+    </style>
+
+    <p class="lede">As hot spells get more common, more people are reaching for air conditioning, and it is one of the heaviest electrical loads a home can run. The good news is that the cost is easy to work out, because a cooling unit is just an appliance with a wattage like any other. The figure usually surprises people, in both directions: a portable unit run flat out through a heatwave adds a real sum to the bill, while a few sensible habits cut that sharply.</p>
+
+    <div class="ev-key">
+      <p><strong>The short answer.</strong> A portable air conditioner typically draws 1 to 1.5 kilowatts, so at the standard electricity rate of about 26p a unit it costs roughly 26p to 39p an hour, or around 2 to 3 pounds for an eight-hour day. A more efficient fixed split system averages less. A fan, by contrast, costs about a penny an hour. The compressor in an air conditioner is what makes the difference, drawing thirty to fifty times what a fan does.</p>
+    </div>
+
+    <h2>Why air conditioning costs so much more than a fan</h2>
+    <p>The gulf comes down to what each device actually does. A fan does not cool the air at all; it moves it, and moving air cools your skin by helping sweat evaporate, which takes very little power. Air conditioning genuinely removes heat from the room and pumps it outside, using a compressor and refrigerant in the same way a fridge does, and shifting heat like that is energy-hungry. A fan draws tens of watts; an air conditioner draws a kilowatt or more. That is the whole story of the bill, and it is why the <a href="keeping-cool-without-air-con.html">keeping cool without air conditioning</a> guide treats real cooling as a last resort rather than a first move.</p>
+
+    <h2>What it costs per hour and per day</h2>
+    <p>The sum is the same one the <a href="appliance-running-cost.html">running cost calculator</a> does for any appliance: the power in kilowatts multiplied by the hours, multiplied by your price per unit. The table below uses the standard price-cap rate of about 26p per kWh, current in mid 2026, across the common types of cooling. Find your unit's wattage on its label or in its manual and read across.</p>
+
+    <table class="ev-table">
+      <thead><tr><th>Cooling device</th><th>Typical power</th><th>Cost per hour</th><th>Cost per 8-hour day</th></tr></thead>
+      <tbody>
+        <tr><td>Pedestal or tower fan</td><td>50 W</td><td>~1.3p</td><td>~10p</td></tr>
+        <tr><td>Evaporative air cooler</td><td>60 to 100 W</td><td>~2p to 2.6p</td><td>~13p to 21p</td></tr>
+        <tr><td>Fixed split system (inverter), average</td><td>600 to 800 W</td><td>~16p to 21p</td><td>~£1.25 to £1.67</td></tr>
+        <tr><td>Portable air conditioner</td><td>1,000 to 1,500 W</td><td>~26p to 39p</td><td>~£2.09 to £3.13</td></tr>
+      </tbody>
+    </table>
+    <p class="ev-note">At an example 26p per kWh (Ofgem price cap, July to September 2026, 26.11p). A split system cycles its compressor off once the room reaches temperature, so its average draw is below its peak; a cheap portable unit tends to run harder for longer. Run a 1.2 kW portable unit eight hours a day for a month and that is roughly 60 to 75 pounds on top of your usual bill.</p>
+
+    <h2>Portable versus fixed: not the same machine</h2>
+    <p>The two common types of home air conditioning behave very differently on cost. A portable unit on wheels is cheap to buy and needs no installation, but it is the least efficient option: it sits in the room it is cooling, dumps its heat through a hose out of a window, and a single-hose model draws warm air back into the room as it works, so it has to run harder. A fixed split system, with a quiet indoor unit and a compressor mounted outside, costs more to buy and must be installed, but it is far more efficient, cools more effectively, and its inverter compressor throttles back once the room is comfortable rather than running flat out. If you cool often, the running-cost saving of a fixed system can outweigh its higher purchase price over time, much as it does with any efficient appliance.</p>
+
+    <h2>The venting hose matters more than people think</h2>
+    <p>With a portable unit, the hose is the difference between cooling and just making noise. The hose carries the heat the unit has removed out of the window, and it must vent outside; if it does not, the unit is simply moving heat around the same room and adding its own motor heat on top, so the room never really cools and you pay for the privilege. The window gap around the hose needs sealing too, or hot outside air pours straight back in. Single-hose units have a built-in handicap, because the air they blow outside has to be replaced by air drawn in from elsewhere in the house, often warm. Twin-hose units avoid that and are noticeably more effective for the energy. Whatever the type, a unit venting properly through a sealed window does the job for far less running time than one fighting itself.</p>
+
+    <h2>Read the energy rating before you buy</h2>
+    <p>Air conditioners carry an <a href="energy-labels-explained.html">energy label</a> like other appliances, and for something that may run for hours on the hottest days it is worth reading. The figure to look at is the efficiency, often shown as a seasonal rating, which tells you how much cooling you get per unit of electricity. A more efficient unit delivers the same cool room for less power, and over several summers that gap repeats every time you switch it on. As with fridges and washing machines, the cheapest unit to buy is rarely the cheapest to run, and for a heavy seasonal load the running cost is the number that matters.</p>
+
+    <h2>How to keep the cost down</h2>
+    <p>The discipline that controls any heavy load applies here. Cool only the room you are in, not the whole house, and shut its door and windows so you are not cooling the outdoors. Do all the free things first: close curtains and blinds against the sun by day, open up at night to flush the heat out, and switch off indoor heat sources, all covered in the <a href="keeping-cool-without-air-con.html">keeping cool</a> guide, so the air conditioner has less work to do and runs for less time. Set the target temperature modestly, in the mid twenties rather than as cold as it will go, because every degree cooler costs more. Use the timer so it is not running in an empty room, and switch it off when you leave. Done this way, occasional targeted cooling on the worst days costs a fraction of running a unit flat out all summer.</p>
+
+    <h2>The bottom line</h2>
+    <p>Air conditioning costs real money because it removes heat rather than just moving air, drawing a kilowatt or more against a fan's few tens of watts. A portable unit runs to roughly 26p to 39p an hour at the standard rate, a fixed split system rather less, and a fan about a penny. Read the wattage off your unit, run it through the calculator, and you will know your own figure. Then keep it down the same way you would any big load: cool one room, do the free measures first, set a sensible temperature, and reserve the compressor for the days when shading and a fan are genuinely not enough.</p>
+  </div></section>
+  <script type="application/ld+json">{"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"How much does it cost to run air conditioning?","acceptedAnswer":{"@type":"Answer","text":"A portable air conditioner typically draws 1 to 1.5 kW, costing about 26p to 39p an hour at the 26p standard electricity rate, or roughly 2 to 3 pounds for an eight-hour day. A more efficient fixed split system averages less, around 16p to 21p an hour. Run a portable unit eight hours a day for a month and it adds roughly 60 to 75 pounds to the bill."}},{"@type":"Question","name":"Is a portable air conditioner cheaper to run than a fixed one?","acceptedAnswer":{"@type":"Answer","text":"No. A portable unit is cheaper to buy but less efficient to run, because it sits in the room, vents through a hose, and on single-hose models draws warm air back in. A fixed split system costs more upfront but its inverter compressor throttles back once the room is cool, so it uses less electricity for the same comfort."}},{"@type":"Question","name":"Why is air conditioning so much more expensive than a fan?","acceptedAnswer":{"@type":"Answer","text":"A fan only moves air, which cools your skin and takes very little power, tens of watts. Air conditioning actually removes heat from the room using a compressor and pumps it outside, which draws a kilowatt or more, thirty to fifty times as much. That is why a fan costs about a penny an hour and an air conditioner costs pounds a day."}},{"@type":"Question","name":"Does a portable air conditioner need to be vented out of a window?","acceptedAnswer":{"@type":"Answer","text":"Yes. The hose carries the removed heat outside, so it must vent through a window with the gap sealed. Without venting, the unit just moves heat around the same room and adds its own motor heat, so the room never properly cools and you pay for nothing. Twin-hose units are more effective than single-hose ones."}}]}</script>
+''',
+)
+
+PAGES["fan-running-cost"] = dict(
+    title="How much does it cost to run a fan?",
+    description="The reassuring answer to a common summer question: a fan costs only pennies an hour to run. The cost by fan type, what a whole night or a whole summer adds up to, and why a fan is so cheap compared with air conditioning.",
+    active="guides",
+    blurb="Almost nothing. A fan costs about a penny an hour, so a whole night runs to a few pence. The figures by fan type.",
+    body='''
+  <section class="section"><div class="wrap prose">
+    <style>
+      .ev-key{background:var(--paper-alt,#f4f1ea);border:1px solid var(--line);border-radius:12px;padding:18px 22px;margin:6px 0 8px}
+      .ev-key p{margin:0}
+      .ev-table{width:100%;border-collapse:collapse;margin:14px 0;font-size:.97rem}
+      .ev-table th,.ev-table td{border:1px solid var(--line);padding:9px 12px;text-align:left}
+      .ev-table th{background:var(--paper-alt,#f4f1ea);font-weight:600}
+      .ev-table td:not(:first-child),.ev-table th:not(:first-child){text-align:right}
+      .ev-note{font-size:.9rem;color:var(--ink-soft,#5b5b5b)}
+      @media(max-width:560px){.ev-table{font-size:.86rem}.ev-table th,.ev-table td{padding:7px 8px}}
+    </style>
+
+    <p class="lede">When a heatwave hits and the fan goes on, a quiet worry follows it: is this thing running up the bill while I sleep? The reassuring answer is no. A fan is one of the cheapest appliances in the house to run, costing roughly a penny an hour, so even left on all night it adds only a few pence. This guide gives the real figures by fan type, so you can stop worrying and leave it on.</p>
+
+    <div class="ev-key">
+      <p><strong>The short answer.</strong> Most fans draw between about 5 and 100 watts, so at the standard electricity rate of about 26p a unit they cost from a fraction of a penny up to around 2.6p an hour. A typical pedestal or tower fan at 50 watts costs about 1.3p an hour, so running it for a twelve-hour night costs roughly 16p. Over a whole hot month of nightly use that is only a few pounds. A fan is about the cheapest cooling there is.</p>
+    </div>
+
+    <h2>Why a fan is so cheap to run</h2>
+    <p>A fan does not cool the air, it moves it, and moving air is a light job for an electric motor. That breeze cools you by helping sweat evaporate from your skin, which is why a fan feels cooling even though the room temperature has not changed. Because all the motor is doing is spinning a blade, the power draw is tiny, measured in tens of watts rather than the kilowatts an <a href="air-conditioning-running-cost.html">air conditioner</a> pulls to actually remove heat from the room. That difference, a fan moving air versus a compressor shifting heat, is the whole reason one costs pennies and the other costs pounds.</p>
+
+    <h2>What different fans cost</h2>
+    <p>Fans vary in size from a tiny clip-on to a big floor blower, and the power draw varies with them, but every one of them is cheap. The table uses the standard price-cap rate of about 26p per kWh, current in mid 2026. To find your own fan's figure, look for the wattage printed on the motor housing or in the manual, or put it through the <a href="appliance-running-cost.html">running cost calculator</a>.</p>
+
+    <table class="ev-table">
+      <thead><tr><th>Fan type</th><th>Typical power</th><th>Cost per hour</th><th>Cost for a 12-hour night</th></tr></thead>
+      <tbody>
+        <tr><td>Small USB or clip-on fan</td><td>5 to 15 W</td><td>~0.1p to 0.4p</td><td>~2p to 5p</td></tr>
+        <tr><td>Ceiling fan</td><td>15 to 30 W</td><td>~0.4p to 0.8p</td><td>~5p to 9p</td></tr>
+        <tr><td>Pedestal or tower fan</td><td>40 to 60 W</td><td>~1.0p to 1.6p</td><td>~13p to 19p</td></tr>
+        <tr><td>Large floor or industrial fan</td><td>100 W</td><td>~2.6p</td><td>~31p</td></tr>
+      </tbody>
+    </table>
+    <p class="ev-note">At an example 26p per kWh. Even the thirstiest household fan running all night costs about the price of a chocolate bar, and the small ones cost almost nothing. Lower fan speeds draw less power still.</p>
+
+    <h2>A whole night, a whole summer</h2>
+    <p>Put it in terms of real use. Leaving a 50-watt pedestal fan running every night through a hot month, say twelve hours a night for thirty nights, uses about 18 kilowatt-hours, which at 26p comes to under 5 pounds for the month. A small bedside fan costs a fraction of that. Even if you ran fans in two rooms all summer, the total would be a handful of pounds, not the scary number people imagine. Set against the cost of cooling those rooms with air conditioning, which could run to that much in a couple of days, the fan is almost free.</p>
+
+    <h2>Getting the most from a cheap breeze</h2>
+    <p>Because a fan only cools the person feeling it, the one rule is to run it where someone is, not in an empty room, where it does nothing but spend its pennies for no benefit. Beyond that, a fan earns its keep helping move air through the house: placed in an open window in the evening it draws cool outside air in, or pushes warm air out, flushing the day's heat as the <a href="keeping-cool-without-air-con.html">keeping cool</a> guide describes. A bowl of ice in front of the fan adds a brief extra chill on the very hottest days. And a ceiling fan, being permanently sited and efficient, is a cheap way to keep a room comfortable for the lowest running cost of all.</p>
+
+    <h2>When a fan is not enough</h2>
+    <p>A fan has one limit: it cannot lower the air temperature, only make moving air feel cooler on the skin. On the rare days when the air itself is simply too hot, a fan blowing hot air around brings little relief, and that is the point at which real cooling earns its much higher cost. But those days are few, and the honest order is to exhaust the free measures and the cheap fan first, reserving the expensive compressor for when nothing else will do. For the great majority of warm evenings, a fan at a penny an hour is all the cooling the bill needs to carry.</p>
+
+    <h2>The bottom line</h2>
+    <p>A fan costs roughly a penny an hour to run, so a whole night is a few pence and a whole summer a few pounds, because all it does is move air rather than chill it. Leave it on while you are in the room without a second thought, use it to flush cool night air through the house, and keep the costly air conditioning for the handful of days a fan genuinely cannot cope with. Of all the ways to feel cooler, the fan is the one your bill will never notice.</p>
+  </div></section>
+  <script type="application/ld+json">{"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"How much does it cost to run a fan?","acceptedAnswer":{"@type":"Answer","text":"Very little. Most fans draw 5 to 100 watts, so at the 26p standard electricity rate they cost from a fraction of a penny up to about 2.6p an hour. A typical 50-watt pedestal fan costs about 1.3p an hour, so a twelve-hour night is roughly 16p and a whole month of nightly use under 5 pounds."}},{"@type":"Question","name":"Is it expensive to leave a fan on all night?","acceptedAnswer":{"@type":"Answer","text":"No. A typical pedestal fan running for a twelve-hour night costs around 16p, and a small bedside fan far less. You can leave a fan on overnight while you are in the room without worrying about the bill. Just avoid running it in an empty room, where it cools no one."}},{"@type":"Question","name":"Which fan is cheapest to run?","acceptedAnswer":{"@type":"Answer","text":"Small USB and clip-on fans use the least power, just a few watts, costing almost nothing. Ceiling fans are also very efficient at 15 to 30 watts. Larger pedestal and floor fans use more but are still cheap, at roughly 1p to 2.6p an hour. Lower speeds draw less power than full blast."}},{"@type":"Question","name":"Is a fan cheaper than air conditioning?","acceptedAnswer":{"@type":"Answer","text":"Far cheaper. A fan costs about a penny an hour because it only moves air, while air conditioning draws a kilowatt or more to actually remove heat, costing pounds a day. A fan can be thirty to fifty times cheaper to run, which is why it should be the first choice and air conditioning the last resort."}}]}</script>
+''',
+)
+
+PAGES["portable-air-conditioner-vs-fan"] = dict(
+    title="Portable air conditioner vs fan: which is worth it?",
+    description="A straight comparison of a portable air conditioner and a fan: what each actually does, the large gap in running cost, where an evaporative cooler sits between them, and how to decide which you need for a British summer.",
+    active="guides",
+    blurb="One moves air for pennies; one removes heat for pounds. What each is really for, and how to choose.",
+    body='''
+  <section class="section"><div class="wrap prose">
+    <style>
+      .ev-key{background:var(--paper-alt,#f4f1ea);border:1px solid var(--line);border-radius:12px;padding:18px 22px;margin:6px 0 8px}
+      .ev-key p{margin:0}
+      .ev-table{width:100%;border-collapse:collapse;margin:14px 0;font-size:.97rem}
+      .ev-table th,.ev-table td{border:1px solid var(--line);padding:9px 12px;text-align:left}
+      .ev-table th{background:var(--paper-alt,#f4f1ea);font-weight:600}
+      .ev-table td:not(:first-child),.ev-table th:not(:first-child){text-align:right}
+      .ev-note{font-size:.9rem;color:var(--ink-soft,#5b5b5b)}
+      @media(max-width:560px){.ev-table{font-size:.86rem}.ev-table th,.ev-table td{padding:7px 8px}}
+    </style>
+
+    <p class="lede">When the house gets uncomfortably hot, the choice usually comes down to a fan or a portable air conditioner. They look like two answers to the same problem, but they are really different machines doing different jobs at wildly different running costs. Knowing which one you actually need, and on which days, saves both money and disappointment.</p>
+
+    <div class="ev-key">
+      <p><strong>The short answer.</strong> A fan moves air, which cools your skin for about a penny an hour. A portable air conditioner removes heat from the room and pumps it outside, which genuinely lowers the temperature but draws a kilowatt or more, costing roughly 26p to 39p an hour, thirty to fifty times as much. For most warm British days a fan is enough; a portable air conditioner earns its higher cost only on the small number of days when the air itself is simply too hot.</p>
+    </div>
+
+    <h2>They do different jobs</h2>
+    <p>The key thing to understand is that a fan does not cool the air at all. It moves it, and that moving air cools you by speeding up the evaporation of sweat from your skin, so you feel cooler while the room stays the same temperature. A portable air conditioner does something fundamentally harder: it uses a compressor and refrigerant to pull heat out of the room's air and pump it outside through a hose, actually dropping the temperature. One makes you feel cooler; the other makes the room cooler. That distinction explains both the comfort difference and the cost difference between them.</p>
+
+    <h2>The running-cost gap</h2>
+    <p>Because the two do such different work, they sit at opposite ends of the cost scale. The table uses the standard price-cap rate of about 26p per kWh, current in mid 2026, and the gap is stark.</p>
+
+    <table class="ev-table">
+      <thead><tr><th>Device</th><th>Typical power</th><th>Cost per hour</th><th>Cost per 8-hour day</th></tr></thead>
+      <tbody>
+        <tr><td>Pedestal or tower fan</td><td>50 W</td><td>~1.3p</td><td>~10p</td></tr>
+        <tr><td>Evaporative air cooler</td><td>60 to 100 W</td><td>~2p to 2.6p</td><td>~13p to 21p</td></tr>
+        <tr><td>Portable air conditioner</td><td>1,000 to 1,500 W</td><td>~26p to 39p</td><td>~£2.09 to £3.13</td></tr>
+      </tbody>
+    </table>
+    <p class="ev-note">At an example 26p per kWh. A portable air conditioner can cost in a single day what a fan costs in a month of nightly use. Full figures and how to cut them are in the <a href="air-conditioning-running-cost.html">air conditioning running cost</a> guide.</p>
+
+    <h2>Where an evaporative cooler sits</h2>
+    <p>Between the fan and the air conditioner sits a third option worth knowing about: the evaporative cooler, sometimes sold as an air cooler. It blows air over a wet pad, and as the water evaporates it takes a little heat with it, so the air coming out is slightly cooler than the air going in, unlike a plain fan. It uses only a little more power than a fan, so it is cheap to run. The catch is that it adds moisture to the room and works best in dry heat; in the muggy, humid warmth of a typical British hot spell its effect is modest, because the air is already damp and evaporation slows. It is a cheap half-step up from a fan, not a substitute for real air conditioning.</p>
+
+    <h2>The portable air conditioner's catches</h2>
+    <p>A portable unit does genuinely cool a room, but it comes with strings beyond the running cost. It must vent its heat outside through a hose in a window, and the window gap has to be sealed, or hot air pours back in and it never wins. Cheaper single-hose models have a built-in inefficiency, drawing replacement air in from the rest of the house as they blow air out, so part of their effort is wasted. They are also bulky, noisy, and only really cool the one room they stand in. None of this makes them useless, but it does mean a portable air conditioner is a considered purchase for genuine need, not a casual grab, and the <a href="air-conditioning-running-cost.html">running cost guide</a> covers getting the most from one.</p>
+
+    <h2>How to decide</h2>
+    <p>Work from the bottom up. For the large majority of warm days, the free measures plus a fan are enough: shade the windows against the sun, flush cool air through at night, and let a cheap breeze do the rest, all set out in the <a href="keeping-cool-without-air-con.html">keeping cool without air conditioning</a> guide. Reach for the fan first because it costs almost nothing. Consider an evaporative cooler if you want a touch more for not much more power, accepting it does little in humid heat. Buy a portable air conditioner only if you genuinely face a run of days when the air itself is too hot to sleep or work in, you cannot get relief any other way, and you accept the running cost and the venting faff. For most British summers that is a handful of days a year, which is worth weighing against the price of a machine that sits in a cupboard the rest of the time.</p>
+
+    <h2>The bottom line</h2>
+    <p>A fan and a portable air conditioner are not two versions of the same thing. The fan moves air to cool your skin for about a penny an hour and handles most warm days; the air conditioner removes heat to cool the room for pounds a day and is for the rare days nothing else can manage. An evaporative cooler is a cheap middle option that struggles in humid heat. Start with shading and a fan, step up only when you must, and you keep a British summer comfortable without letting the cooling become the thing that runs up the bill.</p>
+  </div></section>
+  <script type="application/ld+json">{"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"Is a fan or a portable air conditioner better?","acceptedAnswer":{"@type":"Answer","text":"It depends on the day. A fan moves air to cool your skin for about a penny an hour and is enough for most warm days. A portable air conditioner actually lowers the room temperature but costs roughly 26p to 39p an hour, thirty to fifty times more, so it is worth it only on the few days the air itself is too hot for a fan to help."}},{"@type":"Question","name":"How much more does a portable air conditioner cost to run than a fan?","acceptedAnswer":{"@type":"Answer","text":"About thirty to fifty times as much. A fan drawing 50 watts costs around 1.3p an hour, while a portable air conditioner drawing 1 to 1.5 kW costs about 26p to 39p an hour at the 26p standard rate. A portable unit can cost in one day what a fan costs in a month."}},{"@type":"Question","name":"Does an evaporative air cooler work as well as air conditioning?","acceptedAnswer":{"@type":"Answer","text":"No. An evaporative cooler blows air over a wet pad, cooling it slightly, and uses only a little more power than a fan. But it adds moisture and works best in dry heat, so in the humid warmth of a typical British hot spell its effect is modest. It is a cheap step up from a fan, not a replacement for real air conditioning."}},{"@type":"Question","name":"Do I really need air conditioning in the UK?","acceptedAnswer":{"@type":"Answer","text":"For most people, no. Shading the windows, flushing cool air through at night and using a fan handle the great majority of warm days for pennies. A portable air conditioner is worth buying only if you face a run of genuinely too-hot days you cannot manage any other way, and you accept its much higher running cost and the need to vent it out of a window."}}]}</script>
+''',
+)
+
+PAGES["heat-pump-running-cost-vs-gas-boiler"] = dict(
+    title="Heat pump running cost vs a gas boiler",
+    description="The real running-cost comparison between a heat pump and a gas boiler: how efficiency and the gap between electricity and gas prices decide it, the cost per unit of heat worked out, why the tariff matters so much, and where each comes out ahead.",
+    active="guides",
+    blurb="It hinges on efficiency and the gap between electricity and gas prices. The cost per unit of heat, worked out honestly.",
+    body='''
+  <section class="section"><div class="wrap prose">
+    <style>
+      .ev-key{background:var(--paper-alt,#f4f1ea);border:1px solid var(--line);border-radius:12px;padding:18px 22px;margin:6px 0 8px}
+      .ev-key p{margin:0}
+      .ev-table{width:100%;border-collapse:collapse;margin:14px 0;font-size:.97rem}
+      .ev-table th,.ev-table td{border:1px solid var(--line);padding:9px 12px;text-align:left}
+      .ev-table th{background:var(--paper-alt,#f4f1ea);font-weight:600}
+      .ev-table td:not(:first-child),.ev-table th:not(:first-child){text-align:right}
+      .ev-note{font-size:.9rem;color:var(--ink-soft,#5b5b5b)}
+      @media(max-width:560px){.ev-table{font-size:.86rem}.ev-table th,.ev-table td{padding:7px 8px}}
+    </style>
+
+    <p class="lede">Whether a heat pump is cheaper to run than a gas boiler is one of the most asked and most muddled questions in home energy, and the honest answer is that it depends on two numbers: how efficiently the heat pump runs, and the gap between what you pay for electricity and what you pay for gas. Get both in your favour and a heat pump is clearly cheaper; get them against you and it can cost about the same or more. This guide works out the real figures rather than the slogans.</p>
+
+    <div class="ev-key">
+      <p><strong>The short answer.</strong> A gas boiler is roughly 90 per cent efficient, so a unit of gas at about 6.5p gives heat at around 7p per kWh. A heat pump delivers about three to four units of heat per unit of electricity, so at the 26p standard electricity rate it gives heat at roughly 6.5p to 8.7p per kWh, depending on its efficiency. That makes the two close on a standard tariff. On a dedicated heat-pump electricity tariff the heat pump wins comfortably. The deciding factor is the price gap between electricity and gas, not the technology.</p>
+    </div>
+
+    <h2>The two numbers that decide it</h2>
+    <p>A gas boiler and a heat pump make heat in completely different ways, and comparing them fairly means reducing both to the same thing: the cost of a unit of useful heat delivered into your home. For a gas boiler that depends on the price of gas and the boiler's efficiency, which for a modern condensing boiler running well is around 90 per cent, so a little of the gas you pay for is lost. For a heat pump it depends on the price of electricity and the pump's efficiency, measured as its coefficient of performance or, over a year, its seasonal figure. Crucially a heat pump does not burn its electricity for heat; it uses it to move heat from outside into the house, so it delivers several units of heat for each unit of electricity, as the <a href="heat-pumps-explained.html">heat pumps explained</a> guide describes. A good system returns three to four units of heat per unit of power.</p>
+
+    <h2>Cost per unit of heat, worked out</h2>
+    <p>Put real prices in and the comparison comes alive. The figures below use a gas rate of about 6.5p per kWh and an electricity rate of about 26p, both representative of the price cap in mid 2026, and a separate lower rate for a dedicated heat-pump tariff. The heat pump rows show different efficiencies, because a well-designed system in a well-insulated home achieves a higher figure than a poorly set one.</p>
+
+    <table class="ev-table">
+      <thead><tr><th>Heating</th><th>Assumption</th><th>Cost per kWh of heat</th></tr></thead>
+      <tbody>
+        <tr><td>Gas boiler</td><td>6.5p gas, 90% efficient</td><td>~7.2p</td></tr>
+        <tr><td>Heat pump, standard rate</td><td>26p electricity, efficiency 3.0</td><td>~8.7p</td></tr>
+        <tr><td>Heat pump, standard rate</td><td>26p electricity, efficiency 3.5</td><td>~7.4p</td></tr>
+        <tr><td>Heat pump, standard rate</td><td>26p electricity, efficiency 4.0</td><td>~6.5p</td></tr>
+        <tr><td>Heat pump, heat-pump tariff</td><td>15p electricity, efficiency 3.5</td><td>~4.3p</td></tr>
+      </tbody>
+    </table>
+    <p class="ev-note">Rates representative of the price cap, mid 2026; gas and electricity unit rates vary by region and tariff, so check your own bill. The heat-pump tariff row uses an example 15p rate typical of dedicated heat-pump deals. Standing charges are separate, and going all-electric removes the daily gas standing charge.</p>
+
+    <h2>Why they come out so close on a standard tariff</h2>
+    <p>The table shows the heart of the matter. On a standard tariff, a heat pump running at a typical real-world efficiency of around 3.5 delivers heat at much the same cost as a gas boiler, sometimes a little less, sometimes a little more. The reason is that electricity in Britain costs roughly four times as much as gas per unit, while a good heat pump is only about three to four times as efficient as a boiler at turning what you pay for into heat. Those two ratios nearly cancel, which is why the standard-tariff rows cluster around the gas figure. It also means the result is sensitive: a heat pump that achieves a high efficiency edges ahead, while one running poorly, in a draughty house or set up to run hot, can fall behind. The fabric of the home and the quality of the installation matter as much as the box on the wall.</p>
+
+    <h2>Why the tariff changes everything</h2>
+    <p>The bottom row is where the heat pump pulls clear. Because it runs on electricity, a heat pump can use a dedicated heat-pump or time-of-use tariff, where the unit rate is well below the standard cap. Drop the electricity price and the heat pump's cost per unit of heat drops with it, comfortably below gas, while the gas boiler has no such lever. This is the same lesson the <a href="ev-charging-at-home-cost.html">EV charging</a> guides keep returning to: once a thing runs on electricity, the tariff you put it on becomes the biggest cost decision you make. A heat pump on the right electricity tariff is clearly cheaper to run than a gas boiler; the same heat pump on a flat standard rate may only break even.</p>
+
+    <h2>What it means for a year's heating</h2>
+    <p>A typical home needs very roughly 11,000 to 12,000 kWh of heat a year. At the per-unit figures above, that is around 850 to 870 pounds of gas through a boiler, a similar figure for a heat pump on a standard rate at average efficiency, and closer to 500 pounds for a heat pump on a good heat-pump tariff, plus or minus a great deal depending on your home, your habits and your rates. Set against the boiler you also save its servicing and lose the gas standing charge if you go fully electric. These are illustrative, not a quote: your own annual heat demand and unit rates move the answer a lot, so treat the per-unit cost as the reliable comparison and scale it to your own usage.</p>
+
+    <h2>Getting a heat pump into the cheaper column</h2>
+    <p>Since the result is decided at the margin, the things that tip it are worth doing. Insulate and draught-proof first, because a warmer, tighter home lets the heat pump run at a lower flow temperature, which is exactly where it is most efficient, so the <a href="loft-insulation.html">insulation</a> and <a href="draught-proofing.html">draught-proofing</a> basics pay double. Size and set the system properly, running it steady and gentle rather than in hot blasts, the opposite of how many people run a boiler, as the <a href="boiler-flow-temperature.html">flow temperature</a> guide explains for boilers and which matters even more for a pump. And get onto a heat-pump electricity tariff. Do all three and a heat pump moves from break-even to clearly cheaper; skip them and it struggles to beat the boiler it replaced.</p>
+
+    <h2>The bottom line</h2>
+    <p>A heat pump is not automatically cheaper to run than a gas boiler, and anyone who tells you it always is, or never is, is skipping the arithmetic. On a standard tariff the two are close, because electricity costs about four times what gas does while a good heat pump is about three to four times as efficient, so the ratios nearly cancel. The heat pump wins clearly when it runs efficiently in a well-insulated home on a dedicated electricity tariff, and can lose when those are missing. Do the fabric, set it up to run gently, and put it on the right tariff, and the running cost lands firmly in its favour.</p>
+  </div></section>
+  <script type="application/ld+json">{"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"Is a heat pump cheaper to run than a gas boiler?","acceptedAnswer":{"@type":"Answer","text":"It depends on the heat pump's efficiency and the gap between electricity and gas prices. On a standard tariff the two are close, because electricity costs about four times as much as gas while a good heat pump is three to four times as efficient. On a dedicated heat-pump electricity tariff the heat pump is comfortably cheaper."}},{"@type":"Question","name":"What is the cost per unit of heat for a heat pump versus gas?","acceptedAnswer":{"@type":"Answer","text":"A gas boiler at 90 per cent efficiency on 6.5p gas gives heat at about 7.2p per kWh. A heat pump on the 26p standard electricity rate gives heat at about 6.5p to 8.7p per kWh depending on its efficiency, so roughly level with gas. On a 15p heat-pump tariff at an efficiency of 3.5 it falls to about 4.3p per kWh, well below gas."}},{"@type":"Question","name":"Why is a heat pump not always cheaper than gas?","acceptedAnswer":{"@type":"Answer","text":"Because electricity in Britain costs roughly four times as much as gas per unit, while a good heat pump is only about three to four times as efficient as a boiler. Those ratios nearly cancel on a standard tariff, so the result is close and depends on the pump running efficiently in a well-insulated home and ideally on a cheaper electricity tariff."}},{"@type":"Question","name":"How do I make a heat pump cheaper to run?","acceptedAnswer":{"@type":"Answer","text":"Insulate and draught-proof so the pump can run at a low flow temperature where it is most efficient, set it to run steady and gentle rather than in hot blasts, and get onto a dedicated heat-pump electricity tariff with a lower unit rate. Together these move a heat pump from breaking even with gas to clearly cheaper."}}]}</script>
+''',
+)
+
 PAGES["energy-saving-myths"] = dict(
     title="Energy-saving myths that cost you money",
     description="The common energy-saving beliefs that are wrong or exaggerated, from leaving the heating on low all day to unplugging phone chargers, and the small number of changes that genuinely move the bill instead.",
@@ -1668,7 +1902,7 @@ PAGES["keeping-cool-without-air-con"] = dict(
     <p>Your home makes its own heat, and on a hot day it all adds up. The oven and hob throw out a lot, so cook outside, use the <a href="air-fryer-running-cost.html">air fryer</a> or microwave, or eat cold food on the hottest days. Lights, especially any remaining old bulbs, and electronics left running all give off warmth, so switch off what you are not using. Even drying washing indoors adds heat and humidity. Removing these small internal sources keeps the baseline temperature down for nothing.</p>
 
     <h2>The cost gap between a fan and a compressor</h2>
-    <p>This is the number that should give anyone pause before buying a portable air conditioner. A fan uses tens of watts; a portable air conditioner with a compressor draws around a kilowatt or more, perhaps thirty to fifty times as much, so running one through a heatwave can add a serious sum to the bill. Air conditioning genuinely cools the air where a fan cannot, but it is an expensive last resort, not a first move. Exhaust the free measures and the fan first, and reserve real cooling for the rare days when nothing else is enough.</p>
+    <p>This is the number that should give anyone pause before buying a portable air conditioner. A fan uses tens of watts; a portable air conditioner with a compressor draws around a kilowatt or more, perhaps thirty to fifty times as much, so running one through a heatwave can add a serious sum to the bill. Air conditioning genuinely cools the air where a fan cannot, but it is an expensive last resort, not a first move. Exhaust the free measures and the fan first, and reserve real cooling for the rare days when nothing else is enough. For the hard figures, the <a href="fan-running-cost.html">fan running cost</a> and <a href="air-conditioning-running-cost.html">air conditioning running cost</a> guides work both out, and the <a href="portable-air-conditioner-vs-fan.html">portable air conditioner versus fan</a> guide compares them side by side.</p>
 
     <h2>If you do use cooling, use it well</h2>
     <p>Where air conditioning is genuinely needed, the same discipline that controls any heavy load keeps the cost down. Cool only the room you are in rather than the whole house, shut its door and windows so you are not cooling the outdoors, set the target temperature modestly rather than as cold as it will go, and switch it off when you leave. Combined with shading and night ventilation, occasional, targeted cooling on the worst days costs far less than running a unit flat out because the free measures were skipped.</p>
@@ -2133,7 +2367,8 @@ GUIDES_ORDER = [
     "curtains-for-warmth", "radiator-reflectors",
     "thermostat-settings", "smart-thermostats", "radiator-valves-and-zoning",
     "how-to-bleed-radiators", "boiler-flow-temperature", "how-condensing-boilers-work",
-    "heat-pumps-explained", "portable-heaters-running-cost", "electric-blanket-vs-heating",
+    "heat-pumps-explained", "heat-pump-running-cost-vs-gas-boiler",
+    "portable-heaters-running-cost", "electric-blanket-vs-heating",
     "storage-heaters-explained",
     # Hot water
     "hot-water-savings", "cylinder-jacket-and-pipe-lagging", "immersion-heater-cost",
@@ -2157,6 +2392,7 @@ GUIDES_ORDER = [
     "ev-charging-in-winter", "ev-cost-vs-petrol-per-year",
     # Seasonal
     "winter-energy-checklist", "keeping-cool-without-air-con",
+    "air-conditioning-running-cost", "fan-running-cost", "portable-air-conditioner-vs-fan",
     # Myths, renting and quick wins
     "energy-saving-myths", "saving-energy-when-renting", "quick-wins-under-a-tenner",
 ]

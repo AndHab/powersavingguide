@@ -35,14 +35,18 @@ GSC (early June 2026) shows the site picking up UK impressions on the EV home-ch
   - `home-ev-charger-vs-3-pin-plug` — charge-speed table (granny cable ~8 mi/hr vs 7kW ~25-30), install cost ~£800-1,200, when the cable is enough, auto off-peak scheduling. Hub links from the charger-vs-plug section.
   - `ev-charging-in-winter` — 10-30% range loss, cabin heating not battery harm, slow cold rapid-charging, preconditioning while plugged in. Linked from best-time-to-charge.
   - `ev-cost-vs-petrol-per-year` — annual cost at 7,500/12,000 miles across off-peak/standard/public/petrol, tariff sensitivity. Linked from the hub's petrol-comparison section.
+- **Summer cooling cost cluster (9 Jun 2026)** — three cost-focused cooling guides, all live and cross-linked, sitting alongside the existing behavioural `keeping-cool-without-air-con` (which now links to all three). Built ahead of the summer "how much does it cost to run X" search spike:
+  - `air-conditioning-running-cost` — cooling-cost hub: portable vs fixed split, cost-per-hour/day table at 26p, venting-hose point, energy label, how to cut.
+  - `fan-running-cost` — high-volume reassurance query; cost-by-fan-type table, a penny an hour, whole-night/whole-summer figures.
+  - `portable-air-conditioner-vs-fan` — the direct "vs" query; cost gap, where an evaporative cooler sits, when each is worth it.
+- **Heat pump vs gas boiler running cost (9 Jun 2026)** — `heat-pump-running-cost-vs-gas-boiler`, queue item 6 done. Cost-per-kWh-of-heat table (gas 90% on 6.5p ≈ 7.2p; heat pump at SCOP 3/3.5/4 on 26p; heat-pump tariff at 15p ≈ 4.3p), the spark-gap explanation, tariff dependence. Linked from `heat-pumps-explained`.
 
 ### Queue (future-date about one a week)
 
 Broader energy clusters (high-intent, evergreen):
 5. **How much does it cost to run a [tumble dryer / electric shower / immersion heater] for a year** — deepen the existing appliance pages with the same table + FAQ-schema treatment, since these are classic "how much does it cost" queries.
-6. **Heat pump running cost vs gas boiler** — the real per-unit comparison with COP, where it wins and where it does not.
-7. **Is solar worth it in 2026?** — payback with current export rates and install costs, deepen `is-solar-worth-it`.
-8. **Standing charges explained** — already strong; candidate for a Part A deepen with current price-cap standing-charge figures.
+6. **Is solar worth it in 2026?** — payback with current export rates and install costs, deepen `is-solar-worth-it`.
+7. **Standing charges explained** — already strong; candidate for a Part A deepen with current price-cap standing-charge figures.
 
 ## Method checklist for each flagship
 
