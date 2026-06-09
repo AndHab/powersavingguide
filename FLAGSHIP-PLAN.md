@@ -48,10 +48,14 @@ GSC (early June 2026) shows the site picking up UK impressions on the EV home-ch
 
 - **Standing charges deepen (9 Jun 2026)** — `standing-charges-explained` Part A: added quick-answer box, real-figure table and FAQ schema using the live Ofgem cap standing charges (elec 57.19p/day, gas 29.04p/day, combined ~86p/day ≈ £315/yr; 1 Jul–30 Sep 2026, GB direct-debit average). Replaced the old illustrative 60p/30p worked example with the real dated figures. Note: like the gas unit rate, these move each quarter, so re-check at the next cap.
 
+- **Is solar worth it deepen (9 Jun 2026)** — `is-solar-worth-it` rebuilt + retitled "Is solar worth it in 2026?". Added quick-answer box, "what it costs and generates" section, a worked payback table (4 kW £7,500, 3,600 kWh, 26p import, 15p export, by self-consumption → ~9-12 yr), current SEG rates (5-15p flat, ~16p with import bundling, 30p+ peak with battery), and FAQ schema. Figures verified via web (FMB/Heatable install costs; SEG comparison sources, mid-2026). Also corrected the now-stale "self-use worth several times export" claim — true at 5p SEG (~5x), under 2x at 15p. Install cost ~£7-8.5k (0% VAT), generation 3,400-4,000 kWh/yr.
+
 ### Queue (future-date about one a week)
 
-Broader energy clusters (high-intent, evergreen):
-5. **Is solar worth it in 2026?** — payback with current export rates and install costs, deepen `is-solar-worth-it`. (Last clearly-queued flagship; after this, pull a fresh GSC cluster.)
+The clearly-queued flagships are now all done (EV cluster, cooling cluster, heat-pump-vs-gas, appliance cost trio, standing charges, solar). **Next move: pull a fresh Google Search Console cluster** rather than work from a stale queue — find a page getting impressions but not clicks and deepen it (Part A), or write a new spoke around whatever query cluster is emerging. Candidate evergreen ideas if no GSC signal: smart-thermostat payback, induction-vs-gas running cost deepen, EV battery degradation/longevity, octopus-style time-of-use tariff explainer.
+
+### Figures to re-check at the next Ofgem cap (Oct-Dec 2026, announced ~late Aug 2026)
+Hard-coded current-cap numbers live in several pages and will need a refresh: unit rates **gas 7.33p, elec 26.11p** (heat-pump, shower, immersion guides) and standing charges **elec 57.19p/day, gas 29.04p/day** (standing-charges guide). Solar SEG/install figures also drift; re-check `is-solar-worth-it` periodically.
 
 ## Method checklist for each flagship
 
