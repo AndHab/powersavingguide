@@ -44,13 +44,13 @@ GSC (early June 2026) shows the site picking up UK impressions on the EV home-ch
 - **Appliance cost cluster, first two deepened (9 Jun 2026)** — Part A deepens of two short-form pages into full flagship treatment (quick-answer box, real-figure table at 26.11p, FAQ schema), H1 shifted to the question form to match the query:
   - `tumble-dryer-cost` → "How much does it cost to run a tumble dryer?" — ~3 kWh/load ≈ 78p, ~£122/yr at 3 loads/wk; heat-pump dryer ~half. Cross-links drying-without-a-dryer, washing-machine, energy-labels.
   - `electric-shower-cost` → "How much does it cost to run an electric shower?" — 8.5–10.5 kW table × shower length; 8-min ≈ 30–40p; one person ~£120/yr, family of four ~£480. Gas-mixer vs bath comparison (gas heat ~8p, consistent with the heat-pump guide). Cross-links hot-water-savings, low-flow-showerheads.
+  - `immersion-heater-cost` → "How much does it cost to run an immersion heater?" (deepened 9 Jun 2026) — full-reheat table by cylinder size (7/9/12 kWh) at standard 26p vs example Economy 7 night 13p; tankful ≈ £1.80–3.15; ~£600–850/yr as a main heater, ~half on E7; the gas-boiler-backup-left-on money-waster; timer + cylinder jacket. vs gas ~3× per unit (8p). Cross-links economy-7, cylinder-jacket, hot-water-savings. **Appliance cost cluster now complete (all three deepened).**
 
 ### Queue (future-date about one a week)
 
 Broader energy clusters (high-intent, evergreen):
-5. **Immersion heater cost for a year** — finish the appliance cluster: deepen `immersion-heater-cost` with the same table + FAQ treatment (Economy 7 angle, cylinder size, vs gas).
-6. **Is solar worth it in 2026?** — payback with current export rates and install costs, deepen `is-solar-worth-it`.
-7. **Standing charges explained** — already strong; candidate for a Part A deepen with current price-cap standing-charge figures.
+5. **Is solar worth it in 2026?** — payback with current export rates and install costs, deepen `is-solar-worth-it`.
+6. **Standing charges explained** — already strong; candidate for a Part A deepen with current price-cap standing-charge figures.
 
 ## Method checklist for each flagship
 
