@@ -2204,7 +2204,22 @@ PAGES["standing-charges-explained"] = dict(
     blurb="The fixed daily fee you pay before using a single unit. What it covers, and the narrow cases where you can dodge it.",
     body='''
   <section class="section"><div class="wrap prose">
+    <style>
+      .ev-key{background:var(--paper-alt,#f4f1ea);border:1px solid var(--line);border-radius:12px;padding:18px 22px;margin:6px 0 8px}
+      .ev-key p{margin:0}
+      .ev-table{width:100%;border-collapse:collapse;margin:14px 0;font-size:.97rem}
+      .ev-table th,.ev-table td{border:1px solid var(--line);padding:9px 12px;text-align:left}
+      .ev-table th{background:var(--paper-alt,#f4f1ea);font-weight:600}
+      .ev-table td:not(:first-child),.ev-table th:not(:first-child){text-align:right}
+      .ev-note{font-size:.9rem;color:var(--ink-soft,#5b5b5b)}
+      @media(max-width:560px){.ev-table{font-size:.86rem}.ev-table th,.ev-table td{padding:7px 8px}}
+    </style>
+
     <p class="lede">A standing charge is the fixed daily fee on your energy bill that you pay before you have drawn a single unit of gas or electricity. It shows up as a modest number in pence per day, it is easy to skim past, and across a year it grows into a real slice of what you hand over. Knowing what it covers, why it varies so much, and the few situations where you can sidestep it is worth the few minutes it takes to get your head round.</p>
+
+    <div class="ev-key">
+      <p><strong>The short answer.</strong> At the current Ofgem price cap, the average direct-debit standing charge is 57.19p a day for electricity and 29.04p a day for gas, so a dual-fuel home pays about 86p a day, roughly £315 a year, before using a single unit. It pays for staying connected to the network, not for the energy itself, so cutting your usage cannot reduce it. It varies by region and payment method, and only very low users come out ahead on a no-standing-charge tariff.</p>
+    </div>
 
     <h2>What the standing charge actually pays for</h2>
     <p>The standing charge is the cost of keeping your home connected to the network rather than the cost of the energy you pull through it. It covers maintaining the wires, cables and pipes that reach your property, reading and servicing the meter, running your account, and a share of wider industry costs that suppliers are obliged to collect from everyone. Some of those costs are nothing to do with how much you personally burn; they are spread evenly across every connected household. A flat sitting empty for a month, drawing almost nothing, still owes the daily fee for staying plugged in.</p>
@@ -2218,8 +2233,20 @@ PAGES["standing-charges-explained"] = dict(
     <h2>Why it varies by region and how you pay</h2>
     <p>Two identical houses in different parts of the country can carry noticeably different standing charges. The biggest reason is the local network: the cost of distributing energy varies from region to region depending on the wires, the distances and the upkeep, and that regional cost is baked into the charge. How you pay matters too. Paying by direct debit is usually the cheapest route, while prepayment meters and paying on receipt of a paper bill can attract different fixed costs. The regulator caps the standing charge on standard tariffs, but the cap itself differs by region and by payment method, so there is no single national figure to memorise. The only number that matters is the one printed on your own tariff.</p>
 
-    <h2>A worked example</h2>
-    <p>Take an illustrative case to see the shape of it. Suppose the electricity standing charge is 60p a day and the gas charge is 30p a day. That is 90p every day before you have boiled a kettle or run the heating, which works out at about £6.30 a week and a little over £328 across a year, none of it related to how careful you are. Now picture a small, efficient flat that uses very little energy: that household might find the fixed daily fees make up a large fraction of the whole bill, while the actual energy is a smaller part. A large, busy family home with high usage pays the same fixed fees, but they shrink to a small slice of a much bigger total. The figures here are an example to show the mechanics, not a quote; your own pence-per-day numbers are on your bill.</p>
+    <h2>A worked example with the current cap</h2>
+    <p>Put real numbers on it. At the Ofgem price cap for 1 July to 30 September 2026, the average direct-debit standing charges are 57.19p a day for electricity and 29.04p a day for gas. The table shows what each comes to over a week and a year.</p>
+
+    <table class="ev-table">
+      <thead><tr><th>Standing charge</th><th>Per day</th><th>Per week</th><th>Per year</th></tr></thead>
+      <tbody>
+        <tr><td>Electricity</td><td>57.19p</td><td>~£4.00</td><td>~£209</td></tr>
+        <tr><td>Gas</td><td>29.04p</td><td>~£2.03</td><td>~£106</td></tr>
+        <tr><td>Both combined</td><td>86.23p</td><td>~£6.04</td><td>~£315</td></tr>
+      </tbody>
+    </table>
+    <p class="ev-note">Ofgem price cap, 1 July to 30 September 2026, Great Britain average for direct debit. Standing charges vary by region and differ again for prepayment or paying on receipt of a bill, so check your own tariff for the figure that applies to you.</p>
+
+    <p>So a dual-fuel home hands over about 86p every day, some £315 a year, before boiling a kettle or running the heating, none of it related to how careful you are. Now picture a small, efficient flat that uses very little energy: those fixed daily fees make up a large fraction of its whole bill, while the actual energy is a smaller part. A large, busy family home pays exactly the same fixed fees, but they shrink to a small slice of a much bigger total. The floor is identical for both; what differs is how much usage stacks on top of it.</p>
 
     <h2>Can you avoid it? No-standing-charge tariffs</h2>
     <p>A handful of suppliers offer tariffs with no standing charge at all, and on paper that sounds like a clean escape. The catch is that the fixed cost has to be recovered somewhere, so these deals carry a higher unit rate to make up for it. That maths only works in your favour if you use very little energy, because then the saving on the missing daily fee outweighs the extra you pay per unit. A second home, a rarely used flat or a single person in a tiny space can come out ahead on a no-standing-charge deal; a normal household that uses a fair amount of energy almost always pays more overall, because the higher unit rate bites on every kilowatt hour. Run the comparison on your own usage before assuming a zero-standing tariff is cheaper, since for most homes it is not.</p>
@@ -2230,6 +2257,7 @@ PAGES["standing-charges-explained"] = dict(
     <h2>Where to find yours and what to check</h2>
     <p>Your standing charges are printed on every bill and on your annual statement, usually in the tariff details, shown separately for gas and electricity in pence per day. It is worth a look whenever your deal is up for renewal or when you are thinking of <a href="switching-suppliers.html">switching supplier</a>, because a tariff with a tempting unit rate can hide a high standing charge, and one with a low daily fee can carry a steep unit rate. Compare both numbers together rather than fixating on the headline price per unit. Work out roughly how much energy you use across a year, multiply by the unit rate, add the standing charge over 365 days, and you have a like-for-like total that tells you which deal costs less in practice for the way you live.</p>
   </div></section>
+  <script type="application/ld+json">{"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"How much is the standing charge on energy bills?","acceptedAnswer":{"@type":"Answer","text":"At the Ofgem price cap for 1 July to 30 September 2026, the average direct-debit standing charge is 57.19p a day for electricity and 29.04p a day for gas, about 86p a day combined. That is roughly \\u00a3315 a year for a dual-fuel home before any energy is used. The figure varies by region and is different for prepayment or paying on receipt of a bill."}},{"@type":"Question","name":"What does the standing charge pay for?","acceptedAnswer":{"@type":"Answer","text":"It pays for keeping your home connected to the energy network rather than for the energy itself: maintaining the wires, cables and pipes to your property, reading and servicing the meter, running your account, and a share of wider industry costs spread across all households. You pay it even if you use nothing."}},{"@type":"Question","name":"Can you avoid paying a standing charge?","acceptedAnswer":{"@type":"Answer","text":"A few suppliers offer no-standing-charge tariffs, but they carry a higher unit rate to recover the fixed cost, so they only save money for very low users such as a second home or a rarely used flat. For a normal household the higher unit rate costs more overall, so compare both numbers on your own usage before switching."}},{"@type":"Question","name":"Why do I pay a standing charge if I use no energy?","acceptedAnswer":{"@type":"Answer","text":"Because the standing charge covers the cost of staying connected to the network, not the energy you draw. The wires, pipes and meter still have to be maintained and your account run whether or not you use anything, so the daily fee applies even to an empty property. Cutting your usage reduces the unit-rate part of the bill but never the standing charge."}}]}</script>
 ''',
 )
 

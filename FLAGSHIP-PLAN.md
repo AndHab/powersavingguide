@@ -46,11 +46,12 @@ GSC (early June 2026) shows the site picking up UK impressions on the EV home-ch
   - `electric-shower-cost` → "How much does it cost to run an electric shower?" — 8.5–10.5 kW table × shower length; 8-min ≈ 30–40p; one person ~£120/yr, family of four ~£480. Gas-mixer vs bath comparison (gas heat ~8p, consistent with the heat-pump guide). Cross-links hot-water-savings, low-flow-showerheads.
   - `immersion-heater-cost` → "How much does it cost to run an immersion heater?" (deepened 9 Jun 2026) — full-reheat table by cylinder size (7/9/12 kWh) at standard 26p vs example Economy 7 night 13p; tankful ≈ £1.80–3.15; ~£600–850/yr as a main heater, ~half on E7; the gas-boiler-backup-left-on money-waster; timer + cylinder jacket. vs gas ~3× per unit (8p). Cross-links economy-7, cylinder-jacket, hot-water-savings. **Appliance cost cluster now complete (all three deepened).**
 
+- **Standing charges deepen (9 Jun 2026)** — `standing-charges-explained` Part A: added quick-answer box, real-figure table and FAQ schema using the live Ofgem cap standing charges (elec 57.19p/day, gas 29.04p/day, combined ~86p/day ≈ £315/yr; 1 Jul–30 Sep 2026, GB direct-debit average). Replaced the old illustrative 60p/30p worked example with the real dated figures. Note: like the gas unit rate, these move each quarter, so re-check at the next cap.
+
 ### Queue (future-date about one a week)
 
 Broader energy clusters (high-intent, evergreen):
-5. **Is solar worth it in 2026?** — payback with current export rates and install costs, deepen `is-solar-worth-it`.
-6. **Standing charges explained** — already strong; candidate for a Part A deepen with current price-cap standing-charge figures.
+5. **Is solar worth it in 2026?** — payback with current export rates and install costs, deepen `is-solar-worth-it`. (Last clearly-queued flagship; after this, pull a fresh GSC cluster.)
 
 ## Method checklist for each flagship
 
