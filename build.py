@@ -358,22 +358,60 @@ PAGES["draught-proofing"] = dict(
 )
 
 PAGES["tumble-dryer-cost"] = dict(
-    title="The tumble dryer: your priciest habit",
-    description="Why the tumble dryer is one of the most expensive appliances to run, how much a typical load costs, and the cheaper ways to dry clothes without one.",
+    title="How much does it cost to run a tumble dryer?",
+    description="What a tumble dryer costs to run in the UK: the energy and cost of a typical load, what it adds up to over a year, why a heat-pump dryer uses about half the electricity of a vented or condenser model, and the cheaper ways to dry.",
     active="guides",
-    blurb="One of the most expensive things you can plug in. What a load really costs, and the cheaper ways to dry.",
+    blurb="A conventional dryer costs around 80p a load; a heat-pump model about half that. The figures, and the cheaper ways to dry.",
     body='''
   <section class="section"><div class="wrap prose">
-    <p class="lede">Anything that makes heat is expensive to run, and a tumble dryer makes a lot of it. For households that dry every load by machine, it is often one of the largest single lines on the electricity bill, and one of the easiest to trim.</p>
-    <h2>Why it costs so much</h2>
-    <p>A conventional vented or condenser dryer pulls a couple of kilowatts and runs for an hour or more per load. Run the numbers through the <a href="appliance-running-cost.html">cost calculator</a> and a daily load adds up to a serious annual figure, often rivalling the fridge-freezer despite running a fraction of the hours. The heat is the expense.</p>
-    <h2>Cheaper ways to dry</h2>
-    <p>The cheapest dryer is a washing line or an airer, which cost nothing to run. Drying outdoors when the weather allows, or on an airer in a well-ventilated room, removes the cost entirely. Spinning clothes at a higher speed in the washing machine first wrings out more water, so whatever drying you do afterwards is shorter. Even half your loads air-dried roughly halves the dryer's bill.</p>
+    <style>
+      .ev-key{background:var(--paper-alt,#f4f1ea);border:1px solid var(--line);border-radius:12px;padding:18px 22px;margin:6px 0 8px}
+      .ev-key p{margin:0}
+      .ev-table{width:100%;border-collapse:collapse;margin:14px 0;font-size:.97rem}
+      .ev-table th,.ev-table td{border:1px solid var(--line);padding:9px 12px;text-align:left}
+      .ev-table th{background:var(--paper-alt,#f4f1ea);font-weight:600}
+      .ev-table td:not(:first-child),.ev-table th:not(:first-child){text-align:right}
+      .ev-note{font-size:.9rem;color:var(--ink-soft,#5b5b5b)}
+      @media(max-width:560px){.ev-table{font-size:.86rem}.ev-table th,.ev-table td{padding:7px 8px}}
+    </style>
+
+    <p class="lede">Anything that makes heat is expensive to run, and a tumble dryer makes a lot of it. For a household that dries every load by machine it is often one of the largest single lines on the electricity bill, rivalling the fridge-freezer despite running a tiny fraction of the hours. The good news is that the cost is easy to work out, and it is one of the easiest big bills to trim, because the cheapest dryer of all costs nothing.</p>
+
+    <div class="ev-key">
+      <p><strong>The short answer.</strong> A conventional vented or condenser dryer uses around 3 kWh for a full load, so at the standard electricity rate of about 26p a unit that is roughly 78p a load, or about 120 pounds a year drying three loads a week. A heat-pump dryer uses around half that, near 40p a load. Drying every day pushes a conventional dryer past 280 pounds a year. A washing line or airer costs nothing at all.</p>
+    </div>
+
+    <h2>Why a tumble dryer costs so much</h2>
+    <p>A conventional vented or condenser dryer works by heating fresh air, blowing it through the wet clothes, and throwing the warm damp air away, either out of a vent or into a condenser tank. Heating air like that draws a lot of power, typically a couple of kilowatts, and it runs for an hour or more per load, so the energy mounts up. That is the whole story of the bill: not the time the machine runs, but the heat it makes while running. It is the same reason an <a href="electric-shower-cost.html">electric shower</a> or a kettle pulls so much, and the reason a dryer can cost as much over a year as appliances that are switched on far longer.</p>
+
+    <h2>What a load costs</h2>
+    <p>The sum is the one the <a href="appliance-running-cost.html">running cost calculator</a> does for any appliance: the energy a cycle uses, multiplied by your price per unit. The table uses the standard price-cap rate of about 26p per kWh, current in mid 2026. The energy per load varies with the machine, the programme and how wet the clothes go in, so treat these as typical full-load figures and check your own machine's rating.</p>
+
+    <table class="ev-table">
+      <thead><tr><th>Dryer type</th><th>Energy per load</th><th>Cost per load</th><th>Year at 3 loads/week</th><th>Year at 6 loads/week</th></tr></thead>
+      <tbody>
+        <tr><td>Vented or condenser</td><td>~3 kWh</td><td>~78p</td><td>~£122</td><td>~£244</td></tr>
+        <tr><td>Heat-pump dryer</td><td>~1.5 kWh</td><td>~39p</td><td>~£61</td><td>~£122</td></tr>
+      </tbody>
+    </table>
+    <p class="ev-note">At an example 26p per kWh. The split is the headline: a heat-pump dryer used six times a week costs about what a conventional one costs at three. Energy per load varies with load size, fabric and how hard the washing machine spun first, so your figure may differ.</p>
+
+    <h2>What it adds up to over a year</h2>
+    <p>The per-load figure looks small, but a tumble dryer is a daily-habit appliance, and the annual total is where it bites. Dry three loads a week on a conventional machine and you are spending well over a hundred pounds a year just on drying; dry every day, as a busy family easily can, and a vented or condenser dryer climbs past 280 pounds. That is why the dryer so often turns out to be one of the priciest things in the house despite running only an hour at a time. Knowing your own number is the first step: find the machine's energy per cycle, often on the <a href="energy-labels-explained.html">energy label</a> as a figure per 100 cycles, and scale it to how often you really run it.</p>
+
+    <h2>Conventional versus heat-pump: the big split</h2>
+    <p>Not all dryers are equal, and the difference is large. A heat-pump dryer does not throw its warm air away; it passes it over a heat pump that recovers the heat and reuses it, drying the clothes for roughly half the electricity of a vented or condenser machine, sometimes less. That is the gap the energy label makes obvious, with heat-pump models rating far better than the old vented sort. The trade-offs are a higher purchase price and a slightly longer, gentler cycle. For a light user who rarely dries by machine, a cheap vented dryer used occasionally is fine. For anyone drying often, the running-cost saving of a heat-pump model adds up over the life of the machine and usually outweighs the higher sticker price, the same logic the <a href="energy-labels-explained.html">energy labels</a> guide applies to any appliance that runs a lot.</p>
+
+    <h2>The free alternative</h2>
+    <p>The cheapest dryer is a washing line or a clothes airer, which cost nothing to run at all. Drying outdoors whenever the weather allows, or on an airer in a well-ventilated room, removes the cost entirely, and you do not have to do it for every load to save real money. Even air-drying half your washing roughly halves the dryer's annual bill. The single most effective trick before any drying, by machine or otherwise, is to spin the washing harder: a higher spin speed in the <a href="washing-machine-running-cost.html">washing machine</a> wrings out more water, so there is less left for the dryer or the line to remove, and the dryer runs for less time. The <a href="drying-clothes-without-a-tumble-dryer.html">drying clothes without a tumble dryer</a> guide covers the indoor options, including low-watt heated airers and dehumidifiers, for the days the weather will not help.</p>
+
     <h2>If you must use the machine</h2>
-    <p>Dry full loads rather than dribs and drabs, since the machine uses similar energy either way. Clean the lint filter every time, because a clogged filter makes the dryer work harder and longer. Use the moisture-sensor or eco programme if the machine has one, so it stops when the clothes are dry rather than running to a fixed timer.</p>
-    <h2>The efficient option</h2>
-    <p>If you dry a great deal and are replacing the machine anyway, a heat-pump dryer uses markedly less electricity than a conventional one, because it recycles its own warm air rather than heating fresh air and venting it. It costs more to buy and dries a little slower, but for a heavy user the running-cost saving is real over the life of the machine.</p>
+    <p>When the dryer is the only option, a few habits keep its cost down. Dry full loads rather than dribs and drabs, since the machine uses similar energy whether half or fully loaded, so part loads waste it. Clean the lint filter every single time, because a clogged filter chokes the airflow and makes the dryer work harder and run longer for the same result. Use the moisture-sensor or eco programme if the machine has one, so it stops the moment the clothes are dry rather than grinding on to a fixed timer. And dry similar fabrics together, since a load of light, fast-drying items finishes far quicker than a mixed load held up by one heavy towel. None of these costs anything, and together they trim a meaningful slice off every cycle.</p>
+
+    <h2>The bottom line</h2>
+    <p>A tumble dryer costs real money because it makes heat: a conventional vented or condenser model runs to about 78p a load and well over a hundred pounds a year at modest use, while a heat-pump dryer does the same job for roughly half. Read the energy per cycle off your machine, scale it to how often you dry, and you will know your own figure. Then cut it the obvious ways: spin harder first, air-dry whatever you can, run only full loads with a clean filter, and if you dry a great deal, let a heat-pump model pay back its higher price in lower bills.</p>
   </div></section>
+  <script type="application/ld+json">{"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"How much does it cost to run a tumble dryer?","acceptedAnswer":{"@type":"Answer","text":"A conventional vented or condenser dryer uses about 3 kWh per load, costing roughly 78p at the 26p standard electricity rate. That is about 120 pounds a year drying three loads a week, or over 280 pounds drying daily. A heat-pump dryer uses around half the electricity, about 39p a load."}},{"@type":"Question","name":"Is a heat-pump tumble dryer cheaper to run?","acceptedAnswer":{"@type":"Answer","text":"Yes, markedly. A heat-pump dryer recovers and reuses its own warm air instead of venting it, so it dries for roughly half the electricity of a vented or condenser model, around 1.5 kWh against 3 kWh per load. It costs more to buy and dries a little slower, but for frequent use the running-cost saving outweighs the higher price."}},{"@type":"Question","name":"Why is my tumble dryer so expensive to run?","acceptedAnswer":{"@type":"Answer","text":"Because it makes heat. A conventional dryer draws a couple of kilowatts to heat air and runs for an hour or more per load, so even though it is on only a short time it uses a lot of energy. Used daily it can cost as much over a year as a fridge-freezer that never switches off."}},{"@type":"Question","name":"How can I reduce the cost of using a tumble dryer?","acceptedAnswer":{"@type":"Answer","text":"Spin the washing at a higher speed first so less water is left to dry, air-dry whatever loads you can on a line or airer, run only full loads, clean the lint filter every time, and use the moisture-sensor or eco programme. If you dry often, a heat-pump dryer roughly halves the electricity used."}}]}</script>
 ''',
 )
 
@@ -1034,22 +1072,61 @@ PAGES["washing-machine-running-cost"] = dict(
 )
 
 PAGES["electric-shower-cost"] = dict(
-    title="What an electric shower costs to run",
-    description="Why electric showers are powerful energy users, how their high wattage but short run translates into real cost, how they compare with mixer showers and baths, and how to keep the bill down.",
+    title="How much does it cost to run an electric shower?",
+    description="What an electric shower costs to run in the UK: why its huge wattage matters less than you fear, the cost of a shower by power rating and length, what it adds up to for a household over a year, how it compares with a gas mixer and a bath, and how to keep the bill down.",
     active="guides",
-    blurb="One of the highest-wattage things in the house, used daily. What it really costs, and how to trim it.",
+    blurb="A 9 to 10 kW monster used for minutes. A typical shower costs 30 to 40p; the lever is time, not the wattage.",
     body='''
   <section class="section"><div class="wrap prose">
-    <p class="lede">An electric shower is among the most powerful appliances in the home, heating cold mains water instantly with an element of eight, nine or even ten kilowatts. That huge draw, used daily and often by several people, makes it worth understanding, though its short run keeps the per-shower cost lower than the frightening wattage suggests.</p>
-    <h2>High power, short burst</h2>
-    <p>The number on an electric shower is its power, not its cost. Ten kilowatts is enormous, far more than an oven, but a shower lasts minutes rather than hours, so the energy per shower is the power multiplied by that short time. A brisk shower costs a manageable amount; a long, daily one for each member of a household adds up to a real line on the electricity bill. The <a href="appliance-running-cost.html">cost calculator</a>, fed your shower's kilowatts and a typical duration, shows the figure for your own routine.</p>
-    <h2>How it compares</h2>
-    <p>An electric shower heats only the water you use, on demand, which is efficient in that nothing is heated and then left to go cold. But it heats with expensive electricity rather than cheaper gas, so a similar shower from a gas-heated mixer can cost less per minute even though both use hot water. Against a bath, a reasonable electric shower still uses far less, so the old advice to shower rather than bathe holds, provided the shower stays short.</p>
+    <style>
+      .ev-key{background:var(--paper-alt,#f4f1ea);border:1px solid var(--line);border-radius:12px;padding:18px 22px;margin:6px 0 8px}
+      .ev-key p{margin:0}
+      .ev-table{width:100%;border-collapse:collapse;margin:14px 0;font-size:.97rem}
+      .ev-table th,.ev-table td{border:1px solid var(--line);padding:9px 12px;text-align:left}
+      .ev-table th{background:var(--paper-alt,#f4f1ea);font-weight:600}
+      .ev-table td:not(:first-child),.ev-table th:not(:first-child){text-align:right}
+      .ev-note{font-size:.9rem;color:var(--ink-soft,#5b5b5b)}
+      @media(max-width:560px){.ev-table{font-size:.86rem}.ev-table th,.ev-table td{padding:7px 8px}}
+    </style>
+
+    <p class="lede">An electric shower is among the most powerful appliances in the home, heating cold mains water on the spot with an element of eight, nine or even ten and a half kilowatts. That enormous draw, used daily and often by several people, makes it look alarming on paper. But a shower lasts minutes, not hours, so the cost per shower turns out far gentler than the wattage suggests. This guide works out the real figures and where the bill actually comes from.</p>
+
+    <div class="ev-key">
+      <p><strong>The short answer.</strong> An electric shower draws 8.5 to 10.5 kilowatts, but runs only minutes, so a typical 8-minute shower costs about 30p to 40p at the standard electricity rate of around 26p a unit. One person showering daily comes to roughly 120 pounds a year; a family of four nearer 480 pounds. The power rating is fixed, so the lever you control is time, and the eco or summer setting.</p>
+    </div>
+
+    <h2>Huge power, short burst</h2>
+    <p>The big number on an electric shower is its power, not its cost. Ten kilowatts is vast, more than three or four ovens at once, which is why electric showers need their own heavy circuit. But power is the rate energy is used, and the energy that actually costs you is the power multiplied by the time. Because a shower lasts a handful of minutes rather than hours, that big rate over a short burst comes to a modest amount of energy. A brisk shower costs pence; a long, daily one for everyone in the house adds up to a real line on the bill. The trap is reading the kilowatt figure as if it ran for an hour, when it runs for eight minutes.</p>
+
+    <h2>What a shower actually costs</h2>
+    <p>The sum is the one the <a href="appliance-running-cost.html">running cost calculator</a> does for any appliance: the power in kilowatts, times the hours it runs, times your unit rate. The table works it out for the common shower powers and a range of shower lengths, at the standard price-cap rate of about 26p per kWh, current in mid 2026. Find your shower's rating, usually marked on the unit, and read across.</p>
+
+    <table class="ev-table">
+      <thead><tr><th>Shower power</th><th>5-minute shower</th><th>8-minute shower</th><th>10-minute shower</th></tr></thead>
+      <tbody>
+        <tr><td>8.5 kW</td><td>~18p</td><td>~30p</td><td>~37p</td></tr>
+        <tr><td>9.5 kW</td><td>~21p</td><td>~33p</td><td>~41p</td></tr>
+        <tr><td>10.5 kW</td><td>~23p</td><td>~37p</td><td>~46p</td></tr>
+      </tbody>
+    </table>
+    <p class="ev-note">At an example 26p per kWh. The figures show why time is the lever: the same 10.5 kW shower costs twice as much at ten minutes as at five. The power rating barely moves the cost compared with how long you stand under it.</p>
+
+    <h2>What it adds up to for a household</h2>
+    <p>One shower is cheap; the habit is what counts. A single person taking an 8-minute shower every day on a 9.5 kW unit spends about 33p a time, which is roughly 120 pounds over a year. Scale that to a household and it climbs fast: four people showering daily is closer to 480 pounds a year, making the shower one of the larger slices of the electricity bill. That is the figure worth knowing, because it is the one a few shorter showers a week visibly dents. Put your own shower's power and your family's habits through the calculator and you will see your real annual number rather than a guess.</p>
+
+    <h2>Electric shower versus a gas mixer and a bath</h2>
+    <p>Two fair comparisons put the cost in context. Against a gas-heated mixer shower, the electric shower has a catch: it heats with electricity at about 26p a unit, while a gas combi heats water at roughly 8p a unit of heat, as the <a href="hot-water-savings.html">hot water</a> guide explains, so gas is the cheaper fuel per unit. Set against that, an electric shower heats only the water that flows through it, on demand, and often at a lower flow rate, so it wastes nothing standing in a tank. In practice the two can land closer than the fuel prices alone suggest, but a gas mixer usually costs a little less per equivalent shower. Against a bath, though, a reasonable electric shower wins comfortably: a bath uses a large volume of heated water, far more than a short shower, so the old advice to shower rather than bathe holds, as long as the shower stays brief. A long, luxurious shower can use as much as a bath, which is the point at which the advice breaks down.</p>
+
     <h2>Keeping the cost down</h2>
-    <p>The lever is time, since the power is fixed. Shorter showers cost proportionally less, so a timer, or simply not lingering, is the main saving. Many electric showers have a lower power or eco setting for summer, when the incoming water is warmer and less heating is needed, so use it. Lowering the temperature setting a touch reduces the draw as well.</p>
-    <h2>Showerhead caution</h2>
-    <p>Unlike a mixer shower, an electric shower is not a good candidate for a <a href="low-flow-showerheads.html">low-flow head</a>, since it controls its own flow and restricting it can cause problems. The saving here comes almost entirely from spending less time under it. Keep showers brisk and use the eco setting when you can, and a high-wattage shower need not mean a frightening bill.</p>
+    <p>Because the power is fixed, time is the main lever, and it is a strong one: a five-minute shower costs little more than half what a ten-minute one does. A simple timer, or just not lingering, is the biggest saving available. Many electric showers also have a lower-power or eco setting, useful in summer when the incoming mains water is already warmer and needs less heating to reach temperature, so the element can run at reduced power; use it through the warmer months. Nudging the temperature setting down a touch reduces the draw as well. None of this is about cold, miserable showers, just brisk ones at a sensible heat.</p>
+
+    <h2>Why a low-flow head is the wrong move here</h2>
+    <p>One common saving does not apply to electric showers. Unlike a mixer shower, an electric shower controls its own flow as part of heating the water, so fitting a restrictive <a href="low-flow-showerheads.html">low-flow showerhead</a> can interfere with how it works and even cause it to overheat and cut out. The water saving on a mixer comes from throttling the flow; on an electric shower the flow is already modest and managed by the unit. The saving here comes almost entirely from spending less time under it, not from changing the head. Keep showers brisk, use the eco setting when the weather allows, and a frighteningly high-wattage shower need not mean a frightening bill.</p>
+
+    <h2>The bottom line</h2>
+    <p>An electric shower's huge wattage is misleading, because it runs only for minutes: a typical 8-minute shower costs about 30p to 40p at the standard rate, and the cost scales almost entirely with how long you stay under it. One person showering daily is around 120 pounds a year and a family of four nearer 480, so the household total is where it matters. A gas mixer is usually a little cheaper to run and a bath usually dearer than a short shower. Shorten the shower, use the eco setting in summer, leave the showerhead alone, and the bill stays modest however big the number on the unit.</p>
   </div></section>
+  <script type="application/ld+json">{"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"How much does it cost to run an electric shower?","acceptedAnswer":{"@type":"Answer","text":"An electric shower draws 8.5 to 10.5 kW but runs only minutes, so a typical 8-minute shower costs about 30p to 40p at the 26p standard electricity rate. One person showering daily comes to roughly 120 pounds a year, and a family of four nearer 480 pounds. The cost scales with how long you shower, not with the wattage."}},{"@type":"Question","name":"Does the high kilowatt rating make an electric shower expensive?","acceptedAnswer":{"@type":"Answer","text":"Less than it looks. The kilowatt figure is the rate energy is used, and the cost is that rate times the time. Because a shower lasts minutes rather than hours, even a 10 kW shower uses only a modest amount of energy per use, around 30p to 46p depending on its power and how long you stay under it."}},{"@type":"Question","name":"Is an electric shower cheaper than a gas shower or a bath?","acceptedAnswer":{"@type":"Answer","text":"A gas-heated mixer shower is usually a little cheaper, because gas costs roughly 8p a unit of heat against electricity at about 26p, though the electric shower wastes nothing by heating only the water that flows. Against a bath, a short electric shower is cheaper, since a bath uses far more heated water. A long shower can match a bath."}},{"@type":"Question","name":"How can I reduce the cost of an electric shower?","acceptedAnswer":{"@type":"Answer","text":"Shorten the shower, since cost scales almost entirely with time: a five-minute shower costs little more than half a ten-minute one. Use the lower-power eco setting in summer when the mains water is warmer, and nudge the temperature down a touch. Do not fit a low-flow showerhead, which can make an electric shower overheat and cut out."}}]}</script>
 ''',
 )
 

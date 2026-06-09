@@ -41,10 +41,14 @@ GSC (early June 2026) shows the site picking up UK impressions on the EV home-ch
   - `portable-air-conditioner-vs-fan` — the direct "vs" query; cost gap, where an evaporative cooler sits, when each is worth it.
 - **Heat pump vs gas boiler running cost (9 Jun 2026)** — `heat-pump-running-cost-vs-gas-boiler`, queue item 6 done. Cost-per-kWh-of-heat table (gas 90% on the real Ofgem cap rate 7.33p ≈ 8.1p; heat pump at SCOP 3/3.5/4 on 26.11p; heat-pump tariff at 15p ≈ 4.3p), the spark-gap explanation, tariff dependence. Linked from `heat-pumps-explained`. Gas rate pinned to the Ofgem cap for 1 Jul–30 Sep 2026 (gas 7.33p, elec 26.11p, gas standing charge 29.04p/day); at the real gas rate a good heat pump (SCOP 3.5+) edges *ahead* of gas even on a standard tariff, not just level.
 
+- **Appliance cost cluster, first two deepened (9 Jun 2026)** — Part A deepens of two short-form pages into full flagship treatment (quick-answer box, real-figure table at 26.11p, FAQ schema), H1 shifted to the question form to match the query:
+  - `tumble-dryer-cost` → "How much does it cost to run a tumble dryer?" — ~3 kWh/load ≈ 78p, ~£122/yr at 3 loads/wk; heat-pump dryer ~half. Cross-links drying-without-a-dryer, washing-machine, energy-labels.
+  - `electric-shower-cost` → "How much does it cost to run an electric shower?" — 8.5–10.5 kW table × shower length; 8-min ≈ 30–40p; one person ~£120/yr, family of four ~£480. Gas-mixer vs bath comparison (gas heat ~8p, consistent with the heat-pump guide). Cross-links hot-water-savings, low-flow-showerheads.
+
 ### Queue (future-date about one a week)
 
 Broader energy clusters (high-intent, evergreen):
-5. **How much does it cost to run a [tumble dryer / electric shower / immersion heater] for a year** — deepen the existing appliance pages with the same table + FAQ-schema treatment, since these are classic "how much does it cost" queries.
+5. **Immersion heater cost for a year** — finish the appliance cluster: deepen `immersion-heater-cost` with the same table + FAQ treatment (Economy 7 angle, cylinder size, vs gas).
 6. **Is solar worth it in 2026?** — payback with current export rates and install costs, deepen `is-solar-worth-it`.
 7. **Standing charges explained** — already strong; candidate for a Part A deepen with current price-cap standing-charge figures.
 
