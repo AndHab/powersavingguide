@@ -39,7 +39,7 @@ GSC (early June 2026) shows the site picking up UK impressions on the EV home-ch
   - `air-conditioning-running-cost` — cooling-cost hub: portable vs fixed split, cost-per-hour/day table at 26p, venting-hose point, energy label, how to cut.
   - `fan-running-cost` — high-volume reassurance query; cost-by-fan-type table, a penny an hour, whole-night/whole-summer figures.
   - `portable-air-conditioner-vs-fan` — the direct "vs" query; cost gap, where an evaporative cooler sits, when each is worth it.
-- **Heat pump vs gas boiler running cost (9 Jun 2026)** — `heat-pump-running-cost-vs-gas-boiler`, queue item 6 done. Cost-per-kWh-of-heat table (gas 90% on 6.5p ≈ 7.2p; heat pump at SCOP 3/3.5/4 on 26p; heat-pump tariff at 15p ≈ 4.3p), the spark-gap explanation, tariff dependence. Linked from `heat-pumps-explained`.
+- **Heat pump vs gas boiler running cost (9 Jun 2026)** — `heat-pump-running-cost-vs-gas-boiler`, queue item 6 done. Cost-per-kWh-of-heat table (gas 90% on the real Ofgem cap rate 7.33p ≈ 8.1p; heat pump at SCOP 3/3.5/4 on 26.11p; heat-pump tariff at 15p ≈ 4.3p), the spark-gap explanation, tariff dependence. Linked from `heat-pumps-explained`. Gas rate pinned to the Ofgem cap for 1 Jul–30 Sep 2026 (gas 7.33p, elec 26.11p, gas standing charge 29.04p/day); at the real gas rate a good heat pump (SCOP 3.5+) edges *ahead* of gas even on a standard tariff, not just level.
 
 ### Queue (future-date about one a week)
 
