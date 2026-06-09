@@ -30,14 +30,13 @@ GSC (early June 2026) shows the site picking up UK impressions on the EV home-ch
 - **EV home charging cost hub** — `ev-charging-at-home-cost` rebuilt (Part A deepen, 9 Jun 2026): quick-answer box, full-charge cost table by battery size, cost-per-mile table vs petrol, FAQ schema, dated real figures (price cap 26.11p, off-peak 7-9p, Zapmap rapid 79p, petrol ~159p/l). This is the cluster hub.
 - **Best time to charge an electric car** — `best-time-to-charge-an-electric-car` (new, live 9 Jun 2026): off-peak window, automatic scheduling, solar daytime, battery-health timing, winter preconditioning. Links to and from the hub.
 - **EV vs petrol running cost** — `ev-running-cost-vs-petrol` brought live early (was scheduled 12 Jun) to support the hub link.
+- **EV cluster spokes completed (9 Jun 2026)** — all four queued spokes written long-form (~1,600 words each), live now and fully cross-linked into the hub (zero broken links), since the cluster has live impressions and a self-contained four-page set links cleanly with no 404s:
+  - `electric-car-miles-per-kwh` — real efficiency by car class, what cuts it, how to measure, cost-per-mile table. Hub links to it from the cost-per-mile section.
+  - `home-ev-charger-vs-3-pin-plug` — charge-speed table (granny cable ~8 mi/hr vs 7kW ~25-30), install cost ~£800-1,200, when the cable is enough, auto off-peak scheduling. Hub links from the charger-vs-plug section.
+  - `ev-charging-in-winter` — 10-30% range loss, cabin heating not battery harm, slow cold rapid-charging, preconditioning while plugged in. Linked from best-time-to-charge.
+  - `ev-cost-vs-petrol-per-year` — annual cost at 7,500/12,000 miles across off-peak/standard/public/petrol, tariff sensitivity. Linked from the hub's petrol-comparison section.
 
 ### Queue (future-date about one a week)
-
-EV cluster (finish the hub's spokes first while it has impressions):
-1. **How many miles per kWh do electric cars get?** — real efficiency by car class, what cuts it (cold, speed, load), how to measure your own. Feeds the cost-per-mile sums.
-2. **Do you need a home EV charger? 3-pin vs 7kW wallbox** — charge speeds, install cost ballpark, when a granny cable is genuinely enough, off-peak scheduling.
-3. **EV charging in winter** — range and efficiency loss, preconditioning, why cold rapid-charging is slower, real percentage hit.
-4. **Cost to charge an EV vs the price of petrol over a year** — annual running-cost comparison at typical mileage, sensitivity to tariff.
 
 Broader energy clusters (high-intent, evergreen):
 5. **How much does it cost to run a [tumble dryer / electric shower / immersion heater] for a year** — deepen the existing appliance pages with the same table + FAQ-schema treatment, since these are classic "how much does it cost" queries.

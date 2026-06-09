@@ -1214,7 +1214,7 @@ PAGES["ev-charging-at-home-cost"] = dict(
     <p class="ev-note">Figures are the energy cost of a full charge at the rates above, before the roughly 10 per cent charging losses. In practice you rarely charge from completely empty to completely full, so a typical top-up costs less than the figures shown.</p>
 
     <h2>The cost per mile, and how far a charge goes</h2>
-    <p>Cost per mile is the more useful number, because it lets you compare an EV directly with petrol. At about 3.5 miles per kWh, a full 60 kWh battery takes you roughly 210 miles, so you can read the cost of any journey straight off your unit rate.</p>
+    <p>Cost per mile is the more useful number, because it lets you compare an EV directly with petrol. At about <a href="electric-car-miles-per-kwh.html">3.5 miles per kWh</a>, a full 60 kWh battery takes you roughly 210 miles, so you can read the cost of any journey straight off your unit rate.</p>
 
     <table class="ev-table">
       <thead><tr><th>Where you charge</th><th>Cost per mile</th><th>Cost of 100 miles</th></tr></thead>
@@ -1232,13 +1232,13 @@ PAGES["ev-charging-at-home-cost"] = dict(
     <p>Look again at that table. The car has not changed between the first two rows, only the time of day you charged. A standard daytime rate makes an EV reasonably cheap; a dedicated overnight EV tariff, where the unit price in the small hours is a fraction of the daytime rate, drops the cost per mile to a level petrol cannot touch. This is the single biggest lever you control, and it dwarfs anything to do with the car itself. Getting a <a href="smart-meters-explained.html">smart meter</a> and moving onto a time-of-use or EV tariff is close to essential to get the most from charging at home. It is worth comparing the EV tariffs on offer, because the size of the off-peak window and the gap between the cheap and peak rates vary a good deal between them.</p>
 
     <h2>Home charger versus the three-pin plug</h2>
-    <p>You can charge from an ordinary three-pin socket, but it is slow, adding only around 8 miles of range an hour, and a domestic socket is not designed for many hours of heavy continuous draw. A dedicated 7kW home wall charger is far quicker at roughly 25 to 30 miles of range an hour, safer for sustained charging, and crucially can be set to run only during your cheap off-peak window automatically. For anyone charging regularly at home, a proper charger usually earns its keep through convenience and by making off-peak charging effortless rather than something you have to start and stop by hand at midnight.</p>
+    <p>You can charge from an ordinary three-pin socket, but it is slow, adding only around 8 miles of range an hour, and a domestic socket is not designed for many hours of heavy continuous draw. A dedicated 7kW home wall charger is far quicker at roughly 25 to 30 miles of range an hour, safer for sustained charging, and crucially can be set to run only during your cheap off-peak window automatically. For anyone charging regularly at home, a proper charger usually earns its keep through convenience and by making off-peak charging effortless rather than something you have to start and stop by hand at midnight. The <a href="home-ev-charger-vs-3-pin-plug.html">3-pin plug versus 7kW wallbox</a> guide works through who genuinely needs a wallbox and who can manage on the cable that came with the car.</p>
 
     <h2>Home versus public charging</h2>
     <p>Home off-peak charging is the cheapest option by a wide margin, and as the cost-per-mile table shows, public rapid charging can actually cost more per mile than running a petrol car. You are paying for speed, convenience and the cost of the infrastructure. That is a fair deal as an occasional top-up on a long journey, but a driver who relies on rapid chargers for everyday miles throws away most of the running-cost advantage an EV should give. The model that saves the most is simple: do the bulk of your charging slowly and cheaply at home overnight, and use public chargers only to extend range on longer trips.</p>
 
     <h2>How it compares with petrol</h2>
-    <p>On an off-peak home tariff an electric car is dramatically cheaper to fuel than petrol, around six times cheaper per mile in the worked example above. Even on a standard daytime rate it is usually cheaper, though by a smaller margin. The fuel saving is one of the clearest running-cost advantages of going electric, but it should be weighed against the whole picture of buying and owning the car rather than taken alone. A fuller side-by-side of fuel, servicing and the rest is in the <a href="ev-running-cost-vs-petrol.html">EV versus petrol running cost</a> guide. If you are still running a combustion car, the habits on the <a href="hypermiling.html">hypermiling</a> and <a href="driving.html">fuel and driving</a> pages are the way to trim its thirst; if you have gone electric, the equivalent skill is simply charging at the right time, which the <a href="best-time-to-charge-an-electric-car.html">best time to charge</a> guide covers in detail.</p>
+    <p>On an off-peak home tariff an electric car is dramatically cheaper to fuel than petrol, around six times cheaper per mile in the worked example above. Even on a standard daytime rate it is usually cheaper, though by a smaller margin. The fuel saving is one of the clearest running-cost advantages of going electric, but it should be weighed against the whole picture of buying and owning the car rather than taken alone. A fuller side-by-side of fuel, servicing and the rest is in the <a href="ev-running-cost-vs-petrol.html">EV versus petrol running cost</a> guide, and the <a href="ev-cost-vs-petrol-per-year.html">year of charging versus a year of petrol</a> guide puts real annual figures on it. If you are still running a combustion car, the habits on the <a href="hypermiling.html">hypermiling</a> and <a href="driving.html">fuel and driving</a> pages are the way to trim its thirst; if you have gone electric, the equivalent skill is simply charging at the right time, which the <a href="best-time-to-charge-an-electric-car.html">best time to charge</a> guide covers in detail.</p>
 
     <h2>The bottom line</h2>
     <p>Charging an electric car at home costs whatever your unit rate says it does, and the rate is yours to choose. On a cheap overnight tariff a full charge of a mid-size car is a few pounds and your motoring costs about 2p a mile, which nothing burning petrol can match. Charge at the standard daytime rate and it is still cheaper than petrol, just less spectacularly. Lean on public rapid chargers for daily miles and you give the advantage back. Sort the tariff, charge overnight, and home charging is as cheap as motoring gets.</p>
@@ -1275,11 +1275,248 @@ PAGES["best-time-to-charge-an-electric-car"] = dict(
     <p>The cheap overnight window happens to line up with what is best for the battery's long-term health, which is a happy coincidence. Slow AC charging at home is gentler on the cells than repeated rapid charging, and for daily use it is better not to sit the battery at a full 100 per cent or run it to empty. A common approach is to set the charge limit to around 80 per cent for everyday driving and only fill to 100 per cent before a long trip. Scheduling the charge to finish shortly before you leave in the morning, rather than hitting full at midnight and sitting there for hours, is gentler still. Off-peak overnight charging gives you all of this for free as a side effect of chasing the cheap rate.</p>
 
     <h2>Cold mornings: precondition while plugged in</h2>
-    <p>In winter, warming the car's cabin and battery while it is still plugged in, rather than after you set off, draws that energy from the cheap mains supply instead of from the battery on the road. Most electric cars let you schedule preconditioning to finish around your departure time. Done while still on the charger in the off-peak window, it costs little and means you set off with a warm cabin and a battery already at temperature, which also improves your range for the journey.</p>
+    <p>In winter, warming the car's cabin and battery while it is still plugged in, rather than after you set off, draws that energy from the cheap mains supply instead of from the battery on the road. Most electric cars let you schedule preconditioning to finish around your departure time. Done while still on the charger in the off-peak window, it costs little and means you set off with a warm cabin and a battery already at temperature, which also improves your range for the journey. The <a href="ev-charging-in-winter.html">EV charging in winter</a> guide covers the cold-weather range loss and how to limit it in full.</p>
 
     <h2>The bottom line</h2>
     <p>The best time to charge an electric car is overnight, in the off-peak window of a time-of-use or EV tariff, set to run automatically so you never think about it. If you have solar, a sunny midday is better still. Avoid charging during the early-evening peak, schedule rather than babysit, and let the cheap hours do the work. Combined with the figures in the <a href="ev-charging-at-home-cost.html">cost of home charging</a> guide, this is what turns an electric car into the cheapest thing on the road to fuel.</p>
   </div></section>
+''',
+)
+
+PAGES["electric-car-miles-per-kwh"] = dict(
+    title="How many miles per kWh do electric cars get?",
+    description="What miles per kWh means, the real-world efficiency of different electric cars, what drags it down in cold weather and at speed, how to measure your own, and why this one number decides your cost per mile.",
+    active="guides",
+    blurb="The efficiency figure that decides your cost per mile. Real-world numbers by car type and what drags them down.",
+    body='''
+  <section class="section"><div class="wrap prose">
+    <style>
+      .ev-key{background:var(--paper-alt,#f4f1ea);border:1px solid var(--line);border-radius:12px;padding:18px 22px;margin:6px 0 8px}
+      .ev-key p{margin:0}
+      .ev-table{width:100%;border-collapse:collapse;margin:14px 0;font-size:.97rem}
+      .ev-table th,.ev-table td{border:1px solid var(--line);padding:9px 12px;text-align:left}
+      .ev-table th{background:var(--paper-alt,#f4f1ea);font-weight:600}
+      .ev-table td:not(:first-child),.ev-table th:not(:first-child){text-align:right}
+      .ev-note{font-size:.9rem;color:var(--ink-soft,#5b5b5b)}
+      @media(max-width:560px){.ev-table{font-size:.86rem}.ev-table th,.ev-table td{padding:7px 8px}}
+    </style>
+
+    <p class="lede">Miles per kWh is the electric car's version of miles per gallon, and it is the single number that decides what your motoring costs. Most cars sit somewhere between 3 and 4 miles for every kilowatt-hour, with an average of around 3.5, but the spread is wide and the conditions you drive in move it about far more than people expect. This guide explains what the figure means, what real cars actually return, and how to find your own.</p>
+
+    <div class="ev-key">
+      <p><strong>The short answer.</strong> A typical electric car returns about 3 to 4 miles per kWh, averaging roughly 3.5. Small, light, aerodynamic cars manage 4 to 4.5 or better; large SUVs and performance models drop to 2.5 to 3. Cold weather, motorway speeds, a heavy load and hard acceleration all cut the figure, sometimes by a third in deep winter. Your cost per mile is simply your electricity unit rate divided by your miles per kWh.</p>
+    </div>
+
+    <h2>What miles per kWh actually means</h2>
+    <p>A kilowatt-hour is a unit of energy, the same unit your electricity bill is priced in. Miles per kWh tells you how far the car travels on one of those units, so a car doing 3.5 miles per kWh covers three and a half miles for each unit it draws from the battery. It is the mirror image of the energy figure carmakers sometimes quote the other way round, in watt-hours per mile or per kilometre, where a lower number is better. Miles per kWh is the friendlier way to think about it for everyday sums, because it slots straight into a cost calculation: take what you pay per unit, divide by your miles per kWh, and you have your cost per mile. On a cheap overnight rate that lands around 2p a mile, which is the figure that makes an electric car so cheap to run, as the <a href="ev-charging-at-home-cost.html">cost of charging at home</a> guide sets out in full.</p>
+
+    <h2>What real cars return</h2>
+    <p>Manufacturer figures from the official test tend to flatter real driving, much as the old mpg figures did, so it is worth working from real-world numbers. As a rough guide, efficiency tracks the size, weight and shape of the car. A small, light, slippery hatchback is the most efficient thing on the road; a tall, heavy SUV or a fast performance car pushes more air aside and carries more mass, so it uses more energy for the same distance.</p>
+
+    <table class="ev-table">
+      <thead><tr><th>Type of car</th><th>Typical miles per kWh</th><th>Cost per mile off-peak (8p)</th><th>Range from 60 kWh</th></tr></thead>
+      <tbody>
+        <tr><td>Small, efficient EV</td><td>4.0 to 4.5</td><td>1.8p to 2.0p</td><td>240 to 270 mi</td></tr>
+        <tr><td>Mid-size hatch or saloon</td><td>3.3 to 3.8</td><td>2.1p to 2.4p</td><td>200 to 230 mi</td></tr>
+        <tr><td>Large SUV or performance EV</td><td>2.5 to 3.0</td><td>2.7p to 3.2p</td><td>150 to 180 mi</td></tr>
+        <tr><td>Rough average across all</td><td>3.5</td><td>2.3p</td><td>210 mi</td></tr>
+      </tbody>
+    </table>
+    <p class="ev-note">Cost per mile worked at an example 8p off-peak EV rate; multiply through for your own rate (for instance at the 26p standard rate the figures are roughly three times higher). Range assumes a usable 60 kWh battery. These are mild-weather, mixed-driving figures; winter and motorway use sit lower.</p>
+
+    <h2>What drags the figure down</h2>
+    <p>The number on a spec sheet is a best case, and four things in particular pull your real efficiency below it. Cold is the largest. In winter the battery is less willing to give up its energy, and far more importantly the car has to heat the cabin from the battery rather than from waste engine heat as a petrol car does, so short cold trips can knock 20 to 30 per cent off your miles per kWh. The <a href="ev-charging-in-winter.html">EV charging in winter</a> guide goes into this in detail. Speed is the next: air resistance climbs steeply with speed, so a steady motorway cruise uses noticeably more energy per mile than town driving, which is the reverse of what people expect from a petrol car. Town driving actually suits an EV, because regenerative braking claws back energy every time you slow down. Weight and load matter too, so a full car, a roof box or a towed trailer all cost range. And a heavy right foot, with hard acceleration and high speeds, drains the battery far faster than a gentle, anticipatory style.</p>
+
+    <h2>Why town driving beats the motorway</h2>
+    <p>This catches a lot of new EV drivers out. In a petrol car, stop-start town driving is the thirsty bit and a steady motorway run is where you see your best economy. An electric car flips that. Regenerative braking means that much of the energy you would lose slowing for a junction is recovered back into the battery, so urban driving, full of gentle slowing and stopping, is where an EV is most efficient. The motorway, where you hold a high steady speed against rising air resistance and rarely brake, is where efficiency is worst. It is why a long fast journey eats range faster than the same miles around town, and why easing off the motorway speed is the single most effective thing you can do to stretch a charge on a long trip.</p>
+
+    <h2>How to measure your own</h2>
+    <p>You do not have to guess, because every electric car tracks this for you. The dashboard or the trip computer shows a lifetime and a recent average efficiency, usually in miles per kWh or watt-hours per mile, and watching it over a few weeks tells you your real figure far better than any published number. If you want to check it independently, note the odometer and the energy used between two full charges, or simply divide the miles you covered on a charge by the kWh you put back in. Knowing your own figure is what makes the cost sums real: drop it into the <a href="appliance-running-cost.html">running cost calculator</a> alongside your unit rate, or just divide your rate by your miles per kWh, and you have your true cost per mile rather than an average that may not match how or where you drive.</p>
+
+    <h2>Why this number matters</h2>
+    <p>Miles per kWh is the hinge between two things you do control, your tariff and your driving style, and the thing you care about, the cost of every mile. A more efficient car needs less energy for the same journey, so it costs less to run and goes further on a charge, but the conditions you drive in swing the figure enough that the same car can feel cheap in summer and thirsty in a cold snap. Pair a good real-world efficiency with a cheap overnight rate and the right charging habits, covered in the <a href="best-time-to-charge-an-electric-car.html">best time to charge</a> guide, and you reach the couple-of-pence-a-mile figure that no petrol car can match. The car matters, but as ever the tariff and the timing matter more.</p>
+
+    <h2>The bottom line</h2>
+    <p>Most electric cars return between 3 and 4 miles per kWh, around 3.5 on average, with small efficient cars doing better and large or fast ones worse. Cold weather, high speeds, heavy loads and hard driving all cut the figure, while gentle town driving and regenerative braking lift it. Watch your own car's readout for your true number, divide your unit rate by it for your cost per mile, and you will know exactly what your motoring costs rather than relying on a showroom figure.</p>
+  </div></section>
+  <script type="application/ld+json">{"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"How many miles per kWh does an electric car get?","acceptedAnswer":{"@type":"Answer","text":"Most electric cars return about 3 to 4 miles per kWh, averaging roughly 3.5. Small, efficient cars manage 4 to 4.5 or more, while large SUVs and performance cars drop to 2.5 to 3. Cold weather and motorway speeds can cut the figure by 20 to 30 per cent."}},{"@type":"Question","name":"What is a good miles-per-kWh figure?","acceptedAnswer":{"@type":"Answer","text":"Anything around 4 miles per kWh or better is good and typical of small, efficient cars. The average across all electric cars is about 3.5. Large or fast cars at 2.5 to 3 are normal for their size. The figure you actually achieve depends as much on weather, speed and driving style as on the car."}},{"@type":"Question","name":"Why does my electric car's range drop in winter?","acceptedAnswer":{"@type":"Answer","text":"Cold reduces miles per kWh in two ways: the battery gives up its energy less readily when cold, and the car must heat the cabin from the battery rather than from engine waste heat. Together these can cut efficiency by 20 to 30 per cent on short cold trips."}},{"@type":"Question","name":"How do I work out my cost per mile from miles per kWh?","acceptedAnswer":{"@type":"Answer","text":"Divide your electricity unit rate by your miles per kWh. At an 8p off-peak rate and 3.5 miles per kWh that is about 2.3p a mile; at the 26p standard rate it is about 7.4p a mile. Use your car's own efficiency readout for the most accurate figure."}}]}</script>
+''',
+)
+
+PAGES["home-ev-charger-vs-3-pin-plug"] = dict(
+    title="Do you need a home EV charger? 3-pin plug vs 7kW wallbox",
+    description="Charging an electric car from an ordinary three-pin plug versus a dedicated 7kW home wallbox: the charge speeds compared, what a wallbox costs to fit, when a granny cable is genuinely enough, and why automatic off-peak charging tips the balance.",
+    active="guides",
+    blurb="A granny cable adds about 8 miles an hour; a 7kW wallbox three times that. When the slow plug is enough, and when it isn't.",
+    body='''
+  <section class="section"><div class="wrap prose">
+    <style>
+      .ev-key{background:var(--paper-alt,#f4f1ea);border:1px solid var(--line);border-radius:12px;padding:18px 22px;margin:6px 0 8px}
+      .ev-key p{margin:0}
+      .ev-table{width:100%;border-collapse:collapse;margin:14px 0;font-size:.97rem}
+      .ev-table th,.ev-table td{border:1px solid var(--line);padding:9px 12px;text-align:left}
+      .ev-table th{background:var(--paper-alt,#f4f1ea);font-weight:600}
+      .ev-table td:not(:first-child),.ev-table th:not(:first-child){text-align:right}
+      .ev-note{font-size:.9rem;color:var(--ink-soft,#5b5b5b)}
+      @media(max-width:560px){.ev-table{font-size:.86rem}.ev-table th,.ev-table td{padding:7px 8px}}
+    </style>
+
+    <p class="lede">You do not strictly need a dedicated home charger to run an electric car. Every car comes able to charge from an ordinary three-pin socket, and for some drivers that is genuinely enough. But a proper 7kW wallbox charges roughly three times faster, is built for the sustained load, and can schedule itself to run only in your cheap overnight window. This guide works out who actually needs one and who can manage without.</p>
+
+    <div class="ev-key">
+      <p><strong>The short answer.</strong> A three-pin plug, the so-called granny cable, adds about 8 miles of range an hour. A 7kW home wallbox adds roughly 25 to 30. If you drive modest daily miles and park off-street overnight, a granny cable can keep up; if you cover bigger distances or want charging to happen automatically in the cheap hours, a wallbox earns its keep. Fitting one typically costs somewhere in the region of 800 to 1,200 pounds installed, and you need off-street parking to put it on.</p>
+    </div>
+
+    <h2>The two ways to charge at home</h2>
+    <p>Home charging comes in two forms. The first is the cable supplied with the car, which plugs into a normal three-pin domestic socket. It is often nicknamed a granny cable, and it draws a modest amount of power, limited to what a household socket can safely deliver continuously, usually around 2.3 kilowatts. The second is a dedicated wall-mounted charge point, a wallbox, wired into your home's electrical supply on its own circuit and typically rated at 7kW. That is roughly three times the power, and the difference shows up entirely in how fast the car fills.</p>
+
+    <table class="ev-table">
+      <thead><tr><th>Charging method</th><th>Power</th><th>Range added per hour</th><th>Empty to full, 60 kWh</th></tr></thead>
+      <tbody>
+        <tr><td>Three-pin plug (granny cable)</td><td>~2.3 kW</td><td>~8 miles</td><td>~24 to 26 hours</td></tr>
+        <tr><td>7kW home wallbox</td><td>7 kW</td><td>~25 to 30 miles</td><td>~8 to 9 hours</td></tr>
+      </tbody>
+    </table>
+    <p class="ev-note">Range added per hour assumes about 3.5 miles per kWh; see the <a href="electric-car-miles-per-kwh.html">miles per kWh</a> guide. Charging from completely empty to completely full is rare in practice; most home charging is an overnight top-up of whatever you used that day.</p>
+
+    <h2>Why the granny cable can be enough</h2>
+    <p>The slow figure looks alarming until you do the arithmetic on real driving. The average car covers well under 30 miles a day, and at 8 miles of range an hour a three-pin plug replaces that in around four hours, comfortably inside an overnight charge. If you park off-street, plug in every evening, and drive ordinary daily distances, the granny cable quietly keeps the battery topped up while you sleep, and you may never need anything faster. It is the long charge from near-empty, or the day you come home late and need a big top-up before an early start, that exposes its limits. As an everyday trickle for a modest commute, though, it genuinely works, and starting with it costs nothing extra.</p>
+
+    <h2>Where the granny cable falls short</h2>
+    <p>Two things count against relying on a three-pin plug. The first is simply speed: if you drive bigger daily miles, or need to recover a lot of range overnight, 8 miles an hour cannot always keep up, and you can wake to a car that is not charged enough for the day. The second is the load. A domestic socket and its wiring are not designed for many hours of heavy continuous draw night after night, and an old or worn socket can run warm under that duty. A granny cable should be plugged straight into a known-good wall socket, never through an extension lead or a multi-way adaptor, and it is worth having the socket and circuit checked if you intend to lean on it regularly. A wallbox sidesteps the problem entirely, because it is purpose-built for exactly this job.</p>
+
+    <h2>The case for a 7kW wallbox</h2>
+    <p>A dedicated wallbox buys three things. The obvious one is speed, refilling the car in a single overnight window even from a low state of charge, so charging never becomes the thing you have to plan around. The second is that it is designed for sustained charging on its own protected circuit, which is safer and steadier than asking a household socket to do the work for hours on end. The third, and quietly the most valuable, is control. A wallbox can be set to charge only during your cheap off-peak hours, switching on and off by itself, so plugging in when you get home becomes a charge that happens automatically at the lowest rate while you sleep. That automatic off-peak scheduling, covered in the <a href="best-time-to-charge-an-electric-car.html">best time to charge</a> guide, is what turns the theoretical 2p-a-mile cost from the <a href="ev-charging-at-home-cost.html">home charging cost</a> guide into what you actually pay, without you having to babysit a plug at midnight.</p>
+
+    <h2>What a wallbox costs and what you need</h2>
+    <p>Fitting a 7kW home charger typically runs somewhere in the region of 800 to 1,200 pounds including installation, depending on the unit you choose and how far it sits from your fuse board, with a long or awkward cable run adding to the labour. The practical requirement is off-street parking, a driveway or garage where the car sits next to the wall the box mounts on, since you cannot trail a cable across a public pavement. The installer will check your home's electrical supply and consumer unit can take the extra circuit, which most modern installations can. Support schemes exist in some cases, for instance for people in rented homes or flats without their own driveway, but the details and eligibility change, so check the current position rather than assuming a grant applies. Set against years of cheap, effortless overnight charging, the one-off cost is usually money well spent for anyone charging at home regularly.</p>
+
+    <h2>Which one suits you</h2>
+    <p>The honest dividing line is your mileage and your parking. If you have off-street parking, drive modest daily distances, and are happy to plug in every night, start with the granny cable that came with the car and see whether it keeps up, because it may well do and it costs nothing to try. If you cover bigger miles, sometimes need a large overnight top-up, or simply want charging to handle itself in the cheap hours without thought, a 7kW wallbox is worth fitting and quickly becomes invisible in the good way. What matters far more than which one you use is that you are charging at home at all, on the right tariff, in the off-peak window. Get that right and either method delivers the running-cost advantage that makes an electric car so cheap to fuel.</p>
+
+    <h2>The bottom line</h2>
+    <p>A three-pin granny cable adds about 8 miles of range an hour, which is enough for modest daily driving with off-street parking, but it is slow, leans hard on a domestic socket, and means manual timing. A 7kW wallbox adds three times the range an hour, is built for the load, and crucially schedules itself into your cheap overnight window. For light users the cable is a fine free start; for everyone charging regularly at home, the wallbox pays its way in speed, safety and effortless off-peak charging.</p>
+  </div></section>
+  <script type="application/ld+json">{"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"Can you charge an electric car from a normal three-pin plug?","acceptedAnswer":{"@type":"Answer","text":"Yes. Every electric car comes with a cable that plugs into an ordinary three-pin socket, drawing about 2.3 kW and adding roughly 8 miles of range an hour. It is fine for modest daily mileage with overnight charging, but plug it straight into a sound wall socket, never an extension lead, and have the socket checked if you use it heavily."}},{"@type":"Question","name":"How much faster is a 7kW wallbox than a three-pin plug?","acceptedAnswer":{"@type":"Answer","text":"About three times faster. A three-pin plug adds around 8 miles of range an hour, while a 7kW wallbox adds roughly 25 to 30. A 60 kWh battery takes about 8 to 9 hours from empty on a wallbox against around a full day on a three-pin plug."}},{"@type":"Question","name":"Do I need a home charger for an electric car?","acceptedAnswer":{"@type":"Answer","text":"Not necessarily. If you drive modest daily miles and park off-street, the supplied three-pin cable can keep the car topped up overnight. A dedicated 7kW wallbox is worth it if you cover bigger distances or want charging to run automatically in your cheap off-peak window."}},{"@type":"Question","name":"How much does it cost to install a home EV charger?","acceptedAnswer":{"@type":"Answer","text":"A 7kW home wallbox typically costs somewhere around 800 to 1,200 pounds installed, depending on the unit and the cable run to your fuse board. You need off-street parking to fit one. Support schemes exist in some cases, such as for renters or flats, but eligibility changes, so check the current position."}}]}</script>
+''',
+)
+
+PAGES["ev-charging-in-winter"] = dict(
+    title="EV charging in winter: range loss and how to limit it",
+    description="Why electric cars lose range in cold weather, how much to expect, why rapid charging slows when the battery is cold, and the practical habits that claw most of it back: preconditioning, charging while plugged in, and parking warm.",
+    active="guides",
+    blurb="Cold can cut range by a fifth or more, mostly through cabin heating. Preconditioning and a few habits claw most of it back.",
+    body='''
+  <section class="section"><div class="wrap prose">
+    <style>
+      .ev-key{background:var(--paper-alt,#f4f1ea);border:1px solid var(--line);border-radius:12px;padding:18px 22px;margin:6px 0 8px}
+      .ev-key p{margin:0}
+      .ev-table{width:100%;border-collapse:collapse;margin:14px 0;font-size:.97rem}
+      .ev-table th,.ev-table td{border:1px solid var(--line);padding:9px 12px;text-align:left}
+      .ev-table th{background:var(--paper-alt,#f4f1ea);font-weight:600}
+      .ev-table td:not(:first-child),.ev-table th:not(:first-child){text-align:right}
+      .ev-note{font-size:.9rem;color:var(--ink-soft,#5b5b5b)}
+      @media(max-width:560px){.ev-table{font-size:.86rem}.ev-table th,.ev-table td{padding:7px 8px}}
+    </style>
+
+    <p class="lede">Every electric car loses range in winter, and the drop is real enough to catch people out on a cold morning. The good news is that most of the loss comes from heating the cabin rather than from any harm to the battery, which means a few simple habits, above all warming the car while it is still plugged in, claw most of it back. This guide explains why cold costs range, how much to expect, and what to do about it.</p>
+
+    <div class="ev-key">
+      <p><strong>The short answer.</strong> Expect to lose roughly 10 to 30 per cent of your range in cold weather, with the worst hit on short trips that never let the car warm through. Most of the loss is cabin heating drawn from the battery, not the battery itself failing. Rapid charging is also slower when the battery is cold. Precondition the car while it is plugged in, charge to a higher percentage in winter, and the cold becomes a manageable nuisance rather than a problem.</p>
+    </div>
+
+    <h2>Why cold cuts your range</h2>
+    <p>Two things conspire in winter, and the smaller one gets most of the blame. The first is the battery itself: lithium cells are simply less willing to give up and take on energy when they are cold, so a freezing battery delivers a little less usable capacity and charges more slowly until it warms. The second, and by far the larger drain, is heating the cabin. A petrol car warms itself almost for free using waste heat from the engine; an electric car has no such waste heat, so every bit of warmth for the cabin, the screen and your seat comes straight out of the battery that would otherwise be driving you forward. On a cold day that heating load is substantial, and it is why the range gauge falls fastest in the first few miles before the car has warmed through.</p>
+
+    <h2>How much range you lose</h2>
+    <p>The honest figure is a range, not a single number, because it depends on how cold it is and how you drive. A mild, damp winter day might cost you only a little, while a hard frost on a short stop-start journey can take 30 per cent or more, because the car spends the whole trip heating a cold cabin and never settles into its efficient stride. Longer journeys fare better proportionally, since the heavy initial warm-up is spread over more miles. The effect shows up as a lower <a href="electric-car-miles-per-kwh.html">miles per kWh</a> figure, so the same charge takes you less far. It is worth planning winter journeys with a margin rather than to the last mile of the summer range, and treating the dashboard estimate as optimistic until the car is warm.</p>
+
+    <table class="ev-table">
+      <thead><tr><th>Conditions</th><th>Typical range loss</th></tr></thead>
+      <tbody>
+        <tr><td>Mild winter day, longer journey</td><td>around 10%</td></tr>
+        <tr><td>Cold day, mixed driving</td><td>around 15 to 20%</td></tr>
+        <tr><td>Hard frost, short stop-start trips</td><td>25 to 30% or more</td></tr>
+      </tbody>
+    </table>
+    <p class="ev-note">Indicative figures; the exact loss varies by car, temperature and journey. The pattern is consistent: the colder it is and the shorter the trip, the bigger the hit, because cabin heating is spread over fewer miles.</p>
+
+    <h2>Why rapid charging slows in the cold</h2>
+    <p>Cold does not only shorten range, it slows charging. A cold battery cannot safely accept energy as fast as a warm one, so if you pull up to a public rapid charger with a cold battery, the charge rate can be well below the headline figure, and the session takes longer than you expect. Many electric cars get round this by preconditioning the battery, gently warming it to its ideal charging temperature on the approach to a charger, often automatically when you set a rapid charger as your navigation destination. If your car offers that, use it on a winter trip, because arriving with a warm battery can roughly halve the time at the charger compared with turning up cold. Home charging is less affected, because the slow overnight rate sits well within what even a cold battery can take.</p>
+
+    <h2>Precondition while plugged in</h2>
+    <p>This is the single most useful winter habit, and it is the heart of the matter. Preconditioning means warming the cabin and the battery before you set off. Do it while the car is still plugged in at home and that energy comes from the mains rather than from the battery, so you start your journey with a warm car, a clear screen and a battery at temperature, all without spending a single mile of range. Most electric cars let you schedule this to finish around your usual departure time, and a wallbox makes it effortless. Timed to land at the end of your cheap <a href="best-time-to-charge-an-electric-car.html">off-peak window</a>, it costs very little and means you never scrape ice or set off into the cold drawing heat from a battery you need for the drive. Warming the car off the battery on the road is exactly the drain you are trying to avoid, so shifting it onto the mains while plugged in is close to free range.</p>
+
+    <h2>Practical winter habits</h2>
+    <p>A handful of small things add up. Charge to a higher percentage in winter than you might in summer, since the usable range is lower and you want the margin. Lean on the seat and steering-wheel heaters, which warm you directly for a fraction of the energy of heating the whole cabin, and ease back on the cabin blower once you are warm. Park in a garage or somewhere sheltered if you can, because a battery that starts the day less cold loses less to warming up. Keep a little more charge in the battery overnight in very cold spells, as a warmer, fuller battery copes better with the cold. And drive gently in the first few miles while everything warms through. None of these is dramatic on its own, but together they recover a good slice of the range the cold takes, and they cost nothing.</p>
+
+    <h2>The battery is not being harmed</h2>
+    <p>It is worth saying plainly, because the winter range drop worries people: the lost range is temporary and the battery is not being damaged. Capacity returns in full when the weather warms, and the cold-weather behaviour is just physics, not wear. If anything, gentle slow home charging in winter is kinder to the battery than repeated cold rapid charging, which is another reason to do the bulk of your charging overnight at home. Treat the winter dip as a seasonal nuisance to plan around rather than a fault, manage it with preconditioning and sensible habits, and an electric car gets through a British winter perfectly well.</p>
+
+    <h2>The bottom line</h2>
+    <p>Electric cars lose roughly 10 to 30 per cent of their range in cold weather, mostly because cabin heating comes from the battery rather than from waste engine heat, and rapid charging slows when the battery is cold. The fix is to precondition the car while it is plugged in, so the warm-up comes from the mains not the road, charge to a higher level in winter, use the seat heaters over the cabin heater, and keep the car sheltered. Do that and the cold becomes a planning detail, not a problem, and the battery comes to no lasting harm.</p>
+  </div></section>
+  <script type="application/ld+json">{"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"How much range does an electric car lose in winter?","acceptedAnswer":{"@type":"Answer","text":"Typically 10 to 30 per cent, with the worst loss on short stop-start trips in a hard frost and the least on longer journeys in milder cold. Most of the loss is cabin heating drawn from the battery rather than any fault in the battery itself, and the range returns in full when the weather warms."}},{"@type":"Question","name":"Why does my EV charge slower in cold weather?","acceptedAnswer":{"@type":"Answer","text":"A cold battery cannot safely accept energy as quickly as a warm one, so rapid charging slows until it warms. Preconditioning the battery on the approach to a charger, which many cars do automatically when you navigate to one, can roughly halve the time compared with arriving cold. Slow home charging is barely affected."}},{"@type":"Question","name":"What is preconditioning on an electric car?","acceptedAnswer":{"@type":"Answer","text":"Preconditioning means warming the cabin and battery before you drive. Done while the car is still plugged in, the energy comes from the mains rather than the battery, so you set off warm with a battery at temperature and lose no range to the warm-up. Most cars let you schedule it to finish around your departure time."}},{"@type":"Question","name":"Does cold weather damage an EV battery?","acceptedAnswer":{"@type":"Answer","text":"No. The winter range drop is temporary and the capacity returns in full when it warms. Gentle slow home charging in winter is actually kinder to the battery than repeated cold rapid charging, so doing most of your charging overnight at home is best in the cold."}}]}</script>
+''',
+)
+
+PAGES["ev-cost-vs-petrol-per-year"] = dict(
+    title="A year of EV charging vs a year of petrol",
+    description="What an electric car costs to fuel over a whole year compared with petrol, worked at typical mileage on off-peak, standard and public charging, why the tariff swings the answer so much, and how to do the sum for your own mileage.",
+    active="guides",
+    blurb="The annual fuel bill, worked out: a few hundred pounds on an off-peak tariff against four figures for petrol.",
+    body='''
+  <section class="section"><div class="wrap prose">
+    <style>
+      .ev-key{background:var(--paper-alt,#f4f1ea);border:1px solid var(--line);border-radius:12px;padding:18px 22px;margin:6px 0 8px}
+      .ev-key p{margin:0}
+      .ev-table{width:100%;border-collapse:collapse;margin:14px 0;font-size:.97rem}
+      .ev-table th,.ev-table td{border:1px solid var(--line);padding:9px 12px;text-align:left}
+      .ev-table th{background:var(--paper-alt,#f4f1ea);font-weight:600}
+      .ev-table td:not(:first-child),.ev-table th:not(:first-child){text-align:right}
+      .ev-note{font-size:.9rem;color:var(--ink-soft,#5b5b5b)}
+      @media(max-width:560px){.ev-table{font-size:.86rem}.ev-table th,.ev-table td{padding:7px 8px}}
+    </style>
+
+    <p class="lede">The cost-per-mile figures for an electric car are striking, but they only land properly when you stretch them across a whole year of driving. Do that and the gap becomes a real sum of money: a few hundred pounds to fuel an EV at home on the right tariff against well over a thousand for a petrol car covering the same miles. The catch is that the tariff swings the answer enormously, so this guide works the annual figures and shows what decides them.</p>
+
+    <div class="ev-key">
+      <p><strong>The short answer.</strong> At a typical 7,500 miles a year, an electric car charged on an off-peak home tariff costs around 170 pounds in electricity, against roughly 1,080 pounds of petrol for a 50 mpg car. On a standard daytime electricity rate the EV costs about 560 pounds, still well under petrol. Rely on public rapid chargers for everything, though, and the annual cost climbs past the petrol figure. The tariff, not the car, decides where you land.</p>
+    </div>
+
+    <h2>How the annual sum is built</h2>
+    <p>The arithmetic is simple once you have three numbers: your annual mileage, the car's efficiency in <a href="electric-car-miles-per-kwh.html">miles per kWh</a>, and your price per unit. Divide the miles by the miles per kWh to get the kilowatt-hours you use in a year, then multiply by your unit rate. The worked figures below use 7,500 miles, close to the average for a UK car, an efficiency of 3.5 miles per kWh, and the same three real rates as the rest of the EV guides: an 8p off-peak EV rate, the 26p standard price-cap rate, and a 79p public rapid rate. The petrol comparison uses a 50 mpg car at 159p a litre. At 3.5 miles per kWh, 7,500 miles needs about 2,140 kWh of electricity over the year.</p>
+
+    <table class="ev-table">
+      <thead><tr><th>How you fuel it</th><th>Cost over 7,500 miles</th><th>Cost over 12,000 miles</th></tr></thead>
+      <tbody>
+        <tr><td>EV, home off-peak (8p)</td><td>~£170</td><td>~£275</td></tr>
+        <tr><td>EV, standard rate (26p)</td><td>~£560</td><td>~£895</td></tr>
+        <tr><td>EV, public rapid only (79p)</td><td>~£1,690</td><td>~£2,710</td></tr>
+        <tr><td>Petrol car, 50 mpg (£1.59/l)</td><td>~£1,080</td><td>~£1,735</td></tr>
+      </tbody>
+    </table>
+    <p class="ev-note">Electricity at 3.5 miles per kWh; petrol at 50 mpg and 159p a litre. Rates checked June 2026: standard rate from the Ofgem price cap for July to September 2026 (26.11p per kWh); off-peak typical of dedicated EV tariffs (broadly 7p to 9p overnight); public rapid average 79p per kWh from the Zapmap price index; petrol at the June 2026 UK average of about 159p a litre. Your own mileage, efficiency and rates will differ.</p>
+
+    <h2>The off-peak case: a few hundred pounds a year</h2>
+    <p>The headline that makes people switch is in the top row. Fuel an electric car overnight on a dedicated EV tariff and a year of average driving costs less than 200 pounds in electricity. The same miles in a 50 mpg petrol car cost over a thousand, so the EV is roughly six times cheaper to fuel, a saving of the better part of 900 pounds a year that repeats every year you own the car. That is the real prize of home charging, and it rests entirely on getting onto a time-of-use tariff and charging in the cheap window, which the <a href="best-time-to-charge-an-electric-car.html">best time to charge</a> guide covers. Without that tariff the saving is far smaller, which is why sorting the tariff is the first thing to do, not the last.</p>
+
+    <h2>The standard rate: still cheaper, by less</h2>
+    <p>Not everyone can get onto an EV tariff, and charging at the standard price-cap rate tells a gentler version of the same story. At 26p a unit, a year of average driving costs around 560 pounds in electricity, roughly half the petrol figure. So even without the cheap overnight rate, an electric car charged at home is comfortably cheaper to fuel than petrol, just not by the spectacular margin the off-peak row shows. The lesson is that home charging beats petrol either way; the tariff decides whether the win is large or merely solid.</p>
+
+    <h2>The public-only trap</h2>
+    <p>The bottom EV row is the warning. A driver who cannot charge at home and relies on public rapid chargers for everything pays around 79p a unit, and at that rate a year of average driving costs more than running the petrol car. This is the one situation where an electric car can be dearer to fuel than petrol, and it is worth being honest about it. Public rapid charging is priced for speed and convenience and is a fair deal as an occasional top-up on a long trip, but as the everyday way to fuel a car it throws away the whole running-cost advantage. If you have no way to charge at or near home cheaply, the annual fuel sum is one of the things to weigh carefully before going electric.</p>
+
+    <h2>Mileage changes the size, not the direction</h2>
+    <p>The second column shows what happens at 12,000 miles a year, a high-mileage driver. Every figure rises, but the ranking holds: off-peak charging is still a few hundred pounds, the standard rate still well under petrol, and public-only still the dearest. In fact the more miles you drive, the bigger the absolute saving from charging cheaply at home, because the per-mile gap is multiplied over more miles. A high-mileage driver who can charge off-peak saves over 1,400 pounds a year against petrol. The headline is the same at any mileage: home off-peak charging wins handsomely, public-only loses, and how far you drive sets the size of the prize rather than who takes it.</p>
+
+    <h2>Do the sum for yourself</h2>
+    <p>Your own numbers are easy to work out and worth doing, because the averages may not match you. Take your real annual mileage, your car's own efficiency from its dashboard readout, and your actual unit rate, and run them through the same two steps: miles divided by miles per kWh gives your yearly kWh, times your rate gives your annual cost. The <a href="appliance-running-cost.html">running cost calculator</a> handles the same kind of sum, and the <a href="ev-charging-at-home-cost.html">cost of charging at home</a> guide has the per-charge and per-mile detail behind these annual totals. Whatever the exact figures, the shape is reliable: charge at home in the cheap hours and a year of motoring costs a fraction of the petrol equivalent.</p>
+
+    <h2>The bottom line</h2>
+    <p>Over a typical year an electric car charged on an off-peak home tariff costs around 170 pounds to fuel, against roughly 1,080 pounds of petrol, a saving near 900 pounds that returns every year. On a standard rate the EV still costs about half what petrol does. Only relying on public rapid chargers for everything flips the result, pushing the annual cost above petrol. Higher mileage widens the saving rather than narrowing it. The tariff is the decisive number, so charge at home, in the cheap window, and a year of driving costs a fraction of what the pump would take.</p>
+  </div></section>
+  <script type="application/ld+json">{"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"How much does it cost to charge an electric car for a year?","acceptedAnswer":{"@type":"Answer","text":"At a typical 7,500 miles a year and about 3.5 miles per kWh, an electric car uses roughly 2,140 kWh. On an 8p off-peak tariff that is about 170 pounds a year; on the 26p standard rate about 560 pounds; relying on 79p public rapid chargers about 1,690 pounds. Your mileage, efficiency and rate change the figure."}},{"@type":"Question","name":"Is an electric car cheaper to fuel than petrol over a year?","acceptedAnswer":{"@type":"Answer","text":"On a home tariff, yes, usually by a wide margin. Off-peak charging costs around 170 pounds a year against roughly 1,080 pounds of petrol for a 50 mpg car at average mileage, about six times cheaper. Even on a standard electricity rate the EV costs about half the petrol figure. Only charging exclusively on public rapid chargers can cost more than petrol."}},{"@type":"Question","name":"Does higher mileage make an EV more or less worth it than petrol?","acceptedAnswer":{"@type":"Answer","text":"More worth it, on fuel cost. The per-mile saving from charging cheaply at home is multiplied over more miles, so a high-mileage driver charging off-peak saves more in absolute terms. At 12,000 miles a year the off-peak EV saves over 1,400 pounds against petrol."}},{"@type":"Question","name":"When does an electric car cost more to run than petrol?","acceptedAnswer":{"@type":"Answer","text":"When you cannot charge at home and rely on public rapid chargers for everything. At around 79p a unit, a year of average driving on public rapid charging costs more than the petrol equivalent. Home charging, especially on an off-peak tariff, is always far cheaper than petrol."}}]}</script>
 ''',
 )
 
@@ -1916,6 +2153,8 @@ GUIDES_ORDER = [
     "solar-panels-the-basics", "is-solar-worth-it", "solar-battery-storage",
     # Fuel, driving and EVs
     "hypermiling", "ev-charging-at-home-cost", "best-time-to-charge-an-electric-car",
+    "electric-car-miles-per-kwh", "home-ev-charger-vs-3-pin-plug",
+    "ev-charging-in-winter", "ev-cost-vs-petrol-per-year",
     # Seasonal
     "winter-energy-checklist", "keeping-cool-without-air-con",
     # Myths, renting and quick wins
