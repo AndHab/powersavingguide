@@ -56,6 +56,13 @@ GSC (early June 2026) shows the site picking up UK impressions on the EV home-ch
   - `solar-panels-hot-weather` — temperature coefficient ~0.3-0.4%/°C above 25°C; cells 50-65°C in sun ≈ 10-15% off peak; but summer still wins on long days; ideal = cold + bright. Reciprocal link from `solar-panels-the-basics`.
   - `fridge-freezer-in-hot-weather` — fridge sheds heat to the room, so a hot kitchen raises cost; siting (away from oven/sun, ventilation gaps), settings (3-5°C / -18°C), habits. Reciprocal link from `fridge-freezer-efficiency`.
 
+- **EV charging-cost cluster build-out (10 Jun 2026)** — site is ranking for "is it cheaper to charge an EV at home" queries, so exploit + extend. Four new guides, all cross-linked into the hub (`ev-charging-at-home-cost` now links to all three exploit pages):
+  - `home-vs-public-ev-charging-cost` — the exact ranking-query head-to-head; cost-per-mile table (home off-peak ~2p, home standard ~7p, public standard 54p ≈ 15p/mile, public rapid 79p ≈ 23p/mile, petrol 14p). Public figures from Zapmap May-2026 index.
+  - `ev-electricity-tariffs-explained` — the off-peak-tariff lever; current rates ~5.5-9p (Intelligent Octopus Go dropped to ~5.5p Apr 2026, regionally to 3.49p) vs 26p; fixed-window vs smart-managed; the dearer-daytime catch. NO price-league table (named tariffs descriptively only).
+  - `ev-charging-no-driveway` — the "I can't charge at home" segment; on-street/lamppost (~40-50p), public hubs (79p), workplace (free/cheap), the pavement-cable question; honest cost expectation.
+  - `how-long-do-ev-batteries-last` — build-out to adjacent concern; ~2.3%/yr degradation, ~80-90% at 8yr/100k (Geotab), warranty floor ~70%, what ages a pack, how to extend. Links to hot-weather + best-time-to-charge; reciprocal from ev-running-cost-vs-petrol.
+  - NOTE: dedicated EV off-peak rates fell in Apr 2026 (Octopus ~5.5p); the hub still uses an 8p example labelled "typical 7-9p" (fine, conservative), but the next refresh could lower it toward ~6-7p.
+
 - **Scheduled: Ofgem cap auto-refresh** — one-time remote routine `trig_01YEVe8hNDKvYazmYMt5xzQN` fires 28 Aug 2026 08:00 UTC (Opus 4.8) to look up the Oct-Dec 2026 cap and update every hard-coded figure (rewriting the heat-pump-vs-gas narrative if the conclusion shifts), build, verify, push, IndexNow. Makes no changes if figures aren't published yet. Manage: https://claude.ai/code/routines/trig_01YEVe8hNDKvYazmYMt5xzQN
 
 ### Queue (future-date about one a week)

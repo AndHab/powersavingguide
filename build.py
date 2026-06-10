@@ -1380,13 +1380,13 @@ PAGES["ev-charging-at-home-cost"] = dict(
     <p class="ev-note">Rates checked June 2026: standard rate from the Ofgem price cap for July to September 2026 (26.11p per kWh); off-peak figure typical of dedicated EV tariffs (Intelligent Octopus Go, EDF GoElectric, British Gas EV, broadly 7p to 9p in the overnight window); public rapid average 79p per kWh from the Zapmap price index; petrol at the June 2026 UK average of about 159p a litre. Always check your own tariff and local pump price.</p>
 
     <h2>Why the tariff is everything</h2>
-    <p>Look again at that table. The car has not changed between the first two rows, only the time of day you charged. A standard daytime rate makes an EV reasonably cheap; a dedicated overnight EV tariff, where the unit price in the small hours is a fraction of the daytime rate, drops the cost per mile to a level petrol cannot touch. This is the single biggest lever you control, and it dwarfs anything to do with the car itself. Getting a <a href="smart-meters-explained.html">smart meter</a> and moving onto a time-of-use or EV tariff is close to essential to get the most from charging at home. It is worth comparing the EV tariffs on offer, because the size of the off-peak window and the gap between the cheap and peak rates vary a good deal between them.</p>
+    <p>Look again at that table. The car has not changed between the first two rows, only the time of day you charged. A standard daytime rate makes an EV reasonably cheap; a dedicated overnight EV tariff, where the unit price in the small hours is a fraction of the daytime rate, drops the cost per mile to a level petrol cannot touch. This is the single biggest lever you control, and it dwarfs anything to do with the car itself. Getting a <a href="smart-meters-explained.html">smart meter</a> and moving onto a time-of-use or EV tariff is close to essential to get the most from charging at home. It is worth comparing the EV tariffs on offer, because the size of the off-peak window and the gap between the cheap and peak rates vary a good deal between them, all covered in the <a href="ev-electricity-tariffs-explained.html">EV tariffs explained</a> guide.</p>
 
     <h2>Home charger versus the three-pin plug</h2>
     <p>You can charge from an ordinary three-pin socket, but it is slow, adding only around 8 miles of range an hour, and a domestic socket is not designed for many hours of heavy continuous draw. A dedicated 7kW home wall charger is far quicker at roughly 25 to 30 miles of range an hour, safer for sustained charging, and crucially can be set to run only during your cheap off-peak window automatically. For anyone charging regularly at home, a proper charger usually earns its keep through convenience and by making off-peak charging effortless rather than something you have to start and stop by hand at midnight. The <a href="home-ev-charger-vs-3-pin-plug.html">3-pin plug versus 7kW wallbox</a> guide works through who genuinely needs a wallbox and who can manage on the cable that came with the car.</p>
 
     <h2>Home versus public charging</h2>
-    <p>Home off-peak charging is the cheapest option by a wide margin, and as the cost-per-mile table shows, public rapid charging can actually cost more per mile than running a petrol car. You are paying for speed, convenience and the cost of the infrastructure. That is a fair deal as an occasional top-up on a long journey, but a driver who relies on rapid chargers for everyday miles throws away most of the running-cost advantage an EV should give. The model that saves the most is simple: do the bulk of your charging slowly and cheaply at home overnight, and use public chargers only to extend range on longer trips.</p>
+    <p>Home off-peak charging is the cheapest option by a wide margin, and as the cost-per-mile table shows, public rapid charging can actually cost more per mile than running a petrol car. You are paying for speed, convenience and the cost of the infrastructure. That is a fair deal as an occasional top-up on a long journey, but a driver who relies on rapid chargers for everyday miles throws away most of the running-cost advantage an EV should give. The model that saves the most is simple: do the bulk of your charging slowly and cheaply at home overnight, and use public chargers only to extend range on longer trips. The <a href="home-vs-public-ev-charging-cost.html">home versus public charging</a> guide works the comparison through in full, and if you have no driveway the <a href="ev-charging-no-driveway.html">charging without a driveway</a> guide covers your options.</p>
 
     <h2>How it compares with petrol</h2>
     <p>On an off-peak home tariff an electric car is dramatically cheaper to fuel than petrol, around six times cheaper per mile in the worked example above. Even on a standard daytime rate it is usually cheaper, though by a smaller margin. The fuel saving is one of the clearest running-cost advantages of going electric, but it should be weighed against the whole picture of buying and owning the car rather than taken alone. A fuller side-by-side of fuel, servicing and the rest is in the <a href="ev-running-cost-vs-petrol.html">EV versus petrol running cost</a> guide, and the <a href="ev-cost-vs-petrol-per-year.html">year of charging versus a year of petrol</a> guide puts real annual figures on it. If you are still running a combustion car, the habits on the <a href="hypermiling.html">hypermiling</a> and <a href="driving.html">fuel and driving</a> pages are the way to trim its thirst; if you have gone electric, the equivalent skill is simply charging at the right time, which the <a href="best-time-to-charge-an-electric-car.html">best time to charge</a> guide covers in detail.</p>
@@ -2141,6 +2141,232 @@ PAGES["fridge-freezer-in-hot-weather"] = dict(
 ''',
 )
 
+PAGES["home-vs-public-ev-charging-cost"] = dict(
+    title="Is it cheaper to charge an EV at home or in public?",
+    description="A worked, head-to-head comparison of charging an electric car at home versus on the public network in the UK: the cost per mile and per charge on home off-peak, home standard, public standard and public rapid rates, why home wins so heavily, and when public charging still makes sense.",
+    active="guides",
+    blurb="Home wins by a mile, literally. The cost per mile of home versus public charging, and when public is still worth it.",
+    body='''
+  <section class="section"><div class="wrap prose">
+    <style>
+      .ev-key{background:var(--paper-alt,#f4f1ea);border:1px solid var(--line);border-radius:12px;padding:18px 22px;margin:6px 0 8px}
+      .ev-key p{margin:0}
+      .ev-table{width:100%;border-collapse:collapse;margin:14px 0;font-size:.97rem}
+      .ev-table th,.ev-table td{border:1px solid var(--line);padding:9px 12px;text-align:left}
+      .ev-table th{background:var(--paper-alt,#f4f1ea);font-weight:600}
+      .ev-table td:not(:first-child),.ev-table th:not(:first-child){text-align:right}
+      .ev-note{font-size:.9rem;color:var(--ink-soft,#5b5b5b)}
+      @media(max-width:560px){.ev-table{font-size:.86rem}.ev-table th,.ev-table td{padding:7px 8px}}
+    </style>
+
+    <p class="lede">It is one of the first things a new electric-car driver wants to know, and the answer is emphatic: charging at home is far cheaper than charging in public, usually by a factor of several. The same car can cost about 2p a mile charged overnight at home or more than 20p a mile on a public rapid charger, which is dearer than running a petrol car. This guide puts the real figures side by side so you can see exactly how big the gap is and when public charging is still worth paying for.</p>
+
+    <div class="ev-key">
+      <p><strong>The short answer.</strong> Home charging wins by a wide margin. On a dedicated overnight EV tariff, home charging costs around 2p a mile; on a standard home rate about 7p; on the public network a standard charger is around 15p a mile and a rapid charger about 23p, which is more than petrol. The cheap overnight home tariff is what makes the difference, and it dwarfs anything to do with the car itself.</p>
+    </div>
+
+    <h2>The numbers, side by side</h2>
+    <p>Every charge is just buying electricity, so the cost comes straight from the rate you pay per unit. The table uses rates current in mid 2026: a home off-peak EV rate of around 7p, the standard home price-cap rate of 26p, and the two public bands from the Zapmap price index, 54p for standard chargers up to 49kW and 79p for rapid and ultra-rapid chargers of 50kW and above. The car is assumed to do about 3.5 miles per kWh, so the cost per mile is simply the rate divided by 3.5.</p>
+
+    <table class="ev-table">
+      <thead><tr><th>Where you charge</th><th>Rate (p/kWh)</th><th>Cost per mile</th><th>Cost of 100 miles</th></tr></thead>
+      <tbody>
+        <tr><td>Home, off-peak EV tariff</td><td>~7p</td><td>~2.0p</td><td>~£2.00</td></tr>
+        <tr><td>Home, standard rate</td><td>26p</td><td>~7.4p</td><td>~£7.43</td></tr>
+        <tr><td>Public, standard charger (3 to 49kW)</td><td>54p</td><td>~15.4p</td><td>~£15.43</td></tr>
+        <tr><td>Public, rapid or ultra-rapid (50kW+)</td><td>79p</td><td>~22.6p</td><td>~£22.57</td></tr>
+        <tr><td>Petrol car at 50 mpg (£1.59/litre)</td><td>-</td><td>~14.4p</td><td>~£14.43</td></tr>
+      </tbody>
+    </table>
+    <p class="ev-note">Public figures from the Zapmap price index, May 2026 PAYG averages (54p standard, 79p rapid). Home off-peak typical of dedicated EV tariffs, with the very cheapest now around 5.5p; standard rate from the Ofgem cap (26.11p). The full <a href="ev-charging-at-home-cost.html">home charging cost</a> guide has the per-charge detail.</p>
+
+    <h2>Why home is so much cheaper</h2>
+    <p>Two things make the home figure so low. The first is the tariff: charging overnight on a dedicated EV tariff means buying electricity in the small hours at a fraction of the daytime rate, as the <a href="ev-electricity-tariffs-explained.html">EV tariffs</a> guide explains, and that cheap window is simply not available at a public charger. The second is that a public charger has to recover the cost of the hardware, the grid connection, the site and the convenience of charging quickly, all of which is built into the price per unit. You are paying for speed and for someone else's infrastructure. At home you pay only for the electricity, on the cheapest rate you can get, so the gap is enormous.</p>
+
+    <h2>Public charging is priced for speed and convenience</h2>
+    <p>The rapid-charger figure looks shocking next to home charging, and it should, but it is not a rip-off so much as a different product. A rapid charger delivers in twenty minutes what a home charger takes hours to do, from expensive high-power equipment that costs a great deal to install and run. That speed is genuinely valuable on a long journey, where waiting hours is not an option. The mistake is treating rapid charging as your everyday way to fuel the car, because at over 20p a mile it throws away the entire running-cost advantage an electric car should give and can cost more than petrol.</p>
+
+    <h2>When public charging still makes sense</h2>
+    <p>Public charging earns its higher price in specific situations. On a long trip beyond your car's range, a rapid top-up is the only practical option and well worth it. If you are out and a standard charger at a car park or supermarket happens to suit your stop, topping up there is convenient and cheaper than rapid. And for the minority who genuinely cannot charge at home, public charging is the main option rather than the exception, which changes the sums and is covered in the <a href="ev-charging-no-driveway.html">charging without a driveway</a> guide. For everyone else, public charging is best kept as an occasional supplement, not the staple.</p>
+
+    <h2>The model that saves the most</h2>
+    <p>The cheapest way to run an electric car is simple and the figures above make it obvious: do the bulk of your charging slowly and cheaply at home overnight, and use public chargers only to extend your range on longer journeys. Charge this way and your everyday motoring costs about 2p a mile, a level nothing burning petrol can approach. Lean on public rapid chargers for daily miles and you hand most of that advantage back. The car barely matters to this; the tariff and where you plug in are what decide your cost.</p>
+
+    <h2>The bottom line</h2>
+    <p>Charging an electric car at home is far cheaper than charging in public, around 2p a mile overnight against 15p to 23p on the public network, with rapid charging actually dearer than petrol. The reason is the cheap overnight home tariff and the fact that public chargers must price in speed and infrastructure. Charge at home for everyday miles, use public chargers to extend range on long trips, and you keep the running-cost advantage that makes an electric car so cheap to fuel.</p>
+  </div></section>
+  <script type="application/ld+json">{"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"Is it cheaper to charge an electric car at home or in public?","acceptedAnswer":{"@type":"Answer","text":"Home is far cheaper. On a dedicated overnight EV tariff home charging costs around 2p a mile; on a standard home rate about 7p. Public charging costs around 15p a mile on a standard charger and 23p on a rapid charger, which is more than petrol. The cheap overnight home tariff is what makes the gap so large."}},{"@type":"Question","name":"Why is public EV charging so expensive?","acceptedAnswer":{"@type":"Answer","text":"Public chargers have to recover the cost of expensive high-power hardware, the grid connection, the site and the convenience of fast charging, all built into the price per unit. Rapid charging in particular is priced for speed. At home you pay only for the electricity, on the cheapest overnight rate, so it is much cheaper."}},{"@type":"Question","name":"How much does it cost to charge an EV at a public rapid charger?","acceptedAnswer":{"@type":"Answer","text":"Around 79p per kWh on average for rapid and ultra-rapid chargers in mid 2026, according to the Zapmap price index, which works out at roughly 23p a mile. Standard public chargers up to 49kW average about 54p per kWh, or around 15p a mile. Both are far dearer than home charging."}},{"@type":"Question","name":"Should I only charge my EV at home?","acceptedAnswer":{"@type":"Answer","text":"For everyday driving, mostly yes, because home overnight charging is by far the cheapest. Use public charging to extend your range on long journeys beyond the car's range, where a rapid top-up is worth the higher price. Relying on public rapid charging for daily miles throws away most of an electric car's running-cost advantage."}}]}</script>
+''',
+)
+
+PAGES["ev-electricity-tariffs-explained"] = dict(
+    title="EV electricity tariffs explained: the overnight rate that changes everything",
+    description="How dedicated EV electricity tariffs work and why they matter more than the car: the cheap overnight window, how low the rates now go, the difference between a fixed off-peak window and a smart managed tariff, what to compare, and the catch of a dearer daytime rate.",
+    active="guides",
+    blurb="The single biggest lever on EV running cost. How the cheap overnight window works, and what to compare.",
+    body='''
+  <section class="section"><div class="wrap prose">
+    <style>
+      .ev-key{background:var(--paper-alt,#f4f1ea);border:1px solid var(--line);border-radius:12px;padding:18px 22px;margin:6px 0 8px}
+      .ev-key p{margin:0}
+      .ev-table{width:100%;border-collapse:collapse;margin:14px 0;font-size:.97rem}
+      .ev-table th,.ev-table td{border:1px solid var(--line);padding:9px 12px;text-align:left}
+      .ev-table th{background:var(--paper-alt,#f4f1ea);font-weight:600}
+      .ev-table td:not(:first-child),.ev-table th:not(:first-child){text-align:right}
+      .ev-note{font-size:.9rem;color:var(--ink-soft,#5b5b5b)}
+      @media(max-width:560px){.ev-table{font-size:.86rem}.ev-table th,.ev-table td{padding:7px 8px}}
+    </style>
+
+    <p class="lede">If you take one thing from everything written about running an electric car cheaply, take this: the tariff you put it on matters far more than the car you buy. A dedicated EV tariff gives you a block of cheap electricity in the small hours, currently as low as around 5.5p a unit against a standard rate near 26p, and charging in that window is what turns an electric car into the cheapest thing on the road to fuel. Here is how these tariffs work and how to choose one.</p>
+
+    <div class="ev-key">
+      <p><strong>The short answer.</strong> A dedicated EV tariff gives you a cheap overnight window, often around 5.5p to 9p a unit against a standard rate near 26p, for charging the car and running the house in the small hours. The savings dwarf anything to do with the car. You need a smart meter to get one, and the tariffs differ mainly on how long the cheap window is, how deep the discount goes, and whether they control the charging for you.</p>
+    </div>
+
+    <h2>What an EV tariff is</h2>
+    <p>An EV tariff is a kind of time-of-use tariff, meaning the price you pay per unit changes with the time of day rather than staying flat. The defining feature is a block of very cheap hours overnight, typically something like five or six hours in the small hours, when demand on the grid is low and suppliers want to soak up cheap overnight generation. Set your car to charge in that window and you buy its energy at a fraction of the normal price. It is the same idea as the older <a href="economy-7-and-night-rates.html">Economy 7</a> night-rate tariffs, brought up to date for electric cars and made far more flexible by the smart meter.</p>
+
+    <h2>How cheap the cheap rate now is</h2>
+    <p>The overnight rates have fallen sharply. The best-known dedicated EV tariffs now offer off-peak rates around 5.5p per kWh, with some regions seeing rates even lower, against a standard price-cap rate of about 26p. Against that 26p, paying 5.5p to charge is roughly a fifth of the price, which is why the saving is so large. The exact figure varies by supplier and by region, since the cost of delivering electricity differs across the country, so the rate on offer at your postcode is what counts.</p>
+
+    <table class="ev-table">
+      <thead><tr><th>Rate</th><th>Typical price per kWh</th><th>Cost per mile</th></tr></thead>
+      <tbody>
+        <tr><td>EV tariff, off-peak overnight</td><td>~5.5p to 9p</td><td>~1.6p to 2.6p</td></tr>
+        <tr><td>Standard single rate (price cap)</td><td>26.11p</td><td>~7.5p</td></tr>
+        <tr><td>EV tariff, daytime peak</td><td>~30p or more</td><td>~8.6p or more</td></tr>
+      </tbody>
+    </table>
+    <p class="ev-note">Cost per mile at about 3.5 miles per kWh. Off-peak EV rates and the standard cap rate are mid-2026 figures; both vary by region. The daytime rate on an EV tariff is higher than the flat standard rate, which is the trade-off explained below.</p>
+
+    <h2>Two flavours: fixed window and smart managed</h2>
+    <p>Dedicated EV tariffs come in two broad types. The simpler kind gives you a fixed cheap window, say half past eleven at night to half past five in the morning, during which all your electricity is at the low rate; you set the car or the charger to draw power then. The smarter kind hands control to the supplier, who talks to your car or charger and fills it during the cheapest hours of the night on your behalf, sometimes spreading the charge to catch the very lowest prices and often guaranteeing the cheap rate even if the car charges slightly outside the usual window. Either works; the managed type takes the thinking out of it, while the fixed-window type gives you simple, predictable hours to schedule against.</p>
+
+    <h2>The catch: the daytime is dearer</h2>
+    <p>An EV tariff is not free money, and the trade-off is important. In exchange for the cheap overnight block, the daytime or peak rate is usually higher than the flat standard rate you would otherwise pay. That means the tariff only saves you money if you genuinely shift your heavy use, above all the car charging, into the cheap window, and avoid running big loads at the expensive peak. For a household that charges the car overnight and is careful about when it runs the dishwasher, washing machine and so on, the saving is large. For one that ignores the windows and uses power heavily through the dear daytime, an EV tariff can cost more than a standard one. The whole game is using the cheap hours and dodging the dear ones.</p>
+
+    <h2>What to compare between tariffs</h2>
+    <p>When you weigh up EV tariffs, look past the headline off-peak rate at three things. First, how long the cheap window is, since a longer window gives you more time to charge and to run other loads cheaply. Second, how big the gap is between the cheap and the peak rates, because a deep discount overnight paired with a punishing daytime rate may not suit you if you cannot avoid daytime use. Third, whether the tariff controls the charging itself or leaves it to you, which matters if you would rather not set schedules by hand. A tariff that pairs a long, very cheap window with a daytime rate you can live with is the one to want.</p>
+
+    <h2>Beyond the car: the whole house benefits</h2>
+    <p>The cheap window is not just for the car. During those hours your whole home is on the low rate, so it pays to shift other heavy, flexible loads into the night as well: run the dishwasher and washing machine on a timer to finish overnight, heat water with an <a href="immersion-heater-cost.html">immersion</a> in the cheap hours, and charge anything else hungry then too. Done well, an EV tariff quietly lowers a good chunk of the household bill, not only the motoring, which is part of why getting a <a href="smart-meters-explained.html">smart meter</a> and moving onto one is close to essential for an electric-car household.</p>
+
+    <h2>The bottom line</h2>
+    <p>A dedicated EV tariff is the single biggest lever on what an electric car costs to run, giving you overnight electricity at around 5.5p to 9p a unit against a standard rate near 26p, with the car set to drink in that window. The price is a dearer daytime rate, so the tariff rewards shifting your heavy use into the cheap hours and punishes ignoring them. Get a smart meter, pick a tariff with a long, deep cheap window you can actually use, charge the car and run the house overnight, and the savings far outstrip anything the choice of car could deliver.</p>
+  </div></section>
+  <script type="application/ld+json">{"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"What is an EV electricity tariff?","acceptedAnswer":{"@type":"Answer","text":"An EV tariff is a time-of-use electricity tariff with a block of very cheap hours overnight, typically five or six hours in the small hours, for charging an electric car. The off-peak rate is currently as low as around 5.5p per kWh against a standard rate near 26p. You need a smart meter to get one."}},{"@type":"Question","name":"How much can you save with an EV tariff?","acceptedAnswer":{"@type":"Answer","text":"A lot, if you charge in the cheap window. Paying around 5.5p to 9p a unit overnight instead of the 26p standard rate is roughly a fifth of the price, dropping the cost of charging to about 2p a mile. The catch is a dearer daytime rate, so the saving depends on shifting your heavy use into the cheap hours."}},{"@type":"Question","name":"What is the catch with an EV tariff?","acceptedAnswer":{"@type":"Answer","text":"In exchange for the cheap overnight block, the daytime or peak rate is usually higher than a flat standard rate. So an EV tariff only saves money if you genuinely shift the car charging and other heavy loads into the cheap window and avoid running big loads at the expensive peak. Ignore the windows and it can cost more."}},{"@type":"Question","name":"How do I choose the best EV tariff?","acceptedAnswer":{"@type":"Answer","text":"Compare three things beyond the headline rate: how long the cheap overnight window is, how big the gap is between the cheap and peak rates, and whether the tariff controls the charging for you or leaves you to schedule it. A long, deep cheap window paired with a daytime rate you can live with is the one to want. Rates vary by region, so check your postcode."}}]}</script>
+''',
+)
+
+PAGES["ev-charging-no-driveway"] = dict(
+    title="Charging an electric car without a driveway",
+    description="How to charge an electric car when you have no off-street parking: why it costs more without a home wallbox and cheap overnight tariff, the options from on-street and lamppost chargers to public hubs and workplace charging, the cables-across-the-pavement question, and whether an EV still makes sense.",
+    active="guides",
+    blurb="No driveway means no cheap overnight tariff, so charging costs more and needs planning. The options, honestly.",
+    body='''
+  <section class="section"><div class="wrap prose">
+    <style>
+      .ev-key{background:var(--paper-alt,#f4f1ea);border:1px solid var(--line);border-radius:12px;padding:18px 22px;margin:6px 0 8px}
+      .ev-key p{margin:0}
+      .ev-table{width:100%;border-collapse:collapse;margin:14px 0;font-size:.97rem}
+      .ev-table th,.ev-table td{border:1px solid var(--line);padding:9px 12px;text-align:left}
+      .ev-table th{background:var(--paper-alt,#f4f1ea);font-weight:600}
+      .ev-table td:not(:first-child),.ev-table th:not(:first-child){text-align:right}
+      .ev-note{font-size:.9rem;color:var(--ink-soft,#5b5b5b)}
+      @media(max-width:560px){.ev-table{font-size:.86rem}.ev-table th,.ev-table td{padding:7px 8px}}
+    </style>
+
+    <p class="lede">Almost everything written about cheap electric motoring assumes a driveway, a home wallbox and a cheap overnight tariff. Millions of households have none of those, and for them the sums are different. You can still run an electric car without off-street parking, but charging costs more and takes more planning, so it is worth going in with clear eyes about the options and what they cost.</p>
+
+    <div class="ev-key">
+      <p><strong>The short answer.</strong> Without off-street parking you cannot fit a home wallbox or easily use a cheap overnight EV tariff, which is where the big savings live. Your realistic options are on-street and lamppost chargers, public charging hubs, and workplace charging. Costs run from around 40 to 50p a unit on some on-street chargers up to 79p at rapid hubs, against roughly 5.5p to 9p for home overnight charging, so the no-driveway penalty is real. An electric car can still work, but the fuel saving is smaller and worth weighing carefully.</p>
+    </div>
+
+    <h2>Why no driveway changes the sums</h2>
+    <p>The cheap electric motoring everyone talks about comes from one thing: charging at home overnight on a dedicated EV tariff at a few pence a unit, as the <a href="ev-electricity-tariffs-explained.html">EV tariffs</a> guide explains. That needs somewhere to park off the street and a charger wired to your home supply. Without it, you are buying your charging on the public network at public prices, which are several times higher, and you lose the cheap overnight window entirely. It does not make an electric car unworkable, but it removes the single biggest reason an electric car is cheap to run, so the rest of this guide is about getting as close to that as you can.</p>
+
+    <h2>On-street and lamppost chargers</h2>
+    <p>The closest thing to home charging without a driveway is an on-street charge point, including the lamppost chargers that some councils have fitted into existing street lighting. These are slower, designed for charging while parked for hours, and they are usually cheaper per unit than rapid chargers, often in the region of 40 to 50p, though still well above a home overnight rate. The snag is availability: you need one near where you can reliably park, and in many streets there are too few. Where your council has rolled them out, they are the best everyday option for a driveway-less household, so it is worth checking what exists on your street and asking the council about requesting one.</p>
+
+    <h2>Public charging hubs</h2>
+    <p>Failing a charger near home, you fall back on the public network of fast and rapid hubs at supermarkets, car parks, forecourts and dedicated charging sites. These are convenient and increasingly common, but they are the dearest way to charge, with rapid and ultra-rapid chargers averaging around 79p a unit, as the <a href="home-vs-public-ev-charging-cost.html">home versus public charging</a> guide sets out. Built into a routine, for instance a weekly rapid charge while doing the supermarket shop, they are workable, but relying on them for all your miles means paying around 20p a mile or more, which erodes much of the cost advantage of going electric.</p>
+
+    <h2>Workplace charging</h2>
+    <p>If your employer has chargers, this can be the answer to the whole problem. Workplace charging is often free or heavily subsidised, and a car parked at work all day has plenty of time to charge slowly and cheaply, which is exactly the pattern that makes home charging so good. For a commuter whose employer offers it, workplace charging can replace the home overnight charge entirely and bring the running cost right back down. It is well worth asking whether your workplace has, or plans to install, charging, because it can change the whole picture for someone without a driveway.</p>
+
+    <h2>The cable-across-the-pavement question</h2>
+    <p>Many people without a driveway wonder about simply running a cable from the house to the car at the kerb. It is tempting, because it would unlock cheap home charging, but it is generally discouraged and often against local rules, because a cable across a public footway is a trip hazard the householder can be liable for. Some councils permit it with an approved cable protector or a proper pavement gully channel, and these schemes are slowly spreading, so it is worth checking your own council's position rather than assuming either way. Do not just trail a cable across the pavement without checking, both for the legal risk and because someone tripping on it is a real danger.</p>
+
+    <h2>Is an electric car still worth it without a driveway?</h2>
+    <p>It can be, but the case is weaker and worth doing honestly. The fuel saving that makes an electric car so cheap depends heavily on cheap home charging, and without it you are paying public prices that can approach the cost of petrol per mile. If you have good on-street charging nearby or free workplace charging, much of the advantage survives and an electric car still makes sense. If you would be relying on rapid hubs for everything, the running-cost saving largely vanishes, and the decision rests more on the other reasons to go electric than on fuel cost. Work out realistically where and how you would charge, price it at the rates above, and compare that with what you spend on petrol now before committing.</p>
+
+    <h2>The bottom line</h2>
+    <p>You can run an electric car without a driveway, but you lose the cheap overnight home tariff that makes electric motoring so cheap, so charging costs more and needs planning. On-street and lamppost chargers are the best everyday option where they exist, workplace charging can be ideal if you have it, and public hubs work as an occasional fallback at a price. Check what charging you could realistically use and what it would cost before deciding, because for a driveway-less household the honest sums, not the headline 2p a mile, are what matter.</p>
+  </div></section>
+  <script type="application/ld+json">{"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"Can you have an electric car without a driveway?","acceptedAnswer":{"@type":"Answer","text":"Yes, but you lose easy access to cheap home overnight charging, so it costs more and needs planning. The options are on-street and lamppost chargers, public charging hubs, and workplace charging. Where good on-street or free workplace charging is available much of the cost advantage survives; relying on rapid hubs for everything largely removes it."}},{"@type":"Question","name":"How do you charge an EV with no off-street parking?","acceptedAnswer":{"@type":"Answer","text":"Use on-street or lamppost chargers near home where your council has fitted them, which are slower but cheaper than rapid charging, often around 40 to 50p a unit. Otherwise use public fast and rapid hubs at supermarkets and car parks, or charge at work if your employer offers it, which is often free or subsidised."}},{"@type":"Question","name":"Can I run a charging cable across the pavement to my car?","acceptedAnswer":{"@type":"Answer","text":"Generally it is discouraged and often against local rules, because a cable across a public footway is a trip hazard you can be liable for. Some councils allow it with an approved cable protector or a pavement gully channel. Check your own council's position rather than just trailing a cable across, both for the legal risk and the danger to passers-by."}},{"@type":"Question","name":"Is an EV worth it without home charging?","acceptedAnswer":{"@type":"Answer","text":"It depends on what charging you can use. With good on-street charging nearby or free workplace charging, much of the running-cost advantage survives. Relying on public rapid hubs for all your miles costs around 20p a mile or more, close to petrol, so the fuel saving largely disappears and the decision rests on other reasons to go electric."}}]}</script>
+''',
+)
+
+PAGES["how-long-do-ev-batteries-last"] = dict(
+    title="How long do electric car batteries last?",
+    description="What real-world data shows about how long electric car batteries last: the slow rate of degradation, how much capacity is retained after eight years and 100,000 miles, the warranty backstop, what ages a battery fastest, and the simple habits that make it last longer.",
+    active="guides",
+    blurb="Longer than most people fear. The real degradation data, the warranty backstop, and how to make a pack last.",
+    body='''
+  <section class="section"><div class="wrap prose">
+    <style>
+      .ev-key{background:var(--paper-alt,#f4f1ea);border:1px solid var(--line);border-radius:12px;padding:18px 22px;margin:6px 0 8px}
+      .ev-key p{margin:0}
+      .ev-table{width:100%;border-collapse:collapse;margin:14px 0;font-size:.97rem}
+      .ev-table th,.ev-table td{border:1px solid var(--line);padding:9px 12px;text-align:left}
+      .ev-table th{background:var(--paper-alt,#f4f1ea);font-weight:600}
+      .ev-table td:not(:first-child),.ev-table th:not(:first-child){text-align:right}
+      .ev-note{font-size:.9rem;color:var(--ink-soft,#5b5b5b)}
+      @media(max-width:560px){.ev-table{font-size:.86rem}.ev-table th,.ev-table td{padding:7px 8px}}
+    </style>
+
+    <p class="lede">The fear that an electric car's battery will wear out and cost a fortune to replace is one of the biggest things holding people back, and the real-world data has quietly put it to rest. Batteries degrade slowly and gradually, not in a sudden cliff, and most are comfortably outlasting their warranties. This guide sets out what the figures actually show and how to make a pack last as long as possible.</p>
+
+    <div class="ev-key">
+      <p><strong>The short answer.</strong> Longer than most people fear. Real-world data shows electric car batteries degrade about 1.8 to 2.3 per cent a year, retaining roughly 80 to 90 per cent of their original capacity after eight years and 100,000 miles. Most makers warranty the battery for eight years or 100,000 miles to at least about 70 per cent capacity, and modern packs routinely beat that. A few simple habits slow the wear further.</p>
+    </div>
+
+    <h2>The fear versus the data</h2>
+    <p>The worry imagines a battery that works fine and then suddenly dies, leaving you with a five-figure bill. That is not how it behaves. A battery loses capacity slowly and steadily, so what you actually see over the years is a gradual, modest reduction in range, not a failure. A car that did 250 miles when new might do around 220 after eight years and a lot of miles, still perfectly usable. Large studies of real fleets, covering tens of thousands of cars, have made this clear, and the picture has only improved as the technology has matured.</p>
+
+    <h2>How much they actually degrade</h2>
+    <p>The headline figure from recent large-scale data is an average loss of around 2.3 per cent of capacity a year, with the best modern cars doing nearer 1 per cent. That compounds gently rather than dramatically, so the retained capacity after several years stays high.</p>
+
+    <table class="ev-table">
+      <thead><tr><th>Age and use</th><th>Typical capacity retained</th></tr></thead>
+      <tbody>
+        <tr><td>After 4 years</td><td>~90 to 93%</td></tr>
+        <tr><td>After 8 years / 100,000 miles</td><td>~80 to 90% (average ~82%)</td></tr>
+        <tr><td>LFP battery, 8 years</td><td>~90 to 93%</td></tr>
+        <tr><td>Warranty floor most makers guarantee</td><td>~70%</td></tr>
+      </tbody>
+    </table>
+    <p class="ev-note">From large real-world fleet analyses, mid 2026. Newer lithium iron phosphate (LFP) packs, increasingly common in standard-range cars, hold up especially well. Older air-cooled designs in hot climates degrade fastest.</p>
+
+    <h2>The warranty backstop</h2>
+    <p>You are not left to chance on this. Manufacturers warranty the battery separately from the rest of the car, almost always for eight years or 100,000 miles, whichever comes first, and that warranty guarantees the capacity will not fall below a set threshold, typically around 70 per cent. If it does, they repair or replace it. Since the average pack is still around 80 per cent or better at that point, most batteries never come close to triggering a claim, but the cover is there as a floor under the worst cases. It is worth checking the exact terms for a car you are considering, since the threshold and conditions vary a little between makers.</p>
+
+    <h2>What ages a battery fastest</h2>
+    <p>A handful of things wear a battery harder than ordinary use. Heat is the big one: sustained high temperature ages the cells, which is why hot climates are tougher on batteries than temperate ones, and why parking in the shade and not leaving the car baking at a full charge in a heatwave helps, as the <a href="ev-range-in-hot-weather.html">EV range in hot weather</a> guide covers. Frequent rapid charging is harder on a pack than slow charging, because of the heat and stress it puts the cells under. Routinely charging to a full 100 per cent and running down to empty stresses the battery more than keeping it in a middle band. And time itself plays a part, since cells age slowly whether the car is driven or not.</p>
+
+    <h2>How to make it last</h2>
+    <p>The habits that protect a battery are easy and mostly the same ones that save money. For everyday use, set the charge limit to around 80 per cent rather than 100, and only fill to full before a long trip, since sitting at a full charge is one of the harder things for the cells. Do the bulk of your charging slowly at home overnight rather than leaning on rapid chargers, which is gentler as well as far cheaper, as the <a href="best-time-to-charge-an-electric-car.html">best time to charge</a> guide explains. Park in the shade or a garage in hot weather, and avoid leaving the car at a very high or very low charge for long periods. None of this is onerous, and a battery treated this way will hold its range well for many years.</p>
+
+    <h2>What happens at the end of its life</h2>
+    <p>Even when a battery eventually drops below the point where it suits a car, it is far from useless. Packs with plenty of capacity left are increasingly given a second life in home and grid energy storage, where the demands are gentler, and the materials in them are recyclable, with recovery improving as the industry scales. Replacement, the expensive worst case people fear, is rare within a car's normal life and getting cheaper as battery prices fall. For the running-cost picture overall, this durability is part of why an electric car's lower fuel and maintenance costs, set out in the <a href="ev-running-cost-vs-petrol.html">EV versus petrol</a> guide, are not undone by a looming battery bill the way the myth suggests.</p>
+
+    <h2>The bottom line</h2>
+    <p>Electric car batteries last well: they degrade gradually at around 2 per cent a year, keep roughly 80 to 90 per cent of their capacity after eight years and 100,000 miles, and are warrantied to about 70 per cent over that period, a floor most never approach. Heat, frequent rapid charging and sitting at a full charge are what wear them fastest, so charge to 80 per cent for daily use, charge slowly at home, and keep the car out of extreme heat. Treated sensibly, the battery will outlast the worries, and very likely the rest of the car's first life too.</p>
+  </div></section>
+  <script type="application/ld+json">{"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"How long do electric car batteries last?","acceptedAnswer":{"@type":"Answer","text":"Real-world data shows EV batteries degrade about 1.8 to 2.3 per cent a year, retaining roughly 80 to 90 per cent of their original capacity after eight years and 100,000 miles. Most are warrantied to at least about 70 per cent over eight years or 100,000 miles, and modern packs routinely beat that, comfortably outlasting the warranty."}},{"@type":"Question","name":"Do EV batteries suddenly fail?","acceptedAnswer":{"@type":"Answer","text":"No. They lose capacity slowly and steadily, so you see a gradual, modest reduction in range over the years rather than a sudden failure. A car that did 250 miles when new might do around 220 after eight years and high mileage, still perfectly usable. Outright failure within a car's normal life is rare and covered by warranty."}},{"@type":"Question","name":"What damages an EV battery the most?","acceptedAnswer":{"@type":"Answer","text":"Heat is the biggest factor, ageing the cells, so hot climates and leaving the car at a full charge in a heatwave are hard on a battery. Frequent rapid charging stresses the pack more than slow charging, and routinely charging to 100 per cent and running to empty wears it faster than keeping it in a middle band."}},{"@type":"Question","name":"How do I make my EV battery last longer?","acceptedAnswer":{"@type":"Answer","text":"Set the charge limit to around 80 per cent for everyday use and only fill to 100 per cent before long trips, charge slowly at home rather than relying on rapid chargers, and keep the car out of extreme heat by parking in shade and not leaving it baking at a full charge. These habits also save money."}}]}</script>
+''',
+)
+
 PAGES["energy-saving-myths"] = dict(
     title="Energy-saving myths that cost you money",
     description="The common energy-saving beliefs that are wrong or exaggerated, from leaving the heating on low all day to unplugging phone chargers, and the small number of changes that genuinely move the bill instead.",
@@ -2650,7 +2876,7 @@ PAGES["ev-running-cost-vs-petrol"] = dict(
     <h2>Servicing and maintenance</h2>
     <p>An electric car has far fewer moving parts than a petrol one: no oil changes, no exhaust, no clutch, far less to wear out, and regenerative braking even spares the brake pads. That generally means lower routine servicing and maintenance costs over the years. Petrol cars have a long, familiar list of consumables and services that quietly add up, and the EV sidesteps most of it.</p>
     <h2>The caveats</h2>
-    <p>The day-to-day savings come with conditions worth stating plainly. If you cannot charge at home and rely on public rapid chargers, the per-mile cost rises sharply and can approach petrol, eroding the main advantage. Electric cars also tend to cost more to buy upfront, and depreciation and battery longevity are part of the lifetime sum, not just the energy. So the running-cost win is real but it sits inside a bigger picture that includes the purchase price and how you will charge.</p>
+    <p>The day-to-day savings come with conditions worth stating plainly. If you cannot charge at home and rely on public rapid chargers, the per-mile cost rises sharply and can approach petrol, eroding the main advantage. Electric cars also tend to cost more to buy upfront, and depreciation and <a href="how-long-do-ev-batteries-last.html">battery longevity</a> are part of the lifetime sum, not just the energy. So the running-cost win is real but it sits inside a bigger picture that includes the purchase price and how you will charge.</p>
     <h2>The total picture</h2>
     <p>Put together, an electric car driven by someone who charges at home, especially off-peak, usually costs noticeably less to run and maintain than an equivalent petrol car, and the fuel saving is the clearest single advantage of going electric. Whether that adds up to a better overall deal depends on the upfront cost, how long you keep the car, and your charging situation. If you still run petrol, the habits on the <a href="hypermiling.html">hypermiling</a> page remain the way to trim its thirst; if you go electric, charging at the right time is the equivalent skill.</p>
     <h2>The bottom line</h2>
@@ -2879,9 +3105,12 @@ GUIDES_ORDER = [
     "solar-panels-hot-weather",
     # Fuel, driving and EVs
     "hypermiling", "keeping-your-car-cool-fuel-economy",
-    "ev-charging-at-home-cost", "best-time-to-charge-an-electric-car",
+    "ev-charging-at-home-cost", "home-vs-public-ev-charging-cost",
+    "ev-electricity-tariffs-explained", "ev-charging-no-driveway",
+    "best-time-to-charge-an-electric-car",
     "electric-car-miles-per-kwh", "home-ev-charger-vs-3-pin-plug",
     "ev-charging-in-winter", "ev-range-in-hot-weather", "ev-cost-vs-petrol-per-year",
+    "how-long-do-ev-batteries-last",
     # Seasonal
     "winter-energy-checklist", "keeping-cool-without-air-con",
     "air-conditioning-running-cost", "fan-running-cost", "portable-air-conditioner-vs-fan",
