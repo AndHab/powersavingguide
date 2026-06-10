@@ -2367,6 +2367,75 @@ PAGES["how-long-do-ev-batteries-last"] = dict(
 ''',
 )
 
+PAGES["plug-in-hybrid-running-cost"] = dict(
+    title="Plug-in hybrid running cost: are PHEVs cheaper to run?",
+    description="What a plug-in hybrid really costs to run, and why the answer depends entirely on whether you charge it: the cost per mile on electric versus petrol, the optimistic-MPG trap, real electric range, how charging works, who a PHEV suits, and how it compares with a full EV and a petrol car.",
+    active="guides",
+    blurb="Only if you plug it in. Why a PHEV's real cost swings from 2p to 16p a mile on charging discipline alone.",
+    body='''
+  <section class="section"><div class="wrap prose">
+    <style>
+      .ev-key{background:var(--paper-alt,#f4f1ea);border:1px solid var(--line);border-radius:12px;padding:18px 22px;margin:6px 0 8px}
+      .ev-key p{margin:0}
+      .ev-table{width:100%;border-collapse:collapse;margin:14px 0;font-size:.97rem}
+      .ev-table th,.ev-table td{border:1px solid var(--line);padding:9px 12px;text-align:left}
+      .ev-table th{background:var(--paper-alt,#f4f1ea);font-weight:600}
+      .ev-table td:not(:first-child),.ev-table th:not(:first-child){text-align:right}
+      .ev-note{font-size:.9rem;color:var(--ink-soft,#5b5b5b)}
+      @media(max-width:560px){.ev-table{font-size:.86rem}.ev-table th,.ev-table td{padding:7px 8px}}
+    </style>
+
+    <p class="lede">A plug-in hybrid sits between a petrol car and a full electric one, with a battery for short electric trips and a petrol engine for everything else. Whether it is cheap to run has a single, blunt answer: only if you plug it in. Charged and driven on electric for most miles, a plug-in hybrid costs about as little as an electric car; left uncharged and run on petrol, it is a heavy car with a small tank that can cost more than an ordinary petrol model. Here is how the figures actually fall.</p>
+
+    <div class="ev-key">
+      <p><strong>The short answer.</strong> A plug-in hybrid is only cheap to run if you charge it and do most miles on electric. On electric it costs around 2 to 3p a mile, much like an <a href="ev-charging-at-home-cost.html">electric car</a>; on petrol with a flat battery it manages roughly 45 mpg, about 16p a mile, often a touch worse than the equivalent plain hybrid because of the extra battery weight. Plug it in nightly and drive electric for the short trips, petrol for the long ones, and it is cheap and flexible. Never plug it in and you are hauling a heavy dead battery and refuelling constantly.</p>
+    </div>
+
+    <h2>How a plug-in hybrid works</h2>
+    <p>A plug-in hybrid, or PHEV, carries both a petrol engine and a battery large enough for a modest electric-only range, typically somewhere between 25 and 50 miles on paper. You charge the battery from the mains like an electric car, run on electric until it is flat, and then the petrol engine takes over, so you never have to worry about charging on a long trip. That dual nature is the appeal: electric running for the daily miles, petrol on tap for the occasional long journey. It is also the catch, because the cost depends entirely on which of the two you are actually using.</p>
+
+    <h2>The one thing that decides the cost: do you plug it in?</h2>
+    <p>Everything about a PHEV's running cost turns on charging discipline. Electricity to drive a mile costs a fraction of the petrol to drive the same mile, so the more of your miles you do on a charged battery, the cheaper the car runs. A driver who plugs in every night and whose daily trips fit inside the electric range does almost all their miles on cheap electricity, and the petrol engine barely sips. A driver who never bothers to charge does every mile on petrol, in a car made heavier by a battery it is not using, and gets worse economy than a normal petrol car would. Same vehicle, wildly different cost, decided purely by the habit of plugging in.</p>
+
+    <h2>The numbers, by how much you charge</h2>
+    <p>The figures make the point. Charging at an off-peak home rate, the electric miles cost around 2 to 3p each; on petrol at about 45 mpg and 1.59 a litre, the petrol miles cost around 16p each. Your real cost per mile is a blend of the two, set by the share of miles you do on electric.</p>
+
+    <table class="ev-table">
+      <thead><tr><th>Share of miles on electric</th><th>Effective cost per mile</th></tr></thead>
+      <tbody>
+        <tr><td>100% (always charged, trips within range)</td><td>~2 to 3p</td></tr>
+        <tr><td>70% electric, 30% petrol</td><td>~6p</td></tr>
+        <tr><td>50% electric, 50% petrol</td><td>~9p</td></tr>
+        <tr><td>0% (never charged, petrol only)</td><td>~16p</td></tr>
+      </tbody>
+    </table>
+    <p class="ev-note">Electric miles at an off-peak EV rate and about 3 miles per kWh, a little less efficient than a dedicated EV; petrol miles at roughly 45 mpg and 1.59 a litre. For comparison, a full electric car off-peak is around 2p a mile and a 50 mpg petrol car about 14p a mile. The PHEV only reaches EV-like cost if it is run mostly on electric.</p>
+
+    <h2>The optimistic-MPG trap</h2>
+    <p>Plug-in hybrids carry spectacular official fuel-economy figures, sometimes well over 150 or even 200 miles per gallon. Treat those as fiction for your purposes. The official test runs largely on a full battery over a short distance, so it credits the car with electric miles and counts almost no petrol, producing a number no real driver sees over a normal mix of journeys. On petrol with the battery flat, a PHEV returns ordinary figures, commonly around 40 to 50 mpg, and because it is lugging a heavy battery pack it can actually do a few miles per gallon worse than the same model as a plain non-plug-in hybrid. The lesson is to ignore the headline mpg entirely and think in terms of electric miles and petrol miles separately, because that is how the car really behaves.</p>
+
+    <h2>Real electric range</h2>
+    <p>The electric range matters because it sets how many of your miles can be the cheap ones. Official figures of 25 to 50 miles translate to perhaps 10 to 20 per cent less in real driving, and less again in cold weather or at motorway speed, so a car rated at 35 miles might give you nearer 25 to 30 on a good day. For many people that still comfortably covers a daily commute and the local running about, which is exactly the pattern a PHEV is built for. The trick is to match the car's real electric range to your actual daily mileage: if your day fits inside the battery, you rarely touch petrol; if it routinely does not, you will be on the engine more than you might expect.</p>
+
+    <h2>Charging a plug-in hybrid</h2>
+    <p>A PHEV battery is small, a fraction of an electric car's, so it charges quickly and cheaply. Even from an ordinary three-pin socket it typically fills in a few hours, comfortably overnight, and most owners never need a faster charger, though a <a href="home-ev-charger-vs-3-pin-plug.html">home wallbox</a> still adds convenience. Most plug-in hybrids cannot use public rapid chargers at all, so they are really designed around topping up at home or work. All the same logic as a full electric car applies: charge overnight on a cheap <a href="ev-electricity-tariffs-explained.html">EV tariff</a> and those electric miles cost a couple of pence each; charge on a standard daytime rate and they cost more but are still well below petrol.</p>
+
+    <h2>Who a plug-in hybrid suits</h2>
+    <p>A PHEV makes most sense for a particular driver: one with a short daily commute that fits inside the electric range, the ability to charge at home, and an occasional need to drive long distances where the petrol engine removes any range worry. For that person it delivers electric-car running costs on the everyday miles and petrol convenience on the rare long trip, which is a genuinely attractive combination. It suits much less well anyone who cannot charge at home, who does mostly long motorway miles beyond the electric range, or who simply will not get into the habit of plugging in, because all of those push the car onto petrol where it is heavier and thirstier than it needs to be.</p>
+
+    <h2>Plug-in hybrid versus full EV versus petrol</h2>
+    <p>Set against a full <a href="ev-running-cost-vs-petrol.html">electric car</a>, a PHEV is usually cheaper to buy and free of any range or charging anxiety on long trips, but it only matches the EV's low running cost for the miles it does on electric, it has two powertrains to maintain rather than one, and its short electric range means more of its miles end up on petrol than owners expect. Against a petrol car, a charged PHEV is much cheaper to run and an uncharged one is not, so it only wins if you commit to plugging in. In short, a PHEV is the hedge: it suits someone who wants most of the electric saving but is not ready to go fully electric, and who will genuinely charge it. If you can live with charging for everything, a full EV is cheaper per mile across the board; if you will never plug in, an efficient plain hybrid or petrol car is the simpler, lighter choice.</p>
+
+    <h2>A note on company cars</h2>
+    <p>Plug-in hybrids have been popular as company cars because of favourable benefit-in-kind tax treatment, which can make the after-tax cost attractive regardless of fuel. That tax position has been tightening, and it is a separate calculation from the running cost covered here. The warning still stands: a company-car PHEV that is never charged delivers the worst of both worlds, the tax having been the only saving while the fuel bill runs high. The car only does what it promises if it is plugged in.</p>
+
+    <h2>The bottom line</h2>
+    <p>A plug-in hybrid is cheap to run only when it is charged and driven mostly on electric, where it costs a couple of pence a mile like an electric car; run on petrol with a flat battery it manages ordinary economy and can be thirstier than a normal petrol car because of the weight it carries. Ignore the fantasy official mpg, match the real electric range to your daily mileage, charge overnight on a cheap tariff, and a PHEV is a flexible, low-cost car. Treat it as a petrol car you forget to plug in, and it is just a heavy petrol car with a small tank.</p>
+  </div></section>
+  <script type="application/ld+json">{"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"Are plug-in hybrids cheaper to run?","acceptedAnswer":{"@type":"Answer","text":"Only if you charge them and drive mostly on electric. On electric a PHEV costs around 2 to 3p a mile, much like an electric car; on petrol with a flat battery it manages roughly 45 mpg, about 16p a mile, sometimes worse than a normal petrol car because of the battery weight. Your real cost is a blend set by how much you charge."}},{"@type":"Question","name":"What is the real MPG of a plug-in hybrid?","acceptedAnswer":{"@type":"Answer","text":"Ignore the official figures of 150 mpg or more, which assume a full battery over a short test. On petrol with the battery flat, a PHEV returns ordinary economy, commonly around 40 to 50 mpg, and can do a few mpg worse than the same model as a plain hybrid because it carries a heavy battery pack. Think in electric miles and petrol miles separately."}},{"@type":"Question","name":"How far can a plug-in hybrid go on electric?","acceptedAnswer":{"@type":"Answer","text":"Official electric range is typically 25 to 50 miles, but real-world range is around 10 to 20 per cent less, and lower again in cold weather or at motorway speed, so a car rated at 35 miles might give 25 to 30. That is enough for many daily commutes, which is the pattern a PHEV is designed for."}},{"@type":"Question","name":"Is a plug-in hybrid or a full electric car cheaper?","acceptedAnswer":{"@type":"Answer","text":"A full electric car is cheaper to run per mile across all your miles, while a plug-in hybrid only matches it for the miles done on electric and falls back to petrol cost for the rest. A PHEV is usually cheaper to buy and has no long-trip charging worry, so it suits someone who wants most of the electric saving but is not ready to go fully electric, provided they actually plug it in."}}]}</script>
+''',
+)
+
 PAGES["energy-saving-myths"] = dict(
     title="Energy-saving myths that cost you money",
     description="The common energy-saving beliefs that are wrong or exaggerated, from leaving the heating on low all day to unplugging phone chargers, and the small number of changes that genuinely move the bill instead.",
@@ -2880,7 +2949,7 @@ PAGES["ev-running-cost-vs-petrol"] = dict(
     <h2>The total picture</h2>
     <p>Put together, an electric car driven by someone who charges at home, especially off-peak, usually costs noticeably less to run and maintain than an equivalent petrol car, and the fuel saving is the clearest single advantage of going electric. Whether that adds up to a better overall deal depends on the upfront cost, how long you keep the car, and your charging situation. If you still run petrol, the habits on the <a href="hypermiling.html">hypermiling</a> page remain the way to trim its thirst; if you go electric, charging at the right time is the equivalent skill.</p>
     <h2>The bottom line</h2>
-    <p>On running costs, the electric car generally wins: cheaper energy per mile, especially on an off-peak home tariff, and lower servicing thanks to far fewer moving parts. The caveats are upfront price, depreciation, and the fact that relying on public rapid charging undercuts the fuel saving. Decide on the whole-life cost and your charging reality, not the per-mile figure alone, but that per-mile figure is firmly in the EV's favour.</p>
+    <p>On running costs, the electric car generally wins: cheaper energy per mile, especially on an off-peak home tariff, and lower servicing thanks to far fewer moving parts. The caveats are upfront price, depreciation, and the fact that relying on public rapid charging undercuts the fuel saving. Decide on the whole-life cost and your charging reality, not the per-mile figure alone, but that per-mile figure is firmly in the EV's favour. If you are not ready to go fully electric, the <a href="plug-in-hybrid-running-cost.html">plug-in hybrid running cost</a> guide weighs up the half-way option, which is cheap only if you actually plug it in.</p>
   </div></section>
 ''',
 )
@@ -3110,7 +3179,7 @@ GUIDES_ORDER = [
     "best-time-to-charge-an-electric-car",
     "electric-car-miles-per-kwh", "home-ev-charger-vs-3-pin-plug",
     "ev-charging-in-winter", "ev-range-in-hot-weather", "ev-cost-vs-petrol-per-year",
-    "how-long-do-ev-batteries-last",
+    "plug-in-hybrid-running-cost", "how-long-do-ev-batteries-last",
     # Seasonal
     "winter-energy-checklist", "keeping-cool-without-air-con",
     "air-conditioning-running-cost", "fan-running-cost", "portable-air-conditioner-vs-fan",
