@@ -65,9 +65,14 @@ GSC (early June 2026) shows the site picking up UK impressions on the EV home-ch
 
 - **Scheduled: Ofgem cap auto-refresh** — one-time remote routine `trig_01YEVe8hNDKvYazmYMt5xzQN` fires 28 Aug 2026 08:00 UTC (Opus 4.8) to look up the Oct-Dec 2026 cap and update every hard-coded figure (rewriting the heat-pump-vs-gas narrative if the conclusion shifts), build, verify, push, IndexNow. Makes no changes if figures aren't published yet. Manage: https://claude.ai/code/routines/trig_01YEVe8hNDKvYazmYMt5xzQN
 
-### Queue (future-date about one a week)
+### Queue: the flagship year-queue (10 Jun 2026)
 
-The clearly-queued flagships are now all done (EV cluster, cooling cluster, heat-pump-vs-gas, appliance cost trio, standing charges, solar). **Next move: pull a fresh Google Search Console cluster** rather than work from a stale queue — find a page getting impressions but not clicks and deepen it (Part A), or write a new spoke around whatever query cluster is emerging. Candidate evergreen ideas if no GSC signal: smart-thermostat payback, induction-vs-gas running cost deepen, EV battery degradation/longevity, octopus-style time-of-use tariff explainer.
+A year of twice-weekly (Tue + Fri) flagship articles is now scheduled via `pubdate=` in `build.py`, written by a one-off multi-agent batch on 10 Jun 2026. State:
+
+- **66 articles shipped**: 6 live on 10 Jun 2026 (`is-it-cheaper-to-leave-heating-on-all-day`, `what-temperature-should-i-set-my-thermostat`, `cheaper-to-heat-one-room-or-whole-house`, `heated-clothes-airer-running-cost`, `how-the-energy-price-cap-works`, `how-to-sleep-in-a-heatwave-without-air-con`) plus 60 future-dated through to spring 2027, grouped under the `Flagship year-queue` comment in `GUIDES_ORDER`.
+- **43 planned slugs are still unwritten** (the batch was paused mid-run to save usage). Their topics, titles, clusters and pubdate slots are in `.flagship/plan.json`. **These slugs are reserved - do not let the autopilot or another session take them for different content.** The full machinery to finish the batch lives in `.flagship/` (plan.json, workflow script, assemble.py, link_check.py); note `assemble.py` refuses to run twice, so finishing the batch means inserting only the new entries.
+- **The drip engine is the Wed/Sat autopilot rebuild** (`trig_015zRgq2wWrF2VRCeBWzSRjj`). Every build on/after a page's pubdate publishes it. If that trigger is ever disabled the queue freezes - do not pause it.
+- **Pending-link safety net:** `build.py` now unwraps any internal link whose target page is not live yet (queued or not yet written) at render time, and the link comes back automatically on the first build after the target publishes. So scheduling order cannot create 404s, and the 43 missing articles can be added later without touching existing bodies.
 
 ### Figures to re-check at the next Ofgem cap (Oct-Dec 2026, announced ~late Aug 2026)
 Hard-coded current-cap numbers live in several pages and will need a refresh: unit rates **gas 7.33p, elec 26.11p** (heat-pump, shower, immersion guides) and standing charges **elec 57.19p/day, gas 29.04p/day** (standing-charges guide). Solar SEG/install figures also drift; re-check `is-solar-worth-it` periodically.
