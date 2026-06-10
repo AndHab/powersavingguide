@@ -257,7 +257,7 @@ PAGES["driving"] = dict(
     <h2>Idling and short hops</h2>
     <p>An idling engine does zero miles to the gallon, so switch off in long waits. Short cold journeys are the least efficient miles a car does, as the engine never warms up, so combining errands into one trip, or walking the very short ones, saves more than it seems.</p>
     <h2>The honest limit</h2>
-    <p>These habits trim a useful slice off a fuel bill, commonly into the low tens of per cent for a heavy-footed driver who reforms. They will not rival the saving from simply driving less, so where a journey can be shared, cycled or skipped, that is the biggest lever of all.</p>
+    <p>These habits trim a useful slice off a fuel bill, commonly into the low tens of per cent for a heavy-footed driver who reforms. They will not rival the saving from simply driving less, so where a journey can be shared, cycled or skipped, that is the biggest lever of all. In summer, how you cool the car plays in too: the <a href="keeping-your-car-cool-fuel-economy.html">keeping your car cool</a> guide weighs air conditioning against open windows.</p>
   </div></section>
 ''',
 )
@@ -430,7 +430,7 @@ PAGES["fridge-freezer-efficiency"] = dict(
     <h2>Seals and placement</h2>
     <p>A perished door seal lets cold leak out and the motor run constantly. Test it by closing the door on a sheet of paper: if it slides out easily, the seal needs replacing. Placement matters too, since an appliance jammed next to the oven or in a sunny spot has to fight the heat. Give it a few centimetres of air around the back and keep it out of direct warmth.</p>
     <h2>Full, but not stuffed</h2>
-    <p>A reasonably full freezer holds its cold better than an empty one, as the frozen mass acts as a buffer, so it cycles on less. A fridge, on the other hand, wants air to circulate, so do not cram it. And when it comes to replacing a very old unit, a fridge-freezer from twenty years ago can use several times the electricity of a modern efficient one, so the running-cost saving alone can justify the swap.</p>
+    <p>A reasonably full freezer holds its cold better than an empty one, as the frozen mass acts as a buffer, so it cycles on less. A fridge, on the other hand, wants air to circulate, so do not cram it. And when it comes to replacing a very old unit, a fridge-freezer from twenty years ago can use several times the electricity of a modern efficient one, so the running-cost saving alone can justify the swap. In a heatwave the appliance works harder still, which the <a href="fridge-freezer-in-hot-weather.html">fridge and freezer in hot weather</a> guide explains.</p>
   </div></section>
 ''',
 )
@@ -1248,7 +1248,7 @@ PAGES["solar-panels-the-basics"] = dict(
     <p>A domestic installation is a roof array of panels wired together, an inverter, a generation meter that records how much the system produces, and the connection into your fuse board. Many systems now add a battery, which stores surplus daytime generation for use in the evening, and that battery changes the economics enough to deserve its own treatment in the <a href="solar-battery-storage.html">battery storage</a> guide. The size of a system is given in kilowatts peak, its output under ideal test conditions, and a typical house array might be a few kilowatts peak across eight to sixteen panels, roof space permitting.</p>
 
     <h2>What governs how much you get</h2>
-    <p>Output depends on things you can influence and things you cannot. Roof direction matters most: a south-facing roof generates the most over a year, east and west less but spread across morning and afternoon, and north-facing roofs are generally not worth it. The pitch of the roof, the absence of shading from trees, chimneys or neighbouring buildings, and simply how sunny your region is all play in. So does the season, with long summer days producing several times what short, low-sun winter days manage. A realistic expectation for the UK is a system that does well from spring to autumn and modestly in deep winter, not one that runs your house off-grid year round.</p>
+    <p>Output depends on things you can influence and things you cannot. Roof direction matters most: a south-facing roof generates the most over a year, east and west less but spread across morning and afternoon, and north-facing roofs are generally not worth it. The pitch of the roof, the absence of shading from trees, chimneys or neighbouring buildings, and simply how sunny your region is all play in. So does the season, with long summer days producing several times what short, low-sun winter days manage, though a panel running hot in a heatwave gives up a little of its peak, as the <a href="solar-panels-hot-weather.html">solar panels in hot weather</a> guide explains. A realistic expectation for the UK is a system that does well from spring to autumn and modestly in deep winter, not one that runs your house off-grid year round.</p>
 
     <h2>The part that matters: using versus exporting</h2>
     <p>This is the single most important idea for the money side. Electricity your panels make and you use yourself at that moment is worth the full price you would otherwise have paid to buy it, which is the expensive retail rate. Electricity you generate but do not use is exported to the grid, and you are paid for that export at a much lower rate. So the value of a solar system depends heavily on how much of its output you consume yourself rather than spilling to the grid. A house with someone home in the daytime, or with the dishwasher, washing and hot water timed to run while the sun is up, captures far more value than one that exports most of its generation while everyone is out.</p>
@@ -1605,7 +1605,7 @@ PAGES["ev-charging-in-winter"] = dict(
     <p>It is worth saying plainly, because the winter range drop worries people: the lost range is temporary and the battery is not being damaged. Capacity returns in full when the weather warms, and the cold-weather behaviour is just physics, not wear. If anything, gentle slow home charging in winter is kinder to the battery than repeated cold rapid charging, which is another reason to do the bulk of your charging overnight at home. Treat the winter dip as a seasonal nuisance to plan around rather than a fault, manage it with preconditioning and sensible habits, and an electric car gets through a British winter perfectly well.</p>
 
     <h2>The bottom line</h2>
-    <p>Electric cars lose roughly 10 to 30 per cent of their range in cold weather, mostly because cabin heating comes from the battery rather than from waste engine heat, and rapid charging slows when the battery is cold. The fix is to precondition the car while it is plugged in, so the warm-up comes from the mains not the road, charge to a higher level in winter, use the seat heaters over the cabin heater, and keep the car sheltered. Do that and the cold becomes a planning detail, not a problem, and the battery comes to no lasting harm.</p>
+    <p>Electric cars lose roughly 10 to 30 per cent of their range in cold weather, mostly because cabin heating comes from the battery rather than from waste engine heat, and rapid charging slows when the battery is cold. The fix is to precondition the car while it is plugged in, so the warm-up comes from the mains not the road, charge to a higher level in winter, use the seat heaters over the cabin heater, and keep the car sheltered. Do that and the cold becomes a planning detail, not a problem, and the battery comes to no lasting harm. Heat costs range too, in its own way, which the <a href="ev-range-in-hot-weather.html">EV range in hot weather</a> guide covers.</p>
   </div></section>
   <script type="application/ld+json">{"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"How much range does an electric car lose in winter?","acceptedAnswer":{"@type":"Answer","text":"Typically 10 to 30 per cent, with the worst loss on short stop-start trips in a hard frost and the least on longer journeys in milder cold. Most of the loss is cabin heating drawn from the battery rather than any fault in the battery itself, and the range returns in full when the weather warms."}},{"@type":"Question","name":"Why does my EV charge slower in cold weather?","acceptedAnswer":{"@type":"Answer","text":"A cold battery cannot safely accept energy as quickly as a warm one, so rapid charging slows until it warms. Preconditioning the battery on the approach to a charger, which many cars do automatically when you navigate to one, can roughly halve the time compared with arriving cold. Slow home charging is barely affected."}},{"@type":"Question","name":"What is preconditioning on an electric car?","acceptedAnswer":{"@type":"Answer","text":"Preconditioning means warming the cabin and battery before you drive. Done while the car is still plugged in, the energy comes from the mains rather than the battery, so you set off warm with a battery at temperature and lose no range to the warm-up. Most cars let you schedule it to finish around your departure time."}},{"@type":"Question","name":"Does cold weather damage an EV battery?","acceptedAnswer":{"@type":"Answer","text":"No. The winter range drop is temporary and the capacity returns in full when it warms. Gentle slow home charging in winter is actually kinder to the battery than repeated cold rapid charging, so doing most of your charging overnight at home is best in the cold."}}]}</script>
 ''',
@@ -1902,6 +1902,242 @@ PAGES["heat-pump-running-cost-vs-gas-boiler"] = dict(
     <p>A heat pump is not automatically cheaper to run than a gas boiler, and anyone who tells you it always is, or never is, is skipping the arithmetic. On a standard tariff the two are close, because electricity costs about three and a half times what gas does while a good heat pump is three to four times as efficient, so the ratios nearly cancel and a well-set pump edges ahead. The heat pump wins clearly when it runs efficiently in a well-insulated home on a dedicated electricity tariff, and only slips behind when those are missing. Do the fabric, set it up to run gently, and put it on the right tariff, and the running cost lands firmly in its favour.</p>
   </div></section>
   <script type="application/ld+json">{"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"Is a heat pump cheaper to run than a gas boiler?","acceptedAnswer":{"@type":"Answer","text":"It depends on the heat pump's efficiency and the gap between electricity and gas prices. On a standard tariff the two are close, with a good heat pump edging ahead, because electricity costs about three and a half times as much as gas while a good heat pump is three to four times as efficient. On a dedicated heat-pump electricity tariff the heat pump is comfortably cheaper."}},{"@type":"Question","name":"What is the cost per unit of heat for a heat pump versus gas?","acceptedAnswer":{"@type":"Answer","text":"A gas boiler at 90 per cent efficiency on the 7.33p price-cap gas rate gives heat at about 8.1p per kWh. A heat pump on the 26.11p standard electricity rate gives heat at about 6.5p to 8.7p per kWh depending on its efficiency, so level with or a little below gas. On a 15p heat-pump tariff at an efficiency of 3.5 it falls to about 4.3p per kWh, well below gas."}},{"@type":"Question","name":"Why is a heat pump not always cheaper than gas?","acceptedAnswer":{"@type":"Answer","text":"Because electricity in Britain costs about three and a half times as much as gas per unit, while a good heat pump is only about three to four times as efficient as a boiler. Those ratios nearly cancel on a standard tariff, so the result is close, with a good pump a little cheaper and a poorly performing one roughly level with gas. It depends on the pump running efficiently in a well-insulated home and ideally on a cheaper electricity tariff."}},{"@type":"Question","name":"How do I make a heat pump cheaper to run?","acceptedAnswer":{"@type":"Answer","text":"Insulate and draught-proof so the pump can run at a low flow temperature where it is most efficient, set it to run steady and gentle rather than in hot blasts, and get onto a dedicated heat-pump electricity tariff with a lower unit rate. Together these move a heat pump from breaking even with gas to clearly cheaper."}}]}</script>
+''',
+)
+
+PAGES["ev-range-in-hot-weather"] = dict(
+    title="Does hot weather affect EV range? What a heatwave does",
+    description="Heat cuts an electric car's range too, not just cold: why a heatwave costs you miles through the air conditioning and the battery's own cooling, how much to expect, why a heat pump does not save you in summer, the effect on rapid charging and battery life, and how to limit it.",
+    active="guides",
+    blurb="Heat cuts range too, just less than cold. Why a heatwave costs you miles, and why a heat pump won't save you this time.",
+    body='''
+  <section class="section"><div class="wrap prose">
+    <style>
+      .ev-key{background:var(--paper-alt,#f4f1ea);border:1px solid var(--line);border-radius:12px;padding:18px 22px;margin:6px 0 8px}
+      .ev-key p{margin:0}
+      .ev-table{width:100%;border-collapse:collapse;margin:14px 0;font-size:.97rem}
+      .ev-table th,.ev-table td{border:1px solid var(--line);padding:9px 12px;text-align:left}
+      .ev-table th{background:var(--paper-alt,#f4f1ea);font-weight:600}
+      .ev-table td:not(:first-child),.ev-table th:not(:first-child){text-align:right}
+      .ev-note{font-size:.9rem;color:var(--ink-soft,#5b5b5b)}
+      @media(max-width:560px){.ev-table{font-size:.86rem}.ev-table th,.ev-table td{padding:7px 8px}}
+    </style>
+
+    <p class="lede">Everyone knows winter shortens an electric car's range, and that a heat pump softens the blow. Far fewer people realise that a heatwave costs range too. The loss is smaller than a hard frost, but on a scorching day a car can drop a fifth of its range, and this time the heat pump that rescues you in January is no help at all. Here is why heat costs miles, how much, and what to do about it.</p>
+
+    <div class="ev-key">
+      <p><strong>The short answer.</strong> Yes, hot weather cuts EV range, typically by around 10 to 25 per cent in a heatwave compared with a mild day, mostly from running the air conditioning and from the battery's own cooling system. The hit is smaller than deep winter's, because the battery itself works happily when warm. Unlike winter, a heat pump does not save you, since in the heat every electric car leans on the same air-conditioning compressor. Pre-cool the cabin while plugged in, park in the shade, and avoid sitting at 100 per cent in extreme heat.</p>
+    </div>
+
+    <h2>Heat cuts range, but less than cold</h2>
+    <p>An electric car is happiest in mild weather, somewhere around 20 degrees, where neither heating nor cooling is doing much work. Push the temperature up into the thirties and the range falls, just as it does in the cold, but by less. The reason is that the battery itself is content when warm; it gives up and takes on energy readily, which is the opposite of its sluggishness in the cold. So the heatwave penalty comes almost entirely from the extra loads the hot weather creates, not from the battery struggling, which is why it is a milder effect than the double hit of a cold battery plus cabin heating you get in winter, set out in the <a href="ev-charging-in-winter.html">EV charging in winter</a> guide.</p>
+
+    <h2>Why a hot day costs you miles</h2>
+    <p>Two things drain the battery in a heatwave. The first is the air conditioning, which on a very hot day runs hard to keep the cabin bearable, and that cooling energy comes from the battery that would otherwise be driving you forward. The second is the battery's own thermal management: modern electric cars actively cool the pack in extreme heat to protect the cells, and running that cooling draws power too. Together these are what trim your range. There is a silver lining, though, that petrol drivers do not get: an electric motor produces far less waste heat than an engine, so on a hot day the cabin starts off less brutally hot and the air conditioning has a slightly easier job than it does in a petrol car sitting behind a roasting engine bay.</p>
+
+    <h2>How much range you lose</h2>
+    <p>As with winter, the figure is a range rather than a single number, depending on how hot it is and how hard the air conditioning works. A warm day costs little; a full heatwave with the cooling running flat out can take a fifth or more off your usable range. The table sets the heat penalty against the familiar winter one for scale.</p>
+
+    <table class="ev-table">
+      <thead><tr><th>Conditions</th><th>Typical range vs a mild day</th></tr></thead>
+      <tbody>
+        <tr><td>Mild day, around 20C</td><td>baseline, the best you will see</td></tr>
+        <tr><td>Hot day, around 30C, air con on</td><td>~10 to 15% less</td></tr>
+        <tr><td>Heatwave, 35C and above, cooling hard</td><td>~15 to 25% less</td></tr>
+        <tr><td>Hard winter frost, for comparison</td><td>~25 to 30% or more less</td></tr>
+      </tbody>
+    </table>
+    <p class="ev-note">Indicative figures; the exact loss varies by car and conditions. The pattern holds across studies: heat cuts range, but a hard frost cuts it more. The loss shows up as a lower <a href="electric-car-miles-per-kwh.html">miles per kWh</a> figure, so the same charge takes you less far.</p>
+
+    <h2>Why a heat pump will not save you in summer</h2>
+    <p>This is the part that surprises people. In winter, a heat-pump-equipped car claws back a big chunk of the range a cold day would otherwise cost, because the heat pump warms the cabin far more efficiently than a plain electric heater. A heatwave is a different problem. Cooling the cabin is done by the air-conditioning compressor, and every electric car has one of those whether or not it has a heat pump, so in the heat they are all on much the same footing. The heat pump is a winter saviour, not a summer one. In fact some cars with heat pumps show slightly larger range loss in extreme heat than those without, because makers tune the system around the bigger prize of cold-weather efficiency. If you bought a heat-pump car expecting it to rescue your range in August too, this is the reality: in the heat, you are leaning on the air conditioning like everyone else.</p>
+
+    <h2>Rapid charging can slow in the heat too</h2>
+    <p>Heat does not only cost range, it can slow charging. Just as a cold battery limits how fast it will charge, a battery that is already hot, from a long fast motorway run in a heatwave, may have its rapid-charging rate held back while the car cools the pack to a safe temperature. So a mid-journey rapid charge on a blazing day can take longer than you expect. Home charging is barely affected, because the slow overnight rate sits well within what the battery can handle at any sensible temperature.</p>
+
+    <h2>The bigger issue: heat ages the battery</h2>
+    <p>The temporary range dip is the least of it. Sustained high temperature is one of the things that ages a lithium battery fastest, more so than cold, so the heat question is as much about long-term battery health as about today's range. The practical steps are simple. Park in the shade or a garage whenever you can, so the pack is not baking in the sun all day. Avoid leaving the car sitting at a full 100 per cent charge in extreme heat, since a full battery held hot is the hardest case of all; for everyday use a charge limit of around 80 per cent is kinder. And use slow home charging rather than repeated rapid charging in hot spells, which is gentler on a warm pack.</p>
+
+    <h2>How to limit the range loss</h2>
+    <p>The single most useful habit is the summer twin of winter preconditioning: pre-cool the cabin while the car is still plugged in. Cooling the car down from the mains before you set off, rather than from the battery once you are moving, means you start your journey in a comfortable car with a battery at a sensible temperature, having spent no range on the initial blast of cooling. Most electric cars let you schedule this to finish around your departure time, the same feature covered for warming in the <a href="best-time-to-charge-an-electric-car.html">best time to charge</a> guide. Beyond that, park in the shade and use a windscreen sunshade so the cabin is not an oven to begin with, lean on ventilated or cooled seats where the car has them rather than chilling the whole cabin, and once the car is cool let the air conditioning tick over gently rather than running at maximum. Each of these trims the cooling load, and with it the miles the heatwave takes.</p>
+
+    <h2>The bottom line</h2>
+    <p>Hot weather cuts an electric car's range by roughly 10 to 25 per cent in a heatwave, mostly through the air conditioning and the battery's cooling, which is real but less than a hard winter's loss because the battery itself likes the warmth. The catch is that a heat pump, the hero of winter range, does nothing for you in summer, when every car relies on the same air conditioning. Pre-cool while plugged in, park in the shade, keep the charge off 100 per cent in extreme heat, and the heatwave becomes a manageable dip rather than a worry, for both your range today and your battery's life over the years.</p>
+  </div></section>
+  <script type="application/ld+json">{"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"Does hot weather reduce electric car range?","acceptedAnswer":{"@type":"Answer","text":"Yes. A heatwave typically cuts EV range by around 10 to 25 per cent compared with a mild day, mostly from running the air conditioning and the battery's own cooling system. The loss is smaller than a hard winter's, because the battery itself works happily when warm, so the heat penalty comes from the extra cooling loads rather than the battery struggling."}},{"@type":"Question","name":"Does a heat pump help EV range in hot weather?","acceptedAnswer":{"@type":"Answer","text":"No, not really. A heat pump is a winter feature: it warms the cabin efficiently and claws back range in the cold. In a heatwave the cabin is cooled by the air-conditioning compressor, which every electric car has, so heat-pump and non-heat-pump cars are on much the same footing. Some heat-pump cars even lose slightly more range in extreme heat."}},{"@type":"Question","name":"Is hot weather bad for an EV battery?","acceptedAnswer":{"@type":"Answer","text":"Sustained high heat ages a lithium battery faster than cold does, so it is worth managing. Park in the shade or a garage, avoid leaving the car at a full 100 per cent charge in extreme heat, use a charge limit around 80 per cent for everyday use, and favour slow home charging over repeated rapid charging in hot spells."}},{"@type":"Question","name":"How can I reduce EV range loss in summer?","acceptedAnswer":{"@type":"Answer","text":"Pre-cool the cabin while the car is still plugged in, so the cooling comes from the mains rather than the battery. Park in the shade and use a windscreen sunshade so the car is not an oven, use ventilated or cooled seats instead of chilling the whole cabin, and let the air conditioning run gently once the car is cool rather than at maximum."}}]}</script>
+''',
+)
+
+PAGES["keeping-your-car-cool-fuel-economy"] = dict(
+    title="Keeping your car cool without wrecking fuel economy",
+    description="Air conditioning or windows down: which keeps a car cool for less fuel, why the answer depends on your speed, what the air con actually costs at the pump, and the free habits that cut the heat before you spend a drop of fuel on it.",
+    active="guides",
+    blurb="Air con or windows down? The honest answer depends on your speed. How to stay cool for the least fuel.",
+    body='''
+  <section class="section"><div class="wrap prose">
+    <style>
+      .ev-key{background:var(--paper-alt,#f4f1ea);border:1px solid var(--line);border-radius:12px;padding:18px 22px;margin:6px 0 8px}
+      .ev-key p{margin:0}
+      .ev-table{width:100%;border-collapse:collapse;margin:14px 0;font-size:.97rem}
+      .ev-table th,.ev-table td{border:1px solid var(--line);padding:9px 12px;text-align:left}
+      .ev-table th{background:var(--paper-alt,#f4f1ea);font-weight:600}
+      .ev-table td:not(:first-child),.ev-table th:not(:first-child){text-align:right}
+      .ev-note{font-size:.9rem;color:var(--ink-soft,#5b5b5b)}
+      @media(max-width:560px){.ev-table{font-size:.86rem}.ev-table th,.ev-table td{padding:7px 8px}}
+    </style>
+
+    <p class="lede">The old summer argument, air conditioning or windows down, turns out to have a real answer, and it is not the same answer at every speed. Air conditioning costs fuel; open windows cost aerodynamics; and which one is cheaper depends on how fast you are going. Knowing the crossover, and the free tricks that cut the heat before either comes into play, keeps you cool for the least fuel.</p>
+
+    <div class="ev-key">
+      <p><strong>The short answer.</strong> Air conditioning typically costs around 4 to 8 per cent in fuel, more in stop-start traffic. Open windows cost nothing directly but add aerodynamic drag that grows sharply with speed. The rule of thumb: below about 40 to 50 mph, windows down is the cheaper way to stay cool; at motorway speed, air conditioning wins because drag dominates. Either way, dump the trapped heat before you set off and park in the shade, so you need less cooling in the first place.</p>
+    </div>
+
+    <h2>What the air conditioning costs</h2>
+    <p>Air conditioning is not free, because the compressor that cools the air is driven by the engine, so it burns a little extra fuel whenever it runs. The penalty is modest on the open road and larger in slow traffic, where the engine is working less but the compressor still has to run. On a hot day it can shave a noticeable slice off your economy, a few per cent on most cars and a touch more on a hybrid, whose efficient engine feels the extra load proportionally more. The same idea governs cooling anywhere, which is why an <a href="air-conditioning-running-cost.html">air conditioner at home</a> is such a heavy load too: removing heat takes real energy, in a car as in a house.</p>
+
+    <table class="ev-table">
+      <thead><tr><th>Vehicle</th><th>Typical fuel economy hit from air con</th></tr></thead>
+      <tbody>
+        <tr><td>Petrol</td><td>~4% (around 1 to 4 mpg on a hot day)</td></tr>
+        <tr><td>Diesel</td><td>~5%</td></tr>
+        <tr><td>Hybrid</td><td>~6%</td></tr>
+      </tbody>
+    </table>
+    <p class="ev-note">Indicative averages; the real figure depends on the car, the heat and how hard the system works. The penalty is largest in slow, stop-start traffic and smallest at a steady cruise.</p>
+
+    <h2>What open windows cost</h2>
+    <p>Opening the windows feels like the free option, and at low speed it very nearly is. But moving air past an open window creates drag, and aerodynamic drag rises steeply with speed, so the faster you go the more those open windows cost you in fuel. Around town the effect is tiny. On the motorway it can rival or even exceed the cost of the air conditioning, because the car is fighting noticeably more wind resistance. The evidence varies between vehicles, with a boxy car losing more than a sleek one, and some careful tests finding little difference at all on certain cars, but the direction is consistent: the penalty for open windows grows with speed, while the penalty for air conditioning stays much the same.</p>
+
+    <h2>The rule of thumb, by speed</h2>
+    <p>Put the two together and a simple guide emerges. At low speeds, around town and up to roughly 40 to 50 mph, open windows are the cheaper way to stay cool, because the drag they add is small and you avoid the air-conditioning fuel penalty entirely. At higher speeds, on faster A-roads and the motorway, air conditioning wins, because aerodynamic drag now dominates and keeping the windows shut to stay slippery is worth more than the fuel the compressor uses. So the fuel-savvy approach is windows down in town, windows up and air conditioning on for the motorway. Larger, boxier vehicles cross over at a lower speed than small aerodynamic ones, but the principle is the same for all of them.</p>
+
+    <h2>Cut the heat before you cool it</h2>
+    <p>The cheapest cooling is the heat you never let build up. A car left in the sun becomes far hotter inside than the air outside, so the first job is to dump that trapped heat before you drive: open the doors or windows for a minute to let the oven-hot air out, and you start from a far lower temperature that needs much less cooling to manage. Park in the shade whenever you can, use a reflective windscreen sunshade to stop the dashboard and cabin baking, and leave the windows cracked a little when parked so heat does not build to the same extreme. Do these and whichever cooling method you then use, windows or air conditioning, has far less work to do, which is where the real fuel saving lives.</p>
+
+    <h2>Use the cooling well</h2>
+    <p>However you cool the car, a little restraint helps. Set a comfortable temperature rather than the coldest setting, because as with a home thermostat the harder you ask the system to work the more it costs. Once the cabin is cool, switching to recirculate keeps the already-cooled air going round rather than dragging in fresh hot air to chill from scratch, easing the load. And there is no point running the air conditioning in a stationary car with the engine idling just to cool down before you leave, since you burn fuel going nowhere; venting the hot air and driving off gets you cool sooner for less.</p>
+
+    <h2>Electric cars: the same logic, in range</h2>
+    <p>If you drive an electric car the trade-offs are identical, except the cost shows up as lost range rather than fuel. Air conditioning draws from the battery, open windows add the same speed-dependent drag, and the same low-speed-windows, high-speed-air-con rule applies. The one extra trick an electric car gives you is pre-cooling the cabin while it is still plugged in, so the initial blast of cooling comes from the mains and costs you no range at all, which the <a href="ev-range-in-hot-weather.html">EV range in hot weather</a> guide covers along with the rest of the summer range picture.</p>
+
+    <h2>The bottom line</h2>
+    <p>Staying cool need not cost much fuel if you match the method to the speed: windows down around town, where they are nearly free, and air conditioning on the motorway, where staying aerodynamic matters more than the few per cent the compressor uses. Better still, attack the heat before either: vent the trapped hot air, park in the shade and shade the windscreen, so there is far less heat to fight. Cool the car the smart way and a summer of driving costs barely more than a mild one.</p>
+  </div></section>
+  <script type="application/ld+json">{"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"Is it more fuel-efficient to use air conditioning or open the windows?","acceptedAnswer":{"@type":"Answer","text":"It depends on speed. Below about 40 to 50 mph, open windows are cheaper, because the drag they add is small and you avoid the air-conditioning fuel penalty. At motorway speed, air conditioning wins, because aerodynamic drag from open windows grows sharply with speed and dominates. So windows down in town, windows up with air con on the motorway."}},{"@type":"Question","name":"How much does car air conditioning affect fuel economy?","acceptedAnswer":{"@type":"Answer","text":"Air conditioning typically costs around 4 to 8 per cent in fuel, roughly 4 per cent on a petrol car, a little more on a diesel and around 6 per cent on a hybrid. The penalty is largest in slow, stop-start traffic where the engine is doing little but the compressor still runs, and smallest at a steady cruise."}},{"@type":"Question","name":"Does opening car windows save fuel?","acceptedAnswer":{"@type":"Answer","text":"At low speeds, yes, because you avoid the air-conditioning fuel penalty and the extra drag is small. At higher speeds the drag from open windows grows steeply and can cost as much fuel as the air conditioning would, or more. The faster you drive, the less open windows save and the more sense it makes to shut them and use the air con."}},{"@type":"Question","name":"How can I keep my car cool and save fuel?","acceptedAnswer":{"@type":"Answer","text":"Dump the trapped heat before you drive by opening the doors or windows for a minute, park in the shade, and use a windscreen sunshade so the cabin does not bake. Then use windows down at low speed and air conditioning at high speed, set a comfortable rather than freezing temperature, and switch to recirculate once the car is cool."}}]}</script>
+''',
+)
+
+PAGES["solar-panels-hot-weather"] = dict(
+    title="Do solar panels work better or worse in hot weather?",
+    description="Why solar panels actually produce slightly less when they get very hot, how the temperature coefficient works, why summer still gives by far the most generation despite the heat, what the ideal conditions really are, and what, if anything, you can do about it.",
+    active="guides",
+    blurb="Panels love light, not heat. Why a scorching day isn't their best, and why summer still wins overall.",
+    body='''
+  <section class="section"><div class="wrap prose">
+    <style>
+      .ev-key{background:var(--paper-alt,#f4f1ea);border:1px solid var(--line);border-radius:12px;padding:18px 22px;margin:6px 0 8px}
+      .ev-key p{margin:0}
+      .ev-table{width:100%;border-collapse:collapse;margin:14px 0;font-size:.97rem}
+      .ev-table th,.ev-table td{border:1px solid var(--line);padding:9px 12px;text-align:left}
+      .ev-table th{background:var(--paper-alt,#f4f1ea);font-weight:600}
+      .ev-table td:not(:first-child),.ev-table th:not(:first-child){text-align:right}
+      .ev-note{font-size:.9rem;color:var(--ink-soft,#5b5b5b)}
+      @media(max-width:560px){.ev-table{font-size:.86rem}.ev-table th,.ev-table td{padding:7px 8px}}
+    </style>
+
+    <p class="lede">It seems obvious that the hotter and sunnier the day, the more your solar panels must be making. The first half is right and the second is not. Panels are driven by light, not heat, and in fact they produce slightly less for a given amount of sunlight when they get very hot. That sounds like bad news for a heatwave, but summer is still comfortably your best season for generation. Here is how that apparent contradiction works.</p>
+
+    <div class="ev-key">
+      <p><strong>The short answer.</strong> Solar panels produce a little less per unit of sunlight when they get hot. Output falls by roughly 0.3 to 0.4 per cent for every degree the panel sits above 25C, and in strong sun a panel can reach 50 to 65C, trimming maybe 10 to 15 per cent off its peak. But summer still gives by far the most generation overall, because the long days and high sun more than make up for the heat penalty. A panel's ideal is a cold, bright, sunny day, not a baking one.</p>
+    </div>
+
+    <h2>Panels want light, not heat</h2>
+    <p>A solar panel makes electricity from light, not from warmth, and these are not the same thing. You can have brilliant light on a cold, clear day, and you can have fierce heat under a hazy sky. What the panel converts is the light landing on it; the heat is, if anything, a mild hindrance. This is the point that catches people out, because we naturally lump "hot" and "sunny" together, when for a solar panel they pull in opposite directions. The <a href="solar-panels-the-basics.html">solar basics</a> guide covers how the panels turn that light into power; this one is about why the temperature of the panel matters separately.</p>
+
+    <h2>Why heat reduces output</h2>
+    <p>Every panel is rated at a standard cell temperature of 25 degrees, and its performance is measured against that. As the cells heat up beyond that point, the voltage they produce drops slightly, and so does their output. The figure is set by the panel's temperature coefficient, typically a loss of around 0.3 to 0.4 per cent for each degree above 25. That sounds trivial until you realise how hot a panel gets in full sun: sitting in direct sunlight on a still day, the cells can reach 50 to 65 degrees, well above the 25 they were rated at, so the accumulated penalty can be 10 to 15 per cent off the nameplate figure. The panel is still generating plenty; it is just generating a little less than its sticker would suggest, because it is running hot.</p>
+
+    <h2>But summer still wins, easily</h2>
+    <p>None of this means a heatwave is bad for your generation. The heat penalty is a small percentage knocked off a very large summer output, and that output is large because summer brings long days and a high sun, which together deliver far more light over a day than winter ever can. So your panels still make their most in the bright half of the year, heat penalty and all; a hot July day comfortably beats a cold December one despite the temperature working against it. The right way to think about it is that summer gives you a big cake with a thin slice taken off the top for heat, while winter gives you a much smaller cake to begin with.</p>
+
+    <table class="ev-table">
+      <thead><tr><th>Conditions</th><th>Generation</th></tr></thead>
+      <tbody>
+        <tr><td>Cold and bright, full sun</td><td>Best per hour, panels near their rated output</td></tr>
+        <tr><td>Hot and sunny, heatwave</td><td>Slightly below peak, but long days mean a high daily total</td></tr>
+        <tr><td>Warm but overcast or hazy</td><td>Much lower, because there is less light to convert</td></tr>
+        <tr><td>Short winter days</td><td>Lowest total, little daylight however clear</td></tr>
+      </tbody>
+    </table>
+    <p class="ev-note">Light is what counts, and length of day with it. A cold sunny day gives the best output per hour; a hot sunny day gives the best total because the sun is up for so long.</p>
+
+    <h2>The ideal conditions</h2>
+    <p>If you wanted to design a perfect solar day, it would be cold and brilliantly sunny, the cells kept cool by the chill air while bathed in strong light. Those crisp, bright spring days, clear skies and a low temperature, are when panels often punch above their rated figure, which surprises owners who expected the height of summer to be the peak. The very hottest, stillest days of a heatwave are not quite the best per hour, because the panels are running hot, though the sheer length of daylight still makes them strong days overall.</p>
+
+    <h2>Is there anything to do about it?</h2>
+    <p>For a homeowner, almost nothing, and that is fine. Panels are mounted with an air gap behind them precisely so air can circulate and carry some heat away, which is part of why a roof array copes better than panels laid flat against a hot surface. Beyond ensuring nothing blocks that airflow, there is no day-to-day action worth taking; the heat penalty is a known, modest fact of how panels work, already accounted for in any sensible generation estimate. The more useful summer thought is what to do with all that long-day generation: a <a href="solar-battery-storage.html">solar battery</a> stores the midday surplus for the evening, and timing the washing, dishwasher and any car charging into the sunny middle of the day soaks up power you would otherwise export cheaply, which is where the real value lies, as the <a href="is-solar-worth-it.html">is solar worth it</a> guide explains.</p>
+
+    <h2>The bottom line</h2>
+    <p>Solar panels produce slightly less per unit of sunlight when they are hot, losing around 0.3 to 0.4 per cent a degree above 25, so on a baking day a panel running at 50 to 65 degrees gives maybe 10 to 15 per cent below its rated peak. But this is a thin slice off a big summer total: the long days and high sun mean summer is still by far your best generation season, and a cold, bright day is what a panel likes best per hour. Heat is a minor handicap, not a problem, and nothing for an owner to lose sleep over.</p>
+  </div></section>
+  <script type="application/ld+json">{"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"Do solar panels produce less electricity in hot weather?","acceptedAnswer":{"@type":"Answer","text":"Slightly, yes. Panels are rated at a cell temperature of 25C, and output falls by roughly 0.3 to 0.4 per cent for every degree above that. In strong sun a panel can reach 50 to 65C, trimming around 10 to 15 per cent off its rated peak. It is still generating plenty, just a little less than the nameplate figure because it is running hot."}},{"@type":"Question","name":"Is summer or winter better for solar panels?","acceptedAnswer":{"@type":"Answer","text":"Summer, by a wide margin, despite the heat penalty. Summer's long days and high sun deliver far more light over a day than winter, so your panels make much more, even though running hot costs them a few per cent. A hot July day comfortably beats a cold December one for total generation."}},{"@type":"Question","name":"What is the ideal weather for solar panels?","acceptedAnswer":{"@type":"Answer","text":"Cold and brilliantly sunny. Strong light drives the output while the cool air keeps the panels near their rated temperature, so crisp, clear spring days often produce the best output per hour. The hottest days of a heatwave are slightly below peak per hour because the panels run hot, though long daylight still makes them strong overall."}},{"@type":"Question","name":"Can you stop solar panels overheating?","acceptedAnswer":{"@type":"Answer","text":"There is little a homeowner needs to do. Panels are mounted with an air gap behind them so air can circulate and carry heat away, which is why a roof array copes better than panels flat against a hot surface. Just keep that airflow clear; the modest heat penalty is normal and already built into any sensible generation estimate."}}]}</script>
+''',
+)
+
+PAGES["fridge-freezer-in-hot-weather"] = dict(
+    title="Why your fridge and freezer cost more to run in summer",
+    description="A fridge or freezer works harder in a hot kitchen, because it has to pump its heat out into warmer surroundings. Why summer raises the running cost, where you put the appliance matters, the right settings, and the free habits that keep the bill down.",
+    active="guides",
+    blurb="A hot kitchen makes the fridge work harder. Why summer raises the cost, and the easy fixes.",
+    body='''
+  <section class="section"><div class="wrap prose">
+    <style>
+      .ev-key{background:var(--paper-alt,#f4f1ea);border:1px solid var(--line);border-radius:12px;padding:18px 22px;margin:6px 0 8px}
+      .ev-key p{margin:0}
+      .ev-table{width:100%;border-collapse:collapse;margin:14px 0;font-size:.97rem}
+      .ev-table th,.ev-table td{border:1px solid var(--line);padding:9px 12px;text-align:left}
+      .ev-table th{background:var(--paper-alt,#f4f1ea);font-weight:600}
+      .ev-table td:not(:first-child),.ev-table th:not(:first-child){text-align:right}
+      .ev-note{font-size:.9rem;color:var(--ink-soft,#5b5b5b)}
+      @media(max-width:560px){.ev-table{font-size:.86rem}.ev-table th,.ev-table td{padding:7px 8px}}
+    </style>
+
+    <p class="lede">If your fridge seems to hum more in a heatwave, it is not your imagination. A fridge or freezer does not make cold so much as move heat, pumping it out of the cabinet into the room around it, and the hotter that room, the harder it has to work. Since the fridge-freezer runs around the clock all year, that extra summer effort quietly adds to the bill. The good news is that the fixes are simple and free.</p>
+
+    <div class="ev-key">
+      <p><strong>The short answer.</strong> A fridge or freezer cools by pumping heat out into the room, so the hotter the room, the harder it works and the more it costs. A kitchen in a summer heatwave can push its running cost up noticeably. The fixes cost nothing: keep it out of direct sun and away from the oven, leave ventilation gaps around it, keep the door shut, let warm food cool before it goes in, and do not set it colder than it needs to be.</p>
+    </div>
+
+    <h2>Why heat makes it work harder</h2>
+    <p>A fridge works by the same principle as an air conditioner: it gathers heat from inside the cabinet and dumps it out of the back, usually through the coils you can see or feel there. To do that it has to push the heat into the surrounding air, and that is only easy if the surrounding air is cooler than the heat being shed. In a warm kitchen the job gets harder, because the room it is dumping heat into is itself hot, so the compressor runs longer and more often to hold the inside cold. That is why the same appliance, holding the same temperature, costs more to run in a heatwave than in a cool month: not because the food is warmer, but because the room it lives in is.</p>
+
+    <h2>Where you put it matters most</h2>
+    <p>Because the fridge is fighting the temperature around it, its position is the biggest thing you control. Keep it out of direct sunlight, which can fall on it through a window and heat the cabinet directly. Keep it away from heat sources, above all the oven, but also a dishwasher, a boiler or a radiator, since standing next to something hot makes the fridge work against that heat all day. Avoid sites that bake in summer, like a conservatory or an unventilated garage. And leave a gap around the back and sides so the heat it sheds can actually escape, because a fridge crammed tight into a unit with no airflow ends up re-breathing its own warm air. While you are back there, brushing the dust off the coils now and then helps them shed heat efficiently, and a quick check that the door seals still grip keeps the cold where it belongs.</p>
+
+    <h2>The right settings</h2>
+    <p>It is tempting to crank the dial up in hot weather, but a fridge only needs to be cold enough to keep food safe, and every degree colder than that costs more to maintain. The table shows the sensible targets. Setting it colder than these wastes energy without keeping the food meaningfully safer.</p>
+
+    <table class="ev-table">
+      <thead><tr><th>Setting</th><th>Aim for</th></tr></thead>
+      <tbody>
+        <tr><td>Fridge temperature</td><td>3 to 5C</td></tr>
+        <tr><td>Freezer temperature</td><td>-18C</td></tr>
+        <tr><td>Gap around back and sides</td><td>a few centimetres for airflow</td></tr>
+        <tr><td>Position</td><td>out of sun, away from the oven</td></tr>
+      </tbody>
+    </table>
+    <p class="ev-note">A fridge thermometer costs little and takes the guesswork out, since the numbered dial is not a temperature. A well-stocked freezer also holds its cold better than an empty one, as the frozen mass acts as a buffer, so it cycles on less.</p>
+
+    <h2>Hot-weather habits</h2>
+    <p>A few small habits ease the load further when it is hot. Let warm leftovers cool to room temperature before putting them in, so the fridge is not asked to chill a hot dish in an already hot kitchen. Open the door less and close it promptly, because every opening lets cold air spill out and warm, humid summer air rush in to be cooled again. If the freezer has iced up, defrosting it helps, since a thick layer of frost makes it work harder. And resist over-filling the fridge so tightly that air cannot circulate inside, which leaves warm spots and makes the appliance run more to compensate.</p>
+
+    <h2>The numbers, and when to replace</h2>
+    <p>A fridge-freezer is one of the few appliances that never switches off, so it is a steady year-round cost, somewhere in the region of a couple of hundred kilowatt-hours a year for a modern one, more for an old or poorly placed model, and summer nudges that figure up. To see your own, the <a href="appliance-running-cost.html">running cost calculator</a> and the appliance's rated annual consumption tell you roughly what it costs at your unit rate. If yours is an old unit running hot and often, it is worth knowing that a tired fridge-freezer from twenty years ago can use several times the electricity of an efficient modern one, so when it finally needs replacing the <a href="energy-labels-explained.html">energy label</a> and the <a href="fridge-freezer-efficiency.html">fridge and freezer efficiency</a> guide are the place to start, since for an always-on appliance the running cost dwarfs the difference in purchase price.</p>
+
+    <h2>The bottom line</h2>
+    <p>Your fridge and freezer cost more in summer because they shed their heat into the room, and a hot room makes that harder, so the compressor runs more to hold the same cold. The cure is all about position and habits: keep the appliance out of the sun and away from the oven, give it room to breathe, set it no colder than it needs, let food cool before it goes in, and keep the door shut. None of it costs a penny, and together it keeps the one appliance that never rests from quietly costing you more than it should through the warm months.</p>
+  </div></section>
+  <script type="application/ld+json">{"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"Why does my fridge cost more to run in summer?","acceptedAnswer":{"@type":"Answer","text":"A fridge cools by pumping heat out of the cabinet into the room around it, and the hotter that room, the harder it has to push that heat away. In a warm kitchen the compressor runs longer and more often to hold the same inside temperature, so the same appliance costs more to run in a heatwave than in a cool month."}},{"@type":"Question","name":"Where should I not put a fridge or freezer?","acceptedAnswer":{"@type":"Answer","text":"Keep it out of direct sunlight and away from heat sources such as the oven, dishwasher, boiler or a radiator, and avoid hot spots like a conservatory or an unventilated garage. Leave a gap around the back and sides so the heat it sheds can escape, since a fridge crammed in with no airflow re-breathes its own warm air and works harder."}},{"@type":"Question","name":"What temperature should a fridge and freezer be?","acceptedAnswer":{"@type":"Answer","text":"Aim for 3 to 5C in the fridge and -18C in the freezer. Setting them colder than that costs more to maintain without keeping food meaningfully safer. The numbered dial is not a temperature, so a cheap fridge thermometer is worth using to check. A well-stocked freezer also holds its cold better than an empty one."}},{"@type":"Question","name":"How can I cut my fridge's running cost in hot weather?","acceptedAnswer":{"@type":"Answer","text":"Position it out of the sun and away from the oven, leave ventilation gaps around it, and keep the coils dust-free and the door seals intact. Let warm food cool before putting it in, open the door less, defrost an iced-up freezer, and do not set it colder than needed. If it is an old, inefficient unit, replacing it can cut the cost sharply."}}]}</script>
 ''',
 )
 
@@ -2565,13 +2801,16 @@ GUIDES_ORDER = [
     "economy-7-and-night-rates", "standing-charges-explained",
     # Solar and renewables
     "solar-panels-the-basics", "is-solar-worth-it", "solar-battery-storage",
+    "solar-panels-hot-weather",
     # Fuel, driving and EVs
-    "hypermiling", "ev-charging-at-home-cost", "best-time-to-charge-an-electric-car",
+    "hypermiling", "keeping-your-car-cool-fuel-economy",
+    "ev-charging-at-home-cost", "best-time-to-charge-an-electric-car",
     "electric-car-miles-per-kwh", "home-ev-charger-vs-3-pin-plug",
-    "ev-charging-in-winter", "ev-cost-vs-petrol-per-year",
+    "ev-charging-in-winter", "ev-range-in-hot-weather", "ev-cost-vs-petrol-per-year",
     # Seasonal
     "winter-energy-checklist", "keeping-cool-without-air-con",
     "air-conditioning-running-cost", "fan-running-cost", "portable-air-conditioner-vs-fan",
+    "fridge-freezer-in-hot-weather",
     # Myths, renting and quick wins
     "energy-saving-myths", "saving-energy-when-renting", "quick-wins-under-a-tenner",
 ]
