@@ -2771,6 +2771,81 @@ PAGES["energy-labels-explained"] = dict(
 ''',
 )
 
+PAGES["time-of-use-tariffs-explained"] = dict(
+    title="Time-of-use tariffs explained",
+    description="What a time-of-use electricity tariff is, how static off-peak and dynamic half-hourly deals differ, what you need to take part, who saves and who loses, a worked example of load-shifting, and how to decide whether one suits your household.",
+    active="guides",
+    blurb="Cheaper electricity at the right hours, dearer at the wrong ones. Whether load-shifting pays depends entirely on your household.",
+    body='''
+  <section class="section"><div class="wrap prose">
+    <p class="lede">A time-of-use tariff charges a different price for electricity depending on the hour of the day, rather than one flat rate around the clock. Move some of your heavier use into the cheaper hours and you pay less for the very same kilowatt-hours. Fail to move anything, or pile usage into the dear window by accident, and you can finish worse off than on a plain single rate. It is a tool that rewards households able to shift load and quietly penalises those that cannot.</p>
+
+    <h2>How a flat rate hides the truth</h2>
+    <p>A standard single-rate tariff charges the same pence per unit whenever you draw it, three on a weekday afternoon or three in the morning, no difference. That is simple, but it bears little relation to what is actually happening on the grid. Electricity is far cheaper to produce and deliver at some moments than others: overnight when demand collapses, or on a blustery afternoon when wind output is high and there is more power than the country needs. A flat rate blends all of that into one averaged number, so steady daytime users effectively subsidise the quiet hours and nobody has any reason to change when they use power. A time-of-use tariff pulls those hidden differences into the open and lets you act on them.</p>
+
+    <h2>Not the same as Economy 7</h2>
+    <p>Anyone who grew up with storage heaters will recognise the idea from Economy 7, which hands you roughly seven cheap night-time hours and a dearer day rate, usually paired with night storage heaters or an immersion. Modern time-of-use tariffs are descendants of that, but they reach further. Instead of a single fixed night block, they may carry several price bands across the day, or a price that changes every half hour to track the wholesale market. The <a href="economy-7-and-night-rates.html">Economy 7 guide</a> covers the classic two-rate version in detail; the rest of this article is about the newer, more flexible kind that a smart meter makes possible.</p>
+
+    <h2>The two main shapes</h2>
+    <p>Broadly there are two flavours. The first is a static off-peak tariff: a fixed cheap window, often a few hours overnight or sometimes a short cheap slot in the small hours, a standard rate for most of the day, and in some cases a raised peak band in the early evening. You know all the prices in advance and they never move, so planning around them is straightforward. The second is a dynamic, half-hourly tariff, where the price for each half-hour slot is published a day ahead and follows the wholesale cost. On a windy night that can drop to very little, occasionally to almost nothing; during a cold, still evening the same tariff can climb well above a flat rate for a couple of hours. One rewards a fixed routine, the other rewards paying attention or automating the response.</p>
+
+    <h2>What you need to take part</h2>
+    <p>The common requirement is a smart meter recording your use in half-hourly chunks, because the supplier has to know not just how much you used but exactly when. The <a href="smart-meters-explained.html">smart meters guide</a> covers how that recording works and the privacy questions around it. Most modern smart meters can run in this half-hourly mode, though some of the earliest ones need a settings change or, occasionally, swapping out. You need no special wiring for the tariff itself, but devices that can store the cheap energy change the maths entirely: storage heaters, a hot-water cylinder, an electric car or a home battery all turn cheap hours into something genuinely worth chasing rather than a minor convenience.</p>
+
+    <h2>Who saves and who loses</h2>
+    <p>The whole game is load-shifting, taking flexible and heavy uses and moving them into the cheap hours. The dishwasher and washing machine set on a delay timer, an electric car charging overnight (the <a href="best-time-to-charge-an-electric-car.html">charging times guide</a> goes into this), an immersion or storage heaters topping up off-peak, a home battery filling when power is cheap and discharging when it is dear. A household with one or more of those can save real money every week. A flat that draws electricity steadily through the day and evening, with nothing large to move and a busy teatime peak, may simply pay more than it would on a plain single rate. The tariff does nothing for you on its own; it only pays if your home can bend its demand around the prices.</p>
+
+    <h2>A worked example</h2>
+    <p>Suppose a household has 8 kWh of shiftable load a day: a wash, a dishwasher cycle and an electric-car top-up of a few miles. On a flat tariff at an example 28p per unit, that 8 kWh costs about 2.24 a day. On a time-of-use tariff with an example overnight rate of 10p, shifting all 8 kWh into the cheap window costs 80p, a saving of roughly 1.44 a day, or somewhere near 500 across a year if held to. Now picture the same household leaving everything running on a peak rate of, say, 40p because nothing got shifted: that 8 kWh would cost 3.20, more than the flat tariff would have charged. The numbers swing both ways, which is precisely the point of the design. Put your own usage and your tariff's actual bands through the <a href="appliance-running-cost.html">running cost calculator</a> to see which side of the line you fall on.</p>
+
+    <h2>Mind the peak</h2>
+    <p>The trap with these tariffs is the expensive window, typically late afternoon into the evening when the country comes home, switches everything on and starts cooking. On a static off-peak deal the peak band might be a fixed few hours at a raised rate; on a dynamic tariff a cold, still evening with little wind can push the half-hourly price sharply higher for an hour or two. A whole night of cheap savings can be wiped out by twenty careless minutes at peak time with the oven, kettle, tumble dryer and immersion all running together. The discipline is to keep big loads out of that window, and ideally to coast through it on a battery or simply do less, leaving the heavy jobs for later when the price has fallen back.</p>
+
+    <h2>Automation does the heavy lifting</h2>
+    <p>Organising your life around electricity prices sounds exhausting, and done by hand it can be. In practice most of the benefit comes from a handful of things that look after themselves. Appliance delay timers start the wash overnight without you waking up. A smart car charger or the car's own scheduler fills the battery in the cheap window automatically. A home battery and many heat pump and immersion controllers can be told to favour the off-peak hours and largely manage themselves after that, and a <a href="solar-battery-storage.html">solar battery</a> in particular can charge when power is cheap and carry the house through the evening peak. Set those once and the tariff works quietly in the background, which is the difference between a deal that pays and one that becomes a chore you abandon after a fortnight.</p>
+
+    <h2>Deciding whether it suits you</h2>
+    <p>Two questions settle it. First, do you have flexible heavy loads you can genuinely move: an electric car, storage heaters, a hot-water cylinder, a battery, or at least appliances you are happy to run overnight on a timer? Second, are you willing to shape your day a little around the prices, or to automate it so you never have to think? If both answers are yes, a time-of-use tariff can take a meaningful slice off the bill. If you have almost nothing to shift and no appetite for juggling, a straightforward single rate may serve you better and worry you less. Before switching, check that your meter supports half-hourly readings, compare a tariff's full set of rates rather than only the eye-catching cheap one, and be honest about how your household really uses power across the day.</p>
+  </div></section>
+''',
+)
+
+PAGES["dehumidifier-running-cost"] = dict(
+    title="Dehumidifier running cost: what it really costs to run",
+    description="What a dehumidifier draws, the difference between compressor and desiccant types, a worked example of a winter's running cost, using one to dry laundry instead of a tumble dryer, sizing and humidistat settings, and when a dehumidifier is the wrong fix for damp.",
+    active="guides",
+    blurb="A modest electricity user that can save money by replacing the tumble dryer. The real numbers, plus when it only masks the damp.",
+    body='''
+  <section class="section"><div class="wrap prose">
+    <p class="lede">A dehumidifier pulls moisture out of the air, which helps with condensation, musty smells and drying washing indoors. By the standards of a kettle or an oven it is not a heavy electricity user, but because people tend to leave one running for hours at a stretch, the cost of that habit is worth understanding before you buy or before you let it hum away all winter. The good news is that the numbers are usually smaller than people fear, and in one common use it can actually save you money.</p>
+
+    <h2>What a dehumidifier actually draws</h2>
+    <p>Most domestic dehumidifiers pull somewhere between 150 and 700 watts while the compressor is working, a long way below a tumble dryer or an electric heater. The exact figure depends on the type, the capacity and how hard the unit is having to work. The important point is that a dehumidifier with a humidistat does not run flat out the whole time it is switched on: once the air reaches the target humidity the compressor cycles off, and the unit then draws only the small power its fan and electronics need until the air gets damp enough to trigger it again. So the plate rating is the most it will ever use, not the average across a day. A <a href="using-a-plug-in-energy-monitor.html">plug-in energy monitor</a> is the quickest way to see what yours really pulls over a typical run, and the reading is often lower than the label suggests.</p>
+
+    <h2>Compressor versus desiccant</h2>
+    <p>There are two common types and they behave quite differently on the meter. A compressor, or refrigerant, dehumidifier chills a cold surface so moisture condenses out of the air, working on much the same principle as the back of a fridge. These are the more efficient choice in a normal heated home and are what most people should buy. A desiccant dehumidifier instead uses a moisture-absorbing wheel and a built-in heater to drive the water back off, which means it draws more power for the same amount of water removed, often half as much again or more. In return it keeps working well in a cold space where a compressor model struggles, so an unheated garage, a chilly utility room or a caravan over winter is where the desiccant type earns its higher draw. In a warm living room the compressor type wins comfortably on cost.</p>
+
+    <h2>What a session costs</h2>
+    <p>Because the compressor cycles on and off, working out a day's cost means estimating how long it actually runs, not how long it sits switched on. Suppose a 300 watt compressor unit runs for, on average, half of an eight-hour stint, so four hours of real compressor time, or about 1.2 kWh. At an example 28p per unit that is roughly 34p for the day. Keep that up across a damp autumn and winter, say a hundred such days, and you are looking at somewhere around 34, plus a little for the fan time in between. A larger or harder-working unit in a very damp house could be two or three times that. Drop your own model's wattage and a realistic run time into the <a href="appliance-running-cost.html">running cost calculator</a> for a figure that matches your home rather than a guess.</p>
+
+    <h2>Drying laundry with one</h2>
+    <p>This is where a dehumidifier often pays for itself outright. Drying clothes on an airer in a closed room with a dehumidifier running typically uses far less electricity than a tumble dryer, which is one of the hungriest appliances in the house, as the <a href="tumble-dryer-cost.html">tumble dryer guide</a> sets out. The dehumidifier lifts the evaporated moisture straight out of the air so the washing dries in hours rather than days, without the windows streaming and without feeding mould on the walls. For anyone with no tumble dryer, or trying to wean themselves off one, it sits neatly between a cold flat draped in slowly drying laundry and an expensive dryer. The <a href="drying-clothes-without-a-tumble-dryer.html">drying without a tumble dryer guide</a> covers the wider set of options it fits into.</p>
+
+    <h2>The damp and condensation angle</h2>
+    <p>The reason most people buy a dehumidifier in the first place is not really to save energy but to deal with condensation, musty smells and black mould on cold walls and around window reveals. Damp air also feels colder than dry air at the same temperature, so it takes a little more heating to feel comfortable, which means drier air can sometimes let you nudge the thermostat down a touch for a small indirect saving. But running a dehumidifier is treating the symptom rather than the cause. If the moisture is coming from poor ventilation, from drying washing on radiators, or from cold bridging where a wall meets a window, the machine hides the problem rather than curing it. It earns its place as part of the answer, not as the whole of it.</p>
+
+    <h2>Sizing and running it well</h2>
+    <p>A unit is rated by how many litres it can pull from the air in a day, and a bigger capacity is not automatically better to live with. A right-sized unit reaches the target humidity and then idles quietly; an oversized one mostly just costs more to buy and runs hard when it does not need to. Set the humidistat to a sensible target, somewhere around 50 to 60 per cent relative humidity, rather than the lowest setting, which only makes it run far longer for steadily diminishing comfort. Close the door of the room you are treating or drying in so the machine is not fighting the moisture of the whole house at once. Empty the tank promptly, or fit a continuous drain hose, so it does not switch off and let the air re-dampen overnight. And keep the air filter clean, because a clogged filter makes the fan labour for less effect.</p>
+
+    <h2>When a dehumidifier is the wrong tool</h2>
+    <p>If your damp is rising damp, a plumbing leak or penetrating damp soaking through a wall, a dehumidifier does nothing about the cause and you end up paying to run it indefinitely. The same is true when condensation is really a ventilation problem in disguise: a kitchen or bathroom with no working extractor, trickle vents painted shut years ago, or a home sealed so tightly after enthusiastic <a href="draught-proofing.html">draught-proofing</a> that moist air simply has nowhere to escape. In those cases better ventilation, a proper repair, or warming up the cold surface is the real fix, and sometimes a cheaper one than running a machine forever. The dehumidifier is brilliant at managing moisture; it is no substitute for stopping it at the source.</p>
+
+    <h2>The bottom line</h2>
+    <p>A dehumidifier is a modest electricity user that can genuinely save money when it stands in for a tumble dryer, and that can make a damp home far more comfortable to live in. Pick a compressor model for normal heated rooms and reserve a desiccant for genuinely cold spaces, size it to the job, run it on a humidistat with the door shut, and it will cost a few tens of pounds across a winter rather than the hundreds people sometimes imagine. The one thing to stay clear-eyed about is whether you are curing the damp or only keeping it at bay, because that decides whether the running cost is a sensible expense or a bill with no end.</p>
+  </div></section>
+''',
+)
+
 
 GUIDES_ORDER = [
     # Scheduled additions (drip out by pubdate)
@@ -2795,10 +2870,10 @@ GUIDES_ORDER = [
     "air-fryer-running-cost", "oven-microwave-air-fryer-compared", "slow-cooker-economy",
     "induction-vs-gas-hob", "using-a-plug-in-energy-monitor",
     "television-and-entertainment-energy", "broadband-router-always-on",
-    "drying-clothes-without-a-tumble-dryer", "energy-labels-explained",
+    "drying-clothes-without-a-tumble-dryer", "dehumidifier-running-cost", "energy-labels-explained",
     # Bills, tariffs and meters
     "understanding-energy-bill", "switching-suppliers", "smart-meters-explained",
-    "economy-7-and-night-rates", "standing-charges-explained",
+    "economy-7-and-night-rates", "time-of-use-tariffs-explained", "standing-charges-explained",
     # Solar and renewables
     "solar-panels-the-basics", "is-solar-worth-it", "solar-battery-storage",
     "solar-panels-hot-weather",
