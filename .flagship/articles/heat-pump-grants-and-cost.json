@@ -1,0 +1,56 @@
+{
+  "slug": "heat-pump-grants-and-cost",
+  "title": "Heat pump grants and costs in the UK explained",
+  "description": "What a UK heat pump really costs in 2026, how much the £7,500 Boiler Upgrade Scheme grant takes off, and what you actually pay after grants and 0% VAT.",
+  "blurb": "What a heat pump costs in the UK, and how the £7,500 grant cuts the price you pay.",
+  "lede": "A heat pump is one of the bigger spends in a home energy upgrade, and the headline prices you see online can be alarming. The good news is that the price you actually pay is a long way below the sticker figure, because a government grant comes straight off the installer's invoice and VAT on the work is currently zero. This guide sets out what a heat pump costs in the UK in 2026, which grants are available across England, Wales, Scotland and Northern Ireland, and how to work out your own net figure.",
+  "short_answer": "A fully installed air source heat pump in the UK typically costs around £10,000 to £13,000 before any help. The Boiler Upgrade Scheme takes £7,500 straight off that invoice in England and Wales, so most homeowners pay roughly £3,000 to £6,000, and the install is currently zero-rated for VAT until at least March 2027. Always confirm the current grant amount and rules on the official GOV.UK page before you commit.",
+  "sections": [
+    {
+      "h2": "What a heat pump costs before any grant",
+      "html": "<p>The figure people quote in the pub is usually the full installed cost, before any grant is applied. For a standard UK home, a fully fitted air source heat pump comes in around £10,000 to £13,000, with the wider range running from about £8,000 at the small and simple end up to £14,000 for larger or more awkward properties. The official Ofgem statistics behind the grant scheme put the average actual install at roughly £12,500 for a typical 8kW unit in early 2026.</p><p>That total is made up of a few parts. The heat pump unit itself is usually £3,000 to £7,000 depending on size and make, the labour for a two to four day install is around £2,000 to £4,000, and a hot water cylinder adds £500 to £1,500 if you do not already have a suitable one. Bigger radiators or some pipework changes can push the number up, which is why two quotes for the same house can look quite different.</p><p>If you want to understand how the running cost compares once it is in, the sibling guide on <a href=\"heat-pump-running-cost-vs-gas-boiler.html\">heat pump running cost versus a gas boiler</a> covers that side, and <a href=\"heat-pumps-explained.html\">heat pumps explained</a> walks through how the technology works in plain terms.</p>"
+    },
+    {
+      "h2": "The Boiler Upgrade Scheme grant",
+      "html": "<p>In England and Wales, the main route is the Boiler Upgrade Scheme, usually shortened to BUS. It pays a fixed £7,500 towards an air source or ground source heat pump, and £5,000 towards a biomass boiler. A temporary higher rate of £9,000 for homes currently heated by oil or LPG has been announced from late July 2026, expected to run to the end of March 2027.</p><p>The important thing to understand is how the money reaches you, which is to say it never does. Your installer claims the grant and deducts it from the bill, so a £12,500 install is invoiced to you at £5,000. You do not pay the full amount upfront and you do not wait for a refund. The scheme is currently scheduled to run until 31 March 2028, though dates and amounts do change, so check the live figures on the official GOV.UK Boiler Upgrade Scheme page before you commit.</p><p>To qualify your property normally needs a valid Energy Performance Certificate with no outstanding recommendations for loft or cavity wall insulation, which is why sorting basic insulation first matters. See <a href=\"loft-insulation.html\">loft insulation</a> and <a href=\"energy-performance-certificate-explained.html\">your EPC explained</a> for what assessors look for. The full mechanics live in our dedicated <a href=\"boiler-upgrade-scheme-explained.html\">Boiler Upgrade Scheme guide</a>.</p>"
+    },
+    {
+      "h2": "What you actually pay after the grant and VAT",
+      "html": "<p>Two things bring the real price down: the grant comes off the invoice, and heat pump installations are zero-rated for VAT until at least March 2027 under the Energy Saving Materials relief. The 0% rate alone saves roughly £1,600 to £2,800 against the standard 20% you would otherwise pay on the labour and materials.</p><table class=\"ev-table\"><thead><tr><th>Item</th><th>Lower case</th><th>Typical case</th><th>Higher case</th></tr></thead><tbody><tr><td>Installed cost (0% VAT applied)</td><td>£10,000</td><td>£12,500</td><td>£14,000</td></tr><tr><td>Boiler Upgrade Scheme grant</td><td>-£7,500</td><td>-£7,500</td><td>-£7,500</td></tr><tr><td>What you pay</td><td>£2,500</td><td>£5,000</td><td>£6,500</td></tr></tbody></table><p class=\"ev-note\">Installed costs and the average from Ofgem BUS statistics, early 2026; grant amount from the GOV.UK Boiler Upgrade Scheme. Heat pump installs are 0% VAT until at least March 2027.</p><p>So the typical net spend lands around £5,000, which is in the same territory as a quality new gas boiler with a few extra radiators. The gap narrows further once you factor in the running costs over the life of the system.</p>"
+    },
+    {
+      "h2": "Grants outside England and Wales",
+      "html": "<p>The Boiler Upgrade Scheme only covers England and Wales. The rest of the UK has its own routes.</p><ul><li><strong>Scotland.</strong> The Home Energy Scotland Grant and Loan gives up to £7,500 as a grant for a heat pump, plus an optional interest-free loan of up to a further £7,500. Rural and island homes get a £1,500 uplift. Only systems that supply 100% of heating and hot water qualify, and replacement heat pumps get the loan rather than the grant.</li><li><strong>Northern Ireland.</strong> Support is narrower. The Northern Ireland Sustainable Energy Programme funds a limited number of air source installs for homes off the gas network, and the 0% VAT rate applies to everyone regardless of income.</li><li><strong>Lower-income households across Great Britain.</strong> If you receive certain benefits, the wider <a href=\"eco4-scheme-explained.html\">ECO4 scheme</a> can sometimes fund a heat pump as part of a whole-house upgrade, separate from BUS.</li></ul><p>Because devolved schemes are reviewed regularly, confirm the current amounts and eligibility on the relevant official site, which is Home Energy Scotland or nidirect, before you plan around any figure here.</p>"
+    },
+    {
+      "h2": "Does the sum add up against a gas boiler?",
+      "html": "<p>The honest answer is that it depends on your tariff and your house. At the July to September 2026 price cap, gas costs 7.33p per kWh while electricity costs 26.11p per kWh, so a unit of electricity is more than three times the price of a unit of gas. A heat pump claws that back by being far more efficient: a good install delivers around three units of heat for every unit of electricity it draws, which roughly cancels the price difference on a like-for-like basis.</p><p>Two levers tip it in the heat pump's favour. The first is a heat-pump-friendly electricity tariff with cheaper off-peak hours, which lets you do more of your heating and hot water when power is cheap. The second is a well-designed system running at a low flow temperature, since efficiency falls as the water gets hotter. Our guides on <a href=\"time-of-use-tariffs-explained.html\">time-of-use tariffs</a> and <a href=\"boiler-flow-temperature.html\">flow temperature</a> cover both, and <a href=\"heat-pump-running-cost-vs-gas-boiler.html\">the running-cost comparison</a> puts numbers on it. Remember too that the standing charge applies whichever system you have, so dropping gas entirely removes the gas <a href=\"standing-charges-explained.html\">standing charge</a> of 29.04p a day, worth about £106 a year.</p>"
+    },
+    {
+      "h2": "The bottom line",
+      "html": "<p>The scary headline price for a heat pump is not the price you pay. In England and Wales the £7,500 Boiler Upgrade Scheme grant comes straight off the invoice, VAT on the work is currently zero, and the typical net spend is around £5,000, comparable to a good new boiler. Scotland adds an interest-free loan on top of its grant, and Northern Ireland leans mainly on the 0% VAT rate.</p><p>Before you commit, get your basic insulation sorted so your EPC qualifies, gather two or three MCS-certified quotes, and price up a suitable electricity tariff at the same time, because the tariff is what decides whether the running cost beats your old gas boiler. Schemes and amounts change, so always confirm the live figures on the official GOV.UK, Home Energy Scotland or nidirect pages rather than any third-party number. For the wider picture of how all of this feeds into your bill, see <a href=\"understanding-energy-bill.html\">understanding your energy bill</a>.</p>"
+    }
+  ],
+  "faq": [
+    {
+      "q": "How much is the heat pump grant in 2026?",
+      "a": "In England and Wales the Boiler Upgrade Scheme pays £7,500 towards an air source or ground source heat pump. A temporary higher rate of £9,000 applies to homes currently on oil or LPG from late July 2026. Scotland offers up to £7,500 as a grant plus an optional interest-free loan. Check the current amount on the official GOV.UK page, as schemes change."
+    },
+    {
+      "q": "Do I get the grant money in my bank account?",
+      "a": "No. Your MCS-certified installer claims the Boiler Upgrade Scheme grant and deducts it from your invoice, so you only ever pay the reduced amount. You do not pay the full price upfront and there is no refund to wait for."
+    },
+    {
+      "q": "What does a heat pump cost after the grant?",
+      "a": "A typical fully installed air source heat pump is around £10,000 to £13,000, including the current 0% VAT. After the £7,500 grant, most homeowners pay roughly £3,000 to £6,000, with about £5,000 being a fair central estimate."
+    },
+    {
+      "q": "Do I need insulation before I can get the grant?",
+      "a": "Usually yes. Your property normally needs a valid EPC with no outstanding recommendations for loft or cavity wall insulation. Sorting basic insulation first also makes the heat pump itself cheaper to run."
+    },
+    {
+      "q": "Is a heat pump cheaper to run than a gas boiler?",
+      "a": "It can be, but it depends on your tariff and how well the system is designed. Electricity costs more than three times as much as gas per unit, and a heat pump offsets that by producing around three units of heat per unit of electricity. A heat-pump-friendly tariff and a low flow temperature are what tip the balance in its favour."
+    }
+  ]
+}

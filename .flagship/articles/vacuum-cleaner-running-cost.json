@@ -1,0 +1,56 @@
+{
+  "slug": "vacuum-cleaner-running-cost",
+  "title": "How much does it cost to run a vacuum cleaner?",
+  "description": "How much does it cost to run a vacuum cleaner in the UK? Per-clean and per-year costs for corded and cordless models at the July 2026 price cap, with the maths.",
+  "blurb": "What a vacuum really costs per clean and per year, corded versus cordless, plus the cheap way to work out yours.",
+  "lede": "Vacuuming is one of those jobs people imagine is quietly draining the bill, but the sums tell a calmer story. A vacuum cleaner runs for minutes at a time, a few times a week, so even a powerful one barely registers against your heating or your fridge. The figure that catches people out is not the cleaning itself, it is the charging dock on a cordless model that sits plugged in all year. Once you know how to read the watts on yours, the cost takes seconds to work out.",
+  "short_answer": "Running a typical 700W corded vacuum for half an hour a week costs about 10p, or roughly £5 a year at the July to September 2026 price cap. A cordless model costs even less to charge per clean, often a penny or two, but the dock left plugged in all year is where the small ongoing draw hides. Either way, vacuuming is one of the cheapest appliances in the house to run.",
+  "sections": [
+    {
+      "h2": "What a vacuum cleaner actually costs to run",
+      "html": "<p>Electricity is billed in kilowatt-hours (kWh). One kWh is one kilowatt running for a full hour. To find the cost of any appliance, multiply its power in kilowatts by the time it runs in hours, then by your unit rate. For a 700W corded vacuum (0.7kW) used for half an hour at 26.11p:</p><ul><li>0.7 kW x 0.5 h = 0.35 kWh</li><li>0.35 kWh x 26.11p = about 9p per clean</li></ul><p>Run that once a week and you are looking at roughly £5 a year. Even a thorough hour-long clean of a large house comes in under 20p. The reason vacuuming is so cheap is simply time: the machine only runs while you are pushing it about, and that is rarely more than half an hour at a stretch. If you want the maths behind the unit, our guide on <a href=\"what-is-a-kwh.html\">what a kWh is</a> walks through it step by step.</p><p>Since 2017, new corded vacuums sold in the UK and EU have been capped at 900W under ecodesign rules, down from the 1,600W and 2,000W monsters of the past. That cap means even the most powerful corded model you can buy today is gentler on the bill than older machines, and tests showed the lower-wattage cleaners pick up just as well.</p>"
+    },
+    {
+      "h2": "Cost per clean and per year at the price cap",
+      "html": "<p>The table below shows a range of common vacuum powers and how the cost stacks up over a year of weekly cleaning. Corded uprights and cylinders sit at the higher end, cordless stick vacuums much lower because their motors are smaller.</p><table class=\"ev-table\"><thead><tr><th>Vacuum type</th><th>Power</th><th>30 min clean</th><th>Weekly for a year</th></tr></thead><tbody><tr><td>Cordless stick (in use)</td><td>250W</td><td>about 3p</td><td>about £1.70</td></tr><tr><td>Mid-range corded</td><td>500W</td><td>about 7p</td><td>about £3.40</td></tr><tr><td>Powerful corded (post-2017 cap)</td><td>700W</td><td>about 9p</td><td>about £4.80</td></tr><tr><td>Maximum corded (legal limit)</td><td>900W</td><td>about 12p</td><td>about £6.10</td></tr></tbody></table><p class=\"ev-note\">At 26.11p per kWh, Ofgem cap July to September 2026. Assumes one 30-minute clean per week.</p><p>So across the board, a year of weekly vacuuming costs somewhere between £2 and £6. That is genuinely small change compared with the big items on your bill. To see where this sits against everything else you plug in, our <a href=\"appliance-running-cost.html\">appliance running cost</a> hub lists the common household appliances side by side.</p>"
+    },
+    {
+      "h2": "Corded versus cordless: which is cheaper to run?",
+      "html": "<p>Cordless stick vacuums look like the obvious winner, and per clean they usually are, because the motor is smaller and you tend to use them in shorter bursts. Charging a typical cordless battery from flat uses only 0.05 to 0.1 kWh, which is a penny or two, and you rarely run it fully flat.</p><p>But the comparison is not quite that simple, and there are two catches worth knowing:</p><ul><li><strong>The charging dock.</strong> Many cordless vacuums sit on a powered dock or charger that is left plugged in permanently. That trickle draw is small, often under 2W, but it runs all year. At 2W for 8,760 hours that is about 17.5 kWh, or roughly £4.60 a year, which can quietly exceed the cost of the cleaning itself.</li><li><strong>Cleaning power and time.</strong> A weaker cordless may need a second pass over the same carpet, so the energy gap closes once you account for how long the job really takes.</li></ul><p>For most homes the difference between corded and cordless running cost is a couple of pounds a year either way, which is too small to drive the buying decision. Choose on convenience, weight and how it cleans, not on the electricity. If you want to stop a charger drawing power when the battery is full, switching it off at the wall is the simplest fix, and our full look at <a href=\"standby-power-the-full-story.html\">standby power</a> ranks which gadgets are actually worth bothering with.</p>"
+    },
+    {
+      "h2": "Reading the watts on your own vacuum",
+      "html": "<p>To work out the cost of your exact machine, you need its real power draw. There are a few places to find it:</p><ul><li><strong>The rating plate.</strong> Look for a small label on the body of the vacuum, usually underneath or on the back. It lists the power in watts (for example, 650W) or sometimes in amps. If it shows amps, multiply by 230 to get watts, so 3A x 230 is about 690W.</li><li><strong>The box or manual.</strong> Corded vacuums quote a rated input power. Use that figure for cost sums.</li><li><strong>Cordless models</strong> list a battery capacity in watt-hours (Wh) instead. A 40Wh battery holds 0.04 kWh, so a full charge costs about 1p at the current rate, before charging losses.</li></ul><p>Bear in mind that the maximum power on the plate is the figure at full suction. Many vacuums have an eco or lower-power mode that draws noticeably less, so if you clean on a reduced setting your real cost is below the headline. The energy label that used to appear on vacuums in shops was withdrawn a few years ago after a court case, so you cannot rely on a star rating any more, though our <a href=\"energy-labels-explained.html\">energy labels explained</a> guide covers what the labels on other appliances still tell you.</p><p>If you would rather measure than calculate, a cheap <a href=\"using-a-plug-in-energy-monitor.html\">plug-in energy monitor</a> shows the live wattage while you vacuum and totals the kWh over a week, which settles the question for corded models exactly.</p>"
+    },
+    {
+      "h2": "Small ways to keep the cost down",
+      "html": "<p>The savings here are modest because the starting cost is already low, but a few habits keep a vacuum running efficiently and cheaply:</p><ul><li><strong>Empty the bin or change the bag.</strong> A full container or clogged bag makes the motor work harder for less suction, so you spend longer cleaning and may push to a higher power mode.</li><li><strong>Clean or replace the filters.</strong> A blocked filter chokes airflow and drops performance. Most washable filters just need a rinse and a full dry.</li><li><strong>Use the eco or lower-power setting</strong> for hard floors and light jobs. Full suction is rarely needed except on deep-pile carpet.</li><li><strong>Switch a cordless dock off at the wall</strong> if it draws power once the battery is charged, or unplug the charger between uses.</li><li><strong>Vacuum less often where you can.</strong> A quick pass over the high-traffic areas mid-week, with a full clean at the weekend, uses less total runtime than long sessions everywhere.</li></ul><p>None of these will transform your bill, but together they shave a vacuum that is already cheap down to barely noticeable. If you are working through the whole house looking for savings, the <a href=\"quick-wins-under-a-tenner.html\">quick wins under a tenner</a> guide points you at the changes that pay back fastest.</p>"
+    },
+    {
+      "h2": "The bottom line",
+      "html": "<p>A vacuum cleaner is one of the cheapest appliances you own to run. Expect roughly 7p to 12p for a typical half-hour corded clean, and somewhere between £2 and £6 a year for weekly vacuuming, based on the 26.11p price cap rate for July to September 2026. Cordless models cost even less per clean, often a penny or two to charge.</p><p>The one thing worth checking is whether a cordless charging dock sits plugged in drawing power all year, because that small continuous draw can add up to more than the cleaning itself. Beyond that, there is very little to gain here. Keep the filters clean and the bin empty so the machine works efficiently, then point your energy-saving effort at the heating, the hot water and the always-on gadgets, where the real money on your bill actually lives.</p>"
+    }
+  ],
+  "faq": [
+    {
+      "q": "How much does it cost to run a vacuum cleaner for 1 hour?",
+      "a": "For a 700W corded vacuum, one hour uses 0.7 kWh, which costs about 18p at the July to September 2026 price cap rate of 26.11p per kWh. A more typical 30-minute clean is around 9p. Cordless models cost less because their motors are smaller."
+    },
+    {
+      "q": "Is a cordless vacuum cheaper to run than a corded one?",
+      "a": "Per clean, usually yes, because the motor is smaller and a full battery charge costs only a penny or two. But many cordless docks sit plugged in all year drawing a small trickle of power, which can add a few pounds and close the gap. Overall the difference is a couple of pounds a year either way."
+    },
+    {
+      "q": "Do modern vacuums use less electricity than old ones?",
+      "a": "Yes. Since 2017, new corded vacuums sold in the UK and EU have been capped at 900W, down from older models that drew 1,600W or more. Tests showed the lower-wattage machines clean just as well, so a newer vacuum is cheaper to run than an old high-wattage one."
+    },
+    {
+      "q": "Does leaving a cordless vacuum on charge waste electricity?",
+      "a": "A little. If the charger or dock keeps drawing power once the battery is full, that trickle is usually under 2W, which adds up to roughly £4 to £5 a year. Switching it off at the wall or unplugging the charger between uses stops it."
+    },
+    {
+      "q": "How do I work out the running cost of my own vacuum?",
+      "a": "Find the wattage on the rating plate, divide by 1,000 to get kilowatts, multiply by the time used in hours, then multiply by your unit rate in pence. For example, 700W for half an hour is 0.7 x 0.5 x 26.11p, which is about 9p."
+    }
+  ]
+}

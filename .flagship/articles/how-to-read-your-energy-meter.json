@@ -1,0 +1,60 @@
+{
+  "slug": "how-to-read-your-energy-meter",
+  "title": "How to read your gas and electricity meter",
+  "description": "Read any UK gas or electricity meter: digital, dial, Economy 7 and smart. Step-by-step rules, which digits to ignore and how to turn readings into a real cost.",
+  "blurb": "Read every UK meter type the right way, ignore the wrong digits, and turn the numbers into pounds.",
+  "lede": "A meter reading is the one number that decides what you actually pay. Get it right and your bills track your real use; get it wrong, or never send one, and your supplier estimates, which is how people end up hundreds of pounds in credit or staring at a sudden catch-up charge. The good news is that reading a meter takes about thirty seconds once you know which digits matter and which ones to leave out. This guide covers every type still found in UK homes, from spinning dials to smart displays, and shows you how to turn the figures into a cost you can check.",
+  "short_answer": "On a digital electricity or gas meter, read the numbers from left to right and ignore anything after a decimal point or shown in red. Note the figure, subtract last month's reading, and that gap is the kWh you have used. At 26.11p per kWh for electricity and 7.33p for gas (Ofgem cap, July to September 2026), multiply the kWh by the rate to see the cost.",
+  "sections": [
+    {
+      "h2": "First, find out which type of meter you have",
+      "html": "<p>UK homes use four broad kinds of meter, and the reading method differs for each. Knowing which one is on your wall saves a lot of guesswork.</p><ul><li><strong>Single-rate digital meter:</strong> a simple row of numbers behind a small window or on an LCD. The most common type.</li><li><strong>Dial meter:</strong> an older clock-face design with several small dials, each with a pointer. Less common now but still out there.</li><li><strong>Economy 7 or two-rate meter:</strong> shows two separate readings, one for cheaper night units and one for daytime. If you are on a <a href=\"economy-7-and-night-rates.html\">night-rate tariff</a> this is what you have.</li><li><strong>Smart meter:</strong> sends readings automatically, but you can still read it by hand from the meter itself or your in-home display.</li></ul><p>Gas meters follow the same logic: most are digital, some are dial, and a smart gas meter reports on its own. The unit you read off a gas meter is not kWh directly, which matters when you work out the cost. More on that below.</p>"
+    },
+    {
+      "h2": "Reading a digital meter",
+      "html": "<p>This is the easy case. Look at the row of numbers and write down each digit from left to right.</p><ul><li>Include any leading zeros.</li><li>Stop at the decimal point. Ignore any digits after it, and ignore any number shown in red or inside a red box. Those are tenths of a unit and your supplier does not want them.</li><li>If the display is blank or cycles through screens, press the button (often marked A or a single button) until you see the figure followed by kWh for electricity, or a plain row of numbers for gas.</li></ul><p>So a meter reading 0&thinsp;4&thinsp;5&thinsp;2&thinsp;9 then a red 3 is recorded as 04529. That is it. Do the same next month, subtract the older number from the newer one, and the difference is the energy you used in between. Sending that figure yourself instead of letting the supplier guess is the single best habit for an accurate bill, and there is more detail in our guide to <a href=\"submitting-meter-readings.html\">submitting meter readings</a>.</p>"
+    },
+    {
+      "h2": "Reading an old dial meter",
+      "html": "<p>Dial meters look intimidating but follow a fixed set of rules. There are usually several small clock faces in a row, and the pointers alternate direction, so one dial runs clockwise and the next anticlockwise.</p><ul><li>Read the first five dials from left to right. Ignore any dial marked one tenth, and ignore red dials.</li><li>Check which way each dial turns and read the number the pointer has most recently passed.</li><li>If a pointer sits between two numbers, write down the lower one. Between 9 and 0, treat it as 9.</li><li>If a pointer sits exactly on a number, underline it. Then look at the dial to its right: if that next pointer is between 9 and 0, reduce your underlined number by one.</li></ul><p>That last rule is the one people miss. It mirrors how a car odometer rolls over, and skipping it can throw your reading out by a full unit. Take your time, and if a pointer looks dead on a number it usually has not quite ticked over yet.</p>"
+    },
+    {
+      "h2": "Reading an Economy 7 or two-rate meter",
+      "html": "<p>A two-rate meter shows two readings because you pay a different price by day and by night. You need both.</p><ul><li>Look for two rows of figures, or labels such as R1 and R2, 1 and 2, L and N, or low and normal.</li><li><strong>R1 or normal</strong> is usually your daytime or peak reading. <strong>R2 or low</strong> is usually the cheaper night reading.</li><li>If your meter has a keypad, pressing 6 often brings up both rate readings in kWh.</li><li>Record both rows from left to right, ignoring any red digits.</li></ul><p>Not sure which row is which? Check the readings first thing in the morning, then again in the evening. The figure that has climbed during the day is your day rate. Your last bill will also label them. Getting this split right matters because the whole point of a night tariff is shifting use into the cheaper window, which only pays off if the readings are recorded against the correct rate. See <a href=\"economy-7-and-night-rates.html\">Economy 7 and night rates</a> and <a href=\"time-of-use-tariffs-explained.html\">time-of-use tariffs</a> for how to make the most of those hours.</p>"
+    },
+    {
+      "h2": "Smart meters and the in-home display",
+      "html": "<p>A smart meter sends readings to your supplier automatically, so in theory you never touch it. In practice it is worth knowing how to read it by hand, because smart meters sometimes drop their connection and fall back to estimates.</p><ul><li>On the meter itself, press the A button (or the green A on some models) to wake the screen and scroll to the total in kWh.</li><li>The in-home display, the small screen that came with the meter, shows live use in pounds and pence as well as your daily and weekly totals. It is a quick way to spot which appliances cost the most without reading the meter at all.</li><li>If your supplier's app shows estimated rather than actual readings for a few months, take a manual reading and send it in to correct the account.</li></ul><p>If you are still deciding whether to get one, our guides to <a href=\"smart-meters-explained.html\">smart meters</a> and <a href=\"using-your-in-home-display.html\">using your in-home display</a> cover the trade-offs. A smart meter also makes switching to a <a href=\"time-of-use-tariffs-explained.html\">time-of-use tariff</a> far simpler, since it records use by the half hour.</p>"
+    },
+    {
+      "h2": "Turning a reading into a cost",
+      "html": "<p>A reading on its own is just a number. To see money, subtract the previous reading to get the kWh used, then multiply by your unit rate and add the daily standing charge. Electricity meters already read in kWh. Gas meters do not, so there is one extra step: the figure off a gas meter is in cubic metres (or hundreds of cubic feet on very old meters) and gets converted to kWh by a factor of roughly 11.2 that your supplier prints on the bill.</p><p>Here is a worked month for a typical home, using the current cap rates.</p><table class=\"ev-table\"><thead><tr><th>Fuel</th><th>Units used in month</th><th>Unit rate</th><th>Standing charge (30 days)</th><th>Monthly cost</th></tr></thead><tbody><tr><td>Electricity</td><td>250 kWh</td><td>26.11p/kWh</td><td>57.19p/day = £17.16</td><td>£82.44</td></tr><tr><td>Gas</td><td>1,000 kWh</td><td>7.33p/kWh</td><td>29.04p/day = £8.71</td><td>£82.01</td></tr></tbody></table><p class=\"ev-note\">At 26.11p per kWh electricity and 7.33p per kWh gas, plus standing charges of 57.19p and 29.04p per day. Ofgem price cap, GB direct debit average, July to September 2026.</p><p>The standing charge is the fixed daily fee you pay before using any energy at all, which is why two homes using the same units can still see different totals. Our guides to <a href=\"understanding-energy-bill.html\">understanding your energy bill</a> and <a href=\"standing-charges-explained.html\">standing charges</a> break down every line. Your own rates sit on your latest statement or in your supplier's app.</p>"
+    },
+    {
+      "h2": "The bottom line",
+      "html": "<p>Reading a meter is mostly about ignoring the right digits: skip anything in red and anything after a decimal point, read left to right, and on a dial meter mind the rollover rule. On a two-rate meter record both rows. Then send the figure yourself rather than leaving it to an estimate. A reading taken every month keeps your bill honest, flags a faulty meter or a creeping habit early, and gives you a real baseline before you <a href=\"switching-suppliers.html\">switch supplier</a> or move onto a cheaper tariff. Thirty seconds at the meter is the cheapest energy job in the house.</p>"
+    }
+  ],
+  "faq": [
+    {
+      "q": "Do I include the red numbers on my meter?",
+      "a": "No. Digits shown in red, inside a red box, or after a decimal point are tenths of a unit and should be left out. Read only the black numbers from left to right, including any leading zeros."
+    },
+    {
+      "q": "How often should I read my meter?",
+      "a": "Once a month is ideal, ideally on or near the same date each month, and send the reading to your supplier rather than letting them estimate. If you have a working smart meter it does this automatically, but a manual reading is still useful if the account starts showing estimated figures."
+    },
+    {
+      "q": "Why is my gas meter reading so much lower than my electricity use?",
+      "a": "Gas meters measure volume in cubic metres, not energy in kWh, so the number rises more slowly. Your supplier multiplies the cubic metres by a conversion factor of around 11.2 to get kWh, which is why a small gas figure can still mean a lot of energy."
+    },
+    {
+      "q": "Which reading is the day rate on an Economy 7 meter?",
+      "a": "Usually the row labelled R1, 1, or normal is the day or peak rate, and R2, 2, or low is the cheaper night rate. If you are unsure, note both readings in the morning and again in the evening; the one that has gone up during the day is your day rate."
+    },
+    {
+      "q": "What do I do if my meter is showing an error or a blank screen?",
+      "a": "Press the button on the meter to wake the display and scroll through the screens. If it stays blank, shows an error code, or the digits do not change over several days, contact your supplier, as the meter may be faulty and you should not be billed on a stuck reading."
+    }
+  ]
+}

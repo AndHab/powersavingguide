@@ -1,0 +1,52 @@
+{
+  "slug": "air-purifier-running-cost",
+  "title": "How much does it cost to run an air purifier?",
+  "description": "What a HEPA air purifier really costs to run in the UK, from a few pounds a year on low to over £80 running flat out, plus how to cut the bill.",
+  "blurb": "What a HEPA air purifier costs to run in the UK, by fan speed, with a clear cost table and ways to trim the bill.",
+  "lede": "An air purifier is one of those gadgets people leave switched on around the clock, which makes its running cost a fair question even though the machine itself looks harmless. The good news is that most home air purifiers are low-wattage devices, closer to a couple of LED bulbs than a kettle, so the bill is usually modest. The figure that matters is not the headline wattage on the box but the speed you actually run it at, because the gap between sleep mode and turbo can be tenfold. Below is what a typical UK household pays, broken down by fan speed and by how many hours a day the unit is on.",
+  "short_answer": "A typical home HEPA air purifier draws 5 to 15 watts on low and 50 to 100 watts on high. Run on a low or auto setting for a normal day, most cost between £10 and £30 a year. Run flat out 24/7, a powerful unit can reach £80 or more. At 26.11p per kWh (Ofgem cap, July to September 2026), every 10 watts left on around the clock costs about £23 a year.",
+  "sections": [
+    {
+      "h2": "What an air purifier actually draws",
+      "html": "<p>Air purifiers are fan-and-filter devices. The fan pulls room air through a HEPA filter (and often a carbon layer), and the power it uses depends almost entirely on how fast that fan is spinning. There is no heating element, so the wattages are small compared with most kitchen or heating appliances.</p><p>For a typical home unit sized for a bedroom or living room, you can expect roughly:</p><ul><li><strong>Sleep or low:</strong> 5 to 15 watts. About the same as a couple of LED bulbs.</li><li><strong>Medium:</strong> 20 to 50 watts.</li><li><strong>High:</strong> 50 to 100 watts.</li><li><strong>Turbo or max:</strong> 100 watts or more on larger machines.</li></ul><p>Big units built for large open-plan rooms can peak higher, and the addition of a HEPA filter makes the fan work a little harder than a plain fan of the same size. Many purifiers run an <strong>auto mode</strong> that uses a particle sensor to sit on low most of the time and only ramp up when it detects dust, cooking smoke or pollen. Auto mode is usually the cheapest way to run one, because the machine spends most of its life near the bottom of that wattage range. If you want to know your own model exactly, a cheap <a href=\"using-a-plug-in-energy-monitor.html\">plug-in energy monitor</a> will read the real draw at each speed in a few seconds.</p>"
+    },
+    {
+      "h2": "The running cost, speed by speed",
+      "html": "<p>The maths is simple. Multiply the wattage by hours used, divide by 1,000 to get kilowatt-hours, then multiply by your unit rate. The table below uses the current price cap rate and assumes the purifier runs 24 hours a day, which is the worst case many people actually do.</p><table class=\"ev-table\"><thead><tr><th>Setting</th><th>Power</th><th>Per day (24h)</th><th>Per year (24/7)</th></tr></thead><tbody><tr><td>Sleep / low</td><td>10 W</td><td>0.6p</td><td>£23</td></tr><tr><td>Medium</td><td>30 W</td><td>19p</td><td>£69</td></tr><tr><td>High</td><td>60 W</td><td>38p</td><td>£137</td></tr><tr><td>Auto (mostly low)</td><td>~15 W avg</td><td>9p</td><td>£34</td></tr><tr><td>Low, 8 hours a night only</td><td>10 W</td><td>0.2p</td><td>£8</td></tr></tbody></table><p class=\"ev-note\">At 26.11p per kWh, Ofgem cap July to September 2026. Daily figures rounded.</p><p>The pattern is clear. Running on a sensible low or auto setting, or only overnight, keeps the cost in single or low double figures per year. The bills only climb once you sit the machine on high or turbo around the clock, which most rooms simply do not need. For comparison, a constantly running <a href=\"fan-running-cost.html\">desk or pedestal fan</a> sits in a similar bracket, and a purifier on low is cheaper than most things you leave on <a href=\"standby-power-the-full-story.html\">standby</a> across the house.</p>"
+    },
+    {
+      "h2": "Filters cost more than electricity",
+      "html": "<p>For most owners the running cost that bites is not the power, it is the filters. A genuine HEPA filter typically needs replacing every 6 to 12 months, and carbon pre-filters more often if you run them hard. A replacement filter set can cost anywhere from £20 to £60 depending on the brand, which often dwarfs a year of electricity on low.</p><p>A few habits keep that in check:</p><ul><li>Vacuum or rinse the washable pre-filter monthly so the main HEPA lasts longer.</li><li>Run auto mode rather than constant high, so the filter loads more slowly.</li><li>Check whether your model has compatible third-party filters, which are often far cheaper than the branded ones.</li></ul><p>When you add filters and power together, the all-in annual cost of a normally used purifier is usually somewhere between £30 and £90, with the filter being the larger share for a low-speed user.</p>"
+    },
+    {
+      "h2": "How to cut the bill",
+      "html": "<p>None of this needs a new machine. A few changes get the cost down without losing the air-quality benefit:</p><ul><li><strong>Use auto mode.</strong> Letting the sensor decide keeps the fan low except when there is something to clean, which is where the real saving lives.</li><li><strong>Run it in the room you are in.</strong> A purifier cleaning an empty room all day is wasted power. Move it, or use a timer.</li><li><strong>Right-size the unit.</strong> A purifier rated for a far bigger room than yours will clean the air on a lower speed, which is cheaper and quieter.</li><li><strong>Turn it off when windows are open.</strong> Trying to filter air you are actively exchanging with outside is pointless.</li><li><strong>Tackle the source.</strong> Reducing dust, damp and smoke at source means the machine works less. If damp is your issue, a <a href=\"dehumidifier-running-cost.html\">dehumidifier</a> may be the better tool.</li></ul><p>Because the device is small, the biggest single lever is your unit rate. If you can shift heavy use to a cheaper period, or you are weighing a tariff change, our notes on <a href=\"appliance-running-cost.html\">working out appliance running costs</a> and on <a href=\"energy-labels-explained.html\">reading energy labels</a> show how to apply your own numbers rather than ours.</p>"
+    },
+    {
+      "h2": "The bottom line",
+      "html": "<p>An air purifier is a cheap appliance to run by UK standards. On a low or auto setting, expect somewhere between £10 and £35 a year of electricity even with the machine on all the time, and far less if you only run it overnight. The cost only becomes noticeable if you leave a powerful unit on high or turbo around the clock, where it can pass £80 a year. For most people the replacement filters cost more than the power, so the smart move is to run auto mode, keep the pre-filter clean, and size the unit to the room. Do that and the air-quality benefit comes at a price most households will barely notice on the bill.</p>"
+    }
+  ],
+  "faq": [
+    {
+      "q": "Is it expensive to leave an air purifier on all the time?",
+      "a": "Not on a low or auto setting. At the July to September 2026 price cap rate of 26.11p per kWh, a 10 to 15 watt purifier left on 24/7 costs roughly £23 to £35 a year. The cost only climbs if you run it on high or turbo continuously, which a normal room rarely needs."
+    },
+    {
+      "q": "How much does an air purifier add to my electricity bill per month?",
+      "a": "On low or auto, usually £1 to £3 a month. On medium it is a few pounds more, and only on constant high does it become a noticeable line on the bill at around £10 a month."
+    },
+    {
+      "q": "Does running an air purifier on auto save money?",
+      "a": "Yes. Auto mode uses a particle sensor to keep the fan on low most of the time and only ramps up when it detects dust or smoke. Because the unit spends most of its life near the bottom of its wattage range, auto is usually the cheapest way to keep the air clean."
+    },
+    {
+      "q": "What costs more, the electricity or the filters?",
+      "a": "For most people the filters cost more. A replacement HEPA filter set runs from about £20 to £60 every 6 to 12 months, which often exceeds a year of low-speed electricity. Keeping the pre-filter clean helps the main filter last longer."
+    },
+    {
+      "q": "How do I work out the running cost for my own air purifier?",
+      "a": "Take the wattage at the speed you use, multiply by hours per day, divide by 1,000 for kilowatt-hours, then multiply by your unit rate. A plug-in energy monitor will read the real wattage at each speed if it is not printed on the unit."
+    }
+  ]
+}

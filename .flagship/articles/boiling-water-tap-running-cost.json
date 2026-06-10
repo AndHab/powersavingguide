@@ -1,0 +1,56 @@
+{
+  "slug": "boiling-water-tap-running-cost",
+  "title": "How much does a boiling water tap cost to run?",
+  "description": "What a boiling water tap really costs to run in the UK: standby tank costs, per-litre heating, a clear cost table at current rates, and how it compares with a kettle.",
+  "blurb": "The true running cost of an instant boiling water tap, split into standby and per-litre heating, at current UK rates.",
+  "lede": "An instant boiling water tap keeps a small insulated tank of water at near-boiling temperature all day so you never have to wait for a kettle. That convenience has a running cost, and it splits neatly into two parts: the electricity used to keep the tank hot while you are not using it, and the electricity used to reheat fresh water each time you draw a cup. Neither figure is large, but the standby part runs every hour of every day whether you touch the tap or not, so it is the one that actually shapes your yearly bill.",
+  "short_answer": "A typical boiling water tap draws around 10W on standby to keep its tank hot, which is roughly 0.24 kWh a day, or about £23 a year at the July to September 2026 price cap of 26.11p per kWh. Add the energy to reheat the water you actually use and most households land somewhere between £25 and £40 a year in total. The standby cost is the dominant part for light users, so a well-insulated tank matters more than how often you draw a cup.",
+  "sections": [
+    {
+      "h2": "What you are actually paying for",
+      "html": "<p>A boiling water tap is a small under-sink water heater with a tap on top. Inside the cupboard sits an insulated tank, usually between 3 and 11 litres, holding water at around 108 to 110C under slight pressure so it does not flash to steam. When you turn the tap, that near-boiling water comes out instantly and fresh cold water flows in to refill the tank, which the heater then brings back up to temperature.</p><p>So your running cost has two separate parts:</p><ul><li><strong>Standby heat loss.</strong> The tank loses a little heat to the cupboard around it, and the element tops it up. Good models use vacuum insulation, like a flask, and only need about 10W on average to hold temperature. This runs 24 hours a day.</li><li><strong>Reheating what you use.</strong> Every litre you draw is replaced with cold mains water that has to be heated from roughly 12C up to boiling. That is the same physics as a <a href=\"kettle-energy-saving.html\">kettle</a>, and it costs roughly the same per litre.</li></ul><p>For most homes the standby part is the bigger of the two, because the tank is kept hot for 24 hours but only used for a handful of cups. This is the same pattern you see across many always-on devices, covered in our guide to <a href=\"standby-power-the-full-story.html\">standby power</a>.</p>"
+    },
+    {
+      "h2": "The standby cost, worked out",
+      "html": "<p>Standby is the figure to anchor on, because it is fixed and predictable. If a tap holds its tank with an average draw of about 10W, that is 0.01 kW running continuously:</p><ul><li>0.01 kW x 24 hours = 0.24 kWh per day</li><li>0.24 kWh x 365 = roughly 88 kWh per year</li></ul><p>At the current cap rate that is about 6.3p a day, or close to £23 a year, just to keep the tank hot before you have drawn a single cup. Cheaper or older taps with less effective insulation can average closer to 15 to 20W, which pushes the standby figure up towards £35 to £45 a year. The insulation quality of the tank, not the brand badge, is what moves this number.</p><table class=\"ev-table\"><thead><tr><th>Average standby draw</th><th>Per day</th><th>Per year (kWh)</th><th>Cost per year</th></tr></thead><tbody><tr><td>10W (well insulated)</td><td>0.24 kWh</td><td>88 kWh</td><td>£23</td></tr><tr><td>15W</td><td>0.36 kWh</td><td>131 kWh</td><td>£34</td></tr><tr><td>20W (poorer insulation)</td><td>0.48 kWh</td><td>175 kWh</td><td>£46</td></tr></tbody></table><p class=\"ev-note\">At 26.11p per kWh, Ofgem cap July to September 2026. Figures rounded; standby draw varies by model and how warm the cupboard is.</p>"
+    },
+    {
+      "h2": "The cost of the water you actually use",
+      "html": "<p>On top of standby, you pay to reheat the cold water that refills the tank after each draw. Heating one litre from about 12C to boiling takes roughly 0.1 kWh, the same as boiling that litre in a kettle. At 26.11p per kWh that is about 2.6p per litre, or roughly 0.4p for a 150ml mug.</p><p>So the usage side is small for most people. Ten mugs a day, say 1.5 litres, is about 0.15 kWh, or under 4p a day, which is around £14 a year. A heavy-use household drawing five litres a day is nearer £35 a year on usage alone. The crucial point is that a tap is no more efficient than a kettle at the moment of heating; it only saves energy if you would otherwise have boiled a full kettle for one cup. We compare the methods in <a href=\"cheapest-way-to-boil-water.html\">the cheapest way to boil water</a>.</p><table class=\"ev-table\"><thead><tr><th>Daily draw</th><th>Energy to reheat</th><th>Cost per day</th><th>Cost per year</th></tr></thead><tbody><tr><td>1.5 litres (light, around 10 mugs)</td><td>0.15 kWh</td><td>3.9p</td><td>£14</td></tr><tr><td>3 litres (medium)</td><td>0.30 kWh</td><td>7.8p</td><td>£29</td></tr><tr><td>5 litres (heavy)</td><td>0.50 kWh</td><td>13p</td><td>£48</td></tr></tbody></table><p class=\"ev-note\">At 26.11p per kWh, Ofgem cap July to September 2026. Assumes mains water at about 12C heated to boiling; roughly 0.1 kWh per litre.</p>"
+    },
+    {
+      "h2": "Putting it together: the all-in yearly figure",
+      "html": "<p>Add the two parts and a realistic total emerges. A well-insulated tap used lightly costs about £23 standby plus £14 usage, near £37 a year. A medium household on a good tank is around £23 plus £29, near £52 a year. A poorly insulated tap with heavy use can reach £80 or more.</p><p>The single biggest lever is standby, because it runs every hour regardless of use. If the manufacturer quotes a standby wattage, treat it as the headline number. Two further habits matter:</p><ul><li><strong>Use the tap's eco or sleep mode.</strong> Many drop to a lower temperature or switch off overnight, which can cut the standby slice by a third or more.</li><li><strong>Switch the tap off when away.</strong> A fortnight's holiday with the tank powered down saves the standby energy for that period, and the tank reheats in a few minutes on return.</li></ul><p>If you are tallying up every always-on item in the home, the same logic applies to your <a href=\"broadband-router-always-on.html\">broadband router</a> and other devices that sip power around the clock, and our <a href=\"appliance-running-cost.html\">appliance running cost</a> hub has the full set worked out at current rates.</p>"
+    },
+    {
+      "h2": "Does it actually save money against a kettle?",
+      "html": "<p>The selling point is that a tap boils only the water you need, while many people fill a kettle and reheat the surplus. That is a genuine saving for one-cup users who routinely over-fill. If you already boil just what you need in a kettle, a tap will not lower your boiling cost; the per-litre energy is the same, and you have added a standby tank on top.</p><p>So the tap wins on energy when:</p><ul><li>You make a lot of single drinks through the day and would otherwise reboil a half-full kettle each time.</li><li>You value the time saved and the instant near-boiling water, which a kettle cannot match.</li></ul><p>The tap loses on energy when you are a disciplined kettle user who fills accurately, because then you are paying £23 to £45 a year in standby for convenience rather than saving. Reading an <a href=\"energy-labels-explained.html\">energy label</a> on the tank helps here: a lower annual kWh figure on the label maps directly to a lower standby bill.</p>"
+    },
+    {
+      "h2": "The bottom line",
+      "html": "<p>A boiling water tap costs most homes between roughly £25 and £40 a year to run, split into about £23 of standby on a well-insulated tank and the rest in reheating the water you draw. Standby is the part that matters, because it runs continuously, so insulation quality and an overnight sleep mode shave more off your bill than rationing cups ever will. As a pure energy decision against a carefully filled kettle, a tap rarely saves money; its value is the time and the instant hot water. Buy it for the convenience, choose a well-insulated tank, and use the eco mode, and the running cost stays modest. For the wider picture on heating water cheaply around the home, see our <a href=\"hot-water-savings.html\">hot water savings</a> guide.</p>"
+    }
+  ],
+  "faq": [
+    {
+      "q": "How much does a boiling water tap cost to run per year?",
+      "a": "Most households spend roughly £25 to £40 a year. That is about £23 of standby energy to keep the tank hot, at the July to September 2026 cap of 26.11p per kWh, plus the cost of reheating the water you actually draw, which is usually £14 to £30 depending on use."
+    },
+    {
+      "q": "How much electricity does a boiling water tap use on standby?",
+      "a": "A well-insulated tap averages around 10W to hold its tank near boiling, which is about 0.24 kWh a day or roughly 88 kWh a year. Less efficient or older taps can average 15 to 20W, raising the standby cost noticeably."
+    },
+    {
+      "q": "Is a boiling water tap cheaper than a kettle?",
+      "a": "Only if you would otherwise over-fill the kettle for single cups. The energy to boil a litre is the same either way, around 0.1 kWh, so a tap saves on waste but adds a standby tank. A disciplined kettle user who fills accurately will not save money with a tap."
+    },
+    {
+      "q": "Should I turn my boiling water tap off when I go on holiday?",
+      "a": "Yes, if you will be away for several days. Switching the tank off removes the standby energy for that period, and the tank reheats to temperature within a few minutes when you switch it back on. Many taps also have an overnight sleep mode worth using every day."
+    },
+    {
+      "q": "Does an eco or sleep mode really cut the cost?",
+      "a": "It can. Sleep modes lower the holding temperature or switch the element off during set hours, which trims the standby slice by a third or more for a tap that sits idle overnight. Since standby is the larger part of the bill for light users, that is the most effective saving available."
+    }
+  ]
+}

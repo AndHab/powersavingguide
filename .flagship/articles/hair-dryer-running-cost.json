@@ -1,0 +1,60 @@
+{
+  "slug": "hair-dryer-running-cost",
+  "title": "How much does it cost to run a hair dryer?",
+  "description": "What a hair dryer costs to run in the UK at 2026 electricity prices, with a watts-to-pence table, real per-use figures and ways to cut the cost.",
+  "blurb": "What a hair dryer really costs per use and per year at 2026 UK electricity prices, plus simple ways to spend less.",
+  "lede": "A hair dryer is one of those appliances that feels like it must be expensive, because it roars, it gets hot, and it pulls a lot of power. The good news is that you only use it for a few minutes at a time, and short bursts of even a hungry appliance add up to very little money. A typical UK hair dryer draws somewhere between 1,500 and 2,200 watts, which is a genuinely high demand, but most people run it for five to ten minutes a day rather than for hours. That short run time is the whole story when it comes to the cost.",
+  "short_answer": "A 2,000W hair dryer used for 10 minutes costs about 8.7p per session, or roughly £32 a year if you use it every day. At the Ofgem price cap rate of 26.11p per kWh (July to September 2026), even a powerful 2,200W model only costs around 9.6p for a 10 minute dry. The wattage matters far less than how long you run it.",
+  "sections": [
+    {
+      "h2": "The short version: power times time",
+      "html": "<p>Every electrical cost comes down to the same sum. You take the appliance's power in kilowatts, multiply by the hours you run it, and multiply by your unit rate. A hair dryer rated at 2,000 watts is 2 kilowatts. Run it for 10 minutes and that is one sixth of an hour, so you use 2 multiplied by 0.167, which is about 0.33 kWh. At 26.11p per kWh that comes to roughly 8.7p.</p><p>The reason a hair dryer is cheap to run despite its high wattage is simply that 10 minutes is a tiny slice of an hour. The same logic applies to a <a href=\"kettle-energy-saving.html\">kettle</a> or a <a href=\"toaster-running-cost.html\">toaster</a>: very high power, very short use, low cost. If you want the method behind this in plain terms, our guide to <a href=\"what-is-a-kwh.html\">what a kWh is</a> walks through it step by step.</p><p>If you ever want to check your own dryer rather than guess, the wattage is usually printed near the handle or on the rating plate, and a <a href=\"using-a-plug-in-energy-monitor.html\">plug-in energy monitor</a> will show the exact draw in real time.</p>"
+    },
+    {
+      "h2": "What a hair dryer costs per use and per year",
+      "html": "<p>The table below shows a few common wattages against the time you spend drying. The cost per use is what matters day to day. The yearly figure assumes you dry your hair once a day, every day of the year.</p><table class=\"ev-table\"><thead><tr><th>Hair dryer</th><th>5 minutes</th><th>10 minutes</th><th>15 minutes</th><th>Cost per year (10 min daily)</th></tr></thead><tbody><tr><td>1,200W</td><td>2.6p</td><td>5.2p</td><td>7.8p</td><td>£19.06</td></tr><tr><td>1,500W</td><td>3.3p</td><td>6.5p</td><td>9.8p</td><td>£23.82</td></tr><tr><td>1,800W</td><td>3.9p</td><td>7.8p</td><td>11.7p</td><td>£28.59</td></tr><tr><td>2,000W</td><td>4.4p</td><td>8.7p</td><td>13.1p</td><td>£31.76</td></tr><tr><td>2,200W</td><td>4.8p</td><td>9.6p</td><td>14.4p</td><td>£34.94</td></tr></tbody></table><p class=\"ev-note\">At 26.11p per kWh, Ofgem cap July to September 2026.</p><p>So even at the top of the range, a daily 10 minute blow dry on a 2,200W model lands at under £35 for the whole year. For most people the real figure is lower, because few of us dry our hair for a full 10 minutes every single day. Drop to three or four sessions a week and the yearly cost roughly halves.</p>"
+    },
+    {
+      "h2": "Why the high wattage does not break the bank",
+      "html": "<p>It is easy to look at a 2,200W rating and assume the dryer is one of the most expensive things in the house to run. In raw power it is, sitting alongside an <a href=\"electric-shower-cost.html\">electric shower</a> and a kettle near the top of the list. But power is only half of the equation, and time is the other half.</p><p>Compare a hair dryer against appliances that run for hours rather than minutes. A <a href=\"tumble-dryer-cost.html\">tumble dryer</a> might pull a similar 2,000W or so, but it runs for an hour or more per cycle, which is why it costs the better part of 50p a load instead of a few pence. A <a href=\"fridge-freezer-efficiency.html\">fridge freezer</a> uses far less power at any given moment, yet it runs around the clock, so over a year it costs much more than a hair dryer ever will.</p><p>The lesson is that a high wattage label is not the thing to fear. What matters is wattage multiplied by hours. A hair dryer scores high on the first and very low on the second.</p>"
+    },
+    {
+      "h2": "Does standby cost anything?",
+      "html": "<p>Almost nothing. A plugged-in hair dryer with no electronic display draws no measurable power when it is switched off at the dryer itself, because there is nothing left running. Older and simpler models are basically a motor and a heating element with a mechanical switch, so off means off.</p><p>A few modern dryers with digital controls or a cradle may sip a tiny amount when idle, but even then you are talking about pennies across a whole year. There is no need to unplug a hair dryer to save energy. If you are curious about which household devices really do leak power when left plugged in, our guide to <a href=\"standby-power-the-full-story.html\">standby power</a> covers the appliances that are genuinely worth switching off at the wall.</p>"
+    },
+    {
+      "h2": "How to spend less on drying your hair",
+      "html": "<p>Because the cost is driven by time, the biggest savings come from cutting the minutes, not from buying a fancier dryer. A few practical points:</p><ul><li><strong>Towel dry first.</strong> Squeezing more water out with a towel before you start can knock a couple of minutes off the dry, and that is a direct saving every single time.</li><li><strong>Use the right power for the job.</strong> A higher wattage dryer moves more hot air, so it can finish faster. A 2,200W model run for six minutes can use less energy than a 1,500W one run for 10 minutes. Wattage and time trade off against each other.</li><li><strong>Do not chase the cool shot for ages.</strong> The cool setting still runs the motor and uses power. It is fine for setting a style, but it is not free.</li><li><strong>Air dry when you can.</strong> Letting hair dry naturally for a while before a short finishing blast is the cheapest approach of all.</li></ul><p>What does not move the needle much is the time of day. A hair dryer uses so little energy per session that shifting it to a cheaper <a href=\"economy-7-and-night-rates.html\">off-peak rate</a> saves only a fraction of a penny. It is not worth rearranging your morning over. If you are interested in how appliances compare across the home, the <a href=\"appliance-running-cost.html\">appliance running cost</a> hub puts the hair dryer in context with everything else you plug in.</p>"
+    },
+    {
+      "h2": "Does the energy label help when buying one?",
+      "html": "<p>Hair dryers do not carry the familiar A to G energy rating that fridges and washing machines have, so you cannot compare them on a label the way you would a larger appliance. The only number that tells you anything about running cost is the wattage, and even then a higher wattage is not automatically worse, because it may dry your hair faster.</p><p>If you want to understand how those coloured efficiency labels work on the appliances that do carry them, our explainer on <a href=\"energy-labels-explained.html\">energy labels</a> sets out what each rating actually means and where the figures come from. For a hair dryer, the honest answer is to buy whatever dries your hair well and ignore the running cost, because it is small either way.</p>"
+    },
+    {
+      "h2": "The bottom line",
+      "html": "<p>A hair dryer is loud, hot and high powered, but it is cheap to run because you only use it for minutes at a time. Expect to pay somewhere between about 5p and 10p for a typical 10 minute dry at 2026 prices, and somewhere between roughly £20 and £35 a year if you use it daily. Most people pay less than that, because real use is patchy rather than a full session every day.</p><p>If you want to trim the cost, towel dry first and keep the run time short. Do not worry about standby, do not worry about the wattage on the box, and do not lose sleep over the time of day. The hair dryer is simply not one of the appliances where the savings live. The real money is in heating, hot water and the things that run for hours, which is where the rest of these guides point you.</p>"
+    }
+  ],
+  "faq": [
+    {
+      "q": "How much does it cost to run a hair dryer for 10 minutes?",
+      "a": "Around 5p to 10p depending on the wattage. A 2,000W dryer costs about 8.7p for 10 minutes at the Ofgem price cap rate of 26.11p per kWh for July to September 2026. A more powerful 2,200W model is about 9.6p."
+    },
+    {
+      "q": "Is a hair dryer expensive to run?",
+      "a": "No. Although it has a high wattage, you only run it for a few minutes, so each session costs pennies. Used daily for 10 minutes, a typical dryer costs roughly £25 to £35 a year, far less than appliances that run for hours such as a tumble dryer or fridge freezer."
+    },
+    {
+      "q": "Does a higher wattage hair dryer cost more to run?",
+      "a": "Per minute, yes, but it can finish faster. A 2,200W dryer used for six minutes can use less energy overall than a 1,500W one used for 10 minutes, because the total cost depends on wattage multiplied by time, not wattage alone."
+    },
+    {
+      "q": "Should I unplug my hair dryer to save energy?",
+      "a": "There is no need. A switched-off hair dryer draws no measurable power, and even models with a digital display use only pennies a year on standby. Unplugging it makes no real difference to your bill."
+    },
+    {
+      "q": "Is it cheaper to dry my hair at night on an off-peak tariff?",
+      "a": "Technically yes, but the saving is tiny because a hair dryer uses so little energy per session. On a cheap night rate you might save a fraction of a penny per dry. It is not worth changing your routine for."
+    }
+  ]
+}

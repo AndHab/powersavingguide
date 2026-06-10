@@ -1,0 +1,56 @@
+{
+  "slug": "gaming-pc-running-cost",
+  "title": "How much does it cost to run a gaming PC?",
+  "description": "What a gaming PC costs to run in the UK, from casual builds to high-end rigs. Real watt figures, a cost table at the July 2026 price cap, and ways to cut the bill.",
+  "blurb": "Work out what your gaming PC costs to run, with real watt figures and a UK cost table.",
+  "lede": "A gaming PC is one of the hungriest things you can plug into a wall socket at home, and the spread is huge. A modest build sipping 150 watts costs pennies an hour, while a high-end rig with a flagship graphics card can pull more power than a small electric heater. The number on your bill depends on three things: how many watts the machine actually draws while you play, how many hours you sit at it, and what you pay per unit of electricity. Get a feel for all three and you can put a real yearly figure on your hobby.",
+  "short_answer": "Most UK gaming PCs draw between 200 and 500 watts while gaming. At the July 2026 price cap of 26.11p per kWh, that is roughly 5p to 13p an hour. Game for two hours a day and a mid-range rig (around 350W) costs about £67 a year. A high-end machine run hard can easily top £150 a year.",
+  "sections": [
+    {
+      "h2": "What a gaming PC actually draws",
+      "html": "<p>The headline number people quote is the power supply rating, often 650W, 850W or even 1000W. That is the maximum the PSU can deliver, not what the machine pulls. Real draw at the wall is usually well below it, and it swings constantly depending on what is on screen.</p><p>Three states matter:</p><ul><li><strong>Idle or desktop:</strong> browsing, email, video. Most gaming PCs sit at 50W to 100W here.</li><li><strong>Gaming load:</strong> the figure that drives your bill. Mid-range builds land around 250W to 400W. High-end builds with a top graphics card and a power-hungry processor can hit 500W to 700W.</li><li><strong>Capped or light gaming:</strong> older or less demanding titles, or a frame-rate cap, can pull the same machine down to 150W to 250W.</li></ul><p>The graphics card is the single biggest factor. A budget card might add 115W under load, while a flagship card alone can draw 400W or more. If you want the real number for your own machine rather than a textbook estimate, a plug-in meter is the only honest way to find it. Our guide on <a href=\"using-a-plug-in-energy-monitor.html\">using a plug-in energy monitor</a> walks through it, and it takes about five minutes.</p>"
+    },
+    {
+      "h2": "What it costs per hour and per year",
+      "html": "<p>Once you know roughly how many watts your PC pulls while gaming, the maths is simple. Watts divided by 1,000 gives kilowatts, and kilowatts multiplied by the unit rate gives the cost per hour. The table below uses the standard UK rate and three typical gaming loads, costed at two hours of gaming a day.</p><table class=\"ev-table\"><thead><tr><th>Type of build</th><th>Draw while gaming</th><th>Cost per hour</th><th>2 hrs/day for a year</th></tr></thead><tbody><tr><td>Casual / light gaming</td><td>200W</td><td>5.2p</td><td>£38</td></tr><tr><td>Mid-range build</td><td>350W</td><td>9.1p</td><td>£67</td></tr><tr><td>High-end build</td><td>500W</td><td>13.1p</td><td>£96</td></tr><tr><td>Flagship rig, run hard</td><td>700W</td><td>18.3p</td><td>£134</td></tr></tbody></table><p class=\"ev-note\">At 26.11p per kWh, Ofgem cap July to September 2026. Costs cover the gaming hours only; idle and desktop time adds a little more.</p><p>Two hours a day is a fair average for a working adult. A teenager on weekends and school holidays, or anyone gaming four or five hours a day, can more than double these figures. A high-end rig run hard for four hours a day works out close to £270 a year, which is more than most fridge-freezers cost to run.</p>"
+    },
+    {
+      "h2": "Don't forget the monitor and the rest of the desk",
+      "html": "<p>The tower is only part of the bill. Everything else on the desk adds up, and it is easy to overlook.</p><ul><li><strong>Monitor:</strong> a 27-inch screen draws 25W to 45W. A large high-refresh or HDR panel can pull 60W or more, and dual-monitor setups double it.</li><li><strong>Speakers, amp, mic, lighting:</strong> RGB strips, a powered speaker set and a stream deck can add another 20W to 50W between them.</li><li><strong>Router and peripherals:</strong> small but always on. See our note on the <a href=\"broadband-router-always-on.html\">broadband router that is always on</a>.</li></ul><p>Add a 40W monitor to a 350W mid-range build and the gaming draw is really 390W, which nudges the yearly cost up by around £8 at two hours a day. Not huge, but worth knowing when you compare your machine against the figures other people quote, which usually ignore the screen.</p>"
+    },
+    {
+      "h2": "Standby and idle: the cost you pay when you aren't playing",
+      "html": "<p>The hours you are not gaming still cost money if the machine is left on. A PC idling at the desktop at 70W, left running 24 hours a day, costs about £160 a year on its own before you play a single game. Many people leave the tower on overnight or all day for downloads, updates or simply out of habit.</p><p>Sleep mode cuts this to a few watts, and full shutdown to almost nothing apart from a trickle to the motherboard. If you want fast resume without the idle cost, set the PC to sleep after a short period of inactivity rather than staying awake. There is a wider explanation of where these small always-on loads come from in our piece on <a href=\"standby-power-the-full-story.html\">standby power, the full story</a>.</p><p>One common myth is that shutting down and starting up wears the machine out or uses a big spike of power. Neither is true for a modern PC. The startup surge lasts a fraction of a second and is trivial next to an hour of idling. Sleep or shut down whenever you walk away for more than a short break.</p>"
+    },
+    {
+      "h2": "Ways to bring the cost down",
+      "html": "<p>You do not need to game less to spend less. A few settings changes make a real difference to the watts without hurting the experience much.</p><ul><li><strong>Cap your frame rate.</strong> If your monitor is 60Hz or 144Hz, capping frames to match stops the graphics card running flat out to push frames you can never see. This alone can cut gaming draw by 20 per cent or more.</li><li><strong>Enable an undervolt.</strong> Many modern graphics cards and processors run cooler and quieter on slightly less voltage with no real loss of performance. It is the biggest lever after the frame cap.</li><li><strong>Turn down to where it counts.</strong> Dropping from ultra to high settings often halves the power draw for a difference you will struggle to spot in motion.</li><li><strong>Use sleep aggressively.</strong> Set the PC and monitor to sleep after a few idle minutes.</li><li><strong>Shift heavy use to cheaper hours if you can.</strong> If you are on a time-of-use tariff, long downloads or rendering jobs are cheaper overnight. Our guide to <a href=\"time-of-use-tariffs-explained.html\">time-of-use tariffs</a> explains how the rates work.</li></ul><p>Measuring before and after with a plug-in meter is the only way to know what each change is actually saving you, rather than guessing from the spec sheet.</p>"
+    },
+    {
+      "h2": "The bottom line",
+      "html": "<p>For most UK households, a gaming PC costs somewhere between £40 and £150 a year to run, with two hours of daily gaming and a mid-range build sitting near £67. Heavy use on a high-end rig pushes that figure higher, and leaving the machine idling all day can quietly cost more than the gaming itself. The two numbers that decide your bill are your machine's real watt draw while playing and your hours at the keyboard.</p><p>Find your real draw with a plug-in meter, cap your frame rate, and put the PC to sleep when you walk away. Those three habits cover most of the saving available without touching how much you actually play. For how your machine sits against the rest of the home, our overview of <a href=\"appliance-running-cost.html\">appliance running costs</a> puts the figures in context, and <a href=\"games-console-running-cost.html\">games console running costs</a> is the natural comparison if you are weighing a console against a PC.</p>"
+    }
+  ],
+  "faq": [
+    {
+      "q": "How much does it cost to run a gaming PC for an hour in the UK?",
+      "a": "It depends on the watts your machine draws while gaming. At the July 2026 price cap of 26.11p per kWh, a 200W casual build costs about 5p an hour, a 350W mid-range build about 9p, and a 500W high-end build about 13p. Add a few pence for the monitor."
+    },
+    {
+      "q": "Is it cheaper to use a gaming PC or a console?",
+      "a": "A console almost always uses less power, often 150W to 220W under load against 250W to 700W for a comparable gaming PC. If electricity cost alone is the deciding factor, a console is cheaper to run, though a PC offers more flexibility and an upgrade path. See our games console running cost guide for the comparison."
+    },
+    {
+      "q": "Should I turn my gaming PC off or leave it on?",
+      "a": "Turn it off or put it to sleep when you are not using it. A PC idling at the desktop can cost around £160 a year if left on around the clock. Modern PCs are not harmed by being shut down and started up, and the startup surge is trivial compared with hours of idling."
+    },
+    {
+      "q": "Does capping my frame rate really save money?",
+      "a": "Yes, and it is one of the most effective changes you can make. Capping frames to match your monitor's refresh rate stops the graphics card running flat out to produce frames you cannot see, which can cut gaming power draw by a fifth or more with no visible loss."
+    },
+    {
+      "q": "How do I find out exactly how much power my gaming PC uses?",
+      "a": "Plug a cheap energy monitor between the wall socket and the PC, then watch the wattage while you idle, browse and game. This measures real draw including power supply losses, which software estimates miss. It is the only reliable way to put a true figure on your own machine."
+    }
+  ]
+}

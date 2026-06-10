@@ -1,0 +1,56 @@
+{
+  "slug": "toaster-running-cost",
+  "title": "How much does it cost to run a toaster?",
+  "description": "A toaster costs about 1p to 2p per use in the UK. See the real per-slice, daily and yearly figures at 26.11p per kWh, plus how to toast for less.",
+  "blurb": "What a toaster really costs to run in the UK, with per-use and yearly figures at the current price cap.",
+  "lede": "The toaster is one of the cheapest things in your kitchen to run, yet it is the appliance people fret about most when they hear it draws a kilowatt or more. The number on the back of the case looks alarming, but a toaster only pulls that power for a minute or two at a time, so the cost per round of toast is tiny. This guide works out the real figures at the current UK electricity rate, shows where the pennies actually go, and explains why a toaster will almost always beat the oven or grill for browning a slice of bread.",
+  "short_answer": "A typical 900W two-slice toaster costs roughly 1p to 2p per use, assuming a two to three minute cycle. Toast every morning and you are looking at about £4 to £8 a year. At 26.11p per kWh, the headline wattage matters far less than how long the element is actually on.",
+  "sections": [
+    {
+      "h2": "The short cost of a slice of toast",
+      "html": "<p>Running cost comes down to one sum: power in kilowatts, multiplied by hours used, multiplied by your unit rate. A toaster's power rating is printed on the base or in the manual, usually somewhere between 800W and 1,000W for a two-slice model and up to 2,200W for a large four-slice one.</p><p>The catch is the time. A toaster runs for a couple of minutes, not hours. A 900W toaster on for three minutes uses 0.9 kW multiplied by 0.05 hours, which is 0.045 kWh. At 26.11p per kWh that is about 1.2p. Even a hungry four-slice toaster on its longest setting struggles to cost more than 3p a go.</p><p>If you want to measure your own toaster rather than trust the label, a cheap <a href=\"using-a-plug-in-energy-monitor.html\">plug-in energy monitor</a> will show the exact watts and the kWh it has clocked up. It is the only honest way to settle a toaster argument.</p>"
+    },
+    {
+      "h2": "What a toaster costs per use, day and year",
+      "html": "<p>The table below assumes a three minute cycle, which is on the generous side for most bread settings. Lighter settings or pre-toasted reheats use less. The yearly figures assume toast on every one of the 365 days.</p><table class=\"ev-table\"><thead><tr><th>Toaster</th><th>Power</th><th>Per use (3 min)</th><th>Daily (1 use)</th><th>Yearly (daily use)</th></tr></thead><tbody><tr><td>Compact two-slice</td><td>800W</td><td>1.0p</td><td>1.0p</td><td>£3.81</td></tr><tr><td>Standard two-slice</td><td>900W</td><td>1.2p</td><td>1.2p</td><td>£4.29</td></tr><tr><td>Wide two-slice</td><td>1,100W</td><td>1.4p</td><td>1.4p</td><td>£5.24</td></tr><tr><td>Four-slice</td><td>1,800W</td><td>2.3p</td><td>2.3p</td><td>£8.58</td></tr><tr><td>Large four-slice</td><td>2,200W</td><td>2.9p</td><td>2.9p</td><td>£10.49</td></tr></tbody></table><p class=\"ev-note\">At 26.11p per kWh, Ofgem cap July to September 2026. Based on a three minute cycle.</p><p>The standout point is how small these numbers are. Even the thirstiest four-slice toaster used daily costs about a tenner a year. That is a fraction of what a <a href=\"fridge-freezer-efficiency.html\">fridge freezer</a> or a <a href=\"tumble-dryer-cost.html\">tumble dryer</a> adds to your bill, and those run on for hours rather than minutes.</p>"
+    },
+    {
+      "h2": "Why the high wattage does not mean a high bill",
+      "html": "<p>People see 2,000W on a four-slice toaster and assume it must be expensive. The wattage tells you how fast the appliance draws energy, not how much it uses overall. A 2,000W toaster running for two minutes uses less energy than a 100W lamp left on for seven hours.</p><p>This is the same trap people fall into with the <a href=\"kettle-energy-saving.html\">kettle</a> and the <a href=\"microwave-running-cost.html\">microwave</a>. High-power kitchen gadgets are cheap to run precisely because they do their job and switch off in seconds or minutes. The appliances that quietly cost you money are the low-power ones that never stop, like the fridge, the router and anything left on <a href=\"standby-power-the-full-story.html\">standby</a>.</p><p>A toaster has no real standby draw worth worrying about. Once the lever pops up and the elements cool, it pulls nothing unless it has a clock or a digital display, and even then the draw is a fraction of a watt. There is no need to switch it off at the wall to save money, though doing so does no harm.</p>"
+    },
+    {
+      "h2": "Toaster versus oven, grill and air fryer",
+      "html": "<p>The toaster wins comfortably against any whole-cavity appliance for browning bread. An <a href=\"electric-oven-running-cost.html\">electric oven</a> grill element typically draws around 2,000W to 2,500W and has to heat a large empty space, so even five minutes under the grill costs several times more than the toaster and wastes most of the heat on thin air.</p><p>The table compares the cost of making two slices of toast by different methods.</p><table class=\"ev-table\"><thead><tr><th>Method</th><th>Rough power</th><th>Time</th><th>Cost</th></tr></thead><tbody><tr><td>Toaster</td><td>900W</td><td>3 min</td><td>1.2p</td></tr><tr><td>Air fryer</td><td>1,500W</td><td>5 min</td><td>3.3p</td></tr><tr><td>Oven grill</td><td>2,200W</td><td>6 min (inc. warm-up)</td><td>5.7p</td></tr><tr><td>Oven (preheated bake)</td><td>2,000W</td><td>12 min (inc. warm-up)</td><td>10.4p</td></tr></tbody></table><p class=\"ev-note\">At 26.11p per kWh, Ofgem cap July to September 2026. Times include any warm-up.</p><p>The toaster is roughly three times cheaper than the air fryer and nearly five times cheaper than the grill for the same two slices. If you only want toast, the dedicated toaster is the right tool. For wider cooking comparisons, the <a href=\"oven-microwave-air-fryer-compared.html\">oven, microwave and air fryer comparison</a> is the place to look.</p>"
+    },
+    {
+      "h2": "Small habits that shave the cost",
+      "html": "<p>There is not a lot of money to chase here, but a few habits keep a toaster running cheaply and safely:</p><ul><li><strong>Use the right setting.</strong> A high browning setting runs the elements longer. Dialling it down to suit your bread cuts the cycle time and the cost.</li><li><strong>Fill the slots you use.</strong> Toasting one slice in a four-slice toaster still heats both halves on some models. Use a two-slot machine or a model with single-side selection if you usually make one round.</li><li><strong>Skip the reheat and defrost padding.</strong> Toasting straight from frozen adds time. If you can plan ahead, toasting thawed bread is quicker and slightly cheaper.</li><li><strong>Keep the crumbs out.</strong> A clogged crumb tray makes a toaster work harder and is a fire risk. Empty it regularly.</li><li><strong>Buy on capacity, not power.</strong> A four-slice toaster only makes sense if you regularly need four slices at once. Otherwise a two-slice model costs less to run and takes up less space.</li></ul><p>None of this will transform your bill, but the same logic scales across the kitchen. The bigger savings live in the <a href=\"save-energy-in-the-kitchen.html\">kitchen as a whole</a> and in heating, not in your toaster.</p>"
+    },
+    {
+      "h2": "The bottom line",
+      "html": "<p>A toaster is about as cheap as a mains appliance gets. At 26.11p per kWh, a normal two-slice model costs a little over a penny per use and around £4 a year with daily toast. A big four-slice machine still comes in under £11 a year on the same pattern. The wattage on the case is a poor guide to the bill, because the toaster only runs for a couple of minutes at a time.</p><p>Stop worrying about the toaster. If you want to know which appliances actually move your bill, start with the <a href=\"appliance-running-cost.html\">appliance running cost guide</a>, learn to read the <a href=\"energy-labels-explained.html\">energy labels</a> on the things that run for hours, and understand the real story behind <a href=\"standby-power-the-full-story.html\">standby power</a>. Those are where the pounds hide.</p>"
+    }
+  ],
+  "faq": [
+    {
+      "q": "How much does a toaster cost to run per use in the UK?",
+      "a": "A typical 900W two-slice toaster costs about 1.2p per use for a three minute cycle at 26.11p per kWh. A four-slice toaster on a longer setting costs closer to 2p to 3p per use."
+    },
+    {
+      "q": "Is it cheaper to use a toaster or the oven grill for toast?",
+      "a": "The toaster is far cheaper. It heats only the bread and runs for a couple of minutes, while an oven grill heats a large empty cavity and draws more power. Toasting two slices costs about 1.2p in a toaster versus roughly 5p to 6p under the grill."
+    },
+    {
+      "q": "Does a toaster use electricity on standby?",
+      "a": "Almost none. A basic toaster draws nothing once the lever pops up. Models with a clock or digital display use a fraction of a watt, which costs pennies a year, so there is no need to switch it off at the wall to save money."
+    },
+    {
+      "q": "Why does my toaster have such a high wattage if it is cheap to run?",
+      "a": "Wattage is the rate it draws power, not the total it uses. A toaster pulls a lot for a minute or two then stops, so the energy used is small. High-power gadgets that finish quickly are cheap. The expensive appliances are low-power ones that run for hours."
+    },
+    {
+      "q": "How much does a toaster cost to run per year?",
+      "a": "Used once a day, a standard two-slice toaster costs about £4 a year and a large four-slice model about £10 a year at 26.11p per kWh. Most households will spend less because they do not toast every single day."
+    }
+  ]
+}

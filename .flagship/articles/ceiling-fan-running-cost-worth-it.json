@@ -1,0 +1,56 @@
+{
+  "slug": "ceiling-fan-running-cost-worth-it",
+  "title": "Ceiling fans: running cost and are they worth it?",
+  "description": "What a ceiling fan really costs to run in the UK, how AC and DC motors compare, and whether one is worth fitting instead of buying air conditioning.",
+  "blurb": "Ceiling fans cost pennies an hour to run. Here is the real UK figure and whether one is worth fitting.",
+  "lede": "A ceiling fan is one of the cheapest ways to feel cooler in summer, and for most of the year it can also help spread warm air in winter. The headline question is simple though: does the comfort justify the installation cost and the electricity it draws? The good news is that a ceiling fan uses very little power, far less than the plug-in fan you might already own and a tiny fraction of what an air conditioner pulls. The figures below show exactly what you would pay at the current Ofgem rate, how a modern DC fan compares with an older AC one, and when fitting one actually pays off.",
+  "short_answer": "A typical ceiling fan draws roughly 25 to 75 watts, so running it costs about 0.7p to 2p an hour at the July to September 2026 price cap. Run for eight hours a day across a warm UK summer, that is around £3 to £8 for the whole season. The electricity is almost free in practice. The real cost is the fan and fitting, which makes it worth it if you will use it for years.",
+  "sections": [
+    {
+      "h2": "What a ceiling fan costs to run",
+      "html": "<p>A ceiling fan moves air with a slow, large blade, which is why it sips power compared with a small fan that has to spin fast. Most domestic ceiling fans land somewhere between 25 and 75 watts depending on the motor type and the speed setting. To turn watts into pennies, divide the wattage by 1,000 to get kilowatts, then multiply by the unit rate.</p><p>At 26.11p per kWh, a 50W fan costs 50 divided by 1,000, which is 0.05kW, times 26.11p, which works out at about 1.3p an hour. Leave it on for a long evening and you are still well under 10p.</p><table class=\"ev-table\"><thead><tr><th>Fan power</th><th>Cost per hour</th><th>8 hours a day</th><th>Summer (90 days, 8h/day)</th></tr></thead><tbody><tr><td>25W (DC, low)</td><td>0.7p</td><td>5p</td><td>£4.70</td></tr><tr><td>40W (DC, medium-high)</td><td>1.0p</td><td>8p</td><td>£7.52</td></tr><tr><td>60W (AC, medium)</td><td>1.6p</td><td>13p</td><td>£11.28</td></tr><tr><td>75W (AC, full)</td><td>2.0p</td><td>16p</td><td>£14.10</td></tr></tbody></table><p class=\"ev-note\">At 26.11p per kWh, Ofgem cap July to September 2026. Real UK summers rarely need full speed for 90 days straight, so most homes spend less.</p><p>For comparison, a portable air conditioner draws ten to fifteen times more power. If you want the full contrast, our guide on the <a href=\"portable-air-conditioner-vs-fan.html\">portable air conditioner versus fan</a> running cost lays the numbers side by side.</p>"
+    },
+    {
+      "h2": "AC motor versus DC motor: does it matter for your bill?",
+      "html": "<p>Older and cheaper ceiling fans use an AC motor. Newer premium fans use a DC motor, which is more efficient and typically draws around 60 per cent less power at the same airflow. A DC fan might pull 30W where an AC fan pulls 70W for similar cooling.</p><p>On paper that sounds like a big saving, but because the running cost is already so low, the cash difference is small. Over a full summer the gap between the two might be £5 to £10. A DC fan can carry a price premium of £100 or more, so you would wait many years for the electricity saving alone to repay it.</p><p>That does not mean DC is pointless. The real reasons people choose DC are quieter running, more speed settings, a remote, and often a reverse function for winter. If you value silence in a bedroom, the upgrade can be worth it for comfort rather than for the bill. If you just want cheap cooling in a living room, a decent AC fan is perfectly fine.</p>"
+    },
+    {
+      "h2": "How a ceiling fan compares with other cooling",
+      "html": "<p>The point of a fan is not to lower the air temperature. It cannot do that. It moves air across your skin so sweat evaporates faster and you feel several degrees cooler. That is why a fan only helps when someone is in the room, and why you should switch it off when you leave.</p><ul><li><strong>Ceiling fan:</strong> about 0.7p to 2p an hour. Cools people, not rooms.</li><li><strong>Plug-in tower or pedestal fan:</strong> similar or slightly higher, often 30 to 60W. See <a href=\"fan-running-cost.html\">fan running cost</a> for the full breakdown.</li><li><strong>Portable air conditioner:</strong> commonly 1,000W or more, so 26p an hour and up. Our <a href=\"air-conditioning-running-cost.html\">air conditioning running cost</a> guide covers fixed units too.</li></ul><p>For most UK homes a fan does the job for the handful of genuinely hot weeks we get. Air conditioning only earns its keep if you have a room that overheats badly or someone with a health need. The wider toolkit for staying comfortable cheaply is in <a href=\"keeping-cool-without-air-con.html\">keeping cool without air con</a>.</p>"
+    },
+    {
+      "h2": "The hidden winter benefit",
+      "html": "<p>Many ceiling fans have a reverse switch. In winter, set the blades to push air upward at low speed. This nudges the warm air that has collected near the ceiling back down into the room without creating a draught you can feel. In a room with a high ceiling, that can let you turn the thermostat down a touch while staying just as comfortable.</p><p>The fan still only costs a penny or two an hour to run, and any heating saving comes from your gas or electric heating, which is far more expensive per unit. So even a small reduction in heating use can outweigh the fan's own running cost. It is a marginal gain rather than a transformative one, but it is genuinely useful in tall rooms, conservatories and converted lofts. Pair it with sensible <a href=\"thermostat-settings.html\">thermostat settings</a> for the best effect.</p>"
+    },
+    {
+      "h2": "The fitting cost and whether it pays off",
+      "html": "<p>Because the electricity is so cheap, the decision really comes down to the up-front cost. A basic AC ceiling fan can be bought for well under £100. A quiet DC fan with a remote and a light usually costs more. On top of that you may need an electrician, especially if there is no existing ceiling rose with the right wiring or the joists need a fixing point that can carry the weight and vibration safely.</p><p>If you rent, fitting a fan is usually a non-starter, so a good pedestal fan makes more sense. There are more renter-friendly ideas in <a href=\"saving-energy-when-renting.html\">saving energy when renting</a>.</p><p>For owners, a ceiling fan is worth it if all of the following are true: you have a room that gets uncomfortably warm in summer, the ceiling is high enough for safe clearance, and you will keep the fan for several years. Spread over a decade of summers, the fitting cost works out at a few pounds a season for reliable, near-silent cooling and a winter bonus. That is a far better deal than buying and storing a portable air conditioner you only switch on twice a year.</p>"
+    },
+    {
+      "h2": "The bottom line",
+      "html": "<p>A ceiling fan is one of the best-value comfort upgrades in a UK home. Running it costs pennies an hour, around £3 to £8 to cool a room across a normal summer, and a DC model shaves a little more off that while running more quietly. The electricity is not the deciding factor. The fan and the fitting are. If you own your home, have a room worth cooling and will use it for years, a ceiling fan is worth fitting. If the answer to any of those is no, a plug-in fan will get you most of the comfort for none of the install cost.</p>"
+    }
+  ],
+  "faq": [
+    {
+      "q": "How much does it cost to run a ceiling fan all day?",
+      "a": "At the July to September 2026 price cap of 26.11p per kWh, a typical 50W ceiling fan costs about 1.3p an hour, so running it for 12 hours is roughly 16p. Even left on continuously for a full day it would cost under 35p."
+    },
+    {
+      "q": "Is a DC ceiling fan worth the extra money?",
+      "a": "For the electricity saving alone, usually not, because both types already cost very little to run and the saving is only a few pounds a summer. A DC fan is worth it if you want quieter running, a remote, more speed settings and a reverse mode for winter, which are comfort benefits rather than bill savings."
+    },
+    {
+      "q": "Should I leave a ceiling fan on when I leave the room?",
+      "a": "No. A fan cools people by moving air over the skin, not by cooling the room itself. Switching it off in an empty room saves the small running cost and wastes nothing in comfort."
+    },
+    {
+      "q": "Can a ceiling fan replace air conditioning in the UK?",
+      "a": "For most UK homes, yes, given how few genuinely hot weeks we get. A fan makes a room feel several degrees cooler at a fraction of the cost. Air conditioning only earns its keep where a room overheats badly or there is a specific health need."
+    },
+    {
+      "q": "Does using a ceiling fan in winter actually save money?",
+      "a": "It can, in tall rooms. Running it in reverse at low speed pushes warm air down from the ceiling, letting you keep the thermostat a touch lower. Since heating costs far more per unit than the fan, even a small heating reduction can outweigh the fan's running cost."
+    }
+  ]
+}

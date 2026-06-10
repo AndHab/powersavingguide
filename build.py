@@ -15,6 +15,12 @@ INDEXNOW_KEY = "8941122d5f9c4564a7267b028b081df0"
 ANALYTICS = (
     '<script data-goatcounter="https://stats.powersavingguide.com/count" '
     'async src="//stats.powersavingguide.com/count.js"></script>'
+    # GA4 + Consent Mode v2 (real data starts once the AdSense CMP grants consent)
+    '<script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}'
+    "gtag('consent','default',{ad_storage:'denied',ad_user_data:'denied',"
+    "ad_personalization:'denied',analytics_storage:'denied',wait_for_update:500});</script>"
+    '<script async src="https://www.googletagmanager.com/gtag/js?id=G-8FYB114413"></script>'
+    "<script>gtag('js',new Date());gtag('config','G-8FYB114413');</script>"
 )
 
 NAV = [

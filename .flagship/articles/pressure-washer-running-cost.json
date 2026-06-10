@@ -1,0 +1,56 @@
+{
+  "slug": "pressure-washer-running-cost",
+  "title": "How much does it cost to run a pressure washer?",
+  "description": "How much does it cost to run a pressure washer in the UK? Real per-session and per-hour running costs at the July 2026 price cap, plus the hidden water cost.",
+  "blurb": "What a pressure washer really costs per session, per hour and per year, plus the water cost most people forget.",
+  "lede": "A pressure washer feels like it should be expensive to run. It makes a lot of noise, the motor strains, and the whole patio gets blasted clean in minutes. In reality the electricity bill from a typical job is tiny, often only a few pence, because you rarely run the machine for long and you almost never run it flat out the whole time. The figure that catches people out is not the electricity at all. It is the water, especially if you are on a meter. Once you can read the wattage on yours and account for the water, working out the true cost of a clean takes seconds.",
+  "short_answer": "Running a typical 1.8kW electric pressure washer costs about 47p an hour at the July to September 2026 price cap. Most jobs are far shorter than that, so a 20-minute patio blast is roughly 16p of electricity. If you are on a water meter, the water you spray can cost as much as the power, sometimes more, so it is worth counting both.",
+  "sections": [
+    {
+      "h2": "What a pressure washer costs to run",
+      "html": "<p>Electricity is billed in kilowatt-hours (kWh). One kWh is one kilowatt of power running for a full hour. To find the cost of any appliance, multiply its power in kilowatts by the time you use it in hours, then by your unit rate.</p><p>Most domestic electric pressure washers draw between 1.4kW and 2.1kW, with the popular mid-range models landing around 1.8kW. Take a 1.8kW machine run flat out for a full hour at the 26.11p price cap rate:</p><ul><li>1.8 kW x 1 hour = 1.8 kWh</li><li>1.8 kWh x 26.11p = about 47p for the hour</li></ul><p>Hardly anyone runs a pressure washer for a solid hour, though. You squeeze the trigger in bursts, move the lance about, stop to refill the detergent, and the motor cuts out the moment you release the trigger on most machines. A realistic 20-minute patio session uses roughly a third of that, so about 16p of electricity. If you want the maths behind the unit itself, our guide on <a href=\"what-is-a-kwh.html\">what a kWh is</a> walks through it step by step.</p>"
+    },
+    {
+      "h2": "Cost per session and per year at the price cap",
+      "html": "<p>The table below assumes a 1.8kW machine, which covers most domestic electric pressure washers. Lighter compact units pull around 1.4kW and cost a little less; heavier 2.1kW models cost a little more, but the order of magnitude holds. These figures are for actual trigger time, not the total time you are stood in the garden.</p><table class=\"ev-table\"><thead><tr><th>Job</th><th>Run time</th><th>Energy used</th><th>Electricity cost</th></tr></thead><tbody><tr><td>Wash the car</td><td>10 minutes</td><td>0.30 kWh</td><td>about 8p</td></tr><tr><td>Blast a patio or path</td><td>20 minutes</td><td>0.60 kWh</td><td>about 16p</td></tr><tr><td>Clean a fence or decking</td><td>40 minutes</td><td>1.20 kWh</td><td>about 31p</td></tr><tr><td>A full hour flat out</td><td>60 minutes</td><td>1.80 kWh</td><td>about 47p</td></tr><tr><td>Twelve hours of use across a year</td><td>12 hours</td><td>21.6 kWh</td><td>about £5.64</td></tr></tbody></table><p class=\"ev-note\">At 26.11p per kWh, Ofgem cap July to September 2026. Assumes 1.8kW input power and actual trigger time.</p><p>For most households the electricity from a pressure washer is a rounding error on the annual bill, somewhere between £3 and £10 a year depending on how house-proud you are. To see where this sits against everything else you plug in, our <a href=\"appliance-running-cost.html\">appliance running cost</a> hub lists the common items side by side.</p>"
+    },
+    {
+      "h2": "The water cost most people forget",
+      "html": "<p>Here is the part that often costs more than the power. A domestic pressure washer typically moves somewhere between 5 and 10 litres of water a minute. That sounds modest, but it adds up faster than the electricity does.</p><p>If your home is on a water meter, you pay for both the water in and the wastewater charge out, which together in much of the UK come to roughly £3 to £4 per 1,000 litres (1 cubic metre). Take a machine flowing 7 litres a minute for 20 minutes of trigger time:</p><ul><li>7 litres x 20 minutes = 140 litres</li><li>140 litres at about £3.50 per 1,000 litres = around 49p of water</li></ul><p>So in that example the water costs roughly three times the electricity. Over a long fence-and-decking session you can easily use 400 to 500 litres, which is more than a pound of water on top of about 30p of power. If you are on unmetered water you pay a fixed annual charge instead, so the water is effectively free at the point of use, but the electricity figures above still apply. Either way, a pressure washer uses far less water than a running hose for the same cleaning job, because the high pressure does the work the volume would otherwise have to.</p>"
+    },
+    {
+      "h2": "Reading the label and the wattage on yours",
+      "html": "<p>The headline number on the box can be confusing because manufacturers like to advertise the pressure, measured in bar or PSI, rather than the power. Pressure tells you how hard the water hits the surface; it does not tell you what the machine draws from the socket.</p><p>For running cost you want the input power in watts or kilowatts, which you will find on the rating plate, a small label usually on the body of the unit near the cable or on the underside. If it is given in amps, multiply by 230 to get watts. For example, 7.8A x 230 is about 1,800W, or 1.8kW.</p><ul><li><strong>Pressure (bar or PSI):</strong> cleaning power, not energy use</li><li><strong>Flow rate (litres per minute):</strong> drives your water cost</li><li><strong>Input power (watts or kilowatts):</strong> the number your electricity meter sees, use this for cost</li></ul><p>Pressure washers do not carry the familiar A-to-G energy label you see on fridges and washing machines, so there is no efficiency grade to compare. If you are unsure what your machine really pulls, a cheap <a href=\"using-a-plug-in-energy-monitor.html\">plug-in energy monitor</a> shows the live wattage and totals the kWh over a session, which is the most honest way to see your true cost. For background on what those shop labels do and do not tell you on the appliances that carry them, see our explainer on <a href=\"energy-labels-explained.html\">energy labels</a>.</p>"
+    },
+    {
+      "h2": "Petrol and standby: two side notes",
+      "html": "<p>A few pressure washers, mostly the heavy-duty and contractor models, run on petrol rather than mains electricity. There the fuel replaces the unit rate entirely. A small petrol engine might burn around 1 litre an hour, so at roughly 159p a litre for petrol in mid 2026 that is about £1.59 an hour, several times the cost of the electric equivalent. For occasional garden use, an electric machine is much cheaper to run as well as quieter and lighter.</p><p>On standby, the good news is that most electric pressure washers have a genuine mechanical off switch and draw nothing at all when switched off. They have no clock or display sitting awake in the background. The only thing to watch is leaving the machine switched on but idle with the motor cutting in and out, which wastes a trickle and is hard on the pump, so flick it off at the unit between jobs. If you want to know which gadgets around the house actually waste money sitting idle, our full look at <a href=\"standby-power-the-full-story.html\">standby power</a> ranks the real culprits, and a pressure washer is not one of them.</p>"
+    },
+    {
+      "h2": "The bottom line",
+      "html": "<p>A pressure washer is cheap to run on electricity. Expect roughly 8p for a car wash, around 16p for a patio, and well under £10 a year of power for typical household use, based on the 26.11p price cap rate for July to September 2026. The motor noise makes it feel costly, but the short run times and trigger-only operation keep the bill tiny.</p><p>The cost worth keeping an eye on is the water, if you are metered. On a long session the water you spray can quietly outrun the electricity, so think about catching rainwater in a butt for the dirty jobs and saving the mains for the rinse. Beyond that, there is very little to save here. Switch it off at the unit between jobs, use the right nozzle so you finish faster, and spend your energy-saving effort on the bigger items on your bill instead.</p>"
+    }
+  ],
+  "faq": [
+    {
+      "q": "How much does it cost to run a pressure washer for an hour?",
+      "a": "A typical 1.8kW electric pressure washer run flat out for a full hour uses 1.8 kWh, which costs about 47p at the July to September 2026 price cap rate of 26.11p per kWh. In practice you rarely run one for a solid hour, so most jobs cost far less."
+    },
+    {
+      "q": "Do pressure washers use a lot of electricity?",
+      "a": "No. At around 1.4kW to 2.1kW they draw similar power to a kettle, but you only use them in short bursts. A 20-minute patio session is roughly 16p of electricity. Over a year of normal garden use you are looking at well under £10 of power."
+    },
+    {
+      "q": "Does a pressure washer use a lot of water?",
+      "a": "A domestic machine moves about 5 to 10 litres a minute, so a 20-minute session uses roughly 100 to 200 litres. If you are on a water meter that can cost as much as the electricity, sometimes more. A pressure washer still uses far less water than a running hose for the same job."
+    },
+    {
+      "q": "Is an electric or petrol pressure washer cheaper to run?",
+      "a": "Electric is much cheaper for home use. A small petrol engine might burn around a litre of fuel an hour, about £1.59 at mid-2026 prices, against roughly 47p an hour of electricity for a 1.8kW mains machine. Petrol models earn their keep only where there is no power supply or for heavy commercial work."
+    },
+    {
+      "q": "How do I work out the running cost of my own pressure washer?",
+      "a": "Find the input wattage on the rating plate, divide by 1,000 to get kilowatts, multiply by the trigger time in hours, then multiply by your unit rate in pence. For example, 1.8kW for 20 minutes is 1.8 x 0.33 x 26.11p, which is about 16p. Add the water cost if you are metered."
+    }
+  ]
+}

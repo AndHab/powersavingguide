@@ -1,0 +1,56 @@
+{
+  "slug": "games-console-running-cost",
+  "title": "How much does it cost to run a games console?",
+  "description": "What a PS5, Xbox Series X or Nintendo Switch really costs to run in the UK, with rest-mode figures, a real-cost table and easy ways to cut the bill.",
+  "blurb": "PS5, Xbox and Switch running costs in the UK, plus the rest-mode habit that quietly adds to your bill.",
+  "lede": "A games console is one of those appliances that feels like it should be cheap to run, and most of the time it is. The catch is that the headline wattage on the box tells you the worst case during an intense game, not the steady draw across an evening, and it says nothing about the power the machine sips for the other twenty-two hours of the day while it sits in rest mode. Once you put real UK pence against the hours, a current console works out at a modest few pounds a month for the play itself, with a small standing cost hiding in the standby that is easy to trim to almost nothing.",
+  "short_answer": "A PlayStation 5 or Xbox Series X drawing around 200W costs roughly 5p an hour to play at the current price cap, so two hours a night is about £3 to £4 a month. A Nintendo Switch is far cheaper at well under 1p an hour. The bigger long-term cost is rest mode left in its high-power setting, which can quietly add another pound or two a month if you do not change it.",
+  "sections": [
+    {
+      "h2": "What a console actually pulls from the wall",
+      "html": "<p>The number that matters is power draw in watts while you are actually using the machine, not the rating of the power supply. A few measured figures for the current generation give you a realistic picture.</p><ul><li><strong>PlayStation 5</strong> draws roughly 180 to 220W during a demanding game, dropping to around 45 to 50W when you are just sitting in menus or watching a streaming app.</li><li><strong>Xbox Series X</strong> is similar, pulling around 160 to 200W in a heavy game and a comparable amount at the dashboard.</li><li><strong>Nintendo Switch</strong> is in a different league: about 10 to 18W docked and playing, and only 7 to 11W in handheld mode.</li><li><strong>Older consoles</strong> such as a PS4 or Xbox One sit between these, typically 80 to 150W in a game.</li></ul><p>Two things follow from this. First, the type of game matters. A graphically heavy title pushes the machine near its ceiling, while a slower indie game or a video app might use less than half. Second, a Switch costs so little to run that the electricity is almost a rounding error. If you want to know exactly what your own console pulls, a cheap plug-in monitor settles it. Our guide to <a href=\"using-a-plug-in-energy-monitor.html\">using a plug-in energy monitor</a> explains how.</p>"
+    },
+    {
+      "h2": "What that costs in real money",
+      "html": "<p>To turn watts into pounds, multiply the power in kilowatts by the hours and by your unit rate. A 200W console is 0.2kW, so an hour of play is 0.2 multiplied by 26.11p, which is about 5.2p. The table below shows the play cost for a few patterns of use, based on a console drawing 200W in an average game.</p><table class=\"ev-table\"><thead><tr><th>Console / use</th><th>Power</th><th>Cost per hour</th><th>2 hrs a day for a month</th><th>Per year</th></tr></thead><tbody><tr><td>PS5 / Xbox Series X (heavy game)</td><td>200W</td><td>5.2p</td><td>£3.13</td><td>£38.13</td></tr><tr><td>PS5 / Xbox Series X (lighter game or app)</td><td>90W</td><td>2.3p</td><td>£1.41</td><td>£17.16</td></tr><tr><td>PS4 / Xbox One era</td><td>120W</td><td>3.1p</td><td>£1.88</td><td>£22.88</td></tr><tr><td>Nintendo Switch (docked)</td><td>14W</td><td>0.4p</td><td>£0.22</td><td>£2.67</td></tr></tbody></table><p class=\"ev-note\">At 26.11p per kWh, Ofgem cap July to September 2026. Costs are the playing energy only and exclude your TV and rest-mode standby.</p><p>So even a power-hungry console used for a couple of hours every single day costs less than a takeaway coffee a month to play. The console itself is rarely the expensive part of a gaming setup. A large TV or monitor often draws as much again, which is why our wider look at <a href=\"television-and-entertainment-energy.html\">television and entertainment energy</a> is worth reading alongside this.</p>"
+    },
+    {
+      "h2": "Rest mode and standby: the part people miss",
+      "html": "<p>This is where a console quietly differs from its on-paper cost. Modern consoles do not fully switch off when you press the power button. They drop into a rest or standby state so they can download updates, charge controllers and wake quickly. The power that uses depends entirely on the setting you choose.</p><ul><li>A <strong>PS5 in its low-power rest mode</strong> uses well under 1W, but with USB power and network features fully enabled it can sit around 4W.</li><li>An <strong>Xbox in Instant On</strong> historically drew 10 to 15W around the clock, which is the costly setting. Switching it to <strong>Energy Saver</strong> drops standby below 1W, at the price of a slightly slower boot.</li></ul><p>The maths is unforgiving because standby runs all day. A console sitting at 12W for the roughly 22 hours a day you are not playing it uses about 0.26kWh a day, which is around 7p, or close to £25 a year doing nothing useful. Compare that with under £1 a year at sub-1W. Changing one menu setting is the single biggest saving here. The same principle applies across your home, and we cover it in depth in <a href=\"standby-power-the-full-story.html\">standby power: the full story</a>.</p>"
+    },
+    {
+      "h2": "Simple ways to cut the cost",
+      "html": "<p>None of this needs you to play less. A handful of changes shave the bill without touching your time on the sofa.</p><ul><li><strong>Use the low-power standby setting.</strong> On Xbox switch to Energy Saver; on PlayStation turn off USB power and network features in rest mode if you do not need overnight downloads. This is the change that pays back most.</li><li><strong>Turn it fully off for long breaks.</strong> If you are away for a weekend or only game at weekends, a full shutdown or a switched socket removes the standby draw entirely.</li><li><strong>Drop the frame rate or graphics mode</strong> on games that offer it. A performance or capped mode often pulls less power than the maximum-fidelity setting, and on many titles you will barely notice.</li><li><strong>Mind the TV, not just the console.</strong> A bright, large screen can use more than the console feeding it. Knocking the backlight down a notch helps and costs nothing.</li><li><strong>Charge controllers off the console.</strong> Leaving a console in high-power rest mode only to charge a pad wastes far more than a small USB charger would.</li></ul><p>If you are sharing a setup, agreeing the standby setting once saves arguments and money. Our notes on <a href=\"energy-saving-in-a-shared-house.html\">energy saving in a shared house</a> cover the wider point of who pays for what.</p>"
+    },
+    {
+      "h2": "How a console compares to other appliances",
+      "html": "<p>It helps to keep the figures in proportion. A console in a heavy game pulls roughly the same as an old-style filament bulb array or a laptop running flat out, and far less than anything that makes heat. An electric kettle pulls about 3,000W, fifteen times a PS5, but only for a couple of minutes. A tumble dryer or an electric heater dwarfs a console over a full session. The reason a console can still matter on the bill is the combination of long hours and that standby tail, not raw wattage.</p><p>If you want to sanity-check any appliance the same way, our <a href=\"appliance-running-cost.html\">appliance running cost</a> hub uses the identical kilowatts times hours times rate method, and <a href=\"what-is-a-kwh.html\">what is a kWh</a> explains the unit if the sums feel unfamiliar. Gamers on a desktop rig should note the figures are much higher: see <a href=\"gaming-pc-running-cost.html\">gaming PC running cost</a> for that comparison.</p>"
+    },
+    {
+      "h2": "The bottom line",
+      "html": "<p>Running a current games console is cheap. At the July to September 2026 price cap, a PS5 or Xbox Series X used for a couple of hours a day costs around £3 to £4 a month to play, and a Nintendo Switch costs pennies. The figure people overlook is rest mode, which can add £20 or more a year if it is left in a high-power setting. Change that one menu option to the low-power or Energy Saver mode, switch the console off fully for long absences, and the running cost drops back to almost nothing but the play itself. The console is rarely the expensive part of the room; the screen it plugs into often costs more to run.</p>"
+    }
+  ],
+  "faq": [
+    {
+      "q": "How much does it cost to run a PS5 per hour in the UK?",
+      "a": "Around 5p an hour for a demanding game, based on a draw of about 200W at the current price cap of 26.11p per kWh. Lighter games or streaming apps pull less, closer to 2p to 3p an hour."
+    },
+    {
+      "q": "Does leaving my console in rest mode cost a lot?",
+      "a": "It can. A console left in a high-power standby setting such as Xbox Instant On may draw 10 to 15W around the clock, which adds up to roughly £25 a year. Switching to the low-power or Energy Saver setting drops that to under £1 a year."
+    },
+    {
+      "q": "Which console is cheapest to run?",
+      "a": "The Nintendo Switch by a wide margin. It uses only about 10 to 18W docked, so two hours of play a day costs around 20p a month, compared with £3 to £4 for a PS5 or Xbox Series X."
+    },
+    {
+      "q": "Should I turn my console off at the wall?",
+      "a": "If you do not need overnight downloads and only game now and then, a full shutdown or a switched socket removes the standby draw completely. If you game most days, simply choosing the low-power rest setting gets you almost all of the saving with none of the inconvenience."
+    },
+    {
+      "q": "Does my TV cost more to run than the console?",
+      "a": "Often yes. A large, bright television or monitor can draw as much as or more than the console feeding it. Lowering the screen brightness or backlight a little is a free saving that applies every time you play."
+    }
+  ]
+}

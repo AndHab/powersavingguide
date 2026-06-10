@@ -1,0 +1,56 @@
+{
+  "slug": "uk-solar-panel-grants",
+  "title": "Are there grants for solar panels in the UK?",
+  "description": "Honest guide to UK solar panel grants in 2026: ECO4, Warm Homes Local Grant, 0% VAT, the Smart Export Guarantee and what most households can actually claim.",
+  "blurb": "What solar grants exist in the UK, who really qualifies for free panels, and the help everyone else can get.",
+  "lede": "Search for solar panel grants and you will find a lot of websites promising free panels. The honest picture is narrower. There is no universal cash grant that pays for a solar system for the average UK homeowner. There is one means-tested route that can fund panels for low-income households, a few regional schemes, a permanent tax saving that applies to everyone, and a payment for the electricity you export back to the grid. This guide sorts the real help from the marketing, explains who qualifies for each, and shows you how to work out what your own roof is worth.",
+  "short_answer": "There is no general grant that pays for solar panels for most UK homeowners. The main free-panel route is the ECO4 scheme, which is means-tested and aimed at low-income households on benefits with a poor EPC rating. Everyone benefits from 0% VAT on installations (in place until March 2027) and from Smart Export Guarantee payments for electricity sent back to the grid. Scotland adds an interest-free loan rather than a grant.",
+  "sections": [
+    {
+      "h2": "Is there a grant that pays for solar panels?",
+      "html": "<p>For most households the blunt answer is no. There is no scheme where a typical owner-occupier applies and receives a cheque towards panels. The schemes that do exist are targeted at low-income and fuel-poor homes, or they take the form of a loan rather than a grant.</p><p>That matters because a lot of installer websites use the word grant loosely. They often mean the 0% VAT saving, or the export payments you receive after the system is fitted, or a low-income scheme you may not qualify for. None of those is a cash grant in the everyday sense, so it pays to read the small print before you assume free panels are coming.</p><p>The genuinely useful support breaks down into four buckets: means-tested schemes such as ECO4 and the Warm Homes Local Grant, the permanent 0% VAT saving, the Smart Export Guarantee, and regional help in Scotland and Wales. The rest of this guide takes each in turn.</p>"
+    },
+    {
+      "h2": "ECO4: the main free solar panel route",
+      "html": "<p>ECO4 is the Energy Company Obligation, funded by the larger energy suppliers and overseen by Ofgem. It is the closest thing to a free solar panel scheme in Great Britain, but it is tightly means-tested. It is not available in Northern Ireland.</p><p>To have a realistic chance you usually need to meet most of these:</p><ul><li>Someone in the home receives a means-tested benefit such as Universal Credit, Pension Credit, Income Support, Housing Benefit or certain tax credits, or the household income sits below the scheme threshold (commonly cited around £31,000).</li><li>Your property has a poor energy rating, typically EPC band D or below. You can check yours in our guide to the <a href=\"energy-performance-certificate-explained.html\">EPC explained</a>.</li><li>Solar is fitted as part of a wider package. ECO4 prioritises whole-house efficiency, so panels usually come alongside <a href=\"loft-insulation.html\">loft insulation</a> or other measures rather than on their own.</li></ul><p>You do not apply on a government website. You contact your energy supplier or an approved installer, who assesses the property. If you want the full mechanics of how the obligation works, see our <a href=\"eco4-scheme-explained.html\">ECO4 scheme explained</a> guide. Schemes and thresholds change, so check the current rules and figures on the official Ofgem and gov.uk pages before you rely on them.</p>"
+    },
+    {
+      "h2": "Other schemes: Warm Homes, Scotland and Wales",
+      "html": "<p>The Great British Insulation Scheme closed at the end of March 2026 and was not extended. Its successor for lower-income households is the Warm Homes: Local Grant, delivered through local councils. It covers insulation and, in some cases, solar panels for households below an income threshold (commonly cited around £36,000) with an EPC of D to G. Because it is run locally, availability depends on where you live, so check your council and the gov.uk Warm Homes page.</p><p>Scotland works differently. Home Energy Scotland no longer offers a standalone solar cashback grant. Instead it provides an interest-free loan towards renewable measures, repayable over several years at 0% interest. A loan is not a grant, but spreading the cost with no interest still improves the economics for many homes.</p><p>Wales has its own fuel-poverty schemes such as Nest, which focus on heating and insulation for eligible households and can include renewables in some cases. As with everything here, the named schemes and amounts move around, so treat any figure you read as a starting point and verify it on the official scheme page.</p>"
+    },
+    {
+      "h2": "The savings everyone can get: 0% VAT and export payments",
+      "html": "<p>Two forms of help apply regardless of income, and these are what most owner-occupiers will actually use.</p><p>The first is 0% VAT on solar panel installations on homes in Great Britain. This has been in place since April 2022 and is currently set to run until 31 March 2027. It is applied automatically by the installer, so on a typical system it knocks a meaningful sum off the bill rather than appearing as a separate payment.</p><p>The second is the Smart Export Guarantee (SEG). Larger suppliers must pay you for the surplus electricity your panels send back to the grid. You choose a supplier and tariff, and the rate varies, so it is worth comparing. The table shows how export earnings stack against what that same unit costs to buy from the grid.</p><table class=\"ev-table\"><thead><tr><th>What the unit is doing</th><th>Typical value per kWh</th></tr></thead><tbody><tr><td>Electricity you buy from the grid</td><td>26.11p</td></tr><tr><td>Electricity you use from your own panels (avoided cost)</td><td>26.11p saved</td></tr><tr><td>Surplus you export under a typical SEG tariff</td><td>5p to 15p</td></tr></tbody></table><p class=\"ev-note\">Buy rate at 26.11p per kWh, Ofgem cap July to September 2026. SEG export rates from supplier tariffs, mid 2026.</p><p>The table makes the key point: a unit you use yourself is worth far more than a unit you export. That is why self-consumption, and pairing panels with a <a href=\"solar-battery-storage.html\">battery</a> or a <a href=\"solar-diverter-explained.html\">solar diverter</a>, matters more than chasing the highest export rate.</p>"
+    },
+    {
+      "h2": "What a system costs and what the help is worth",
+      "html": "<p>If you do not qualify for a means-tested scheme, the real question is whether buying panels outright stacks up. A typical 4kW system costs roughly £7,000 to £8,500 installed and generates around 3,400 to 4,000 kWh a year in the UK.</p><p>The 0% VAT is already baked into those prices. Your annual benefit then comes from two sources: the grid electricity you no longer buy, and the SEG payments for what you export. A home that uses a good share of its own generation, by running the washing machine and the dishwasher in daylight, gets the most back because each self-used unit avoids the full 26.11p import rate rather than earning a few pence on export.</p><p>We work through the full sums, including a rough payback period, in our companion guide on whether <a href=\"is-solar-worth-it.html\">solar is worth it</a> and in <a href=\"solar-panels-the-basics.html\">solar panels: the basics</a>. The short version: with no upfront grant, payback often lands somewhere in the 8 to 14 year range, faster if you self-consume heavily and slower if most of your output is exported. Understanding the import and export sides of your meter also helps you read your <a href=\"understanding-energy-bill.html\">energy bill</a> correctly.</p>"
+    },
+    {
+      "h2": "The bottom line",
+      "html": "<p>If you are on a low income, claim a means-tested benefit and have a poor EPC, ECO4 or the Warm Homes Local Grant could fund panels alongside insulation. Start by contacting your energy supplier or your local council, not a cold-calling installer.</p><p>If you are an average homeowner, accept that there is no cheque coming. The help you will actually use is the 0% VAT already built into the quote and the export payments you earn afterwards. Those make solar cheaper, but they do not make it free, so judge the system on its payback rather than on grant headlines.</p><p>Whatever route applies to you, the schemes and amounts change from year to year. Before you commit, check the current rules on the official Ofgem and gov.uk pages, since the figures quoted across the web go stale quickly. If solar is part of a wider plan, it sits naturally alongside a <a href=\"heat-pumps-explained.html\">heat pump</a> and getting your <a href=\"loft-insulation.html\">loft insulation</a> right first.</p>"
+    }
+  ],
+  "faq": [
+    {
+      "q": "Can I get free solar panels in the UK?",
+      "a": "Only through means-tested schemes such as ECO4 or the Warm Homes Local Grant. These are aimed at low-income households on benefits with a poor EPC rating, and solar is usually fitted alongside insulation. There is no free-panel scheme for the average homeowner."
+    },
+    {
+      "q": "Do I pay VAT on solar panels?",
+      "a": "No. Solar panel installations on homes in Great Britain carry 0% VAT, in place since April 2022 and currently set to run until 31 March 2027. The saving is applied automatically by the installer, so it is already reflected in the quoted price."
+    },
+    {
+      "q": "What is the Smart Export Guarantee?",
+      "a": "It is a payment from larger energy suppliers for surplus electricity your panels send back to the grid. You pick a supplier and tariff, and rates typically run from about 5p to 15p per kWh. You earn more in summer when panels produce more than you use."
+    },
+    {
+      "q": "Is there a grant for solar batteries?",
+      "a": "Not as a standalone grant for most homeowners. Batteries qualify for 0% VAT alongside panels, and some means-tested schemes can include storage as part of a package. For the economics of adding storage, see our solar battery storage guide."
+    },
+    {
+      "q": "Are the grant rules the same across the UK?",
+      "a": "No. ECO4 covers England, Scotland and Wales but not Northern Ireland. Scotland uses interest-free loans rather than cash grants, and Wales runs its own fuel-poverty schemes. Always check the rules for your nation and your local council."
+    }
+  ]
+}

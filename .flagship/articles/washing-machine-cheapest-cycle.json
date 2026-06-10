@@ -1,0 +1,52 @@
+{
+  "slug": "washing-machine-cheapest-cycle",
+  "title": "Which washing machine cycle is cheapest to run?",
+  "description": "The cheapest washing machine cycle in the UK explained: why Eco and 30C beat hot cottons and quick washes, with real per-load costs at the 2026 price cap.",
+  "blurb": "The cheapest cycle on your machine is rarely the fastest one. Here is what actually saves money per wash.",
+  "lede": "Most washing machines hide their cheapest setting in plain sight, usually labelled Eco or Cotton Eco, and most people skip past it because it takes longer. That instinct costs money. Around 90 per cent of the electricity a washing machine uses goes on heating the water, not on turning the drum, so the cycle that heats the least water to the lowest temperature wins on cost almost every time, even when it runs for three hours. This guide explains which cycle is genuinely cheapest, why the slow ones save more than the fast ones, and what each option costs per load at today's electricity prices.",
+  "short_answer": "The cheapest cycle is the Eco or Cotton Eco programme, usually around 0.5 to 0.9 kWh per full load, which works out at roughly 13p to 24p at 26.11p per kWh. It saves money by heating water to a lower temperature for longer rather than blasting it hot quickly. A cold or 30C wash is cheaper still per load, but Eco is the setting most machines are rated and optimised around.",
+  "sections": [
+    {
+      "h2": "What makes one cycle cheaper than another",
+      "html": "<p>The single biggest cost driver in any wash is water temperature. Heating water is energy-hungry, and a washing machine does it with an electric element drawing around 2,000 watts. Spinning the drum, by contrast, barely registers. That is why the temperature you choose matters far more than how long the cycle runs.</p><p>It helps to separate the two things a cycle controls:</p><ul><li><strong>Temperature.</strong> A 60C wash needs roughly 77 per cent more energy than the same load at 40C, because the element has to heat the water much higher. A 30C wash uses around 38 per cent less than 40C.</li><li><strong>Water volume and time.</strong> Eco programmes use less water and a lower temperature, then make up for the gentler heat with a longer wash time. The drum tumbles for longer, but tumbling is nearly free compared with heating.</li></ul><p>This is the part that confuses people: the Eco cycle takes two or three hours and feels wasteful, yet it is usually the cheapest setting on the machine. The long runtime is the trade-off that lets it heat less water to a lower temperature, and the energy saved on heating dwarfs the tiny amount spent on the extra spinning. If you want the underlying numbers behind appliance heating costs, our <a href=\"washing-machine-running-cost.html\">washing machine running cost</a> guide breaks the wattage down.</p>"
+    },
+    {
+      "h2": "What each cycle actually costs per load",
+      "html": "<p>Exact figures depend on your model, its energy rating and how full the drum is, but the pattern below holds across almost every machine sold in the UK. The kWh figures are typical for a 7kg to 9kg machine running a full load, and the cost column uses the current price cap rate.</p><table class=\"ev-table\"><thead><tr><th>Cycle</th><th>Typical energy use</th><th>Cost per load</th></tr></thead><tbody><tr><td>Cold / 20C wash</td><td>0.1 to 0.3 kWh</td><td>3p to 8p</td></tr><tr><td>30C cottons / mixed</td><td>0.4 to 0.6 kWh</td><td>10p to 16p</td></tr><tr><td>Eco / Cotton Eco</td><td>0.5 to 0.9 kWh</td><td>13p to 24p</td></tr><tr><td>40C cottons</td><td>0.6 to 0.9 kWh</td><td>16p to 24p</td></tr><tr><td>60C cottons</td><td>1.1 to 1.5 kWh</td><td>29p to 39p</td></tr><tr><td>Quick wash (40C, 30 min)</td><td>0.5 to 0.8 kWh</td><td>13p to 21p</td></tr></tbody></table><p class=\"ev-note\">At 26.11p per kWh, Ofgem cap July to September 2026. Energy figures are typical ranges for a full 7 to 9kg load and vary by model and rating.</p><p>Two things stand out. A 60C wash can cost three to four times as much as a cold wash for the same clothes. And the quick wash, despite its name, is not especially cheap, because it still heats water and often uses more of it to compensate for the short time. If your priority is the lowest possible cost, cold and 30C beat the quick wash on most machines.</p>"
+    },
+    {
+      "h2": "Why Eco is slow, and why that is fine",
+      "html": "<p>The Eco cycle exists because of how appliances are tested for their energy label. The figure printed on the <a href=\"energy-labels-explained.html\">energy label</a> comes from the Eco 40-60 programme, a standardised test cycle that washes normally soiled cotton at 40C or 60C using as little energy and water as the machine can manage. Manufacturers tune that programme hard to score a good rating, which is exactly why it ends up being the cheapest real-world setting too.</p><p>The long runtime is deliberate. By soaking clothes at a lower temperature for longer, the machine gets them clean without heating the water as hot. Modern detergents are formulated to work at 20C and 30C, so the cleaning result holds up. The only loads that genuinely need higher heat are heavily soiled items, towels and bedding where you want to kill bacteria, or anyone in the house who is unwell.</p><p>If the three-hour runtime puts you off because of when your electricity is cheapest, that is a fair concern. On a <a href=\"time-of-use-tariffs-explained.html\">time-of-use tariff</a> you would want the cycle to finish inside your cheap window, so a delay-start timer matters more than raw cycle length.</p>"
+    },
+    {
+      "h2": "Loading and habits that cut the cost further",
+      "html": "<p>The cycle you pick sets the ceiling on cost, but how you use the machine decides whether you hit it. The cheapest cycle on a half-empty drum is worse value than a slightly warmer cycle run full.</p><ul><li><strong>Fill the drum.</strong> A full load uses barely more energy than a half load, so two big washes always beat three small ones. Leave a hand's width of space at the top.</li><li><strong>Drop the temperature.</strong> Switching habitual 40C washes to 30C is the easiest saving most homes can make. Our guide to <a href=\"washing-at-30-degrees.html\">washing at 30 degrees</a> covers when it works and when it does not.</li><li><strong>Skip the pre-wash.</strong> Unless clothes are caked in mud, the pre-wash option just adds a second heated fill for no benefit.</li><li><strong>Use the highest spin speed.</strong> A faster final spin wrings out more water, which costs pennies in extra electricity but saves far more on drying, especially if you use a tumble dryer.</li><li><strong>Mind the standby draw.</strong> Many machines sip power at the wall between washes. It is small, but real, and our <a href=\"standby-power-the-full-story.html\">standby power</a> guide explains how to find and stop it.</li></ul><p>If drying is your real expense, the spin speed point is the one to act on, because wetter clothes cost more to dry than they ever cost to wash.</p>"
+    },
+    {
+      "h2": "The bottom line",
+      "html": "<p>For everyday loads, the cheapest cycle is a cold or 30C wash, costing roughly 3p to 16p a load at the current rate. The Eco or Cotton Eco programme is the next cheapest and the one the machine is rated around, at roughly 13p to 24p, and it is the setting to default to when you are not sure. The cycle to avoid for routine washing is the 60C cottons, which can cost three to four times as much for clothes that a cooler wash would clean just as well.</p><p>The quick wash is the one most people misjudge. It saves time, not money, and on many machines it costs more than the slow Eco cycle. Run the machine full, wash cool, spin hard, and the difference adds up across a year of laundry. For the full per-appliance picture, see how washing fits alongside your other <a href=\"appliance-running-cost.html\">appliance running costs</a>.</p>"
+    }
+  ],
+  "faq": [
+    {
+      "q": "Is the Eco cycle really cheaper if it runs for three hours?",
+      "a": "Yes. Around 90 per cent of a washing machine's energy goes on heating water, and only a tiny fraction on turning the drum. The Eco cycle heats less water to a lower temperature and makes up for it with a longer wash time, so the energy saved on heating far outweighs the small cost of the extra running time. It is usually the cheapest setting on the machine."
+    },
+    {
+      "q": "Is a quick wash cheaper than a normal cycle?",
+      "a": "Usually not. A quick wash saves time, not money. It still heats water and often uses more of it to get clothes clean in a short cycle, so on many machines it costs about the same as or more than a cold or 30C wash. If cost is your priority, choose a cool full load over the quick wash."
+    },
+    {
+      "q": "How much does a 60C wash cost compared with a cold wash?",
+      "a": "A 60C cottons cycle typically uses 1.1 to 1.5 kWh, costing about 29p to 39p per load at 26.11p per kWh. A cold or 20C wash uses 0.1 to 0.3 kWh, around 3p to 8p. So a hot wash can cost three to four times as much as a cold one for the same clothes."
+    },
+    {
+      "q": "Does washing at 30C get clothes clean?",
+      "a": "For everyday laundry, yes. Modern detergents are formulated to work at 20C and 30C, so cool washes clean normally soiled clothes well. Save higher temperatures for heavily soiled items, towels, bedding, or when someone in the house is unwell and you want to kill bacteria."
+    },
+    {
+      "q": "Does a higher spin speed cost more?",
+      "a": "Only a few pennies extra, and it usually saves money overall. A faster final spin wrings more water out of the load, which means less time and energy spent drying afterwards. If you use a tumble dryer, a high spin speed is one of the cheapest ways to cut your total laundry cost."
+    }
+  ]
+}

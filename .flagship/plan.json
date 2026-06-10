@@ -1,0 +1,856 @@
+{
+  "generated_for": "2026-06-10",
+  "cadence": "Tue+Fri, twice weekly",
+  "today_pages": [
+    {
+      "slug": "is-it-cheaper-to-leave-heating-on-all-day",
+      "title": "Is it cheaper to leave the heating on all day?",
+      "cluster": "B"
+    },
+    {
+      "slug": "what-temperature-should-i-set-my-thermostat",
+      "title": "What temperature should I set my thermostat?",
+      "cluster": "B"
+    },
+    {
+      "slug": "cheaper-to-heat-one-room-or-whole-house",
+      "title": "Is it cheaper to heat one room or the whole house?",
+      "cluster": "B"
+    },
+    {
+      "slug": "heated-clothes-airer-running-cost",
+      "title": "How much does it cost to run a heated clothes airer?",
+      "cluster": "A"
+    },
+    {
+      "slug": "how-the-energy-price-cap-works",
+      "title": "How does the energy price cap work?",
+      "cluster": "C"
+    },
+    {
+      "slug": "how-to-sleep-in-a-heatwave-without-air-con",
+      "title": "How to sleep in a heatwave without air conditioning",
+      "cluster": "I"
+    }
+  ],
+  "queue": [
+    {
+      "slug": "summer-energy-checklist",
+      "title": "Summer energy-saving checklist: cutting bills in the warm months",
+      "cluster": "I",
+      "season": "summer",
+      "pubdate": "2026-06-12"
+    },
+    {
+      "slug": "cost-of-cooling-a-flat-in-summer",
+      "title": "How much does it cost to keep a flat cool in summer?",
+      "cluster": "I",
+      "season": "summer",
+      "pubdate": "2026-06-16"
+    },
+    {
+      "slug": "evaporative-coolers-uk",
+      "title": "Do evaporative coolers work in the UK?",
+      "cluster": "I",
+      "season": "summer",
+      "pubdate": "2026-06-19"
+    },
+    {
+      "slug": "ceiling-fan-running-cost-worth-it",
+      "title": "Ceiling fans: running cost and are they worth it?",
+      "cluster": "I",
+      "season": "summer",
+      "pubdate": "2026-06-23"
+    },
+    {
+      "slug": "can-a-heat-pump-cool-your-home",
+      "title": "Can a heat pump cool your home in summer?",
+      "cluster": "I",
+      "season": "summer",
+      "pubdate": "2026-06-26"
+    },
+    {
+      "slug": "air-purifier-running-cost",
+      "title": "How much does it cost to run an air purifier?",
+      "cluster": "A",
+      "season": "summer",
+      "pubdate": "2026-06-30"
+    },
+    {
+      "slug": "microwave-running-cost",
+      "title": "How much does it cost to run a microwave?",
+      "cluster": "A",
+      "season": "any",
+      "pubdate": "2026-07-03"
+    },
+    {
+      "slug": "toaster-running-cost",
+      "title": "How much does it cost to run a toaster?",
+      "cluster": "A",
+      "season": "any",
+      "pubdate": "2026-07-07"
+    },
+    {
+      "slug": "electric-oven-running-cost",
+      "title": "How much does it cost to run an electric oven?",
+      "cluster": "A",
+      "season": "any",
+      "pubdate": "2026-07-10"
+    },
+    {
+      "slug": "hair-dryer-running-cost",
+      "title": "How much does it cost to run a hair dryer?",
+      "cluster": "A",
+      "season": "any",
+      "pubdate": "2026-07-14"
+    },
+    {
+      "slug": "games-console-running-cost",
+      "title": "How much does it cost to run a games console?",
+      "cluster": "A",
+      "season": "any",
+      "pubdate": "2026-07-17"
+    },
+    {
+      "slug": "gaming-pc-running-cost",
+      "title": "How much does it cost to run a gaming PC?",
+      "cluster": "A",
+      "season": "any",
+      "pubdate": "2026-07-21"
+    },
+    {
+      "slug": "desktop-computer-running-cost",
+      "title": "How much does it cost to run a desktop computer?",
+      "cluster": "A",
+      "season": "any",
+      "pubdate": "2026-07-24"
+    },
+    {
+      "slug": "laptop-running-cost",
+      "title": "How much does it cost to run a laptop?",
+      "cluster": "A",
+      "season": "any",
+      "pubdate": "2026-07-28"
+    },
+    {
+      "slug": "boiling-water-tap-running-cost",
+      "title": "How much does a boiling water tap cost to run?",
+      "cluster": "A",
+      "season": "any",
+      "pubdate": "2026-07-31"
+    },
+    {
+      "slug": "coffee-machine-running-cost",
+      "title": "How much does it cost to run a coffee machine?",
+      "cluster": "A",
+      "season": "any",
+      "pubdate": "2026-08-04"
+    },
+    {
+      "slug": "vacuum-cleaner-running-cost",
+      "title": "How much does it cost to run a vacuum cleaner?",
+      "cluster": "A",
+      "season": "any",
+      "pubdate": "2026-08-07"
+    },
+    {
+      "slug": "pressure-washer-running-cost",
+      "title": "How much does it cost to run a pressure washer?",
+      "cluster": "A",
+      "season": "any",
+      "pubdate": "2026-08-11"
+    },
+    {
+      "slug": "extractor-fan-running-cost",
+      "title": "How much does it cost to run an extractor fan?",
+      "cluster": "A",
+      "season": "any",
+      "pubdate": "2026-08-14"
+    },
+    {
+      "slug": "cctv-running-cost",
+      "title": "How much does it cost to run home CCTV?",
+      "cluster": "A",
+      "season": "any",
+      "pubdate": "2026-08-18"
+    },
+    {
+      "slug": "mini-fridge-running-cost",
+      "title": "How much does it cost to run a mini fridge?",
+      "cluster": "A",
+      "season": "any",
+      "pubdate": "2026-08-21"
+    },
+    {
+      "slug": "chest-freezer-running-cost",
+      "title": "How much does it cost to run a chest freezer?",
+      "cluster": "A",
+      "season": "any",
+      "pubdate": "2026-08-25"
+    },
+    {
+      "slug": "cheapest-way-to-boil-water",
+      "title": "What is the cheapest way to boil water?",
+      "cluster": "A",
+      "season": "any",
+      "pubdate": "2026-08-28"
+    },
+    {
+      "slug": "boiler-upgrade-scheme-explained",
+      "title": "The Boiler Upgrade Scheme explained: the heat pump grant",
+      "cluster": "C",
+      "season": "autumn",
+      "pubdate": "2026-09-01"
+    },
+    {
+      "slug": "eco4-scheme-explained",
+      "title": "The ECO4 scheme explained: free energy upgrades for eligible homes",
+      "cluster": "C",
+      "season": "autumn",
+      "pubdate": "2026-09-04"
+    },
+    {
+      "slug": "great-british-insulation-scheme-explained",
+      "title": "The Great British Insulation Scheme explained",
+      "cluster": "C",
+      "season": "autumn",
+      "pubdate": "2026-09-08"
+    },
+    {
+      "slug": "uk-solar-panel-grants",
+      "title": "Are there grants for solar panels in the UK?",
+      "cluster": "C",
+      "season": "autumn",
+      "pubdate": "2026-09-11"
+    },
+    {
+      "slug": "heat-pump-grants-and-cost",
+      "title": "Heat pump grants and costs in the UK explained",
+      "cluster": "C",
+      "season": "autumn",
+      "pubdate": "2026-09-15"
+    },
+    {
+      "slug": "warm-home-discount-explained",
+      "title": "The Warm Home Discount explained",
+      "cluster": "C",
+      "season": "autumn",
+      "pubdate": "2026-09-18"
+    },
+    {
+      "slug": "how-thick-should-loft-insulation-be",
+      "title": "How thick should loft insulation be?",
+      "cluster": "F",
+      "season": "autumn",
+      "pubdate": "2026-09-22"
+    },
+    {
+      "slug": "room-in-roof-insulation",
+      "title": "Room-in-roof insulation explained",
+      "cluster": "F",
+      "season": "autumn",
+      "pubdate": "2026-09-25"
+    },
+    {
+      "slug": "external-wall-insulation-cost",
+      "title": "External wall insulation: cost and is it worth it?",
+      "cluster": "F",
+      "season": "autumn",
+      "pubdate": "2026-09-29"
+    },
+    {
+      "slug": "suspended-timber-floor-insulation",
+      "title": "Insulating a suspended timber floor",
+      "cluster": "F",
+      "season": "autumn",
+      "pubdate": "2026-10-02"
+    },
+    {
+      "slug": "autumn-heating-prep-checklist",
+      "title": "Autumn checklist: getting your heating ready for winter",
+      "cluster": "H",
+      "season": "autumn",
+      "pubdate": "2026-10-06"
+    },
+    {
+      "slug": "dishwasher-eco-mode-explained",
+      "title": "Does dishwasher eco mode actually save money?",
+      "cluster": "A",
+      "season": "any",
+      "pubdate": "2026-10-09"
+    },
+    {
+      "slug": "washing-machine-cheapest-cycle",
+      "title": "Which washing machine cycle is cheapest to run?",
+      "cluster": "A",
+      "season": "any",
+      "pubdate": "2026-10-13"
+    },
+    {
+      "slug": "fixed-vs-variable-energy-tariff",
+      "title": "Fixed or variable energy tariff: which is cheaper?",
+      "cluster": "D",
+      "season": "any",
+      "pubdate": "2026-10-16"
+    },
+    {
+      "slug": "how-to-read-your-energy-meter",
+      "title": "How to read your gas and electricity meter",
+      "cluster": "D",
+      "season": "any",
+      "pubdate": "2026-10-20"
+    },
+    {
+      "slug": "submitting-meter-readings",
+      "title": "Why submitting meter readings saves you money",
+      "cluster": "D",
+      "season": "any",
+      "pubdate": "2026-10-23"
+    },
+    {
+      "slug": "prepayment-vs-direct-debit-cost",
+      "title": "Prepayment meter vs direct debit: the cost difference",
+      "cluster": "D",
+      "season": "any",
+      "pubdate": "2026-10-27"
+    },
+    {
+      "slug": "dual-fuel-vs-separate-suppliers",
+      "title": "Dual fuel or separate suppliers: which is cheaper?",
+      "cluster": "D",
+      "season": "any",
+      "pubdate": "2026-10-30"
+    },
+    {
+      "slug": "winter-fuel-payment-explained",
+      "title": "The Winter Fuel Payment explained",
+      "cluster": "C",
+      "season": "winter",
+      "pubdate": "2026-11-03"
+    },
+    {
+      "slug": "cold-weather-payment-explained",
+      "title": "The Cold Weather Payment explained",
+      "cluster": "C",
+      "season": "winter",
+      "pubdate": "2026-11-06"
+    },
+    {
+      "slug": "help-if-you-cant-afford-your-energy-bill",
+      "title": "Help if you cannot afford your energy bill",
+      "cluster": "C",
+      "season": "winter",
+      "pubdate": "2026-11-10"
+    },
+    {
+      "slug": "electric-radiator-running-cost",
+      "title": "How much does it cost to run an electric radiator?",
+      "cluster": "A",
+      "season": "winter",
+      "pubdate": "2026-11-13"
+    },
+    {
+      "slug": "electric-heater-types-compared",
+      "title": "Electric heater types compared: which is cheapest to run?",
+      "cluster": "A",
+      "season": "winter",
+      "pubdate": "2026-11-17"
+    },
+    {
+      "slug": "electric-towel-rail-running-cost",
+      "title": "How much does it cost to run an electric towel rail?",
+      "cluster": "A",
+      "season": "winter",
+      "pubdate": "2026-11-20"
+    },
+    {
+      "slug": "electric-blanket-running-cost",
+      "title": "How much does it cost to run an electric blanket?",
+      "cluster": "A",
+      "season": "winter",
+      "pubdate": "2026-11-24"
+    },
+    {
+      "slug": "electric-fire-running-cost",
+      "title": "How much does it cost to run an electric fire?",
+      "cluster": "A",
+      "season": "winter",
+      "pubdate": "2026-11-27"
+    },
+    {
+      "slug": "christmas-lights-running-cost",
+      "title": "How much does it cost to run Christmas lights?",
+      "cluster": "A",
+      "season": "winter",
+      "pubdate": "2026-12-01"
+    },
+    {
+      "slug": "heat-pump-tumble-dryer-worth-it",
+      "title": "Is a heat pump tumble dryer worth it?",
+      "cluster": "A",
+      "season": "winter",
+      "pubdate": "2026-12-04"
+    },
+    {
+      "slug": "electric-underfloor-heating-running-cost",
+      "title": "How much does electric underfloor heating cost to run?",
+      "cluster": "A",
+      "season": "winter",
+      "pubdate": "2026-12-08"
+    },
+    {
+      "slug": "cost-of-central-heating-per-hour",
+      "title": "How much does central heating cost per hour?",
+      "cluster": "B",
+      "season": "winter",
+      "pubdate": "2026-12-11"
+    },
+    {
+      "slug": "cost-to-heat-a-house-uk",
+      "title": "How much does it cost to heat a house in the UK?",
+      "cluster": "B",
+      "season": "winter",
+      "pubdate": "2026-12-15"
+    },
+    {
+      "slug": "radiators-off-in-unused-rooms",
+      "title": "Should you turn radiators off in unused rooms?",
+      "cluster": "B",
+      "season": "winter",
+      "pubdate": "2026-12-18"
+    },
+    {
+      "slug": "portable-heater-vs-central-heating-cost",
+      "title": "Is a portable heater cheaper than central heating?",
+      "cluster": "B",
+      "season": "winter",
+      "pubdate": "2026-12-22"
+    },
+    {
+      "slug": "gas-vs-electric-heating-cost",
+      "title": "Gas vs electric heating: which is cheaper?",
+      "cluster": "B",
+      "season": "winter",
+      "pubdate": "2026-12-25"
+    },
+    {
+      "slug": "balancing-radiators-guide",
+      "title": "How to balance your radiators for an even, cheaper heat",
+      "cluster": "B",
+      "season": "winter",
+      "pubdate": "2026-12-29"
+    },
+    {
+      "slug": "does-turning-thermostat-up-heat-faster",
+      "title": "Does turning the thermostat up heat a room faster?",
+      "cluster": "B",
+      "season": "winter",
+      "pubdate": "2027-01-01"
+    },
+    {
+      "slug": "best-temperature-for-each-room",
+      "title": "What temperature should each room be?",
+      "cluster": "B",
+      "season": "winter",
+      "pubdate": "2027-01-05"
+    },
+    {
+      "slug": "smart-thermostat-payback",
+      "title": "Do smart thermostats actually save money?",
+      "cluster": "B",
+      "season": "winter",
+      "pubdate": "2027-01-08"
+    },
+    {
+      "slug": "underfloor-heating-vs-radiators-cost",
+      "title": "Is underfloor heating cheaper to run than radiators?",
+      "cluster": "B",
+      "season": "winter",
+      "pubdate": "2027-01-12"
+    },
+    {
+      "slug": "draughtproofing-a-front-door",
+      "title": "Draughtproofing a front door, letterbox and keyhole",
+      "cluster": "F",
+      "season": "winter",
+      "pubdate": "2027-01-15"
+    },
+    {
+      "slug": "pipe-lagging-and-frozen-pipes",
+      "title": "Pipe lagging and preventing frozen pipes",
+      "cluster": "F",
+      "season": "winter",
+      "pubdate": "2027-01-19"
+    },
+    {
+      "slug": "chimney-draught-excluder",
+      "title": "Stopping chimney draughts: balloons, sheep and covers",
+      "cluster": "F",
+      "season": "winter",
+      "pubdate": "2027-01-22"
+    },
+    {
+      "slug": "garage-door-insulation",
+      "title": "Garage door insulation: is it worth it?",
+      "cluster": "F",
+      "season": "winter",
+      "pubdate": "2027-01-26"
+    },
+    {
+      "slug": "insulating-a-conservatory",
+      "title": "How to make a conservatory cheaper to heat",
+      "cluster": "F",
+      "season": "winter",
+      "pubdate": "2027-01-29"
+    },
+    {
+      "slug": "condensation-and-mould-cheap-fixes",
+      "title": "Condensation and mould: the cheap fixes",
+      "cluster": "G",
+      "season": "winter",
+      "pubdate": "2027-02-02"
+    },
+    {
+      "slug": "dehumidifier-vs-heating-to-dry-air",
+      "title": "Is a dehumidifier cheaper than heating to dry the air?",
+      "cluster": "G",
+      "season": "winter",
+      "pubdate": "2027-02-05"
+    },
+    {
+      "slug": "ventilation-without-losing-heat",
+      "title": "How to ventilate your home without losing heat",
+      "cluster": "G",
+      "season": "winter",
+      "pubdate": "2027-02-09"
+    },
+    {
+      "slug": "why-house-feels-cold-with-heating-on",
+      "title": "Why your house feels cold even with the heating on",
+      "cluster": "G",
+      "season": "winter",
+      "pubdate": "2027-02-12"
+    },
+    {
+      "slug": "piv-units-explained",
+      "title": "Positive input ventilation explained",
+      "cluster": "G",
+      "season": "winter",
+      "pubdate": "2027-02-16"
+    },
+    {
+      "slug": "cheapest-way-to-dry-clothes",
+      "title": "What is the cheapest way to dry clothes?",
+      "cluster": "H",
+      "season": "winter",
+      "pubdate": "2027-02-19"
+    },
+    {
+      "slug": "heat-your-home-without-central-heating",
+      "title": "Heating your home without central heating",
+      "cluster": "H",
+      "season": "winter",
+      "pubdate": "2027-02-23"
+    },
+    {
+      "slug": "stay-warm-without-turning-up-heating",
+      "title": "How to stay warm without turning up the heating",
+      "cluster": "H",
+      "season": "winter",
+      "pubdate": "2027-02-26"
+    },
+    {
+      "slug": "home-battery-without-solar-worth-it",
+      "title": "Is a home battery worth it without solar panels?",
+      "cluster": "E",
+      "season": "spring",
+      "pubdate": "2027-03-02"
+    },
+    {
+      "slug": "battery-arbitrage-cheap-night-tariff",
+      "title": "Can you save money charging a home battery on a cheap night rate?",
+      "cluster": "E",
+      "season": "spring",
+      "pubdate": "2027-03-05"
+    },
+    {
+      "slug": "vehicle-to-grid-explained",
+      "title": "Vehicle-to-grid explained: can your EV power your home?",
+      "cluster": "E",
+      "season": "spring",
+      "pubdate": "2027-03-09"
+    },
+    {
+      "slug": "infrared-heating-panels-running-cost",
+      "title": "Infrared heating panels: running cost and are they worth it?",
+      "cluster": "E",
+      "season": "spring",
+      "pubdate": "2027-03-12"
+    },
+    {
+      "slug": "heat-battery-explained",
+      "title": "Heat batteries explained: a hot water cylinder alternative?",
+      "cluster": "E",
+      "season": "spring",
+      "pubdate": "2027-03-16"
+    },
+    {
+      "slug": "solar-diverter-explained",
+      "title": "Solar power diverters explained: heating water with surplus solar",
+      "cluster": "E",
+      "season": "spring",
+      "pubdate": "2027-03-19"
+    },
+    {
+      "slug": "battery-storage-payback",
+      "title": "Home battery storage payback explained",
+      "cluster": "E",
+      "season": "spring",
+      "pubdate": "2027-03-23"
+    },
+    {
+      "slug": "solar-panel-cleaning-and-maintenance",
+      "title": "Solar panel cleaning and maintenance: cost and worth it?",
+      "cluster": "E",
+      "season": "spring",
+      "pubdate": "2027-03-26"
+    },
+    {
+      "slug": "public-ev-charging-cost-explained",
+      "title": "How much does public EV charging cost?",
+      "cluster": "J",
+      "season": "spring",
+      "pubdate": "2027-03-30"
+    },
+    {
+      "slug": "should-you-charge-your-ev-to-100",
+      "title": "Should you charge your EV to 100%?",
+      "cluster": "J",
+      "season": "spring",
+      "pubdate": "2027-04-02"
+    },
+    {
+      "slug": "ev-total-cost-of-ownership",
+      "title": "EV vs petrol: the five-year cost of ownership",
+      "cluster": "J",
+      "season": "spring",
+      "pubdate": "2027-04-06"
+    },
+    {
+      "slug": "how-to-pick-an-ev-tariff",
+      "title": "How to pick the right EV electricity tariff",
+      "cluster": "J",
+      "season": "spring",
+      "pubdate": "2027-04-09"
+    },
+    {
+      "slug": "work-out-your-ev-charging-cost",
+      "title": "How to work out your own EV charging cost",
+      "cluster": "J",
+      "season": "spring",
+      "pubdate": "2027-04-13"
+    },
+    {
+      "slug": "phev-vs-ev-vs-petrol-running-cost",
+      "title": "Plug-in hybrid vs full EV vs petrol: running cost compared",
+      "cluster": "J",
+      "season": "spring",
+      "pubdate": "2027-04-16"
+    },
+    {
+      "slug": "charging-your-ev-from-solar",
+      "title": "Charging your EV from solar panels",
+      "cluster": "J",
+      "season": "spring",
+      "pubdate": "2027-04-20"
+    },
+    {
+      "slug": "how-long-does-it-take-to-charge-an-ev",
+      "title": "How long does it take to charge an electric car?",
+      "cluster": "J",
+      "season": "spring",
+      "pubdate": "2027-04-23"
+    },
+    {
+      "slug": "what-is-a-kwh",
+      "title": "What is a kWh, and why it is on your energy bill",
+      "cluster": "D",
+      "season": "any",
+      "pubdate": "2027-04-27"
+    },
+    {
+      "slug": "when-your-fixed-energy-deal-ends",
+      "title": "What to do when your fixed energy deal ends",
+      "cluster": "D",
+      "season": "any",
+      "pubdate": "2027-04-30"
+    },
+    {
+      "slug": "is-it-worth-switching-energy-2026",
+      "title": "Is it worth switching energy supplier in 2026?",
+      "cluster": "D",
+      "season": "any",
+      "pubdate": "2027-05-04"
+    },
+    {
+      "slug": "using-your-in-home-display",
+      "title": "How to use your smart meter in-home display to save",
+      "cluster": "D",
+      "season": "any",
+      "pubdate": "2027-05-07"
+    },
+    {
+      "slug": "economy-10-explained",
+      "title": "Economy 10 explained, and how it differs from Economy 7",
+      "cluster": "D",
+      "season": "any",
+      "pubdate": "2027-05-11"
+    },
+    {
+      "slug": "why-did-my-direct-debit-go-up",
+      "title": "Why has my energy direct debit gone up?",
+      "cluster": "D",
+      "season": "any",
+      "pubdate": "2027-05-14"
+    },
+    {
+      "slug": "octopus-agile-tracker-tariffs-explained",
+      "title": "Agile and tracker tariffs explained",
+      "cluster": "D",
+      "season": "any",
+      "pubdate": "2027-05-18"
+    },
+    {
+      "slug": "energy-saving-in-a-shared-house",
+      "title": "Energy saving in a student or shared house",
+      "cluster": "H",
+      "season": "any",
+      "pubdate": "2027-05-21"
+    },
+    {
+      "slug": "energy-saving-in-a-flat",
+      "title": "Energy saving in a flat or apartment",
+      "cluster": "H",
+      "season": "any",
+      "pubdate": "2027-05-25"
+    },
+    {
+      "slug": "save-energy-in-the-kitchen",
+      "title": "How to save energy in the kitchen",
+      "cluster": "H",
+      "season": "any",
+      "pubdate": "2027-05-28"
+    },
+    {
+      "slug": "save-energy-in-the-bathroom",
+      "title": "How to save energy in the bathroom",
+      "cluster": "H",
+      "season": "any",
+      "pubdate": "2027-06-01"
+    },
+    {
+      "slug": "energy-saving-with-a-baby",
+      "title": "Energy saving with a new baby",
+      "cluster": "H",
+      "season": "any",
+      "pubdate": "2027-06-04"
+    }
+  ],
+  "existing_slugs": [
+    "about",
+    "air-conditioning-running-cost",
+    "air-fryer-running-cost",
+    "appliance-running-cost",
+    "best-time-to-charge-an-electric-car",
+    "boiler-flow-temperature",
+    "broadband-router-always-on",
+    "cavity-wall-insulation",
+    "curtains-for-warmth",
+    "cylinder-jacket-and-pipe-lagging",
+    "dehumidifier-running-cost",
+    "dishwasher-efficiency",
+    "draught-proofing",
+    "driving",
+    "drying-clothes-without-a-tumble-dryer",
+    "economy-7-and-night-rates",
+    "electric-blanket-vs-heating",
+    "electric-car-miles-per-kwh",
+    "electricity",
+    "electric-shower-cost",
+    "energy-labels-explained",
+    "energy-performance-certificate-explained",
+    "energy-saving-myths",
+    "ev-charging-at-home-cost",
+    "ev-charging-in-winter",
+    "ev-charging-no-driveway",
+    "ev-cost-vs-petrol-per-year",
+    "ev-electricity-tariffs-explained",
+    "ev-range-in-hot-weather",
+    "ev-running-cost-vs-petrol",
+    "fan-running-cost",
+    "fridge-freezer-efficiency",
+    "fridge-freezer-in-hot-weather",
+    "ground-vs-air-source-heat-pumps",
+    "guides",
+    "heating",
+    "heat-pump-running-cost-vs-gas-boiler",
+    "heat-pumps-explained",
+    "home-ev-charger-vs-3-pin-plug",
+    "home-vs-public-ev-charging-cost",
+    "home-working-energy-cost",
+    "hot-tub-running-cost",
+    "hot-water-savings",
+    "how-condensing-boilers-work",
+    "how-long-do-ev-batteries-last",
+    "how-to-bleed-radiators",
+    "hypermiling",
+    "immersion-heater-cost",
+    "index",
+    "induction-vs-gas-hob",
+    "is-double-glazing-worth-it",
+    "is-solar-worth-it",
+    "keeping-cool-without-air-con",
+    "keeping-your-car-cool-fuel-economy",
+    "kettle-energy-saving",
+    "led-lighting",
+    "loft-insulation",
+    "low-flow-showerheads",
+    "oven-microwave-air-fryer-compared",
+    "plug-in-hybrid-running-cost",
+    "portable-air-conditioner-vs-fan",
+    "portable-heaters-running-cost",
+    "privacy",
+    "quick-wins-under-a-tenner",
+    "radiator-reflectors",
+    "radiator-valves-and-zoning",
+    "saving-energy-when-renting",
+    "secondary-glazing",
+    "slow-cooker-economy",
+    "smart-meters-explained",
+    "smart-thermostats",
+    "solar-battery-storage",
+    "solar-panels-hot-weather",
+    "solar-panels-the-basics",
+    "solar-water-heating",
+    "solid-wall-insulation",
+    "standby-power-the-full-story",
+    "standing-charges-explained",
+    "storage-heaters-explained",
+    "switching-suppliers",
+    "television-and-entertainment-energy",
+    "thermostat-settings",
+    "time-of-use-tariffs-explained",
+    "tumble-dryer-cost",
+    "underfloor-insulation",
+    "understanding-energy-bill",
+    "using-a-plug-in-energy-monitor",
+    "washing-at-30-degrees",
+    "washing-machine-running-cost",
+    "winter-energy-checklist"
+  ],
+  "counts": {
+    "today": 6,
+    "queue": 103,
+    "existing": 90
+  }
+}

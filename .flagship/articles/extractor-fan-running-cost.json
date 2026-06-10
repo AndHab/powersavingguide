@@ -1,0 +1,56 @@
+{
+  "slug": "extractor-fan-running-cost",
+  "title": "How much does it cost to run an extractor fan?",
+  "description": "An extractor fan costs about 1p an hour or roughly £2 to £25 a year in the UK, depending on wattage and how long it runs. Full breakdown with figures.",
+  "blurb": "What a bathroom, kitchen or continuous extractor fan really costs to run, with worked sums and a wattage table.",
+  "lede": "An extractor fan is one of the cheapest appliances in the house to run, yet plenty of people switch one off the moment they leave the bathroom because they assume it is burning money. The opposite is true. A typical bathroom fan draws less power than a single LED bulb, and the cost of leaving it running long enough to clear the steam is tiny next to the cost of the damp, mould and peeling paint you get if you do not. This guide works out the real numbers for bathroom fans, kitchen cooker hoods and the always-on continuous systems found in newer homes, all at the current UK electricity rate.",
+  "short_answer": "Most bathroom extractor fans use 5 to 30 watts, which is well under a penny an hour. At 26.11p per kWh, a 20W fan run for 20 minutes a day costs about 64p a year. A powerful kitchen cooker hood on full boost can cost a few pence an hour, and an always-on whole-house system typically adds £15 to £30 a year. Running cost is rarely a reason to switch one off.",
+  "sections": [
+    {
+      "h2": "How much power does an extractor fan actually use?",
+      "html": "<p>Extractor fans are low-wattage by design. The exact figure depends on the type of fan and what speed it runs at, but most fall into a narrow band.</p><ul><li><strong>Standard bathroom and toilet fans:</strong> usually 6 to 30 watts. Older axial models sit around 15 to 25W. Newer low-energy DC models can run as low as 1 to 9W.</li><li><strong>Inline and loft-mounted fans:</strong> a little higher, often 20 to 40W, because they push air down longer ducts.</li><li><strong>Kitchen cooker hoods:</strong> the widest range. On a low setting many use 60 to 100W, but a large hood on full boost can pull 150 to 300W, and a few go higher.</li><li><strong>Continuous whole-house systems (dMEV and MEV):</strong> these run all day at a trickle, typically 3 to 12W on background mode, stepping up briefly when a room is in use.</li></ul><p>One point worth understanding: motor wattage tells you how much electricity the fan uses, not how much air it shifts. A higher-wattage hood is not automatically a better extractor. If you want to measure your own fan rather than guess, a cheap plug-in meter does the job, though many fans are wired in rather than plugged, so check the rating plate or manual instead. Our guide to <a href=\"using-a-plug-in-energy-monitor.html\">using a plug-in energy monitor</a> explains the method.</p>"
+    },
+    {
+      "h2": "What it costs to run, in pounds and pence",
+      "html": "<p>The sum is simple. Multiply the fan's wattage by the hours it runs, divide by 1,000 to get kilowatt-hours, then multiply by your unit rate. At 26.11p per kWh, here is what common fans cost.</p><table class=\"ev-table\"><thead><tr><th>Fan type</th><th>Power</th><th>Cost per hour</th><th>Typical daily use</th><th>Cost per year</th></tr></thead><tbody><tr><td>Low-energy bathroom fan</td><td>6W</td><td>0.16p</td><td>30 min</td><td>£0.29</td></tr><tr><td>Standard bathroom fan</td><td>20W</td><td>0.52p</td><td>30 min</td><td>£0.95</td></tr><tr><td>Inline / loft fan</td><td>35W</td><td>0.91p</td><td>30 min</td><td>£1.67</td></tr><tr><td>Cooker hood, low speed</td><td>80W</td><td>2.1p</td><td>1 hour</td><td>£7.62</td></tr><tr><td>Cooker hood, full boost</td><td>250W</td><td>6.5p</td><td>30 min</td><td>£11.91</td></tr><tr><td>Continuous dMEV (always on)</td><td>6W</td><td>0.16p</td><td>24 hours</td><td>£13.72</td></tr></tbody></table><p class=\"ev-note\">At 26.11p per kWh, Ofgem cap July to September 2026. Yearly figures assume the daily use shown, every day.</p><p>The takeaway is that almost nothing you do with a bathroom fan moves your bill in a way you would notice. Even running a standard 20W fan for a solid hour a day, every day of the year, comes to under £2. The only fan that is worth thinking about is a big cooker hood used on full power for long sessions, and even then you are talking pence.</p>"
+    },
+    {
+      "h2": "Should you leave the fan running, or switch it off?",
+      "html": "<p>This is the question that actually matters, and it is not really about electricity. The job of an extractor fan is to remove moisture before it condenses on cold walls and feeds mould. If you flick the fan off the second you step out of the shower, the steam stays in the room and the fan has done almost nothing.</p><p>Building guidance and fan makers generally suggest running a bathroom fan for around 15 to 20 minutes after a shower or bath. Many fans have a built-in timer or a humidity sensor (a humidistat) that does this automatically, so the fan keeps going until the air is clear and then stops itself. At 20W, that overrun costs a fraction of a penny.</p><p>Compare that with the alternative. Persistent condensation leads to black mould, ruined decoration and, in the worst cases, damp that needs professional treatment. The few pence a year the fan costs is trivial insurance. If your bathroom suffers from steam and damp, our notes on <a href=\"condensation-and-mould-cheap-fixes.html\">condensation and mould cheap fixes</a> cover the wider picture, including why ventilation usually beats trying to heat the problem away.</p>"
+    },
+    {
+      "h2": "Continuous and always-on fans",
+      "html": "<p>Many homes built or refurbished in the last decade or so have a continuous mechanical extract system, either a single decentralised fan per wet room (dMEV) or a central unit serving the whole house (MEV). These run 24 hours a day on a low background setting and boost automatically when a bathroom or kitchen is in use.</p><p>An always-on fan sounds expensive, but because the background wattage is so low it is not. A 6W dMEV fan running around the clock uses roughly 53 kWh a year, which is about £13.72 at the current rate. A central MEV unit might draw a little more, but you are still looking at the £15 to £30 a year region for the whole house. That is the energy equivalent of leaving one efficient light bulb on.</p><p>These systems are designed to run continuously and you should not switch them off to save money. Turning them off can cause exactly the damp and air-quality problems they exist to prevent, and the saving would be a pound or two a year. If you want to understand why some appliances cost so little to leave on while others do not, our guide to <a href=\"standby-power-the-full-story.html\">standby power, the full story</a> sets out how to spot the difference.</p>"
+    },
+    {
+      "h2": "How to keep extractor fan costs as low as possible",
+      "html": "<p>There is not much to save here, but a few habits keep both the running cost and the wider bill down.</p><ul><li><strong>Use the timer or humidistat, not the light switch.</strong> Letting the fan clear the air properly avoids damp, which is the real cost. Running it longer than needed wastes only fractions of a penny.</li><li><strong>Clean the fan and the cooker hood filters.</strong> A clogged grille or greasy filter makes the motor work harder and shift less air. Cooker hood grease filters can usually be washed in the sink.</li><li><strong>Run the cooker hood on a lower speed where you can.</strong> Full boost is for heavy frying and steam. Gentle cooking rarely needs it, and power use climbs steeply with speed.</li><li><strong>If you are replacing a fan, choose a low-energy DC model.</strong> The difference between a 20W old fan and a 6W DC unit is real but small in cash terms, so replace on noise, reliability or features rather than energy alone.</li></ul><p>For the bigger savings, look at the appliances that actually move your bill. Our hub on <a href=\"appliance-running-cost.html\">appliance running costs</a> ranks the lot, and the <a href=\"energy-labels-explained.html\">energy labels explained</a> guide helps you read the efficiency rating on anything new you buy.</p>"
+    },
+    {
+      "h2": "The bottom line",
+      "html": "<p>An extractor fan is close to a rounding error on your electricity bill. A bathroom fan costs well under a penny an hour and around £1 a year in normal use. A continuous whole-house system adds maybe £15 to £30 a year, and the only fan worth a second thought is a powerful cooker hood used on full boost for long spells, which still comes in at pence per hour. The sensible advice is the opposite of switching it off: run the fan long enough to do its job, because the cost of the damp and mould it prevents dwarfs the cost of the electricity. Spend your energy-saving effort on heating, hot water and the big white goods instead, where the real money is.</p>"
+    }
+  ],
+  "faq": [
+    {
+      "q": "Is it cheaper to leave an extractor fan running or keep switching it off?",
+      "a": "For a normal bathroom fan it makes almost no difference to your bill either way, because the fan uses so little power. What matters is whether it does its job. Leaving it running for 15 to 20 minutes after a shower clears the moisture and prevents mould, and that overrun costs only a fraction of a penny."
+    },
+    {
+      "q": "How much does a bathroom extractor fan cost per hour?",
+      "a": "A typical 20W bathroom fan costs about 0.52p an hour at 26.11p per kWh. A low-energy DC fan at 6W costs around 0.16p an hour. Both are well under a penny."
+    },
+    {
+      "q": "Does an always-on whole-house ventilation fan use a lot of electricity?",
+      "a": "No. A continuous dMEV or MEV system runs at a low background wattage, often 3 to 12 watts, so even running 24 hours a day it usually adds only £15 to £30 a year. You should not switch these off, as they prevent condensation and keep indoor air healthy."
+    },
+    {
+      "q": "Why does my kitchen cooker hood cost more to run than the bathroom fan?",
+      "a": "Cooker hoods have much larger motors, often 60 to 300 watts depending on speed, because they move far more air to clear cooking steam and grease. On full boost a big hood can cost a few pence an hour, but you usually only run it that hard for short bursts."
+    },
+    {
+      "q": "Will a more efficient extractor fan save me money?",
+      "a": "A little, but not much. Swapping a 20W fan for a 6W low-energy model might save around a pound a year in a bathroom. It is worth choosing the efficient model when you replace a fan anyway, but the energy saving alone rarely justifies an early swap. Pick on noise, reliability and features instead."
+    }
+  ]
+}

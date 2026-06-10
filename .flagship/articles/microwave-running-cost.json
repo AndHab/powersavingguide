@@ -1,0 +1,56 @@
+{
+  "slug": "microwave-running-cost",
+  "title": "How much does it cost to run a microwave?",
+  "description": "How much does it cost to run a microwave in the UK? Per-minute and per-year running costs at the July 2026 price cap, plus how to read the wattage on yours.",
+  "blurb": "What a microwave really costs to run per minute, per meal and per year, plus why it usually beats the oven.",
+  "lede": "A microwave is one of the cheapest ways to heat food in your kitchen, yet most people have no idea what it actually costs to run. The number on the front of the machine is not the number that matters for your bill, and the standby clock quietly draws power around the clock. Once you know how to read the real figures, working out the cost takes seconds, and you can compare it fairly against the oven, the hob and the air fryer.",
+  "short_answer": "Running a typical 800W (output) microwave for ten minutes a day costs roughly 9p at the July to September 2026 price cap, which is about £33 a year. A single two-minute reheat costs under 2p. The bigger annual surprise is usually the standby clock, which can add a few pounds a year on its own.",
+  "sections": [
+    {
+      "h2": "What a microwave actually costs to run",
+      "html": "<p>The wattage printed on the front of a microwave, often 700W, 800W or 900W, is the <strong>cooking output</strong>, not the power it draws from the wall. A microwave is not perfectly efficient, so the input power is higher. An 800W output machine typically pulls around 1,200W (1.2kW) from the socket when it is running on full power.</p><p>Electricity is billed in kilowatt-hours (kWh). One kWh is one kilowatt running for a full hour. To find the cost, multiply the input power in kilowatts by the time in hours, then by your unit rate. For a 1.2kW microwave running for two minutes (0.033 of an hour) at 26.11p:</p><ul><li>1.2 kW x 0.033 h = 0.04 kWh</li><li>0.04 kWh x 26.11p = about 1p per two-minute reheat</li></ul><p>So even a generous estimate puts a quick reheat at roughly 1p to 2p. The microwave is cheap because it heats the food directly and finishes fast, rather than warming a large metal box around it. If you want the maths behind the unit, our guide on <a href=\"what-is-a-kwh.html\">what a kWh is</a> walks through it step by step.</p>"
+    },
+    {
+      "h2": "Cost per use and per year at the price cap",
+      "html": "<p>The table below assumes a microwave drawing 1.2kW on full power, which suits most domestic 800W to 900W output models. Lower-output machines draw a little less, higher-output ones a little more, but the order of magnitude holds.</p><table class=\"ev-table\"><thead><tr><th>Use</th><th>Running time</th><th>Energy used</th><th>Cost</th></tr></thead><tbody><tr><td>Reheat a drink or plate</td><td>2 minutes</td><td>0.04 kWh</td><td>about 1p</td></tr><tr><td>Heat a ready meal</td><td>5 minutes</td><td>0.10 kWh</td><td>about 3p</td></tr><tr><td>Cook a jacket potato</td><td>10 minutes</td><td>0.20 kWh</td><td>about 5p</td></tr><tr><td>Ten minutes of use every day for a year</td><td>about 61 hours</td><td>73 kWh</td><td>about £19</td></tr></tbody></table><p class=\"ev-note\">At 26.11p per kWh, Ofgem cap July to September 2026. Assumes 1.2kW input power.</p><p>For most households, total microwave use lands somewhere between £15 and £35 a year depending on how often you reach for it. That figure does not include the standby clock, which we cover below. To see where this sits against everything else you plug in, our <a href=\"appliance-running-cost.html\">appliance running cost</a> hub lists the common culprits side by side.</p>"
+    },
+    {
+      "h2": "Reading the label: output watts versus input watts",
+      "html": "<p>This trips up almost everyone. A microwave has two power figures, and they mean different things.</p><ul><li><strong>Output power</strong> is the cooking power, the heat delivered to your food. This is the number on the front and in the cooking instructions on food packaging.</li><li><strong>Input power</strong> is what the machine draws from the socket, and it is what your meter measures. It is always higher than the output.</li></ul><p>You will usually find the input figure on the rating plate, a small label on the back or inside the door frame, written in watts or amps. If it lists amps, multiply by 230 to get watts (for example, 5.2A x 230 = about 1,200W). Use the input figure for any cost calculation. If you want to confirm the real draw rather than trust the label, a cheap <a href=\"using-a-plug-in-energy-monitor.html\">plug-in energy monitor</a> shows you the live wattage and the kWh totted up over a week.</p><p>The energy label you see in shops rates microwaves on standby and other features rather than cooking efficiency, so do not lean on it too hard for running cost. Our explainer on <a href=\"energy-labels-explained.html\">energy labels</a> covers what each part of the label is actually telling you.</p>"
+    },
+    {
+      "h2": "The standby clock can cost more than the cooking",
+      "html": "<p>Here is the quiet one. A microwave with a digital display and clock draws a small amount of power continuously, even when you are not using it, to keep the display lit and the controls awake. That draw is usually 1W to 3W.</p><p>It sounds trivial, but it runs 8,760 hours a year. At 2W, that is about 17.5 kWh a year, which works out at roughly £4.60 at the current rate. Compare that with the £19 example above for ten minutes of daily cooking, and you can see the clock is a meaningful slice of the total.</p><ul><li>2W standby, all year: about 17.5 kWh, around £4.60</li><li>If you only cook with it occasionally, standby can be the larger share of your microwave's annual cost</li></ul><p>You can kill it entirely by switching the machine off at the wall when it is not in use, though you lose the clock. Whether that is worth the faff is a personal call. Our full look at <a href=\"standby-power-the-full-story.html\">standby power</a> ranks which gadgets in your home are actually worth switching off, because some matter far more than this one.</p>"
+    },
+    {
+      "h2": "Microwave versus oven, hob and air fryer",
+      "html": "<p>The microwave wins on small, quick jobs because it heats the food and almost nothing else. A conventional electric oven might draw 2kW to 3kW and needs preheating, so reheating one plate in the oven can cost ten to twenty times more than the microwave for the same result.</p><p>For larger batches or anything that needs browning, the picture shifts. An air fryer or the hob can be more efficient than the oven for medium portions, and the oven still wins on energy-per-portion once you are cooking for a crowd in one go. The honest rule is simple: match the appliance to the portion size. Small and fast favours the microwave; large and slow favours the oven.</p><ul><li><strong>Reheating one or two portions:</strong> microwave, every time</li><li><strong>Defrosting:</strong> microwave, or the fridge for free if you plan ahead</li><li><strong>Crisping or browning a small amount:</strong> air fryer</li><li><strong>A full roast or a tray for the family:</strong> oven</li></ul><p>We compare the three head to head, with figures, in <a href=\"oven-microwave-air-fryer-compared.html\">oven, microwave and air fryer compared</a>, and there are dedicated guides on the <a href=\"air-fryer-running-cost.html\">air fryer</a> and the <a href=\"electric-oven-running-cost.html\">electric oven</a> if you want the per-appliance detail.</p>"
+    },
+    {
+      "h2": "The bottom line",
+      "html": "<p>A microwave is genuinely cheap to run. Expect roughly 1p to 5p per use and somewhere between £15 and £35 a year for the cooking itself, based on the 26.11p price cap rate for July to September 2026. The two things worth knowing are that the wattage on the front is the cooking output, not what your meter sees, and that the standby clock can quietly add a few pounds a year on top.</p><p>If you reheat and defrost in the microwave instead of firing up the oven, you are already making one of the better-value choices in the kitchen. The only real saving left is switching it off at the wall when it sits unused for long stretches, and even that is small change. Spend your energy-saving effort on the bigger items on your bill, and let the microwave do what it does well.</p>"
+    }
+  ],
+  "faq": [
+    {
+      "q": "How much does it cost to run a microwave for 1 minute?",
+      "a": "For a typical microwave drawing 1.2kW from the socket, one minute uses about 0.02 kWh, which costs roughly half a penny at the July to September 2026 price cap rate of 26.11p per kWh. A two-minute reheat is around 1p."
+    },
+    {
+      "q": "Is it cheaper to use a microwave or an oven?",
+      "a": "For small portions and reheating, the microwave is far cheaper, often ten to twenty times less than an electric oven, because it heats the food directly and needs no preheating. The oven only becomes competitive when you are cooking a large amount in one go."
+    },
+    {
+      "q": "Why is my microwave's wattage different from the cooking power?",
+      "a": "The number on the front is the cooking output, the heat delivered to your food. The power drawn from the wall, the input power, is higher because no appliance is perfectly efficient. An 800W output microwave usually draws around 1,200W. Use the input figure, found on the rating plate, for cost calculations."
+    },
+    {
+      "q": "Does leaving a microwave plugged in waste electricity?",
+      "a": "A little. The clock and display draw about 1W to 3W continuously, which adds up to roughly £3 to £7 a year. You can stop it by switching the microwave off at the wall, though you lose the clock. It is a small saving compared with other standby gadgets in the home."
+    },
+    {
+      "q": "How do I work out the running cost of my own microwave?",
+      "a": "Find the input wattage on the rating plate, divide by 1,000 to get kilowatts, multiply by the time used in hours, then multiply by your unit rate in pence. For example, 1.2kW for five minutes is 1.2 x 0.083 x 26.11p, which is about 3p."
+    }
+  ]
+}

@@ -1,0 +1,52 @@
+{
+  "slug": "coffee-machine-running-cost",
+  "title": "How much does it cost to run a coffee machine?",
+  "description": "What a coffee machine costs to run in the UK in 2026, by type, plus the standby trick that quietly doubles your bill. Real per-cup and yearly figures.",
+  "blurb": "Per-cup and yearly running costs for pod, filter, bean-to-cup and espresso machines, plus the standby cost most people miss.",
+  "lede": "The coffee itself is the expensive bit. The electricity to make it almost never is. A home coffee machine pulls a lot of watts, but only for the minute or two it spends heating water and pulling a shot, so the cost of the actual brewing barely registers on your bill. Where coffee machines quietly catch people out is standby: a machine left switched on all day to keep its boiler hot can use more electricity sitting idle than it ever does making coffee. This guide gives real per-cup and per-year numbers for every common type of machine at the July 2026 price cap, and shows you the one habit that matters more than which model you buy.",
+  "short_answer": "Making a single cup costs between roughly 0.3p and 1.5p in electricity, depending on the machine type, so even two cups a day is well under £12 a year if you switch the machine off between uses. The catch is standby. A machine left on all day to keep its boiler hot can quietly add £40 or more a year on its own, which is usually far more than the brewing itself.",
+  "sections": [
+    {
+      "h2": "What a coffee machine actually costs to run",
+      "html": "<p>A coffee machine spends almost all its energy heating water. The motor in a bean-to-cup grinder and the pump that pushes water through the grounds use very little by comparison. So the running cost comes down to two things: how much water you heat, and how long the machine sits switched on between cups.</p><p>During brewing, most home machines draw between about 1,000 and 1,500 watts, similar to a <a href=\"kettle-energy-saving.html\">kettle</a>. That sounds a lot, but a single shot of espresso or a small filter brew only runs for a minute or two. A pod machine that heats just enough water for one cup can be done in under a minute. Energy is power multiplied by time, so a short burst of high power is still a tiny amount of energy.</p><p>For context, one unit of electricity (a kWh) costs 26.11p under the July to September 2026 Ofgem price cap. A 1,500W machine running flat out for a full minute uses 0.025 kWh, which is about 0.65p. Most cups cost less than that because the machine is not pulling full power for the whole time. If you want to measure your own machine exactly, a <a href=\"using-a-plug-in-energy-monitor.html\">plug-in energy monitor</a> will show you the real figure for your kitchen in a couple of days.</p>"
+    },
+    {
+      "h2": "Cost per cup and per year, by machine type",
+      "html": "<p>The table below gives rough per-cup and per-year electricity costs for the four common types of home coffee machine. The yearly figure assumes two cups a day and, crucially, that the machine is switched off between uses rather than left on standby. The standby cost is handled separately in the next section, because it dwarfs everything here.</p><table class=\"ev-table\"><thead><tr><th>Machine type</th><th>Power while brewing</th><th>Energy per cup</th><th>Cost per cup</th><th>Two cups a day, per year</th></tr></thead><tbody><tr><td>Pod / capsule</td><td>~1,200W</td><td>~0.013 kWh</td><td>~0.3p</td><td>~£2.50</td></tr><tr><td>Filter (drip)</td><td>~900W</td><td>~0.03 kWh</td><td>~0.8p</td><td>~£5.80</td></tr><tr><td>Manual espresso</td><td>~1,300W</td><td>~0.035 kWh</td><td>~0.9p</td><td>~£6.70</td></tr><tr><td>Bean-to-cup</td><td>~1,450W</td><td>~0.05 kWh</td><td>~1.3p</td><td>~£9.50</td></tr></tbody></table><p class=\"ev-note\">At 26.11p per kWh, Ofgem cap July to September 2026. Brewing energy only, machine switched off between cups. Wattages are typical home models; check yours with a plug-in monitor.</p><p>Even the thirstiest type, a bean-to-cup machine grinding and brewing fresh, costs only a little over a penny a cup. That is the headline most people expect, and on its own it is genuinely small. A filter machine left on its hotplate to keep a full jug warm is the exception, because the hotplate keeps drawing power long after the coffee is made.</p>"
+    },
+    {
+      "h2": "Standby is where the real money goes",
+      "html": "<p>Here is the part that changes the maths. Many espresso and bean-to-cup machines keep an internal boiler hot so they are ready to brew the moment you press the button. To do that, they reheat the water again and again all day long. A machine left on like this typically draws somewhere between 50 and 150 watts continuously, just sitting there.</p><p>Take a middling 80W of standby. Left on for eight hours a day, that is 0.64 kWh, or about 17p a day. Over a year that is roughly <strong>£61</strong> in standby alone, against perhaps £7 to £10 for the coffee you actually made. The idle machine is using six or seven times more electricity than the brewing.</p><p>Leave a machine like that on 24 hours a day and the figure climbs past £180 a year. This is the single biggest variable in what a coffee machine costs to run, and it has nothing to do with how many cups you drink. It is the same story as plenty of other kitchen and home gadgets, which is why <a href=\"standby-power-the-full-story.html\">standby power across the whole house</a> is worth a proper look.</p><p>Pod machines and basic filter machines mostly avoid this. They heat water on demand and shut their heating off within a few minutes, so their standby draw is close to nothing. If you own one of those, the per-cup table above is the whole story.</p>"
+    },
+    {
+      "h2": "How to cut the cost without giving up good coffee",
+      "html": "<p>You do not need to drink worse coffee to spend less. A few habits do almost all the work.</p><ul><li><strong>Switch it off between sessions.</strong> If your machine keeps a boiler hot, turn it off once your morning round is done. Most heat up again in under a minute. This single change is worth more than every other tip combined.</li><li><strong>Use the auto-off timer.</strong> Many espresso and bean-to-cup machines have an energy-saving mode that powers down after 10, 20 or 30 minutes of inactivity. Set it to the shortest you can live with.</li><li><strong>Put it on a timer plug or smart plug.</strong> A cheap timer that kills the supply mid-morning and powers it back on the next day removes the risk of forgetting. A <a href=\"smart-meters-explained.html\">smart meter</a> in-home display will then show you the difference within days.</li><li><strong>Only heat what you need.</strong> With a filter machine, brew the cups you will drink rather than a full jug you keep warm on the hotplate. The hotplate, not the brewing, is the costly part of drip coffee.</li><li><strong>Skip the keep-warm carafe habit.</strong> A vacuum flask keeps coffee hot for hours using no electricity at all.</li></ul><p>If you are comparing a coffee machine against a kettle and instant, or against a <a href=\"boiling-water-tap-running-cost.html\">boiling water tap</a>, the type of machine matters far less than whether you leave it on. A switched-off machine of any type is cheap to run.</p>"
+    },
+    {
+      "h2": "The bottom line",
+      "html": "<p>For the coffee itself, a home machine is a rounding error on your bill. Even a bean-to-cup machine making two fresh cups a day costs under £10 a year in electricity. The number that actually matters is standby. A machine left on all day to keep its boiler hot can add £40 to £180 a year on its own, depending on how long it stays on, which can be many times more than the brewing.</p><p>So the cheapest coffee machine to run is not a particular model or type. It is whichever machine you remember to switch off. Do that, lean on the auto-off timer or a timer plug, and your daily coffee stays one of the smallest lines on your <a href=\"understanding-energy-bill.html\">energy bill</a>. If you want to see exactly where your kitchen appliances sit against each other, the <a href=\"appliance-running-cost.html\">appliance running cost guide</a> puts coffee machines alongside the rest, and the <a href=\"energy-labels-explained.html\">energy labels guide</a> explains the figures printed on a new machine before you buy.</p>"
+    }
+  ],
+  "faq": [
+    {
+      "q": "Is a coffee machine expensive to run?",
+      "a": "Not for the coffee itself. A single cup costs roughly 0.3p to 1.5p in electricity depending on the machine type, so even two cups a day is well under £12 a year. The expense only appears if you leave the machine switched on all day, since keeping a boiler hot can cost far more than the brewing does."
+    },
+    {
+      "q": "Which type of coffee machine is cheapest to run?",
+      "a": "Pod and basic filter machines are cheapest because they heat water on demand and shut off quickly, so they have almost no standby cost. Espresso and bean-to-cup machines use slightly more per cup and, more importantly, can cost a lot in standby if left on. In practice the cheapest machine to run is whichever one you switch off between uses."
+    },
+    {
+      "q": "Does leaving a coffee machine on standby use a lot of electricity?",
+      "a": "It can. A machine that keeps its boiler hot may draw 50 to 150 watts continuously. At 26.11p per kWh, an 80W machine left on eight hours a day costs about £61 a year, and one left on around the clock can pass £180. That is usually far more than the cups you actually make."
+    },
+    {
+      "q": "How much does it cost to make one cup of coffee at home?",
+      "a": "In electricity alone, roughly 0.3p for a pod machine, around 0.8p for a filter brew, and about 1.3p for a bean-to-cup machine, based on the July to September 2026 Ofgem cap of 26.11p per kWh. The beans or pods cost far more than the power."
+    },
+    {
+      "q": "Is it cheaper to use a kettle or a coffee machine?",
+      "a": "They are close, because both mainly heat water and a kettle only heats what you fill it with. The bigger factor is standby. A kettle uses nothing between uses, while a coffee machine left on to stay hot can cost much more over a day. Boil only the water you need and switch the machine off, and the difference is tiny either way."
+    }
+  ]
+}

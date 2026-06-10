@@ -1,0 +1,56 @@
+{
+  "slug": "cctv-running-cost",
+  "title": "How much does it cost to run home CCTV?",
+  "description": "Home CCTV runs 24/7, so does it cost much? A typical four-camera UK system costs roughly £100 to £160 a year to power. Full breakdown with figures.",
+  "blurb": "Home CCTV runs around the clock. We work out what a typical UK system really costs to power, and how to trim it.",
+  "lede": "A CCTV system is one of the few things in your home that never switches off. Cameras watch, the recorder records and hard drives spin every hour of every day, all year round. That constant draw is small per hour but it adds up, and because nobody ever unplugs it, the cost is easy to overlook. The good news is that modern security kit is far more frugal than people fear, and once you know the wattage of your gear you can pin the annual figure down to within a few pounds.",
+  "short_answer": "A typical home CCTV system of four wired cameras plus a network video recorder draws somewhere between 45 and 70 watts in total, running continuously. At the current price cap that works out at roughly £100 to £160 a year. A single camera on its own costs only a few pounds a year, so the recorder and any spotlights are what move the number.",
+  "sections": [
+    {
+      "h2": "What uses the power in a CCTV system",
+      "html": "<p>It helps to split a wired system into its parts, because the cameras are rarely the biggest item. A standard setup has three things drawing power continuously:</p><ul><li><strong>The cameras.</strong> A basic indoor IP camera uses 2 to 5 watts. A typical outdoor bullet or dome camera with night vision sits around 4 to 12 watts. A pan-tilt-zoom (PTZ) camera with motors, infrared LEDs and a heater can spike to 25 watts or more when everything is active.</li><li><strong>The recorder.</strong> A network video recorder (NVR) or older DVR pulls anywhere from 10 to 40 watts, and more again if it drives several hard drives. The recorder is on around the clock, so it is often the single largest contributor.</li><li><strong>The network gear.</strong> A Power over Ethernet (PoE) switch or the router feeding the system adds a few watts, plus a small overhead loss in delivering power down the cables.</li></ul><p>Two things push the figure up. Infrared night vision draws extra power every night when the LEDs cycle on, and bright spotlight or floodlight cameras can double their daytime wattage after dark. Higher resolution sensors, 4K versus 1080p, also nudge consumption up a little.</p><p>If you want to stop guessing, a cheap plug-in meter on the recorder and PoE switch will tell you the real draw in minutes. We cover that in <a href=\"using-a-plug-in-energy-monitor.html\">using a plug-in energy monitor</a>.</p>"
+    },
+    {
+      "h2": "What a typical system costs to run",
+      "html": "<p>The headline numbers come from total system wattage running 24 hours a day, 365 days a year. A device left on continuously burns about 8.76 kWh per year for every watt it draws, which makes the maths easy: multiply the wattage by 8.76 to get annual kWh, then by your unit rate.</p><table class=\"ev-table\"><thead><tr><th>System</th><th>Typical draw</th><th>kWh per year</th><th>Cost per year</th></tr></thead><tbody><tr><td>Single PoE camera</td><td>7 W</td><td>61 kWh</td><td>£16</td></tr><tr><td>Single camera with strong night vision</td><td>12 W</td><td>105 kWh</td><td>£27</td></tr><tr><td>Recorder (NVR) alone</td><td>20 W</td><td>175 kWh</td><td>£46</td></tr><tr><td>Four-camera system (cameras plus NVR), low end</td><td>45 W</td><td>394 kWh</td><td>£103</td></tr><tr><td>Four-camera system, with night vision and spotlights</td><td>70 W</td><td>613 kWh</td><td>£160</td></tr><tr><td>Eight-camera system with PTZ</td><td>110 W</td><td>964 kWh</td><td>£252</td></tr></tbody></table><p class=\"ev-note\">At 26.11p per kWh, Ofgem cap July to September 2026. Figures rounded.</p><p>So a single camera is genuinely cheap, a few pounds a year, but a full multi-camera system with a recorder is more like a fridge freezer in running cost. The recorder and any bright spotlights are what move the number, not the cameras themselves.</p>"
+    },
+    {
+      "h2": "Wired versus battery and wireless cameras",
+      "html": "<p>Battery cameras such as the popular doorbell and stick-up models look like they cost nothing to run, because there is no plug visible and the battery only needs recharging every few months. In reality the energy is just hidden. Each recharge draws from the mains, and the camera still has to send its footage over wifi, which is far less efficient per camera than a wired PoE link. The total energy is small, well under a pound a year per camera, but it is not zero.</p><p>The bigger hidden cost with cloud-connected wireless cameras is the subscription, not the electricity. Many brands charge a monthly fee to store recordings, which over a year dwarfs the running cost. A wired NVR system records locally to its own hard drive with no subscription, which is one reason it can work out cheaper overall despite using more electricity.</p><p>If your cameras run over wifi, remember the router has to stay on for them to work at all. We look at that always-on cost in <a href=\"broadband-router-always-on.html\">broadband router always on</a>.</p>"
+    },
+    {
+      "h2": "Is CCTV part of your standby and always-on bill",
+      "html": "<p>CCTV is the textbook always-on load. Unlike a kettle or a washing machine, it has no off period, so a modest wattage turns into a meaningful annual figure simply through running every hour of the year. That puts it in the same category as your router, your smart speakers and the standby draw of your television and games console.</p><p>Adding it all up is the point of looking at <a href=\"standby-power-the-full-story.html\">standby power, the full story</a>, where a handful of small continuous loads quietly add £100 or more to the typical home's yearly bill. CCTV often sits near the top of that list because, unlike most standby devices, it is meant to be on all the time and you would not want to switch it off.</p><p>To see how your security kit compares with everything else that hums away in the background, our <a href=\"appliance-running-cost.html\">appliance running cost</a> guide puts the common household devices side by side.</p>"
+    },
+    {
+      "h2": "How to cut your CCTV running cost",
+      "html": "<p>You usually do not want to turn security cameras off, so the savings come from choosing and configuring the kit sensibly rather than switching it on and off.</p><ul><li><strong>Match the system to the job.</strong> A four-camera system covers most homes. Each extra camera and every PTZ unit adds to the continuous draw, so resist over-speccing.</li><li><strong>Choose efficient cameras.</strong> Modern low-power PoE cameras at 4 to 7 watts cost a fraction of older or spotlight-heavy models to run. The camera datasheet lists the wattage, so check it before buying.</li><li><strong>Use a modern, single recorder.</strong> A current NVR with one hard drive is far more frugal than an old DVR with several drives spinning. If your recorder runs hot and loud, it is probably costing you.</li><li><strong>Mind the spotlights.</strong> Built-in floodlights are the biggest swing factor. Set them to trigger on motion rather than burn all night, and the night-time draw drops sharply.</li><li><strong>Skip the subscription if you can.</strong> Local recording to the NVR avoids monthly cloud fees, which often cost more than the electricity.</li></ul><p>If you are weighing a wired system against battery cameras, the energy label on the recorder and PoE switch tells you most of what you need. Our <a href=\"energy-labels-explained.html\">energy labels explained</a> guide shows how to read those ratings.</p>"
+    },
+    {
+      "h2": "The bottom line",
+      "html": "<p>A single security camera costs only a few pounds a year, so if you have one doorbell or one stick-up camera, the electricity barely registers. A full wired system is a different matter. Four cameras and a recorder running continuously cost roughly £100 to £160 a year at the current cap, and an eight-camera setup with a PTZ camera can pass £250. The recorder and any bright spotlights drive most of that, not the cameras.</p><p>None of it is enough to make you turn the system off, and you would not want to. But it is worth knowing the number, choosing efficient kit and setting any floodlights to motion only. Do that and a home CCTV system stays a small, predictable line on your bill rather than a surprise.</p>"
+    }
+  ],
+  "faq": [
+    {
+      "q": "How much does one CCTV camera cost to run per year?",
+      "a": "A single wired PoE camera drawing about 7 watts costs roughly £16 a year running continuously, at 26.11p per kWh. A camera with strong night vision at 12 watts costs about £27 a year. Battery and doorbell cameras cost under a pound a year in electricity, though they often carry a cloud subscription on top."
+    },
+    {
+      "q": "Does CCTV use a lot of electricity?",
+      "a": "Not per camera, but a full system adds up because it never switches off. A typical four-camera system with a recorder uses 45 to 70 watts continuously, which is roughly £100 to £160 a year. That is comparable to running a fridge freezer, with the recorder and any spotlights doing most of the work."
+    },
+    {
+      "q": "Are battery or wired CCTV cameras cheaper to run?",
+      "a": "Battery cameras use less electricity overall, well under a pound a year each, because they are not constantly recording to a powered hard drive. But many wireless cameras need a monthly cloud subscription to store footage, which usually costs far more than the electricity a wired local system would use. Wired can work out cheaper once subscriptions are counted."
+    },
+    {
+      "q": "How do I work out my own CCTV running cost?",
+      "a": "Add up the wattage of every camera plus the recorder and PoE switch, multiply the total by 8.76 to get kilowatt-hours per year, then multiply by your electricity unit rate. For example, 60 watts times 8.76 is 526 kWh, which at 26.11p is about £137 a year. A plug-in energy monitor on the recorder gives you the real figure if you would rather measure it."
+    },
+    {
+      "q": "Can I turn my CCTV off to save money?",
+      "a": "You can, but it defeats the purpose, since the value of CCTV is that it watches when you are away or asleep. A better approach is to choose efficient cameras, use a single modern recorder and set any floodlights to trigger on motion rather than stay on all night. That trims the running cost without leaving your home unwatched."
+    }
+  ]
+}

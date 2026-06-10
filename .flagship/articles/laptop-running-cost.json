@@ -1,0 +1,56 @@
+{
+  "slug": "laptop-running-cost",
+  "title": "How much does it cost to run a laptop?",
+  "description": "A typical laptop costs roughly £15 to £30 a year to run in the UK. See the watts, the maths and easy ways to cut the cost, at 26.11p per kWh.",
+  "blurb": "Laptops are among the cheapest devices in the house to run. Here are the real numbers and how to trim them.",
+  "lede": "A laptop is one of the least thirsty things you plug in. Where a desktop tower and monitor can pull 150 watts or more, a laptop sips a fraction of that, because everything about it is built to run from a small battery for hours. That low draw means the annual cost of running one is small in pound terms, and the figure surprises people who assume their work machine is quietly draining the meter. This guide gives you the watts, the actual cost at the current UK price, and the handful of habits that move the needle.",
+  "short_answer": "A typical laptop draws about 30 to 60 watts when working and charging, so several hours of daily use costs roughly £15 to £30 a year. At 26.11p per kWh, a full 8 hour working day of use costs around 8p to 13p. Left in sleep overnight it adds pennies a week, not pounds.",
+  "sections": [
+    {
+      "h2": "What a laptop actually draws",
+      "html": "<p>Laptops are designed around a battery, so the whole machine is tuned to be frugal. The exact draw depends on the screen size, the brightness, and what you are asking the processor to do, but the working range is narrow compared with a desktop.</p><ul><li><strong>Idle or light use</strong> (browsing, email, documents): around 15 to 30 watts.</li><li><strong>Typical mixed use</strong> with the battery topping up: around 30 to 60 watts.</li><li><strong>Heavy load</strong> (video editing, gaming, a large compile): a gaming laptop can briefly hit 100 to 180 watts, but ordinary work machines rarely go there.</li><li><strong>Sleep</strong>: roughly 1 to 3 watts.</li><li><strong>Fully charged and idle, lid open</strong>: the charger itself draws a fraction of a watt once the battery is full.</li></ul><p>A useful rule of thumb is that an everyday 13 to 15 inch laptop averages somewhere near 30 to 50 watts across a working day, including the periods when it is charging the battery back up. A small ultrabook sits lower, a chunky 17 inch gaming model sits higher. If you want the figure for your exact machine rather than an estimate, a plug-in power meter clears it up in minutes, as we explain in <a href=\"using-a-plug-in-energy-monitor.html\">using a plug-in energy monitor</a>.</p>"
+    },
+    {
+      "h2": "The cost in pounds and pence",
+      "html": "<p>To turn watts into money you divide the wattage by 1,000 to get kilowatts, multiply by the hours you use it, then multiply by your unit rate. At the current Ofgem cap that rate is 26.11p per kWh. If you are not sure what a kWh is, <a href=\"what-is-a-kwh.html\">what is a kWh</a> explains it plainly.</p><table class=\"ev-table\"><thead><tr><th>Use pattern</th><th>Average draw</th><th>Hours a day</th><th>Cost per day</th><th>Cost per year</th></tr></thead><tbody><tr><td>Light home use</td><td>20 W</td><td>3 h</td><td>1.6p</td><td>£5.72</td></tr><tr><td>Typical home use</td><td>40 W</td><td>4 h</td><td>4.2p</td><td>£15.25</td></tr><tr><td>Full working day</td><td>45 W</td><td>8 h</td><td>9.4p</td><td>£34.30</td></tr><tr><td>Gaming laptop, hard use</td><td>120 W</td><td>3 h</td><td>9.4p</td><td>£34.31</td></tr></tbody></table><p class=\"ev-note\">At 26.11p per kWh, Ofgem cap July to September 2026.</p><p>The headline is that an ordinary laptop costs single figures of pounds to low tens of pounds a year. Even running one for a full eight hour day, every working day, lands near £30 a year. That is a fraction of what your fridge, your kettle habit or your tumble dryer cost. For the wider picture of how devices compare, see our <a href=\"appliance-running-cost.html\">appliance running cost</a> hub.</p>"
+    },
+    {
+      "h2": "Laptop versus desktop",
+      "html": "<p>The single biggest saving on computing power is choosing a laptop over a desktop in the first place. A desktop tower plus a separate monitor commonly draws 100 to 200 watts for the same tasks a laptop does on 30 to 50. Over a full working year that gap can be the difference between roughly £20 and well over £100 in electricity, before you count any always-on background use.</p><p>If you already own a desktop you do not have to bin it, but it is worth knowing the running cost difference. Our <a href=\"desktop-computer-running-cost.html\">desktop computer running cost</a> guide puts the two side by side. For anyone doing long days at a screen from home, the choice of machine is one of the quiet line items behind a <a href=\"home-working-energy-cost.html\">home working energy cost</a> bill.</p>"
+    },
+    {
+      "h2": "The charger and standby question",
+      "html": "<p>People worry about leaving the charger plugged in. The honest answer is that a modern laptop charger draws almost nothing once the battery is full or once the laptop is switched off. You are talking about a fraction of a watt, which over a year is pennies, not pounds. The bigger waste is the laptop itself sitting awake and lit when nobody is using it.</p><ul><li><strong>Sleep is cheap</strong>: closing the lid drops draw to roughly 1 to 3 watts, so an overnight sleep costs a fraction of a penny.</li><li><strong>Charger at the wall, laptop unplugged</strong>: a fraction of a watt. Not worth fretting over.</li><li><strong>Screen on full brightness, doing nothing</strong>: this is the real, avoidable drain. The display is one of the hungriest parts of a laptop.</li></ul><p>So the standby story for a laptop is genuinely minor. If you want the full picture of which household standby draws are worth chasing and which are noise, read <a href=\"standby-power-the-full-story.html\">standby power, the full story</a>.</p>"
+    },
+    {
+      "h2": "Easy ways to cut the cost",
+      "html": "<p>The savings here are small in absolute terms because the device is already cheap to run, but the habits are free and they help your battery last longer too.</p><ul><li><strong>Turn the screen brightness down.</strong> The display is the largest single draw. Dropping from full to a comfortable level can shave several watts.</li><li><strong>Use sleep, not a screensaver.</strong> A screensaver keeps the machine fully awake. Set the laptop to sleep after a few minutes idle.</li><li><strong>Switch on battery saver or balanced power mode.</strong> Windows and macOS both throttle background activity in these modes, which trims draw with no real downside for everyday work.</li><li><strong>Close heavy background apps.</strong> A video call, a game, or a browser with fifty tabs all push the processor and the fan, which is where the watts climb.</li><li><strong>Unplug once charged if you remember.</strong> Worth more for long-term battery health than for the tiny power saving.</li></ul><p>If you run several gadgets off one strip, a switchable extension lets you kill the lot at the wall in one go. Those quick, cheap moves are collected in <a href=\"quick-wins-under-a-tenner.html\">quick wins under a tenner</a>.</p>"
+    },
+    {
+      "h2": "The bottom line",
+      "html": "<p>A laptop is close to the cheapest mains device you own to run. An everyday machine costs roughly £15 to £30 a year even with heavy daily use, and a light user might spend under a tenner. The charger left plugged in is not the problem; a bright screen left awake is the only thing worth changing. If you are deciding between a laptop and a desktop for long hours of work, the laptop wins on running cost by a wide margin, and that gap is real money over the life of the machine. Spend your energy-saving attention on the big-ticket items in the house and treat the laptop as the rounding error it is.</p>"
+    }
+  ],
+  "faq": [
+    {
+      "q": "How much does it cost to charge a laptop?",
+      "a": "A single full charge of a typical laptop uses well under 0.1 kWh, so it costs around 1p to 2p at 26.11p per kWh. Even charging it from empty every day adds only a few pounds a year."
+    },
+    {
+      "q": "Is it cheaper to use a laptop than a desktop?",
+      "a": "Yes, by a wide margin. A laptop averages roughly 30 to 50 watts where a desktop tower plus monitor often draws 100 to 200 watts for the same tasks. Over a working year that can be the difference between around £20 and well over £100."
+    },
+    {
+      "q": "Does leaving my laptop charger plugged in waste electricity?",
+      "a": "Barely any. Once the battery is full, or the laptop is off, a modern charger draws a fraction of a watt. Over a year it adds up to pennies, so it is not worth worrying about."
+    },
+    {
+      "q": "Does screen brightness really affect power use?",
+      "a": "Yes. The display is one of the hungriest parts of a laptop, so turning the brightness down from full to a comfortable level is the easiest way to trim its draw and extend battery life at the same time."
+    },
+    {
+      "q": "How can I measure my own laptop's running cost?",
+      "a": "Plug it into a cheap energy monitor for a few days of normal use, read off the kWh it has used, and multiply by your unit rate. That gives you a real figure for your exact machine and habits rather than an average."
+    }
+  ]
+}

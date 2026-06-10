@@ -1,0 +1,56 @@
+{
+  "slug": "desktop-computer-running-cost",
+  "title": "How much does it cost to run a desktop computer?",
+  "description": "What a desktop PC really costs to run in the UK. Idle, office and gaming wattage turned into pence per hour and pounds per year at the 2026 price cap rate.",
+  "blurb": "Work out what your desktop PC costs per hour, per year, and how sleep mode and monitors change the bill.",
+  "lede": "A desktop computer is one of those appliances that hides in plain sight. It hums away on your desk for hours, sometimes overnight, and rarely shows up as a line you can point to on your bill. The running cost depends almost entirely on what is inside the case and how hard you push it. A basic office tower sipping power while you read email costs very little. A tower stuffed with a power supply rated at 750 watts, running flat out, is a different animal. This guide turns realistic wattages into pence per hour and pounds per year at the current UK rate, so you can place your own machine somewhere on the scale.",
+  "short_answer": "A typical home or office desktop draws around 70 to 120 watts during normal use, which costs roughly 2p to 3p an hour, or about £30 to £75 a year if used for a few hours a day. At 26.11p per kWh (Ofgem cap July to September 2026), a desktop left running at 100 watts for eight hours a day works out at about £76 a year. The monitor and any sleep settings change the total more than most people expect.",
+  "sections": [
+    {
+      "h2": "What a desktop actually draws",
+      "html": "<p>The phrase \"desktop computer\" covers a huge range of hardware, so the first job is to ignore the number printed on the power supply. A 650 watt PSU does not mean the machine pulls 650 watts. That figure is the maximum it can deliver, and most desktops spend their lives drawing a fraction of it.</p><p>What matters is real-world draw, and that falls into a few bands:</p><ul><li><strong>Idle or light use</strong> (sitting on the desktop, reading a document, browsing a few tabs): a modern compact or office tower uses roughly 30 to 60 watts. An older machine, or one with a discrete graphics card, sits higher.</li><li><strong>Normal mixed use</strong> (office work, video calls, streaming, light photo editing): roughly 70 to 120 watts for most home machines.</li><li><strong>Heavy load</strong> (gaming, video rendering, 3D work): 200 watts and well beyond, depending on the graphics card.</li></ul><p>The single biggest variable is the graphics card. An office PC with no dedicated GPU rarely troubles 100 watts. A tower built for gaming can pull three or four times that under load, which is why we cover those separately in our <a href=\"gaming-pc-running-cost.html\">gaming PC running cost</a> guide. If you only ever browse and type, treat this page as your reference and ignore the scarier numbers.</p>"
+    },
+    {
+      "h2": "Cost per hour and per year",
+      "html": "<p>To get a cost you multiply the power draw in kilowatts by the hours of use, then by your unit rate. A 100 watt machine running for one hour uses 0.1 kWh. At 26.11p that is about 2.6p. The table below runs the common cases.</p><table class=\"ev-table\"><thead><tr><th>Type of use</th><th>Power draw</th><th>Cost per hour</th><th>4 hrs/day for a year</th><th>8 hrs/day for a year</th></tr></thead><tbody><tr><td>Idle / light office</td><td>50 W</td><td>1.3p</td><td>£19</td><td>£38</td></tr><tr><td>Normal home use</td><td>100 W</td><td>2.6p</td><td>£38</td><td>£76</td></tr><tr><td>Demanding work</td><td>200 W</td><td>5.2p</td><td>£76</td><td>£153</td></tr><tr><td>Heavy gaming / rendering</td><td>350 W</td><td>9.1p</td><td>£134</td><td>£268</td></tr></tbody></table><p class=\"ev-note\">At 26.11p per kWh, Ofgem cap July to September 2026. Figures exclude the monitor.</p><p>The table assumes the PC tower alone. Most people leave the machine on for far fewer hours than they think they do, so be honest about your real pattern. Four hours of genuine use a day is a heavy home user. If you find your figure higher than expected, the cause is almost always either a power-hungry graphics card or a machine left running around the clock.</p>"
+    },
+    {
+      "h2": "Do not forget the monitor",
+      "html": "<p>People quote desktop costs as if the screen were free. It is not. A typical 24 to 27 inch LED monitor draws somewhere between 20 and 40 watts in normal use, and a large or high-refresh gaming display can pull 60 watts or more. On a normal home setup the monitor can add a third again to your running cost.</p><p>A 30 watt monitor used for eight hours a day costs about £23 a year at the cap rate. Two monitors double that. The good news is that screens are easy to tame. Set the display to sleep after a few minutes of inactivity, drop the brightness from the factory default (which is usually far higher than you need), and the monitor effectively stops costing you anything while you are away from the desk. The same logic that applies to your <a href=\"television-and-entertainment-energy.html\">television and entertainment kit</a> applies here.</p>"
+    },
+    {
+      "h2": "Sleep, standby and leaving it on",
+      "html": "<p>The biggest saving for most desktop owners is not buying new hardware. It is what the machine does when you walk away. A desktop has three rest states, and the difference between them is large:</p><ul><li><strong>Sleep mode</strong> typically draws 3 to 5 watts. Over a full day of being asleep that is pennies, and the machine wakes in a second or two.</li><li><strong>Fully shut down</strong> draws almost nothing, usually under 2 watts for the standby circuitry that lets the power button work.</li><li><strong>Left fully on and idle</strong> still draws 40 to 60 watts or more, doing nothing useful.</li></ul><p>Leaving a 50 watt machine running overnight, every night, for the 16 hours you are not using it, costs around £76 a year on its own. Setting it to sleep instead cuts that to a few pounds. This is the same trap that catches the rest of the house, and we cover the wider picture in <a href=\"standby-power-the-full-story.html\">standby power, the full story</a>. The modern advice is simple: let the computer sleep after 15 to 30 minutes of inactivity, and shut it down fully if you will not use it for a day or more. The old worry that frequent on/off cycles wear out the hardware no longer holds for current machines.</p>"
+    },
+    {
+      "h2": "How to measure your own machine",
+      "html": "<p>Every estimate on this page is a starting point. Your tower could be a low-power mini PC or a water-cooled monster, and the only way to know for certain is to measure. A plug-in energy monitor costs under £20, sits between the wall and your PC, and shows live watts and accumulated kWh. Plug the tower and monitor into it on an extension block and you capture the whole desk in one reading.</p><p>Run it for a normal week, note the kWh used, and multiply by your unit rate from your bill. That gives you a real annual figure rather than a guess. Our guide to <a href=\"using-a-plug-in-energy-monitor.html\">using a plug-in energy monitor</a> walks through the method, and the same kit will tell you the truth about every other mystery appliance in the house. If you would rather compare typical figures across the home first, the <a href=\"appliance-running-cost.html\">appliance running cost</a> hub puts a desktop alongside everything else you own.</p>"
+    },
+    {
+      "h2": "The bottom line",
+      "html": "<p>For most people, a desktop computer is a modest cost rather than a major one. A normal home or office machine used for a few hours a day runs at roughly £30 to £75 a year, with the monitor adding £15 to £30 on top. The numbers only get serious if you have a high-end graphics card under heavy load, or if the machine is left running at idle around the clock.</p><p>Two habits do almost all the work. First, let the machine and the screen sleep when you step away rather than leaving them idling. Second, measure rather than guess, because a £20 plug-in monitor will tell you in a week exactly where your machine sits on the scale. If your figure is at the high end, the graphics card is the place to look, and a <a href=\"laptop-running-cost.html\">laptop</a> is worth considering for general use, since it does the same everyday jobs for a fraction of the power.</p>"
+    }
+  ],
+  "faq": [
+    {
+      "q": "Is it cheaper to leave my desktop in sleep mode or shut it down?",
+      "a": "Shutting down fully is marginally cheaper, since standby draw is under 2 watts versus 3 to 5 watts in sleep. The difference over a night is a fraction of a penny, so the practical advice is to use sleep for short breaks during the day and shut down fully if you will not use the machine for many hours. Both are far cheaper than leaving it running idle at 40 to 60 watts."
+    },
+    {
+      "q": "Does a desktop use a lot more electricity than a laptop?",
+      "a": "Yes, usually several times more for the same tasks. A laptop is designed to run on a battery, so it sips power and often draws 15 to 60 watts. A desktop tower plus monitor commonly draws 70 to 150 watts in normal use. If your work does not need desktop power, a laptop is the cheaper machine to run."
+    },
+    {
+      "q": "How much does it cost to leave a desktop on 24 hours a day?",
+      "a": "An idle desktop drawing 50 watts left on all day and night uses about 1.2 kWh a day, which is roughly 31p, or about £114 a year at 26.11p per kWh. Add the monitor and a higher idle draw and it climbs further. Setting the machine to sleep when not in use removes almost all of that cost."
+    },
+    {
+      "q": "Does the size of my power supply affect how much it costs to run?",
+      "a": "Not directly. The wattage printed on the PSU is its maximum output, not what it draws. A machine with a 750 watt supply still only pulls what its components demand, which might be 80 watts at idle. A higher quality, higher efficiency supply does waste slightly less power, but the components inside the case decide your bill far more than the PSU rating."
+    },
+    {
+      "q": "How do I work out the running cost for my exact computer?",
+      "a": "Plug a cheap energy monitor between the wall and your PC, run it for a typical week, and read off the kWh used. Multiply that weekly figure by 52, then by your unit rate in pence per kWh from your bill. That gives a real annual cost for your machine and monitor together, with no guesswork about wattage."
+    }
+  ]
+}
