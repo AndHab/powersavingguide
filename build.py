@@ -7951,6 +7951,130 @@ PAGES['smart-export-guarantee-explained'] = dict(
 )
 
 
+PAGES['what-uses-the-most-electricity-in-your-home'] = dict(
+    title='What uses the most electricity in your home',
+    description='A clear ranking of the biggest electricity users in a typical UK home, why heating water and rooms dominates the bill, how short high-power bursts add up, and how to find your own worst offenders.',
+    active="guides",
+    blurb='Lighting and gadgets rarely move the bill. Heat is what costs. Here is what really drives a UK electricity bill, ranked.',
+    body='''
+  <section class="section"><div class="wrap prose">
+    <style>
+      .ev-key{background:var(--paper-alt,#f4f1ea);border:1px solid var(--line);border-radius:12px;padding:18px 22px;margin:6px 0 8px}
+      .ev-key p{margin:0}
+      .ev-table{width:100%;border-collapse:collapse;margin:14px 0;font-size:.97rem}
+      .ev-table th,.ev-table td{border:1px solid var(--line);padding:9px 12px;text-align:left}
+      .ev-table th{background:var(--paper-alt,#f4f1ea);font-weight:600}
+      .ev-table td:not(:first-child),.ev-table th:not(:first-child){text-align:right}
+      .ev-note{font-size:.9rem;color:var(--ink-soft,#5b5b5b)}
+      @media(max-width:560px){.ev-table{font-size:.86rem}.ev-table th,.ev-table td{padding:7px 8px}}
+    </style>
+
+    <p class="lede">Ask most people what is driving their electricity bill and the answer comes back as lights left on, the television, or a phone charger forgotten in the wall. Those guesses are nearly always wrong. The things that actually empty a UK electricity bill are the appliances that make heat, because turning electricity into warmth takes a great deal of energy. A bulb sips power; a kettle gulps it. This guide ranks where the money really goes in a typical home, explains why a two minute job can cost more than a gadget left on all day, and shows you how to pin down your own biggest users rather than guessing.</p>
+
+    <div class="ev-key">
+      <p><strong>The short answer.</strong> Anything that heats water or air is the big spender: electric showers, immersion heaters, kettles, washing machines and tumble dryers, ovens and electric heaters. Cold appliances (fridges and freezers) cost a fair bit too, not because they pull much power but because they never switch off. Lighting, televisions, laptops and chargers are usually a small slice of the bill, even in a house full of them. If you want to cut the bill, start with the heat, not the gadgets.</p>
+    </div>
+
+    <h2>The rule that explains your whole bill: heat is expensive</h2>
+<p>Every appliance has a power rating in watts, and your bill is set by that power multiplied by the hours it runs. The catch is that the appliances which make heat draw enormous power compared with everything else. An LED bulb might draw 8 watts. A laptop draws perhaps 50 watts while charging. A kettle draws around 3,000 watts, an electric shower 8,500 to 10,500 watts, and a tumble dryer 2,500 watts. Heat-making appliances are simply in a different league, often hundreds of times hungrier than the electronics people worry about.</p>
+<p>That is why the famous advice to switch off a standby light or unplug a charger barely shows up on the bill, while a long daily shower or a few tumble dryer loads a week genuinely does. The principle behind all of it is the kilowatt hour, the unit your meter counts and your supplier charges for; if that is not yet second nature, our explainer on <a href="what-is-a-kwh.html">what a kWh is</a> walks through the sums slowly. Once you think in kWh, the ranking below stops being surprising and starts being obvious.</p>
+
+    <h2>The biggest users, ranked</h2>
+<p>Here is a rough ranking for a typical home, with illustrative daily costs at an example price of 26p per kWh. Your own figures will differ with how long you run each appliance, but the order rarely changes.</p>
+<table class="ev-table"><thead><tr><th>Appliance</th><th>Typical power</th><th>Illustrative cost in use</th></tr></thead><tbody><tr><td>Electric shower</td><td>8.5 to 10.5 kW</td><td>about 40p to 55p per 10 minutes</td></tr><tr><td>Immersion heater</td><td>3 kW</td><td>about 78p per hour</td></tr><tr><td>Tumble dryer (vented or condenser)</td><td>2.5 kW</td><td>about 90p to £1.30 per cycle</td></tr><tr><td>Oven</td><td>2 to 2.5 kW</td><td>about 50p to 80p per hour of cooking</td></tr><tr><td>Electric heater</td><td>2 kW</td><td>about 52p per hour</td></tr><tr><td>Washing machine</td><td>0.5 to 2 kW (mostly the heat)</td><td>about 20p to 50p per cycle</td></tr><tr><td>Kettle</td><td>3 kW</td><td>about 2.5p per boil</td></tr><tr><td>Fridge freezer</td><td>tiny, but always on</td><td>about 20p to 40p per day</td></tr><tr><td>Television</td><td>50 to 120 W</td><td>about 1p to 3p per evening</td></tr><tr><td>LED lighting (whole house)</td><td>a few watts each</td><td>a few pence per day</td></tr></tbody></table><p class="ev-note">Illustrative figures at an example 26p per kWh to show the order of magnitude, not a quote. Actual costs depend on the model and how long you run it.</p>
+<p>Notice how the kettle, despite a scary 3 kW rating, costs almost nothing per boil because it runs for under three minutes. Power alone does not decide the bill; power multiplied by time does. The expensive items are the ones that combine high power with real running time, which is why showers, immersion heaters and dryers sit at the top.</p>
+
+    <h2>Heating water: the quiet giant</h2>
+<p>For most homes, heating water is the single largest electrical cost after space heating, and it hides in plain sight. An electric shower is effectively a small instant water heater bolted to the wall, pulling around 9 kW while it runs. Two ten minute showers a day, every day, can add up to a meaningful chunk of the bill on their own. The fix is rarely to shower less; it is to shower for less time and at a slightly lower flow, which our guide to <a href="electric-shower-cost.html">electric shower running costs</a> works through with numbers.</p>
+<p>The immersion heater is the other water heavyweight. A 3 kW element heating a full cylinder can run for a couple of hours to bring a tank up to temperature, so an hour or two a day quietly becomes one of the larger lines on the bill. If you rely on an immersion rather than a gas boiler for hot water, the timing and the cylinder insulation matter a great deal; see <a href="immersion-heater-cost.html">immersion heater costs</a> for how to run it cheaply, ideally on a cheaper overnight rate if you have one.</p>
+
+    <h2>Heating rooms with electricity: the most expensive habit of all</h2>
+<p>If you heat any part of the home with plug-in electric heaters, that will usually dwarf everything else here. A single 2 kW heater costs around 52p an hour at the example rate, so running one through a cold evening costs a few pounds, and running several around the house turns into the biggest item on the bill by a wide margin. Electric heating is not inefficient (almost all the energy becomes heat), it is just that electricity itself is dear per kWh compared with gas. People reach for a portable heater thinking it is the frugal option and end up spending far more than running the central heating would have. The trade-offs are laid out in <a href="gas-vs-electric-heating-cost.html">gas versus electric heating costs</a>.</p>
+
+    <h2>The kitchen: short bursts, high power</h2>
+<p>The kitchen is full of high-wattage appliances, but most run only briefly, so the cost depends entirely on how long the heat is on. The oven is the kitchen's biggest user because it stays hot for an hour or more, holding a couple of kilowatts the whole time. A hob, a microwave or an air fryer used for a quick job costs far less. The washing machine looks like a modest user until you realise that almost all its electricity goes into heating the water, which is why dropping the temperature makes such a difference, and why the tumble dryer, which has to evaporate water out of soaking clothes, is one of the priciest appliances most homes own. Drying clothes on a rack or line instead, when you can, sidesteps that cost entirely.</p>
+
+    <h2>Cold appliances and the always-on background load</h2>
+<p>Fridges and freezers are a different kind of cost. Each one draws very little at any moment, but it runs every hour of every day all year, so the small numbers accumulate. A single fridge freezer might use somewhere between 200 and 400 kWh a year, which is real money even though you never see it spike. An old, poorly sealed or badly sited unit can use far more, so this is one of the few cases where the age and condition of an appliance, not your behaviour, drives the bill.</p>
+<p>Then there is the background hum of a modern home: the broadband router, the smart speakers, the television on standby, the boiler's controls, the doorbell, the chargers. Individually these are tiny. Added together they form a constant baseline load that runs day and night, and while no single one is worth chasing, the total can be 10 per cent or so of a household's electricity. In practice, switching off a few of them saves pennies, but understanding the baseline helps you read your bill; our guide to <a href="standby-power-the-full-story.html">standby power</a> separates the items worth switching from the ones not worth the bother.</p>
+
+    <h2>How to find your own biggest users</h2>
+<p>General rankings only get you so far, because your home is not average. The reliable way to know what is costing you is to measure. A plug-in energy monitor, a cheap device that sits between an appliance and the socket, tells you exactly what that appliance draws and what it costs over a day or a week. Put it on the tumble dryer, the fridge, the games console, anything you are unsure about, and the guesswork disappears. Our guide to <a href="using-a-plug-in-energy-monitor.html">using a plug-in energy monitor</a> explains how to read one.</p>
+<p>For the things that cannot be unplugged, like an electric shower or a hardwired cooker, the appliance ranking and a bit of arithmetic do the job: power in kW, multiplied by hours used, multiplied by your unit rate. You can run those numbers for any appliance in seconds with the <a href="appliance-running-cost.html">running-cost calculator</a>, which is the fastest way to turn a vague worry into a real figure and decide whether it is worth acting on.</p>
+
+    <h2>The bottom line</h2>
+<p>The electricity bill is dominated by heat, not gadgets. Showers, immersion heaters, electric room heaters, ovens, washing machines and tumble dryers are where the money goes, because they combine high power with real running time. Cold appliances cost a steady amount simply by never switching off, and the always-on background load is a small but constant baseline. Lighting and electronics, the things people instinctively blame, are usually a minor part of the total. So if you want a smaller bill, spend your effort on shorter showers, cooler washes, line drying, and being careful with electric heating, and measure anything you are unsure about rather than guessing. Start with the <a href="appliance-running-cost.html">running-cost calculator</a> to see your own numbers.</p>
+
+  </div></section>
+  <script type="application/ld+json">{"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"What uses the most electricity in a typical UK home?","acceptedAnswer":{"@type":"Answer","text":"Appliances that make heat use the most: electric showers, immersion heaters, electric room heaters, ovens, washing machines and tumble dryers. They combine high power ratings with real running time. Fridges and freezers also cost a fair amount because they run constantly, while lighting, televisions and chargers are usually a small part of the bill."}},{"@type":"Question","name":"Do phone chargers and standby devices waste a lot of electricity?","acceptedAnswer":{"@type":"Answer","text":"Not really. Chargers and devices on standby draw only a few watts, so switching them off saves pennies rather than pounds. The constant background load of routers, set-top boxes and chargers together might be around 10 per cent of a home's electricity, but no single item is worth chasing. Heat-making appliances matter far more."}},{"@type":"Question","name":"Why does a kettle cost so little despite its high power?","acceptedAnswer":{"@type":"Answer","text":"A kettle draws about 3 kW, which sounds a lot, but it runs for under three minutes per boil, so a single boil costs only around 2 to 3p. The bill is set by power multiplied by time, so a high-power appliance that runs briefly costs little, while a lower-power appliance left on for hours can cost more."}},{"@type":"Question","name":"How can I find out which appliance is costing me the most?","acceptedAnswer":{"@type":"Answer","text":"Use a plug-in energy monitor that sits between an appliance and the socket and shows exactly what it draws and costs over a day or week. For hardwired items like a shower or cooker, multiply the power in kilowatts by the hours used by your unit rate, or use an online running-cost calculator to do the sum."}}]}</script>
+''',
+)
+
+PAGES['wood-burning-stove-running-cost'] = dict(
+    title='Wood burning stove running cost',
+    description='What a wood burning stove really costs to run in the UK: pricing a kWh of wood heat, why how you buy logs matters more than anything, a worked example of a winter season, and the costs people forget.',
+    active="guides",
+    blurb='A stove can be cheap heat or dear heat depending almost entirely on how you buy your wood. Here is the real arithmetic.',
+    body='''
+  <section class="section"><div class="wrap prose">
+    <style>
+      .ev-key{background:var(--paper-alt,#f4f1ea);border:1px solid var(--line);border-radius:12px;padding:18px 22px;margin:6px 0 8px}
+      .ev-key p{margin:0}
+      .ev-table{width:100%;border-collapse:collapse;margin:14px 0;font-size:.97rem}
+      .ev-table th,.ev-table td{border:1px solid var(--line);padding:9px 12px;text-align:left}
+      .ev-table th{background:var(--paper-alt,#f4f1ea);font-weight:600}
+      .ev-table td:not(:first-child),.ev-table th:not(:first-child){text-align:right}
+      .ev-note{font-size:.9rem;color:var(--ink-soft,#5b5b5b)}
+      @media(max-width:560px){.ev-table{font-size:.86rem}.ev-table th,.ev-table td{padding:7px 8px}}
+    </style>
+
+    <p class="lede">A wood burning stove sits in an odd spot on the energy map. People fit one for the look and the feel of a real fire, then quietly hope it is also saving them money. Whether it does depends almost entirely on one thing: where your logs come from and what you pay for them. The same stove, in the same room, can be among the cheapest heat in the house or among the dearest, separated only by how you buy the wood. This guide prices a stove honestly, in pence per kWh of heat like everything else on the site, shows why a small forecourt net of logs is the worst way to buy and a bulk load the best, and works through a full winter season so you can see whether a stove pays for the room you actually use it in.</p>
+
+    <div class="ev-key">
+      <p><strong>The short answer.</strong> Dry wood holds roughly 4 kWh of energy per kilogram at the right moisture level, and a modern stove turns about three quarters of that into useful heat, so call it 3 kWh of warmth per kg of good logs. The cost per kWh then swings wildly with how you buy: small nets from a garage forecourt can work out around 20p per kWh, dearer than gas, while a bulk load of seasoned logs can be 7p or less, and free, well dried wood is close to nothing. The stove itself barely matters next to the price of fuel going into it.</p>
+    </div>
+
+    <h2>When a stove saves money, and when it does not</h2>
+<p>A stove earns its keep when it lets you heat the room you are actually sitting in while turning the central heating down, and when the wood is cheap. Spend a winter evening in one warm living room with the rest of the house ticking over cooler, fuelled by logs you bought in bulk or gathered yourself, and a stove is some of the cheapest comfort you can buy. The savings come from heating one space well rather than the whole house, which is the same logic that makes heating one room cheaper in general.</p>
+<p>It stops saving money the moment the wood gets expensive or the heat goes to waste. If you buy logs in small bags at convenience prices, you may be paying more per kWh than you would for the gas central heating you are trying to avoid. And if the stove heats a room nobody is using, or the fire roars away while windows are cracked open because it is too hot, the money goes straight up the chimney. A stove is a tool for cheap, focused heat; used as a decorative bonfire it is an expensive hobby.</p>
+
+    <h2>What a kWh of wood heat actually costs</h2>
+<p>To compare a stove with anything else, get the wood onto pence per kWh of useful heat. Two numbers do it. Properly dried wood, at around 20 per cent moisture, holds close to 4 kWh per kilogram. A modern stove runs at roughly 75 to 80 per cent efficiency, so each kilogram delivers about 3 kWh of heat into the room. Wet or unseasoned wood ruins this: a log at 40 or 50 per cent moisture wastes much of its energy boiling off water before it can warm you, which is why moisture content matters more than the species of tree.</p>
+<p>Now the price, which is where stoves live or die. The same wood costs very different amounts depending on how you buy it:</p>
+<table class="ev-table"><thead><tr><th>How you buy the wood (illustrative)</th><th>Example price</th><th>Cost per kWh of heat</th></tr></thead><tbody><tr><td>Small nets from a forecourt or shop</td><td>about 60p per kg</td><td>about 20p</td></tr><tr><td>Bulk kiln-dried logs, by the load</td><td>about 35p per kg</td><td>about 12p</td></tr><tr><td>Bulk seasoned hardwood, by the load</td><td>about 20p per kg</td><td>about 7p</td></tr><tr><td>Free wood you season yourself</td><td>near zero</td><td>near zero, plus your time</td></tr></tbody></table><p class="ev-note">Illustrative prices to show the method, not current quotes. Wood prices vary a lot by region, season, species and order size. Assumes about 3 kWh of useful heat per kg of well dried wood.</p>
+<p>For context, mains gas heat sits around 8p to 9p per kWh once you allow for boiler losses, and standard electric heating is well over 20p. So bulk seasoned logs undercut gas, bulk kiln-dried is roughly level with it, and small forecourt nets are dearer than gas and not far off electric heating. The lesson is blunt: the cheapest stove and the priciest are the same appliance, and the difference is entirely in the woodpile.</p>
+
+    <h2>Buying wood: seasoned, kiln-dried and Ready to Burn</h2>
+<p>Three terms decide what you are really buying. Seasoned wood has been cut and stacked to air dry for a year or two, which brings the moisture down naturally. Kiln-dried wood has been dried mechanically to a low, reliable moisture level, which is why it lights easily and burns clean, and why it costs more. In England, wood sold in small volumes must now carry the Ready to Burn label, which certifies it is dry enough to burn properly; buying anything unlabelled and damp is a false economy because you pay for water that fights your heat.</p>
+<p>The single biggest saving is to buy in bulk and store it well. A load delivered by the cubic metre or tonne is far cheaper per kilogram than the same wood in small nets, exactly the way a big bag of anything beats single servings. The catch is that you need dry, airy storage: a log store, a covered side return, anything that keeps rain off while letting air through. Buy cheaper seasoned wood a season ahead, stack it under cover, and you get kiln-dried performance at a fraction of the price. If you have access to free offcuts, fallen timber or pallet wood, seasoning it yourself for a year takes the cost to almost nothing, though never burn painted, treated or manufactured boards, which give off harmful fumes and gum up the flue.</p>
+
+    <h2>A worked example: a winter of stove heat</h2>
+<p>Picture a 5 kW stove used as the main heat for a living room on winter evenings. Run flat out it would put out 5 kW, but in normal use you damp it down, so call it an average 3.5 kW of heat over an evening. Four hours an evening is therefore about 14 kWh of heat, which at 3 kWh per kg needs a little under 5 kg of wood a night.</p>
+<p>Across a heating season of roughly 150 evenings, that is about 700 kg of wood, near enough three quarters of a tonne. Price it three ways:</p>
+<ul><li>At an illustrative 20p per kg for bulk seasoned logs, around £140 for the winter.</li><li>At 35p per kg for bulk kiln-dried, around £245.</li><li>At 60p per kg for forecourt nets, around £420.</li></ul>
+<p>Now weigh that against what it displaces. If the stove lets you keep the gas central heating turned down while you sit in the one warm room, the relevant comparison is the gas you no longer burn heating the whole house, which over a winter can run to a few hundred pounds. Bought sensibly, the stove comes out ahead and pays for its fuel several times over in comfort. Bought as forecourt nets, the sums get marginal, and you may be spending as much on logs as you saved on gas. You can plug your own evenings, hours and wood price into the <a href="appliance-running-cost.html">running-cost calculator</a> to see where your stove lands, and our guide to the <a href="cost-to-heat-a-house-uk.html">cost of heating a house</a> covers the whole-home side of the comparison.</p>
+
+    <h2>Getting more heat from every log</h2>
+<p>Once the wood is cheap and dry, a few habits squeeze more warmth from each kilogram:</p>
+<ul><li><strong>Burn dry wood only.</strong> This is the whole game. Wet logs waste a third or more of their energy and tar up the flue. A cheap moisture meter pays for itself; aim for 20 per cent or below.</li><li><strong>Run the stove hot, then damp down.</strong> Get a brisk fire going so the flue is hot and the burn is clean, then reduce the air to hold a steady output. A starved, smouldering fire wastes fuel and dirties the glass and chimney.</li><li><strong>Do not overfire or overheat the room.</strong> Opening windows to dump excess heat is money burned. Match the fire to the room rather than loading it up out of habit.</li><li><strong>Keep the chimney swept.</strong> An annual sweep keeps the burn efficient and, more importantly, safe. A blocked or tarry flue is both wasteful and a fire risk.</li><li><strong>Stop the heat escaping the room.</strong> A warm living room loses heat through draughts and an open chimney elsewhere; basic <a href="draught-proofing.html">draught-proofing</a> and a <a href="chimney-draught-excluder.html">chimney draught excluder</a> in unused fireplaces keep the warmth where you are paying to make it.</li></ul>
+
+    <h2>The costs people forget</h2>
+<p>The logs are only part of the picture. A stove has standing costs that a fair comparison has to include. Installation is the big one: a stove fitted properly, with a lined flue and certified by a competent installer, runs into four figures before you burn a single log, and a brand new chimney or flue system costs more again. That is a one-off, but it means a stove only makes financial sense over years of use, not one cold snap.</p>
+<p>Then there are the running extras: an annual chimney sweep, the occasional rope seal or fire brick, a carbon monoxide alarm in the room (which is a legal requirement for a new install and a sensible one for any), and somewhere dry to store wood. None of these is large on its own, but together they mean the true cost per winter is a bit above the bare price of the logs. Air quality is worth a thought too, both indoors and out; burning only dry, certified wood in a clean modern stove keeps emissions down and the flue healthy.</p>
+
+    <h2>Stove versus the alternatives</h2>
+<p>As a primary heat source, a stove competes with the boiler and with electric heating. Against gas central heating, a stove burning cheap, dry, bulk wood is competitive or cheaper for heating the one room you live in on winter evenings, which is its natural job. It will not heat the whole house evenly or come on by timer before you wake, so it works best alongside central heating rather than instead of it.</p>
+<p>Against plug-in electric heaters it usually wins comfortably on running cost, since even forecourt logs tend to beat electricity per kWh, though the electric heater has no installation cost and no chimney to sweep. And against a <a href="heat-pumps-explained.html">heat pump</a>, the comparison is really about different jobs: a heat pump heats the whole home steadily and cheaply once installed, while a stove gives intense, occasional heat in one room with a real flame. Many people end up with both, using the stove for the evenings they want it and the main system for everything else. The wider running-cost picture for each option is laid out in <a href="gas-vs-electric-heating-cost.html">gas versus electric heating costs</a>.</p>
+
+    <h2>The bottom line</h2>
+<p>A wood burning stove costs whatever your wood costs, and almost nothing else moves the figure as much. Reckon on about 3 kWh of useful heat per kilogram of well dried logs, then let the buying decide everything: bulk seasoned wood, stored dry, can undercut gas at around 7p per kWh, while small forecourt nets at 20p are dearer than the heating you are trying to replace. Burn only dry, certified wood, run the fire hot then damp it down, keep the flue swept, and use the stove to heat the room you are in rather than the whole house. Do all that and a stove is cheap, pleasant heat; skip it and you have an expensive way to watch a fire. Price your own setup with the <a href="appliance-running-cost.html">running-cost calculator</a> before deciding how much of your heating to hand over to it.</p>
+
+  </div></section>
+  <script type="application/ld+json">{"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"How much does it cost to run a wood burning stove?","acceptedAnswer":{"@type":"Answer","text":"It depends almost entirely on how you buy your wood. Well dried logs give about 3 kWh of useful heat per kilogram. Bought as a bulk load of seasoned wood that can be around 7p per kWh of heat, cheaper than gas, while small nets from a forecourt can be around 20p per kWh, dearer than gas. A typical winter of evening use might burn around three quarters of a tonne of wood."}},{"@type":"Question","name":"Is a wood burning stove cheaper than central heating?","acceptedAnswer":{"@type":"Answer","text":"For heating one room you are sitting in on winter evenings, a stove burning cheap, dry, bulk wood is competitive with or cheaper than running gas central heating for the whole house. It is not a replacement for central heating across the home, and small bags of expensive logs can cost more than the gas you save. The stove works best alongside a main heating system."}},{"@type":"Question","name":"What is the cheapest way to buy logs for a stove?","acceptedAnswer":{"@type":"Answer","text":"Buy in bulk by the cubic metre or tonne rather than in small nets, which are far dearer per kilogram. Cheaper seasoned wood bought a season ahead and stored under cover in an airy log store performs like pricier kiln-dried wood. Free offcuts or fallen timber seasoned yourself for a year cost almost nothing, but never burn painted, treated or manufactured boards."}},{"@type":"Question","name":"Why does dry wood matter so much?","acceptedAnswer":{"@type":"Answer","text":"Wet or unseasoned wood wastes much of its energy boiling off water before it can warm the room, so you pay for heat you never feel, and it tars up the flue. Aim for around 20 per cent moisture or below, which is what seasoned or kiln-dried wood and the Ready to Burn label indicate. A cheap moisture meter quickly pays for itself."}}]}</script>
+''',
+)
+
+
 GUIDES_ORDER = [
     # Flagship batch - live today
     "is-it-cheaper-to-leave-heating-on-all-day", "what-temperature-should-i-set-my-thermostat",
@@ -7968,6 +8092,7 @@ GUIDES_ORDER = [
     "heat-pumps-explained", "heat-pump-running-cost-vs-gas-boiler",
     "portable-heaters-running-cost", "electric-blanket-vs-heating",
     "storage-heaters-explained", "oil-central-heating-running-cost",
+    "wood-burning-stove-running-cost",
     # Hot water
     "hot-water-savings", "cylinder-jacket-and-pipe-lagging", "immersion-heater-cost",
     "low-flow-showerheads",
@@ -7979,6 +8104,7 @@ GUIDES_ORDER = [
     "induction-vs-gas-hob", "using-a-plug-in-energy-monitor",
     "television-and-entertainment-energy", "broadband-router-always-on",
     "drying-clothes-without-a-tumble-dryer", "dehumidifier-running-cost", "energy-labels-explained",
+    "what-uses-the-most-electricity-in-your-home",
     # Bills, tariffs and meters
     "understanding-energy-bill", "switching-suppliers", "smart-meters-explained",
     "economy-7-and-night-rates", "time-of-use-tariffs-explained", "standing-charges-explained",
