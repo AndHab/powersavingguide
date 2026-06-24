@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en-GB">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Immersion heater cost calculator | Power Saving Guide</title>
+  <meta name="description" content="Work out what an immersion heater costs to run. Enter its power, how long it runs and your electricity rate to see the cost per heat-up, per week and per year.">
+  <link rel="canonical" href="https://powersavingguide.com/immersion-heater-cost-calculator.html">
+  <meta name="robots" content="index, follow">
+  <meta property="og:site_name" content="Power Saving Guide">
+  <meta property="og:type" content="article">
+  <meta property="og:title" content="Immersion heater cost calculator | Power Saving Guide">
+  <meta property="og:description" content="Work out what an immersion heater costs to run. Enter its power, how long it runs and your electricity rate to see the cost per heat-up, per week and per year.">
+  <meta property="og:url" content="https://powersavingguide.com/immersion-heater-cost-calculator.html">
+  <meta property="og:locale" content="en_GB">
+  <meta name="twitter:card" content="summary">
+  <script type="application/ld+json">{"@context": "https://schema.org", "@type": "Article", "headline": "Immersion heater cost calculator", "description": "Work out what an immersion heater costs to run. Enter its power, how long it runs and your electricity rate to see the cost per heat-up, per week and per year.", "datePublished": "2026-06-03", "dateModified": "2026-06-25", "inLanguage": "en-GB", "mainEntityOfPage": "https://powersavingguide.com/immersion-heater-cost-calculator.html", "author": {"@type": "Organization", "name": "Power Saving Guide"}, "publisher": {"@type": "Organization", "name": "Power Saving Guide"}}</script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,600&family=Inter:wght@400;500;600&display=swap" rel="stylesheet" media="print" onload="this.media='all'">
+  <noscript><link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,600&family=Inter:wght@400;500;600&display=swap" rel="stylesheet"></noscript>
+  <script data-goatcounter="https://stats.powersavingguide.com/count" async src="//stats.powersavingguide.com/count.js"></script><script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('consent','default',{ad_storage:'granted',ad_user_data:'granted',ad_personalization:'granted',analytics_storage:'granted'});gtag('consent','default',{region:['AT','BE','BG','HR','CY','CZ','DK','EE','FI','FR','DE','GR','HU','IE','IT','LV','LT','LU','MT','NL','PL','PT','RO','SK','SI','ES','SE','IS','LI','NO','GB','CH'],ad_storage:'denied',ad_user_data:'denied',ad_personalization:'denied',analytics_storage:'denied',wait_for_update:500});</script><script async src="https://www.googletagmanager.com/gtag/js?id=G-8FYB114413"></script><script>gtag('js',new Date());gtag('config','G-8FYB114413');</script><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-7059699192160095" crossorigin="anonymous"></script>
+</head>
+<body>
+  <nav class="nav--bar"><div class="wrap nav-inner">
+    <a class="brand" href="index.html">Power Saving Guide</a>
+    <input type="checkbox" id="nt" class="navtoggle">
+    <label for="nt" class="navburger" aria-label="Menu">≡</label>
+    <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="electricity.html">Electricity</a></li>
+        <li><a href="heating.html">Heating &amp; gas</a></li>
+        <li><a href="driving.html">Fuel &amp; driving</a></li>
+        <li><a href="calculators.html" class="active">Calculators</a></li>
+        <li><a href="guides.html">Guides</a></li>
+        <li><a href="about.html">About</a></li>
+    </ul>
+  </div></nav>
+
+  <header class="page-head"><div class="wrap"><h1>Immersion heater cost calculator</h1></div></header>
+  <main>
+
+  <section class="section"><div class="wrap prose">
+    <p class="lede">An immersion heater is an electric element that heats a tank of water, usually rated around 3kW. Enter its power, how long it runs to heat the tank and your rate to see the cost.</p>
+    <div class="ecalc">
+      <div class="row">
+      <div class="field"><label for="kw">Element power (kW)</label><input id="kw" type="number" inputmode="decimal" step="0.1" min="0" value="3"></div>
+      <div class="field"><label for="hours">Hours per heat-up</label><input id="hours" type="number" inputmode="decimal" step="0.25" min="0" value="1.5"></div>
+      </div>
+      <div class="row">
+      <div class="field"><label for="rate">Price per kWh (pence)</label><input id="rate" type="number" inputmode="decimal" step="0.01" min="0" value="26.11"></div>
+      <div class="field"><label for="week">Heat-ups per week: <output id="week_o">7</output></label><input id="week" type="range" min="1" max="21" step="1" value="7" oninput="document.getElementById('week_o').textContent=this.value+''"></div>
+      </div>
+      <div class="res" id="res"></div>
+    </div>
+    <script>
+(function(){
+  function v(id){var x=parseFloat(document.getElementById(id).value);return isNaN(x)||x<0?0:x;}
+  function go(){
+    var per=v('kw')*v('hours')*v('rate')/100, wk=per*v('week');
+    document.getElementById('res').innerHTML=
+      '<div class="big">£'+per.toFixed(2)+'<span> per heat-up</span></div>'+
+      '<div class="grid3">'+
+      '<div class="b"><div class="n">£'+wk.toFixed(2)+'</div><div class="l">per week</div></div>'+
+      '<div class="b"><div class="n">£'+(wk*4.33).toFixed(0)+'</div><div class="l">per month</div></div>'+
+      '<div class="b"><div class="n">£'+(wk*52).toFixed(0)+'</div><div class="l">per year</div></div></div>'+
+      '<p style="margin-top:12px;color:var(--muted)">A good cylinder jacket and a timer cut the run time, and on Economy 7 you can heat on the cheap night rate.</p>';
+  }
+  ['kw','hours','rate','week'].forEach(function(id){var e=document.getElementById(id);if(e)e.addEventListener('input',go);});
+  go();
+})();
+    </script>
+<div class="formula"><b>The formula:</b> cost per heat-up = power (kW) &times; hours &times; rate &divide; 100</div>
+    <p>Heating water with electricity is dearer than with gas, so an immersion is most economical as a backup, or run on a cheap night rate, or topped up rather than reheating a cold tank. A well-lagged cylinder holds its heat for hours and needs less reheating. See <a href="immersion-heater-cost.html">immersion heater cost</a> and <a href="hot-water-savings.html">hot water savings</a>.</p>
+    <h2>Common questions</h2>
+    <p><strong>How much does an immersion heater cost to run?</strong><br>A 3kW immersion running 1.5 hours uses 4.5 kWh, about £1.17 at 26.11p. Daily, that is roughly £8 a week, which is why timing and lagging matter.</p>
+    <p><strong>Is it cheaper to leave the immersion on or switch it on when needed?</strong><br>For most homes, heat on a timer for when you need hot water rather than leaving it on, and lag the cylinder well so the stored heat lasts. Constant reheating of a poorly insulated tank wastes the most.</p>
+    <script type="application/ld+json">{"@context": "https://schema.org", "@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": "How much does an immersion heater cost to run?", "acceptedAnswer": {"@type": "Answer", "text": "A 3kW immersion running 1.5 hours uses 4.5 kWh, about £1.17 at 26.11p. Daily, that is roughly £8 a week, which is why timing and lagging matter."}}, {"@type": "Question", "name": "Is it cheaper to leave the immersion on or switch it on when needed?", "acceptedAnswer": {"@type": "Answer", "text": "For most homes, heat on a timer for when you need hot water rather than leaving it on, and lag the cylinder well so the stored heat lasts. Constant reheating of a poorly insulated tank wastes the most."}}]}</script>
+  </div></section>
+
+  </main>
+  <footer class="footer"><div class="wrap">
+    <p class="foot-brand">Power Saving Guide</p>
+    <p>A practical, independent guide to cutting your electricity, gas and fuel bills. Plain advice, no gadgets to buy.</p>
+    <p class="foot-links"><a href="electricity.html">Electricity</a> · <a href="heating.html">Heating &amp; gas</a> · <a href="driving.html">Fuel &amp; driving</a> · <a href="appliance-running-cost.html">Cost calculator</a> · <a href="guides.html">Guides</a> · <a href="about.html">About</a> · <a href="privacy.html">Privacy</a></p>
+    <p class="copy">&copy; <span>2026</span> Power Saving Guide. Figures are worked examples; check your own tariff and meter. Cookieless analytics, see the <a href="privacy.html">privacy page</a>.</p>
+  </div></footer>
+</body>
+</html>

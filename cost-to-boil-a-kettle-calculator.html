@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en-GB">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Cost to boil a kettle calculator | Power Saving Guide</title>
+  <meta name="description" content="Work out what it costs to boil a kettle. Enter the kettle&#x27;s power, the seconds to boil and how many times a day to see the cost per boil and over a year.">
+  <link rel="canonical" href="https://powersavingguide.com/cost-to-boil-a-kettle-calculator.html">
+  <meta name="robots" content="index, follow">
+  <meta property="og:site_name" content="Power Saving Guide">
+  <meta property="og:type" content="article">
+  <meta property="og:title" content="Cost to boil a kettle calculator | Power Saving Guide">
+  <meta property="og:description" content="Work out what it costs to boil a kettle. Enter the kettle&#x27;s power, the seconds to boil and how many times a day to see the cost per boil and over a year.">
+  <meta property="og:url" content="https://powersavingguide.com/cost-to-boil-a-kettle-calculator.html">
+  <meta property="og:locale" content="en_GB">
+  <meta name="twitter:card" content="summary">
+  <script type="application/ld+json">{"@context": "https://schema.org", "@type": "Article", "headline": "Cost to boil a kettle calculator", "description": "Work out what it costs to boil a kettle. Enter the kettle's power, the seconds to boil and how many times a day to see the cost per boil and over a year.", "datePublished": "2026-06-03", "dateModified": "2026-06-25", "inLanguage": "en-GB", "mainEntityOfPage": "https://powersavingguide.com/cost-to-boil-a-kettle-calculator.html", "author": {"@type": "Organization", "name": "Power Saving Guide"}, "publisher": {"@type": "Organization", "name": "Power Saving Guide"}}</script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,600&family=Inter:wght@400;500;600&display=swap" rel="stylesheet" media="print" onload="this.media='all'">
+  <noscript><link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,600&family=Inter:wght@400;500;600&display=swap" rel="stylesheet"></noscript>
+  <script data-goatcounter="https://stats.powersavingguide.com/count" async src="//stats.powersavingguide.com/count.js"></script><script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('consent','default',{ad_storage:'granted',ad_user_data:'granted',ad_personalization:'granted',analytics_storage:'granted'});gtag('consent','default',{region:['AT','BE','BG','HR','CY','CZ','DK','EE','FI','FR','DE','GR','HU','IE','IT','LV','LT','LU','MT','NL','PL','PT','RO','SK','SI','ES','SE','IS','LI','NO','GB','CH'],ad_storage:'denied',ad_user_data:'denied',ad_personalization:'denied',analytics_storage:'denied',wait_for_update:500});</script><script async src="https://www.googletagmanager.com/gtag/js?id=G-8FYB114413"></script><script>gtag('js',new Date());gtag('config','G-8FYB114413');</script><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-7059699192160095" crossorigin="anonymous"></script>
+</head>
+<body>
+  <nav class="nav--bar"><div class="wrap nav-inner">
+    <a class="brand" href="index.html">Power Saving Guide</a>
+    <input type="checkbox" id="nt" class="navtoggle">
+    <label for="nt" class="navburger" aria-label="Menu">≡</label>
+    <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="electricity.html">Electricity</a></li>
+        <li><a href="heating.html">Heating &amp; gas</a></li>
+        <li><a href="driving.html">Fuel &amp; driving</a></li>
+        <li><a href="calculators.html" class="active">Calculators</a></li>
+        <li><a href="guides.html">Guides</a></li>
+        <li><a href="about.html">About</a></li>
+    </ul>
+  </div></nav>
+
+  <header class="page-head"><div class="wrap"><h1>Cost to boil a kettle calculator</h1></div></header>
+  <main>
+
+  <section class="section"><div class="wrap prose">
+    <p class="lede">Enter your kettle's power, roughly how many seconds it takes to boil and how often you boil it, and this works out the cost. Boiling only the water you need is the saving most people miss.</p>
+    <div class="ecalc">
+      <div class="row">
+      <div class="field"><label for="kw">Kettle power (kW)</label><input id="kw" type="number" inputmode="decimal" step="0.1" min="0" value="3"></div>
+      <div class="field"><label for="secs">Seconds to boil</label><input id="secs" type="number" inputmode="decimal" step="5" min="0" value="150"></div>
+      </div>
+      <div class="row">
+      <div class="field"><label for="rate">Price per kWh (pence)</label><input id="rate" type="number" inputmode="decimal" step="0.01" min="0" value="26.11"></div>
+      <div class="field"><label for="day">Boils per day: <output id="day_o">8</output></label><input id="day" type="range" min="1" max="30" step="1" value="8" oninput="document.getElementById('day_o').textContent=this.value+''"></div>
+      </div>
+      <div class="res" id="res"></div>
+    </div>
+    <script>
+(function(){
+  function v(id){var x=parseFloat(document.getElementById(id).value);return isNaN(x)||x<0?0:x;}
+  function go(){
+    var per=v('kw')*(v('secs')/3600)*v('rate')/100, yr=per*v('day')*365;
+    document.getElementById('res').innerHTML=
+      '<div class="big">'+(per*100).toFixed(1)+'p<span> per boil</span></div>'+
+      '<div class="grid3">'+
+      '<div class="b"><div class="n">'+(per*v('day')*100).toFixed(0)+'p</div><div class="l">per day</div></div>'+
+      '<div class="b"><div class="n">£'+(per*v('day')*7).toFixed(2)+'</div><div class="l">per week</div></div>'+
+      '<div class="b"><div class="n">£'+yr.toFixed(0)+'</div><div class="l">per year</div></div></div>'+
+      '<p style="margin-top:12px;color:var(--muted)">Boil time stands in for the amount of water; fill the kettle less and the time, and cost, drop.</p>';
+  }
+  ['kw','secs','rate','day'].forEach(function(id){var e=document.getElementById(id);if(e)e.addEventListener('input',go);});
+  go();
+})();
+    </script>
+<div class="formula"><b>The formula:</b> cost per boil = power (kW) &times; seconds &divide; 3600 &times; rate &divide; 100</div>
+    <p>A kettle is high-powered but only runs for a couple of minutes, so each boil is cheap; the cost comes from how often, and how full, you boil it. Overfilling is the classic waste, since you pay to heat water you tip away. More in <a href="kettle-energy-saving.html">kettle energy saving</a>.</p>
+    <h2>Common questions</h2>
+    <p><strong>How much does it cost to boil a kettle?</strong><br>A 3kW kettle boiling for about 150 seconds uses roughly 0.125 kWh, which at 26.11p costs around 3.3p a boil. Ten boils a day is about £12 a year.</p>
+    <p><strong>Does boiling less water save money?</strong><br>Yes. The cost is set by how much water you heat, so filling the kettle to just what you need, rather than to the top, cuts both the boiling time and the cost every single time.</p>
+    <script type="application/ld+json">{"@context": "https://schema.org", "@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": "How much does it cost to boil a kettle?", "acceptedAnswer": {"@type": "Answer", "text": "A 3kW kettle boiling for about 150 seconds uses roughly 0.125 kWh, which at 26.11p costs around 3.3p a boil. Ten boils a day is about £12 a year."}}, {"@type": "Question", "name": "Does boiling less water save money?", "acceptedAnswer": {"@type": "Answer", "text": "Yes. The cost is set by how much water you heat, so filling the kettle to just what you need, rather than to the top, cuts both the boiling time and the cost every single time."}}]}</script>
+  </div></section>
+
+  </main>
+  <footer class="footer"><div class="wrap">
+    <p class="foot-brand">Power Saving Guide</p>
+    <p>A practical, independent guide to cutting your electricity, gas and fuel bills. Plain advice, no gadgets to buy.</p>
+    <p class="foot-links"><a href="electricity.html">Electricity</a> · <a href="heating.html">Heating &amp; gas</a> · <a href="driving.html">Fuel &amp; driving</a> · <a href="appliance-running-cost.html">Cost calculator</a> · <a href="guides.html">Guides</a> · <a href="about.html">About</a> · <a href="privacy.html">Privacy</a></p>
+    <p class="copy">&copy; <span>2026</span> Power Saving Guide. Figures are worked examples; check your own tariff and meter. Cookieless analytics, see the <a href="privacy.html">privacy page</a>.</p>
+  </div></footer>
+</body>
+</html>

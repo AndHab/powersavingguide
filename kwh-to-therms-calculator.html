@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en-GB">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>kWh to therms calculator | Power Saving Guide</title>
+  <meta name="description" content="Convert between kWh and therms for gas. Enter kilowatt-hours to get the equivalent in therms, with the cost worked out at the current gas price cap.">
+  <link rel="canonical" href="https://powersavingguide.com/kwh-to-therms-calculator.html">
+  <meta name="robots" content="index, follow">
+  <meta property="og:site_name" content="Power Saving Guide">
+  <meta property="og:type" content="article">
+  <meta property="og:title" content="kWh to therms calculator | Power Saving Guide">
+  <meta property="og:description" content="Convert between kWh and therms for gas. Enter kilowatt-hours to get the equivalent in therms, with the cost worked out at the current gas price cap.">
+  <meta property="og:url" content="https://powersavingguide.com/kwh-to-therms-calculator.html">
+  <meta property="og:locale" content="en_GB">
+  <meta name="twitter:card" content="summary">
+  <script type="application/ld+json">{"@context": "https://schema.org", "@type": "Article", "headline": "kWh to therms calculator", "description": "Convert between kWh and therms for gas. Enter kilowatt-hours to get the equivalent in therms, with the cost worked out at the current gas price cap.", "datePublished": "2026-06-03", "dateModified": "2026-06-25", "inLanguage": "en-GB", "mainEntityOfPage": "https://powersavingguide.com/kwh-to-therms-calculator.html", "author": {"@type": "Organization", "name": "Power Saving Guide"}, "publisher": {"@type": "Organization", "name": "Power Saving Guide"}}</script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,600&family=Inter:wght@400;500;600&display=swap" rel="stylesheet" media="print" onload="this.media='all'">
+  <noscript><link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,600&family=Inter:wght@400;500;600&display=swap" rel="stylesheet"></noscript>
+  <script data-goatcounter="https://stats.powersavingguide.com/count" async src="//stats.powersavingguide.com/count.js"></script><script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('consent','default',{ad_storage:'granted',ad_user_data:'granted',ad_personalization:'granted',analytics_storage:'granted'});gtag('consent','default',{region:['AT','BE','BG','HR','CY','CZ','DK','EE','FI','FR','DE','GR','HU','IE','IT','LV','LT','LU','MT','NL','PL','PT','RO','SK','SI','ES','SE','IS','LI','NO','GB','CH'],ad_storage:'denied',ad_user_data:'denied',ad_personalization:'denied',analytics_storage:'denied',wait_for_update:500});</script><script async src="https://www.googletagmanager.com/gtag/js?id=G-8FYB114413"></script><script>gtag('js',new Date());gtag('config','G-8FYB114413');</script><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-7059699192160095" crossorigin="anonymous"></script>
+</head>
+<body>
+  <nav class="nav--bar"><div class="wrap nav-inner">
+    <a class="brand" href="index.html">Power Saving Guide</a>
+    <input type="checkbox" id="nt" class="navtoggle">
+    <label for="nt" class="navburger" aria-label="Menu">≡</label>
+    <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="electricity.html">Electricity</a></li>
+        <li><a href="heating.html">Heating &amp; gas</a></li>
+        <li><a href="driving.html">Fuel &amp; driving</a></li>
+        <li><a href="calculators.html" class="active">Calculators</a></li>
+        <li><a href="guides.html">Guides</a></li>
+        <li><a href="about.html">About</a></li>
+    </ul>
+  </div></nav>
+
+  <header class="page-head"><div class="wrap"><h1>kWh to therms calculator</h1></div></header>
+  <main>
+
+  <section class="section"><div class="wrap prose">
+    <p class="lede">Gas is metered in kWh on UK bills but older meters and some references use therms. Enter the kilowatt-hours and this converts to therms. One therm is 29.3071 kWh.</p>
+    <div class="ecalc">
+      <div class="row">
+      <div class="field"><label for="kwh">Energy (kWh)</label><input id="kwh" type="number" inputmode="decimal" step="1" min="0" value="1000"></div>
+      <div class="field"><label for="rate">Gas price (pence/kWh)</label><input id="rate" type="number" inputmode="decimal" step="0.01" min="0" value="7.33"></div>
+      </div>
+      <div class="res" id="res"></div>
+    </div>
+    <script>
+(function(){
+  function v(id){var x=parseFloat(document.getElementById(id).value);return isNaN(x)||x<0?0:x;}
+  function go(){
+    var th=v('kwh')/29.3071, cost=v('kwh')*v('rate')/100;
+    document.getElementById('res').innerHTML=
+      '<div class="big">'+th.toFixed(2)+' therms<span> from '+v('kwh')+' kWh</span></div>'+
+      '<p style="margin-top:12px;color:var(--muted)">That gas costs about £'+cost.toFixed(2)+' at '+v('rate')+'p per kWh. To go back, therms &times; 29.3071 = kWh.</p>';
+  }
+  ['kwh','rate'].forEach(function(id){var e=document.getElementById(id);if(e)e.addEventListener('input',go);});
+  go();
+})();
+    </script>
+<div class="formula"><b>The formula:</b> therms = kWh &divide; 29.3071</div>
+    <p>A therm is an imperial unit of gas energy equal to 29.3071 kWh. UK gas bills moved to kWh years ago, but you may still meet therms on old paperwork or US sources. Your bill works out the kWh from the cubic feet or cubic metres your meter records, then charges the unit rate; see <a href="understanding-energy-bill.html">understanding your energy bill</a>.</p>
+    <h2>Common questions</h2>
+    <p><strong>How many kWh are in a therm?</strong><br>One therm is 29.3071 kWh. So 5 therms is about 146.5 kWh, and 1,000 kWh is roughly 34.1 therms.</p>
+    <p><strong>Why is my gas bill in kWh not therms?</strong><br>UK suppliers switched to kWh to put gas and electricity in the same units. Your meter still records volume, which the bill converts to kWh using a standard calorific value.</p>
+    <script type="application/ld+json">{"@context": "https://schema.org", "@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": "How many kWh are in a therm?", "acceptedAnswer": {"@type": "Answer", "text": "One therm is 29.3071 kWh. So 5 therms is about 146.5 kWh, and 1,000 kWh is roughly 34.1 therms."}}, {"@type": "Question", "name": "Why is my gas bill in kWh not therms?", "acceptedAnswer": {"@type": "Answer", "text": "UK suppliers switched to kWh to put gas and electricity in the same units. Your meter still records volume, which the bill converts to kWh using a standard calorific value."}}]}</script>
+  </div></section>
+
+  </main>
+  <footer class="footer"><div class="wrap">
+    <p class="foot-brand">Power Saving Guide</p>
+    <p>A practical, independent guide to cutting your electricity, gas and fuel bills. Plain advice, no gadgets to buy.</p>
+    <p class="foot-links"><a href="electricity.html">Electricity</a> · <a href="heating.html">Heating &amp; gas</a> · <a href="driving.html">Fuel &amp; driving</a> · <a href="appliance-running-cost.html">Cost calculator</a> · <a href="guides.html">Guides</a> · <a href="about.html">About</a> · <a href="privacy.html">Privacy</a></p>
+    <p class="copy">&copy; <span>2026</span> Power Saving Guide. Figures are worked examples; check your own tariff and meter. Cookieless analytics, see the <a href="privacy.html">privacy page</a>.</p>
+  </div></footer>
+</body>
+</html>

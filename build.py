@@ -284,6 +284,12 @@ PAGES["calculators"] = dict(
       <a class="tile" href="home-battery-savings-calculator.html"><h2>Home battery savings</h2><p>What a battery saves from the peak to off-peak rate gap, and its payback.</p></a>
       <a class="tile" href="petrol-cost-per-mile-calculator.html"><h2>Petrol cost per mile</h2><p>Fuel cost per mile and per year from your mpg and the pump price.</p></a>
       <a class="tile" href="co2-from-electricity-calculator.html"><h2>Electricity CO2</h2><p>Turn kilowatt-hours into carbon emissions, with relatable comparisons.</p></a>
+      <a class="tile" href="electric-shower-cost-calculator.html"><h2>Electric shower cost</h2><p>Cost per shower, week and year from the shower's power and your habits.</p></a>
+      <a class="tile" href="cost-to-boil-a-kettle-calculator.html"><h2>Cost to boil a kettle</h2><p>What each boil costs and what it adds up to over a year.</p></a>
+      <a class="tile" href="immersion-heater-cost-calculator.html"><h2>Immersion heater cost</h2><p>Running cost of heating water with an electric immersion element.</p></a>
+      <a class="tile" href="tumble-dryer-running-cost-calculator.html"><h2>Tumble dryer cost</h2><p>Cost per load and per year, with the heat-pump-dryer saving.</p></a>
+      <a class="tile" href="wh-to-ah-calculator.html"><h2>Wh to Ah</h2><p>Convert watt-hours to amp-hours for batteries at any voltage.</p></a>
+      <a class="tile" href="kwh-to-therms-calculator.html"><h2>kWh to therms</h2><p>Convert gas energy between kilowatt-hours and therms.</p></a>
       <a class="tile" href="appliance-running-cost.html"><h2>Appliance running cost</h2><p>Cost per use, per day and per year for any single appliance.</p></a>
     </div>
   </div></section>
@@ -776,6 +782,188 @@ PAGES["home-battery-savings-calculator"] = dict(
     ''' + faq_block([
             ("Is a home battery worth it?", "It depends on the price gap between peak and off-peak electricity and how fully you cycle it. A 5kWh battery cycled daily on a wide rate spread saves a few hundred pounds a year, which can take most of its ten-year life to pay back the upfront cost."),
             ("How much can a battery save per year?", "Take the usable capacity, multiply by the difference between your peak and off-peak rates, and multiply by how many times a year it cycles. A 5kWh battery at a 19p spread cycled 300 times saves about £285 a year."),
+        ]),
+    ),
+)
+
+PAGES["electric-shower-cost-calculator"] = dict(
+    title="Electric shower cost calculator",
+    description="Work out what an electric shower costs to run. Enter its power in kW, the minutes per shower and how many showers a week to see the cost per shower, week and year.",
+    active="calculators",
+    body=calc_tool(
+        "An electric shower heats water on the spot with a powerful element, so it is one of the priciest things to run by the minute. Enter its power, how long you shower and how many showers a week to see the cost.",
+        row(fld("kw", "Shower power (kW)", "9.5", "0.1"), fld("mins", "Minutes per shower", "8", "0.5")) + "\n" +
+        row(fld("rate", "Price per kWh (pence)", "26.11", "0.01"), sld("week", "Showers per week", "14", "1", "70", "1")),
+        '''(function(){
+  function v(id){var x=parseFloat(document.getElementById(id).value);return isNaN(x)||x<0?0:x;}
+  function go(){
+    var per=v('kw')*(v('mins')/60)*v('rate')/100, wk=per*v('week');
+    document.getElementById('res').innerHTML=
+      '<div class="big">'+(per*100).toFixed(0)+'p<span> per shower</span></div>'+
+      '<div class="grid3">'+
+      '<div class="b"><div class="n">£'+wk.toFixed(2)+'</div><div class="l">per week</div></div>'+
+      '<div class="b"><div class="n">£'+(wk*4.33).toFixed(2)+'</div><div class="l">per month</div></div>'+
+      '<div class="b"><div class="n">£'+(wk*52).toFixed(0)+'</div><div class="l">per year</div></div></div>'+
+      '<p style="margin-top:12px;color:var(--muted)">Cutting a couple of minutes off each shower is the easiest saving here.</p>';
+  }
+  ['kw','mins','rate','week'].forEach(function(id){var e=document.getElementById(id);if(e)e.addEventListener('input',go);});
+  go();
+})();''',
+        '''<div class="formula"><b>The formula:</b> cost per shower = power (kW) &times; minutes &divide; 60 &times; rate &divide; 100</div>
+    <p>Electric showers are typically 7.5kW to 10.5kW, far more than most appliances, which is why even a short shower adds up across a household. The two levers are time and the number of showers; the power rating is fixed. For a full breakdown see <a href="electric-shower-cost.html">electric shower cost</a> and <a href="hot-water-savings.html">hot water savings</a>.</p>
+    ''' + faq_block([
+            ("How much does an electric shower cost per use?", "A 9.5kW shower for 8 minutes uses about 1.27 kWh, which at 26.11p costs roughly 33p a shower. Across a family that is a few hundred pounds a year."),
+            ("Is an electric shower cheaper than a bath?", "Often, because it uses less hot water, but a long power shower can cost more than a bath. The deciding factor is minutes under the water, not the label on the unit."),
+        ]),
+    ),
+)
+
+PAGES["cost-to-boil-a-kettle-calculator"] = dict(
+    title="Cost to boil a kettle calculator",
+    description="Work out what it costs to boil a kettle. Enter the kettle's power, the seconds to boil and how many times a day to see the cost per boil and over a year.",
+    active="calculators",
+    body=calc_tool(
+        "Enter your kettle's power, roughly how many seconds it takes to boil and how often you boil it, and this works out the cost. Boiling only the water you need is the saving most people miss.",
+        row(fld("kw", "Kettle power (kW)", "3", "0.1"), fld("secs", "Seconds to boil", "150", "5")) + "\n" +
+        row(fld("rate", "Price per kWh (pence)", "26.11", "0.01"), sld("day", "Boils per day", "8", "1", "30", "1")),
+        '''(function(){
+  function v(id){var x=parseFloat(document.getElementById(id).value);return isNaN(x)||x<0?0:x;}
+  function go(){
+    var per=v('kw')*(v('secs')/3600)*v('rate')/100, yr=per*v('day')*365;
+    document.getElementById('res').innerHTML=
+      '<div class="big">'+(per*100).toFixed(1)+'p<span> per boil</span></div>'+
+      '<div class="grid3">'+
+      '<div class="b"><div class="n">'+(per*v('day')*100).toFixed(0)+'p</div><div class="l">per day</div></div>'+
+      '<div class="b"><div class="n">£'+(per*v('day')*7).toFixed(2)+'</div><div class="l">per week</div></div>'+
+      '<div class="b"><div class="n">£'+yr.toFixed(0)+'</div><div class="l">per year</div></div></div>'+
+      '<p style="margin-top:12px;color:var(--muted)">Boil time stands in for the amount of water; fill the kettle less and the time, and cost, drop.</p>';
+  }
+  ['kw','secs','rate','day'].forEach(function(id){var e=document.getElementById(id);if(e)e.addEventListener('input',go);});
+  go();
+})();''',
+        '''<div class="formula"><b>The formula:</b> cost per boil = power (kW) &times; seconds &divide; 3600 &times; rate &divide; 100</div>
+    <p>A kettle is high-powered but only runs for a couple of minutes, so each boil is cheap; the cost comes from how often, and how full, you boil it. Overfilling is the classic waste, since you pay to heat water you tip away. More in <a href="kettle-energy-saving.html">kettle energy saving</a>.</p>
+    ''' + faq_block([
+            ("How much does it cost to boil a kettle?", "A 3kW kettle boiling for about 150 seconds uses roughly 0.125 kWh, which at 26.11p costs around 3.3p a boil. Ten boils a day is about £12 a year."),
+            ("Does boiling less water save money?", "Yes. The cost is set by how much water you heat, so filling the kettle to just what you need, rather than to the top, cuts both the boiling time and the cost every single time."),
+        ]),
+    ),
+)
+
+PAGES["immersion-heater-cost-calculator"] = dict(
+    title="Immersion heater cost calculator",
+    description="Work out what an immersion heater costs to run. Enter its power, how long it runs and your electricity rate to see the cost per heat-up, per week and per year.",
+    active="calculators",
+    body=calc_tool(
+        "An immersion heater is an electric element that heats a tank of water, usually rated around 3kW. Enter its power, how long it runs to heat the tank and your rate to see the cost.",
+        row(fld("kw", "Element power (kW)", "3", "0.1"), fld("hours", "Hours per heat-up", "1.5", "0.25")) + "\n" +
+        row(fld("rate", "Price per kWh (pence)", "26.11", "0.01"), sld("week", "Heat-ups per week", "7", "1", "21", "1")),
+        '''(function(){
+  function v(id){var x=parseFloat(document.getElementById(id).value);return isNaN(x)||x<0?0:x;}
+  function go(){
+    var per=v('kw')*v('hours')*v('rate')/100, wk=per*v('week');
+    document.getElementById('res').innerHTML=
+      '<div class="big">£'+per.toFixed(2)+'<span> per heat-up</span></div>'+
+      '<div class="grid3">'+
+      '<div class="b"><div class="n">£'+wk.toFixed(2)+'</div><div class="l">per week</div></div>'+
+      '<div class="b"><div class="n">£'+(wk*4.33).toFixed(0)+'</div><div class="l">per month</div></div>'+
+      '<div class="b"><div class="n">£'+(wk*52).toFixed(0)+'</div><div class="l">per year</div></div></div>'+
+      '<p style="margin-top:12px;color:var(--muted)">A good cylinder jacket and a timer cut the run time, and on Economy 7 you can heat on the cheap night rate.</p>';
+  }
+  ['kw','hours','rate','week'].forEach(function(id){var e=document.getElementById(id);if(e)e.addEventListener('input',go);});
+  go();
+})();''',
+        '''<div class="formula"><b>The formula:</b> cost per heat-up = power (kW) &times; hours &times; rate &divide; 100</div>
+    <p>Heating water with electricity is dearer than with gas, so an immersion is most economical as a backup, or run on a cheap night rate, or topped up rather than reheating a cold tank. A well-lagged cylinder holds its heat for hours and needs less reheating. See <a href="immersion-heater-cost.html">immersion heater cost</a> and <a href="hot-water-savings.html">hot water savings</a>.</p>
+    ''' + faq_block([
+            ("How much does an immersion heater cost to run?", "A 3kW immersion running 1.5 hours uses 4.5 kWh, about £1.17 at 26.11p. Daily, that is roughly £8 a week, which is why timing and lagging matter."),
+            ("Is it cheaper to leave the immersion on or switch it on when needed?", "For most homes, heat on a timer for when you need hot water rather than leaving it on, and lag the cylinder well so the stored heat lasts. Constant reheating of a poorly insulated tank wastes the most."),
+        ]),
+    ),
+)
+
+PAGES["tumble-dryer-running-cost-calculator"] = dict(
+    title="Tumble dryer running cost calculator",
+    description="Work out what a tumble dryer costs to run. Enter the energy per cycle and how many loads a week to see the cost per cycle, per week and per year, with the heat-pump saving.",
+    active="calculators",
+    body=calc_tool(
+        "Enter how much energy your dryer uses per cycle and how many loads you do a week. A vented or condenser dryer uses roughly 4 to 5 kWh a cycle; a heat-pump dryer about half that.",
+        row(fld("kwh", "Energy per cycle (kWh)", "4.5", "0.1"), fld("rate", "Price per kWh (pence)", "26.11", "0.01")) + "\n" +
+        row(sld("week", "Loads per week", "4", "1", "21", "1")),
+        '''(function(){
+  function v(id){var x=parseFloat(document.getElementById(id).value);return isNaN(x)||x<0?0:x;}
+  function go(){
+    var per=v('kwh')*v('rate')/100, wk=per*v('week');
+    document.getElementById('res').innerHTML=
+      '<div class="big">£'+per.toFixed(2)+'<span> per cycle</span></div>'+
+      '<div class="grid3">'+
+      '<div class="b"><div class="n">£'+wk.toFixed(2)+'</div><div class="l">per week</div></div>'+
+      '<div class="b"><div class="n">£'+(wk*52).toFixed(0)+'</div><div class="l">per year</div></div>'+
+      '<div class="b"><div class="n">£'+(wk*52*0.5).toFixed(0)+'</div><div class="l">heat-pump dryer / yr</div></div></div>'+
+      '<p style="margin-top:12px;color:var(--muted)">The last figure is the rough yearly cost if you switched to a heat-pump dryer, which uses about half the energy.</p>';
+  }
+  ['kwh','rate','week'].forEach(function(id){var e=document.getElementById(id);if(e)e.addEventListener('input',go);});
+  go();
+})();''',
+        '''<div class="formula"><b>The formula:</b> cost per cycle = energy per cycle (kWh) &times; rate &divide; 100</div>
+    <p>Tumble dryers are one of the bigger appliance costs because drying takes a lot of energy. The type matters most: heat-pump dryers cost more to buy but use about half the electricity, paying back over time for heavy users. Drying outdoors or on an airer is free; see <a href="tumble-dryer-cost.html">tumble dryer cost</a> and <a href="drying-clothes-without-a-tumble-dryer.html">drying clothes without a tumble dryer</a>.</p>
+    ''' + faq_block([
+            ("How much does a tumble dryer cost per load?", "A typical condenser or vented dryer uses about 4.5 kWh a cycle, roughly £1.18 at 26.11p. A heat-pump dryer uses around half that, near 60p a cycle."),
+            ("Are heat-pump tumble dryers cheaper to run?", "Yes, they use roughly half the electricity of a vented or condenser dryer. They cost more upfront, but for several loads a week the running-cost saving pays that back over a few years."),
+        ]),
+    ),
+)
+
+PAGES["wh-to-ah-calculator"] = dict(
+    title="Wh to Ah calculator",
+    description="Convert watt-hours to amp-hours for batteries. Enter the energy in Wh and the battery voltage to get the capacity in Ah, useful for solar, leisure and off-grid batteries.",
+    active="calculators",
+    body=calc_tool(
+        "Battery capacity is quoted in amp-hours (Ah) but energy is measured in watt-hours (Wh). Enter the watt-hours and the battery voltage and this converts to amp-hours. Divide by voltage to go this way; multiply to go back.",
+        row(fld("wh", "Energy (watt-hours)", "600", "1"), fld("v", "Battery voltage (V)", "12", "0.1")),
+        '''(function(){
+  function v(id){var x=parseFloat(document.getElementById(id).value);return isNaN(x)||x<0?0:x;}
+  function go(){
+    var vv=v('v')||12, ah=v('wh')/vv;
+    document.getElementById('res').innerHTML=
+      '<div class="big">'+ah.toFixed(1)+' Ah<span> at '+vv+'V</span></div>'+
+      '<p style="margin-top:12px;color:var(--muted)">To go the other way, amp-hours &times; voltage = watt-hours. So '+ah.toFixed(1)+' Ah at '+vv+'V is '+v('wh').toFixed(0)+' Wh.</p>';
+  }
+  ['wh','v'].forEach(function(id){var e=document.getElementById(id);if(e)e.addEventListener('input',go);});
+  go();
+})();''',
+        '''<div class="formula"><b>The formula:</b> amp-hours = watt-hours &divide; voltage</div>
+    <p>This trips people up because a 100Ah battery does not hold a fixed amount of energy; it depends on the voltage. A 100Ah 12V battery stores 1,200 Wh, while a 100Ah 24V battery stores 2,400 Wh. When comparing batteries or sizing a solar setup, convert everything to watt-hours first so you are comparing energy, not amp-hours at different voltages. For home storage economics see <a href="home-battery-savings-calculator.html">home battery savings</a> and <a href="solar-battery-storage.html">solar battery storage</a>.</p>
+    ''' + faq_block([
+            ("How do I convert Wh to Ah?", "Divide the watt-hours by the battery voltage. For example, 600 Wh on a 12V battery is 600 divided by 12, which is 50 Ah."),
+            ("Why does voltage matter for battery capacity?", "Because amp-hours only tell you the charge, not the energy. The same Ah rating holds twice the energy at 24V as at 12V, so watt-hours is the fairer way to compare batteries."),
+        ]),
+    ),
+)
+
+PAGES["kwh-to-therms-calculator"] = dict(
+    title="kWh to therms calculator",
+    description="Convert between kWh and therms for gas. Enter kilowatt-hours to get the equivalent in therms, with the cost worked out at the current gas price cap.",
+    active="calculators",
+    body=calc_tool(
+        "Gas is metered in kWh on UK bills but older meters and some references use therms. Enter the kilowatt-hours and this converts to therms. One therm is 29.3071 kWh.",
+        row(fld("kwh", "Energy (kWh)", "1000", "1"), fld("rate", "Gas price (pence/kWh)", "7.33", "0.01")),
+        '''(function(){
+  function v(id){var x=parseFloat(document.getElementById(id).value);return isNaN(x)||x<0?0:x;}
+  function go(){
+    var th=v('kwh')/29.3071, cost=v('kwh')*v('rate')/100;
+    document.getElementById('res').innerHTML=
+      '<div class="big">'+th.toFixed(2)+' therms<span> from '+v('kwh')+' kWh</span></div>'+
+      '<p style="margin-top:12px;color:var(--muted)">That gas costs about £'+cost.toFixed(2)+' at '+v('rate')+'p per kWh. To go back, therms &times; 29.3071 = kWh.</p>';
+  }
+  ['kwh','rate'].forEach(function(id){var e=document.getElementById(id);if(e)e.addEventListener('input',go);});
+  go();
+})();''',
+        '''<div class="formula"><b>The formula:</b> therms = kWh &divide; 29.3071</div>
+    <p>A therm is an imperial unit of gas energy equal to 29.3071 kWh. UK gas bills moved to kWh years ago, but you may still meet therms on old paperwork or US sources. Your bill works out the kWh from the cubic feet or cubic metres your meter records, then charges the unit rate; see <a href="understanding-energy-bill.html">understanding your energy bill</a>.</p>
+    ''' + faq_block([
+            ("How many kWh are in a therm?", "One therm is 29.3071 kWh. So 5 therms is about 146.5 kWh, and 1,000 kWh is roughly 34.1 therms."),
+            ("Why is my gas bill in kWh not therms?", "UK suppliers switched to kWh to put gas and electricity in the same units. Your meter still records volume, which the bill converts to kWh using a standard calorific value."),
         ]),
     ),
 )
