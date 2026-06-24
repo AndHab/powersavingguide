@@ -1,0 +1,52 @@
+{
+ "slug": "cost-to-run-a-coffee-machine",
+ "title": "How much does it cost to run a coffee machine?",
+ "description": "Discover the true cost of running a coffee machine, from per-cup brewing to keep-warm waste, with Ofgem rates and practical tips to save a lot on your bills.",
+ "blurb": "Learn the real electricity cost of brewing coffee and keeping it warm, using current Ofgem price cap rates.",
+ "lede": "With the Ofgem energy price cap setting electricity at 26.11p per kWh, even small appliances can add surprising sums to your bill. Your coffee machine, used daily, can cost more than you think, especially through its keep-warm function. This article breaks down the running costs using typical power figures so you can see exactly where your money goes.",
+ "short_answer": "Brewing a single cup costs around 0.3p to 0.5p, but leaving the coffee machine on keep-warm for 2 hours can add 3.7p, and over a year this hidden cost can total over 13 pounds.",
+ "sections": [
+  {
+   "h2": "How coffee machines use electricity",
+   "html": "<p>Most domestic coffee machines have two main power modes: brewing and keep-warm. During brewing, they draw between 1 kW and 1.5 kW to heat water quickly. This phase lasts only 30 to 60 seconds per cup for pod and espresso machines, or several minutes for a full filter jug. After brewing, many machines automatically switch to a keep-warm function, which maintains the coffee at drinking temperature using a lower power heater, typically 50 W to 100 W. This keep-warm phase can run for hours if left on, adding up without being noticed.</p><p>Here is a breakdown of typical power ratings.</p><table class=\"ev-table\"><thead><tr><th>Machine type</th><th>Brewing power (kW)</th><th>Keep-warm power (W)</th></tr></thead><tbody><tr><td>Filter coffee machine</td><td>1.0</td><td>70</td></tr><tr><td>Pod machine</td><td>1.4</td><td>20 (standby)</td></tr><tr><td>Espresso machine</td><td>1.3</td><td>100 (boiler maintenance)</td></tr></tbody></table><p>Note: standby power for pod machines is very low, but espresso machines may cycle the boiler on and off to keep pressure.</p>"
+  },
+  {
+   "h2": "Cost per cup",
+   "html": "<p>The cost of brewing one cup depends on the power drawn and the time the heating element is active. Using the Ofgem electricity rate of 26.11p per kWh, a typical filter machine brewing for 10 minutes (to make a full jug) uses 0.167 kWh, costing 4.35p for the whole jug. Dividing by 10 cups gives 0.44p per cup. Espresso and pod machines heat water directly for a single serving in about 30 seconds, giving even lower per-cup costs.</p><table class=\"ev-table\"><thead><tr><th>Machine type</th><th>Brew time (seconds)</th><th>Power (kW)</th><th>kWh per cup</th><th>Cost per cup (pence)</th></tr></thead><tbody><tr><td>Filter (per cup from jug)</td><td>60 (jug: 600s for 10 cups)</td><td>1.0</td><td>0.0167</td><td>0.44</td></tr><tr><td>Pod</td><td>30</td><td>1.4</td><td>0.0117</td><td>0.31</td></tr><tr><td>Espresso</td><td>30</td><td>1.3</td><td>0.0108</td><td>0.28</td></tr></tbody></table><p>These per-cup costs are tiny, but they can add up if you drink many cups. However, the real cost is not the brewing itself but the keep-warm function, as shown next.</p>"
+  },
+  {
+   "h2": "The hidden cost of keep-warm",
+   "html": "<p>Many filter coffee machines keep the jug warm automatically after brewing. A typical keep-warm element uses 70 W. If you leave the machine on for two hours after brewing, it consumes 0.14 kWh, costing 3.66p. That is more than the entire brewing cost for the jug. If you leave it on all morning for four hours, it doubles. Over a year, this hidden cost becomes significant.</p><table class=\"ev-table\"><thead><tr><th>Hours per day</th><th>kWh per day (70 W)</th><th>Cost per day (pence)</th><th>Cost per year (pounds)</th></tr></thead><tbody><tr><td>1</td><td>0.07</td><td>1.83</td><td>6.68</td></tr><tr><td>2</td><td>0.14</td><td>3.66</td><td>13.36</td></tr><tr><td>3</td><td>0.21</td><td>5.49</td><td>20.04</td></tr><tr><td>4</td><td>0.28</td><td>7.32</td><td>26.72</td></tr></tbody></table><p>If you drink coffee all morning and keep the machine on for three hours daily, that is over 20 pounds a year just for keep-warm. Switching it off after brewing saves most of this.</p>"
+  },
+  {
+   "h2": "Comparing different coffee machines",
+   "html": "<p>Different types of coffee machines have different total running costs when you combine brewing and keep-warm. The table below shows typical daily costs for a household that makes four cups and leaves the machine on for two hours.</p><table class=\"ev-table\"><thead><tr><th>Machine type</th><th>Brewing cost for 4 cups (pence)</th><th>Keep-warm for 2 hours (pence)</th><th>Total daily (pence)</th></tr></thead><tbody><tr><td>Filter machine (70 W keep-warm)</td><td>1.74</td><td>3.66</td><td>5.40</td></tr><tr><td>Pod machine (20 W standby)</td><td>1.24</td><td>1.04 (if left on)</td><td>2.28</td></tr><tr><td>Espresso (100 W boiler cycling)</td><td>1.12</td><td>5.22</td><td>6.34</td></tr></tbody></table><p>Pod machines can be cheaper if you remember to switch them off after use, but the pods themselves are more expensive than ground coffee. For lowest electricity cost, a filter machine switched off after brewing is hard to beat.</p>"
+  },
+  {
+   "h2": "How to reduce your coffee machine running costs",
+   "html": "<p>There are several simple steps to cut the electricity cost of your coffee habit:</p><ul><li><strong>Switch off after brewing.</strong> Most filter machines have a manual switch. Turn it off as soon as you have poured your cup. The coffee stays hot in a vacuum flask or thermal mug without extra energy.</li><li><strong>Use a timer.</strong> Some machines have a timer function; set it to brew just before you wake up and switch off automatically after a set period.</li><li><strong>Choose a machine with low standby.</strong> Pod and espresso machines often have a power-saving mode. Check the manual for standby power consumption.</li><li><strong>Brew only what you need.</strong> Instead of keeping a jug warm for hours, make only the cups you will drink immediately.</li><li><strong>Consider a thermal carafe.</strong> Some filter machines come with a thermal jug instead of a hot plate, eliminating keep-warm electricity use entirely.</li></ul><p>By implementing these tips, you can reduce your coffee machine running cost by 70 percent or more, saving up to 20 pounds a year based on typical use.</p><p>For working out and trimming running costs, see <a href=\"appliance-running-cost.html\">the running cost calculator</a>, <a href=\"electricity.html\">where your electricity goes</a>, <a href=\"using-a-plug-in-energy-monitor.html\">a plug-in energy monitor</a>, <a href=\"standby-power-the-full-story.html\">standby power</a>.</p>"
+  }
+ ],
+ "faq": [
+  {
+   "q": "How much does it cost to run a coffee machine per cup?",
+   "a": "Using the Ofgem rate of 26.11p per kWh, a typical pod or espresso machine costs about 0.3p per cup. A filter machine brewing a full jug works out at around 0.44p per cup from that jug."
+  },
+  {
+   "q": "Is it cheaper to use a coffee machine or a kettle for instant coffee?",
+   "a": "A kettle typically has a lower power rating (around 2 kW to 3 kW) but heats a larger volume. For one cup of instant coffee, a kettle uses about 0.05 kWh (1.3p) if you boil only the water you need. That is slightly more than the brewing cost of a coffee machine, but a coffee machine also includes the cost of heating and pumping water. Overall, for black filter coffee, a machine can be cheaper per cup, but keep-warm costs can tip the balance."
+  },
+  {
+   "q": "Does leaving the coffee machine on use much electricity?",
+   "a": "Yes, the keep-warm function can use more electricity than brewing. A 70 W keep-warm element left on for two hours uses 0.14 kWh, costing 3.7p. Over a year of daily use, that adds up to over 13 pounds just for keeping coffee warm."
+  },
+  {
+   "q": "What is the cheapest type of coffee machine to run?",
+   "a": "A filter machine with a thermal carafe (no keep-warm plate) is the cheapest to run because it uses no energy after brewing. Among machines with hot plates, switching off manually after pouring a cup keeps costs low. Pod machines have low brewing costs but the pods themselves are expensive. Espresso machines with boiler maintenance can have high standby costs."
+  },
+  {
+   "q": "How much does keep-warm cost per year?",
+   "a": "If you leave your coffee machine on keep-warm for two hours every day, you use 51.1 kWh per year, costing 13.36 pounds at the current Ofgem rate. For three hours a day, that rises to 20.04 pounds."
+  }
+ ]
+}

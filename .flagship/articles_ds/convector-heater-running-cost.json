@@ -1,0 +1,56 @@
+{
+ "slug": "convector-heater-running-cost",
+ "title": "How much does it cost to run a convector heater?",
+ "description": "Discover the exact running cost of convector heaters using Ofgem's price cap. Calculate 1kW to 2kW models, compare efficiency, and get money saving tips.",
+ "blurb": "Convector heaters are cheap to buy but can be expensive to run. We break down the costs using the latest energy price cap and show you how to save.",
+ "lede": "Convector heaters offer fast, direct warmth but are inefficient at holding heat. With electricity at 26.11p per kWh, running a 2kW model for an hour costs 52p. We explain the maths, compare with other heaters, and share tips to lower your bills.",
+ "short_answer": "Running a 2kW convector heater for one hour costs 52p at the current Ofgem electricity rate of 26.11p per kWh. Costs scale directly with power and time. A 1kW model costs 26p per hour.",
+ "sections": [
+  {
+   "h2": "How convector heaters work and their power ratings",
+   "html": "<p>Convector heaters work by drawing in cool air, passing it over a heating element, and releasing warm air through natural convection. They typically have power ratings of 1kW to 2kW, with some models offering multiple settings like 1kW or 2kW. Unlike <a href=\"storage-heaters-explained.html\">storage heaters</a>, they provide heat almost instantly but stop warming the room as soon as they are switched off. This makes them suitable for short term use in small spaces, such as a home office or bedroom.</p><p>Because they rely on electricity, their running cost is directly proportional to their power consumption. The Ofgem price cap as of July to September 2026 sets electricity at 26.11p per kWh. This means a 1kW heater uses 26.11p per hour, and a 2kW heater uses 52.22p per hour. However, if the heater cycles on and off via a thermostat, actual usage may be lower. Most convector heaters have a built in thermostat to maintain the desired temperature, which can reduce run time significantly.</p><p>It is important to note that the power rating is the maximum draw. Many heaters allow you to select a lower wattage setting, giving you more control over energy use. For example, a 2kW heater set to 1kW will cost half as much per hour. Always check the settings before purchase.</p>"
+  },
+  {
+   "h2": "Running cost calculations for convector heaters",
+   "html": "<p>To calculate the cost, multiply the power rating in kW by the hours used, then by the electricity rate. The formula is: Cost (pence) = Power (kW) x Time (hours) x 26.11. For example, a 2kW convector heater running for 3 hours: 2 kW x 3 h = 6 kWh; 6 kWh x 26.11p = 156.66p (or approximately £1.57). The table below shows common scenarios for both 1kW and 2kW heaters.</p><table class=\"ev-table\"><thead><tr><th>Power (kW)</th><th>Duration (hours)</th><th>Energy used (kWh)</th><th>Cost (pence)</th></tr></thead><tbody><tr><td>1</td><td>1</td><td>1</td><td>26</td></tr><tr><td>1</td><td>4</td><td>4</td><td>104</td></tr><tr><td>2</td><td>1</td><td>2</td><td>52</td></tr><tr><td>2</td><td>4</td><td>8</td><td>209</td></tr></tbody></table><p>Remember that these are direct costs. If you use the heater for 8 hours a day, a 2kW model would cost £4.18 daily (£2.09 for 1kW). Over a month, that is £125 for 2kW continuous use. However, thermostats and timers can reduce usage by 20 to 30 percent depending on room insulation and desired temperature.</p><p>For a more precise estimate, consider the actual run time with thermostat cycling. For instance, if a 2kW heater runs for only 50 percent of the time, the cost halves to 26p per hour on average. Using a timer to heat the room only when occupied also cuts costs.</p>"
+  },
+  {
+   "h2": "Comparing convector heaters with other types",
+   "html": "<p>While convector heaters are cheap to buy, they are one of the more expensive ways to heat a room. For comparison, a gas boiler costs 7.33p per kWh (gas rate) but efficiency losses mean actual heat delivered is about 90% efficient, so effective cost per kWh of heat is around 8.14p. An electric storage heater uses cheaper off-peak rates (typically around 15p per kWh on Economy 7) but is not directly comparable under the same price cap. Fan heaters have similar efficiency to convector heaters and similar running costs. Oil filled radiators are slower to heat but retain warmth longer, potentially reducing run time. The table below shows cost per hour for different heaters at full power.</p><table class=\"ev-table\"><thead><tr><th>Heater type</th><th>Power (kW)</th><th>Cost per hour (pence)</th></tr></thead><tbody><tr><td>Convector (2kW)</td><td>2</td><td>52</td></tr><tr><td>Fan heater (2kW)</td><td>2</td><td>52</td></tr><tr><td>Oil filled radiator (2kW)</td><td>2</td><td>52</td></tr><tr><td>Gas boiler (24kW output)</td><td>24</td><td>195</td></tr></tbody></table><p>All direct electric heaters cost the same per kWh. The difference lies in how long they run to maintain comfort. Convector heaters lose heat quickly, so they may run longer than an oil filled radiator on a thermostat. Gas central heating, while cheaper per unit, requires a whole system and may heat unused rooms. For spot heating, convector heaters are convenient but expensive per hour.</p>"
+  },
+  {
+   "h2": "Tips to reduce running costs",
+   "html": "<p>To lower the cost of running a convector heater, consider these strategies:</p><ul><li>Use a thermostat to maintain a set temperature. This avoids overheating and saves energy. Set it to 18 to 20 degrees Celsius for comfort without waste.</li><li>Only heat the room you are in, and close doors to contain warmth. Heating an entire house with convector heaters is very costly.</li><li>Use a timer to switch on just before you need heat, and off when you leave. Many models have built in timers or you can use a plug in timer.</li><li>Improve insulation. Draught proof windows and doors, use curtains, and consider <a href=\"loft-insulation.html\">loft insulation</a> to retain heat. This reduces the time the heater needs to run.</li><li>Layer clothing and use a lower thermostat setting. Every 1 degree Celsius reduction can save about 10% on heating costs.</li><li>Consider using the heater on a lower power setting if you only need a small temperature boost. For example, 1kW instead of 2kW.</li></ul><p>Remember that the standing charge of 57.19p per day is applied by your supplier regardless of usage, so it is factored into your overall bill. Using a convector heater does not increase the standing charge.</p>"
+  },
+  {
+   "h2": "Is a convector heater worth it?",
+   "html": "<p>Convector heaters are best for short term, targeted heating. For example, warming a home office for a few hours or topping up heat in a single room. They are inexpensive to buy (often under 30 pounds) and easy to install. However, for whole house heating or long periods, they become costly compared to gas central heating. Electricity at 26.11p per kWh is over 3.5 times more expensive than gas at 7.33p per kWh, even before boiler efficiency. If you use a convector heater as your main heat source, expect high bills.</p><p>For sporadic use, they can be a convenient and cost effective option. For instance, if you only need a room warm for two hours each evening, a 2kW convector heater costs about 52p per session. That is acceptable for occasional use. But if you plan to run it all day, consider alternatives like a heat pump or gas heater.</p><p>For those on Economy 7, a storage heater might be cheaper overall, but convector heaters offer instant heat and flexibility. Weigh the upfront cost against ongoing running costs based on your usage pattern.</p><p>For working out and trimming running costs, see <a href=\"appliance-running-cost.html\">the running cost calculator</a>, <a href=\"electricity.html\">where your electricity goes</a>.</p>"
+  }
+ ],
+ "faq": [
+  {
+   "q": "How much does it cost to run a 2kW convector heater for 1 hour?",
+   "a": "At the Ofgem price cap of 26.11p per kWh, a 2kW convector heater uses 2 kWh in one hour, costing exactly 52.22p. Rounded to 52p for simplicity."
+  },
+  {
+   "q": "Are convector heaters cheaper to run than storage heaters?",
+   "a": "Storage heaters use cheaper off peak electricity (typically around 15p per kWh on Economy 7), but convector heaters use standard rate (26.11p). So storage heaters are cheaper per unit, but they lose heat over the day and may require more energy to maintain warmth. For short bursts, convector heaters may be more practical because they heat up instantly."
+  },
+  {
+   "q": "Do convector heaters use a lot of electricity?",
+   "a": "They use the same electricity as any other 2kW electric heater. A 2kW convector uses 2 kWh per hour, which costs 52p. Over 5 hours that's £2.60. Compared to gas central heating (which might cost about 14p per hour for a boiler outputting 24kW), electric heaters are expensive per unit of heat."
+  },
+  {
+   "q": "Can I run a convector heater all day?",
+   "a": "Technically yes, but it will be expensive. Running a 2kW heater for 24 hours would cost 24 x 52p = £12.48 plus the standing charge. That is not recommended for whole house heating. Consider using it only for short periods or in conjunction with a thermostat to reduce run time."
+  },
+  {
+   "q": "What is the most efficient way to use a convector heater?",
+   "a": "Use a thermostat to keep the room at a comfortable temperature, avoid overheating, and only heat occupied rooms. Also ensure the room is well insulated to retain heat. Set the thermostat to around 18 degrees Celsius and use a timer to avoid unnecessary running."
+  },
+  {
+   "q": "How much does it cost to run a 1kW convector heater for 4 hours?",
+   "a": "A 1kW heater uses 1 kWh per hour. For 4 hours, it uses 4 kWh. At 26.11p per kWh, the cost is 4 x 26.11 = 104.44p, or about £1.04."
+  }
+ ]
+}

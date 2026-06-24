@@ -1,0 +1,56 @@
+{
+ "slug": "cost-to-run-a-games-console",
+ "title": "How much does it cost to run a games console?",
+ "description": "Find out how much it costs to run a games console at current UK electricity prices. This guide covers hourly, daily, and yearly costs for playing and standby modes, with tips to reduce your energy bills. Includes detailed tables and calculations based on the Ofgem price cap of 26.11p per kWh.",
+ "blurb": "With the Ofgem price cap at 26.11p per kWh, running a typical games console (150 to 200W) for an hour costs between 3.9p and 5.2p. Standby adds a small but persistent cost that can accumulate over time. Learn how to calculate your own costs and save money.",
+ "lede": "Gaming is an enjoyable pastime, but the cost of electricity to power your console can add up, especially with rising energy prices. This article breaks down the cost to run a games console, including playing, standby, and what it means for your annual energy bill. We explain the calculations, provide typical figures for popular consoles, and offer practical advice to reduce your electricity usage without sacrificing your gaming experience.",
+ "short_answer": "Playing for one hour costs between 3.9p (150W console) and 5.2p (200W console) under the current Ofgem price cap of 26.11p per kWh. Standby costs roughly 0.13p to 0.26p per hour. Over a year, these costs can range from under £60 to over £95 depending on usage patterns.",
+ "sections": [
+  {
+   "h2": "How much does it cost to run a games console while playing?",
+   "html": "<p>The cost of running a games console depends on its power consumption and how long you play. Power consumption is measured in watts (W), and electricity is charged per kilowatt-hour (kWh). To calculate the cost, divide the wattage by 1000 to get kilowatts, multiply by the hours used, then multiply by the electricity price per kWh. Under the current Ofgem electricity price cap of 26.11p per kWh, a console drawing 150W (0.15kW) costs 3.9p per hour. A 200W (0.2kW) console costs 5.2p per hour. The table below shows typical costs based on daily and weekly usage for these common power levels.</p><table class=\"ev-table\"><thead><tr><th>Console power</th><th>Cost per hour</th><th>Cost per day (4 hours)</th><th>Cost per week (20 hours)</th></tr></thead><tbody><tr><td>150W</td><td>3.9p</td><td>15.6p</td><td>78p</td></tr><tr><td>200W</td><td>5.2p</td><td>20.8p</td><td>£1.04</td></tr></tbody></table><p>These figures assume the console is running at full power during play. Some games may cause the console to use less power, while online features or heavy graphics can push it higher. If you play for longer or shorter periods, simply multiply the hourly cost by the number of hours.</p>"
+  },
+  {
+   "h2": "What is the power consumption of popular games consoles?",
+   "html": "<p>Most home games consoles fall into a power range of 150W to 200W while gaming, depending on the model and the game being played. Standard models typically use around 150W, while higher-performance models (such as those with more powerful graphics processors) can reach 200W or even higher in some cases. Handheld consoles use much less, often 50W or below, making them more energy efficient. In standby or rest mode, consoles typically draw 5W to 10W to maintain features like quick resume and background updates. The table below gives typical figures for different console types.</p><table class=\"ev-table\"><thead><tr><th>Console type</th><th>Typical power while playing (W)</th><th>Typical standby power (W)</th></tr></thead><tbody><tr><td>Standard home console</td><td>150</td><td>5</td></tr><tr><td>High-performance console</td><td>200</td><td>10</td></tr><tr><td>Handheld console</td><td>50</td><td>1</td></tr></tbody></table><p>Actual power consumption can vary based on the game, brightness settings, and whether you're using online services. You can measure your console's exact consumption with a plug-in power meter for more precise budgeting.</p>"
+  },
+  {
+   "h2": "How does standby mode affect the cost?",
+   "html": "<p>Standby or sleep mode keeps the console ready for quick start but uses a small amount of power. At 5W to 10W, the cost per hour is 0.13p to 0.26p. Over a full day, this adds up to 3.1p to 6.3p. Annually, standby costs between £11.39 and £22.78 if left on 24/7. The table below shows the breakdown for both power levels.</p><table class=\"ev-table\"><thead><tr><th>Standby power</th><th>Cost per hour</th><th>Cost per day (24h)</th><th>Cost per year</th></tr></thead><tbody><tr><td>5W</td><td>0.13p</td><td>3.1p</td><td>£11.39</td></tr><tr><td>10W</td><td>0.26p</td><td>6.3p</td><td>£22.78</td></tr></tbody></table><p>These figures assume the console is in standby 24 hours a day, but in reality you might play for a few hours and then leave it on standby for the remaining time. To avoid these extra costs, turn the console off at the wall when not in use for extended periods, or use a smart plug that cuts power automatically.</p>"
+  },
+  {
+   "h2": "What is the annual cost to run a games console?",
+   "html": "<p>The annual cost depends on how often you play and whether you leave the console in standby. Assuming 4 hours of play per day, a 150W console uses 219 kWh per year, costing £57.18. A 200W console uses 292 kWh, costing £76.24. Adding standby (5W for 20 hours not playing) adds 36.5 kWh (£9.53) for each. The table below shows total annual costs for four common scenarios.</p><table class=\"ev-table\"><thead><tr><th>Scenario</th><th>Annual kWh</th><th>Annual cost</th></tr></thead><tbody><tr><td>150W play only (4h/day)</td><td>219</td><td>£57.18</td></tr><tr><td>200W play only (4h/day)</td><td>292</td><td>£76.24</td></tr><tr><td>150W play + 5W standby (20h/day)</td><td>255.5</td><td>£66.72</td></tr><tr><td>200W play + 10W standby (20h/day)</td><td>365</td><td>£95.30</td></tr></tbody></table><p>If you play more or less than 4 hours daily, adjust the calculations accordingly. For example, 2 hours of play per day halves the play-only cost, while 6 hours increases it by 50%. Standby costs remain constant if the console is left on standby the rest of the time.</p>"
+  },
+  {
+   "h2": "How to reduce the cost of running your games console",
+   "html": "<p>There are several effective ways to lower the electricity cost of your games console without compromising your gaming experience:</p><ul><li><strong>Turn off completely:</strong> Instead of leaving the console in standby, switch it off at the wall or use a power strip. This eliminates standby power draw entirely.</li><li><strong>Enable energy-saving settings:</strong> Most consoles have options to automatically turn off after a period of inactivity, or to reduce brightness and background activity.</li><li><strong>Disable unnecessary features:</strong> Features like quick resume, background downloads, and instant-on use extra power. Turn them off if you don't need them.</li><li><strong>Use lower power modes:</strong> Some games allow you to reduce resolution or frame rate, which can cut power consumption without a huge impact on gameplay.</li><li><strong>Unplug accessories:</strong> Charging controllers or headsets adds a small but avoidable cost. Unplug chargers when not in use.</li><li><strong>Use a smart plug:</strong> Schedule your console to turn off automatically during times you're unlikely to be gaming, such as overnight or while at work.</li></ul><p>These steps can cut standby costs significantly and reduce your annual bill by £10 to £20. The savings may be even higher if you have multiple consoles in your household.</p>"
+  },
+  {
+   "h2": "How do the costs compare to other household appliances?",
+   "html": "<p>A games console uses more power than many common household devices, but less than some larger appliances. For comparison, a typical LED TV uses about 100W, a laptop 50W, and a desktop computer can range from 150 to 300W depending on the components. The table below shows the hourly cost at the current electricity price of 26.11p per kWh.</p><table class=\"ev-table\"><thead><tr><th>Appliance</th><th>Typical power (W)</th><th>Cost per hour</th></tr></thead><tbody><tr><td>Games console (150W)</td><td>150</td><td>3.9p</td></tr><tr><td>Games console (200W)</td><td>200</td><td>5.2p</td></tr><tr><td>LED TV</td><td>100</td><td>2.6p</td></tr><tr><td>Laptop</td><td>50</td><td>1.3p</td></tr><tr><td>Desktop computer (average)</td><td>200</td><td>5.2p</td></tr></tbody></table><p>While a console uses slightly more than a TV, it's comparable to a desktop computer. To put it in perspective, leaving a 200W console on for 10 hours costs just over 52p, which is less than a cup of coffee. However, over a year, these small amounts add up to a noticeable expense.</p><p>For working out and trimming running costs, see <a href=\"appliance-running-cost.html\">the running cost calculator</a>, <a href=\"electricity.html\">where your electricity goes</a>, <a href=\"using-a-plug-in-energy-monitor.html\">a plug-in energy monitor</a>, <a href=\"standby-power-the-full-story.html\">standby power</a>.</p>"
+  }
+ ],
+ "faq": [
+  {
+   "q": "Does a games console use electricity when switched off?",
+   "a": "Yes, if left in standby or with features like quick resume enabled, the console still draws a small amount of power, typically 5 to 10 watts. This is known as phantom load. To completely stop electricity usage, unplug the console or turn it off at the wall socket."
+  },
+  {
+   "q": "How much does it cost to leave a console on all day?",
+   "a": "Assuming a 200W console running continuously for 24 hours, the energy used is 4.8 kWh. At 26.11p per kWh, that costs approximately £1.26 per day. Over a full year, this would amount to over £460, which is a significant expense. It's advisable to turn the console off when not in use."
+  },
+  {
+   "q": "Is it cheaper to play on a gaming laptop?",
+   "a": "Gaming laptops can draw similar power levels, typically between 150 and 200 watts when gaming, so the cost is comparable. However, laptops may offer more flexibility with power-saving modes and can be more efficient at lower settings. The overall cost depends on usage patterns and the specific model."
+  },
+  {
+   "q": "Does using a headset or controller affect power use?",
+   "a": "The impact is negligible. Controllers charge via USB, adding at most a few watts. Headsets with built-in batteries also consume very little power. These accessories typically contribute less than 1p per hour to your electricity bill, so you can safely ignore them in your cost calculations."
+  },
+  {
+   "q": "Should I turn off the console or put it in sleep mode?",
+   "a": "Sleep mode uses less power than idle (for example, 5W vs 150W), but turning off completely saves the most energy. If you game daily and value quick resume, sleep mode is convenient and still relatively efficient. For long periods without use, such as overnight or while on holiday, switch off completely to maximise savings."
+  }
+ ]
+}

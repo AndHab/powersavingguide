@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en-GB">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Solar panel payback calculator | Power Saving Guide</title>
+  <meta name="description" content="Estimate how long solar panels take to pay back. Enter the system cost, annual generation and how much you use yourself to see the yearly saving and payback period.">
+  <link rel="canonical" href="https://powersavingguide.com/solar-panel-payback-calculator.html">
+  <meta name="robots" content="index, follow">
+  <meta property="og:site_name" content="Power Saving Guide">
+  <meta property="og:type" content="article">
+  <meta property="og:title" content="Solar panel payback calculator | Power Saving Guide">
+  <meta property="og:description" content="Estimate how long solar panels take to pay back. Enter the system cost, annual generation and how much you use yourself to see the yearly saving and payback period.">
+  <meta property="og:url" content="https://powersavingguide.com/solar-panel-payback-calculator.html">
+  <meta property="og:locale" content="en_GB">
+  <meta name="twitter:card" content="summary">
+  <script type="application/ld+json">{"@context": "https://schema.org", "@type": "Article", "headline": "Solar panel payback calculator", "description": "Estimate how long solar panels take to pay back. Enter the system cost, annual generation and how much you use yourself to see the yearly saving and payback period.", "datePublished": "2026-06-03", "dateModified": "2026-06-25", "inLanguage": "en-GB", "mainEntityOfPage": "https://powersavingguide.com/solar-panel-payback-calculator.html", "author": {"@type": "Organization", "name": "Power Saving Guide"}, "publisher": {"@type": "Organization", "name": "Power Saving Guide"}}</script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,600&family=Inter:wght@400;500;600&display=swap" rel="stylesheet" media="print" onload="this.media='all'">
+  <noscript><link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,600&family=Inter:wght@400;500;600&display=swap" rel="stylesheet"></noscript>
+  <script data-goatcounter="https://stats.powersavingguide.com/count" async src="//stats.powersavingguide.com/count.js"></script><script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('consent','default',{ad_storage:'granted',ad_user_data:'granted',ad_personalization:'granted',analytics_storage:'granted'});gtag('consent','default',{region:['AT','BE','BG','HR','CY','CZ','DK','EE','FI','FR','DE','GR','HU','IE','IT','LV','LT','LU','MT','NL','PL','PT','RO','SK','SI','ES','SE','IS','LI','NO','GB','CH'],ad_storage:'denied',ad_user_data:'denied',ad_personalization:'denied',analytics_storage:'denied',wait_for_update:500});</script><script async src="https://www.googletagmanager.com/gtag/js?id=G-8FYB114413"></script><script>gtag('js',new Date());gtag('config','G-8FYB114413');</script><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-7059699192160095" crossorigin="anonymous"></script>
+</head>
+<body>
+  <nav class="nav--bar"><div class="wrap nav-inner">
+    <a class="brand" href="index.html">Power Saving Guide</a>
+    <input type="checkbox" id="nt" class="navtoggle">
+    <label for="nt" class="navburger" aria-label="Menu">≡</label>
+    <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="electricity.html">Electricity</a></li>
+        <li><a href="heating.html">Heating &amp; gas</a></li>
+        <li><a href="driving.html">Fuel &amp; driving</a></li>
+        <li><a href="calculators.html" class="active">Calculators</a></li>
+        <li><a href="guides.html">Guides</a></li>
+        <li><a href="about.html">About</a></li>
+    </ul>
+  </div></nav>
+
+  <header class="page-head"><div class="wrap"><h1>Solar panel payback calculator</h1></div></header>
+  <main>
+
+  <section class="section"><div class="wrap prose">
+    <p class="lede">Enter the cost of a solar PV system, how much it generates a year, and roughly how much of that you use yourself rather than export. This estimates the yearly saving and how many years the system takes to pay for itself.</p>
+    <div class="ecalc">
+      <div class="row">
+      <div class="field"><label for="cost">System cost (£)</label><input id="cost" type="number" inputmode="decimal" step="50" min="0" value="6000"></div>
+      <div class="field"><label for="gen">Annual generation (kWh)</label><input id="gen" type="number" inputmode="decimal" step="50" min="0" value="3500"></div>
+      </div>
+      <div class="row">
+      <div class="field"><label for="self">Used yourself: <output id="self_o">50%</output></label><input id="self" type="range" min="0" max="100" step="5" value="50" oninput="document.getElementById('self_o').textContent=this.value+'%'"></div>
+      <div class="field"><label for="rate">Electricity price (pence/kWh)</label><input id="rate" type="number" inputmode="decimal" step="0.01" min="0" value="26.11"></div>
+      </div>
+      <div class="row">
+      <div class="field"><label for="exp">Export rate (pence/kWh)</label><input id="exp" type="number" inputmode="decimal" step="0.01" min="0" value="15"></div>
+      </div>
+      <div class="res" id="res"></div>
+    </div>
+    <script>
+(function(){
+  function v(id){var x=parseFloat(document.getElementById(id).value);return isNaN(x)||x<0?0:x;}
+  function go(){
+    var self=Math.min(v('self'),100)/100, gen=v('gen');
+    var saving=(gen*self*v('rate') + gen*(1-self)*v('exp'))/100;
+    var payback=saving>0?v('cost')/saving:0;
+    document.getElementById('res').innerHTML=
+      '<div class="big">'+(payback>0?payback.toFixed(1)+' years':'n/a')+'<span> to pay back</span></div>'+
+      '<div class="grid3">'+
+      '<div class="b"><div class="n">£'+saving.toFixed(0)+'</div><div class="l">saving / year</div></div>'+
+      '<div class="b"><div class="n">£'+(saving*25).toFixed(0)+'</div><div class="l">over 25 years</div></div>'+
+      '<div class="b"><div class="n">£'+(saving*25-v('cost')).toFixed(0)+'</div><div class="l">25-year profit</div></div></div>'+
+      '<p style="margin-top:12px;color:var(--muted)">Panels typically last 25 years or more. Self-used energy saves the full rate; exported energy earns the lower export rate.</p>';
+  }
+  ['cost','gen','self','rate','exp'].forEach(function(id){var e=document.getElementById(id);if(e)e.addEventListener('input',go);});
+  go();
+})();
+    </script>
+<div class="formula"><b>The formula:</b> yearly saving = (self-used kWh &times; your rate) + (exported kWh &times; export rate); payback = cost &divide; yearly saving</div>
+    <p>Solar pays back in two ways: every unit you use yourself saves you the full electricity rate, and every unit you export earns a smaller payment under the Smart Export Guarantee. The single biggest lever is how much you use yourself, which is why batteries, timers and daytime usage shift the maths. A typical home system costs a few thousand pounds, generates 3,000 to 4,000 kWh a year, and pays back in roughly 8 to 12 years, then runs at a profit. For the wider picture see <a href="is-solar-worth-it.html">is solar worth it</a> and <a href="solar-battery-storage.html">solar battery storage</a>.</p>
+    <h2>Common questions</h2>
+    <p><strong>How long do solar panels take to pay back?</strong><br>For most UK homes, roughly 8 to 12 years, depending on the system cost, how much you generate and how much you use yourself rather than export. After that the electricity is effectively free for the panels' remaining life.</p>
+    <p><strong>Do solar panels still save money after payback?</strong><br>Yes. Panels usually last 25 years or more, so once they have paid for themselves, every year of generation after that is a saving. The 25-year figure shows the long-run total.</p>
+    <p><strong>What makes solar pay back faster?</strong><br>Using more of your own generation rather than exporting it. Self-used energy saves the full electricity rate, around 26p, while exported energy earns only the export rate, around 15p or less.</p>
+    <script type="application/ld+json">{"@context": "https://schema.org", "@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": "How long do solar panels take to pay back?", "acceptedAnswer": {"@type": "Answer", "text": "For most UK homes, roughly 8 to 12 years, depending on the system cost, how much you generate and how much you use yourself rather than export. After that the electricity is effectively free for the panels' remaining life."}}, {"@type": "Question", "name": "Do solar panels still save money after payback?", "acceptedAnswer": {"@type": "Answer", "text": "Yes. Panels usually last 25 years or more, so once they have paid for themselves, every year of generation after that is a saving. The 25-year figure shows the long-run total."}}, {"@type": "Question", "name": "What makes solar pay back faster?", "acceptedAnswer": {"@type": "Answer", "text": "Using more of your own generation rather than exporting it. Self-used energy saves the full electricity rate, around 26p, while exported energy earns only the export rate, around 15p or less."}}]}</script>
+  </div></section>
+
+  </main>
+  <footer class="footer"><div class="wrap">
+    <p class="foot-brand">Power Saving Guide</p>
+    <p>A practical, independent guide to cutting your electricity, gas and fuel bills. Plain advice, no gadgets to buy.</p>
+    <p class="foot-links"><a href="electricity.html">Electricity</a> · <a href="heating.html">Heating &amp; gas</a> · <a href="driving.html">Fuel &amp; driving</a> · <a href="appliance-running-cost.html">Cost calculator</a> · <a href="guides.html">Guides</a> · <a href="about.html">About</a> · <a href="privacy.html">Privacy</a></p>
+    <p class="copy">&copy; <span>2026</span> Power Saving Guide. Figures are worked examples; check your own tariff and meter. Cookieless analytics, see the <a href="privacy.html">privacy page</a>.</p>
+  </div></footer>
+</body>
+</html>

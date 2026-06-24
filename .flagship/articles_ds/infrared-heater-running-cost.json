@@ -1,0 +1,60 @@
+{
+ "slug": "infrared-heater-running-cost",
+ "title": "How much does it cost to run an infrared heater?",
+ "description": "Calculate infrared heater running costs using Ofgem's price cap (26.11p/kWh). Compare with gas heating, understand standing charges, and find savings tips.",
+ "blurb": "Infrared heaters warm people and objects directly, not the air. Running costs depend on wattage and usage. At the July to September 2026 price cap, a 1kW panel costs 26.11p per hour. Compare with gas heating at 7.33p/kWh.",
+ "lede": "Infrared heaters have become a popular choice for spot heating, but how much do they actually cost to run? Using the latest Ofgem energy price cap figures (electricity 26.11p per kWh, gas 7.33p per kWh), we break down the numbers so you can compare with your current system.",
+ "short_answer": "At the July to September 2026 price cap, a 1kW infrared heater costs 26.11p per hour to run. A 500W panel costs 13.06p per hour. These costs are higher than gas central heating (7.33p per kWh) but infrared heats only occupied spaces, potentially saving money overall.",
+ "sections": [
+  {
+   "h2": "How infrared heaters work",
+   "html": "<p>Infrared heaters use electromagnetic radiation to directly warm people and objects, rather than heating the air. This means they provide instant, focused warmth and are often used in rooms where you spend limited time, such as home offices or bathrooms. They come in various wattages, typically from 300W to 1kW, and can be wall-mounted, ceiling-mounted, or portable.</p><p>Because infrared heaters don't heat the air, they avoid the heat loss associated with convection heating (e.g., blowing warm air into a room). This makes them more efficient for zone heating, but the running cost per kWh of electricity is higher than gas.</p>"
+  },
+  {
+   "h2": "Calculating running costs",
+   "html": "<p>The cost of running an infrared heater depends on its power rating (watts) and the time it is used. Electricity is billed per kilowatt-hour (kWh). At Ofgem's July to September 2026 price cap, electricity costs 26.11p per kWh. Use this formula:</p><p><strong>Cost = (Wattage ÷ 1000) × hours used × 26.11p</strong></p><p>Below is a table showing hourly costs for common infrared heater wattages:</p><table class=\"ev-table\"><thead><tr><th>Wattage</th><th>Cost per hour</th></tr></thead><tbody><tr><td>300W</td><td>7.83p</td></tr><tr><td>500W</td><td>13.06p</td></tr><tr><td>750W</td><td>19.58p</td></tr><tr><td>1000W (1kW)</td><td>26.11p</td></tr></tbody></table><p>For example, running a 500W panel for 3 hours costs 3 × 13.06p = 39.18p.</p>"
+  },
+  {
+   "h2": "Comparing infrared with gas central heating",
+   "html": "<p>Gas central heating typically costs 7.33p per kWh under the price cap, but you also pay a daily standing charge of 57.19p for gas (plus electricity standing charge). Infrared heaters use electricity, which has a higher unit rate but no gas standing charge if you don't have gas. Here's a comparison for one hour of heating a room:</p><table class=\"ev-table\"><thead><tr><th>Heating type</th><th>Cost per hour (1kW equivalent)</th><th>Standing charge (daily)</th></tr></thead><tbody><tr><td>Infrared heater (electric)</td><td>26.11p</td><td>57.19p (electricity)</td></tr><tr><td>Gas central heating</td><td>7.33p</td><td>57.19p (gas) + 57.19p (electricity for pump etc.)</td></tr></tbody></table><p>Note: Gas heating may require electricity for the boiler pump and controls, adding to the total. Infrared heaters have no additional running costs besides the electricity used. Also, gas loses heat through ducts or pipes, while infrared is 100% efficient at point of use.</p>"
+  },
+  {
+   "h2": "Factors affecting running costs",
+   "html": "<p>Several factors influence how much your infrared heater costs in practice:</p><ul><li><strong>Wattage:</strong> Higher wattage heats faster but costs more per hour.</li><li><strong>Usage time:</strong> The longer you run it, the higher the bill.</li><li><strong>Thermostat control:</strong> Many infrared heaters have built-in thermostats that cycle on/off, reducing average consumption.</li><li><strong>Room size and insulation:</strong> Infrared directly heats objects, so well-insulated rooms retain warmth better.</li><li><strong>Zoning:</strong> Heating only the occupied room can save money compared to whole-house gas heating.</li></ul><p>Below is a table showing estimated annual costs for a 1kW heater used 5 hours per day for 6 months (approx. 182 days):</p><table class=\"ev-table\"><thead><tr><th>Usage scenario</th><th>Daily cost (5 hours)</th><th>Annual cost (6 months)</th></tr></thead><tbody><tr><td>1kW constantly on</td><td>130.55p (£1.31)</td><td>£238.60</td></tr><tr><td>1kW with thermostat (50% duty cycle)</td><td>65.28p (£0.65)</td><td>£119.30</td></tr></tbody></table><p>These figures exclude the electricity standing charge (57.19p per day), which adds £104.36 over 6 months if you have only electricity supply.</p>"
+  },
+  {
+   "h2": "Cost per hour for different wattages (detailed)",
+   "html": "<p>Below is a more detailed table covering typical infrared heater wattages from 300W to 2000W (though domestic panels rarely exceed 1kW). All calculations use the Ofgem electricity rate of 26.11p/kWh.</p><table class=\"ev-table\"><thead><tr><th>Wattage</th><th>kW</th><th>Cost per hour</th><th>Cost per 3 hours</th><th>Cost per 8 hours</th></tr></thead><tbody><tr><td>300W</td><td>0.3</td><td>7.83p</td><td>23.50p</td><td>62.66p</td></tr><tr><td>400W</td><td>0.4</td><td>10.44p</td><td>31.33p</td><td>83.55p</td></tr><tr><td>500W</td><td>0.5</td><td>13.06p</td><td>39.17p</td><td>104.44p</td></tr><tr><td>600W</td><td>0.6</td><td>15.67p</td><td>47.00p</td><td>125.33p</td></tr><tr><td>750W</td><td>0.75</td><td>19.58p</td><td>58.75p</td><td>156.66p</td></tr><tr><td>800W</td><td>0.8</td><td>20.89p</td><td>62.66p</td><td>167.10p</td></tr><tr><td>1000W</td><td>1.0</td><td>26.11p</td><td>78.33p</td><td>208.88p</td></tr></tbody></table>"
+  },
+  {
+   "h2": "Yearly cost estimate including standing charges",
+   "html": "<p>To get a true picture, you must include the daily electricity standing charge (57.19p). For a household using infrared heaters as the main heating, the standing charge adds up. Here's a yearly estimate for a 500W heater used 4 hours per day for 8 months (244 days):</p><p><strong>Heating cost:</strong> 13.06p per hour × 4 hours × 244 days = 52.24p per day × 244 = £127.47 (approx.).</p><p><strong>Standing charge:</strong> 57.19p per day × 365 = £208.74.</p><p><strong>Total annual cost:</strong> £127.47 + £208.74 = £336.21.</p><p>Compare this with gas central heating: running a 24kW boiler for 1 hour uses 24 kWh = £1.76 plus <a href=\"standing-charges-explained.html\">standing charges</a>. However, most people use gas for whole-house heating, while infrared is for single rooms. The comparison is not direct, but infrared can be cheaper if you only heat one room for a few hours a day.</p><table class=\"ev-table\"><thead><tr><th>Heating type</th><th>Annual cost (example)</th></tr></thead><tbody><tr><td>500W infrared, 4h/day, 8 months</td><td>£127.47 (no standing charge) + £208.74 = £336.21</td></tr><tr><td>Gas central heating, 2h/day, 8 months (24kW)</td><td>24kWh × 7.33p × 2h × 244 days = 24×7.33×2×244/100 = £858.49 + gas standing charge £208.74 = £1,067.23 (plus electricity for pump)</td></tr></tbody></table><p>This shows infrared can be cheaper for zonal heating, but if you need to heat multiple rooms, gas may be more economical.</p>"
+  },
+  {
+   "h2": "Tips to reduce running costs",
+   "html": "<p>To get the most from your infrared heater and keep costs down, consider these practical tips:</p><ul><li><strong>Use a thermostat:</strong> Many models have built-in thermostats that prevent overheating and reduce energy waste.</li><li><strong>Zone heating:</strong> Heat only the room you're using, and close doors to preserve warmth.</li><li><strong>Improve insulation:</strong> Draught proof windows and doors to reduce heat loss from objects.</li><li><strong>Use reflective panels:</strong> Placing a reflective material behind the heater can direct more heat into the room.</li><li><strong>Timer controls:</strong> Set timers to run the heater only when needed, especially in bedrooms or bathrooms.</li><li><strong>Consider lower wattage:</strong> A 500W panel may suffice for a small room, costing half as much to run as a 1kW.</li></ul><p>Remember that infrared heaters are most effective when you are within their line of sight. Turning them off when leaving the room saves energy.</p><p>For working out and trimming running costs, see <a href=\"appliance-running-cost.html\">the running cost calculator</a>, <a href=\"electricity.html\">where your electricity goes</a>, <a href=\"using-a-plug-in-energy-monitor.html\">a plug-in energy monitor</a>.</p>"
+  }
+ ],
+ "faq": [
+  {
+   "q": "How much does a 500W infrared heater cost per hour?",
+   "a": "At the July to September 2026 price cap (26.11p/kWh), a 500W heater costs 13.06p per hour (0.5 kW × 26.11p)."
+  },
+  {
+   "q": "Is infrared heating cheaper than gas central heating?",
+   "a": "Per kWh, electricity (26.11p) is more expensive than gas (7.33p). However, infrared heats only the occupied space and avoids heat loss through ducts or pipes. If you heat a single room for part of the day, infrared can be cheaper than running a whole-house gas system. The standing charges also differ: electricity has one standing charge, while gas adds another."
+  },
+  {
+   "q": "Does the standing charge affect the cost of running an infrared heater?",
+   "a": "Yes. You pay 57.19p per day for electricity standing charge regardless of usage. This adds about £208.74 per year. If you use infrared as your main heating, factor this into your total cost. For occasional use, the standing charge is a fixed overhead."
+  },
+  {
+   "q": "Are infrared heaters 100% efficient?",
+   "a": "Infrared heaters convert nearly all electricity into heat, so they are 100% efficient at point of use. However, the efficiency of the overall heating system depends on how well the heat is directed and retained. Zoning and insulation improve effective efficiency."
+  },
+  {
+   "q": "How can I calculate the annual cost of my infrared heater?",
+   "a": "Multiply the hourly cost (wattage ÷ 1000 × 26.11p) by the hours used per day and days per year. Add the daily standing charge (57.19p × 365). For example, a 750W heater used 3 hours per day for 200 days: cost = 19.58p × 3 × 200 = 117.48p × 200 = £234.96; plus standing charge £208.74 = total £443.70."
+  }
+ ]
+}

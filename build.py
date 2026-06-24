@@ -34,7 +34,7 @@ NAV = [
     ("electricity", "Electricity"),
     ("heating", "Heating & gas"),
     ("driving", "Fuel & driving"),
-    ("appliance-running-cost", "Cost calculator"),
+    ("calculators", "Calculators"),
     ("guides", "Guides"),
     ("about", "About"),
 ]
@@ -120,6 +120,47 @@ def page(slug, title, description, body, active=None, pubdate=None):
 '''
 
 
+def fld(fid, label, val, step="any", mn="0"):
+    return (f'      <div class="field"><label for="{fid}">{label}</label>'
+            f'<input id="{fid}" type="number" inputmode="decimal" step="{step}" min="{mn}" value="{val}"></div>')
+
+def sld(fid, label, val, mn, mx, step="1", suffix=""):
+    return (f'      <div class="field"><label for="{fid}">{label}: '
+            f'<output id="{fid}_o">{val}{suffix}</output></label>'
+            f'<input id="{fid}" type="range" min="{mn}" max="{mx}" step="{step}" value="{val}" '
+            f"oninput=\"document.getElementById('{fid}_o').textContent=this.value+'{suffix}'\"></div>")
+
+def row(*fields):
+    return '      <div class="row">\n' + "\n".join(fields) + "\n      </div>"
+
+def calc_tool(lede, widget, js, after):
+    return f'''
+  <section class="section"><div class="wrap prose">
+    <p class="lede">{lede}</p>
+    <div class="ecalc">
+{widget}
+      <div class="res" id="res"></div>
+    </div>
+    <script>
+{js}
+    </script>
+{after}
+  </div></section>
+'''
+
+def faq_block(items):
+    import json as _j
+    parts = ['<h2>Common questions</h2>']
+    for q, a in items:
+        parts.append(f'<p><strong>{q}</strong><br>{a}</p>')
+    ld = {"@context": "https://schema.org", "@type": "FAQPage",
+          "mainEntity": [{"@type": "Question", "name": q,
+                          "acceptedAnswer": {"@type": "Answer", "text": a}} for q, a in items]}
+    s = _j.dumps(ld, ensure_ascii=False).replace("<", "\\u003c")
+    parts.append(f'<script type="application/ld+json">{s}</script>')
+    return "\n    ".join(parts)
+
+
 PAGES = {}
 
 PAGES["index"] = dict(
@@ -139,7 +180,7 @@ PAGES["index"] = dict(
       <a class="tile" href="electricity.html"><h2>Electricity</h2><p>The biggest users in the home, standby waste, lighting, and the quick wins that move the meter.</p></a>
       <a class="tile" href="heating.html"><h2>Heating &amp; gas</h2><p>Usually the largest bill of all. Thermostats, draughts, insulation and getting more from the boiler.</p></a>
       <a class="tile" href="driving.html"><h2>Fuel &amp; driving</h2><p>How driving style, tyres and a few habits change what you spend at the pump.</p></a>
-      <a class="tile" href="appliance-running-cost.html"><h2>Cost calculator</h2><p>Enter an appliance's watts and how long it runs, and see the cost per use, per day and per year.</p></a>
+      <a class="tile" href="calculators.html"><h2>Calculators</h2><p>Watts to kWh, cost of electricity, EV charging, solar payback, heat pump running cost and more. Free, instant, no sign-up.</p></a>
       <a class="tile" href="guides.html"><h2>Guides</h2><p>Single-topic, practical guides that go a level deeper than the section pages.</p></a>
       <a class="tile" href="about.html"><h2>About</h2><p>Why this exists, and the one rule behind every page: spend effort where the energy actually goes.</p></a>
     </div>
@@ -154,7 +195,7 @@ PAGES["index"] = dict(
 PAGES["appliance-running-cost"] = dict(
     title="Appliance running cost calculator",
     description="Work out what any appliance costs to run: enter its wattage, how long it runs and your price per kWh, and get the cost per use, per day and per year in your own currency.",
-    active="appliance-running-cost",
+    active="calculators",
     body='''
   <section class="section"><div class="wrap prose">
     <p class="lede">Enter an appliance's power in watts, how long it runs and what you pay per unit (kWh), and this works out what it costs you per use, per day and per year. Everything happens in your browser; nothing is saved or sent.</p>
@@ -218,6 +259,323 @@ PAGES["appliance-running-cost"] = dict(
   })();
   </script>
 ''',
+)
+
+PAGES["calculators"] = dict(
+    title="Energy calculators and converters",
+    description="Free UK energy calculators: watts to kWh, kWh to cost, amps and watts, an energy bill estimator, EV charging cost, solar payback and heat pump running cost. Price-cap figures built in.",
+    active="calculators",
+    body='''
+  <section class="section"><div class="wrap prose">
+    <p class="lede">Quick, free energy calculators that do the sums for you, with the current UK price-cap figures built in. Nothing is saved and nothing is sent; it all runs in your browser.</p>
+    <div class="grid-cards">
+      <a class="tile" href="watts-to-kwh-calculator.html"><h2>Watts to kWh</h2><p>Turn an appliance's wattage and run time into kilowatt-hours per day, month and year.</p></a>
+      <a class="tile" href="kwh-to-cost-calculator.html"><h2>kWh to cost</h2><p>Multiply kilowatt-hours by your unit rate to see what the energy actually costs.</p></a>
+      <a class="tile" href="kw-to-kwh-calculator.html"><h2>kW to kWh</h2><p>Convert a power rating in kilowatts and a run time into kilowatt-hours used.</p></a>
+      <a class="tile" href="energy-bill-calculator.html"><h2>Energy bill estimator</h2><p>Units, unit rate and standing charge worked into an estimated bill for any period.</p></a>
+      <a class="tile" href="amps-to-watts-calculator.html"><h2>Amps to watts</h2><p>Work out power in watts from a current in amps at UK mains voltage.</p></a>
+      <a class="tile" href="watts-to-amps-calculator.html"><h2>Watts to amps</h2><p>Find the current an appliance draws, handy for fuses and extension leads.</p></a>
+      <a class="tile" href="ev-charging-cost-calculator.html"><h2>EV charging cost</h2><p>What it costs to charge an electric car at home, per charge and per mile.</p></a>
+      <a class="tile" href="solar-panel-payback-calculator.html"><h2>Solar payback</h2><p>How many years a solar PV system takes to pay for itself from the savings.</p></a>
+      <a class="tile" href="heat-pump-running-cost-calculator.html"><h2>Heat pump cost</h2><p>Compare the yearly running cost of a heat pump against a gas boiler.</p></a>
+      <a class="tile" href="appliance-running-cost.html"><h2>Appliance running cost</h2><p>Cost per use, per day and per year for any single appliance.</p></a>
+    </div>
+  </div></section>
+''',
+)
+
+PAGES["watts-to-kwh-calculator"] = dict(
+    title="Watts to kWh calculator",
+    description="Convert watts to kilowatt-hours. Enter an appliance's power in watts and how long it runs to see the energy used in kWh per day, month and year, and the cost.",
+    active="calculators",
+    body=calc_tool(
+        "Enter an appliance's power in watts and how many hours it runs, and this converts it to kilowatt-hours (kWh), the unit your bill is measured in. The cost is worked out at the current price cap, which you can change.",
+        row(fld("w", "Power (watts)", "100"), fld("h", "Hours used per day", "5", "0.5")) + "\n" +
+        row(fld("p", "Price per kWh (pence)", "26.11", "0.01")),
+        '''(function(){
+  function v(id){var x=parseFloat(document.getElementById(id).value);return isNaN(x)||x<0?0:x;}
+  function go(){
+    var day=v('w')/1000*v('h'), p=v('p');
+    function m(k){return '£'+(k*p/100).toFixed(2);}
+    document.getElementById('res').innerHTML=
+      '<div class="big">'+day.toFixed(2)+' kWh<span> per day ('+m(day)+')</span></div>'+
+      '<div class="grid3">'+
+      '<div class="b"><div class="n">'+(day*7).toFixed(1)+'</div><div class="l">kWh / week</div></div>'+
+      '<div class="b"><div class="n">'+(day*30).toFixed(0)+'</div><div class="l">kWh / month</div></div>'+
+      '<div class="b"><div class="n">'+(day*365).toFixed(0)+'</div><div class="l">kWh / year</div></div></div>'+
+      '<p style="margin-top:12px;color:var(--muted)">About '+m(day*365)+' a year to run at this rate.</p>';
+  }
+  ['w','h','p'].forEach(function(id){var e=document.getElementById(id);if(e)e.addEventListener('input',go);});
+  go();
+})();''',
+        '''<div class="formula"><b>The formula:</b> kWh = watts &divide; 1000 &times; hours</div>
+    <p>A kilowatt-hour is one kilowatt (1,000 watts) used for one hour. A 100W bulb left on for 10 hours uses 100 &divide; 1000 &times; 10 = 1 kWh. Your supplier bills per kWh (often called a "unit"), so converting to kWh is the step that turns a wattage into money. An appliance's wattage is usually on a label on the back or base, or in the manual.</p>
+    <p>Once you have the kWh, see <a href="kwh-to-cost-calculator.html">kWh to cost</a>, or skip straight to cost per use with the <a href="appliance-running-cost.html">appliance running cost calculator</a>. For where the big users hide, see <a href="electricity.html">electricity in the home</a>.</p>
+    ''' + faq_block([
+            ("How do I convert watts to kWh?", "Divide the watts by 1,000 to get kilowatts, then multiply by the hours it runs. A 2,000W heater for 3 hours is 2,000 divided by 1,000, times 3, which is 6 kWh."),
+            ("How many kWh does a 1000W appliance use?", "A 1,000W (1kW) appliance uses exactly 1 kWh for every hour it runs. Over 5 hours that is 5 kWh, which at 26.11p per kWh costs about £1.31."),
+            ("Is a kWh the same as a unit on my bill?", "Yes. One unit of electricity on a UK bill is one kilowatt-hour."),
+        ]),
+    ),
+)
+
+PAGES["kwh-to-cost-calculator"] = dict(
+    title="kWh to cost calculator",
+    description="Work out the cost of electricity or gas from kilowatt-hours. Enter the kWh used and your unit rate in pence to get the cost in pounds, with handy reference amounts.",
+    active="calculators",
+    body=calc_tool(
+        "Enter how many kilowatt-hours (kWh) you have used and your price per kWh in pence, and this works out the cost. The rate defaults to the current electricity price cap; for gas, change it to about 7.33p.",
+        row(fld("kwh", "Energy used (kWh)", "10"), fld("p", "Price per kWh (pence)", "26.11", "0.01")),
+        '''(function(){
+  function v(id){var x=parseFloat(document.getElementById(id).value);return isNaN(x)||x<0?0:x;}
+  function go(){
+    var p=v('p'), c=v('kwh')*p/100;
+    function m(k){return '£'+(k*p/100).toFixed(2);}
+    document.getElementById('res').innerHTML=
+      '<div class="big">£'+c.toFixed(2)+'<span> for '+v('kwh')+' kWh at '+p+'p</span></div>'+
+      '<div class="grid3">'+
+      '<div class="b"><div class="n">'+m(1)+'</div><div class="l">1 kWh</div></div>'+
+      '<div class="b"><div class="n">'+m(10)+'</div><div class="l">10 kWh</div></div>'+
+      '<div class="b"><div class="n">'+m(100)+'</div><div class="l">100 kWh</div></div></div>';
+  }
+  ['kwh','p'].forEach(function(id){var e=document.getElementById(id);if(e)e.addEventListener('input',go);});
+  go();
+})();''',
+        '''<div class="formula"><b>The formula:</b> cost = kWh &times; price per kWh &divide; 100 (the rate is in pence)</div>
+    <p>This is the calculation behind every line of your energy bill. If you have a wattage rather than a kWh figure, convert it first with the <a href="watts-to-kwh-calculator.html">watts to kWh calculator</a>. To see how the unit rate and the daily standing charge combine into a full bill, use the <a href="energy-bill-calculator.html">energy bill estimator</a>, and for what the rate actually is, see <a href="how-the-energy-price-cap-works.html">how the energy price cap works</a>.</p>
+    ''' + faq_block([
+            ("How do I work out the cost of 1 kWh?", "Take your unit rate in pence and divide by 100 to get pounds. At the current cap of 26.11p, one kWh of electricity costs just over 26p. Gas is cheaper, around 7.33p per kWh."),
+            ("What is a good price per kWh?", "Under the July to September 2026 price cap, electricity averages 26.11p per kWh and gas 7.33p per kWh on a standard variable tariff. A fixed deal may be a little above or below this."),
+        ]),
+    ),
+)
+
+PAGES["kw-to-kwh-calculator"] = dict(
+    title="kW to kWh calculator",
+    description="Convert kilowatts to kilowatt-hours. Enter a power rating in kW and how long it runs to get the energy used in kWh, plus the weekly, monthly and yearly totals.",
+    active="calculators",
+    body=calc_tool(
+        "Kilowatts (kW) measure power; kilowatt-hours (kWh) measure energy used over time. Enter a power rating and a run time and this converts kW to kWh, then shows the totals if you run it daily.",
+        row(fld("kw", "Power (kW)", "2", "0.1"), fld("h", "Hours it runs", "3", "0.5")) + "\n" +
+        row(fld("p", "Price per kWh (pence)", "26.11", "0.01")),
+        '''(function(){
+  function v(id){var x=parseFloat(document.getElementById(id).value);return isNaN(x)||x<0?0:x;}
+  function go(){
+    var run=v('kw')*v('h'), p=v('p');
+    function m(k){return '£'+(k*p/100).toFixed(2);}
+    document.getElementById('res').innerHTML=
+      '<div class="big">'+run.toFixed(2)+' kWh<span> per run ('+m(run)+')</span></div>'+
+      '<div class="grid3">'+
+      '<div class="b"><div class="n">'+(run*7).toFixed(1)+'</div><div class="l">kWh / week</div></div>'+
+      '<div class="b"><div class="n">'+(run*30).toFixed(0)+'</div><div class="l">kWh / month</div></div>'+
+      '<div class="b"><div class="n">'+(run*365).toFixed(0)+'</div><div class="l">kWh / year</div></div></div>'+
+      '<p style="margin-top:12px;color:var(--muted)">Run daily, that is about '+m(run*365)+' a year.</p>';
+  }
+  ['kw','h','p'].forEach(function(id){var e=document.getElementById(id);if(e)e.addEventListener('input',go);});
+  go();
+})();''',
+        '''<div class="formula"><b>The formula:</b> kWh = kW &times; hours</div>
+    <p>The two units are easy to mix up. A 2kW heater is rated at 2 kilowatts of power; run it for 3 hours and it uses 2 &times; 3 = 6 kWh of energy. If your appliance is rated in watts rather than kilowatts, divide by 1,000 first, or use the <a href="watts-to-kwh-calculator.html">watts to kWh calculator</a>. To turn the kWh into money, see <a href="kwh-to-cost-calculator.html">kWh to cost</a>.</p>
+    ''' + faq_block([
+            ("What is the difference between kW and kWh?", "A kilowatt (kW) is a rate of power, like the speed of a car. A kilowatt-hour (kWh) is the energy used over time, like the distance travelled. A 1kW device running for 1 hour uses 1 kWh."),
+            ("How many kWh is 2kW for an hour?", "Exactly 2 kWh. Kilowatt-hours are the power in kilowatts multiplied by the hours, so 2kW for 1 hour is 2 kWh, and for 30 minutes it is 1 kWh."),
+        ]),
+    ),
+)
+
+PAGES["energy-bill-calculator"] = dict(
+    title="Energy bill calculator",
+    description="Estimate your electricity or gas bill. Enter the units used, the unit rate and the standing charge to see the energy cost, standing-charge cost and total for any period.",
+    active="calculators",
+    body=calc_tool(
+        "Enter the units (kWh) you have used, your unit rate and your daily standing charge, and this estimates the bill for the period. Defaults are the current electricity price cap; both parts together are what you actually pay.",
+        row(fld("kwh", "Units used (kWh)", "250"), fld("days", "Days in the period", "30", "1")) + "\n" +
+        row(fld("rate", "Unit rate (pence/kWh)", "26.11", "0.01"), fld("sc", "Standing charge (pence/day)", "57.19", "0.01")),
+        '''(function(){
+  function v(id){var x=parseFloat(document.getElementById(id).value);return isNaN(x)||x<0?0:x;}
+  function go(){
+    var energy=v('kwh')*v('rate')/100, stand=v('days')*v('sc')/100, total=energy+stand;
+    function m(x){return '£'+x.toFixed(2);}
+    document.getElementById('res').innerHTML=
+      '<div class="big">'+m(total)+'<span> estimated for '+v('days')+' days</span></div>'+
+      '<div class="grid3">'+
+      '<div class="b"><div class="n">'+m(energy)+'</div><div class="l">energy</div></div>'+
+      '<div class="b"><div class="n">'+m(stand)+'</div><div class="l">standing charge</div></div>'+
+      '<div class="b"><div class="n">'+m(total)+'</div><div class="l">total</div></div></div>'+
+      '<p style="margin-top:12px;color:var(--muted)">Price-cap rates already include VAT at 5%.</p>';
+  }
+  ['kwh','days','rate','sc'].forEach(function(id){var e=document.getElementById(id);if(e)e.addEventListener('input',go);});
+  go();
+})();''',
+        '''<div class="formula"><b>The formula:</b> bill = (units &times; unit rate) + (days &times; standing charge), in pence, divided by 100</div>
+    <p>Every energy bill has two parts: the unit rate you pay for each kWh you use, and a fixed standing charge for every day you are connected, whether you use anything or not. The standing charge is why a bill is never zero even in an empty home. To find your units used, take the difference between two meter readings. For more on each part, see <a href="understanding-energy-bill.html">understanding your energy bill</a> and <a href="standing-charges-explained.html">standing charges explained</a>.</p>
+    ''' + faq_block([
+            ("How is my energy bill calculated?", "You pay a unit rate for each kWh used, plus a daily standing charge for being connected. Add the two for the period and you have the bill. Under the current cap, electricity is 26.11p per kWh with a 57.19p daily standing charge."),
+            ("What is the standing charge?", "A fixed daily fee covering the network and your connection. It applies every day regardless of how much energy you use, so even an empty property is billed for it."),
+            ("Does this include VAT?", "The default price-cap rates already include VAT at the reduced 5% rate for domestic energy, so the total shown is what you would pay."),
+        ]),
+    ),
+)
+
+PAGES["amps-to-watts-calculator"] = dict(
+    title="Amps to watts calculator",
+    description="Convert amps to watts at UK mains voltage. Enter the current in amps and the voltage to get the power in watts and kilowatts, with the hourly running cost.",
+    active="calculators",
+    body=calc_tool(
+        "Enter a current in amps and the voltage (UK mains is 230 volts) and this converts amps to watts. Power in watts is simply current times voltage.",
+        row(fld("a", "Current (amps)", "10", "0.1"), fld("v", "Voltage (volts)", "230", "1")) + "\n" +
+        row(fld("p", "Price per kWh (pence)", "26.11", "0.01")),
+        '''(function(){
+  function v(id){var x=parseFloat(document.getElementById(id).value);return isNaN(x)||x<0?0:x;}
+  function go(){
+    var w=v('a')*v('v'), hourly=w/1000*v('p');
+    document.getElementById('res').innerHTML=
+      '<div class="big">'+Math.round(w)+' W<span> = '+(w/1000).toFixed(2)+' kW</span></div>'+
+      '<p style="margin-top:12px;color:var(--muted)">At '+v('p')+'p per kWh, running this for an hour costs about '+hourly.toFixed(1)+'p.</p>';
+  }
+  ['a','v','p'].forEach(function(id){var e=document.getElementById(id);if(e)e.addEventListener('input',go);});
+  go();
+})();''',
+        '''<div class="formula"><b>The formula:</b> watts = amps &times; volts</div>
+    <p>UK mains is a nominal 230 volts, so a device drawing 10 amps uses about 2,300 watts. This is the same relationship used for fuses and cabling: a standard 13A plug at 230V can carry up to roughly 3,000 watts. To go the other way, use the <a href="watts-to-amps-calculator.html">watts to amps calculator</a>, and to turn watts into energy used, see <a href="watts-to-kwh-calculator.html">watts to kWh</a>.</p>
+    ''' + faq_block([
+            ("How do I convert amps to watts?", "Multiply the current in amps by the voltage. At UK mains voltage of 230V, 10 amps is 10 times 230, which is 2,300 watts, or 2.3kW."),
+            ("How many watts is 13 amps?", "At 230 volts, 13 amps is about 2,990 watts, just under 3kW. That is why a standard 13A UK plug is the limit for high-power appliances like heaters and kettles."),
+        ]),
+    ),
+)
+
+PAGES["watts-to-amps-calculator"] = dict(
+    title="Watts to amps calculator",
+    description="Convert watts to amps at UK mains voltage. Enter the power in watts and the voltage to get the current in amps, useful for choosing fuses and loading extension leads safely.",
+    active="calculators",
+    body=calc_tool(
+        "Enter the power in watts and the voltage (UK mains is 230 volts) and this converts watts to amps. It is the figure you need for choosing a fuse or checking what an extension lead can safely carry.",
+        row(fld("w", "Power (watts)", "2000"), fld("v", "Voltage (volts)", "230", "1")),
+        '''(function(){
+  function v(id){var x=parseFloat(document.getElementById(id).value);return isNaN(x)||x<0?0:x;}
+  function go(){
+    var vv=v('v'), a=vv>0?v('w')/vv:0;
+    var fuse=v('w')>3000?'over 13A, this needs a dedicated circuit, not a plug':(v('w')>700?'use a 13A plug fuse':'a 3A or 5A plug fuse is fine');
+    document.getElementById('res').innerHTML=
+      '<div class="big">'+a.toFixed(2)+' A<span> at '+vv+'V</span></div>'+
+      '<p style="margin-top:12px;color:var(--muted)">Fuse guide: '+fuse+'.</p>';
+  }
+  ['w','v'].forEach(function(id){var e=document.getElementById(id);if(e)e.addEventListener('input',go);});
+  go();
+})();''',
+        '''<div class="formula"><b>The formula:</b> amps = watts &divide; volts</div>
+    <p>This matters for safety, not just sums. A 2,000W appliance at 230V draws about 8.7 amps, well within a 13A plug. Add several high-power devices to one extension lead, though, and the total current can exceed what the lead is rated for, a common cause of overheating. Add up the watts of everything plugged in and keep the total under 3,000W on a standard 13A lead. To go the other way, use the <a href="amps-to-watts-calculator.html">amps to watts calculator</a>.</p>
+    ''' + faq_block([
+            ("How do I convert watts to amps?", "Divide the watts by the voltage. At UK mains voltage of 230V, a 2,000W appliance draws 2,000 divided by 230, which is about 8.7 amps."),
+            ("How many amps is 3000 watts?", "At 230 volts, 3,000 watts is about 13 amps, which is the maximum a standard UK plug and socket are designed to carry. Anything higher needs a dedicated circuit."),
+        ]),
+    ),
+)
+
+PAGES["ev-charging-cost-calculator"] = dict(
+    title="EV charging cost calculator",
+    description="Work out the cost of charging an electric car at home. Enter the charge added in kWh and your electricity rate to see the cost per charge, per mile and per 100 miles.",
+    active="calculators",
+    body=calc_tool(
+        "Enter how many kilowatt-hours you add to the battery and your electricity rate, and this works out what charging your EV at home costs, per charge and per mile. A cheap overnight EV tariff can be 7p to 9p per kWh, against about 26p on the standard cap.",
+        row(fld("kwh", "Charge added (kWh)", "60"), fld("miles", "Miles from that charge", "200", "1")) + "\n" +
+        row(fld("p", "Electricity rate (pence/kWh)", "26.11", "0.01")),
+        '''(function(){
+  function v(id){var x=parseFloat(document.getElementById(id).value);return isNaN(x)||x<0?0:x;}
+  function go(){
+    var cost=v('kwh')*v('p')/100, mi=v('miles'), perMile=mi>0?cost*100/mi:0;
+    document.getElementById('res').innerHTML=
+      '<div class="big">£'+cost.toFixed(2)+'<span> per charge</span></div>'+
+      '<div class="grid3">'+
+      '<div class="b"><div class="n">'+perMile.toFixed(1)+'p</div><div class="l">per mile</div></div>'+
+      '<div class="b"><div class="n">£'+perMile.toFixed(2)+'</div><div class="l">per 100 miles</div></div>'+
+      '<div class="b"><div class="n">£'+(perMile*10).toFixed(0)+'</div><div class="l">per 1000 miles</div></div></div>'+
+      '<p style="margin-top:12px;color:var(--muted)">On a 7p overnight EV tariff the same charge would cost about £'+(v('kwh')*7/100).toFixed(2)+'.</p>';
+  }
+  ['kwh','miles','p'].forEach(function(id){var e=document.getElementById(id);if(e)e.addEventListener('input',go);});
+  go();
+})();''',
+        '''<div class="formula"><b>The formula:</b> cost = kWh added &times; rate &divide; 100, and cost per mile = cost &divide; miles</div>
+    <p>Charging at home is where electric cars are cheapest to run. The standard cap of 26.11p per kWh already beats petrol per mile for most cars, but the real saving comes from a dedicated overnight EV tariff at 7p to 9p per kWh, which can drop the cost per mile to around 2p. Public rapid charging is far dearer, often 70p to 80p per kWh. For the full picture see <a href="ev-charging-at-home-cost.html">EV charging at home cost</a> and <a href="ev-electricity-tariffs-explained.html">EV electricity tariffs explained</a>.</p>
+    ''' + faq_block([
+            ("How much does it cost to charge an electric car at home?", "Multiply the kWh you add by your electricity rate. Adding 60 kWh at the 26.11p cap rate costs about £15.67. On a 7p overnight EV tariff the same charge is about £4.20."),
+            ("How much does an EV cost per mile to charge?", "At the cap rate, most EVs cost roughly 7p to 9p per mile. On a cheap overnight tariff that falls to about 2p to 3p per mile, well below the cost of petrol."),
+            ("Is it cheaper to charge at home or in public?", "Home is much cheaper. Home electricity is 26.11p per kWh on the cap, or single figures on an EV tariff, while public rapid chargers are often 70p to 80p per kWh."),
+        ]),
+    ),
+)
+
+PAGES["solar-panel-payback-calculator"] = dict(
+    title="Solar panel payback calculator",
+    description="Estimate how long solar panels take to pay back. Enter the system cost, annual generation and how much you use yourself to see the yearly saving and payback period.",
+    active="calculators",
+    body=calc_tool(
+        "Enter the cost of a solar PV system, how much it generates a year, and roughly how much of that you use yourself rather than export. This estimates the yearly saving and how many years the system takes to pay for itself.",
+        row(fld("cost", "System cost (£)", "6000", "50"), fld("gen", "Annual generation (kWh)", "3500", "50")) + "\n" +
+        row(sld("self", "Used yourself", "50", "0", "100", "5", "%"), fld("rate", "Electricity price (pence/kWh)", "26.11", "0.01")) + "\n" +
+        row(fld("exp", "Export rate (pence/kWh)", "15", "0.01")),
+        '''(function(){
+  function v(id){var x=parseFloat(document.getElementById(id).value);return isNaN(x)||x<0?0:x;}
+  function go(){
+    var self=Math.min(v('self'),100)/100, gen=v('gen');
+    var saving=(gen*self*v('rate') + gen*(1-self)*v('exp'))/100;
+    var payback=saving>0?v('cost')/saving:0;
+    document.getElementById('res').innerHTML=
+      '<div class="big">'+(payback>0?payback.toFixed(1)+' years':'n/a')+'<span> to pay back</span></div>'+
+      '<div class="grid3">'+
+      '<div class="b"><div class="n">£'+saving.toFixed(0)+'</div><div class="l">saving / year</div></div>'+
+      '<div class="b"><div class="n">£'+(saving*25).toFixed(0)+'</div><div class="l">over 25 years</div></div>'+
+      '<div class="b"><div class="n">£'+(saving*25-v('cost')).toFixed(0)+'</div><div class="l">25-year profit</div></div></div>'+
+      '<p style="margin-top:12px;color:var(--muted)">Panels typically last 25 years or more. Self-used energy saves the full rate; exported energy earns the lower export rate.</p>';
+  }
+  ['cost','gen','self','rate','exp'].forEach(function(id){var e=document.getElementById(id);if(e)e.addEventListener('input',go);});
+  go();
+})();''',
+        '''<div class="formula"><b>The formula:</b> yearly saving = (self-used kWh &times; your rate) + (exported kWh &times; export rate); payback = cost &divide; yearly saving</div>
+    <p>Solar pays back in two ways: every unit you use yourself saves you the full electricity rate, and every unit you export earns a smaller payment under the Smart Export Guarantee. The single biggest lever is how much you use yourself, which is why batteries, timers and daytime usage shift the maths. A typical home system costs a few thousand pounds, generates 3,000 to 4,000 kWh a year, and pays back in roughly 8 to 12 years, then runs at a profit. For the wider picture see <a href="is-solar-worth-it.html">is solar worth it</a> and <a href="solar-battery-storage.html">solar battery storage</a>.</p>
+    ''' + faq_block([
+            ("How long do solar panels take to pay back?", "For most UK homes, roughly 8 to 12 years, depending on the system cost, how much you generate and how much you use yourself rather than export. After that the electricity is effectively free for the panels' remaining life."),
+            ("Do solar panels still save money after payback?", "Yes. Panels usually last 25 years or more, so once they have paid for themselves, every year of generation after that is a saving. The 25-year figure shows the long-run total."),
+            ("What makes solar pay back faster?", "Using more of your own generation rather than exporting it. Self-used energy saves the full electricity rate, around 26p, while exported energy earns only the export rate, around 15p or less."),
+        ]),
+    ),
+)
+
+PAGES["heat-pump-running-cost-calculator"] = dict(
+    title="Heat pump running cost calculator",
+    description="Compare a heat pump's yearly running cost against a gas boiler. Enter your annual heat demand, the heat pump's efficiency and the energy prices to see the difference.",
+    active="calculators",
+    body=calc_tool(
+        "Enter your home's annual heat demand, a heat pump's seasonal efficiency (SCOP) and the energy prices, and this compares the yearly running cost of a heat pump against a gas boiler. A higher SCOP means more heat per unit of electricity.",
+        row(fld("heat", "Annual heat needed (kWh)", "12000", "100"), sld("scop", "Heat pump SCOP", "3.5", "1.5", "5", "0.1")) + "\n" +
+        row(fld("er", "Electricity price (pence/kWh)", "26.11", "0.01"), fld("gr", "Gas price (pence/kWh)", "7.33", "0.01")) + "\n" +
+        row(sld("beff", "Gas boiler efficiency", "90", "70", "100", "1", "%")),
+        '''(function(){
+  function v(id){var x=parseFloat(document.getElementById(id).value);return isNaN(x)||x<0?0:x;}
+  function go(){
+    var scop=v('scop')>0?v('scop'):1, beff=v('beff')>0?v('beff')/100:0.9;
+    var hp=v('heat')/scop*v('er')/100, gas=v('heat')/beff*v('gr')/100, diff=gas-hp;
+    var verdict=diff>0?('the heat pump saves about £'+diff.toFixed(0)+' a year'):('the heat pump costs about £'+Math.abs(diff).toFixed(0)+' a year more');
+    document.getElementById('res').innerHTML=
+      '<div class="big">£'+hp.toFixed(0)+'<span> a year, heat pump</span></div>'+
+      '<div class="grid3">'+
+      '<div class="b"><div class="n">£'+hp.toFixed(0)+'</div><div class="l">heat pump / yr</div></div>'+
+      '<div class="b"><div class="n">£'+gas.toFixed(0)+'</div><div class="l">gas boiler / yr</div></div>'+
+      '<div class="b"><div class="n">£'+Math.abs(diff).toFixed(0)+'</div><div class="l">difference</div></div></div>'+
+      '<p style="margin-top:12px;color:var(--muted)">At these prices, '+verdict+'.</p>';
+  }
+  ['heat','scop','er','gr','beff'].forEach(function(id){var e=document.getElementById(id);if(e)e.addEventListener('input',go);});
+  go();
+})();''',
+        '''<div class="formula"><b>The formula:</b> heat pump cost = heat &divide; SCOP &times; electricity rate; gas cost = heat &divide; boiler efficiency &times; gas rate</div>
+    <p>A heat pump uses electricity, which is dearer per unit than gas, but it is far more efficient: a SCOP of 3.5 means it delivers 3.5 units of heat for every unit of electricity, where a gas boiler delivers under 1. Whether it works out cheaper depends on the gap between electricity and gas prices and on the SCOP you actually achieve, which is why a well-designed system at a low flow temperature matters. The sums here are illustrative; for the detail see <a href="heat-pump-running-cost-vs-gas-boiler.html">heat pump running cost vs gas boiler</a> and <a href="heat-pumps-explained.html">heat pumps explained</a>.</p>
+    ''' + faq_block([
+            ("Is a heat pump cheaper to run than a gas boiler?", "It depends on the heat pump's efficiency and the price gap between electricity and gas. At a SCOP of 3.5 and current prices the running costs are close, often within a small margin either way. A higher SCOP and a cheaper electricity tariff tip it in the heat pump's favour."),
+            ("What is SCOP?", "Seasonal Coefficient of Performance: the average units of heat a heat pump produces per unit of electricity across a year. A SCOP of 3.5 means 3.5kWh of heat for every 1kWh of electricity. Higher is better and cheaper to run."),
+            ("How do I cut a heat pump's running cost?", "Run it at a low flow temperature for a higher SCOP, insulate well so you need less heat, and use an electricity tariff with cheaper off-peak rates. The same heat demand on a better SCOP costs noticeably less."),
+        ]),
+    ),
 )
 
 PAGES['electricity'] = dict(

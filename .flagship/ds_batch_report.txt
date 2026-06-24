@@ -1,0 +1,22 @@
+DeepSeek batch (robust) - 10 articles
+============================================================
+
+### oil-filled-radiator-running-cost  1335w, 4 links -> check: ['arithmetic wrong: 1.5kWh is 39p at 26.11p, not 26.11p', 'arithmetic wrong: 2.0kWh is 52p at 26.11p, not 26.11p', 'arithmetic wrong: 2.5kWh is 65p at 26.11p, not 26.11p'] links=4
+
+### infrared-heater-running-cost  1272w, 4 links -> check: ['arithmetic wrong: 24.0kWh is 627p at 26.11p, not 7.33p'] links=4
+
+### convector-heater-running-cost  1418w, 4 links -> check: ['arithmetic wrong: 6.0kWh is 157p at 26.11p, not 26.11p'] links=4
+
+### cost-to-run-a-microwave  1147w, 4 links -> CLEAN
+
+### cost-to-run-a-hair-dryer  1089w, 4 links -> CLEAN
+
+### cost-to-run-a-games-console  1387w, 4 links -> check: ['description 293 chars (need 150-160)'] links=4
+
+### cost-to-run-a-desktop-pc-all-day  1199w, 4 links -> CLEAN
+
+### cost-to-run-a-pressure-washer  1130w, 4 links -> CLEAN
+
+### cost-to-run-a-pond-pump  1606w, 4 links -> CLEAN
+
+### cost-to-run-a-coffee-machine  1143w, 4 links -> CLEAN

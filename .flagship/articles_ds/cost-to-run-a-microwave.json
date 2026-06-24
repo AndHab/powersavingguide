@@ -1,0 +1,56 @@
+{
+ "slug": "cost-to-run-a-microwave",
+ "title": "How much does it cost to run a microwave?",
+ "description": "Find out the cost of running a microwave under the July to September 2026 Ofgem price cap. Includes cost per minute, comparison with ovens, and saving tips.",
+ "blurb": "Running a microwave costs just a few pence per use. Based on the latest energy price cap, a typical 5-minute zap uses about 2.6p.",
+ "lede": "Microwaves are one of the cheapest kitchen appliances to run. Learn how much they cost per minute, how they compare to other cooking methods, and simple ways to keep your energy bills low.",
+ "short_answer": "A typical microwave (800W output) costs around 2.6p for 5 minutes of use, or about 31p for an hour, based on the Ofgem July to September 2026 electricity rate of 26.11p per kWh.",
+ "sections": [
+  {
+   "h2": "How microwaves use electricity",
+   "html": "<p>Microwaves convert electricity into microwave radiation to heat food. The power rating on a microwave (e.g. 800W or 900W) refers to its cooking output, but the actual electricity it draws from the mains is higher, typically 30% to 50% more. For example, a microwave with a 900W output may have an input power of around 1.2kW (1200W). This input power is what you are charged for.</p><p>Under the July to September 2026 Ofgem price cap, electricity costs 26.11p per kilowatt-hour (kWh), with a daily standing charge of 57.19p. The standing charge applies regardless of usage, so it is not included in per-use calculations unless you consider your daily total.</p>"
+  },
+  {
+   "h2": "Cost per use calculation",
+   "html": "<p>To work out the cost of a microwave use, multiply its input power (in kW) by the time in hours, then by the electricity rate (26.11p/kWh). Most microwaves have an input power between 1.0kW and 1.5kW.</p><table class=\"ev-table\"><thead><tr><th>Microwave input power</th><th>Cost per minute</th><th>Cost for 5 minutes</th><th>Cost for 10 minutes</th></tr></thead><tbody><tr><td>1.0 kW (e.g. 700W output)</td><td>0.44p</td><td>2.18p</td><td>4.35p</td></tr><tr><td>1.1 kW (e.g. 800W output)</td><td>0.48p</td><td>2.40p</td><td>4.79p</td></tr><tr><td>1.2 kW (e.g. 900W output)</td><td>0.52p</td><td>2.61p</td><td>5.22p</td></tr><tr><td>1.3 kW (e.g. 1000W output)</td><td>0.57p</td><td>2.83p</td><td>5.66p</td></tr><tr><td>1.4 kW (e.g. 1100W output)</td><td>0.61p</td><td>3.05p</td><td>6.09p</td></tr><tr><td>1.5 kW (e.g. 1200W output)</td><td>0.65p</td><td>3.26p</td><td>6.53p</td></tr></tbody></table><p>For example, a common 1.1kW microwave (800W output) run for 5 minutes costs 2.4p. Even a 10-minute blast is just over 5p. This makes microwaves one of the most cost-effective cooking appliances.</p>"
+  },
+  {
+   "h2": "Comparing microwaves to other appliances",
+   "html": "<p>Ovens, hobs, and kettles typically use far more energy. A standard electric oven runs at around 2kW to 3kW, so one hour of oven cooking can cost 52p to 78p. A gas oven (if using gas) is cheaper per unit, gas is 7.33p per kWh, but ovens are still more expensive per use because they run for longer. </p><p>Microwaves heat only the food, not the whole oven cavity, so they are faster and waste less heat. For example, reheating a ready meal in the microwave costs about 2.6p for 5 minutes, whereas doing the same in a conventional oven could take 20 minutes at 2kW, costing 17.4p, over six times as much.</p><p>Kettles are also efficient but typically boil less than a litre at around 3kW for 2 to 3 minutes, costing about 2.6p to 3.9p per boil. A microwave can heat a mug of water in around 1 minute (0.6p). Both are cheap, but the microwave offers more versatile cooking.</p>"
+  },
+  {
+   "h2": "Factors affecting running costs",
+   "html": "<p>Actual costs depend on three main factors: the microwave's input power, the length of time it runs, and your energy tariff. The figures here use the July to September 2026 Ofgem price cap (26.11p/kWh). If you are on a fixed tariff, your rate may be lower or higher.</p><p>Also, microwaves lose some efficiency as they age, magnetrons degrade, so a very old microwave may draw slightly more power for the same output. Regular maintenance, such as cleaning the waveguide cover, helps maintain efficiency.</p><p>Defrosting or cooking large items takes longer, increasing cost. Using a lower power setting (e.g. 50% power) actually cycles the magnetron on and off, so the average power draw is halved, saving money on longer cooks.</p>"
+  },
+  {
+   "h2": "Tips to save money when using a microwave",
+   "html": "<p>1. Use the correct power level. Many recipes suggest high power, but for defrosting or gentle heating, a lower power setting uses less energy overall.</p><p>2. Avoid running the microwave for longer than needed. Food continues to cook from internal heat; let it stand for a minute before checking.</p><p>3. Cook multiple items at once if possible. The microwave cooks efficiently in batches, reheating two portions costs little more than one.</p><p>4. Keep the microwave clean. Built-up grease can absorb microwaves and reduce efficiency, making the appliance work longer.</p><p>5. Use the microwave for jobs where it excels: heating small portions, defrosting, and reheating drinks. For larger roasts or baked goods, consider an oven or <a href=\"air-fryer-running-cost.html\">air fryer</a>.</p>"
+  },
+  {
+   "h2": "Overall cost summary",
+   "html": "<p>Microwave running costs are minimal. At 2026 price cap rates, a typical daily use of 10 minutes costs around 5p per day, or about £1.50 per month. Even with the standing charge of 57.19p per day, your total electricity bill is dominated by standing charge and larger appliances.</p><p>For an average household using a microwave 15 to 20 minutes a day, the total monthly electricity cost from the microwave is around £2.28 to £3.04. That is a tiny fraction of the typical monthly electricity bill of £70 to £80 (including standing charge).</p><p>In short, the microwave is one of the cheapest cooking options available. If you are looking to cut energy bills, focus on big consumers like heating, hot water, and tumble dryers before worrying about your microwave.</p><p>For working out and trimming running costs, see <a href=\"appliance-running-cost.html\">the running cost calculator</a>, <a href=\"electricity.html\">where your electricity goes</a>, <a href=\"using-a-plug-in-energy-monitor.html\">a plug-in energy monitor</a>.</p>"
+  }
+ ],
+ "faq": [
+  {
+   "q": "How much does it cost to run a microwave for 1 minute?",
+   "a": "For a typical 1.1kW microwave (800W output), one minute costs about 0.48p. Even a 1.5kW microwave costs only 0.65p per minute. This is based on the Ofgem electricity rate of 26.11p per kWh."
+  },
+  {
+   "q": "Is it cheaper to use a microwave than an oven?",
+   "a": "Yes, significantly. A microwave uses about 1.1kW to 1.5kW, while an electric oven uses 2kW to 3kW. Heating a small meal in a microwave for 5 minutes costs around 2.6p, whereas a 20-minute oven cook at 2kW costs 17.4p, over six times as much. Gas ovens are cheaper per unit but still cost more due to longer cooking times."
+  },
+  {
+   "q": "Does a microwave use a lot of electricity?",
+   "a": "No. A microwave uses relatively little electricity compared to other kitchen appliances. Its power draw is moderate (1kW to 1.5kW) and it runs for short periods. Even using it for 30 minutes a day would add only about 39p to your daily electricity bill (excluding the standing charge)."
+  },
+  {
+   "q": "How can I calculate the cost of my specific microwave?",
+   "a": "Find the input power (in watts or kW) on the rating plate, usually on the back or inside the door. Divide by 1000 to get kW. Multiply by the run time in hours, then by 26.11p. For example, a 1200W (1.2kW) microwave for 10 minutes (0.167h): 1.2 × 0.167 × 26.11 = 5.22p."
+  },
+  {
+   "q": "Does the standing charge affect the cost per use?",
+   "a": "The daily standing charge of 57.19p is a fixed cost you pay regardless of usage. It is not added to each microwave use, but it does increase your overall bill. For a home that uses 10 kWh per day, the standing charge accounts for about 18% of the daily electricity cost. The microwave's usage cost is additional."
+  }
+ ]
+}

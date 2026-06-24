@@ -1,0 +1,56 @@
+{
+ "slug": "cost-to-run-a-hair-dryer",
+ "title": "How much does it cost to run a hair dryer?",
+ "description": "Calculate how much it costs to run a hair dryer per minute and per hour using typical UK electricity rates. Includes examples and tips to save energy.",
+ "blurb": "Find out the exact cost of running a hair dryer based on its wattage and usage time, using current Ofgem electricity prices. Learn how to minimise energy use without compromising your routine.",
+ "lede": "If you use a hair dryer every day, you might wonder how much it adds to your electricity bill. With the UK energy price cap at 26.11p per kWh for electricity, even a short daily blast can cost a few pence. This article breaks down the maths, compares different models, and offers practical ways to keep your hair drying costs low.",
+ "short_answer": "Running a 2kW hair dryer for 10 minutes costs about 8.7p at the current Ofgem electricity rate of 26.11p per kWh.",
+ "sections": [
+  {
+   "h2": "Understanding hair dryer power ratings",
+   "html": "<p>Hair dryers typically have power ratings between 1.5kW and 2.2kW. The wattage tells you how much electricity the device uses per hour of operation. A 2kW hair dryer, for example, consumes 2 kilowatt-hours (kWh) if run continuously for one hour. Most people use a hair dryer for only a few minutes at a time, so the actual energy used is much less than the rated power suggests.</p><p>To calculate the cost, you multiply the energy used (in kWh) by your electricity rate. Under the current UK price cap, electricity costs 26.11p per kWh. This is the rate most households on standard variable tariffs pay. <a href=\"standing-charges-explained.html\">Standing charges</a> are separate and apply daily regardless of usage.</p>"
+  },
+  {
+   "h2": "How to calculate the cost of running a hair dryer",
+   "html": "<p>The formula is simple: cost = (wattage ÷ 1000) × hours used × price per kWh. For a hair dryer with a rating of 2kW (2000W), running for 10 minutes (0.167 hours):</p><p>(2000 ÷ 1000) × 0.167 × 26.11p = 2 × 0.167 × 26.11 = 8.72p.</p><p>You can use this formula for any hair dryer wattage and any usage time. The table below shows common scenarios.</p><table class=\"ev-table\"><thead><tr><th>Wattage (kW)</th><th>Time</th><th>Energy use (kWh)</th><th>Cost (pence)</th></tr></thead><tbody><tr><td>1.5</td><td>5 minutes</td><td>0.125</td><td>3.26</td></tr><tr><td>1.5</td><td>10 minutes</td><td>0.25</td><td>6.53</td></tr><tr><td>2.0</td><td>5 minutes</td><td>0.167</td><td>4.35</td></tr><tr><td>2.0</td><td>10 minutes</td><td>0.333</td><td>8.70</td></tr><tr><td>2.2</td><td>5 minutes</td><td>0.183</td><td>4.78</td></tr><tr><td>2.2</td><td>10 minutes</td><td>0.367</td><td>9.59</td></tr></tbody></table>"
+  },
+  {
+   "h2": "Cost per minute and per hour examples",
+   "html": "<p>At 26.11p per kWh, a 2kW hair dryer costs 52.22p per hour (2 × 26.11). Here are the costs for typical usage durations:</p><ul><li>1 minute: 0.87p</li><li>5 minutes: 4.35p</li><li>10 minutes: 8.70p</li><li>15 minutes: 13.05p</li><li>30 minutes: 26.11p</li><li>1 hour: 52.22p</li></ul><p>If you use a 1.5kW dryer, the hourly cost drops to 39.17p (1.5 × 26.11). A 2.2kW dryer costs 57.42p per hour. Most people use a hair dryer for 5 to 15 minutes, so the daily cost is usually between 4p and 13p. Over a month, that adds up to a few pounds.</p><p>For example, a ten-minute daily routine with a 2kW dryer costs 8.70p per day, or 2.61p per month (30 days). That is less than a cup of coffee.</p>"
+  },
+  {
+   "h2": "Comparison with other household appliances",
+   "html": "<p>Hair dryers are not the biggest energy users in a home. For context, an electric oven (2.2kW) used for one hour costs 57.42p. A kettle (3kW) used for three minutes costs 3.91p. A <a href=\"washing-machine-running-cost.html\">washing machine</a> (2kW) on a 30-degree cycle for one hour costs 52.22p. Hair dryers are used for short periods, so their contribution to your bill is modest.</p><p>However, if you have a long hair drying routine or multiple people in the household, the costs can add up. Using a lower wattage dryer or reducing drying time can make a noticeable difference over a year.</p>"
+  },
+  {
+   "h2": "Tips to reduce hair drying costs",
+   "html": "<p>Here are practical ways to lower the cost of drying your hair:</p><ul><li><strong>Towel dry first:</strong> Removing excess water with a towel reduces the time needed with the hair dryer.</li><li><strong>Use a lower heat setting:</strong> Many dryers have adjustable heat and speed. Using a lower heat setting can reduce power consumption, though it may increase drying time. Experiment to find the balance.</li><li><strong>Clean the filter:</strong> A clogged filter restricts airflow and makes the dryer less efficient, increasing running time. Clean it regularly.</li><li><strong>Consider a lower wattage dryer:</strong> If you are buying a new hair dryer, a 1.5kW model will cost less per minute than a 2.2kW model, but it may take slightly longer to dry hair.</li><li><strong>Limit use:</strong> If you have short hair or can air dry sometimes, skipping the hair dryer saves money entirely.</li></ul><p>These tips won't save a fortune, but every penny counts when energy prices are high.</p>"
+  },
+  {
+   "h2": "Impact of standing charges and other factors",
+   "html": "<p>Your electricity bill includes a daily standing charge, which is 57.19p per day under the current price cap. This charge covers the cost of supplying electricity to your home and is applied whether you use any electricity or not. The hair dryer's running cost is on top of that standing charge.</p><p>The price cap changes every three months. The figures in this article are based on the October to July to September 2026 cap. If rates go up or down, you can recalculate using the same formula with the new pence per kWh figure.</p><p>Also note that if you are on a fixed tariff or a time-of-use tariff (like Economy 7 or Octopus Agile), your rates may differ. For most households on a standard variable tariff, the cap rate is the relevant one.</p><p>For working out and trimming running costs, see <a href=\"appliance-running-cost.html\">the running cost calculator</a>, <a href=\"electricity.html\">where your electricity goes</a>.</p>"
+  }
+ ],
+ "faq": [
+  {
+   "q": "How much does it cost to run a hair dryer for 10 minutes?",
+   "a": "For a typical 2kW hair dryer, running for 10 minutes costs about 8.70p at the current electricity rate of 26.11p per kWh. A 1.5kW dryer costs 6.53p for the same time, and a 2.2kW dryer costs 9.59p."
+  },
+  {
+   "q": "Does a higher wattage hair dryer cost more to run?",
+   "a": "Yes, a higher wattage hair dryer uses more electricity per minute. For example, a 2.2kW dryer uses about 10% more energy than a 2kW model for the same running time. However, a higher wattage dryer may dry hair faster, so the total cost per drying session could be similar if you reduce the time."
+  },
+  {
+   "q": "Is it cheaper to air dry hair or use a hair dryer?",
+   "a": "Air drying is free in terms of electricity, so it is always cheaper than using a hair dryer. However, it takes longer and may not be practical. If you must use a hair dryer, using it on a lower setting or for a shorter time will minimise costs."
+  },
+  {
+   "q": "Does the cost of running a hair dryer vary by time of day?",
+   "a": "Under the standard price cap, the cost per kWh is the same at all times. If you are on a time-of-use tariff like Economy 7, off-peak electricity is cheaper, so running the dryer at night or early morning could reduce costs."
+  },
+  {
+   "q": "How can I reduce the cost of using my hair dryer?",
+   "a": "You can reduce costs by towelling hair thoroughly before drying, using a lower heat setting, cleaning the filter regularly, and considering a lower wattage dryer. Also, air drying occasionally saves electricity entirely."
+  }
+ ]
+}

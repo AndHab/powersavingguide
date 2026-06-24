@@ -1,0 +1,56 @@
+{
+ "slug": "cost-to-run-a-desktop-pc-all-day",
+ "title": "How much does it cost to run a desktop PC all day?",
+ "description": "Find out how much it costs to run a desktop PC all day in the UK using the Ofgem price cap. Includes exact costs for office and gaming PCs and savings tips.",
+ "blurb": "A comprehensive practical guide to desktop PC electricity costs in the UK, with exact figures from the Ofgem price cap and actionable savings tips.",
+ "lede": "Running a desktop PC for a full day adds to your electricity bill, but the cost varies hugely depending on the type of computer and how you use it. Using the latest Ofgem price cap figures, we calculate the exact cost for office and gaming PCs, and show you how to save. Additionally, we factor in the daily standing charge to give you the complete picture of your true daily cost.",
+ "short_answer": "For a typical office PC (100W) running 24 hours, it costs about 63p per day, not including the standing charge. A gaming PC (400W) costs around £2.51 per day. These figures use the Ofgem price cap of 26.11p/kWh.",
+ "sections": [
+  {
+   "h2": "What affects your desktop PC's power consumption?",
+   "html": "<p>The power your desktop PC draws depends primarily on its components. A standard office PC with an integrated graphics processor might consume 60 to 150 watts under normal use. A gaming PC with a powerful dedicated graphics card can draw 300 to 500 watts or more under load. Other factors include the power supply unit's efficiency (an 80 Plus Gold or Platinum PSU wastes less energy as heat compared to a standard one), the number of monitors (each adds 20 to 50W), and peripherals such as speakers and external drives. Windows power settings also play a role: a PC left idle will use less than one running a demanding application. Modern CPUs and GPUs have advanced power management that reduces draw when not under load, so actual consumption can be much lower than the maximum rated wattage.</p>"
+  },
+  {
+   "h2": "How to calculate your PC's daily electricity cost",
+   "html": "<p>To find the daily cost, multiply your PC's average power draw in kilowatts by the number of hours you run it, then multiply by the electricity unit rate. With the Ofgem price cap of 26.11p per kWh, the formula is:</p><p><strong>Cost (p) = (Wattage divided by 1000) times hours times 26.11</strong></p><p>For example, an office PC averaging 100W (0.1kW) running 24 hours: 0.1 times 24 times 26.11 = 62.664p (63p). A gaming PC averaging 400W (0.4kW) for 24 hours: 0.4 times 24 times 26.11 = 250.656p (£2.51). For different runtimes, the formula adapts. An office PC used for an 8 hour workday costs 0.1 times 8 times 26.11 = 20.9p. A gaming PC used for 6 hours costs 0.4 times 6 times 26.11 = 62.7p. These calculations give you the usage cost before adding the standing charge.</p>"
+  },
+  {
+   "h2": "Cost comparison: office vs gaming PC",
+   "html": "<table class=\"ev-table\"><thead><tr><th>PC Type</th><th>Typical Wattage</th><th>Daily Cost (24h)</th><th>Weekly Cost</th><th>Annual Cost</th></tr></thead><tbody><tr><td>Office PC (low end)</td><td>60W</td><td>37.6p</td><td>£2.63</td><td>£137.22</td></tr><tr><td>Office PC (average)</td><td>100W</td><td>62.7p</td><td>£4.39</td><td>£228.72</td></tr><tr><td>Gaming PC (low end)</td><td>300W</td><td>£1.88</td><td>£13.17</td><td>£686.10</td></tr><tr><td>Gaming PC (high end)</td><td>500W</td><td>£3.14</td><td>£21.95</td><td>£1,143.50</td></tr></tbody></table><p>All figures use the Ofgem cap rate of 26.11p/kWh and assume 24 hours of continuous use. In reality, most PCs are not under full load all day, but these numbers give a clear upper bound. For typical usage, costs will be lower. For example, an office PC used 8 hours a day costs only 20.9p daily in usage.</p>"
+  },
+  {
+   "h2": "Tips to reduce your desktop PC's running costs",
+   "html": "<ul><li><strong>Enable power saving:</strong> Use Windows power saver plan and set the computer to sleep after 15 minutes of inactivity. Hibernate saves even more power than sleep.</li><li><strong>Turn off monitors:</strong> A monitor left on can add 20 to 50W. Turn it off when not in use, or set it to turn off after 5 minutes of inactivity.</li><li><strong>Upgrade your power supply:</strong> An 80 Plus Gold or Platinum PSU wastes less energy as heat, typically saving 5 to 10 percent of total power.</li><li><strong>Use integrated graphics for everyday tasks:</strong> Switch to the onboard GPU for browsing and office work to save 50 to 100W compared to a discrete card.</li><li><strong>Reduce brightness:</strong> Lowering monitor brightness cuts power consumption by up to 20 percent.</li><li><strong>Unplug peripherals:</strong> Speakers, webcams, and external drives draw power even when idle. Unplug them when not in use.</li><li><strong>Use a smart plug:</strong> Schedule your PC to turn off automatically at night or when not needed to avoid standby power draw.</li><li><strong>Consider a smaller form factor:</strong> Mini PCs and laptops use significantly less power than full sized desktops for basic tasks.</li></ul>"
+  },
+  {
+   "h2": "Don't forget the standing charge",
+   "html": "<p>Even if your PC is turned off, you pay a daily standing charge of 57.19p under the Ofgem cap. This fixed fee covers the cost of supplying electricity to your property. So the true cost of running a PC includes this standing charge. For example, an office PC on for 24 hours costs 62.7p in usage plus 57.19p standing = £1.20 per day. A gaming PC costs £2.51 plus 57.19p = £3.08 per day. Over a year, the standing charge alone amounts to £208.74. This makes a significant difference to your annual bill, so always consider the standing charge when budgeting.</p>"
+  },
+  {
+   "h2": "Annual cost and budget planning",
+   "html": "<p>When you factor in the standing charge, the annual cost of leaving an office PC (100W) on 24/7 is: usage £228.72 plus standing £208.74 = £437.46. For a gaming PC (400W) it is £914.46 plus £208.74 = £1,123.20. However, you can cut costs drastically by turning the PC off when not needed. A typical office worker may use their PC for 8 hours a day, reducing usage to 0.1kW times 8h times 26.11p = 20.9p per day, or £76.26 per year in usage. Adding the standing charge gives a total of £284.99 per year. For a gamer using a 400W PC for 6 hours daily, the usage cost is 0.4 times 6 times 26.11 = 62.7p per day, £228.72 per year, plus standing = £437.46 per year. Always consider your actual usage pattern to get a realistic estimate and plan your budget accordingly.</p><p>For working out and trimming running costs, see <a href=\"appliance-running-cost.html\">the running cost calculator</a>, <a href=\"electricity.html\">where your electricity goes</a>, <a href=\"using-a-plug-in-energy-monitor.html\">a plug-in energy monitor</a>, <a href=\"standby-power-the-full-story.html\">standby power</a>.</p>"
+  }
+ ],
+ "faq": [
+  {
+   "q": "Is it cheaper to leave my PC on all day or turn it off when not in use?",
+   "a": "Turning off when not in use saves money. For an office PC, each hour off saves 2.61p. Over 8 hours that is a saving of 21p per day, or £76.65 per year. Frequent power cycling does not harm modern components."
+  },
+  {
+   "q": "Does a laptop use less power than a desktop?",
+   "a": "Yes, laptops typically use 30 to 70W, costing about 8 to 18p per day for 24h use, much less than a desktop. For the same tasks, a laptop can be four times cheaper to run."
+  },
+  {
+   "q": "How much does a gaming PC cost to run per year?",
+   "a": "Assuming a gaming PC uses 400W on average and you game for 6 hours daily, the daily usage cost is 0.4kW times 6h times 26.11p = 62.66p. Over a year that is £228.72 in usage, plus the standing charge of £208.74, totalling £437.46."
+  },
+  {
+   "q": "What is the Ofgem price cap and how does it affect my PC costs?",
+   "a": "The Ofgem price cap limits the maximum unit rate suppliers can charge for electricity and gas. As of July to September 2026, the cap sets electricity at 26.11p per kWh and the daily standing charge at 57.19p. These figures are used throughout this article to calculate PC running costs."
+  },
+  {
+   "q": "Can I reduce my PC's power consumption without losing performance?",
+   "a": "Yes. Use Windows power settings to balance performance and energy use. Undervolting your CPU or GPU can reduce power draw by 10 to 20% without noticeable slowdown. For non-gaming tasks, switching to integrated graphics saves a lot of power."
+  }
+ ]
+}

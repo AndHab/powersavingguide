@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en-GB">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Heat pump running cost calculator | Power Saving Guide</title>
+  <meta name="description" content="Compare a heat pump&#x27;s yearly running cost against a gas boiler. Enter your annual heat demand, the heat pump&#x27;s efficiency and the energy prices to see the difference.">
+  <link rel="canonical" href="https://powersavingguide.com/heat-pump-running-cost-calculator.html">
+  <meta name="robots" content="index, follow">
+  <meta property="og:site_name" content="Power Saving Guide">
+  <meta property="og:type" content="article">
+  <meta property="og:title" content="Heat pump running cost calculator | Power Saving Guide">
+  <meta property="og:description" content="Compare a heat pump&#x27;s yearly running cost against a gas boiler. Enter your annual heat demand, the heat pump&#x27;s efficiency and the energy prices to see the difference.">
+  <meta property="og:url" content="https://powersavingguide.com/heat-pump-running-cost-calculator.html">
+  <meta property="og:locale" content="en_GB">
+  <meta name="twitter:card" content="summary">
+  <script type="application/ld+json">{"@context": "https://schema.org", "@type": "Article", "headline": "Heat pump running cost calculator", "description": "Compare a heat pump's yearly running cost against a gas boiler. Enter your annual heat demand, the heat pump's efficiency and the energy prices to see the difference.", "datePublished": "2026-06-03", "dateModified": "2026-06-25", "inLanguage": "en-GB", "mainEntityOfPage": "https://powersavingguide.com/heat-pump-running-cost-calculator.html", "author": {"@type": "Organization", "name": "Power Saving Guide"}, "publisher": {"@type": "Organization", "name": "Power Saving Guide"}}</script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,600&family=Inter:wght@400;500;600&display=swap" rel="stylesheet" media="print" onload="this.media='all'">
+  <noscript><link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,600&family=Inter:wght@400;500;600&display=swap" rel="stylesheet"></noscript>
+  <script data-goatcounter="https://stats.powersavingguide.com/count" async src="//stats.powersavingguide.com/count.js"></script><script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('consent','default',{ad_storage:'granted',ad_user_data:'granted',ad_personalization:'granted',analytics_storage:'granted'});gtag('consent','default',{region:['AT','BE','BG','HR','CY','CZ','DK','EE','FI','FR','DE','GR','HU','IE','IT','LV','LT','LU','MT','NL','PL','PT','RO','SK','SI','ES','SE','IS','LI','NO','GB','CH'],ad_storage:'denied',ad_user_data:'denied',ad_personalization:'denied',analytics_storage:'denied',wait_for_update:500});</script><script async src="https://www.googletagmanager.com/gtag/js?id=G-8FYB114413"></script><script>gtag('js',new Date());gtag('config','G-8FYB114413');</script><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-7059699192160095" crossorigin="anonymous"></script>
+</head>
+<body>
+  <nav class="nav--bar"><div class="wrap nav-inner">
+    <a class="brand" href="index.html">Power Saving Guide</a>
+    <input type="checkbox" id="nt" class="navtoggle">
+    <label for="nt" class="navburger" aria-label="Menu">≡</label>
+    <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="electricity.html">Electricity</a></li>
+        <li><a href="heating.html">Heating &amp; gas</a></li>
+        <li><a href="driving.html">Fuel &amp; driving</a></li>
+        <li><a href="calculators.html" class="active">Calculators</a></li>
+        <li><a href="guides.html">Guides</a></li>
+        <li><a href="about.html">About</a></li>
+    </ul>
+  </div></nav>
+
+  <header class="page-head"><div class="wrap"><h1>Heat pump running cost calculator</h1></div></header>
+  <main>
+
+  <section class="section"><div class="wrap prose">
+    <p class="lede">Enter your home's annual heat demand, a heat pump's seasonal efficiency (SCOP) and the energy prices, and this compares the yearly running cost of a heat pump against a gas boiler. A higher SCOP means more heat per unit of electricity.</p>
+    <div class="ecalc">
+      <div class="row">
+      <div class="field"><label for="heat">Annual heat needed (kWh)</label><input id="heat" type="number" inputmode="decimal" step="100" min="0" value="12000"></div>
+      <div class="field"><label for="scop">Heat pump SCOP: <output id="scop_o">3.5</output></label><input id="scop" type="range" min="1.5" max="5" step="0.1" value="3.5" oninput="document.getElementById('scop_o').textContent=this.value+''"></div>
+      </div>
+      <div class="row">
+      <div class="field"><label for="er">Electricity price (pence/kWh)</label><input id="er" type="number" inputmode="decimal" step="0.01" min="0" value="26.11"></div>
+      <div class="field"><label for="gr">Gas price (pence/kWh)</label><input id="gr" type="number" inputmode="decimal" step="0.01" min="0" value="7.33"></div>
+      </div>
+      <div class="row">
+      <div class="field"><label for="beff">Gas boiler efficiency: <output id="beff_o">90%</output></label><input id="beff" type="range" min="70" max="100" step="1" value="90" oninput="document.getElementById('beff_o').textContent=this.value+'%'"></div>
+      </div>
+      <div class="res" id="res"></div>
+    </div>
+    <script>
+(function(){
+  function v(id){var x=parseFloat(document.getElementById(id).value);return isNaN(x)||x<0?0:x;}
+  function go(){
+    var scop=v('scop')>0?v('scop'):1, beff=v('beff')>0?v('beff')/100:0.9;
+    var hp=v('heat')/scop*v('er')/100, gas=v('heat')/beff*v('gr')/100, diff=gas-hp;
+    var verdict=diff>0?('the heat pump saves about £'+diff.toFixed(0)+' a year'):('the heat pump costs about £'+Math.abs(diff).toFixed(0)+' a year more');
+    document.getElementById('res').innerHTML=
+      '<div class="big">£'+hp.toFixed(0)+'<span> a year, heat pump</span></div>'+
+      '<div class="grid3">'+
+      '<div class="b"><div class="n">£'+hp.toFixed(0)+'</div><div class="l">heat pump / yr</div></div>'+
+      '<div class="b"><div class="n">£'+gas.toFixed(0)+'</div><div class="l">gas boiler / yr</div></div>'+
+      '<div class="b"><div class="n">£'+Math.abs(diff).toFixed(0)+'</div><div class="l">difference</div></div></div>'+
+      '<p style="margin-top:12px;color:var(--muted)">At these prices, '+verdict+'.</p>';
+  }
+  ['heat','scop','er','gr','beff'].forEach(function(id){var e=document.getElementById(id);if(e)e.addEventListener('input',go);});
+  go();
+})();
+    </script>
+<div class="formula"><b>The formula:</b> heat pump cost = heat &divide; SCOP &times; electricity rate; gas cost = heat &divide; boiler efficiency &times; gas rate</div>
+    <p>A heat pump uses electricity, which is dearer per unit than gas, but it is far more efficient: a SCOP of 3.5 means it delivers 3.5 units of heat for every unit of electricity, where a gas boiler delivers under 1. Whether it works out cheaper depends on the gap between electricity and gas prices and on the SCOP you actually achieve, which is why a well-designed system at a low flow temperature matters. The sums here are illustrative; for the detail see <a href="heat-pump-running-cost-vs-gas-boiler.html">heat pump running cost vs gas boiler</a> and <a href="heat-pumps-explained.html">heat pumps explained</a>.</p>
+    <h2>Common questions</h2>
+    <p><strong>Is a heat pump cheaper to run than a gas boiler?</strong><br>It depends on the heat pump's efficiency and the price gap between electricity and gas. At a SCOP of 3.5 and current prices the running costs are close, often within a small margin either way. A higher SCOP and a cheaper electricity tariff tip it in the heat pump's favour.</p>
+    <p><strong>What is SCOP?</strong><br>Seasonal Coefficient of Performance: the average units of heat a heat pump produces per unit of electricity across a year. A SCOP of 3.5 means 3.5kWh of heat for every 1kWh of electricity. Higher is better and cheaper to run.</p>
+    <p><strong>How do I cut a heat pump's running cost?</strong><br>Run it at a low flow temperature for a higher SCOP, insulate well so you need less heat, and use an electricity tariff with cheaper off-peak rates. The same heat demand on a better SCOP costs noticeably less.</p>
+    <script type="application/ld+json">{"@context": "https://schema.org", "@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": "Is a heat pump cheaper to run than a gas boiler?", "acceptedAnswer": {"@type": "Answer", "text": "It depends on the heat pump's efficiency and the price gap between electricity and gas. At a SCOP of 3.5 and current prices the running costs are close, often within a small margin either way. A higher SCOP and a cheaper electricity tariff tip it in the heat pump's favour."}}, {"@type": "Question", "name": "What is SCOP?", "acceptedAnswer": {"@type": "Answer", "text": "Seasonal Coefficient of Performance: the average units of heat a heat pump produces per unit of electricity across a year. A SCOP of 3.5 means 3.5kWh of heat for every 1kWh of electricity. Higher is better and cheaper to run."}}, {"@type": "Question", "name": "How do I cut a heat pump's running cost?", "acceptedAnswer": {"@type": "Answer", "text": "Run it at a low flow temperature for a higher SCOP, insulate well so you need less heat, and use an electricity tariff with cheaper off-peak rates. The same heat demand on a better SCOP costs noticeably less."}}]}</script>
+  </div></section>
+
+  </main>
+  <footer class="footer"><div class="wrap">
+    <p class="foot-brand">Power Saving Guide</p>
+    <p>A practical, independent guide to cutting your electricity, gas and fuel bills. Plain advice, no gadgets to buy.</p>
+    <p class="foot-links"><a href="electricity.html">Electricity</a> · <a href="heating.html">Heating &amp; gas</a> · <a href="driving.html">Fuel &amp; driving</a> · <a href="appliance-running-cost.html">Cost calculator</a> · <a href="guides.html">Guides</a> · <a href="about.html">About</a> · <a href="privacy.html">Privacy</a></p>
+    <p class="copy">&copy; <span>2026</span> Power Saving Guide. Figures are worked examples; check your own tariff and meter. Cookieless analytics, see the <a href="privacy.html">privacy page</a>.</p>
+  </div></footer>
+</body>
+</html>

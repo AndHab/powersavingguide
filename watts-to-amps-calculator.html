@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en-GB">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Watts to amps calculator | Power Saving Guide</title>
+  <meta name="description" content="Convert watts to amps at UK mains voltage. Enter the power in watts and the voltage to get the current in amps, useful for choosing fuses and loading extension leads safely.">
+  <link rel="canonical" href="https://powersavingguide.com/watts-to-amps-calculator.html">
+  <meta name="robots" content="index, follow">
+  <meta property="og:site_name" content="Power Saving Guide">
+  <meta property="og:type" content="article">
+  <meta property="og:title" content="Watts to amps calculator | Power Saving Guide">
+  <meta property="og:description" content="Convert watts to amps at UK mains voltage. Enter the power in watts and the voltage to get the current in amps, useful for choosing fuses and loading extension leads safely.">
+  <meta property="og:url" content="https://powersavingguide.com/watts-to-amps-calculator.html">
+  <meta property="og:locale" content="en_GB">
+  <meta name="twitter:card" content="summary">
+  <script type="application/ld+json">{"@context": "https://schema.org", "@type": "Article", "headline": "Watts to amps calculator", "description": "Convert watts to amps at UK mains voltage. Enter the power in watts and the voltage to get the current in amps, useful for choosing fuses and loading extension leads safely.", "datePublished": "2026-06-03", "dateModified": "2026-06-25", "inLanguage": "en-GB", "mainEntityOfPage": "https://powersavingguide.com/watts-to-amps-calculator.html", "author": {"@type": "Organization", "name": "Power Saving Guide"}, "publisher": {"@type": "Organization", "name": "Power Saving Guide"}}</script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,600&family=Inter:wght@400;500;600&display=swap" rel="stylesheet" media="print" onload="this.media='all'">
+  <noscript><link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,600&family=Inter:wght@400;500;600&display=swap" rel="stylesheet"></noscript>
+  <script data-goatcounter="https://stats.powersavingguide.com/count" async src="//stats.powersavingguide.com/count.js"></script><script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('consent','default',{ad_storage:'granted',ad_user_data:'granted',ad_personalization:'granted',analytics_storage:'granted'});gtag('consent','default',{region:['AT','BE','BG','HR','CY','CZ','DK','EE','FI','FR','DE','GR','HU','IE','IT','LV','LT','LU','MT','NL','PL','PT','RO','SK','SI','ES','SE','IS','LI','NO','GB','CH'],ad_storage:'denied',ad_user_data:'denied',ad_personalization:'denied',analytics_storage:'denied',wait_for_update:500});</script><script async src="https://www.googletagmanager.com/gtag/js?id=G-8FYB114413"></script><script>gtag('js',new Date());gtag('config','G-8FYB114413');</script><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-7059699192160095" crossorigin="anonymous"></script>
+</head>
+<body>
+  <nav class="nav--bar"><div class="wrap nav-inner">
+    <a class="brand" href="index.html">Power Saving Guide</a>
+    <input type="checkbox" id="nt" class="navtoggle">
+    <label for="nt" class="navburger" aria-label="Menu">≡</label>
+    <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="electricity.html">Electricity</a></li>
+        <li><a href="heating.html">Heating &amp; gas</a></li>
+        <li><a href="driving.html">Fuel &amp; driving</a></li>
+        <li><a href="calculators.html" class="active">Calculators</a></li>
+        <li><a href="guides.html">Guides</a></li>
+        <li><a href="about.html">About</a></li>
+    </ul>
+  </div></nav>
+
+  <header class="page-head"><div class="wrap"><h1>Watts to amps calculator</h1></div></header>
+  <main>
+
+  <section class="section"><div class="wrap prose">
+    <p class="lede">Enter the power in watts and the voltage (UK mains is 230 volts) and this converts watts to amps. It is the figure you need for choosing a fuse or checking what an extension lead can safely carry.</p>
+    <div class="ecalc">
+      <div class="row">
+      <div class="field"><label for="w">Power (watts)</label><input id="w" type="number" inputmode="decimal" step="any" min="0" value="2000"></div>
+      <div class="field"><label for="v">Voltage (volts)</label><input id="v" type="number" inputmode="decimal" step="1" min="0" value="230"></div>
+      </div>
+      <div class="res" id="res"></div>
+    </div>
+    <script>
+(function(){
+  function v(id){var x=parseFloat(document.getElementById(id).value);return isNaN(x)||x<0?0:x;}
+  function go(){
+    var vv=v('v'), a=vv>0?v('w')/vv:0;
+    var fuse=v('w')>3000?'over 13A, this needs a dedicated circuit, not a plug':(v('w')>700?'use a 13A plug fuse':'a 3A or 5A plug fuse is fine');
+    document.getElementById('res').innerHTML=
+      '<div class="big">'+a.toFixed(2)+' A<span> at '+vv+'V</span></div>'+
+      '<p style="margin-top:12px;color:var(--muted)">Fuse guide: '+fuse+'.</p>';
+  }
+  ['w','v'].forEach(function(id){var e=document.getElementById(id);if(e)e.addEventListener('input',go);});
+  go();
+})();
+    </script>
+<div class="formula"><b>The formula:</b> amps = watts &divide; volts</div>
+    <p>This matters for safety, not just sums. A 2,000W appliance at 230V draws about 8.7 amps, well within a 13A plug. Add several high-power devices to one extension lead, though, and the total current can exceed what the lead is rated for, a common cause of overheating. Add up the watts of everything plugged in and keep the total under 3,000W on a standard 13A lead. To go the other way, use the <a href="amps-to-watts-calculator.html">amps to watts calculator</a>.</p>
+    <h2>Common questions</h2>
+    <p><strong>How do I convert watts to amps?</strong><br>Divide the watts by the voltage. At UK mains voltage of 230V, a 2,000W appliance draws 2,000 divided by 230, which is about 8.7 amps.</p>
+    <p><strong>How many amps is 3000 watts?</strong><br>At 230 volts, 3,000 watts is about 13 amps, which is the maximum a standard UK plug and socket are designed to carry. Anything higher needs a dedicated circuit.</p>
+    <script type="application/ld+json">{"@context": "https://schema.org", "@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": "How do I convert watts to amps?", "acceptedAnswer": {"@type": "Answer", "text": "Divide the watts by the voltage. At UK mains voltage of 230V, a 2,000W appliance draws 2,000 divided by 230, which is about 8.7 amps."}}, {"@type": "Question", "name": "How many amps is 3000 watts?", "acceptedAnswer": {"@type": "Answer", "text": "At 230 volts, 3,000 watts is about 13 amps, which is the maximum a standard UK plug and socket are designed to carry. Anything higher needs a dedicated circuit."}}]}</script>
+  </div></section>
+
+  </main>
+  <footer class="footer"><div class="wrap">
+    <p class="foot-brand">Power Saving Guide</p>
+    <p>A practical, independent guide to cutting your electricity, gas and fuel bills. Plain advice, no gadgets to buy.</p>
+    <p class="foot-links"><a href="electricity.html">Electricity</a> · <a href="heating.html">Heating &amp; gas</a> · <a href="driving.html">Fuel &amp; driving</a> · <a href="appliance-running-cost.html">Cost calculator</a> · <a href="guides.html">Guides</a> · <a href="about.html">About</a> · <a href="privacy.html">Privacy</a></p>
+    <p class="copy">&copy; <span>2026</span> Power Saving Guide. Figures are worked examples; check your own tariff and meter. Cookieless analytics, see the <a href="privacy.html">privacy page</a>.</p>
+  </div></footer>
+</body>
+</html>

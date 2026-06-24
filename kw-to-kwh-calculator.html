@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en-GB">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>kW to kWh calculator | Power Saving Guide</title>
+  <meta name="description" content="Convert kilowatts to kilowatt-hours. Enter a power rating in kW and how long it runs to get the energy used in kWh, plus the weekly, monthly and yearly totals.">
+  <link rel="canonical" href="https://powersavingguide.com/kw-to-kwh-calculator.html">
+  <meta name="robots" content="index, follow">
+  <meta property="og:site_name" content="Power Saving Guide">
+  <meta property="og:type" content="article">
+  <meta property="og:title" content="kW to kWh calculator | Power Saving Guide">
+  <meta property="og:description" content="Convert kilowatts to kilowatt-hours. Enter a power rating in kW and how long it runs to get the energy used in kWh, plus the weekly, monthly and yearly totals.">
+  <meta property="og:url" content="https://powersavingguide.com/kw-to-kwh-calculator.html">
+  <meta property="og:locale" content="en_GB">
+  <meta name="twitter:card" content="summary">
+  <script type="application/ld+json">{"@context": "https://schema.org", "@type": "Article", "headline": "kW to kWh calculator", "description": "Convert kilowatts to kilowatt-hours. Enter a power rating in kW and how long it runs to get the energy used in kWh, plus the weekly, monthly and yearly totals.", "datePublished": "2026-06-03", "dateModified": "2026-06-25", "inLanguage": "en-GB", "mainEntityOfPage": "https://powersavingguide.com/kw-to-kwh-calculator.html", "author": {"@type": "Organization", "name": "Power Saving Guide"}, "publisher": {"@type": "Organization", "name": "Power Saving Guide"}}</script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,600&family=Inter:wght@400;500;600&display=swap" rel="stylesheet" media="print" onload="this.media='all'">
+  <noscript><link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,600&family=Inter:wght@400;500;600&display=swap" rel="stylesheet"></noscript>
+  <script data-goatcounter="https://stats.powersavingguide.com/count" async src="//stats.powersavingguide.com/count.js"></script><script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('consent','default',{ad_storage:'granted',ad_user_data:'granted',ad_personalization:'granted',analytics_storage:'granted'});gtag('consent','default',{region:['AT','BE','BG','HR','CY','CZ','DK','EE','FI','FR','DE','GR','HU','IE','IT','LV','LT','LU','MT','NL','PL','PT','RO','SK','SI','ES','SE','IS','LI','NO','GB','CH'],ad_storage:'denied',ad_user_data:'denied',ad_personalization:'denied',analytics_storage:'denied',wait_for_update:500});</script><script async src="https://www.googletagmanager.com/gtag/js?id=G-8FYB114413"></script><script>gtag('js',new Date());gtag('config','G-8FYB114413');</script><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-7059699192160095" crossorigin="anonymous"></script>
+</head>
+<body>
+  <nav class="nav--bar"><div class="wrap nav-inner">
+    <a class="brand" href="index.html">Power Saving Guide</a>
+    <input type="checkbox" id="nt" class="navtoggle">
+    <label for="nt" class="navburger" aria-label="Menu">≡</label>
+    <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="electricity.html">Electricity</a></li>
+        <li><a href="heating.html">Heating &amp; gas</a></li>
+        <li><a href="driving.html">Fuel &amp; driving</a></li>
+        <li><a href="calculators.html" class="active">Calculators</a></li>
+        <li><a href="guides.html">Guides</a></li>
+        <li><a href="about.html">About</a></li>
+    </ul>
+  </div></nav>
+
+  <header class="page-head"><div class="wrap"><h1>kW to kWh calculator</h1></div></header>
+  <main>
+
+  <section class="section"><div class="wrap prose">
+    <p class="lede">Kilowatts (kW) measure power; kilowatt-hours (kWh) measure energy used over time. Enter a power rating and a run time and this converts kW to kWh, then shows the totals if you run it daily.</p>
+    <div class="ecalc">
+      <div class="row">
+      <div class="field"><label for="kw">Power (kW)</label><input id="kw" type="number" inputmode="decimal" step="0.1" min="0" value="2"></div>
+      <div class="field"><label for="h">Hours it runs</label><input id="h" type="number" inputmode="decimal" step="0.5" min="0" value="3"></div>
+      </div>
+      <div class="row">
+      <div class="field"><label for="p">Price per kWh (pence)</label><input id="p" type="number" inputmode="decimal" step="0.01" min="0" value="26.11"></div>
+      </div>
+      <div class="res" id="res"></div>
+    </div>
+    <script>
+(function(){
+  function v(id){var x=parseFloat(document.getElementById(id).value);return isNaN(x)||x<0?0:x;}
+  function go(){
+    var run=v('kw')*v('h'), p=v('p');
+    function m(k){return '£'+(k*p/100).toFixed(2);}
+    document.getElementById('res').innerHTML=
+      '<div class="big">'+run.toFixed(2)+' kWh<span> per run ('+m(run)+')</span></div>'+
+      '<div class="grid3">'+
+      '<div class="b"><div class="n">'+(run*7).toFixed(1)+'</div><div class="l">kWh / week</div></div>'+
+      '<div class="b"><div class="n">'+(run*30).toFixed(0)+'</div><div class="l">kWh / month</div></div>'+
+      '<div class="b"><div class="n">'+(run*365).toFixed(0)+'</div><div class="l">kWh / year</div></div></div>'+
+      '<p style="margin-top:12px;color:var(--muted)">Run daily, that is about '+m(run*365)+' a year.</p>';
+  }
+  ['kw','h','p'].forEach(function(id){var e=document.getElementById(id);if(e)e.addEventListener('input',go);});
+  go();
+})();
+    </script>
+<div class="formula"><b>The formula:</b> kWh = kW &times; hours</div>
+    <p>The two units are easy to mix up. A 2kW heater is rated at 2 kilowatts of power; run it for 3 hours and it uses 2 &times; 3 = 6 kWh of energy. If your appliance is rated in watts rather than kilowatts, divide by 1,000 first, or use the <a href="watts-to-kwh-calculator.html">watts to kWh calculator</a>. To turn the kWh into money, see <a href="kwh-to-cost-calculator.html">kWh to cost</a>.</p>
+    <h2>Common questions</h2>
+    <p><strong>What is the difference between kW and kWh?</strong><br>A kilowatt (kW) is a rate of power, like the speed of a car. A kilowatt-hour (kWh) is the energy used over time, like the distance travelled. A 1kW device running for 1 hour uses 1 kWh.</p>
+    <p><strong>How many kWh is 2kW for an hour?</strong><br>Exactly 2 kWh. Kilowatt-hours are the power in kilowatts multiplied by the hours, so 2kW for 1 hour is 2 kWh, and for 30 minutes it is 1 kWh.</p>
+    <script type="application/ld+json">{"@context": "https://schema.org", "@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": "What is the difference between kW and kWh?", "acceptedAnswer": {"@type": "Answer", "text": "A kilowatt (kW) is a rate of power, like the speed of a car. A kilowatt-hour (kWh) is the energy used over time, like the distance travelled. A 1kW device running for 1 hour uses 1 kWh."}}, {"@type": "Question", "name": "How many kWh is 2kW for an hour?", "acceptedAnswer": {"@type": "Answer", "text": "Exactly 2 kWh. Kilowatt-hours are the power in kilowatts multiplied by the hours, so 2kW for 1 hour is 2 kWh, and for 30 minutes it is 1 kWh."}}]}</script>
+  </div></section>
+
+  </main>
+  <footer class="footer"><div class="wrap">
+    <p class="foot-brand">Power Saving Guide</p>
+    <p>A practical, independent guide to cutting your electricity, gas and fuel bills. Plain advice, no gadgets to buy.</p>
+    <p class="foot-links"><a href="electricity.html">Electricity</a> · <a href="heating.html">Heating &amp; gas</a> · <a href="driving.html">Fuel &amp; driving</a> · <a href="appliance-running-cost.html">Cost calculator</a> · <a href="guides.html">Guides</a> · <a href="about.html">About</a> · <a href="privacy.html">Privacy</a></p>
+    <p class="copy">&copy; <span>2026</span> Power Saving Guide. Figures are worked examples; check your own tariff and meter. Cookieless analytics, see the <a href="privacy.html">privacy page</a>.</p>
+  </div></footer>
+</body>
+</html>

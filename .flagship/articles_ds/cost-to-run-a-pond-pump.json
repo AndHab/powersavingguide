@@ -1,0 +1,64 @@
+{
+ "slug": "cost-to-run-a-pond-pump",
+ "title": "How much does it cost to run a pond pump?",
+ "description": "Learn the true cost of running a pond pump 24/7 using Ofgem energy prices. Typical pumps use 20W to 100W, costing 12p to 63p per day or £46 to £230 per year.",
+ "blurb": "Pond pumps run constantly. At 26.11p/kWh a 20W pump costs 12.5p/day (£46/year) and a 100W pump costs 62.7p/day (£229/year).",
+ "lede": "If you have a garden pond, you probably run a pump to keep the water clear and oxygenated. But that pump is on 24 hours a day, 365 days a year, and even a small wattage can add up on your electricity bill. This article uses the latest Ofgem energy price cap figures (electricity 26.11p per kWh, standing charge 57.19p per day) to show you exactly what different pond pumps cost to run, and gives practical advice on reducing those costs.",
+ "short_answer": "A typical pond pump costs between 12p and 63p per day to run (based on 20W to 100W models). That adds up to roughly £46 to £229 per year. The exact figure depends on your pump's wattage and your electricity rate. At the current cap rate of 26.11p/kWh, a 50W pump costs about 31p per day, or £114 per year.",
+ "sections": [
+  {
+   "h2": "How much electricity does a pond pump use?",
+   "html": "<p>Pond pumps are rated in watts (W), and they run continuously. The daily electricity consumption in kilowatt-hours (kWh) is simply (watts ÷ 1000) × 24 hours. For example:</p><ul><li>20W pump: 0.02 kW × 24h = 0.48 kWh per day</li><li>50W pump: 0.05 kW × 24h = 1.20 kWh per day</li><li>100W pump: 0.10 kW × 24h = 2.40 kWh per day</li></ul><p>Pumps in the 20W to 100W range are most common for garden ponds. Larger koi ponds or waterfalls may use 200W or more, but the same calculation applies. It is important to check the label on your pump for the exact wattage, as some pumps may draw more under load.</p>"
+  },
+  {
+   "h2": "Calculating your pond pump running cost",
+   "html": "<p>To find the cost, multiply the daily kWh by your electricity rate. Under the current Ofgem price cap (effective for 1 July to 30 September 2026), electricity costs 26.11p per kWh. There is also a daily standing charge of 57.19p, but that is a fixed cost regardless of pump use. For the pump alone, we focus on the usage cost.</p><table class=\"ev-table\"><thead><tr><th>Pump Wattage</th><th>Daily kWh</th><th>Daily Cost (26.11p/kWh)</th><th>Monthly Cost (30 days)</th><th>Yearly Cost (365 days)</th></tr></thead><tbody><tr><td>20W</td><td>0.48</td><td>12.53p</td><td>£3.76</td><td>£45.73</td></tr><tr><td>30W</td><td>0.72</td><td>18.80p</td><td>£5.64</td><td>£68.60</td></tr><tr><td>50W</td><td>1.20</td><td>31.33p</td><td>£9.40</td><td>£114.37</td></tr><tr><td>75W</td><td>1.80</td><td>47.00p</td><td>£14.10</td><td>£171.55</td></tr><tr><td>100W</td><td>2.40</td><td>62.66p</td><td>£18.80</td><td>£228.73</td></tr></tbody></table><p>As you can see, a 100W pump costs over 60p a day to run. Over a year, that is nearly £229 just for the pump. If you have a small pond and a 20W pump, the cost is much lower at around £46 per year. Remember to also factor in the standing charge, but that is not affected by your pump.</p>"
+  },
+  {
+   "h2": "Typical costs per pump size and type",
+   "html": "<p>Pond pumps vary widely. Small fountain pumps often use 20W to 30W, while larger submersible pumps for koi ponds or waterfalls can use 100W to 200W. External pumps tend to be more efficient but can still draw significant power. Here is a breakdown of typical running costs for common pond scenarios:</p><table class=\"ev-table\"><thead><tr><th>Pump Type</th><th>Typical Wattage</th><th>Daily Cost</th><th>Annual Cost</th></tr></thead><tbody><tr><td>Small fountain pump</td><td>15W to 25W</td><td>9.4p to 15.7p</td><td>£34 to £57</td></tr><tr><td>Medium submersible pump</td><td>40W to 60W</td><td>25.1p to 37.6p</td><td>£92 to £137</td></tr><tr><td>Large submersible or external pump</td><td>80W to 120W</td><td>50.1p to 75.2p</td><td>£183 to £274</td></tr><tr><td>High-flow waterfall pump</td><td>150W to 200W</td><td>93.8p to £1.25</td><td>£342 to £457</td></tr></tbody></table><p>These figures assume 24/7 operation. If you run your pump only part of the day (e.g. 12 hours), the costs halve. Many pond owners run pumps continuously for filtration, but some turn them off at night to save money.</p>"
+  },
+  {
+   "h2": "Ways to reduce pond pump running costs",
+   "html": "<p>If your pond pump is pushing up your electricity bill, there are several practical ways to reduce the cost without harming your pond's health:</p><ul><li><strong>Choose the right size pump:</strong> Do not oversize your pump. A pump that is too powerful wastes energy. Match the pump flow rate to your pond volume and desired water feature.</li><li><strong>Use a pump timer:</strong> Run the pump only when needed, for example 8 to 12 hours a day during warmer months, and less in winter. A simple timer costs little and can halve your running cost.</li><li><strong>Install a variable speed pump:</strong> These pumps adjust flow to match demand, using less electricity when less flow is needed. They are more expensive upfront but can cut energy use by 40% to 60%.</li><li><strong>Keep filters and pipes clean:</strong> A clogged filter or blocked pipe forces the pump to work harder, increasing power consumption. Clean your pump and filter regularly.</li><li><strong>Check for energy efficiency labels:</strong> Some modern pumps have better design and motor efficiency. Look for pumps with low wattage for the flow they deliver.</li><li><strong>Consider solar or battery pumps:</strong> If you have a small fountain, a solar pump may be an option, though it only runs in sunlight. Battery pumps can be recharged off-peak but are less common for continuous use.</li></ul><p>Remember that the biggest savings come from reducing running hours or selecting a pump that is not oversized. A 50W pump running 12 hours a day costs about 15.7p daily, or £57 per year, much less than a 100W pump running 24 hours.</p>"
+  },
+  {
+   "h2": "Is it worth running a pond pump 24/7?",
+   "html": "<p>Running a pond pump continuously is common for biological filtration and aeration. If your pond has fish, especially koi, you need constant water movement to maintain oxygen levels and filter function. However, if your pond is purely ornamental with no fish and simple plants, you may not need 24 hour pumping. Many pond owners run pumps only during daylight hours to save electricity while still providing water movement for aesthetics and some aeration.</p><p>Consider your specific situation:</p><ul><li><strong>Fish ponds:</strong> Usually require 24 hour filtration. A well-sized pump is essential. Running a pump at night is still important for oxygen, but you might reduce flow rate with a variable speed pump.</li><li><strong>Wildlife ponds:</strong> A pump is not always necessary. Still water supports tadpoles, insects and frogs. If you want a small fountain, run it only part of the day.</li><li><strong>Winter operation:</strong> In cold weather, many pond owners turn off pumps to prevent supercooling the water and to protect fish. Check the pump's minimum operating temperature.</li></ul><p>Switching off at night for 8 hours can save about one third of your pump's running cost. With a 100W pump, that is about 21p saved per day, or £76 per year.</p>"
+  },
+  {
+   "h2": "Comparing pond pump costs to other household appliances",
+   "html": "<p>To put pond pump costs in perspective, compare them to other common appliances at the same electricity rate:</p><table class=\"ev-table\"><thead><tr><th>Appliance</th><th>Typical Wattage</th><th>Usage</th><th>Daily Cost</th></tr></thead><tbody><tr><td>LED TV (50 inch)</td><td>100W</td><td>4 hours</td><td>10.4p</td></tr><tr><td>Fridge freezer</td><td>150W average</td><td>24 hours</td><td>94.0p</td></tr><tr><td><a href=\"washing-machine-running-cost.html\">Washing machine</a> (cycle)</td><td>2000W</td><td>1 hour</td><td>52.2p</td></tr><tr><td>Pond pump (100W)</td><td>100W</td><td>24 hours</td><td>62.7p</td></tr><tr><td>Pond pump (50W)</td><td>50W</td><td>24 hours</td><td>31.3p</td></tr></tbody></table><p>A 100W pond pump costs about the same as a 30 minute cycle of an electric hob on full power. A 50W pump costs less than a fridge freezer. So while it does add up, it is not the most costly appliance if run efficiently.</p>"
+  },
+  {
+   "h2": "How to accurately measure your pond pump's power consumption",
+   "html": "<p>If you want the exact cost, do not rely solely on the pump's label. Actual draw can differ due to wear, voltage, and head height. Use a plug-in energy monitor (available for around £10 to £20) to measure real-time watts and cumulative kWh. Follow these steps:</p><ol><li>Plug your pump into the energy monitor, then plug the monitor into the wall socket.</li><li>Record the wattage displayed when the pump is running normally.</li><li>Note the reading after 24 hours to get daily kWh used.</li><li>Multiply daily kWh by 26.11p to get the daily cost.</li></ol><p>Many monitors also show running cost if you enter your rate. This gives you a precise figure without guesswork. Alternatively, check your smart meter if you have one, it may show live usage when the pump is on.</p><p>For working out and trimming running costs, see <a href=\"appliance-running-cost.html\">the running cost calculator</a>, <a href=\"electricity.html\">where your electricity goes</a>, <a href=\"using-a-plug-in-energy-monitor.html\">a plug-in energy monitor</a>.</p>"
+  }
+ ],
+ "faq": [
+  {
+   "q": "How much does a 20W pond pump cost to run per day?",
+   "a": "At the current electricity rate of 26.11p per kWh, a 20W pump running 24 hours uses 0.48 kWh and costs about 12.5p per day. Over a year that is roughly £45.73."
+  },
+  {
+   "q": "How much does a 100W pond pump cost to run per month?",
+   "a": "A 100W pump uses 2.4 kWh per day. At 26.11p/kWh, the daily cost is 62.7p. For a 30 day month, that is about £18.80. For a 365 day year, it is about £228.73."
+  },
+  {
+   "q": "Should I turn off my pond pump at night to save money?",
+   "a": "Yes, if your pond does not need constant filtration (e.g. a wildlife pond without fish). Turning off for 8 hours can save roughly one third of the running cost. For a 50W pump, that saves about 10p per day or £37 per year. For fish ponds, ensure you have adequate aeration before turning off."
+  },
+  {
+   "q": "Does the standing charge apply to my pond pump?",
+   "a": "No. The standing charge (57.19p per day) is a fixed daily fee on your electricity bill. It does not change based on how much electricity you use, so it is not part of the pump's running cost. It simply adds to your total bill regardless of the pump."
+  },
+  {
+   "q": "How can I calculate the cost of a pump that uses different wattage?",
+   "a": "Use the formula: (watts ÷ 1000) × 24 × electricity rate (in £ per kWh). For example, a 30W pump: (30÷1000)=0.03 kW, 0.03×24=0.72 kWh per day, 0.72×0.2611=£0.188 (18.8p) per day. Multiply by 365 for yearly cost."
+  },
+  {
+   "q": "Is a solar pond pump cheaper to run than a mains powered pump?",
+   "a": "Solar pumps use free sunlight but only run during daylight and may not be powerful enough for continuous filtration. They have no running electricity cost but have upfront purchase cost. For a small fountain, solar can be more cost effective than paying 26.11p/kWh. But for a large pond that needs 24 hour pumping, a mains pump with a timer is often more reliable and practical."
+  }
+ ]
+}

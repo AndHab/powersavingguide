@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en-GB">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>EV charging cost calculator | Power Saving Guide</title>
+  <meta name="description" content="Work out the cost of charging an electric car at home. Enter the charge added in kWh and your electricity rate to see the cost per charge, per mile and per 100 miles.">
+  <link rel="canonical" href="https://powersavingguide.com/ev-charging-cost-calculator.html">
+  <meta name="robots" content="index, follow">
+  <meta property="og:site_name" content="Power Saving Guide">
+  <meta property="og:type" content="article">
+  <meta property="og:title" content="EV charging cost calculator | Power Saving Guide">
+  <meta property="og:description" content="Work out the cost of charging an electric car at home. Enter the charge added in kWh and your electricity rate to see the cost per charge, per mile and per 100 miles.">
+  <meta property="og:url" content="https://powersavingguide.com/ev-charging-cost-calculator.html">
+  <meta property="og:locale" content="en_GB">
+  <meta name="twitter:card" content="summary">
+  <script type="application/ld+json">{"@context": "https://schema.org", "@type": "Article", "headline": "EV charging cost calculator", "description": "Work out the cost of charging an electric car at home. Enter the charge added in kWh and your electricity rate to see the cost per charge, per mile and per 100 miles.", "datePublished": "2026-06-03", "dateModified": "2026-06-25", "inLanguage": "en-GB", "mainEntityOfPage": "https://powersavingguide.com/ev-charging-cost-calculator.html", "author": {"@type": "Organization", "name": "Power Saving Guide"}, "publisher": {"@type": "Organization", "name": "Power Saving Guide"}}</script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,600&family=Inter:wght@400;500;600&display=swap" rel="stylesheet" media="print" onload="this.media='all'">
+  <noscript><link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,600&family=Inter:wght@400;500;600&display=swap" rel="stylesheet"></noscript>
+  <script data-goatcounter="https://stats.powersavingguide.com/count" async src="//stats.powersavingguide.com/count.js"></script><script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('consent','default',{ad_storage:'granted',ad_user_data:'granted',ad_personalization:'granted',analytics_storage:'granted'});gtag('consent','default',{region:['AT','BE','BG','HR','CY','CZ','DK','EE','FI','FR','DE','GR','HU','IE','IT','LV','LT','LU','MT','NL','PL','PT','RO','SK','SI','ES','SE','IS','LI','NO','GB','CH'],ad_storage:'denied',ad_user_data:'denied',ad_personalization:'denied',analytics_storage:'denied',wait_for_update:500});</script><script async src="https://www.googletagmanager.com/gtag/js?id=G-8FYB114413"></script><script>gtag('js',new Date());gtag('config','G-8FYB114413');</script><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-7059699192160095" crossorigin="anonymous"></script>
+</head>
+<body>
+  <nav class="nav--bar"><div class="wrap nav-inner">
+    <a class="brand" href="index.html">Power Saving Guide</a>
+    <input type="checkbox" id="nt" class="navtoggle">
+    <label for="nt" class="navburger" aria-label="Menu">≡</label>
+    <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="electricity.html">Electricity</a></li>
+        <li><a href="heating.html">Heating &amp; gas</a></li>
+        <li><a href="driving.html">Fuel &amp; driving</a></li>
+        <li><a href="calculators.html" class="active">Calculators</a></li>
+        <li><a href="guides.html">Guides</a></li>
+        <li><a href="about.html">About</a></li>
+    </ul>
+  </div></nav>
+
+  <header class="page-head"><div class="wrap"><h1>EV charging cost calculator</h1></div></header>
+  <main>
+
+  <section class="section"><div class="wrap prose">
+    <p class="lede">Enter how many kilowatt-hours you add to the battery and your electricity rate, and this works out what charging your EV at home costs, per charge and per mile. A cheap overnight EV tariff can be 7p to 9p per kWh, against about 26p on the standard cap.</p>
+    <div class="ecalc">
+      <div class="row">
+      <div class="field"><label for="kwh">Charge added (kWh)</label><input id="kwh" type="number" inputmode="decimal" step="any" min="0" value="60"></div>
+      <div class="field"><label for="miles">Miles from that charge</label><input id="miles" type="number" inputmode="decimal" step="1" min="0" value="200"></div>
+      </div>
+      <div class="row">
+      <div class="field"><label for="p">Electricity rate (pence/kWh)</label><input id="p" type="number" inputmode="decimal" step="0.01" min="0" value="26.11"></div>
+      </div>
+      <div class="res" id="res"></div>
+    </div>
+    <script>
+(function(){
+  function v(id){var x=parseFloat(document.getElementById(id).value);return isNaN(x)||x<0?0:x;}
+  function go(){
+    var cost=v('kwh')*v('p')/100, mi=v('miles'), perMile=mi>0?cost*100/mi:0;
+    document.getElementById('res').innerHTML=
+      '<div class="big">£'+cost.toFixed(2)+'<span> per charge</span></div>'+
+      '<div class="grid3">'+
+      '<div class="b"><div class="n">'+perMile.toFixed(1)+'p</div><div class="l">per mile</div></div>'+
+      '<div class="b"><div class="n">£'+perMile.toFixed(2)+'</div><div class="l">per 100 miles</div></div>'+
+      '<div class="b"><div class="n">£'+(perMile*10).toFixed(0)+'</div><div class="l">per 1000 miles</div></div></div>'+
+      '<p style="margin-top:12px;color:var(--muted)">On a 7p overnight EV tariff the same charge would cost about £'+(v('kwh')*7/100).toFixed(2)+'.</p>';
+  }
+  ['kwh','miles','p'].forEach(function(id){var e=document.getElementById(id);if(e)e.addEventListener('input',go);});
+  go();
+})();
+    </script>
+<div class="formula"><b>The formula:</b> cost = kWh added &times; rate &divide; 100, and cost per mile = cost &divide; miles</div>
+    <p>Charging at home is where electric cars are cheapest to run. The standard cap of 26.11p per kWh already beats petrol per mile for most cars, but the real saving comes from a dedicated overnight EV tariff at 7p to 9p per kWh, which can drop the cost per mile to around 2p. Public rapid charging is far dearer, often 70p to 80p per kWh. For the full picture see <a href="ev-charging-at-home-cost.html">EV charging at home cost</a> and <a href="ev-electricity-tariffs-explained.html">EV electricity tariffs explained</a>.</p>
+    <h2>Common questions</h2>
+    <p><strong>How much does it cost to charge an electric car at home?</strong><br>Multiply the kWh you add by your electricity rate. Adding 60 kWh at the 26.11p cap rate costs about £15.67. On a 7p overnight EV tariff the same charge is about £4.20.</p>
+    <p><strong>How much does an EV cost per mile to charge?</strong><br>At the cap rate, most EVs cost roughly 7p to 9p per mile. On a cheap overnight tariff that falls to about 2p to 3p per mile, well below the cost of petrol.</p>
+    <p><strong>Is it cheaper to charge at home or in public?</strong><br>Home is much cheaper. Home electricity is 26.11p per kWh on the cap, or single figures on an EV tariff, while public rapid chargers are often 70p to 80p per kWh.</p>
+    <script type="application/ld+json">{"@context": "https://schema.org", "@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": "How much does it cost to charge an electric car at home?", "acceptedAnswer": {"@type": "Answer", "text": "Multiply the kWh you add by your electricity rate. Adding 60 kWh at the 26.11p cap rate costs about £15.67. On a 7p overnight EV tariff the same charge is about £4.20."}}, {"@type": "Question", "name": "How much does an EV cost per mile to charge?", "acceptedAnswer": {"@type": "Answer", "text": "At the cap rate, most EVs cost roughly 7p to 9p per mile. On a cheap overnight tariff that falls to about 2p to 3p per mile, well below the cost of petrol."}}, {"@type": "Question", "name": "Is it cheaper to charge at home or in public?", "acceptedAnswer": {"@type": "Answer", "text": "Home is much cheaper. Home electricity is 26.11p per kWh on the cap, or single figures on an EV tariff, while public rapid chargers are often 70p to 80p per kWh."}}]}</script>
+  </div></section>
+
+  </main>
+  <footer class="footer"><div class="wrap">
+    <p class="foot-brand">Power Saving Guide</p>
+    <p>A practical, independent guide to cutting your electricity, gas and fuel bills. Plain advice, no gadgets to buy.</p>
+    <p class="foot-links"><a href="electricity.html">Electricity</a> · <a href="heating.html">Heating &amp; gas</a> · <a href="driving.html">Fuel &amp; driving</a> · <a href="appliance-running-cost.html">Cost calculator</a> · <a href="guides.html">Guides</a> · <a href="about.html">About</a> · <a href="privacy.html">Privacy</a></p>
+    <p class="copy">&copy; <span>2026</span> Power Saving Guide. Figures are worked examples; check your own tariff and meter. Cookieless analytics, see the <a href="privacy.html">privacy page</a>.</p>
+  </div></footer>
+</body>
+</html>

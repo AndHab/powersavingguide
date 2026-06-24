@@ -1,0 +1,56 @@
+{
+ "slug": "oil-filled-radiator-running-cost",
+ "title": "How much does it cost to run an oil filled radiator?",
+ "description": "Find out how much it costs to run an oil filled radiator at the current Ofgem price cap. Compare with gas central heating and get tips to save on energy bills.",
+ "blurb": "At the current Ofgem electricity rate of 26.11p/kWh, a 2kW oil filled radiator costs about 52p per hour to run at maximum. However, thermostat cycling can reduce this. This article explains how to calculate running costs, compares them with gas central heating, and offers money saving tips.",
+ "lede": "Oil filled radiators are a popular portable heating option, but their running cost can be a concern. Unlike gas central heating, they use electricity, which is more expensive per unit. At the current Ofgem energy price cap, electricity costs 26.11p per kWh, meaning a typical 2kW radiator on full power uses 2kWh per hour and costs around 52p. Actual costs vary based on thermostat settings, room size, and insulation. This guide helps you estimate the cost and decide if an oil filled radiator is right for you.",
+ "short_answer": "At the current Ofgem cap (26.11p/kWh), a 2kW oil filled radiator costs about 52p per hour at maximum output. With thermostat cycling, the average cost is typically lower, around 30-40p per hour depending on usage.",
+ "sections": [
+  {
+   "h2": "How much does an oil filled radiator cost to run?",
+   "html": "<p>The running cost of an oil filled radiator depends on its power rating and how long it operates. Most domestic models range from 1.5kW to 2.5kW. At the current Ofgem electricity price cap of 26.11p per kWh, the maximum cost per hour is:</p><ul><li>1.5kW radiator: 1.5 kWh x 26.11p = 39p per hour</li><li>2.0kW radiator: 2.0 kWh x 26.11p = 52p per hour</li><li>2.5kW radiator: 2.5 kWh x 26.11p = 65p per hour</li></ul><p>However, oil filled radiators are thermostatically controlled, so they do not run continuously at full power. Once the room reaches the set temperature, the heating element cycles off until the temperature drops. This means the actual average consumption is lower, typically around 50-70% of the maximum. For a 2kW radiator, that translates to an average cost of 26-36p per hour.</p>"
+  },
+  {
+   "h2": "How to calculate the running cost yourself",
+   "html": "<p>To estimate the cost for your specific model, follow these steps:</p><ol><li>Check the power rating in kW (usually on the label or manual).</li><li>Estimate the number of hours you use it per day.</li><li>Multiply the power (kW) by hours used to get kWh.</li><li>Multiply kWh by 26.11p (current electricity rate).</li><li>Apply a duty cycle factor of 0.5 to 0.7 for thermostat cycling.</li></ol><p>For example, a 1.5kW radiator used for 4 hours with a 60% duty cycle: 1.5 kW x 4 h x 0.6 = 3.6 kWh, cost = 3.6 x 26.11p = 94p. The table below shows typical costs for common run times.</p><table class=\"ev-table\"><thead><tr><th>Power (kW)</th><th>1 hour max</th><th>4 hours max</th><th>8 hours max</th><th>1 hour avg (60% cycle)</th><th>4 hours avg (60% cycle)</th><th>8 hours avg (60% cycle)</th></tr></thead><tbody><tr><td>1.5</td><td>39p</td><td>£1.57</td><td>£3.13</td><td>23p</td><td>94p</td><td>£1.88</td></tr><tr><td>2.0</td><td>52p</td><td>£2.09</td><td>£4.18</td><td>31p</td><td>£1.25</td><td>£2.51</td></tr><tr><td>2.5</td><td>65p</td><td>£2.61</td><td>£5.22</td><td>39p</td><td>£1.57</td><td>£3.13</td></tr></tbody></table><p>Note: 'avg' assumes the radiator runs at full power for 60% of the time due to thermostat cycling. Actual savings depend on room insulation and set temperature.</p>"
+  },
+  {
+   "h2": "Oil filled radiator vs gas central heating",
+   "html": "<p>Gas central heating is significantly cheaper per unit of heat. The current Ofgem gas price cap is 7.33p per kWh, but gas boilers are typically around 85-90% efficient, meaning you pay for more gas than you get as heat. Still, the effective cost per kWh of heat from gas is about 8.1p to 8.6p. In contrast, electric resistance heating like oil filled radiators is 100% efficient, but at 26.11p per kWh, it is roughly three times more expensive than gas per unit of heat delivered.</p><p>However, oil filled radiators can be more cost effective if used to heat only a small room or for short periods, avoiding the need to heat the whole house. They also have no standing charge if used on a standard electricity tariff (though electricity has its own standing charge of 57.19p per day). Gas <a href=\"standing-charges-explained.html\">standing charges</a> vary but are typically higher. For occasional use, an oil filled radiator may be cheaper than running a gas boiler for a single room, especially if the boiler is old and inefficient.</p>"
+  },
+  {
+   "h2": "Factors that affect running costs",
+   "html": "<p>Several factors influence how much an oil filled radiator costs to run:</p><ul><li><strong>Thermostat setting:</strong> A higher set point means the radiator runs longer to maintain temperature. Setting the thermostat to a comfortable but not excessive level (e.g. 18-20°C) reduces energy use.</li><li><strong>Room size and insulation:</strong> Poorly insulated rooms lose heat faster, so the radiator cycles on more often. <a href=\"draught-proofing.html\">Draught proofing</a> and insulation can cut costs significantly.</li><li><strong>Duty cycle:</strong> As mentioned, the percentage of time the heating element is on directly affects consumption. This depends on the difference between set and ambient temperature.</li><li><strong>Usage pattern:</strong> Leaving the radiator on all day vs using it intermittently. While it is a myth that leaving it on all day saves energy (heat is lost regardless), a well insulated room may benefit from constant low heat.</li><li><strong>Power rating:</strong> Higher wattage radiators heat up faster but consume more when on. Choosing the right size for the room avoids oversized units that cycle on and off too frequently.</li></ul>"
+  },
+  {
+   "h2": "Tips to reduce the running cost of an oil filled radiator",
+   "html": "<p>To lower your electricity bill when using an oil filled radiator, consider these practical tips:</p><ul><li>Use a timer or smart plug to operate the radiator only during hours you are in the room.</li><li>Set the thermostat to the lowest comfortable temperature (every degree lower saves about 10% on heating costs).</li><li>Ensure the room is well insulated: close curtains at night, seal gaps under doors, and consider thermal lining for curtains.</li><li>Heat only the room you are using, not the whole house via central heating.</li><li>Clean the radiator's fins and ensure good airflow to improve heat transfer efficiency.</li><li>Compare with other electric heaters: oil filled radiators are typically more efficient than fan heaters because they retain heat longer after switching off.</li></ul>"
+  },
+  {
+   "h2": "Is an oil filled radiator cheaper than a storage heater?",
+   "html": "<p><a href=\"storage-heaters-explained.html\">Storage heaters</a> use cheaper off peak electricity if you are on an Economy 7 or similar tariff. However, on standard tariffs, storage heaters and oil filled radiators both use electric resistance heating at the same efficiency. Storage heaters store heat overnight and release it during the day, which can be beneficial if you have a time of use tariff. But they are bulky and less controllable. Oil filled radiators are more portable and offer instant heat, but at higher running costs on standard electricity. If you are on a standard tariff, neither is inherently cheaper; the choice depends on usage patterns and control preferences.</p><p>For working out and trimming running costs, see <a href=\"appliance-running-cost.html\">the running cost calculator</a>.</p>"
+  }
+ ],
+ "faq": [
+  {
+   "q": "Are oil filled radiators expensive to run?",
+   "a": "Compared to gas central heating, yes, because electricity costs about 26.11p per kWh while gas is around 7.33p per kWh. However, for short term or spot heating of a single room, an oil filled radiator can be more cost effective than running a gas boiler for the whole house."
+  },
+  {
+   "q": "How do I calculate the exact running cost of my oil filled radiator?",
+   "a": "Check the power rating in kW (usually on the label). Multiply by the hours used, then by 26.11p, then adjust for thermostat cycling (typically 50-70% of max). For example, a 2kW radiator used 3 hours at 60% duty cycle: 2 x 3 x 0.6 = 3.6 kWh, cost = 3.6 x 26.11 = 94p."
+  },
+  {
+   "q": "Should I leave my oil filled radiator on all day?",
+   "a": "Not if you want to save money. It is more efficient to heat the room only when needed. Leaving it on all day at a constant temperature can still consume significant energy because heat is constantly lost to the environment. Use a timer to turn it on 30 minutes before use and off when leaving."
+  },
+  {
+   "q": "Is it cheaper to use an oil filled radiator or a fan heater?",
+   "a": "Both are 100% efficient electric heaters, so they cost the same per unit of heat (26.11p/kWh). However, fan heaters blow hot air directly and heat a room faster, but they cool down quickly after turning off. Oil filled radiators take longer to heat up but retain heat longer, which can reduce cycling. In practice, the cost difference is minimal."
+  },
+  {
+   "q": "Can I use an oil filled radiator in a bedroom overnight?",
+   "a": "Yes, but be mindful of safety and cost. Many models have timer and thermostat features. Running a 2kW radiator on low setting overnight (say 8 hours at 40% duty cycle) would cost roughly 2 x 8 x 0.4 x 26.11 = 1,670p or about £1.67. That can add up if done nightly. Consider using a lower setting or a smaller radiator."
+  }
+ ]
+}

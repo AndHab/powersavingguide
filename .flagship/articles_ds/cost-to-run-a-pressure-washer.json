@@ -1,0 +1,56 @@
+{
+ "slug": "cost-to-run-a-pressure-washer",
+ "title": "How much does it cost to run a pressure washer?",
+ "description": "Find out the cost to run a pressure washer in the UK based on power rating, usage time, and Ofgem electricity rates. Includes calculations, savings tips.",
+ "blurb": "Running a pressure washer costs between 30p and 55p per hour of continuous use, depending on the model's power rating. Most cleaning jobs take only 10-20 minutes, so a typical session costs around 10-20p. Using a lower power setting or shorter bursts can reduce costs further.",
+ "lede": "Using a pressure washer for driveway or patio cleaning is a common summer job, but many people worry about the electricity cost. With a typical power rating of 1.4kW to 2.1kW and short bursts of use, the cost is surprisingly low - often less than 20p per session. This article breaks down the exact costs using the current Ofgem electricity rate and shows how to keep your cleaning budget-friendly.",
+ "short_answer": "Under the current Ofgem price cap of 26.11p per kWh, a pressure washer with a 2kW motor running for one hour costs 52p. Most cleaning tasks take 10 to 20 minutes, so a typical session costs between 9p and 26p.",
+ "sections": [
+  {
+   "h2": "How much electricity does a pressure washer use?",
+   "html": "<p>Pressure washers typically have a motor power rating between 1.4kW and 2.1kW. The power rating tells you how much electricity it consumes when running at full power. For example, a 1.8kW model uses 1.8 kilowatt-hours (kWh) per hour of continuous use. However, you rarely run the machine nonstop for a full hour. Most jobs involve intermittent spraying, with the motor running only when the trigger is pulled. Many pressure washers also have an automatic shut-off that stops the motor when the trigger is released, further reducing energy use.</p><p>To calculate the electricity consumed, multiply the power rating (in kW) by the total time the motor is actually running (in hours). A typical patio cleaning session might involve 15 minutes of active spraying, so a 2kW pressure washer would use 2kW x 0.25h = 0.5 kWh.</p>"
+  },
+  {
+   "h2": "Cost per hour calculation",
+   "html": "<p>At the current Ofgem price cap rate of 26.11p per kWh, the cost per hour of continuous use for different power ratings is straightforward to calculate. For a 1.4kW machine: 1.4 x 26.11 = 36.6p per hour. For a 2.1kW machine: 2.1 x 26.11 = 54.8p per hour. Since pressure washers are not run continuously for hours, these figures represent the maximum possible cost. In reality, with intermittent use, the actual cost is lower.</p><table class=\"ev-table\"><thead><tr><th>Power rating (kW)</th><th>Cost per hour of continuous use (pence)</th></tr></thead><tbody><tr><td>1.4</td><td>36.6</td></tr><tr><td>1.6</td><td>41.8</td></tr><tr><td>1.8</td><td>47.0</td></tr><tr><td>2.0</td><td>52.2</td></tr><tr><td>2.1</td><td>54.8</td></tr></tbody></table>"
+  },
+  {
+   "h2": "Factors affecting the running cost",
+   "html": "<p>The actual cost to run a pressure washer depends on several factors:</p><ul><li><strong>Power setting:</strong> Many models have adjustable pressure. Using a lower setting reduces electricity consumption proportionally.</li><li><strong>Trigger usage:</strong> The motor only runs while the trigger is pressed. Short bursts of spraying reduce runtime and thus cost.</li><li><strong>Water temperature:</strong> Some pressure washers heat water, but this is rare for domestic models. If yours does, the heating element adds significant cost (often 2kW to 3kW extra). The Ofgem gas rate (7.33p/kWh) applies if you use gas to heat water, but most electric heaters use electricity.</li><li><strong>Standby consumption:</strong> When plugged in but not running, the machine may draw a small amount of power (typically less than 1 watt). Over a year this costs pennies and is not worth worrying about.</li></ul>"
+  },
+  {
+   "h2": "Comparing costs with other appliances",
+   "html": "<p>To give context, a 2kW pressure washer running for an hour costs about the same as running a 2kW electric heater for an hour. In comparison, a typical 1.5kW kettle costs about 39p per hour of continuous use, but it only runs for a few minutes at a time. A 2kW vacuum cleaner costs about 52p per hour. Pressure washers are not particularly expensive to run; the key is that they are used for short periods, so the total cost per use is low.</p><table class=\"ev-table\"><thead><tr><th>Appliance</th><th>Typical power (kW)</th><th>Cost per hour (pence)</th></tr></thead><tbody><tr><td>Pressure washer</td><td>2.0</td><td>52</td></tr><tr><td>Vacuum cleaner</td><td>2.0</td><td>52</td></tr><tr><td>Kettle</td><td>1.5</td><td>39</td></tr><tr><td>Electric heater</td><td>2.0</td><td>52</td></tr></tbody></table>"
+  },
+  {
+   "h2": "Tips to reduce the cost of running a pressure washer",
+   "html": "<p>While the cost per use is already low, you can reduce it further with these tips:</p><ul><li><strong>Use the lowest effective pressure:</strong> Many cleaning tasks don't require full power. Set the pressure to the minimum needed to remove dirt.</li><li><strong>Work efficiently:</strong> Plan your cleaning in sections and avoid leaving the motor running while you move equipment. Use the trigger lock only when spraying.</li><li><strong>Maintain the machine:</strong> A clogged nozzle or dirty filter makes the motor work harder, increasing electricity use. Clean the nozzle and filters regularly.</li><li><strong>Combine with manual cleaning:</strong> For heavy dirt, a stiff brush and detergent can reduce the time you need to run the pressure washer.</li></ul><p>If you have a variable speed model, running it at a lower speed saves electricity. For example, reducing the power from 2kW to 1.4kW cuts the cost by 30%.</p>"
+  },
+  {
+   "h2": "Seasonal considerations and average use",
+   "html": "<p>Pressure washers are typically used in spring and summer for outdoor cleaning. For a typical household, a pressure washer might be used for 10 to 20 hours per year. At an average cost of 50p per hour, this amounts to £5 to £10 annually. This is a small fraction of the average annual electricity bill of around £1,000. The standing charge of 57.19p per day applies regardless of usage, but it is not directly affected by running a pressure washer.</p><p>If you use a pressure washer professionally, the cost becomes more significant. For 100 hours of use per year at 2kW, the electricity cost would be about £52. This is still modest compared to the income from cleaning services.</p><p>For working out and trimming running costs, see <a href=\"appliance-running-cost.html\">the running cost calculator</a>, <a href=\"electricity.html\">where your electricity goes</a>, <a href=\"using-a-plug-in-energy-monitor.html\">a plug-in energy monitor</a>, <a href=\"standby-power-the-full-story.html\">standby power</a>.</p>"
+  }
+ ],
+ "faq": [
+  {
+   "q": "How much does it cost to run a pressure washer for 15 minutes?",
+   "a": "If your pressure washer has a 2kW motor, running it for 15 minutes (0.25 hours) uses 0.5 kWh. At 26.11p per kWh, that costs 13.1p. For a 1.4kW model, it costs about 9.2p."
+  },
+  {
+   "q": "Does a higher power pressure washer cost more to run?",
+   "a": "Yes, a more powerful machine consumes more electricity per hour. A 2.1kW model costs 54.8p per hour of continuous use, while a 1.4kW model costs 36.6p. However, a higher power washer may clean faster, so total energy for a given job might be similar."
+  },
+  {
+   "q": "Is it cheaper to use a pressure washer than a hose?",
+   "a": "A garden hose uses no electricity, but it uses water. Water costs are separate from electricity. A pressure washer uses less water than a hose (typically 5-10 litres per minute vs 20 litres per minute), so it may save water. But the electricity cost of a pressure washer is still low."
+  },
+  {
+   "q": "Should I unplug my pressure washer when not in use?",
+   "a": "It's good practice to unplug any appliance when not in use. While the standby power of a pressure washer is minimal (often less than 0.5W), unplugging eliminates any phantom load. Over a year, the saving is less than 50p, but it also protects the machine from power surges."
+  },
+  {
+   "q": "Does the water temperature affect the running cost?",
+   "a": "Most domestic pressure washers use cold water. If you have a model that heats water, the heating element adds to the electricity cost. For example, a 2kW heater running for an hour adds 52p. Gas-heated models are cheaper per kWh (7.33p), but gas models are less common."
+  }
+ ]
+}

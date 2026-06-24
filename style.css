@@ -68,6 +68,26 @@ a.tile:hover{transform:translateY(-2px);box-shadow:0 8px 24px rgba(16,36,58,.1);
 .foot-links{font-size:.9rem}
 .copy{font-size:.8rem;color:#8ba0b4;margin:0}
 
+/* calculators (energy tools) */
+.ecalc{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:24px;margin:6px 0 26px;max-width:580px}
+.ecalc .row{display:grid;grid-template-columns:1fr 1fr;gap:18px}
+.ecalc label{display:block;font-weight:600;color:var(--ink-strong);margin:0 0 5px;font-size:.92rem}
+.ecalc .field{margin-top:14px}
+.ecalc input,.ecalc select{width:100%;padding:11px 12px;border:1px solid var(--line);border-radius:9px;font-size:1rem;font-family:inherit;background:#fff;color:var(--ink)}
+.ecalc input:focus,.ecalc select:focus{outline:2px solid var(--accent);border-color:var(--accent)}
+.ecalc input[type=range]{accent-color:var(--accent);padding:0;height:30px;cursor:pointer}
+.ecalc output{font-weight:700;color:var(--blue)}
+.ecalc .res{margin-top:22px;border-top:1px solid var(--line);padding-top:18px}
+.ecalc .big{font-size:2.2rem;font-weight:700;color:var(--ink-strong);font-family:"Fraunces",Georgia,serif;line-height:1.1}
+.ecalc .big span{font-size:1rem;font-weight:400;color:var(--muted);font-family:"Inter",sans-serif}
+.ecalc .grid3{display:grid;grid-template-columns:repeat(3,1fr);gap:12px;margin-top:14px}
+.ecalc .b{text-align:center;border:1px solid var(--line);border-radius:12px;padding:13px 8px;background:var(--bg)}
+.ecalc .b .n{font-size:1.35rem;font-weight:700;color:var(--ink-strong)}
+.ecalc .b .l{font-size:.72rem;text-transform:uppercase;letter-spacing:.04em;color:var(--muted);margin-top:2px}
+.formula{background:var(--bg-alt);border:1px solid var(--line);border-radius:10px;padding:14px 18px;font-size:1.02rem;margin:18px 0}
+.formula b{color:var(--ink-strong)}
+@media(max-width:520px){.ecalc .row,.ecalc .grid3{grid-template-columns:1fr}}
+
 @media (max-width:820px){
   .grid-cards{grid-template-columns:repeat(2,1fr)}
   .navburger{display:block;font-size:1.6rem;line-height:1;cursor:pointer;color:#fff;user-select:none}
