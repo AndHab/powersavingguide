@@ -1,0 +1,56 @@
+{
+  "slug": "hot-tub-running-cost",
+  "title": "Hot tub running cost: what it really costs to keep one hot",
+  "description": "A hot tub heats water around the clock whether you use it or not. Here is what that costs a year at UK rates, and the cheapest ways to cut the bill.",
+  "blurb": "A hot tub costs money even when nobody is in it, because it keeps a few hundred litres hot day and night. Here are the real numbers and how to bring them down.",
+  "lede": "A hot tub is a lovely thing to own and a quietly alarming thing to run. Unlike most appliances, which cost something only while you use them, a hot tub spends most of its life keeping a large body of water hot and gently circulating whether you are in it or not. That round-the-clock duty makes it one of the most expensive single items a household can keep. This guide puts a realistic annual figure on it at current UK prices, explains what drives the bill, and sets out the changes that actually move the needle.",
+  "short_answer": "A typical permanent hot tub costs somewhere between £40 and £120 a month to run, or roughly £500 to £1,400 a year, depending mostly on insulation, the temperature you hold, and the weather. A well-insulated tub used in summer sits at the low end; a poorly insulated one kept hot through a cold winter sits at the painful top end. The single biggest lever is a thick, well-fitting, undamaged cover.",
+  "sections": [
+    {
+      "h2": "Why a hot tub costs so much",
+      "html": "<p>Two jobs run up the bill, and both happen whether or not you ever get in.</p><p>The first is heating. Keeping a few hundred litres of water at around 38C, day and night, out in the open air, means the heater fires regularly to replace heat lost to the colder air and ground around it. Heating water is energy-hungry at the best of times, and a hot tub does it continuously, which is the exact opposite of how you keep an energy bill down. Most domestic tubs heat with a 2kW to 3kW electric element, paying the full <a href=\"electricity.html\">electricity</a> rate of 26.11p per kWh for every unit.</p><p>The second is the circulation and filtration pump, which runs for hours every day to keep the water clean and, on many tubs, to help move heat around. A small pump might draw 200W, a larger one well over 1kW when the jets are on. Between the heater and the pump, the tub is drawing power for a good chunk of every day, all year.</p>"
+    },
+    {
+      "h2": "What it adds up to",
+      "html": "<p>The honest answer is that it varies enormously, so be wary of any single scary figure. Here is a realistic range for a permanent tub, based on the heater and pump running a typical number of hours a day.</p><table class=\"ev-table\"><thead><tr><th>Scenario</th><th>Energy per day</th><th>Cost per month</th><th>Cost per year</th></tr></thead><tbody><tr><td>Well insulated, 37C, summer</td><td>5 to 7 kWh</td><td>£40 to £55</td><td>£480 to £670</td></tr><tr><td>Average tub, 38C, spring and autumn</td><td>8 to 11 kWh</td><td>£60 to £85</td><td>£760 to £1,050</td></tr><tr><td>Poorly insulated, 40C, cold winter</td><td>13 to 18 kWh</td><td>£100 to £140</td><td>£1,240 to £1,720</td></tr></tbody></table><p class=\"ev-note\">At 26.11p/kWh electricity, Ofgem cap July to September 2026. Worked examples; your tub will differ with insulation, weather, temperature and use.</p><p>Rather than trust the table alone, find your tub's heater and pump wattage on the rating plate and put them through the <a href=\"appliance-running-cost.html\">running cost calculator</a> with a realistic estimate of how many hours a day each runs. Better still, fit a <a href=\"using-a-plug-in-energy-monitor.html\">plug-in energy monitor</a> rated for the load, or read the tub from your <a href=\"smart-meters-explained.html\">smart meter</a> over a quiet day, and you will get your own number rather than someone else's.</p>"
+    },
+    {
+      "h2": "The factors that decide your bill",
+      "html": "<p>A handful of things separate a cheap-to-run tub from a ruinous one.</p><ul><li><strong>Insulation.</strong> The biggest factor by far. A well-insulated cabinet and, above all, a thick, well-fitting, undamaged cover make a huge difference, because most of the heat escapes from the water surface. A waterlogged, gappy cover can double a winter bill on its own.</li><li><strong>The temperature you hold.</strong> Every degree costs more to maintain, and the gap between the water and the outside air is what drives the heat loss. Dropping from 40C to 37C is a meaningful saving.</li><li><strong>The weather and the spot.</strong> A cold, windy, exposed location loses heat far faster than a sheltered one. Wind across the cover is a major thief.</li><li><strong>How often and how long you use it.</strong> Opening the cover dumps heat, and reheating after a soak adds up, so frequent long sessions in cold weather cost more.</li></ul><p>The principle is the same one behind every heating decision on this site, covered under <a href=\"hot-water-savings.html\">hot water savings</a>: it is far cheaper to keep heat in than to keep making it.</p>"
+    },
+    {
+      "h2": "How to cut the cost",
+      "html": "<p>Start with the cover, because it is the cheapest big win.</p><ul><li><strong>Keep the cover on whenever the tub is not in use,</strong> and make sure it seals all the way round. A clip-down cover beats one that just rests on top.</li><li><strong>Replace a waterlogged cover.</strong> When it becomes heavy and soggy it has lost its insulation, and a new one can pay for itself in a single winter.</li><li><strong>Add a floating thermal blanket</strong> on the water surface, underneath the main cover, to cut surface heat loss further.</li><li><strong>Set the temperature to the lowest you actually enjoy.</strong> Many people sit happily at 37C rather than 40C.</li><li><strong>Site or screen it out of the wind.</strong> A fence, wall or hedge on the windward side cuts a surprising amount of loss.</li><li><strong>Check the pump schedule.</strong> Filtration usually only needs to run a few hours a day, not constantly. The manual will tell you the minimum.</li></ul><p>The big strategic question is the temperature setback between uses. If you only use the tub at weekends, it is tempting to drop it right down in the week. Whether that saves money depends on your tub and climate: a well-insulated tub loses little while idling, so reheating from a low temperature can cost more than just holding it. Test it over a couple of weeks with your monitor before committing.</p>"
+    },
+    {
+      "h2": "Could a cheaper tariff help?",
+      "html": "<p>Because a hot tub runs steadily through the night, it is one of the better candidates for an off-peak electricity rate. If you can shift the bulk of the heating and filtration into cheap overnight hours, the saving on such a large constant load can be substantial.</p><p>An <a href=\"economy-7-and-night-rates.html\">Economy 7 tariff</a> gives you several cheap overnight hours, and some tubs let you schedule the heater and pump to favour those windows. A wider <a href=\"time-of-use-tariffs-explained.html\">time-of-use tariff</a> can do the same. Run the numbers carefully, because Economy 7 raises the daytime unit price, so it only pays if you can genuinely push a big share of the tub's use, and your other heavy loads, into the cheap window. The <a href=\"switching-suppliers.html\">switching suppliers</a> guide covers how to compare without getting stung.</p>"
+    },
+    {
+      "h2": "When a hot tub is not worth keeping hot",
+      "html": "<p>It is worth being honest about the limits. If you only use the tub a handful of times a year but keep it hot all winter, you are paying hundreds of pounds to heat water nobody sits in. In that case the cheapest option is to shut it down and drain it for the cold months, or switch to an inflatable tub you fill and heat only for the occasion, accepting the long heat-up time in exchange for paying nothing the rest of the year.</p><p>If you use it regularly and value it, the running cost is the price of the pleasure, and the fixes above keep it as low as it can go. But do find out your own number first. A hot tub is exactly the kind of large, hidden, constant load that the <a href=\"understanding-energy-bill.html\">understanding your energy bill</a> guide is about, and once you see the figure you can decide whether it earns its keep. For the wider context, the main <a href=\"electricity.html\">electricity</a> hub covers the rest of the household's heavy users.</p>"
+    }
+  ],
+  "faq": [
+    {
+      "q": "How much does a hot tub cost to run per month in the UK?",
+      "a": "Most permanent hot tubs cost between £40 and £120 a month at 26.11p per kWh, depending on insulation, the temperature you hold and the season. A well-insulated tub at 37C in summer sits near the bottom of that range; a poorly insulated one held at 40C through a cold winter sits near the top. Find your heater and pump wattage and run it through the calculator for your own figure."
+    },
+    {
+      "q": "What is the biggest factor in a hot tub's running cost?",
+      "a": "Insulation, and above all the cover. Most heat escapes from the water surface, so a thick, well-fitting, undamaged cover is the single cheapest big saving. A waterlogged or gappy cover can roughly double the winter heating bill on its own, which is why replacing a soggy cover often pays for itself in one season."
+    },
+    {
+      "q": "Is it cheaper to turn a hot tub down between uses or leave it hot?",
+      "a": "It depends on the tub. A well-insulated tub loses little heat while idling, so reheating from a low setback can cost more than simply holding the temperature. A poorly insulated tub in cold weather is the opposite. Test it over a couple of weeks with a plug-in monitor before deciding, rather than assuming the setback saves money."
+    },
+    {
+      "q": "Can an Economy 7 tariff save money on a hot tub?",
+      "a": "It can, because a hot tub is a large constant load that runs overnight anyway. If you can schedule most of the heating and filtration into the cheap overnight hours, the saving can be real. Just remember Economy 7 raises the daytime rate, so it only pays if you push a big share of the tub's use, and your other heavy loads, into the cheap window."
+    },
+    {
+      "q": "Should I keep my hot tub hot all winter if I rarely use it?",
+      "a": "Probably not. Holding a tub at temperature through winter costs hundreds of pounds whether you use it or not. If you only dip in occasionally, it is usually cheaper to drain and shut it down for the cold months, or to use an inflatable tub you heat only for the occasion and leave cold the rest of the time."
+    }
+  ]
+}

@@ -1,0 +1,56 @@
+{
+  "slug": "radiator-valves-and-zoning",
+  "title": "Radiator valves and zoning: heat only where you live",
+  "description": "Thermostatic radiator valves let you heat the rooms you use and turn the rest down. How TRVs work, how to set them so they do not fight the thermostat, and what they save.",
+  "blurb": "Most homes heat every room to the same temperature whether anyone uses it or not. TRVs and zoning fix that for free.",
+  "lede": "Most central heating systems warm every room to the same temperature whether anyone is in it or not. The spare bedroom, the hallway, the dining room you use twice a year all get the same heat as the living room. That is a quiet, constant waste. Thermostatic radiator valves let you turn the heat down room by room, and used properly they trim the gas bill without costing you any comfort where it matters. This guide explains how the valves work, how to set them so they do not fight your main thermostat, and roughly what zoning saves.",
+  "short_answer": "A thermostatic radiator valve (TRV) is the numbered dial on the end of a radiator. It senses the room temperature and throttles the flow of hot water once the room reaches the level you set, so a setting of 2 holds a room cooler than a setting of 5. Turn TRVs down low in rooms you rarely use and leave them higher where you live, and the boiler heats less radiator surface, burns less gas and reaches temperature faster. It is the cheapest zoning most homes can do, and it needs no smart kit.",
+  "sections": [
+    {
+      "h2": "What a thermostatic valve actually does",
+      "html": "<p>A thermostatic radiator valve is the numbered dial fitted to one end of a radiator, usually marked roughly from frost protection up to about 5 or 6. Inside it is a sensor, often a wax or liquid capsule, that expands as the room warms. When the room reaches the temperature you have set, the capsule expands and closes the valve, throttling the flow of hot water to that radiator. As the room cools again the valve reopens.</p><p>That makes a TRV very different from the old lockshield or wheelhead valves, which were simply on or off. A TRV holds a room at roughly the temperature you choose. A setting of 2 might hold around 16C to 18C, a setting of 3 nearer 20C, depending on the make. The numbers are not degrees, they are a relative scale, so you set by feel and adjust.</p><p>The key thing to understand: a TRV is local control sitting on top of the whole-house control of your <a href=\"thermostat-settings.html\">main wall thermostat</a>. The thermostat decides when the system runs at all; the valves decide how much of that heat each room gets.</p>"
+    },
+    {
+      "h2": "Why heating only the rooms you use saves money",
+      "html": "<p>There is no value in heating a guest room, a utility or a rarely used dining room to full living-room warmth. Every radiator that comes on draws heat from the boiler, and heat poured into an empty room is heat you paid for and nobody felt.</p><p>Turn the valves down in those rooms and their radiators barely come on. The boiler then has less radiator surface to feed, so it burns less gas and reaches the target temperature in the rooms that matter faster. You concentrate the warmth, and the gas, where you actually sit. This is the cheapest version of <a href=\"cheaper-to-heat-one-room-or-whole-house.html\">heating one room rather than the whole house</a>, done with the cheap gas system instead of an expensive electric heater.</p><p>How much you save depends on how many rooms you can turn down and how cold you keep them. Dropping a couple of spare rooms from full warmth to a low setting through a winter is a meaningful slice off the heating portion of the bill, and the kit either came with your radiators or costs a few pounds per valve to retrofit. There is no metering to set up and no habit to keep up: once the valves are set, they hold those rooms cooler automatically every time the heating runs.</p>"
+    },
+    {
+      "h2": "How to set the valves so they do not fight each other",
+      "html": "<p>The single most common mistake is letting the TRV in the same room as the wall thermostat throttle the radiator the thermostat is trying to use to judge the house temperature. Get this right and the rest is easy.</p><ul><li><strong>The room with the wall thermostat:</strong> leave that radiator's TRV high or fully open. Let the thermostat be the controller in that room, not the valve, so the two are not working against each other.</li><li><strong>Living rooms and the rooms you use most:</strong> set around 3 to 4, adjusting until they feel right.</li><li><strong>Bedrooms:</strong> usually a notch cooler, around 2 to 3. A cooler bedroom is better for sleep and saves a little besides.</li><li><strong>Spare rooms, utility, hallway:</strong> low, around 1 to 2.</li><li><strong>Rooms you never use:</strong> the frost-protection setting (often a snowflake symbol), not fully off.</li></ul><p>Why low rather than fully off? A radiator turned stone cold all winter leaves the room prone to condensation and mould on the cold outer walls, and in a hard frost an unheated room risks frozen pipes. A low setting keeps the room just warm enough to dodge both. A gentle background warmth and a little ventilation are far cheaper than putting right damp plaster later.</p>"
+    },
+    {
+      "h2": "The two controls working as a pair",
+      "html": "<p>Zoning works because the wall thermostat and the radiator valves do different jobs. Use them together rather than treating either as the only control.</p><table class=\"ev-table\"><thead><tr><th>Control</th><th>What it decides</th><th>How to set it</th></tr></thead><tbody><tr><td>Wall thermostat / programmer</td><td>When the whole system runs, and the temperature of the main room</td><td>Time it to your day; set to the lowest comfortable temperature</td></tr><tr><td>TRVs on each radiator</td><td>How much of that heat each other room gets</td><td>High where you live, low or frost-protect where you do not</td></tr></tbody></table><p>Time the system to your day with the programmer, set the main thermostat as low as you find comfortable (a degree down saves a noticeable amount over a winter), and let the valves tail off the rooms you are not in. That combination is the cheapest zoning most homes can manage, and unlike a smart system it needs no new wiring and no app. If you do want timed, app-controlled rooms, smart TRVs exist, covered alongside <a href=\"smart-thermostats.html\">smart thermostats</a>, but plain mechanical valves get you most of the saving for a fraction of the cost.</p>"
+    },
+    {
+      "h2": "Getting valves working properly",
+      "html": "<p>TRVs are reliable but they have a couple of quirks worth knowing.</p><ul><li><strong>Stuck pins.</strong> If a radiator stays cold or stays hot regardless of the dial, the pin under the valve head has often seized over summer. Take the head off and gently free the pin with a pair of pliers, working it in and out a few times. This fixes most dead TRVs and costs nothing.</li><li><strong>Furniture and curtains.</strong> A TRV reads the air around it. A sofa pushed against the radiator or a long curtain draped over the valve traps warm air around the sensor, so it shuts off early and leaves the room cold. Keep the valve in open air, or fit a remote sensor version.</li><li><strong>Trapped air.</strong> A radiator cold at the top is full of air and the TRV cannot help. <a href=\"how-to-bleed-radiators.html\">Bleeding the radiators</a> restores full output, and is worth doing across the house each autumn.</li></ul><p>None of this needs an engineer. A free pin, a clear sensor and bled radiators are the difference between zoning that works and valves that just sit there.</p>"
+    },
+    {
+      "h2": "Where zoning fits with the rest",
+      "html": "<p>Radiator zoning is one of the few heating savings that costs nothing if your radiators already have TRVs, and only a few pounds a valve if they do not. It pays back almost immediately and keeps paying every winter.</p><p>It works best in a house that holds its heat, because a warm room with the door shut stays warm. So the usual order applies: do the cheap fabric fixes first. <a href=\"draught-proofing.html\">Draught-proofing</a>, <a href=\"loft-insulation.html\">loft insulation</a> and heavier <a href=\"curtains-for-warmth.html\">curtains</a> all make zoned rooms hold their warmth longer, so the valves do less work. Set the main thermostat sensibly using <a href=\"thermostat-settings.html\">thermostat settings</a> and <a href=\"what-temperature-should-i-set-my-thermostat.html\">what temperature should I set my thermostat</a>, then let the valves do the room-by-room trimming.</p><p>For the wider heating picture, see the main <a href=\"heating.html\">home heating</a> hub, and if you have a condensing boiler, lowering the <a href=\"boiler-flow-temperature.html\">boiler flow temperature</a> is the other near-free efficiency win to pair with zoning.</p>"
+    }
+  ],
+  "faq": [
+    {
+      "q": "What do the numbers on a thermostatic radiator valve mean?",
+      "a": "They are a relative scale, not degrees. A higher number lets the room get warmer before the valve closes the flow. Roughly, 1 to 2 is cool (around 16C to 18C), 3 is comfortable living-room warmth (around 20C), and the snowflake symbol is frost protection only. The exact temperatures vary by make, so set by feel and adjust."
+    },
+    {
+      "q": "Should I turn unused radiators fully off?",
+      "a": "No, turn them down low rather than fully off. A radiator left stone cold all winter leaves the room prone to condensation and mould on the cold walls, and risks frozen pipes in a hard frost. The frost-protection setting keeps the room just warm enough to avoid both while still saving almost as much as fully off."
+    },
+    {
+      "q": "Should the radiator in the room with the thermostat have its TRV turned up?",
+      "a": "Yes, leave that radiator's valve high or fully open. If the TRV throttles that radiator, it fights the wall thermostat, which is trying to use that room to judge the whole house. Let the thermostat control that room and the TRVs control the others."
+    },
+    {
+      "q": "Why is one of my radiators not responding to its valve?",
+      "a": "The pin under the valve head has usually seized over summer. Take the head off and gently free the pin with pliers, working it in and out a few times until it springs freely. If the radiator is cold only at the top, it has trapped air and needs bleeding instead."
+    },
+    {
+      "q": "Do I need smart TRVs to zone my heating?",
+      "a": "No. Plain mechanical TRVs give you most of the saving for a few pounds per valve and no wiring. Smart TRVs add timed, app-controlled schedules per room, which suits some households, but the bulk of the benefit comes from simply setting mechanical valves low in unused rooms and high where you live."
+    }
+  ]
+}

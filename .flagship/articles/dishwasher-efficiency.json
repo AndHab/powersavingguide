@@ -1,0 +1,56 @@
+{
+  "slug": "dishwasher-efficiency",
+  "title": "Running a dishwasher cheaply: eco mode, full loads and the pre-rinse myth",
+  "description": "Why a dishwasher often beats washing up by hand, what a load really costs at UK rates, and the settings that cut the cost per wash without leaving dishes dirty.",
+  "blurb": "A dishwasher run sensibly can cost less than washing up under a running tap. Here is how to get the cost per load right down.",
+  "lede": "It surprises people, but a modern dishwasher run sensibly often uses less hot water and energy than washing the same dishes by hand under a running tap. The machine is efficient by design. Where waste creeps in, it is almost always in how the machine is loaded and which programme is chosen, not in the machine itself. This guide works through what a load actually costs at current prices, why eco mode is the big win, and the pre-rinse habit that quietly undoes everything.",
+  "short_answer": "A typical dishwasher load on the eco programme uses around 0.7 to 1 kWh of electricity, costing roughly 18p to 26p at 26.11p per kWh, plus a little water. Run on eco, only when full, and with no pre-rinse, that often beats washing up under a running hot tap. The biggest savings come from using the eco setting, waiting for a full load, and never rinsing plates under the tap first.",
+  "sections": [
+    {
+      "h2": "Why the machine can beat the sink",
+      "html": "<p>The instinct that hand-washing must be cheaper comes from thinking the machine is a big power-hungry appliance. In practice it is the water heating that costs money in both methods, and the machine is careful with hot water in a way a running tap is not.</p><p>A dishwasher heats a precise, small amount of water and recirculates it around the load, using the same water again and again through the cycle. Washing up by hand under a running tap pours hot water away continuously, and most people use far more than they think. Filled properly and run on the right programme, the machine does a full load on less hot water than the sink method, and since the energy to heat that water is the main cost either way, the machine usually wins.</p><p>The hand-wash only comes out ahead if you are genuinely frugal, washing in a single bowl of water rather than under a running tap, and even then it is close. For most households loading the machine and running it full is both easier and cheaper. To see what your own machine draws, put a <a href=\"using-a-plug-in-energy-monitor.html\">plug-in energy monitor</a> on it for a few cycles.</p>"
+    },
+    {
+      "h2": "What a load actually costs",
+      "html": "<p>Dishwasher running cost is mostly the electricity used to heat the wash water. Here is what the common programmes cost at current rates.</p><table class=\"ev-table\"><thead><tr><th>Programme</th><th>Energy per load</th><th>Cost per load</th></tr></thead><tbody><tr><td>Eco programme</td><td>~0.7 to 1.0 kWh</td><td>18p to 26p</td></tr><tr><td>Normal or auto programme</td><td>~1.0 to 1.4 kWh</td><td>26p to 37p</td></tr><tr><td>Intensive or hot quick wash</td><td>~1.4 to 1.8 kWh</td><td>37p to 47p</td></tr><tr><td>Half-load on a normal programme</td><td>~0.9 to 1.3 kWh</td><td>23p to 34p</td></tr></tbody></table><p class=\"ev-note\">At 26.11p per kWh electricity, Ofgem cap July to September 2026. Figures are typical for a full-size machine and vary by model and water hardness. Worked examples; check your own machine with a plug-in monitor.</p><p>Two things jump out. The eco programme is the cheapest by a clear margin, and a half-load barely costs less than a full one because the machine still has to heat water and run a full cycle. Run the eco programme on full loads and the cost per item is as low as it gets. Run intensive cycles on half-empty loads and you pay nearly double for the same dishes. You can run your own model through the <a href=\"appliance-running-cost.html\">appliance running cost calculator</a> to check.</p>"
+    },
+    {
+      "h2": "Use eco mode and wait for a full load",
+      "html": "<p>The single biggest saving is the eco programme. It washes at a lower temperature over a longer time, which uses noticeably less energy than the hotter, faster cycles, and it still cleans normal everyday dishes perfectly well. The longer run time puts people off, but the machine is doing the work, not you, so the only cost is patience.</p><p>Just as important, run the machine only when it is full. A half-empty load uses nearly as much water and energy as a full one, so every part-load is money wasted. If your household does not fill the machine in a day, that is fine, just leave it until it is full. The cycle does not spoil dishes sitting in a closed machine for a day.</p><p>Putting the two together, eco programme plus full loads, cuts the cost per item substantially compared with the default normal cycle run half-empty. This is the same full-load logic that applies to the <a href=\"washing-machine-running-cost.html\">washing machine</a>, where <a href=\"washing-at-30-degrees.html\">washing at 30 degrees</a> is the equivalent saving.</p>"
+    },
+    {
+      "h2": "Skip the pre-rinse",
+      "html": "<p>This is the habit that quietly undoes the dishwasher's whole advantage. Rinsing plates under a hot tap before loading wastes exactly the hot water the machine is meant to save you, and it is often more water than the machine uses for the entire wash.</p><p>Modern dishwashers and detergents cope fine with scraped, unrinsed plates. The detergent enzymes actually need some food residue to work against. So:</p><ul><li>Scrape the leftovers into the bin or compost.</li><li>Load the plates as they are, without rinsing.</li><li>Let the machine do its job.</li></ul><p>The pre-rinse habit is a hangover from older, weaker machines that genuinely could not cope. Today's machines do not need it, and skipping it can save a surprising amount of hot water over a year. If something is heavily baked on, use the machine's own pre-wash or rinse setting, which uses a measured amount of cold water rather than your hot tap running freely.</p>"
+    },
+    {
+      "h2": "Timing the run and the cycle you choose",
+      "html": "<p>Beyond eco and full loads, two more choices shape what a dishwasher costs you.</p><p>The first is <strong>when</strong> you run it. If you are on a flat tariff, the time of day makes no difference to the cost, only to your convenience. But if you are on an <a href=\"economy-7-and-night-rates.html\">Economy 7 or time-of-use tariff</a> with cheaper overnight electricity, running the machine on its delay timer during the cheap window cuts the cost of every load. A dishwasher is a quiet, fixed job that suits off-peak running well, the same logic as charging anything else overnight.</p><p>The second is resisting the <strong>quick wash</strong>. A fast cycle sounds efficient because it is over sooner, but it gets the job done by using more, hotter water in less time, so it usually draws more energy than the slow eco programme, not less. The table above shows the gap. Reserve the quick wash for the rare occasion you genuinely need clean plates in an hour, and let eco do the everyday work.</p><p>One last point on heat. If your machine has an option to open the door at the end and air-dry rather than run a hot drying phase, use it. The drying heat is pure added energy you can avoid, and dishes dry perfectly well in the residual warmth of the machine with the door cracked open. Rinse aid helps them sheet off water so they dry faster with no heat at all.</p>"
+    },
+    {
+      "h2": "A little maintenance keeps it efficient",
+      "html": "<p>A neglected machine washes badly, which means rewashing, which wastes everything you saved. A few small habits keep it working on the first pass:</p><ul><li><strong>Clean the filter</strong> regularly so food does not redeposit on the dishes. A blocked filter is the usual reason a load comes out dirty.</li><li><strong>Keep the spray arms clear</strong> by checking the little jets are not clogged, so water reaches every surface.</li><li><strong>Use rinse aid</strong> so dishes sheet off water and dry without needing a second hot cycle. Letting the machine air-dry rather than heat-dry, if it has the option, saves the drying energy entirely.</li><li><strong>Run a hot maintenance wash occasionally</strong> with the machine empty to clear grease, which keeps it smelling clean and working well.</li></ul><p>One more point on water feed. If your machine can draw from a hot feed and you heat water cheaply with gas, plumbing it to the hot supply can help, since gas-heated water is cheaper than the machine heating it electrically. Many machines are cold-fill only, though, and heat the water themselves efficiently, so do not assume yours can. The wider picture on appliance choice is in <a href=\"energy-labels-explained.html\">energy labels explained</a>.</p>"
+    }
+  ],
+  "faq": [
+    {
+      "q": "Is a dishwasher cheaper than washing up by hand?",
+      "a": "Usually yes, if you run it full and on eco. A dishwasher heats a small, recirculated amount of water, while washing up under a running tap pours hot water away continuously. An eco load costs roughly 18p to 26p of electricity. Hand-washing only competes if you use a single bowl rather than a running tap, and even then it is close."
+    },
+    {
+      "q": "Should I always use the eco programme?",
+      "a": "For everyday dishes, yes. The eco programme washes at a lower temperature over a longer time and uses noticeably less energy than the hotter, faster cycles, while still cleaning normal dishes properly. The only downside is the longer run time, but the machine does the work, so it costs you nothing but patience."
+    },
+    {
+      "q": "Do I need to rinse plates before loading?",
+      "a": "No, and you should not. Rinsing under a hot tap wastes the very hot water the machine is meant to save, often more than the whole wash uses. Modern detergents work better with some food residue present. Scrape the plates into the bin and load them unrinsed."
+    },
+    {
+      "q": "Does running a half-load save money?",
+      "a": "Hardly any. A half-load uses nearly as much water and energy as a full one because the machine still runs a full cycle and heats water. Wait until the machine is full before running it. Dishes can sit in a closed machine for a day without spoiling."
+    },
+    {
+      "q": "How much does one dishwasher cycle cost to run?",
+      "a": "An eco load is around 0.7 to 1 kWh, which is roughly 18p to 26p at 26.11p per kWh. A normal or intensive cycle uses more, up to 1.8 kWh or about 47p. The exact figure depends on the model and programme, so check yours with a plug-in energy monitor."
+    }
+  ]
+}

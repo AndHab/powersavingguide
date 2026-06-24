@@ -1,0 +1,60 @@
+{
+  "slug": "fridge-freezer-efficiency",
+  "title": "Fridge-freezer efficiency: cutting the cost of the one appliance that never switches off",
+  "description": "How to cut the running cost of a fridge-freezer: correct temperatures, defrosting, clean coils, door seals, placement, and when an old one is worth replacing.",
+  "blurb": "A fridge-freezer is modest minute to minute, but it never switches off, so small improvements repay themselves every single day.",
+  "lede": "Most appliances cost money only while you use them. A fridge-freezer is the exception: it runs every hour of every day, all year, whether you are in or not. That makes it one of the larger single items on a typical electricity bill, and it means small improvements to how it works pay back day after day for years. None of the fixes here cost much, and several cost nothing. This guide covers the ones that actually move the meter and skips the ones that do not.",
+  "short_answer": "A modern fridge-freezer uses roughly 200 to 400 kWh a year, costing about £52 to £104 at 26.11p per kWh; an old one from twenty years ago can use two or three times that. The cheap wins are setting the fridge to 3 to 5C and the freezer to minus 18C rather than colder, defrosting before ice builds up, vacuuming the condenser coils, checking the door seal, and keeping the appliance away from heat sources. A genuinely old, inefficient unit can pay back its replacement on running cost alone.",
+  "sections": [
+    {
+      "h2": "What a fridge-freezer actually costs to run",
+      "html": "<p>A fridge-freezer does not draw much at any one moment, but it cycles on and off around the clock. Over a year that adds up. The figure depends heavily on the age and rating of the appliance.</p><table class=\"ev-table\"><thead><tr><th>Appliance</th><th>Typical yearly use</th><th>Yearly cost</th></tr></thead><tbody><tr><td>Modern efficient fridge-freezer (A or B rated)</td><td>~150 to 200 kWh</td><td>£39 to £52</td></tr><tr><td>Average fridge-freezer (5 to 10 years old)</td><td>~250 to 350 kWh</td><td>£65 to £91</td></tr><tr><td>Old fridge-freezer (15 to 20 years old)</td><td>~500 to 700 kWh</td><td>£131 to £183</td></tr><tr><td>Chest freezer (separate)</td><td>~150 to 250 kWh</td><td>£39 to £65</td></tr></tbody></table><p class=\"ev-note\">At 26.11p/kWh electricity, Ofgem cap July to September 2026. Real use varies with size, rating, ambient temperature and how full the appliance is. Worked examples; measure your own with a monitor.</p><p>The honest way to know your own figure is to put a <a href=\"using-a-plug-in-energy-monitor.html\">plug-in energy monitor</a> on it for a few days and read off the kWh. The number often surprises people, especially on older appliances. The general method for any appliance is on the <a href=\"appliance-running-cost.html\">appliance running cost</a> page.</p>"
+    },
+    {
+      "h2": "Get the temperatures right",
+      "html": "<p>The single most common waste is running the appliance colder than it needs to be. Every degree colder takes more energy to hold, and many people set the dial low out of habit or because the dial is unmarked and they guess.</p><p>A fridge keeps food safe and fresh anywhere between 3 and 5C. A freezer wants minus 18C; colder than that does nothing for the food and just costs more. The dials on most fridges are not temperatures, they are vague numbers from 1 to 5 or 1 to 7, so they tell you nothing useful. Spend a couple of pounds on a fridge thermometer, leave it inside overnight, and adjust the dial to land in the right range.</p><p>Nudging an over-cold fridge up by a degree or two saves energy with no risk to the food. It is one of the few genuinely free savings on this list, and it takes five minutes.</p>"
+    },
+    {
+      "h2": "Defrost and clear the coils",
+      "html": "<p>Two bits of maintenance make a real difference, and both are easy to forget because the appliance keeps working regardless.</p><p><strong>Frost.</strong> Ice is an insulator in exactly the wrong place. A freezer caked in frost has to work harder to keep the contents cold, because the ice sits between the cooling element and the food. If yours is not frost-free, defrost it before the build-up gets thick, certainly once it reaches a centimetre or so. Empty it, switch it off, let the ice melt (a bowl of warm water inside speeds it up), wipe it dry and switch it back on.</p><p><strong>Coils.</strong> At the back, or sometimes underneath, are the condenser coils that shed the heat the appliance pulls out of the food. They gather dust, and a furry coil cannot dump heat efficiently, so the motor runs longer. Pull the appliance out once or twice a year and give the coils a gentle vacuum. It is a five-minute job that keeps the motor running less.</p>"
+    },
+    {
+      "h2": "Door seals and placement",
+      "html": "<p>A perished or distorted door seal lets cold leak out continuously, so the motor runs almost constantly to make up for it. Test it with the paper trick: close the door on a sheet of paper and try to pull it out. If it slides out with no resistance, the seal is not gripping and needs replacing. Replacement seals are cheap and usually clip or slot in without tools, far cheaper than the wasted electricity over a year.</p><p>Placement matters more than people think. An appliance jammed next to the oven, the radiator, or in a sunny spot has to fight that heat all day. Give it a few centimetres of clearance at the back and sides so the warm air it sheds can escape, and keep it out of direct sunlight and away from heat sources. A fridge in a cold garage or utility room works less hard than one in a warm kitchen, though very cold surroundings can confuse some models, so check the climate-class rating if you are putting one in an unheated space.</p>"
+    },
+    {
+      "h2": "Full, but not stuffed",
+      "html": "<p>The freezer and the fridge want opposite things, which is worth knowing.</p><p>A reasonably full <strong>freezer</strong> holds its cold better than an empty one. The frozen mass acts as a thermal buffer, so when you open the door, the cold does not all rush out, and the appliance cycles on less often to recover. If your freezer is half empty, filling the gaps with bottles or tubs of water helps. It is one of the few cases where adding mass saves energy.</p><p>A <strong>fridge</strong>, by contrast, needs air to circulate around the food to keep an even temperature, so cramming it solid makes it work harder and creates warm pockets. Keep it reasonably stocked but not packed. And let hot leftovers cool to room temperature before they go in, because putting warm food straight into either compartment dumps heat the appliance then has to pump back out.</p>"
+    },
+    {
+      "h2": "Everyday habits that cut the cost",
+      "html": "<p>Beyond the one-off fixes, a few daily habits keep the appliance cycling less without any cost at all.</p><ul><li><strong>Open the door less, and close it quickly.</strong> Every time the door is open, cold air falls out and warm room air pours in, and the appliance has to pump that heat back out. Decide what you want before you open it rather than standing with the door open weighing up options.</li><li><strong>Cool food before it goes in.</strong> Putting warm leftovers straight into the fridge dumps a lot of heat the appliance then has to remove. Let it cool to room temperature first, covered.</li><li><strong>Defrost frozen food in the fridge.</strong> Moving tomorrow's dinner from freezer to fridge to thaw overnight gives the fridge a free cold boost as the food warms, so the fridge motor runs a little less.</li><li><strong>Keep it level and ventilated.</strong> A wonky appliance can stop the door sealing properly, and blocked vents at the back trap the heat it sheds. Both make the motor work harder for nothing.</li></ul><p>These are the sort of free, low-effort changes the <a href=\"quick-wins-under-a-tenner.html\">quick wins under a tenner</a> page is built around, and together they shave a little off a bill that runs every single day.</p>"
+    },
+    {
+      "h2": "When replacing an old one pays for itself",
+      "html": "<p>Most efficiency advice is about tweaking what you have, but the fridge-freezer is one appliance where replacement can genuinely pay. A unit from fifteen or twenty years ago can use three or four times the electricity of a modern efficient one. If your old appliance is burning 600 kWh a year (about £157) and a new efficient one would use 180 kWh (about £47), the £110 a year saved can repay a mid-range replacement in three to five years, and keep saving after that.</p><p>That maths only works for genuinely old, inefficient appliances. Swapping a five-year-old fridge-freezer for a new one rarely pays back, because the saving is small and the new appliance costs hundreds. Measure the old one's consumption first with a monitor, work out the annual cost, and compare. The energy label on a new appliance tells you its rated annual use, explained in <a href=\"energy-labels-explained.html\">energy labels explained</a>. In hot weather any fridge-freezer works harder, which the <a href=\"fridge-freezer-in-hot-weather.html\">fridge and freezer in hot weather</a> guide covers.</p>"
+    }
+  ],
+  "faq": [
+    {
+      "q": "What temperature should I set my fridge and freezer to?",
+      "a": "A fridge keeps food safe and fresh between 3 and 5C, and a freezer at minus 18C. Many people run them colder out of habit, which just wastes energy. Use a cheap fridge thermometer to check, because the dials are usually unmarked numbers rather than actual temperatures, and nudge an over-cold fridge up a degree or two."
+    },
+    {
+      "q": "Does a full freezer use less electricity than an empty one?",
+      "a": "Yes. The frozen contents act as a thermal buffer, so the cold does not all escape when you open the door, and the appliance cycles on less often. If your freezer is half empty, filling the gaps with tubs or bottles of water helps. A fridge is the opposite: it needs air to circulate, so do not cram it."
+    },
+    {
+      "q": "How do I know if my fridge door seal needs replacing?",
+      "a": "Close the door on a sheet of paper and try to pull it out. If it slides out with no resistance, the seal is not gripping and cold is leaking, which keeps the motor running. Replacement seals are cheap and usually clip in without tools, and they pay back quickly in saved electricity."
+    },
+    {
+      "q": "Is it worth replacing an old fridge-freezer to save energy?",
+      "a": "Only if it is genuinely old. A unit from fifteen to twenty years ago can use three or four times the electricity of a modern efficient one, saving around £100 a year, which can repay a replacement in three to five years. Swapping a fairly recent appliance rarely pays back. Measure the old one with a plug-in monitor first."
+    },
+    {
+      "q": "How much does a fridge-freezer cost to run per year?",
+      "a": "A modern efficient model uses roughly 150 to 200 kWh a year, costing about £39 to £52 at 26.11p per kWh. An average one uses 250 to 350 kWh, around £65 to £91. An old one can reach 500 to 700 kWh, well over £130. Because it runs all year, even small improvements repay themselves every day."
+    }
+  ]
+}

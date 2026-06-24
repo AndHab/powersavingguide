@@ -1,0 +1,56 @@
+{
+  "slug": "slow-cooker-economy",
+  "title": "Slow cooker economy: cheap cooking that runs all day",
+  "description": "A slow cooker runs for hours yet costs pennies. We work through the real kWh and pence at current UK rates, compare it with the oven and hob, and show where it wins.",
+  "blurb": "Running for eight hours sounds expensive, but a slow cooker sips power. Here is the actual cost and where it beats the oven.",
+  "lede": "A slow cooker feels like it ought to be expensive. It sits switched on for six or eight hours while a casserole burbles away, and most people assume long runtime means a big bill. It does not. What drives the cost of any appliance is how much power it draws, not how long it runs, and a slow cooker draws very little. This guide puts real numbers on it at current UK prices, compares it honestly with the oven and the hob, and shows where it earns its keep and where it does not.",
+  "short_answer": "A slow cooker draws roughly 100W to 300W, so even an eight hour cook uses only about 0.8 to 2.4 kWh. At 26.11p per kWh that is around 21p to 63p for a whole meal, and often nearer 30p for a typical 200W model on low. That is usually less than an electric oven, which pulls 2kW to 3kW, would cost to do the same long braise. The long runtime is not the thing to watch; the low wattage is what keeps it cheap.",
+  "sections": [
+    {
+      "h2": "Why long runtime does not mean a big bill",
+      "html": "<p>The number that decides what an appliance costs is its power draw in watts, multiplied by the hours it runs. A slow cooker scores low on the first number and high on the second, and the low number wins.</p><p>A typical slow cooker pulls somewhere between 100W and 300W. An electric oven pulls 2,000W to 3,000W. So even though the slow cooker runs for far longer, the maths still lands in its favour. An eight hour cook on a 200W model uses 0.2kW times 8 hours, which is 1.6 kWh. At 26.11p per kWh that is about 42p. A well insulated pot holds its heat once it is up to temperature, so the element only sips power to maintain a gentle simmer rather than running flat out the whole time, which means real use is often below that.</p><p>If you want to see exactly what your own model costs, our guide to <a href=\"using-a-plug-in-energy-monitor.html\">using a plug-in energy monitor</a> shows how to measure the draw at the socket, and the <a href=\"appliance-running-cost.html\">appliance running cost calculator</a> turns the watts into pence for your tariff.</p>"
+    },
+    {
+      "h2": "What a slow cooker actually costs per meal",
+      "html": "<p>Here is the cost for a full cook at current UK electricity prices, for the common wattages and the settings people use. Most cooks land between four and eight hours.</p><table class=\"ev-table\"><thead><tr><th>Slow cooker</th><th>Cook length</th><th>Energy used</th><th>Cost</th></tr></thead><tbody><tr><td>Small, 120W on low</td><td>6 hours</td><td>0.72 kWh</td><td>19p</td></tr><tr><td>Typical, 200W on low</td><td>8 hours</td><td>1.6 kWh</td><td>42p</td></tr><tr><td>Typical, 200W on high</td><td>4 hours</td><td>0.8 kWh</td><td>21p</td></tr><tr><td>Large, 300W on high</td><td>6 hours</td><td>1.8 kWh</td><td>47p</td></tr></tbody></table><p class=\"ev-note\">At 26.11p/kWh electricity, Ofgem cap July to September 2026. Worked examples; check your own tariff. Actual use is often lower because the element cycles once the pot is up to temperature.</p><p>Spread that across the four to six portions a big pot makes and you are heating a serving for well under 10p. The slow cooker is a natural partner to <a href=\"oven-microwave-air-fryer-compared.html\">batch cooking</a>: fill the pot once, portion it, and freeze the rest for meals that then cost only the price of reheating.</p><p>It is worth putting that figure in context. Heating water in a <a href=\"kettle-energy-saving.html\">kettle</a> for a few minutes uses around 0.1 kWh; the slow cooker's whole-day cook is only a handful of times that. So the appliance that feels like it must be running up a bill is in fact one of the most frugal things in the kitchen, comfortably cheaper per meal than firing up a full-size oven.</p>"
+    },
+    {
+      "h2": "Versus the oven and the hob",
+      "html": "<p>For a long, slow dish the slow cooker usually beats both of the obvious alternatives, and for different reasons.</p><p>An electric oven heats a large cavity and most of that heat warms the air and the walls of the oven, not the food. A two hour braise in a 2.5kW oven that runs at roughly half duty cycle once hot uses around 2.5 kWh, about 65p, and that is for a shorter cook than the slow cooker manages. The <a href=\"oven-microwave-air-fryer-compared.html\">oven, microwave and air fryer compared</a> guide goes through the cavity-heating penalty in full.</p><p>A pan simmering on the hob is closer, but an open or loosely lidded pan loses heat to the room and to evaporation, so the ring has to keep feeding it. A slow cooker's sealed, insulated pot loses far less, which is exactly why it can hold a simmer on 200W.</p><p>The honest exception is quick cooking. For a fast meal the slow cooker is the wrong tool, and a <a href=\"kettle-energy-saving.html\">kettle</a> to pre-boil or an air fryer for small portions will be cheaper and faster. The slow cooker wins on anything that wants long, gentle heat, not on speed.</p>"
+    },
+    {
+      "h2": "The meals it does best",
+      "html": "<p>Slow cookers are built for exactly the dishes that are otherwise time-consuming and energy-hungry in an oven.</p><ul><li><strong>Stews, casseroles and curries.</strong> Long, low heat breaks down cheaper, tougher cuts of meat until they fall apart, so you save on the shopping as well as the bill.</li><li><strong>Pulled meats.</strong> A shoulder of pork or a brisket that would tie up the oven for hours costs pennies in a slow cooker.</li><li><strong>Soups and stocks.</strong> A pot left to tick over all day produces a deep stock for the cost of a few hours of low draw.</li><li><strong>Dried beans and pulses.</strong> Far cheaper than tinned, and the slow cooker handles the long soak-and-simmer without minding the hob.</li></ul><p>Because tough cuts and dried pulses are the cheap end of the shopping, the slow cooker quietly trims the food budget alongside the energy one. That double saving is the real economy of the thing.</p>"
+    },
+    {
+      "h2": "Getting the most from it",
+      "html": "<p>A few habits keep the cost and the cooking at their best.</p><ul><li><strong>Keep the lid on.</strong> Lifting the lid lets out heat and steam and can add 15 to 20 minutes to the cook each time, which means more energy and a later dinner. Resist the urge to peek.</li><li><strong>Use the low setting where the recipe allows.</strong> Low draws less power than high, so a longer cook on low is often cheaper than a shorter cook on high for the same dish.</li><li><strong>Cut ingredients to a similar size.</strong> Even pieces cook evenly, so nothing needs an extra hour to catch up.</li><li><strong>Do not overfill.</strong> A pot filled to the brim takes longer to come up to temperature and may not cook safely. Half to two-thirds full is the sweet spot.</li><li><strong>Load it cold in the morning.</strong> No need to preheat anything. Switch it on and walk away.</li><li><strong>Brown meat only if the recipe needs it.</strong> Searing in a separate pan adds a hob's energy use and an extra wash-up. Many stews are perfectly good without it, so skip the step unless the flavour really calls for it.</li></ul><p>If you are working through where the cheap wins in the kitchen are, the <a href=\"induction-vs-gas-hob.html\">induction versus gas hob</a> and <a href=\"air-fryer-running-cost.html\">air fryer running cost</a> guides cover the rest of the cooking picture.</p>"
+    },
+    {
+      "h2": "Where it sits in the bigger kitchen picture",
+      "html": "<p>Cooking is rarely the largest line on an energy bill, but it is one of the easiest to shave without any loss of quality, and the slow cooker is one of the clearest examples. It is cheap to buy, cheap to run, and it turns the inexpensive end of the butcher's counter into proper meals.</p><p>It will not replace your oven or hob, and it should not. It is a specialist for long, slow dishes, and used for those it is hard to beat on cost. Treat it as one tool among several: the slow cooker for braises and stocks, the <a href=\"kettle-energy-saving.html\">kettle</a> for boiling only what you need, the air fryer for small fast portions, and the oven kept for the jobs that genuinely need a hot cavity.</p><p>For the wider list of low-effort savings, the <a href=\"quick-wins-under-a-tenner.html\">quick wins under a tenner</a> page and the <a href=\"appliance-running-cost.html\">appliance running cost</a> calculator are the places to start.</p>"
+    }
+  ],
+  "faq": [
+    {
+      "q": "Does running a slow cooker all day use a lot of electricity?",
+      "a": "No. A slow cooker draws only about 100W to 300W, so even an eight hour cook uses roughly 0.8 to 2.4 kWh, which is around 21p to 63p at 26.11p per kWh. The long runtime sounds alarming, but the low power draw keeps the total small, and once the pot is up to temperature the element only sips power to hold a simmer."
+    },
+    {
+      "q": "Is a slow cooker cheaper than the oven?",
+      "a": "For a long, slow dish, usually yes. An electric oven pulls 2kW to 3kW and heats a large cavity, so a two hour braise can use around 2.5 kWh and cost about 65p. A slow cooker doing the same braise over six to eight hours often costs less than half that, because its power draw is a fraction of the oven's."
+    },
+    {
+      "q": "Is the low or high setting cheaper?",
+      "a": "Low draws less power, so a longer cook on low is often cheaper than a shorter cook on high for the same dish. The difference is small in absolute terms, a few pence, but low also suits tougher cuts better. Use high only when you are short of time."
+    },
+    {
+      "q": "Why should I not lift the lid?",
+      "a": "Lifting the lid lets out heat and steam, and the pot then has to climb back up to temperature, which can add 15 to 20 minutes and a little extra energy each time. The sealed, insulated pot is the whole reason a slow cooker is cheap to run, so keeping the lid on keeps it efficient."
+    },
+    {
+      "q": "What is a slow cooker bad at?",
+      "a": "Quick cooking. If you want a meal in 20 minutes, a slow cooker is the wrong tool and an air fryer, hob or microwave will be faster and cheaper. The slow cooker only wins on dishes that want long, gentle heat, such as stews, curries, pulled meats, soups and dried pulses."
+    }
+  ]
+}

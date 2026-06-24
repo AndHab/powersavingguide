@@ -1,0 +1,60 @@
+{
+  "slug": "how-to-bleed-radiators",
+  "title": "How to bleed radiators (and why it cuts your heating bill)",
+  "description": "A step-by-step guide to bleeding trapped air from radiators in five minutes with no plumber, why it saves gas, and how to tell air apart from a sludge blockage.",
+  "blurb": "A radiator that is hot at the bottom but cold at the top has trapped air. Bleeding it out is a five-minute, no-cost job that lets your heating do its work.",
+  "lede": "A radiator with air trapped inside cannot fill fully with hot water, so part of it stays cold and the room never quite warms up. You then run the heating longer or hotter to compensate, burning gas you did not need to. Bleeding that air out is a five-minute job that costs nothing, needs no plumber and uses one cheap key. This guide covers how to spot which radiators need it, how to do it safely, the boiler pressure check most people forget, and how to tell trapped air apart from sludge, which is a different problem entirely.",
+  "short_answer": "Turn the heating off and let the radiators cool. Hold a cloth and a cup under the small square bleed valve at the top corner, turn the radiator key anticlockwise a quarter turn until air hisses out, and close it again as soon as water dribbles steadily instead of spitting. Work round the house, top-floor radiators last, then check the boiler pressure and top it up if it has dropped. The whole job takes a few minutes and costs nothing but a radiator key.",
+  "sections": [
+    {
+      "h2": "Spotting the radiators that need it",
+      "html": "<p>You do not need to bleed every radiator, only the ones with air trapped in them. With the heating on and the radiators up to temperature, run your hand carefully up each one from bottom to top.</p><ul><li><strong>Hot at the bottom, cold across the top.</strong> This is the classic sign of trapped air. The air sits in the upper section and stops hot water filling it, so the top stays cold. This radiator needs bleeding.</li><li><strong>Gurgling or knocking noises.</strong> Air moving around inside makes a radiator gurgle or tick. Another giveaway that bleeding is due.</li><li><strong>Cold at the bottom, warm at the top.</strong> This is the opposite pattern and it is not air. It is usually sludge settling along the bottom, which bleeding will not fix. More on that below.</li></ul><p>Cold radiators force the boiler to run longer to heat the room, which costs gas. On a condensing boiler it can also tempt you to raise the flow temperature, which stops the boiler condensing and wastes more, as our page on <a href=\"how-condensing-boilers-work.html\">how condensing boilers work</a> explains.</p>"
+    },
+    {
+      "h2": "What you need",
+      "html": "<p>This is a cheap job. You need:</p><ul><li>A radiator bleed key, which costs about a pound from any hardware shop or supermarket. Some modern radiators have a slot that takes a flat screwdriver instead, so check yours first.</li><li>An old cloth or rag to catch drips and protect your hand.</li><li>A small cup or container to catch the water that comes out at the end.</li><li>A towel underneath if the radiator sits above carpet or wood, as the water that escapes is dirty and can stain.</li></ul><p>That is the whole kit. No plumber, no parts, no draining the system. If you do not own a key, it is worth keeping one in a drawer because bleeding is something you may want to do every year or two.</p>"
+    },
+    {
+      "h2": "Doing it safely, step by step",
+      "html": "<p>Work through it in order and there is nothing to go wrong.</p><ul><li><strong>Turn the heating off and let it cool.</strong> Bleed a hot system and you risk scalding water spitting out, and a running pump can pull more air in as you open the valve. Switch the heating off and give the radiators time to go cool to the touch.</li><li><strong>Find the bleed valve.</strong> It is the small square brass nipple at one of the top corners of the radiator, recessed into a round fitting. That is what the key fits onto.</li><li><strong>Hold the cloth and cup, open the valve.</strong> Fit the key, hold the cloth and cup beneath it, and turn anticlockwise about a quarter to half a turn. No more. You should hear air hiss out. Do not fully unscrew the valve.</li><li><strong>Close it when water comes.</strong> When the hiss stops and water starts to dribble out steadily rather than spitting and sputtering, the air is gone. Turn the key clockwise to close the valve snugly. Do not over-tighten it, as the valve is soft brass and strips easily.</li><li><strong>Work round the house, top floor last.</strong> Air rises and collects in the highest radiators, so do the downstairs ones first and finish with the top floor.</li></ul>"
+    },
+    {
+      "h2": "Check the boiler pressure afterwards",
+      "html": "<p>This is the step most people skip, and it can leave you with no heating at all. Letting air and water out of a sealed combi or system boiler drops the pressure in the system. If it falls too far, the boiler locks out as a safety measure and will not fire.</p><p>Once you have finished bleeding, turn the heating back on and glance at the pressure gauge on the front of the boiler. It should sit in the normal band, usually between 1 and 1.5 bar when cold, often marked green on the dial. If it has dropped below that, top it up using the filling loop, which is the small braided silver hose under the boiler with a tap or lever at each end.</p><p>Open the taps slowly, watch the gauge climb to about 1.2 bar, then close them firmly. Your boiler manual shows the exact loop for your model. If the pressure keeps dropping over the following days you may have a leak somewhere, which is worth getting looked at. Older open-vented systems with a tank in the loft do not need this check; the tank tops them up automatically.</p>"
+    },
+    {
+      "h2": "What the job costs, and what it saves",
+      "html": "<p>Bleeding is one of the few heating jobs that is genuinely close to free. Here is what it involves against the alternative of paying someone, and the rough saving from getting cold radiators working again.</p><table class=\"ev-table\"><thead><tr><th>Job</th><th>Cost</th><th>Rough yearly benefit</th></tr></thead><tbody><tr><td>Bleed radiators yourself (key plus 10 minutes)</td><td>~£1 for a key</td><td>£10 to £40 in gas not wasted on a longer run</td></tr><tr><td>Pay a plumber to bleed and balance the system</td><td>£60 to £120 callout</td><td>same heating benefit, paid for once</td></tr><tr><td>Power flush to clear sludge (when bleeding will not help)</td><td>£300 to £600</td><td>restores cold-at-bottom radiators, protects the boiler</td></tr></tbody></table><p class=\"ev-note\">Indicative figures. The gas saving from properly filled radiators depends on how many were cold and how cold your home runs. At 7.33p per kWh gas, Ofgem cap July to September 2026.</p><p>The benefit is real but modest: a radiator running part-cold makes the boiler fire for longer to warm the room, and on a condensing boiler it tempts you to raise the flow temperature, which wastes more again. The saving is in the boiler running less, not in any dramatic drop. The point is that the saving is pure profit, since the job costs a pound and ten minutes.</p>"
+    },
+    {
+      "h2": "When bleeding is not the answer",
+      "html": "<p>If a radiator is cold at the bottom while the top is warm, do not keep bleeding it. The trouble is not air, it is sludge, a build-up of rust and debris that settles along the bottom of the radiator and blocks the flow of hot water through it.</p><p>Bleeding releases air from the top and will do nothing for sludge at the bottom. The fix is a power flush or a chemical clean of the whole system, which is a job for a heating engineer. Left alone, sludge spreads, blocks more radiators, clogs the boiler's heat exchanger and shortens the life of the pump.</p><p>You can slow it down. A magnetic filter fitted on the return pipe catches circulating iron oxide, and a dose of inhibitor in the system water stops new corrosion forming. Both are cheap insurance against an expensive flush later. Keeping the system clean and the radiators bled both help it run at the lower flow temperature that keeps a condensing boiler efficient, covered in <a href=\"boiler-flow-temperature.html\">boiler flow temperature</a>.</p>"
+    },
+    {
+      "h2": "Other quick radiator wins",
+      "html": "<p>While you have the radiators on your mind, a handful of small jobs squeeze more out of the same gas:</p><ul><li>Fit a <a href=\"radiator-reflectors.html\">radiator reflector</a> behind any radiator on an outside wall to push heat back into the room instead of into the brickwork.</li><li>Use <a href=\"radiator-valves-and-zoning.html\">thermostatic radiator valves</a> to turn down the heat in rooms nobody is using, which saves more than bleeding ever will.</li><li>Keep furniture and long curtains clear of radiators so the heat circulates, a point covered in <a href=\"curtains-for-warmth.html\">curtains for warmth</a>.</li></ul><p>For the wider seasonal checklist, see the <a href=\"winter-energy-checklist.html\">winter energy checklist</a> and the main <a href=\"heating.html\">home heating</a> hub. Bleeding radiators is one of the few jobs that is genuinely free, quick and worth doing every autumn before the heating season starts.</p>"
+    }
+  ],
+  "faq": [
+    {
+      "q": "How do I know if a radiator needs bleeding?",
+      "a": "With the heating on, feel up the radiator. If it is hot at the bottom but cold across the top, air is trapped in the upper section and it needs bleeding. Gurgling or ticking noises are another sign. If it is cold at the bottom and warm at the top instead, that is sludge, not air, and bleeding will not help."
+    },
+    {
+      "q": "Do I need to turn the heating off before bleeding radiators?",
+      "a": "Yes. Turn the heating off and let the radiators cool first. A hot system can spit scalding water out of the valve, and a running pump can draw more air in as you open it. Once the radiators are cool to the touch it is safe to bleed them, then turn the heating back on afterwards."
+    },
+    {
+      "q": "Why does my boiler pressure drop after bleeding radiators?",
+      "a": "Because you let water as well as air out of a sealed system, so the total volume falls and the pressure drops with it. Check the boiler gauge once you have finished and top it up to around 1.2 bar using the filling loop if it has fallen below the normal band. Skip this and the boiler may lock out and refuse to fire."
+    },
+    {
+      "q": "How often should I bleed my radiators?",
+      "a": "Once a year is plenty for most homes, ideally in autumn before the heating season starts, plus any time a radiator goes cold at the top or starts gurgling. If you find yourself bleeding the same radiator repeatedly, air is getting in somewhere and the system is worth having checked for a leak or a fault."
+    },
+    {
+      "q": "Does bleeding radiators save money?",
+      "a": "Yes, modestly. A radiator running part-cold makes the boiler work longer to warm the room, burning gas you did not need to. Getting every radiator filling fully means the heating reaches temperature faster and the boiler runs less. It also lets you keep a lower flow temperature, which keeps a condensing boiler in its efficient mode."
+    }
+  ]
+}

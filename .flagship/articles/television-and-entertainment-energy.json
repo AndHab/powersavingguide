@@ -1,0 +1,56 @@
+{
+  "slug": "television-and-entertainment-energy",
+  "title": "Television and entertainment energy: what the living room really costs",
+  "description": "The TV, console and set-top box in the living room. Here is what each costs to run at UK rates, and why the waste hides in standby, not the screen.",
+  "blurb": "The television is rarely the villain. The real waste hides in consoles and boxes left half-awake. Here is what the whole entertainment corner costs and how to trim it.",
+  "lede": "The corner of the living room with the television, the box that feeds it, a games console and a sound system feels like it ought to be an energy drain. Parts of it are, though not always the parts you expect. The screen itself is usually modest in normal use. The bigger waste tends to hide in what those devices do when you think they are off. This guide breaks down what each piece actually costs at current UK prices, and where the easy savings sit.",
+  "short_answer": "A modern television costs surprisingly little to watch, perhaps £15 to £45 a year for a few hours an evening, depending on size and brightness. The real waste hides in standby: a games console in instant-on mode or an older set-top box left half-awake can each draw 10 to 15 watts around the clock and quietly cost £23 to £34 a year, sometimes more than the television does in active use. Fixing the standby settings is free.",
+  "sections": [
+    {
+      "h2": "What a television actually draws",
+      "html": "<p>A modern flat television is fairly efficient in use. Depending mostly on its size and how bright the picture is, it draws anywhere from a few tens of watts to a couple of hundred. A small set sips very little. A very large, very bright OLED or QLED in a dark room can draw noticeably more.</p><table class=\"ev-table\"><thead><tr><th>Television, in use</th><th>Typical draw</th><th>Cost for 4 hours a day, per year</th></tr></thead><tbody><tr><td>32 inch</td><td>30 to 50 W</td><td>£11 to £19</td></tr><tr><td>43 inch</td><td>60 to 90 W</td><td>£23 to £34</td></tr><tr><td>55 inch</td><td>90 to 130 W</td><td>£34 to £50</td></tr><tr><td>65 inch and up, bright HDR</td><td>130 to 200 W</td><td>£50 to £76</td></tr></tbody></table><p class=\"ev-note\">At 26.11p/kWh electricity, Ofgem cap July to September 2026. Worked examples; check your own model and viewing.</p><p>So the television is rarely the villain of the electricity bill. It is a steady, middling cost rather than a heavy hitter. You can quantify your own set with the <a href=\"appliance-running-cost.html\">running cost calculator</a> once you know its wattage, which is on the rating label or measured with a <a href=\"using-a-plug-in-energy-monitor.html\">plug-in energy monitor</a>.</p>"
+    },
+    {
+      "h2": "Screen size and brightness",
+      "html": "<p>Two settings move a television's consumption most: the size of the panel, which you cannot change, and the brightness, which you can.</p><p>A bigger screen has more area to light, so consumption climbs with size. That is fixed once you have bought the set. Brightness is the lever in your hands. Many televisions ship in a vivid, retina-searing shop-floor picture mode, set far brighter than any normal room needs, which burns more power for a picture that is often less pleasant to watch at home.</p><p>The fix costs nothing. Switch from the vivid or dynamic mode to a standard, home or cinema picture mode, and turn the backlight down to a comfortable level for your room. On many large sets that alone cuts the panel's draw by a third or more. Leave any automatic brightness or eco setting on too, as it dims the panel to suit the light in the room. You save money and usually get a more natural picture into the bargain.</p>"
+    },
+    {
+      "h2": "The standby trap",
+      "html": "<p>Here is where the real waste tends to sit, and it is rarely the television.</p><p>Games consoles are the prime suspects. Left in a connected or instant-on standby so they can download updates overnight and wake in a second, some draw a meaningful amount around the clock, far more than a device that is genuinely off. Set-top boxes and digital recorders are similar, staying half-awake to record scheduled programmes and pull updates. Over a year, a console and a recorder idling in these modes can quietly cost more than the television does in active use.</p><table class=\"ev-table\"><thead><tr><th>Device, standby mode</th><th>Typical draw</th><th>Cost per year</th></tr></thead><tbody><tr><td>Television, true standby</td><td>0.3 to 1 W</td><td>under £3</td></tr><tr><td>Sound bar, standby</td><td>1 to 3 W</td><td>£2 to £7</td></tr><tr><td>Set-top box or recorder, half-awake</td><td>5 to 15 W</td><td>£11 to £34</td></tr><tr><td>Games console, instant-on standby</td><td>10 to 15 W</td><td>£23 to £34</td></tr></tbody></table><p class=\"ev-note\">At 26.11p/kWh electricity, Ofgem cap July to September 2026. Worked examples; measure your own devices to be sure.</p><p>The loads are wildly uneven, which is the whole point. The television's own standby is now negligible, so leaving it on standby is fine. The console and the box are the ones to chase. Our <a href=\"standby-power-the-full-story.html\">full story on standby power</a> explains why some devices sip nothing while others quietly pull several watts.</p>"
+    },
+    {
+      "h2": "Settings that cut the cost",
+      "html": "<p>The fixes are mostly free and take a few minutes.</p><ul><li><strong>On a games console,</strong> switch off the instant-on or connected standby in the power settings and let it power down fully when you finish. You accept a slightly longer start-up and that updates download when you next turn it on, in exchange for cutting a 10 to 15 watt round-the-clock draw to almost nothing.</li><li><strong>On the television,</strong> use the standard picture mode and a lower backlight as above, and leave any eco or auto-brightness setting on.</li><li><strong>On a set-top box,</strong> use any deep-standby or eco mode it offers. Some recorders have a setting that lets them sleep properly between scheduled recordings.</li><li><strong>On a sound bar,</strong> the standby is usually small, so it is rarely worth chasing on its own.</li></ul><p>Where a device has no good low-power mode, the answer is a switch.</p>"
+    },
+    {
+      "h2": "The switched socket trick",
+      "html": "<p>If the box that feeds your television or the games console insists on drawing several watts even when you are not using it, the simplest fix is to put the whole cluster on a switched extension lead or a <a href=\"quick-wins-under-a-tenner.html\">smart plug</a>. One flick at the wall when you go to bed kills the lot.</p><p>A word of caution: do not put a digital recorder that has scheduled recordings on a hard switch, or it will miss them and lose its clock. And there is no need to switch off the television itself, since its standby is now trivial. The trick is to measure first with a <a href=\"using-a-plug-in-energy-monitor.html\">plug-in energy monitor</a>, find the two or three devices actually wasting power, and switch only those. That targeted approach saves more, with less hassle, than unplugging everything on principle. The router gets the same treatment in our guide to <a href=\"broadband-router-always-on.html\">the broadband router and other always-on devices</a>.</p>"
+    },
+    {
+      "h2": "Keeping it in proportion",
+      "html": "<p>The whole entertainment corner, watched sensibly with standby tamed, typically costs somewhere between £40 and £120 a year. That is real but modest, and most of it buys you something you actually use. It is dwarfed by heating, hot water and the kitchen, so do not lose sleep over an evening's telly.</p><p>The worthwhile moves are the free ones: drop the television's brightness, turn off instant-on standby on the console, and switch off the genuine standby offenders at the wall. Beyond that, this corner is not where the big money is. For the bigger picture on where a household's electricity really goes, see the main <a href=\"electricity.html\">cutting your electricity use</a> hub, and the <a href=\"energy-saving-myths.html\">energy saving myths</a> page, which puts the standby panic in perspective.</p>"
+    }
+  ],
+  "faq": [
+    {
+      "q": "How much does it cost to run a television in the UK?",
+      "a": "For a few hours an evening, a modern television costs roughly £15 to £45 a year, depending on size and brightness. A small 32 inch set is near £11 to £19 a year, while a large 65 inch HDR panel watched bright can reach £50 to £76. Turning the brightness down from the vivid shop mode trims that noticeably."
+    },
+    {
+      "q": "Does leaving a television on standby waste much power?",
+      "a": "No, not on a modern set. The television's own standby is now typically under 1 watt, well under £3 a year, so leaving it on standby is fine. The standby waste that matters comes from games consoles and set-top boxes, which can draw 10 to 15 watts around the clock, not from the television itself."
+    },
+    {
+      "q": "Which living-room device wastes the most electricity?",
+      "a": "Usually a games console left in instant-on or connected standby, or an older set-top box or recorder kept half-awake. Each can draw 10 to 15 watts around the clock and cost £23 to £34 a year, sometimes more than the television does in active use. Switching off instant-on standby fixes the console for free."
+    },
+    {
+      "q": "Does turning down the television's brightness really save money?",
+      "a": "Yes, especially on large sets. Many televisions ship in a vivid mode set far brighter than a home needs, which uses more power for a harsher picture. Switching to a standard or cinema picture mode and lowering the backlight can cut a big screen's draw by a third or more, and usually looks better too."
+    },
+    {
+      "q": "Should I switch the whole television cluster off at the wall?",
+      "a": "Only the devices that genuinely waste power, like a greedy console or set-top box, and only after you have measured them with a plug-in monitor. Put those on a switched extension or smart plug. Do not hard-switch a recorder with scheduled recordings, and there is no need to switch off the television itself since its standby is trivial."
+    }
+  ]
+}

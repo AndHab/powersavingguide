@@ -1,0 +1,56 @@
+{
+  "slug": "using-a-plug-in-energy-monitor",
+  "title": "Using a plug-in energy monitor: measure, do not guess",
+  "description": "A plug-in energy monitor costs a few pounds and shows what each appliance draws, running and idle. Here is how to use one to find what really costs you money.",
+  "blurb": "Most energy advice asks you to estimate. A plug-in monitor replaces the guesswork with measurement, so you chase the things that actually cost money, not the ones you imagine do.",
+  "lede": "Most energy advice asks you to estimate and assume. A plug-in energy monitor replaces the guesswork with measurement. It is a cheap gadget that sits between an appliance and the socket and tells you exactly what that appliance draws, both when running and when idle, so you can spend your effort on the things that actually cost money rather than the things you imagine do. This guide explains how to use one well, what to measure first, and how to turn its readings into real annual costs.",
+  "short_answer": "A plug-in energy monitor plugs into the wall with the appliance plugged into it, and shows the watts being drawn and the kilowatt-hours used over time. It costs only a few pounds. Leave it on a device for a representative day or week, read off the kWh, and multiply by 26.11p to get the running cost. It is the fastest way to find the standby offenders and the genuine hogs, and to ignore the things that do not matter.",
+  "sections": [
+    {
+      "h2": "What it is and how it works",
+      "html": "<p>A plug-in monitor is a small adaptor. You plug it into the wall, plug the appliance into it, and a display shows the power being drawn in watts, and usually the energy used in kilowatt-hours accumulated over time. The better ones let you enter your price per unit so they show running cost directly in money.</p><p>They cost only a few pounds. Unlike a whole-house display or a <a href=\"smart-meters-explained.html\">smart meter</a>, which tell you what everything is drawing together, a plug-in monitor tells you about one specific device at a time. That is exactly what you need to hunt down a culprit, because the smart meter says the house is using power but not which socket is to blame. The two work well together: the smart meter spots a high baseline, the plug-in monitor finds the device causing it.</p><p>One limit to know: a standard plug-in monitor only reads things that plug into a 13 amp socket, up to about 3kW. It cannot read your hard-wired oven, shower or boiler, and you should not use a cheap one on anything near its current limit for long periods.</p>"
+    },
+    {
+      "h2": "Reading running cost properly",
+      "html": "<p>The instantaneous watts tell you how hungry something is at that moment, but the useful figure is the energy used over real use. A kettle draws 3,000 watts, which looks alarming, but only for two minutes, so it costs little. A fridge draws 100 watts but does so all day, so it costs more. Watts alone mislead.</p><p>So leave the monitor in place for a representative day or week on a fridge, a games console or a router, and let it accumulate the kilowatt-hours. Then multiply the kWh by your price per unit, or read the cost straight off if you entered the price. Here is the sum at the current rate.</p><table class=\"ev-table\"><thead><tr><th>Energy measured</th><th>Cost at 26.11p/kWh</th><th>Projected over a year</th></tr></thead><tbody><tr><td>1 kWh in a day</td><td>26p</td><td>£95</td></tr><tr><td>0.5 kWh in a day</td><td>13p</td><td>£48</td></tr><tr><td>0.1 kWh in a day</td><td>3p</td><td>£10</td></tr><tr><td>7 kWh in a week (constant device)</td><td>£1.83</td><td>£95</td></tr></tbody></table><p class=\"ev-note\">At 26.11p/kWh electricity, Ofgem cap July to September 2026. Worked examples; check your own tariff.</p><p>Feed the same figures into the <a href=\"appliance-running-cost.html\">running cost calculator</a> to project the annual cost cleanly, and the priorities sort themselves. The device costing fifty pounds a year earns your attention. The one costing fifty pence does not.</p>"
+    },
+    {
+      "h2": "Catching the standby offenders",
+      "html": "<p>The monitor is at its most revealing on standby power, where guesswork fails completely. Plug it into the cluster of devices around the television, or an old set-top box, or a desktop computer left in sleep, and read what they draw while apparently off.</p><p>As the <a href=\"standby-power-the-full-story.html\">full story on standby power</a> explains, the offenders are wildly uneven. Some devices genuinely sip nothing, despite the old advice to unplug everything. Others quietly pull several watts around the clock, which the table below shows adds up.</p><table class=\"ev-table\"><thead><tr><th>Standby draw measured</th><th>Cost per year</th></tr></thead><tbody><tr><td>0.5 W</td><td>£1</td></tr><tr><td>3 W</td><td>£7</td></tr><tr><td>8 W</td><td>£18</td></tr><tr><td>15 W</td><td>£34</td></tr></tbody></table><p class=\"ev-note\">At 26.11p/kWh electricity, Ofgem cap July to September 2026. A round-the-clock load of 1 W costs about £2.29 a year.</p><p>The monitor names and shames in seconds, so you can put the real culprits on a switched socket and leave the innocent ones alone, instead of unplugging everything on principle. This is exactly how to tackle the <a href=\"television-and-entertainment-energy.html\">television and entertainment cluster</a> and the <a href=\"broadband-router-always-on.html\">always-on devices</a> like the router.</p>"
+    },
+    {
+      "h2": "What is worth measuring",
+      "html": "<p>Spend your measuring time on the unknowns and the suspected hogs, not the things you already know are cheap.</p><ul><li><strong>The fridge and freezer,</strong> since they run constantly and the yearly figure surprises people. This also tells you whether an old one is worth replacing, as covered in <a href=\"fridge-freezer-efficiency.html\">fridge and freezer efficiency</a>.</li><li><strong>The tumble dryer and washing machine</strong> on a real cycle, not the label rating. The <a href=\"tumble-dryer-cost.html\">tumble dryer cost</a> guide shows what to expect.</li><li><strong>The cluster of always-on electronics</strong> around the television and desk.</li><li><strong>An old appliance you suspect is inefficient,</strong> to decide whether replacing it pays. Measure it for a week, project the annual cost, and compare with a new model's quoted figure.</li><li><strong>Mystery devices</strong> whose rating label you cannot find or read.</li></ul><p>There is little point measuring the kettle, the toaster or the lights, since you already know roughly what they cost and cannot change it much. Measure the things you could act on.</p>"
+    },
+    {
+      "h2": "Turning readings into decisions",
+      "html": "<p>The monitor is only useful if you do something with the numbers. The pattern is always the same: measure, project to a yearly cost, then decide whether the cost is worth an action.</p><p>A device costing under a couple of pounds a year is not worth your time, whatever the standby light suggests. A device costing twenty pounds or more is worth a switched socket, a settings change, or a look at replacing it. The monitor turns a vague worry into a number, and the number tells you whether to act.</p><p>It is also the honest way to test the claims on this site against your own home. If you wonder whether <a href=\"washing-at-30-degrees.html\">washing at 30 degrees</a> really saves much, or whether your <a href=\"air-fryer-running-cost.html\">air fryer</a> beats the oven, measure both and see. Your house, your appliances and your habits are what matter, and the monitor is how you find your own figures rather than relying on someone else's averages.</p>"
+    },
+    {
+      "h2": "Getting the most from one",
+      "html": "<p>A few practical notes to get clean readings.</p><ul><li><strong>Enter your unit price</strong> so the monitor shows money directly. Use 26.11p per kWh at the current cap, or your own tariff rate.</li><li><strong>Measure over a full cycle.</strong> A fridge needs a day to see its compressor cycle on and off. A washing machine needs a complete wash. A snapshot of watts at one moment can mislead badly.</li><li><strong>Note the standby and the active figures separately,</strong> since many devices are cheap in use but waste money idling, or the reverse.</li><li><strong>Move it round.</strong> One monitor can audit the whole house over a few weeks, a device at a time. There is no need to buy several.</li></ul><p>For the cheapest worthwhile buys overall, including a switched socket to act on what the monitor finds, see <a href=\"quick-wins-under-a-tenner.html\">quick wins under a tenner</a>. For the wider picture on where electricity goes, the main <a href=\"electricity.html\">electricity</a> hub pulls it together.</p>"
+    }
+  ],
+  "faq": [
+    {
+      "q": "How does a plug-in energy monitor work?",
+      "a": "It is a small adaptor that plugs into a wall socket with the appliance plugged into it. The display shows the power being drawn in watts and, over time, the energy used in kilowatt-hours. Enter your price per unit and it shows the running cost in money directly. It measures one device at a time, which is what you need to find a specific culprit."
+    },
+    {
+      "q": "What should I measure first with an energy monitor?",
+      "a": "Start with the things that run constantly or that you suspect are wasteful: the fridge and freezer, the always-on electronics around the television and desk, and any old appliance you think might be inefficient. Leave the kettle and toaster, since you already know they are brief and cheap. Measure the things you could actually act on."
+    },
+    {
+      "q": "How do I turn a monitor reading into a yearly cost?",
+      "a": "Leave the monitor on the device for a representative day or week so it accumulates kilowatt-hours, then multiply the kWh by your unit price. At 26.11p per kWh, 1 kWh a day is about £95 a year, and 0.1 kWh a day is about £10 a year. Feeding the figure into the running cost calculator projects it cleanly."
+    },
+    {
+      "q": "Can a plug-in monitor measure my oven or electric shower?",
+      "a": "No. A standard plug-in monitor only reads devices that plug into a normal 13 amp socket, up to about 3kW. Hard-wired appliances like the oven, electric shower and boiler are not on a plug, so it cannot read them. For whole-house figures including those, use your smart meter display instead."
+    },
+    {
+      "q": "Is a plug-in energy monitor worth buying?",
+      "a": "For most people, yes. It costs only a few pounds and pays for itself the first time it finds a standby device quietly costing twenty or thirty pounds a year. It replaces guesswork with your own real figures, so you act on what actually costs money in your home rather than on averages or hunches."
+    }
+  ]
+}

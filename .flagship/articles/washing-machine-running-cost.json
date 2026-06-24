@@ -1,0 +1,52 @@
+{
+  "slug": "washing-machine-running-cost",
+  "title": "What does it cost to run a washing machine?",
+  "description": "What a washing machine costs per cycle and per year at UK rates, why the water temperature is nearly all of it, and the settings that cut the bill for free.",
+  "blurb": "A washing machine feels like a steady background cost, but the spending is lopsided. Almost all of it is heating water, and that is the one thing you control.",
+  "lede": "A washing machine feels like a steady background cost, but the spending is lopsided in a way that, once you see it, tells you exactly how to spend less. Nearly all the energy goes on heating the water, not on turning the drum or spinning the load. This guide puts current UK prices on a typical wash, shows what a year of laundry adds up to, and runs through the settings that cut the cost without buying anything new.",
+  "short_answer": "A typical wash costs roughly 16p at 30C, rising to about 37p at 60C, because heating the water is 80% to 90% of the energy. A household doing five washes a week spends somewhere between £40 and £90 a year depending on temperature, plus a little for metered water. The biggest lever by far is washing cooler; load size and spin speed help at the margins.",
+  "sections": [
+    {
+      "h2": "Where the energy actually goes",
+      "html": "<p>A washing machine has several power draws, and they are nowhere near equal. The motor that turns the drum, the pumps that fill and drain it, and the spin at the end all use modest amounts of electricity. The heating element that warms the water uses far more than all of those combined, usually 80% to 90% of the whole cycle.</p><p>That single fact tells you where the cost lives. The running cost of a wash is dominated by the temperature you choose, not by how long the cycle runs or how fast it spins. A long eco cycle at 30C uses less energy than a short hot cycle at 60C, even though it takes more time, because time is cheap and heat is expensive.</p><p>So the lever that matters most is the temperature dial. Everything else, load size, spin speed, programme choice, trims around the edges. Get the temperature right and you have captured most of the saving. This is covered in full in <a href=\"washing-at-30-degrees.html\">washing at 30 degrees</a>.</p>"
+    },
+    {
+      "h2": "What a wash costs at current prices",
+      "html": "<p>Here is what a typical 7kg to 9kg machine costs per cycle and across a year, at the current electricity rate. The figures are for energy; metered water adds a little more on top.</p><table class=\"ev-table\"><thead><tr><th>Wash temperature</th><th>Energy per cycle</th><th>Cost per wash</th><th>Cost over a year (250 washes)</th></tr></thead><tbody><tr><td>Cold or 20C</td><td>~0.3 kWh</td><td>~8p</td><td>~£20</td></tr><tr><td>30C</td><td>~0.6 kWh</td><td>~16p</td><td>~£39</td></tr><tr><td>40C</td><td>~1.0 kWh</td><td>~26p</td><td>~£65</td></tr><tr><td>60C</td><td>~1.4 kWh</td><td>~37p</td><td>~£91</td></tr></tbody></table><p class=\"ev-note\">At 26.11p per kWh electricity, Ofgem cap July to September 2026. Energy per cycle is indicative and varies by machine, load and incoming water temperature. Worked example; check your own machine's label.</p><p>The water itself adds a few pence a wash if you are on a meter, between the fresh water drawn and the wastewater charge. It is real but small next to the electricity, and it does not change the headline: temperature decides the bill. To get your own machine's figure, find the energy consumption on its label, often given per cycle or per 100 cycles, and run it through the <a href=\"appliance-running-cost.html\">appliance running cost calculator</a>. Or measure it directly with a <a href=\"using-a-plug-in-energy-monitor.html\">plug-in energy monitor</a>, which captures exactly what your machine and your water temperature do.</p>"
+    },
+    {
+      "h2": "Load size matters too",
+      "html": "<p>A washing machine uses broadly similar energy whether the drum is half full or full. The heating, the motor and the pumps run much the same regardless of how many clothes are in there. So running the machine full rather than part-loaded cuts the cost per item without any change to the wash itself.</p><p>The practical advice is simple: resist putting a small urgent load on its own, and wait until you have a full drum. If a few items genuinely cannot wait, use the half-load or quick-wash setting only if your machine has a real one that actually reduces water and heating, rather than just shortening the spin.</p><p>The opposite mistake is overstuffing. Cram the drum too full and the clothes cannot tumble, so they do not clean properly and you end up rewashing, which costs more than splitting the load would have. Aim for a drum that is full but with a hand's width of space at the top.</p><p>It is also worth knowing that running cost is not the same as buying cost. A cheap machine that washes inefficiently can cost more over its life than a dearer A-rated one, because the energy adds up year after year. The <a href=\"energy-labels-explained.html\">energy label</a> gives the consumption figure to compare, measured on the eco cycle. If you are replacing a machine anyway, the label is the number that matters for running cost, not the headline price.</p>"
+    },
+    {
+      "h2": "Settings that save",
+      "html": "<p>None of this requires a new machine. It is simply using the one you have on its thriftier settings, with the temperature doing most of the work.</p><ul><li><strong>Use the eco programme.</strong> Counter-intuitively, the longer eco cycle uses less energy and water than a faster standard one, because it soaks at a lower temperature rather than heating hard. The official energy label rating is measured on eco, so it is the one to default to.</li><li><strong>Wash cool.</strong> Drop to 30C, or cold for lightly soiled loads, and reserve hotter washes for greasy items, illness in the house and the occasional maintenance wash. See <a href=\"washing-at-30-degrees.html\">washing at 30 degrees</a> for when heat is worth it.</li><li><strong>Spin fast.</strong> A high final spin wrings out more water, so clothes need less time drying afterwards. That matters because drying is the expensive part.</li><li><strong>Skip extra rinses.</strong> Unless someone has sensitive skin or you have used too much detergent, the standard rinse is enough. Extra rinses draw more water and time.</li></ul>"
+    },
+    {
+      "h2": "Drying is where the real money goes",
+      "html": "<p>Worth keeping in proportion: a wash costs pence, but drying the same load in a tumble dryer can cost more than the wash itself. A typical condenser tumble dryer uses 2.5kWh to 4kWh a cycle, which is 65p to over £1 a load at 26.11p per kWh, several times the cost of the wash that came before it.</p><p>So the single biggest laundry saving is to spin clothes hard and then dry them on a line or an airer rather than in the dryer. Our guides to <a href=\"drying-clothes-without-a-tumble-dryer.html\">drying clothes without a tumble dryer</a> and <a href=\"tumble-dryer-cost.html\">tumble dryer cost</a> set out the figures, and a <a href=\"heated-clothes-airer-running-cost.html\">heated clothes airer</a> sits in between for damp winter days.</p><p>Put together, washing cool and full and drying off the machine turns laundry from a hidden drain into one of the cheaper household chores. For the full sweep of appliance running costs, the <a href=\"electricity.html\">electricity</a> hub and the <a href=\"energy-saving-myths.html\">energy saving myths</a> page are good next reads.</p>"
+    }
+  ],
+  "faq": [
+    {
+      "q": "How much does it cost to run a washing machine per load?",
+      "a": "Roughly 16p at 30C, about 26p at 40C and around 37p at 60C, based on a typical machine at 26.11p per kWh. Heating the water is 80% to 90% of the cost, so the temperature you pick decides the figure far more than the cycle length. Metered water adds a few pence on top."
+    },
+    {
+      "q": "How much does a washing machine cost to run per year?",
+      "a": "For a household doing about five washes a week, roughly £40 a year washing mostly at 30C, rising to around £90 if you always wash at 60C. That is energy only; metered water adds a bit more. Switching from hot to mostly cool washing is the cheapest way to bring the figure down."
+    },
+    {
+      "q": "Does a quick wash use less electricity?",
+      "a": "Not necessarily. A quick wash saves time but often heats the water just as hard over a shorter cycle, so the energy saving is small. The eco programme usually uses less overall despite running longer, because it heats less and soaks more. For real energy savings, the temperature matters more than the cycle length."
+    },
+    {
+      "q": "Is it cheaper to wash a full load or two half loads?",
+      "a": "One full load is cheaper. A machine uses broadly similar energy whether half or fully loaded, so two half loads cost almost twice as much as one full one for the same clothes. Wait until you have a full drum, but do not overstuff it, as cramming stops the clothes cleaning and means rewashing."
+    },
+    {
+      "q": "What costs more, the washing machine or the tumble dryer?",
+      "a": "The tumble dryer, by a wide margin. A wash costs pence, but drying the same load can cost 65p to over £1 in a tumble dryer, several times more. The biggest laundry saving is to spin clothes hard and dry them on a line or airer instead of using the dryer wherever you can."
+    }
+  ]
+}

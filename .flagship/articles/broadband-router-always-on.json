@@ -1,0 +1,56 @@
+{
+  "slug": "broadband-router-always-on",
+  "title": "The broadband router and other always-on devices: what they really cost",
+  "description": "Your router, smart speakers and doorbell run around the clock. Here is what the always-on baseline really costs a year at UK rates, and when to switch off.",
+  "blurb": "The router never sleeps, and neither do half a dozen other little boxes. Small per hour, real per year. Here is the honest figure and when to bother switching off.",
+  "lede": "A modern home hums with devices that never switch off. The broadband router, a smart speaker or two, a video doorbell, the standby lights on chargers, the clocks on the oven and microwave. None of them draws much at any one moment, but running every hour of every day, those constant loads add up to a small but real slice of the electricity bill. This guide puts an actual number on the router and the rest of the always-on crowd, and explains which are worth leaving on and which are quietly wasteful.",
+  "short_answer": "A typical broadband router draws about 7 to 12 watts, so running all year it costs roughly £16 to £27 at 26.11p per kWh. That is small, and for most homes leaving it on is the right call because things depend on the connection. The bigger money sits in the wider always-on baseline, often 40 to 100 watts across a whole house, which can quietly cost £90 to £230 a year. A plug-in monitor finds the few devices doing most of the damage.",
+  "sections": [
+    {
+      "h2": "What the router actually costs",
+      "html": "<p>A broadband router is a low-power device. Most home routers draw somewhere between 7 and 12 watts, with an all-in-one unit that also runs your phone line or mesh wifi sitting at the upper end. Because it runs around the clock, that small draw turns into a steady annual figure.</p><table class=\"ev-table\"><thead><tr><th>Constant draw</th><th>Energy per year</th><th>Cost per year</th></tr></thead><tbody><tr><td>5 W</td><td>44 kWh</td><td>£11</td></tr><tr><td>8 W (typical router)</td><td>70 kWh</td><td>£18</td></tr><tr><td>12 W (router plus mesh node)</td><td>105 kWh</td><td>£27</td></tr><tr><td>20 W</td><td>175 kWh</td><td>£46</td></tr></tbody></table><p class=\"ev-note\">At 26.11p/kWh electricity, Ofgem cap July to September 2026. Worked examples; check your own tariff.</p><p>So the router on its own is firmly in the every-little-helps category, not among the heavy hitters. It is the archetype of the always-on device: trivial per hour, noticeable per year. The way a constant low draw quietly accumulates is the same effect explained in our <a href=\"standby-power-the-full-story.html\">full story on standby power</a>, and you can model any wattage yourself with the <a href=\"appliance-running-cost.html\">running cost calculator</a>.</p>"
+    },
+    {
+      "h2": "Why people leave the router on, and when that is right",
+      "html": "<p>Routers are usually left on permanently, and usually for good reasons.</p><ul><li>They take a few minutes to reconnect to the line, so switching off and on is a faff.</li><li>Plenty of home services depend on the connection staying up: internet security cameras, a video doorbell, smart heating, and any landline that now runs over broadband rather than copper.</li><li>Frequent power cycling does the hardware no favours, and a router that boots ten times a day will not last as long as one left alone.</li></ul><p>For a household that uses the connection through the day, or relies on always-connected devices, leaving the router on is sensible and the small running cost is simply the price of the convenience. There is little point switching it off to save a few pence if it disrupts things you rely on. This is the same judgement covered in our wider look at <a href=\"home-working-energy-cost.html\">home working energy costs</a>, where the connection has to stay up regardless.</p>"
+    },
+    {
+      "h2": "When switching off is actually worth it",
+      "html": "<p>The case for turning the router off is narrow but real. It comes down to one question: does anything need the connection while you are not there?</p><p>If the house is genuinely empty and nothing depends on the link, switching off saves the standing draw and is fine for the hardware over a longer break. The clearest example is a holiday. A week away with the router off saves the better part of a kWh a day, and the longer absence is easy on the hardware too. Overnight switch-off is more marginal: you save a few pence, but you lose overnight software updates and any smart device that needs the connection, and you put a power cycle on the hardware every single day.</p><p>For most connected homes the honest answer is: leave it on for short absences and the working day, switch it off for holidays and long trips. If you want overnight savings without touching the router, a timer on the television and games console cluster usually saves more, as we cover under <a href=\"television-and-entertainment-energy.html\">television and entertainment energy</a>.</p>"
+    },
+    {
+      "h2": "The rest of the always-on crowd",
+      "html": "<p>The router rarely sits alone. Around it gather the smart speakers and voice assistants, the video doorbell and its chime, the standby lights on chargers and appliances, the set-top box, and the clocks on the oven and microwave. Individually each is tiny. Collectively they form the baseline load your house draws even when you are doing nothing.</p><table class=\"ev-table\"><thead><tr><th>Always-on device</th><th>Typical draw</th><th>Cost per year</th></tr></thead><tbody><tr><td>Smart speaker, idle</td><td>2 to 3 W</td><td>£5 to £7</td></tr><tr><td>Video doorbell base and chime</td><td>2 to 4 W</td><td>£5 to £9</td></tr><tr><td>Set-top box or recorder, standby</td><td>5 to 15 W</td><td>£11 to £34</td></tr><tr><td>Phone charger left plugged in, no phone</td><td>under 0.5 W</td><td>under £1</td></tr><tr><td>Games console, instant-on standby</td><td>10 to 15 W</td><td>£23 to £34</td></tr></tbody></table><p class=\"ev-note\">At 26.11p/kWh electricity, Ofgem cap July to September 2026. Worked examples; check your own tariff.</p><p>The point of the table is that the loads are wildly uneven. A phone charger left in the wall draws almost nothing, despite the old advice to unplug it. A console in instant-on standby or a half-awake recorder can quietly cost as much as the router. The expensive offenders are worth hunting down; the innocent ones are not worth the bother.</p>"
+    },
+    {
+      "h2": "Finding the expensive ones",
+      "html": "<p>You cannot tell by looking which always-on device is cheap and which is greedy, so do not guess. A <a href=\"using-a-plug-in-energy-monitor.html\">plug-in energy monitor</a> costs a few pounds, sits between the device and the socket, and shows you exactly what each one draws while apparently idle. Move it round the house for a week and you will know in minutes which boxes are pulling several watts around the clock and which are sipping nothing.</p><p>Once you know the culprits, the fix is cheap. Put the genuine offenders, usually the entertainment cluster, on a switched extension or a smart plug and turn them off when not in use. Leave the cheap devices and anything you depend on alone. That targeted approach saves far more, with far less hassle, than unplugging everything on principle. Our guide to <a href=\"quick-wins-under-a-tenner.html\">quick wins under a tenner</a> covers the switched socket as one of the better small buys.</p>"
+    },
+    {
+      "h2": "Keeping it in proportion",
+      "html": "<p>The whole always-on baseline of a connected home, router included, typically lands somewhere between 40 and 100 watts. That is £90 to £230 a year, which is real money, but it is spread across many devices and most of it buys you something you use.</p><p>So the sensible approach is not to wage war on every standby light. It is to measure, find the two or three devices doing most of the damage, switch those off when you can, and leave the rest. The router itself is rarely worth chasing day to day, but the holiday switch-off is free and worth doing. For the bigger picture on where a household's electricity really goes, see the main <a href=\"electricity.html\">cutting your electricity use</a> hub and the <a href=\"energy-saving-myths.html\">energy saving myths</a> page, which puts the unplug-everything advice in context.</p>"
+    }
+  ],
+  "faq": [
+    {
+      "q": "How much does it cost to leave a broadband router on all year?",
+      "a": "A typical router draws about 8 watts, which is around 70 kWh over a year, or roughly £18 at 26.11p per kWh. A heftier all-in-one unit with mesh wifi might reach 12 watts and £27 a year. It is a small cost, well inside the every-little-helps bracket rather than among the big items on the bill."
+    },
+    {
+      "q": "Should I turn my router off at night to save money?",
+      "a": "Usually not. The saving is only a few pence a night, you lose overnight updates and any smart device that needs the connection, and you put a power cycle on the hardware every day. The exception is a holiday or a long trip, where switching it off saves more and is easy on the hardware."
+    },
+    {
+      "q": "Does unplugging phone chargers actually save anything?",
+      "a": "Almost nothing. A modern charger left plugged in with no phone attached draws under half a watt, which is well under a pound a year. The old advice to unplug chargers dates from older, leakier designs. Spend your effort on the genuine standby offenders like games consoles and set-top boxes instead."
+    },
+    {
+      "q": "What is the most expensive always-on device in a typical home?",
+      "a": "It is rarely the router. The usual culprits are a games console left in instant-on standby and an older set-top box or recorder kept half-awake, each of which can draw 10 to 15 watts around the clock and cost £23 to £34 a year. A plug-in energy monitor will name them in seconds."
+    },
+    {
+      "q": "How do I find which always-on devices are wasting power?",
+      "a": "Use a plug-in energy monitor. Put it between each device and the socket and read what it draws while idle. The numbers are wildly uneven, so once you find the two or three greedy ones you can put them on a switched socket and leave the cheap devices alone, which saves more than unplugging everything."
+    }
+  ]
+}

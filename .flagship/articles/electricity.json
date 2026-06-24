@@ -1,0 +1,56 @@
+{
+  "slug": "electricity",
+  "title": "Electricity in the home: where it goes",
+  "description": "Your electricity bill is not spread evenly. A few things dominate. Here is what actually uses the power, where effort pays off and where it is wasted.",
+  "blurb": "Electricity spending is lumpy, not even. Find out which few things dominate the bill, so you put your effort where it counts.",
+  "lede": "Electricity bills feel mysterious, but the spending is not spread evenly across the house. A handful of things dominate, a few run quietly all year, and most gadgets are trivial. Knowing which is which tells you where effort is repaid and where it is wasted. This page is the overview. It maps where your electricity goes, then links to the deeper guides on appliances, standby, lighting and the running-cost calculator so you can work out your own numbers.",
+  "short_answer": "Electricity spending is dominated by anything that makes heat: electric heating, the immersion heater, the tumble dryer, the oven, the kettle and the electric shower. After those come the fridge and freezer, modest moment to moment but never off. Everything else, the telly, the laptop, the lights, is usually small. Standby power is real but minor. Put your effort into the big heat-making users and the lighting swap to LED, and do not lose sleep over the gadgets.",
+  "sections": [
+    {
+      "h2": "The big users: anything that makes heat",
+      "html": "<p>The single most useful rule for electricity is that making heat is expensive. Turning electricity into warmth, whether for your body, your water, your food or your clothes, takes a lot of energy, and at 26.11p per kWh it shows up fast on the bill.</p><p>The heavy hitters are electric heating, the <a href=\"immersion-heater-cost.html\">immersion heater</a>, the <a href=\"tumble-dryer-cost.html\">tumble dryer</a>, the oven, the <a href=\"kettle-energy-saving.html\">kettle</a> and the <a href=\"electric-shower-cost.html\">electric shower</a>. These pull 2kW to 9kW while running. A 9kW electric shower for ten minutes uses 1.5 kWh, about 39p, every single day. A tumble dryer cycle can cost 50p to 80p. These are where the money is.</p><p>The fix is rarely to stop using them, but to use them less or smarter: shorter showers, drying clothes on a rack when you can (see <a href=\"drying-clothes-without-a-tumble-dryer.html\">drying clothes without a tumble dryer</a>), and choosing the cheapest tool for the job, as in <a href=\"oven-microwave-air-fryer-compared.html\">oven, microwave and air fryer compared</a>.</p>"
+    },
+    {
+      "h2": "The always-on crowd",
+      "html": "<p>After the big heat-makers come the appliances that never switch off. Individually they draw little, but they run 24 hours a day, every day, so they quietly add up over a year.</p><p>The <a href=\"fridge-freezer-efficiency.html\">fridge and freezer</a> are the main ones. A modern efficient fridge-freezer might use 200 to 350 kWh a year, costing roughly £52 to £91, while an old or poorly placed one uses far more. Keeping it out of direct sun, away from the oven and with clean coils helps. The <a href=\"broadband-router-always-on.html\">broadband router</a> and similar small permanent loads are real but small.</p><p>Because these run constantly, efficiency matters more than for an occasional appliance. A unit that uses 50 kWh a year more than a better model costs an extra £13 every year for as long as you own it, which adds up over a decade. When a fridge or freezer is on its last legs, replacing it with a high-rated model can pay back through lower running costs, and our <a href=\"energy-labels-explained.html\">energy labels explained</a> guide helps you read the rating. A few free habits help any fridge: keep the door seal clean and intact, let hot food cool before it goes in, and defrost a freezer when the ice builds up, because a thick layer of frost makes it work harder. The detail is in <a href=\"fridge-freezer-efficiency.html\">fridge and freezer efficiency</a>.</p>"
+    },
+    {
+      "h2": "Standby is real but small",
+      "html": "<p>Devices left on standby do draw power, and across a houseful of them over a year it adds up to a noticeable, if not enormous, sum, commonly £30 to £80. Older equipment and anything with a transformer that stays warm are the worst offenders. Switching things off at the wall is worth doing.</p><p>The worst standby offenders are usually the set-top box or games console that idles at 10 to 20W, an old plasma TV's standby circuit, and anything with a plug-in adaptor that feels warm to the touch, since that warmth is wasted electricity. A simple move is to put the TV and its peripherals on one switched extension lead and turn the lot off at bedtime.</p><p>But keep it in proportion. Standby is worth a tidy-up, not an obsession. The energy a tumble dryer or an electric shower uses in a week can exceed what every standby device in the house draws in a month. Sort the big users first, then deal with standby as a quick housekeeping job. The full picture, including which devices genuinely waste power on standby and which barely sip, is in <a href=\"standby-power-the-full-story.html\">standby power, the full story</a>.</p>"
+    },
+    {
+      "h2": "Lighting: the easy win",
+      "html": "<p>Lighting is not usually the biggest line on a bill, but it offers one of the cleanest savings going. If you still have halogen or old incandescent bulbs, swapping to <a href=\"led-lighting.html\">LED</a> is close to free money. An LED uses around a tenth to a fifth of the electricity for the same light and lasts for years, so the swap pays for itself quickly and then keeps paying with no further effort.</p><p>It is one of the few changes that is genuinely fit and forget. Replace the bulbs you use most first, the kitchen and living room, then swap the rest as they fail. Within a year the house is done.</p>"
+    },
+    {
+      "h2": "What things actually cost to run",
+      "html": "<p>Rules of thumb only go so far. Here is what common electrical jobs cost at the current rate, which makes the priorities obvious.</p><table class=\"ev-table\"><thead><tr><th>Use</th><th>Energy</th><th>Cost</th></tr></thead><tbody><tr><td>Electric shower, 9kW, 10 minutes</td><td>1.5 kWh</td><td>39p per use</td></tr><tr><td>Tumble dryer, one cycle</td><td>2 to 3 kWh</td><td>52p to 78p</td></tr><tr><td>Oven, one hour</td><td>~2 kWh</td><td>52p</td></tr><tr><td>Kettle, full boil</td><td>~0.1 kWh</td><td>~3p</td></tr><tr><td>Fridge-freezer, per year</td><td>200 to 350 kWh</td><td>£52 to £91</td></tr><tr><td>LED bulb, 4 hours a day, per year</td><td>~13 kWh</td><td>~£3.40</td></tr><tr><td>TV on standby, per year</td><td>~5 to 15 kWh</td><td>£1.30 to £3.90</td></tr></tbody></table><p class=\"ev-note\">At 26.11p per kWh electricity, Ofgem cap July to September 2026. Worked examples; your appliances and habits will differ.</p><p>The gap between the top and bottom rows is the whole point. The shower and dryer cost more in a fortnight than a TV's standby costs in a year. That is why effort spent on the big heat-makers pays, and effort spent chasing every standby light mostly does not.</p>"
+    },
+    {
+      "h2": "Work out your own numbers",
+      "html": "<p>The figures above are typical, but your house is not typical, so put your own appliances through the <a href=\"appliance-running-cost.html\">running cost calculator</a>. Seeing in black and white that the tumble dryer costs more in a year than the standby of every gadget combined is the moment the priorities click into place.</p><p>For the things you are unsure about, a <a href=\"using-a-plug-in-energy-monitor.html\">plug-in energy monitor</a> measures actual draw at the socket, which beats guessing from the label. Once you know your big users, the rest of the site helps you cut them: the <a href=\"heating.html\">heating overview</a> for electric heating, <a href=\"economy-7-and-night-rates.html\">Economy 7 and night rates</a> if much of your load can shift to cheaper hours, and <a href=\"understanding-energy-bill.html\">understanding your energy bill</a> to make sense of what you are charged. For a quick scan of cheap fixes, see <a href=\"quick-wins-under-a-tenner.html\">quick wins under a tenner</a>.</p>"
+    }
+  ],
+  "faq": [
+    {
+      "q": "What uses the most electricity in a home?",
+      "a": "Anything that makes heat. Electric heating, the immersion heater, the tumble dryer, the oven, the kettle and the electric shower are the heavy users because turning electricity into warmth is energy-hungry. After those, the fridge and freezer matter because they run constantly. Most gadgets are small by comparison."
+    },
+    {
+      "q": "Is it worth switching everything off at the wall?",
+      "a": "It is worth a tidy-up but not an obsession. Standby across a whole house typically costs £30 to £80 a year, mostly from older kit and transformers that stay warm. Switch those off at the wall, but do not expect it to transform the bill. The big heat-making appliances are where the real money is."
+    },
+    {
+      "q": "How much does an electric shower cost to run?",
+      "a": "A 9kW electric shower uses about 1.5 kWh in ten minutes, costing roughly 39p per use at 26.11p per kWh. For a household showering daily, that is well over £100 a year, which makes shorter showers a genuine saving. A mixer shower fed by a gas boiler is cheaper to run because gas is cheaper per unit than electricity."
+    },
+    {
+      "q": "Does switching to LED lighting save much?",
+      "a": "An LED uses around a tenth to a fifth of the electricity of an old incandescent or halogen bulb for the same brightness, and lasts for years. Lighting is not the biggest line on the bill, but the swap is cheap, pays back quickly and then keeps saving with no effort, especially if you are replacing power-hungry halogen spotlights."
+    },
+    {
+      "q": "How can I find out what my own appliances cost?",
+      "a": "Use the running cost calculator on this site to estimate the annual cost of any appliance from its wattage and how often you use it, or fit a plug-in energy monitor to measure actual draw at the socket. Measuring beats guessing, and it quickly shows which few things deserve your attention."
+    }
+  ]
+}

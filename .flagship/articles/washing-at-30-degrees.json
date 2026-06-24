@@ -1,0 +1,52 @@
+{
+  "slug": "washing-at-30-degrees",
+  "title": "Is washing at 30 degrees worth it?",
+  "description": "Almost all of a washing machine's energy goes on heating water, so 30 degrees cuts the cost without dirtying your clothes. The real savings, and the exceptions.",
+  "blurb": "Heating the water is nearly all of a wash's energy cost, so turning the temperature down is the easiest laundry saving there is, with no loss of cleaning.",
+  "lede": "Almost all the energy a washing machine uses goes on one thing: heating the water. The drum, the pumps and the spin draw very little by comparison. That single fact is why turning the temperature down is the easiest laundry saving there is, and why it works without leaving your clothes any less clean. This guide puts real numbers on what each wash temperature costs, explains why modern detergents make hot washes unnecessary for everyday laundry, and is honest about the handful of times you should still turn the heat up.",
+  "short_answer": "Yes, for everyday laundry. Heating the water is roughly 80% to 90% of a wash's energy use, so a 30C wash costs around a third to a half of what a 60C wash costs, with no loss of cleaning on normal clothes. Modern detergents are built to work in cool water. Reserve hot washes for heavily soiled items, bedding from someone unwell, and the occasional maintenance wash to keep the machine itself clean.",
+  "sections": [
+    {
+      "h2": "The heat is the cost",
+      "html": "<p>A washing machine does several jobs at once, but they are wildly unequal in how much power they draw. The motor turning the drum, the pumps moving water and the spin at the end use modest amounts. The element heating the water uses far more than all of them combined, often 80% to 90% of the whole cycle's energy.</p><p>That is why the temperature you choose, not the cycle length or the spin speed, decides what a wash costs. Heating ten litres of cold water to 60C takes a lot of electricity. Heating it to 30C takes roughly a third as much. Drop the temperature and you keep all the mechanical cleaning while shedding most of the energy bill.</p><p>The actual cleaning is done by three things: the detergent's chemistry, the mechanical tumbling of the drum, and time. Hot water helps shift grease and dissolve some stains, but for everyday dirt it is largely there out of old habit from an era of weaker detergents. Take the heat away and the drum and the detergent still do their work.</p>"
+    },
+    {
+      "h2": "What each wash temperature costs",
+      "html": "<p>Here are worked figures for a typical 7kg to 9kg machine, based on the energy used to heat the water plus the modest mechanical draw. Exact numbers vary by machine and load, but the shape is always the same.</p><table class=\"ev-table\"><thead><tr><th>Wash temperature</th><th>Typical energy per cycle</th><th>Cost per wash</th><th>Cost over 250 washes a year</th></tr></thead><tbody><tr><td>Cold or 20C</td><td>~0.3 kWh</td><td>~8p</td><td>~£20</td></tr><tr><td>30C</td><td>~0.6 kWh</td><td>~16p</td><td>~£39</td></tr><tr><td>40C</td><td>~1.0 kWh</td><td>~26p</td><td>~£65</td></tr><tr><td>60C</td><td>~1.4 kWh</td><td>~37p</td><td>~£91</td></tr></tbody></table><p class=\"ev-note\">At 26.11p per kWh electricity, Ofgem cap July to September 2026. Energy per cycle is indicative and varies by machine, load size and incoming water temperature. Worked example; check your own machine's label.</p><p>For a household doing five washes a week, moving from a habit of 40C to mostly 30C saves roughly £25 a year, and moving from 60C to 30C saves over £50. It is a small saving per wash but it stacks up across a year, and it costs nothing to make the change. Our wider <a href=\"washing-machine-running-cost.html\">washing machine running cost</a> page breaks down where every penny goes.</p>"
+    },
+    {
+      "h2": "Modern detergents are made for cool water",
+      "html": "<p>The reason a 30C wash gets clothes clean is in the detergent. Today's powders, gels and capsules contain enzymes that lift protein, starch and grease stains in cool water, plus surfactants that work at low temperatures. They are formulated and tested for exactly this, and the major brands advertise performance down to 20C and even cold.</p><p>The era when you needed a hot wash to shift normal dirt is long gone. For the bulk of a household's laundry, lightly soiled everyday clothes, 30C with a decent detergent gets them perfectly clean. If anything, lower temperatures are kinder to fabrics and colours, so clothes fade and shrink less and last longer, which is its own quiet saving.</p><p>One practical note: cool washes do not dry out detergent residue the way hot ones do, so use the right dose and not too much. Overdosing leaves residue that can build up, which is one reason the occasional warmer maintenance wash matters, covered below.</p>"
+    },
+    {
+      "h2": "When to turn the heat up",
+      "html": "<p>Cool washing is right for most laundry, but not all of it. There are sensible exceptions where a hotter wash earns its extra cost.</p><ul><li><strong>Heavily soiled or greasy items.</strong> Work clothes caked in grime, oily kitchen cloths and very dirty gardening gear benefit from 40C or 60C to cut through the grease that cool water leaves behind.</li><li><strong>Illness in the house.</strong> When someone has a stomach bug or infection, a 60C wash on their bedding, towels and clothes helps kill bacteria that survive cooler temperatures. The same goes for reusable nappies.</li><li><strong>Towels and bedding now and then.</strong> These hold body oils and skin cells, so an occasional warmer wash keeps them fresh and stops the musty smell that cool-only washing can leave.</li><li><strong>A maintenance wash for the machine.</strong> Always washing cool lets greasy residue and bacteria build up inside the drum and seals, causing odours and grey marks. Run an empty wash at 60C or higher once a month, or use the machine's cleaning cycle, to keep it sweet.</li></ul><p>The principle is to reserve heat for when it does a job, not to use it by default. Most loads, most of the time, do not need it.</p>"
+    },
+    {
+      "h2": "The rest of the laundry savings",
+      "html": "<p>Temperature is the biggest lever, but a few other habits make washday cheaper still, and they cost nothing.</p><ul><li><strong>Wash full loads.</strong> A machine uses broadly similar energy whether half or fully loaded, so a full drum cuts the cost per item. Wait until you have a proper load rather than running the machine half empty.</li><li><strong>Use a high spin speed.</strong> A fast final spin wrings out more water, so clothes come out drier and need less time on the airer or, expensively, in the tumble dryer.</li><li><strong>Choose the eco programme.</strong> It runs longer but uses less energy and water, because it soaks at a lower temperature for longer rather than heating hard and fast. The official energy label figure is measured on the eco cycle, so it is the one the machine is designed to be thrifty on. See <a href=\"energy-labels-explained.html\">energy labels explained</a> for how to read it.</li><li><strong>Run it at off-peak times if you are on a night rate.</strong> If you have an <a href=\"economy-7-and-night-rates.html\">Economy 7 or time-of-use tariff</a>, putting the wash on during the cheap window with a delay timer cuts the cost of the electricity it does use. On a flat single rate this makes no difference.</li><li><strong>Dry without the dryer where you can.</strong> The tumble dryer is by far the most expensive part of doing laundry. Our guide to <a href=\"drying-clothes-without-a-tumble-dryer.html\">drying clothes without a tumble dryer</a> and the figures in <a href=\"tumble-dryer-cost.html\">tumble dryer cost</a> show why a line or airer saves the most of all.</li></ul><p>To check your own machine's figure, put its label consumption through the <a href=\"appliance-running-cost.html\">appliance running cost calculator</a>, or measure it directly with a <a href=\"using-a-plug-in-energy-monitor.html\">plug-in energy monitor</a>. Together these turn washday into one of the cheaper chores rather than a hidden drain.</p>"
+    }
+  ],
+  "faq": [
+    {
+      "q": "How much does washing at 30 instead of 40 save?",
+      "a": "Around 10p a wash, because a 40C cycle uses roughly 1kWh against about 0.6kWh at 30C. For a household doing five washes a week that is about £25 a year. Dropping from 60C to 30C saves more, over £50 a year, since the 60C cycle uses more than twice the energy of a 30C one."
+    },
+    {
+      "q": "Does washing at 30 degrees clean clothes properly?",
+      "a": "Yes, for everyday laundry. Modern detergents contain enzymes that lift stains in cool water and are tested down to 20C and below. The drum's tumbling and the detergent do most of the cleaning; hot water is largely habit. For lightly soiled clothes, 30C with a decent detergent gets them perfectly clean and is gentler on fabrics."
+    },
+    {
+      "q": "When should I still wash at 60 degrees?",
+      "a": "For heavily soiled or greasy items, for laundry from someone who is unwell where you want to kill bacteria, for the occasional refresh of towels and bedding, and for a monthly empty maintenance wash to keep the machine itself clean. Reserve the heat for jobs that need it rather than using it by default."
+    },
+    {
+      "q": "Will only ever washing cold damage my washing machine?",
+      "a": "It can lead to a build-up of grease, residue and bacteria in the drum and door seal, causing odours and grey marks over time. The fix is simple: run an empty maintenance wash at 60C or higher, or the machine's own cleaning cycle, about once a month. That keeps it clean while you wash everything else cool."
+    },
+    {
+      "q": "Is a cold wash even cheaper than 30 degrees?",
+      "a": "Yes, a little. A cold or 20C wash uses around half the energy of a 30C one, roughly 8p against 16p, because there is little or no heating involved. Modern detergents can handle it for lightly soiled everyday loads. The jump from 30C to cold saves less than the jump from 60C or 40C down to 30C, but it is still a small extra."
+    }
+  ]
+}
