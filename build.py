@@ -278,6 +278,12 @@ PAGES["calculators"] = dict(
       <a class="tile" href="ev-charging-cost-calculator.html"><h2>EV charging cost</h2><p>What it costs to charge an electric car at home, per charge and per mile.</p></a>
       <a class="tile" href="solar-panel-payback-calculator.html"><h2>Solar payback</h2><p>How many years a solar PV system takes to pay for itself from the savings.</p></a>
       <a class="tile" href="heat-pump-running-cost-calculator.html"><h2>Heat pump cost</h2><p>Compare the yearly running cost of a heat pump against a gas boiler.</p></a>
+      <a class="tile" href="gas-vs-electric-heating-calculator.html"><h2>Gas vs electric heating</h2><p>What the same warmth costs from a gas boiler against a direct electric heater.</p></a>
+      <a class="tile" href="storage-heater-running-cost-calculator.html"><h2>Storage heater cost</h2><p>Running cost of a storage heater on an Economy 7 night rate.</p></a>
+      <a class="tile" href="solar-panel-output-calculator.html"><h2>Solar output</h2><p>How much electricity a solar system generates a year, and its value.</p></a>
+      <a class="tile" href="home-battery-savings-calculator.html"><h2>Home battery savings</h2><p>What a battery saves from the peak to off-peak rate gap, and its payback.</p></a>
+      <a class="tile" href="petrol-cost-per-mile-calculator.html"><h2>Petrol cost per mile</h2><p>Fuel cost per mile and per year from your mpg and the pump price.</p></a>
+      <a class="tile" href="co2-from-electricity-calculator.html"><h2>Electricity CO2</h2><p>Turn kilowatt-hours into carbon emissions, with relatable comparisons.</p></a>
       <a class="tile" href="appliance-running-cost.html"><h2>Appliance running cost</h2><p>Cost per use, per day and per year for any single appliance.</p></a>
     </div>
   </div></section>
@@ -574,6 +580,202 @@ PAGES["heat-pump-running-cost-calculator"] = dict(
             ("Is a heat pump cheaper to run than a gas boiler?", "It depends on the heat pump's efficiency and the price gap between electricity and gas. At a SCOP of 3.5 and current prices the running costs are close, often within a small margin either way. A higher SCOP and a cheaper electricity tariff tip it in the heat pump's favour."),
             ("What is SCOP?", "Seasonal Coefficient of Performance: the average units of heat a heat pump produces per unit of electricity across a year. A SCOP of 3.5 means 3.5kWh of heat for every 1kWh of electricity. Higher is better and cheaper to run."),
             ("How do I cut a heat pump's running cost?", "Run it at a low flow temperature for a higher SCOP, insulate well so you need less heat, and use an electricity tariff with cheaper off-peak rates. The same heat demand on a better SCOP costs noticeably less."),
+        ]),
+    ),
+)
+
+PAGES["petrol-cost-per-mile-calculator"] = dict(
+    title="Petrol cost per mile calculator",
+    description="Work out your fuel cost per mile. Enter your car's mpg and the pump price in pence per litre to see the cost per mile, per 100 miles and per year.",
+    active="calculators",
+    body=calc_tool(
+        "Enter your car's miles per gallon and the pump price in pence per litre, and this works out what your fuel actually costs per mile. Add your annual mileage to see the yearly fuel bill.",
+        row(fld("mpg", "Fuel economy (mpg)", "45", "0.1"), fld("ppl", "Pump price (pence/litre)", "140", "0.1")) + "\n" +
+        row(fld("miles", "Miles per year", "8000", "100")),
+        '''(function(){
+  function v(id){var x=parseFloat(document.getElementById(id).value);return isNaN(x)||x<0?0:x;}
+  function go(){
+    var mpg=v('mpg')||1, perMile=v('ppl')*4.546/mpg, yr=perMile*v('miles')/100;
+    document.getElementById('res').innerHTML=
+      '<div class="big">'+perMile.toFixed(1)+'p<span> per mile</span></div>'+
+      '<div class="grid3">'+
+      '<div class="b"><div class="n">£'+(perMile).toFixed(2)+'</div><div class="l">per 100 miles</div></div>'+
+      '<div class="b"><div class="n">£'+yr.toFixed(0)+'</div><div class="l">per year</div></div>'+
+      '<div class="b"><div class="n">£'+(perMile*1000/100).toFixed(0)+'</div><div class="l">per 1000 miles</div></div></div>'+
+      '<p style="margin-top:12px;color:var(--muted)">A UK gallon is 4.546 litres, so cost per mile = price per litre &times; 4.546 &divide; mpg.</p>';
+  }
+  ['mpg','ppl','miles'].forEach(function(id){var e=document.getElementById(id);if(e)e.addEventListener('input',go);});
+  go();
+})();''',
+        '''<div class="formula"><b>The formula:</b> pence per mile = pump price (pence/litre) &times; 4.546 &divide; mpg</div>
+    <p>Fuel is sold by the litre but economy is quoted in miles per gallon, so the 4.546 converts between them. Driving style changes the result as much as the pump price: see <a href="hypermiling.html">hypermiling</a> for the habits that lift mpg. If you are weighing up an electric car, compare this figure with the <a href="ev-charging-cost-calculator.html">EV charging cost calculator</a> and the <a href="ev-running-cost-vs-petrol.html">EV running cost vs petrol</a> guide.</p>
+    ''' + faq_block([
+            ("How do I work out fuel cost per mile?", "Multiply the pump price in pence per litre by 4.546 to get the cost per gallon, then divide by your mpg. At 140p a litre and 45 mpg that is about 14.1p per mile."),
+            ("What is a good cost per mile?", "For a petrol car, anywhere from about 12p to 18p per mile is typical depending on economy and fuel price. A frugal diesel can dip below that; a thirsty petrol or short cold trips push it higher."),
+        ]),
+    ),
+)
+
+PAGES["co2-from-electricity-calculator"] = dict(
+    title="Electricity CO2 calculator",
+    description="Convert kWh of electricity into carbon emissions. Enter your usage and the grid carbon intensity to see the CO2 in kilograms, with relatable comparisons.",
+    active="calculators",
+    body=calc_tool(
+        "Enter how many kilowatt-hours of electricity you use and the grid's carbon intensity, and this works out the carbon emissions. The UK grid average is around 207g of CO2 per kWh and falling as more renewables come online.",
+        row(fld("kwh", "Electricity used (kWh)", "2900")) + "\n" +
+        row(sld("g", "Grid intensity (g CO2/kWh)", "207", "0", "400", "5")),
+        '''(function(){
+  function v(id){var x=parseFloat(document.getElementById(id).value);return isNaN(x)||x<0?0:x;}
+  function go(){
+    var kg=v('kwh')*v('g')/1000;
+    document.getElementById('res').innerHTML=
+      '<div class="big">'+kg.toFixed(0)+' kg<span> CO2 from '+v('kwh')+' kWh</span></div>'+
+      '<div class="grid3">'+
+      '<div class="b"><div class="n">'+(kg/1000).toFixed(2)+'</div><div class="l">tonnes CO2</div></div>'+
+      '<div class="b"><div class="n">'+(kg/0.27).toFixed(0)+'</div><div class="l">petrol miles equiv</div></div>'+
+      '<div class="b"><div class="n">'+(kg/21).toFixed(1)+'</div><div class="l">trees for a year</div></div></div>'+
+      '<p style="margin-top:12px;color:var(--muted)">Comparisons use about 0.27 kg CO2 per petrol mile and 21 kg absorbed by one tree a year.</p>';
+  }
+  ['kwh','g'].forEach(function(id){var e=document.getElementById(id);if(e)e.addEventListener('input',go);});
+  go();
+})();''',
+        '''<div class="formula"><b>The formula:</b> kg CO2 = kWh &times; grid intensity (g/kWh) &divide; 1000</div>
+    <p>Grid carbon intensity is the average CO2 emitted per unit of electricity, and it changes hour by hour as the mix of wind, solar, gas and nuclear shifts. The yearly UK average is roughly 207g per kWh, but on a windy night it can fall below 50g and on a cold still evening climb well above 300g, which is the idea behind shifting heavy use to greener hours. Using less in the first place is covered across the <a href="electricity.html">electricity</a> guides; to turn the same kWh into money, use the <a href="kwh-to-cost-calculator.html">kWh to cost calculator</a>.</p>
+    ''' + faq_block([
+            ("How much CO2 does 1 kWh of electricity produce?", "On the UK grid average of about 207g per kWh, one kWh produces roughly 0.21 kg of CO2. The exact figure depends on what is generating power at the time, from under 50g on a windy night to over 300g at peak."),
+            ("Is electricity getting cleaner?", "Yes. The grid's average carbon intensity has fallen sharply over the past decade as coal closed and wind and solar grew, so the CO2 per kWh today is a fraction of what it was, and it continues to drop."),
+        ]),
+    ),
+)
+
+PAGES["solar-panel-output-calculator"] = dict(
+    title="Solar panel output calculator",
+    description="Estimate how much electricity solar panels generate. Enter the system size in kWp and the yearly yield to see the annual, monthly and daily generation and its value.",
+    active="calculators",
+    body=calc_tool(
+        "Enter the size of a solar PV system in kilowatts-peak (kWp) and the expected yearly yield per kWp, and this estimates how much electricity it generates and what that is worth. A typical south-facing UK roof yields around 900 to 1,000 kWh per kWp a year.",
+        row(fld("kwp", "System size (kWp)", "4", "0.1"), fld("rate", "Electricity price (pence/kWh)", "26.11", "0.01")) + "\n" +
+        row(sld("yield", "Yield (kWh per kWp/year)", "950", "600", "1100", "10")),
+        '''(function(){
+  function v(id){var x=parseFloat(document.getElementById(id).value);return isNaN(x)||x<0?0:x;}
+  function go(){
+    var annual=v('kwp')*v('yield'), val=annual*v('rate')/100;
+    document.getElementById('res').innerHTML=
+      '<div class="big">'+annual.toFixed(0)+' kWh<span> a year (worth about £'+val.toFixed(0)+')</span></div>'+
+      '<div class="grid3">'+
+      '<div class="b"><div class="n">'+(annual/12).toFixed(0)+'</div><div class="l">kWh / month avg</div></div>'+
+      '<div class="b"><div class="n">'+(annual/365).toFixed(1)+'</div><div class="l">kWh / day avg</div></div>'+
+      '<div class="b"><div class="n">£'+val.toFixed(0)+'</div><div class="l">value / year</div></div></div>'+
+      '<p style="margin-top:12px;color:var(--muted)">Output is far higher in summer than winter; these are yearly averages. The value assumes you use or are paid for all of it.</p>';
+  }
+  ['kwp','rate','yield'].forEach(function(id){var e=document.getElementById(id);if(e)e.addEventListener('input',go);});
+  go();
+})();''',
+        '''<div class="formula"><b>The formula:</b> annual kWh = system size (kWp) &times; yield (kWh per kWp)</div>
+    <p>Kilowatts-peak (kWp) is the rated output of the panels in full sun; the yield is how many kWh each kWp actually produces over a year where you are, which depends on latitude, roof direction, pitch and shading. A south-facing roof in the south of England manages close to 1,000 kWh per kWp; east or west facing or further north is lower. To turn this generation into a payback period, use the <a href="solar-panel-payback-calculator.html">solar panel payback calculator</a>, and see <a href="is-solar-worth-it.html">is solar worth it</a> for the wider picture.</p>
+    ''' + faq_block([
+            ("How much does a 4kW solar system generate?", "A 4kWp system on a good UK roof generates roughly 3,600 to 4,000 kWh a year, enough to cover a large share of a typical home's electricity, though most of it lands in the summer months."),
+            ("What is kWp?", "Kilowatts-peak is the maximum output of a solar array under standard full-sun test conditions. Real output is usually lower, which is why the yearly yield per kWp matters more than the headline figure."),
+        ]),
+    ),
+)
+
+PAGES["gas-vs-electric-heating-calculator"] = dict(
+    title="Gas vs electric heating cost calculator",
+    description="Compare the cost of gas and electric heating. Enter the heat needed and the energy prices to see what the same warmth costs from a gas boiler versus an electric heater.",
+    active="calculators",
+    body=calc_tool(
+        "Enter how much heat you need and the energy prices, and this compares the cost of producing it with a gas boiler against a direct electric heater. Electricity is far dearer per unit, which is why it usually costs more even though electric heaters are nearly 100% efficient.",
+        row(fld("heat", "Heat needed (kWh)", "1000", "10")) + "\n" +
+        row(fld("gr", "Gas price (pence/kWh)", "7.33", "0.01"), fld("er", "Electricity price (pence/kWh)", "26.11", "0.01")) + "\n" +
+        row(sld("beff", "Gas boiler efficiency", "90", "70", "100", "1", "%")),
+        '''(function(){
+  function v(id){var x=parseFloat(document.getElementById(id).value);return isNaN(x)||x<0?0:x;}
+  function go(){
+    var beff=v('beff')>0?v('beff')/100:0.9;
+    var gas=v('heat')/beff*v('gr')/100, elec=v('heat')*v('er')/100, ratio=gas>0?elec/gas:0;
+    document.getElementById('res').innerHTML=
+      '<div class="big">£'+gas.toFixed(2)+' gas<span> vs £'+elec.toFixed(2)+' electric</span></div>'+
+      '<div class="grid3">'+
+      '<div class="b"><div class="n">£'+gas.toFixed(2)+'</div><div class="l">gas boiler</div></div>'+
+      '<div class="b"><div class="n">£'+elec.toFixed(2)+'</div><div class="l">electric heater</div></div>'+
+      '<div class="b"><div class="n">'+ratio.toFixed(1)+'x</div><div class="l">electric dearer</div></div></div>'+
+      '<p style="margin-top:12px;color:var(--muted)">Electric heaters are about 100% efficient, but electricity costs roughly three and a half times more per unit than gas.</p>';
+  }
+  ['heat','gr','er','beff'].forEach(function(id){var e=document.getElementById(id);if(e)e.addEventListener('input',go);});
+  go();
+})();''',
+        '''<div class="formula"><b>The formula:</b> gas cost = heat &divide; boiler efficiency &times; gas rate; electric cost = heat &times; electricity rate</div>
+    <p>A unit of gas is much cheaper than a unit of electricity, so even though a gas boiler wastes some heat up the flue and an electric heater wastes almost none, gas heating still works out cheaper per unit of warmth for most homes. The exception is a heat pump, which is electric but multiplies each unit several times over; compare that with the <a href="heat-pump-running-cost-calculator.html">heat pump running cost calculator</a>. For room-by-room electric heating costs see <a href="electric-radiator-running-cost.html">electric radiator running cost</a> and the <a href="heating.html">heating</a> guides.</p>
+    ''' + faq_block([
+            ("Is gas or electric heating cheaper?", "Gas is usually cheaper. Under the current cap, gas is about 7.33p per kWh against 26.11p for electricity, so even allowing for a gas boiler being around 90% efficient, the same heat costs roughly three times more from a direct electric heater."),
+            ("Are electric heaters 100% efficient?", "Effectively yes, every watt becomes heat in the room. But efficiency is not the same as cost: the electricity itself is so much dearer per unit that an efficient electric heater still costs more to run than a less efficient gas boiler."),
+        ]),
+    ),
+)
+
+PAGES["storage-heater-running-cost-calculator"] = dict(
+    title="Storage heater running cost calculator",
+    description="Work out what a storage heater costs to run on an Economy 7 night rate. Enter the heater's power, charging hours and your night unit rate to see the daily and yearly cost.",
+    active="calculators",
+    body=calc_tool(
+        "Storage heaters charge up overnight on a cheap off-peak rate and release the heat through the day. Enter the heater's power rating, how many hours it charges and your night unit rate to see what it costs to run.",
+        row(fld("kw", "Heater power (kW)", "3.4", "0.1"), fld("rate", "Night rate (pence/kWh)", "16", "0.01")) + "\n" +
+        row(sld("hours", "Charging hours per night", "7", "3", "10", "0.5")),
+        '''(function(){
+  function v(id){var x=parseFloat(document.getElementById(id).value);return isNaN(x)||x<0?0:x;}
+  function go(){
+    var day=v('kw')*v('hours')*v('rate')/100;
+    document.getElementById('res').innerHTML=
+      '<div class="big">£'+day.toFixed(2)+'<span> per night, fully charged</span></div>'+
+      '<div class="grid3">'+
+      '<div class="b"><div class="n">£'+(day*7).toFixed(2)+'</div><div class="l">per week</div></div>'+
+      '<div class="b"><div class="n">£'+(day*30).toFixed(0)+'</div><div class="l">per month</div></div>'+
+      '<div class="b"><div class="n">£'+(day*120).toFixed(0)+'</div><div class="l">over a 4-month winter</div></div></div>'+
+      '<p style="margin-top:12px;color:var(--muted)">This assumes the heater charges fully every night. The input damper lets you charge less on milder nights to save.</p>';
+  }
+  ['kw','rate','hours'].forEach(function(id){var e=document.getElementById(id);if(e)e.addEventListener('input',go);});
+  go();
+})();''',
+        '''<div class="formula"><b>The formula:</b> cost per night = power (kW) &times; charging hours &times; night rate &divide; 100</div>
+    <p>Storage heaters only make sense on a time-of-use tariff like Economy 7, where night units are much cheaper than day units. The trade-off is that any electricity you use during the day, including topping up a cold heater, is charged at the expensive day rate. Setting the input and output dampers to match the weather is the main way to control the cost. For how the tariff works see <a href="economy-7-and-night-rates.html">Economy 7 and night rates</a> and <a href="storage-heaters-explained.html">storage heaters explained</a>.</p>
+    ''' + faq_block([
+            ("How much does a storage heater cost to run?", "A 3.4kW storage heater charging for 7 hours uses about 24 kWh. On a 16p night rate that is roughly £3.80 a night when fully charged, though you can charge less on milder nights to cut the cost."),
+            ("Are storage heaters cheap to run?", "Only on a cheap off-peak tariff. The night rate makes the stored heat affordable, but they are expensive to run if you top them up at the day rate or are not on an Economy 7 style tariff at all."),
+        ]),
+    ),
+)
+
+PAGES["home-battery-savings-calculator"] = dict(
+    title="Home battery savings calculator",
+    description="Estimate the savings from a home battery. Enter the usable capacity, your peak and off-peak rates and the number of cycles to see the yearly saving and payback period.",
+    active="calculators",
+    body=calc_tool(
+        "A home battery saves money by charging when electricity is cheap and discharging when it is dear. Enter the usable capacity, your peak and off-peak rates, how many times a year it cycles and the battery cost to estimate the saving and payback.",
+        row(fld("cap", "Usable capacity (kWh)", "5", "0.1"), fld("cost", "Battery cost (£)", "4000", "50")) + "\n" +
+        row(fld("peak", "Peak rate (pence/kWh)", "26.11", "0.01"), fld("off", "Off-peak rate (pence/kWh)", "7", "0.01")) + "\n" +
+        row(sld("cycles", "Cycles per year", "300", "100", "365", "5")),
+        '''(function(){
+  function v(id){var x=parseFloat(document.getElementById(id).value);return isNaN(x)||x<0?0:x;}
+  function go(){
+    var spread=Math.max(v('peak')-v('off'),0), saving=v('cap')*spread/100*v('cycles');
+    var payback=saving>0?v('cost')/saving:0;
+    document.getElementById('res').innerHTML=
+      '<div class="big">'+(payback>0?payback.toFixed(1)+' years':'n/a')+'<span> to pay back</span></div>'+
+      '<div class="grid3">'+
+      '<div class="b"><div class="n">£'+saving.toFixed(0)+'</div><div class="l">saving / year</div></div>'+
+      '<div class="b"><div class="n">£'+(saving*10).toFixed(0)+'</div><div class="l">over 10 years</div></div>'+
+      '<div class="b"><div class="n">£'+(saving*10-v('cost')).toFixed(0)+'</div><div class="l">10-year profit</div></div></div>'+
+      '<p style="margin-top:12px;color:var(--muted)">Saving = capacity &times; (peak minus off-peak rate) &times; cycles. Most home batteries last around 10 years.</p>';
+  }
+  ['cap','cost','peak','off','cycles'].forEach(function(id){var e=document.getElementById(id);if(e)e.addEventListener('input',go);});
+  go();
+})();''',
+        '''<div class="formula"><b>The formula:</b> yearly saving = usable capacity &times; (peak rate minus off-peak rate) &times; cycles per year</div>
+    <p>A battery on its own earns money from the gap between cheap off-peak and expensive peak electricity, so a wide rate spread and a tariff with cheap night units are what make it pay. Paired with solar it does more, storing daytime generation for the evening rather than exporting it cheaply. Batteries are not cheap and last around ten years, so the payback is often close to the lifespan; see <a href="solar-battery-storage.html">solar battery storage</a> and <a href="time-of-use-tariffs-explained.html">time-of-use tariffs</a> for the detail.</p>
+    ''' + faq_block([
+            ("Is a home battery worth it?", "It depends on the price gap between peak and off-peak electricity and how fully you cycle it. A 5kWh battery cycled daily on a wide rate spread saves a few hundred pounds a year, which can take most of its ten-year life to pay back the upfront cost."),
+            ("How much can a battery save per year?", "Take the usable capacity, multiply by the difference between your peak and off-peak rates, and multiply by how many times a year it cycles. A 5kWh battery at a 19p spread cycled 300 times saves about £285 a year."),
         ]),
     ),
 )

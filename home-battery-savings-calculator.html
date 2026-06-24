@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en-GB">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Home battery savings calculator | Power Saving Guide</title>
+  <meta name="description" content="Estimate the savings from a home battery. Enter the usable capacity, your peak and off-peak rates and the number of cycles to see the yearly saving and payback period.">
+  <link rel="canonical" href="https://powersavingguide.com/home-battery-savings-calculator.html">
+  <meta name="robots" content="index, follow">
+  <meta property="og:site_name" content="Power Saving Guide">
+  <meta property="og:type" content="article">
+  <meta property="og:title" content="Home battery savings calculator | Power Saving Guide">
+  <meta property="og:description" content="Estimate the savings from a home battery. Enter the usable capacity, your peak and off-peak rates and the number of cycles to see the yearly saving and payback period.">
+  <meta property="og:url" content="https://powersavingguide.com/home-battery-savings-calculator.html">
+  <meta property="og:locale" content="en_GB">
+  <meta name="twitter:card" content="summary">
+  <script type="application/ld+json">{"@context": "https://schema.org", "@type": "Article", "headline": "Home battery savings calculator", "description": "Estimate the savings from a home battery. Enter the usable capacity, your peak and off-peak rates and the number of cycles to see the yearly saving and payback period.", "datePublished": "2026-06-03", "dateModified": "2026-06-25", "inLanguage": "en-GB", "mainEntityOfPage": "https://powersavingguide.com/home-battery-savings-calculator.html", "author": {"@type": "Organization", "name": "Power Saving Guide"}, "publisher": {"@type": "Organization", "name": "Power Saving Guide"}}</script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,600&family=Inter:wght@400;500;600&display=swap" rel="stylesheet" media="print" onload="this.media='all'">
+  <noscript><link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,600&family=Inter:wght@400;500;600&display=swap" rel="stylesheet"></noscript>
+  <script data-goatcounter="https://stats.powersavingguide.com/count" async src="//stats.powersavingguide.com/count.js"></script><script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('consent','default',{ad_storage:'granted',ad_user_data:'granted',ad_personalization:'granted',analytics_storage:'granted'});gtag('consent','default',{region:['AT','BE','BG','HR','CY','CZ','DK','EE','FI','FR','DE','GR','HU','IE','IT','LV','LT','LU','MT','NL','PL','PT','RO','SK','SI','ES','SE','IS','LI','NO','GB','CH'],ad_storage:'denied',ad_user_data:'denied',ad_personalization:'denied',analytics_storage:'denied',wait_for_update:500});</script><script async src="https://www.googletagmanager.com/gtag/js?id=G-8FYB114413"></script><script>gtag('js',new Date());gtag('config','G-8FYB114413');</script><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-7059699192160095" crossorigin="anonymous"></script>
+</head>
+<body>
+  <nav class="nav--bar"><div class="wrap nav-inner">
+    <a class="brand" href="index.html">Power Saving Guide</a>
+    <input type="checkbox" id="nt" class="navtoggle">
+    <label for="nt" class="navburger" aria-label="Menu">≡</label>
+    <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="electricity.html">Electricity</a></li>
+        <li><a href="heating.html">Heating &amp; gas</a></li>
+        <li><a href="driving.html">Fuel &amp; driving</a></li>
+        <li><a href="calculators.html" class="active">Calculators</a></li>
+        <li><a href="guides.html">Guides</a></li>
+        <li><a href="about.html">About</a></li>
+    </ul>
+  </div></nav>
+
+  <header class="page-head"><div class="wrap"><h1>Home battery savings calculator</h1></div></header>
+  <main>
+
+  <section class="section"><div class="wrap prose">
+    <p class="lede">A home battery saves money by charging when electricity is cheap and discharging when it is dear. Enter the usable capacity, your peak and off-peak rates, how many times a year it cycles and the battery cost to estimate the saving and payback.</p>
+    <div class="ecalc">
+      <div class="row">
+      <div class="field"><label for="cap">Usable capacity (kWh)</label><input id="cap" type="number" inputmode="decimal" step="0.1" min="0" value="5"></div>
+      <div class="field"><label for="cost">Battery cost (£)</label><input id="cost" type="number" inputmode="decimal" step="50" min="0" value="4000"></div>
+      </div>
+      <div class="row">
+      <div class="field"><label for="peak">Peak rate (pence/kWh)</label><input id="peak" type="number" inputmode="decimal" step="0.01" min="0" value="26.11"></div>
+      <div class="field"><label for="off">Off-peak rate (pence/kWh)</label><input id="off" type="number" inputmode="decimal" step="0.01" min="0" value="7"></div>
+      </div>
+      <div class="row">
+      <div class="field"><label for="cycles">Cycles per year: <output id="cycles_o">300</output></label><input id="cycles" type="range" min="100" max="365" step="5" value="300" oninput="document.getElementById('cycles_o').textContent=this.value+''"></div>
+      </div>
+      <div class="res" id="res"></div>
+    </div>
+    <script>
+(function(){
+  function v(id){var x=parseFloat(document.getElementById(id).value);return isNaN(x)||x<0?0:x;}
+  function go(){
+    var spread=Math.max(v('peak')-v('off'),0), saving=v('cap')*spread/100*v('cycles');
+    var payback=saving>0?v('cost')/saving:0;
+    document.getElementById('res').innerHTML=
+      '<div class="big">'+(payback>0?payback.toFixed(1)+' years':'n/a')+'<span> to pay back</span></div>'+
+      '<div class="grid3">'+
+      '<div class="b"><div class="n">£'+saving.toFixed(0)+'</div><div class="l">saving / year</div></div>'+
+      '<div class="b"><div class="n">£'+(saving*10).toFixed(0)+'</div><div class="l">over 10 years</div></div>'+
+      '<div class="b"><div class="n">£'+(saving*10-v('cost')).toFixed(0)+'</div><div class="l">10-year profit</div></div></div>'+
+      '<p style="margin-top:12px;color:var(--muted)">Saving = capacity &times; (peak minus off-peak rate) &times; cycles. Most home batteries last around 10 years.</p>';
+  }
+  ['cap','cost','peak','off','cycles'].forEach(function(id){var e=document.getElementById(id);if(e)e.addEventListener('input',go);});
+  go();
+})();
+    </script>
+<div class="formula"><b>The formula:</b> yearly saving = usable capacity &times; (peak rate minus off-peak rate) &times; cycles per year</div>
+    <p>A battery on its own earns money from the gap between cheap off-peak and expensive peak electricity, so a wide rate spread and a tariff with cheap night units are what make it pay. Paired with solar it does more, storing daytime generation for the evening rather than exporting it cheaply. Batteries are not cheap and last around ten years, so the payback is often close to the lifespan; see <a href="solar-battery-storage.html">solar battery storage</a> and <a href="time-of-use-tariffs-explained.html">time-of-use tariffs</a> for the detail.</p>
+    <h2>Common questions</h2>
+    <p><strong>Is a home battery worth it?</strong><br>It depends on the price gap between peak and off-peak electricity and how fully you cycle it. A 5kWh battery cycled daily on a wide rate spread saves a few hundred pounds a year, which can take most of its ten-year life to pay back the upfront cost.</p>
+    <p><strong>How much can a battery save per year?</strong><br>Take the usable capacity, multiply by the difference between your peak and off-peak rates, and multiply by how many times a year it cycles. A 5kWh battery at a 19p spread cycled 300 times saves about £285 a year.</p>
+    <script type="application/ld+json">{"@context": "https://schema.org", "@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": "Is a home battery worth it?", "acceptedAnswer": {"@type": "Answer", "text": "It depends on the price gap between peak and off-peak electricity and how fully you cycle it. A 5kWh battery cycled daily on a wide rate spread saves a few hundred pounds a year, which can take most of its ten-year life to pay back the upfront cost."}}, {"@type": "Question", "name": "How much can a battery save per year?", "acceptedAnswer": {"@type": "Answer", "text": "Take the usable capacity, multiply by the difference between your peak and off-peak rates, and multiply by how many times a year it cycles. A 5kWh battery at a 19p spread cycled 300 times saves about £285 a year."}}]}</script>
+  </div></section>
+
+  </main>
+  <footer class="footer"><div class="wrap">
+    <p class="foot-brand">Power Saving Guide</p>
+    <p>A practical, independent guide to cutting your electricity, gas and fuel bills. Plain advice, no gadgets to buy.</p>
+    <p class="foot-links"><a href="electricity.html">Electricity</a> · <a href="heating.html">Heating &amp; gas</a> · <a href="driving.html">Fuel &amp; driving</a> · <a href="appliance-running-cost.html">Cost calculator</a> · <a href="guides.html">Guides</a> · <a href="about.html">About</a> · <a href="privacy.html">Privacy</a></p>
+    <p class="copy">&copy; <span>2026</span> Power Saving Guide. Figures are worked examples; check your own tariff and meter. Cookieless analytics, see the <a href="privacy.html">privacy page</a>.</p>
+  </div></footer>
+</body>
+</html>

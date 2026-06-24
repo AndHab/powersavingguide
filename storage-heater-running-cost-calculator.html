@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en-GB">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Storage heater running cost calculator | Power Saving Guide</title>
+  <meta name="description" content="Work out what a storage heater costs to run on an Economy 7 night rate. Enter the heater&#x27;s power, charging hours and your night unit rate to see the daily and yearly cost.">
+  <link rel="canonical" href="https://powersavingguide.com/storage-heater-running-cost-calculator.html">
+  <meta name="robots" content="index, follow">
+  <meta property="og:site_name" content="Power Saving Guide">
+  <meta property="og:type" content="article">
+  <meta property="og:title" content="Storage heater running cost calculator | Power Saving Guide">
+  <meta property="og:description" content="Work out what a storage heater costs to run on an Economy 7 night rate. Enter the heater&#x27;s power, charging hours and your night unit rate to see the daily and yearly cost.">
+  <meta property="og:url" content="https://powersavingguide.com/storage-heater-running-cost-calculator.html">
+  <meta property="og:locale" content="en_GB">
+  <meta name="twitter:card" content="summary">
+  <script type="application/ld+json">{"@context": "https://schema.org", "@type": "Article", "headline": "Storage heater running cost calculator", "description": "Work out what a storage heater costs to run on an Economy 7 night rate. Enter the heater's power, charging hours and your night unit rate to see the daily and yearly cost.", "datePublished": "2026-06-03", "dateModified": "2026-06-25", "inLanguage": "en-GB", "mainEntityOfPage": "https://powersavingguide.com/storage-heater-running-cost-calculator.html", "author": {"@type": "Organization", "name": "Power Saving Guide"}, "publisher": {"@type": "Organization", "name": "Power Saving Guide"}}</script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,600&family=Inter:wght@400;500;600&display=swap" rel="stylesheet" media="print" onload="this.media='all'">
+  <noscript><link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,600&family=Inter:wght@400;500;600&display=swap" rel="stylesheet"></noscript>
+  <script data-goatcounter="https://stats.powersavingguide.com/count" async src="//stats.powersavingguide.com/count.js"></script><script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('consent','default',{ad_storage:'granted',ad_user_data:'granted',ad_personalization:'granted',analytics_storage:'granted'});gtag('consent','default',{region:['AT','BE','BG','HR','CY','CZ','DK','EE','FI','FR','DE','GR','HU','IE','IT','LV','LT','LU','MT','NL','PL','PT','RO','SK','SI','ES','SE','IS','LI','NO','GB','CH'],ad_storage:'denied',ad_user_data:'denied',ad_personalization:'denied',analytics_storage:'denied',wait_for_update:500});</script><script async src="https://www.googletagmanager.com/gtag/js?id=G-8FYB114413"></script><script>gtag('js',new Date());gtag('config','G-8FYB114413');</script><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-7059699192160095" crossorigin="anonymous"></script>
+</head>
+<body>
+  <nav class="nav--bar"><div class="wrap nav-inner">
+    <a class="brand" href="index.html">Power Saving Guide</a>
+    <input type="checkbox" id="nt" class="navtoggle">
+    <label for="nt" class="navburger" aria-label="Menu">≡</label>
+    <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="electricity.html">Electricity</a></li>
+        <li><a href="heating.html">Heating &amp; gas</a></li>
+        <li><a href="driving.html">Fuel &amp; driving</a></li>
+        <li><a href="calculators.html" class="active">Calculators</a></li>
+        <li><a href="guides.html">Guides</a></li>
+        <li><a href="about.html">About</a></li>
+    </ul>
+  </div></nav>
+
+  <header class="page-head"><div class="wrap"><h1>Storage heater running cost calculator</h1></div></header>
+  <main>
+
+  <section class="section"><div class="wrap prose">
+    <p class="lede">Storage heaters charge up overnight on a cheap off-peak rate and release the heat through the day. Enter the heater's power rating, how many hours it charges and your night unit rate to see what it costs to run.</p>
+    <div class="ecalc">
+      <div class="row">
+      <div class="field"><label for="kw">Heater power (kW)</label><input id="kw" type="number" inputmode="decimal" step="0.1" min="0" value="3.4"></div>
+      <div class="field"><label for="rate">Night rate (pence/kWh)</label><input id="rate" type="number" inputmode="decimal" step="0.01" min="0" value="16"></div>
+      </div>
+      <div class="row">
+      <div class="field"><label for="hours">Charging hours per night: <output id="hours_o">7</output></label><input id="hours" type="range" min="3" max="10" step="0.5" value="7" oninput="document.getElementById('hours_o').textContent=this.value+''"></div>
+      </div>
+      <div class="res" id="res"></div>
+    </div>
+    <script>
+(function(){
+  function v(id){var x=parseFloat(document.getElementById(id).value);return isNaN(x)||x<0?0:x;}
+  function go(){
+    var day=v('kw')*v('hours')*v('rate')/100;
+    document.getElementById('res').innerHTML=
+      '<div class="big">£'+day.toFixed(2)+'<span> per night, fully charged</span></div>'+
+      '<div class="grid3">'+
+      '<div class="b"><div class="n">£'+(day*7).toFixed(2)+'</div><div class="l">per week</div></div>'+
+      '<div class="b"><div class="n">£'+(day*30).toFixed(0)+'</div><div class="l">per month</div></div>'+
+      '<div class="b"><div class="n">£'+(day*120).toFixed(0)+'</div><div class="l">over a 4-month winter</div></div></div>'+
+      '<p style="margin-top:12px;color:var(--muted)">This assumes the heater charges fully every night. The input damper lets you charge less on milder nights to save.</p>';
+  }
+  ['kw','rate','hours'].forEach(function(id){var e=document.getElementById(id);if(e)e.addEventListener('input',go);});
+  go();
+})();
+    </script>
+<div class="formula"><b>The formula:</b> cost per night = power (kW) &times; charging hours &times; night rate &divide; 100</div>
+    <p>Storage heaters only make sense on a time-of-use tariff like Economy 7, where night units are much cheaper than day units. The trade-off is that any electricity you use during the day, including topping up a cold heater, is charged at the expensive day rate. Setting the input and output dampers to match the weather is the main way to control the cost. For how the tariff works see <a href="economy-7-and-night-rates.html">Economy 7 and night rates</a> and <a href="storage-heaters-explained.html">storage heaters explained</a>.</p>
+    <h2>Common questions</h2>
+    <p><strong>How much does a storage heater cost to run?</strong><br>A 3.4kW storage heater charging for 7 hours uses about 24 kWh. On a 16p night rate that is roughly £3.80 a night when fully charged, though you can charge less on milder nights to cut the cost.</p>
+    <p><strong>Are storage heaters cheap to run?</strong><br>Only on a cheap off-peak tariff. The night rate makes the stored heat affordable, but they are expensive to run if you top them up at the day rate or are not on an Economy 7 style tariff at all.</p>
+    <script type="application/ld+json">{"@context": "https://schema.org", "@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": "How much does a storage heater cost to run?", "acceptedAnswer": {"@type": "Answer", "text": "A 3.4kW storage heater charging for 7 hours uses about 24 kWh. On a 16p night rate that is roughly £3.80 a night when fully charged, though you can charge less on milder nights to cut the cost."}}, {"@type": "Question", "name": "Are storage heaters cheap to run?", "acceptedAnswer": {"@type": "Answer", "text": "Only on a cheap off-peak tariff. The night rate makes the stored heat affordable, but they are expensive to run if you top them up at the day rate or are not on an Economy 7 style tariff at all."}}]}</script>
+  </div></section>
+
+  </main>
+  <footer class="footer"><div class="wrap">
+    <p class="foot-brand">Power Saving Guide</p>
+    <p>A practical, independent guide to cutting your electricity, gas and fuel bills. Plain advice, no gadgets to buy.</p>
+    <p class="foot-links"><a href="electricity.html">Electricity</a> · <a href="heating.html">Heating &amp; gas</a> · <a href="driving.html">Fuel &amp; driving</a> · <a href="appliance-running-cost.html">Cost calculator</a> · <a href="guides.html">Guides</a> · <a href="about.html">About</a> · <a href="privacy.html">Privacy</a></p>
+    <p class="copy">&copy; <span>2026</span> Power Saving Guide. Figures are worked examples; check your own tariff and meter. Cookieless analytics, see the <a href="privacy.html">privacy page</a>.</p>
+  </div></footer>
+</body>
+</html>

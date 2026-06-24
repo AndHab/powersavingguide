@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en-GB">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Petrol cost per mile calculator | Power Saving Guide</title>
+  <meta name="description" content="Work out your fuel cost per mile. Enter your car&#x27;s mpg and the pump price in pence per litre to see the cost per mile, per 100 miles and per year.">
+  <link rel="canonical" href="https://powersavingguide.com/petrol-cost-per-mile-calculator.html">
+  <meta name="robots" content="index, follow">
+  <meta property="og:site_name" content="Power Saving Guide">
+  <meta property="og:type" content="article">
+  <meta property="og:title" content="Petrol cost per mile calculator | Power Saving Guide">
+  <meta property="og:description" content="Work out your fuel cost per mile. Enter your car&#x27;s mpg and the pump price in pence per litre to see the cost per mile, per 100 miles and per year.">
+  <meta property="og:url" content="https://powersavingguide.com/petrol-cost-per-mile-calculator.html">
+  <meta property="og:locale" content="en_GB">
+  <meta name="twitter:card" content="summary">
+  <script type="application/ld+json">{"@context": "https://schema.org", "@type": "Article", "headline": "Petrol cost per mile calculator", "description": "Work out your fuel cost per mile. Enter your car's mpg and the pump price in pence per litre to see the cost per mile, per 100 miles and per year.", "datePublished": "2026-06-03", "dateModified": "2026-06-25", "inLanguage": "en-GB", "mainEntityOfPage": "https://powersavingguide.com/petrol-cost-per-mile-calculator.html", "author": {"@type": "Organization", "name": "Power Saving Guide"}, "publisher": {"@type": "Organization", "name": "Power Saving Guide"}}</script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,600&family=Inter:wght@400;500;600&display=swap" rel="stylesheet" media="print" onload="this.media='all'">
+  <noscript><link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,600&family=Inter:wght@400;500;600&display=swap" rel="stylesheet"></noscript>
+  <script data-goatcounter="https://stats.powersavingguide.com/count" async src="//stats.powersavingguide.com/count.js"></script><script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('consent','default',{ad_storage:'granted',ad_user_data:'granted',ad_personalization:'granted',analytics_storage:'granted'});gtag('consent','default',{region:['AT','BE','BG','HR','CY','CZ','DK','EE','FI','FR','DE','GR','HU','IE','IT','LV','LT','LU','MT','NL','PL','PT','RO','SK','SI','ES','SE','IS','LI','NO','GB','CH'],ad_storage:'denied',ad_user_data:'denied',ad_personalization:'denied',analytics_storage:'denied',wait_for_update:500});</script><script async src="https://www.googletagmanager.com/gtag/js?id=G-8FYB114413"></script><script>gtag('js',new Date());gtag('config','G-8FYB114413');</script><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-7059699192160095" crossorigin="anonymous"></script>
+</head>
+<body>
+  <nav class="nav--bar"><div class="wrap nav-inner">
+    <a class="brand" href="index.html">Power Saving Guide</a>
+    <input type="checkbox" id="nt" class="navtoggle">
+    <label for="nt" class="navburger" aria-label="Menu">≡</label>
+    <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="electricity.html">Electricity</a></li>
+        <li><a href="heating.html">Heating &amp; gas</a></li>
+        <li><a href="driving.html">Fuel &amp; driving</a></li>
+        <li><a href="calculators.html" class="active">Calculators</a></li>
+        <li><a href="guides.html">Guides</a></li>
+        <li><a href="about.html">About</a></li>
+    </ul>
+  </div></nav>
+
+  <header class="page-head"><div class="wrap"><h1>Petrol cost per mile calculator</h1></div></header>
+  <main>
+
+  <section class="section"><div class="wrap prose">
+    <p class="lede">Enter your car's miles per gallon and the pump price in pence per litre, and this works out what your fuel actually costs per mile. Add your annual mileage to see the yearly fuel bill.</p>
+    <div class="ecalc">
+      <div class="row">
+      <div class="field"><label for="mpg">Fuel economy (mpg)</label><input id="mpg" type="number" inputmode="decimal" step="0.1" min="0" value="45"></div>
+      <div class="field"><label for="ppl">Pump price (pence/litre)</label><input id="ppl" type="number" inputmode="decimal" step="0.1" min="0" value="140"></div>
+      </div>
+      <div class="row">
+      <div class="field"><label for="miles">Miles per year</label><input id="miles" type="number" inputmode="decimal" step="100" min="0" value="8000"></div>
+      </div>
+      <div class="res" id="res"></div>
+    </div>
+    <script>
+(function(){
+  function v(id){var x=parseFloat(document.getElementById(id).value);return isNaN(x)||x<0?0:x;}
+  function go(){
+    var mpg=v('mpg')||1, perMile=v('ppl')*4.546/mpg, yr=perMile*v('miles')/100;
+    document.getElementById('res').innerHTML=
+      '<div class="big">'+perMile.toFixed(1)+'p<span> per mile</span></div>'+
+      '<div class="grid3">'+
+      '<div class="b"><div class="n">£'+(perMile).toFixed(2)+'</div><div class="l">per 100 miles</div></div>'+
+      '<div class="b"><div class="n">£'+yr.toFixed(0)+'</div><div class="l">per year</div></div>'+
+      '<div class="b"><div class="n">£'+(perMile*1000/100).toFixed(0)+'</div><div class="l">per 1000 miles</div></div></div>'+
+      '<p style="margin-top:12px;color:var(--muted)">A UK gallon is 4.546 litres, so cost per mile = price per litre &times; 4.546 &divide; mpg.</p>';
+  }
+  ['mpg','ppl','miles'].forEach(function(id){var e=document.getElementById(id);if(e)e.addEventListener('input',go);});
+  go();
+})();
+    </script>
+<div class="formula"><b>The formula:</b> pence per mile = pump price (pence/litre) &times; 4.546 &divide; mpg</div>
+    <p>Fuel is sold by the litre but economy is quoted in miles per gallon, so the 4.546 converts between them. Driving style changes the result as much as the pump price: see <a href="hypermiling.html">hypermiling</a> for the habits that lift mpg. If you are weighing up an electric car, compare this figure with the <a href="ev-charging-cost-calculator.html">EV charging cost calculator</a> and the <a href="ev-running-cost-vs-petrol.html">EV running cost vs petrol</a> guide.</p>
+    <h2>Common questions</h2>
+    <p><strong>How do I work out fuel cost per mile?</strong><br>Multiply the pump price in pence per litre by 4.546 to get the cost per gallon, then divide by your mpg. At 140p a litre and 45 mpg that is about 14.1p per mile.</p>
+    <p><strong>What is a good cost per mile?</strong><br>For a petrol car, anywhere from about 12p to 18p per mile is typical depending on economy and fuel price. A frugal diesel can dip below that; a thirsty petrol or short cold trips push it higher.</p>
+    <script type="application/ld+json">{"@context": "https://schema.org", "@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": "How do I work out fuel cost per mile?", "acceptedAnswer": {"@type": "Answer", "text": "Multiply the pump price in pence per litre by 4.546 to get the cost per gallon, then divide by your mpg. At 140p a litre and 45 mpg that is about 14.1p per mile."}}, {"@type": "Question", "name": "What is a good cost per mile?", "acceptedAnswer": {"@type": "Answer", "text": "For a petrol car, anywhere from about 12p to 18p per mile is typical depending on economy and fuel price. A frugal diesel can dip below that; a thirsty petrol or short cold trips push it higher."}}]}</script>
+  </div></section>
+
+  </main>
+  <footer class="footer"><div class="wrap">
+    <p class="foot-brand">Power Saving Guide</p>
+    <p>A practical, independent guide to cutting your electricity, gas and fuel bills. Plain advice, no gadgets to buy.</p>
+    <p class="foot-links"><a href="electricity.html">Electricity</a> · <a href="heating.html">Heating &amp; gas</a> · <a href="driving.html">Fuel &amp; driving</a> · <a href="appliance-running-cost.html">Cost calculator</a> · <a href="guides.html">Guides</a> · <a href="about.html">About</a> · <a href="privacy.html">Privacy</a></p>
+    <p class="copy">&copy; <span>2026</span> Power Saving Guide. Figures are worked examples; check your own tariff and meter. Cookieless analytics, see the <a href="privacy.html">privacy page</a>.</p>
+  </div></footer>
+</body>
+</html>

@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en-GB">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Solar panel output calculator | Power Saving Guide</title>
+  <meta name="description" content="Estimate how much electricity solar panels generate. Enter the system size in kWp and the yearly yield to see the annual, monthly and daily generation and its value.">
+  <link rel="canonical" href="https://powersavingguide.com/solar-panel-output-calculator.html">
+  <meta name="robots" content="index, follow">
+  <meta property="og:site_name" content="Power Saving Guide">
+  <meta property="og:type" content="article">
+  <meta property="og:title" content="Solar panel output calculator | Power Saving Guide">
+  <meta property="og:description" content="Estimate how much electricity solar panels generate. Enter the system size in kWp and the yearly yield to see the annual, monthly and daily generation and its value.">
+  <meta property="og:url" content="https://powersavingguide.com/solar-panel-output-calculator.html">
+  <meta property="og:locale" content="en_GB">
+  <meta name="twitter:card" content="summary">
+  <script type="application/ld+json">{"@context": "https://schema.org", "@type": "Article", "headline": "Solar panel output calculator", "description": "Estimate how much electricity solar panels generate. Enter the system size in kWp and the yearly yield to see the annual, monthly and daily generation and its value.", "datePublished": "2026-06-03", "dateModified": "2026-06-25", "inLanguage": "en-GB", "mainEntityOfPage": "https://powersavingguide.com/solar-panel-output-calculator.html", "author": {"@type": "Organization", "name": "Power Saving Guide"}, "publisher": {"@type": "Organization", "name": "Power Saving Guide"}}</script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,600&family=Inter:wght@400;500;600&display=swap" rel="stylesheet" media="print" onload="this.media='all'">
+  <noscript><link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,600&family=Inter:wght@400;500;600&display=swap" rel="stylesheet"></noscript>
+  <script data-goatcounter="https://stats.powersavingguide.com/count" async src="//stats.powersavingguide.com/count.js"></script><script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('consent','default',{ad_storage:'granted',ad_user_data:'granted',ad_personalization:'granted',analytics_storage:'granted'});gtag('consent','default',{region:['AT','BE','BG','HR','CY','CZ','DK','EE','FI','FR','DE','GR','HU','IE','IT','LV','LT','LU','MT','NL','PL','PT','RO','SK','SI','ES','SE','IS','LI','NO','GB','CH'],ad_storage:'denied',ad_user_data:'denied',ad_personalization:'denied',analytics_storage:'denied',wait_for_update:500});</script><script async src="https://www.googletagmanager.com/gtag/js?id=G-8FYB114413"></script><script>gtag('js',new Date());gtag('config','G-8FYB114413');</script><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-7059699192160095" crossorigin="anonymous"></script>
+</head>
+<body>
+  <nav class="nav--bar"><div class="wrap nav-inner">
+    <a class="brand" href="index.html">Power Saving Guide</a>
+    <input type="checkbox" id="nt" class="navtoggle">
+    <label for="nt" class="navburger" aria-label="Menu">≡</label>
+    <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="electricity.html">Electricity</a></li>
+        <li><a href="heating.html">Heating &amp; gas</a></li>
+        <li><a href="driving.html">Fuel &amp; driving</a></li>
+        <li><a href="calculators.html" class="active">Calculators</a></li>
+        <li><a href="guides.html">Guides</a></li>
+        <li><a href="about.html">About</a></li>
+    </ul>
+  </div></nav>
+
+  <header class="page-head"><div class="wrap"><h1>Solar panel output calculator</h1></div></header>
+  <main>
+
+  <section class="section"><div class="wrap prose">
+    <p class="lede">Enter the size of a solar PV system in kilowatts-peak (kWp) and the expected yearly yield per kWp, and this estimates how much electricity it generates and what that is worth. A typical south-facing UK roof yields around 900 to 1,000 kWh per kWp a year.</p>
+    <div class="ecalc">
+      <div class="row">
+      <div class="field"><label for="kwp">System size (kWp)</label><input id="kwp" type="number" inputmode="decimal" step="0.1" min="0" value="4"></div>
+      <div class="field"><label for="rate">Electricity price (pence/kWh)</label><input id="rate" type="number" inputmode="decimal" step="0.01" min="0" value="26.11"></div>
+      </div>
+      <div class="row">
+      <div class="field"><label for="yield">Yield (kWh per kWp/year): <output id="yield_o">950</output></label><input id="yield" type="range" min="600" max="1100" step="10" value="950" oninput="document.getElementById('yield_o').textContent=this.value+''"></div>
+      </div>
+      <div class="res" id="res"></div>
+    </div>
+    <script>
+(function(){
+  function v(id){var x=parseFloat(document.getElementById(id).value);return isNaN(x)||x<0?0:x;}
+  function go(){
+    var annual=v('kwp')*v('yield'), val=annual*v('rate')/100;
+    document.getElementById('res').innerHTML=
+      '<div class="big">'+annual.toFixed(0)+' kWh<span> a year (worth about £'+val.toFixed(0)+')</span></div>'+
+      '<div class="grid3">'+
+      '<div class="b"><div class="n">'+(annual/12).toFixed(0)+'</div><div class="l">kWh / month avg</div></div>'+
+      '<div class="b"><div class="n">'+(annual/365).toFixed(1)+'</div><div class="l">kWh / day avg</div></div>'+
+      '<div class="b"><div class="n">£'+val.toFixed(0)+'</div><div class="l">value / year</div></div></div>'+
+      '<p style="margin-top:12px;color:var(--muted)">Output is far higher in summer than winter; these are yearly averages. The value assumes you use or are paid for all of it.</p>';
+  }
+  ['kwp','rate','yield'].forEach(function(id){var e=document.getElementById(id);if(e)e.addEventListener('input',go);});
+  go();
+})();
+    </script>
+<div class="formula"><b>The formula:</b> annual kWh = system size (kWp) &times; yield (kWh per kWp)</div>
+    <p>Kilowatts-peak (kWp) is the rated output of the panels in full sun; the yield is how many kWh each kWp actually produces over a year where you are, which depends on latitude, roof direction, pitch and shading. A south-facing roof in the south of England manages close to 1,000 kWh per kWp; east or west facing or further north is lower. To turn this generation into a payback period, use the <a href="solar-panel-payback-calculator.html">solar panel payback calculator</a>, and see <a href="is-solar-worth-it.html">is solar worth it</a> for the wider picture.</p>
+    <h2>Common questions</h2>
+    <p><strong>How much does a 4kW solar system generate?</strong><br>A 4kWp system on a good UK roof generates roughly 3,600 to 4,000 kWh a year, enough to cover a large share of a typical home's electricity, though most of it lands in the summer months.</p>
+    <p><strong>What is kWp?</strong><br>Kilowatts-peak is the maximum output of a solar array under standard full-sun test conditions. Real output is usually lower, which is why the yearly yield per kWp matters more than the headline figure.</p>
+    <script type="application/ld+json">{"@context": "https://schema.org", "@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": "How much does a 4kW solar system generate?", "acceptedAnswer": {"@type": "Answer", "text": "A 4kWp system on a good UK roof generates roughly 3,600 to 4,000 kWh a year, enough to cover a large share of a typical home's electricity, though most of it lands in the summer months."}}, {"@type": "Question", "name": "What is kWp?", "acceptedAnswer": {"@type": "Answer", "text": "Kilowatts-peak is the maximum output of a solar array under standard full-sun test conditions. Real output is usually lower, which is why the yearly yield per kWp matters more than the headline figure."}}]}</script>
+  </div></section>
+
+  </main>
+  <footer class="footer"><div class="wrap">
+    <p class="foot-brand">Power Saving Guide</p>
+    <p>A practical, independent guide to cutting your electricity, gas and fuel bills. Plain advice, no gadgets to buy.</p>
+    <p class="foot-links"><a href="electricity.html">Electricity</a> · <a href="heating.html">Heating &amp; gas</a> · <a href="driving.html">Fuel &amp; driving</a> · <a href="appliance-running-cost.html">Cost calculator</a> · <a href="guides.html">Guides</a> · <a href="about.html">About</a> · <a href="privacy.html">Privacy</a></p>
+    <p class="copy">&copy; <span>2026</span> Power Saving Guide. Figures are worked examples; check your own tariff and meter. Cookieless analytics, see the <a href="privacy.html">privacy page</a>.</p>
+  </div></footer>
+</body>
+</html>

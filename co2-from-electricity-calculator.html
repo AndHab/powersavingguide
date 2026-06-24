@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en-GB">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Electricity CO2 calculator | Power Saving Guide</title>
+  <meta name="description" content="Convert kWh of electricity into carbon emissions. Enter your usage and the grid carbon intensity to see the CO2 in kilograms, with relatable comparisons.">
+  <link rel="canonical" href="https://powersavingguide.com/co2-from-electricity-calculator.html">
+  <meta name="robots" content="index, follow">
+  <meta property="og:site_name" content="Power Saving Guide">
+  <meta property="og:type" content="article">
+  <meta property="og:title" content="Electricity CO2 calculator | Power Saving Guide">
+  <meta property="og:description" content="Convert kWh of electricity into carbon emissions. Enter your usage and the grid carbon intensity to see the CO2 in kilograms, with relatable comparisons.">
+  <meta property="og:url" content="https://powersavingguide.com/co2-from-electricity-calculator.html">
+  <meta property="og:locale" content="en_GB">
+  <meta name="twitter:card" content="summary">
+  <script type="application/ld+json">{"@context": "https://schema.org", "@type": "Article", "headline": "Electricity CO2 calculator", "description": "Convert kWh of electricity into carbon emissions. Enter your usage and the grid carbon intensity to see the CO2 in kilograms, with relatable comparisons.", "datePublished": "2026-06-03", "dateModified": "2026-06-25", "inLanguage": "en-GB", "mainEntityOfPage": "https://powersavingguide.com/co2-from-electricity-calculator.html", "author": {"@type": "Organization", "name": "Power Saving Guide"}, "publisher": {"@type": "Organization", "name": "Power Saving Guide"}}</script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,600&family=Inter:wght@400;500;600&display=swap" rel="stylesheet" media="print" onload="this.media='all'">
+  <noscript><link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,600&family=Inter:wght@400;500;600&display=swap" rel="stylesheet"></noscript>
+  <script data-goatcounter="https://stats.powersavingguide.com/count" async src="//stats.powersavingguide.com/count.js"></script><script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('consent','default',{ad_storage:'granted',ad_user_data:'granted',ad_personalization:'granted',analytics_storage:'granted'});gtag('consent','default',{region:['AT','BE','BG','HR','CY','CZ','DK','EE','FI','FR','DE','GR','HU','IE','IT','LV','LT','LU','MT','NL','PL','PT','RO','SK','SI','ES','SE','IS','LI','NO','GB','CH'],ad_storage:'denied',ad_user_data:'denied',ad_personalization:'denied',analytics_storage:'denied',wait_for_update:500});</script><script async src="https://www.googletagmanager.com/gtag/js?id=G-8FYB114413"></script><script>gtag('js',new Date());gtag('config','G-8FYB114413');</script><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-7059699192160095" crossorigin="anonymous"></script>
+</head>
+<body>
+  <nav class="nav--bar"><div class="wrap nav-inner">
+    <a class="brand" href="index.html">Power Saving Guide</a>
+    <input type="checkbox" id="nt" class="navtoggle">
+    <label for="nt" class="navburger" aria-label="Menu">≡</label>
+    <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="electricity.html">Electricity</a></li>
+        <li><a href="heating.html">Heating &amp; gas</a></li>
+        <li><a href="driving.html">Fuel &amp; driving</a></li>
+        <li><a href="calculators.html" class="active">Calculators</a></li>
+        <li><a href="guides.html">Guides</a></li>
+        <li><a href="about.html">About</a></li>
+    </ul>
+  </div></nav>
+
+  <header class="page-head"><div class="wrap"><h1>Electricity CO2 calculator</h1></div></header>
+  <main>
+
+  <section class="section"><div class="wrap prose">
+    <p class="lede">Enter how many kilowatt-hours of electricity you use and the grid's carbon intensity, and this works out the carbon emissions. The UK grid average is around 207g of CO2 per kWh and falling as more renewables come online.</p>
+    <div class="ecalc">
+      <div class="row">
+      <div class="field"><label for="kwh">Electricity used (kWh)</label><input id="kwh" type="number" inputmode="decimal" step="any" min="0" value="2900"></div>
+      </div>
+      <div class="row">
+      <div class="field"><label for="g">Grid intensity (g CO2/kWh): <output id="g_o">207</output></label><input id="g" type="range" min="0" max="400" step="5" value="207" oninput="document.getElementById('g_o').textContent=this.value+''"></div>
+      </div>
+      <div class="res" id="res"></div>
+    </div>
+    <script>
+(function(){
+  function v(id){var x=parseFloat(document.getElementById(id).value);return isNaN(x)||x<0?0:x;}
+  function go(){
+    var kg=v('kwh')*v('g')/1000;
+    document.getElementById('res').innerHTML=
+      '<div class="big">'+kg.toFixed(0)+' kg<span> CO2 from '+v('kwh')+' kWh</span></div>'+
+      '<div class="grid3">'+
+      '<div class="b"><div class="n">'+(kg/1000).toFixed(2)+'</div><div class="l">tonnes CO2</div></div>'+
+      '<div class="b"><div class="n">'+(kg/0.27).toFixed(0)+'</div><div class="l">petrol miles equiv</div></div>'+
+      '<div class="b"><div class="n">'+(kg/21).toFixed(1)+'</div><div class="l">trees for a year</div></div></div>'+
+      '<p style="margin-top:12px;color:var(--muted)">Comparisons use about 0.27 kg CO2 per petrol mile and 21 kg absorbed by one tree a year.</p>';
+  }
+  ['kwh','g'].forEach(function(id){var e=document.getElementById(id);if(e)e.addEventListener('input',go);});
+  go();
+})();
+    </script>
+<div class="formula"><b>The formula:</b> kg CO2 = kWh &times; grid intensity (g/kWh) &divide; 1000</div>
+    <p>Grid carbon intensity is the average CO2 emitted per unit of electricity, and it changes hour by hour as the mix of wind, solar, gas and nuclear shifts. The yearly UK average is roughly 207g per kWh, but on a windy night it can fall below 50g and on a cold still evening climb well above 300g, which is the idea behind shifting heavy use to greener hours. Using less in the first place is covered across the <a href="electricity.html">electricity</a> guides; to turn the same kWh into money, use the <a href="kwh-to-cost-calculator.html">kWh to cost calculator</a>.</p>
+    <h2>Common questions</h2>
+    <p><strong>How much CO2 does 1 kWh of electricity produce?</strong><br>On the UK grid average of about 207g per kWh, one kWh produces roughly 0.21 kg of CO2. The exact figure depends on what is generating power at the time, from under 50g on a windy night to over 300g at peak.</p>
+    <p><strong>Is electricity getting cleaner?</strong><br>Yes. The grid's average carbon intensity has fallen sharply over the past decade as coal closed and wind and solar grew, so the CO2 per kWh today is a fraction of what it was, and it continues to drop.</p>
+    <script type="application/ld+json">{"@context": "https://schema.org", "@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": "How much CO2 does 1 kWh of electricity produce?", "acceptedAnswer": {"@type": "Answer", "text": "On the UK grid average of about 207g per kWh, one kWh produces roughly 0.21 kg of CO2. The exact figure depends on what is generating power at the time, from under 50g on a windy night to over 300g at peak."}}, {"@type": "Question", "name": "Is electricity getting cleaner?", "acceptedAnswer": {"@type": "Answer", "text": "Yes. The grid's average carbon intensity has fallen sharply over the past decade as coal closed and wind and solar grew, so the CO2 per kWh today is a fraction of what it was, and it continues to drop."}}]}</script>
+  </div></section>
+
+  </main>
+  <footer class="footer"><div class="wrap">
+    <p class="foot-brand">Power Saving Guide</p>
+    <p>A practical, independent guide to cutting your electricity, gas and fuel bills. Plain advice, no gadgets to buy.</p>
+    <p class="foot-links"><a href="electricity.html">Electricity</a> · <a href="heating.html">Heating &amp; gas</a> · <a href="driving.html">Fuel &amp; driving</a> · <a href="appliance-running-cost.html">Cost calculator</a> · <a href="guides.html">Guides</a> · <a href="about.html">About</a> · <a href="privacy.html">Privacy</a></p>
+    <p class="copy">&copy; <span>2026</span> Power Saving Guide. Figures are worked examples; check your own tariff and meter. Cookieless analytics, see the <a href="privacy.html">privacy page</a>.</p>
+  </div></footer>
+</body>
+</html>
