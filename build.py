@@ -10230,7 +10230,140 @@ PAGES['do-smart-plugs-save-energy'] = dict(
 )
 
 
+# ----- Data study: running cost of every appliance -----
+# (name, watts, kWh/year at typical UK use, usage note)
+APPLIANCES = [
+    ("Hot tub, kept on all year", 2000, 2500, "year-round, cycling"),
+    ("Electric car, charged at home", 7000, 2300, "8,000 miles a year"),
+    ("Storage heater (one)", 2000, 1300, "winter, overnight charge"),
+    ("Immersion heater (sole hot water)", 3000, 1000, "daily hot water"),
+    ("Panel heater (one room)", 2000, 600, "winter evenings"),
+    ("Electric shower (one person)", 8500, 500, "10 minutes daily"),
+    ("Tumble dryer, vented", 2500, 470, "4 loads a week"),
+    ("Tumble dryer, condenser", 2700, 470, "4 loads a week"),
+    ("Oil-filled radiator", 1500, 450, "winter evenings"),
+    ("Gaming PC", 400, 440, "3 hours a day"),
+    ("American-style fridge-freezer", 200, 350, "on 24/7"),
+    ("Dehumidifier", 250, 300, "regular use"),
+    ("Aquarium, heated (heater, pump, light)", 150, 300, "on 24/7"),
+    ("Electric oven", 2200, 290, "most days"),
+    ("Heated towel rail (electric)", 300, 260, "on daily"),
+    ("Dishwasher", 1800, 260, "5 loads a week"),
+    ("Fridge-freezer (standard)", 150, 250, "on 24/7"),
+    ("Ceramic hob", 1800, 250, "daily cooking"),
+    ("Induction hob", 2000, 220, "daily cooking"),
+    ("TV, 65-inch OLED", 150, 220, "4 hours a day"),
+    ("Desktop PC", 150, 220, "4 hours a day"),
+    ("Chest freezer", 150, 200, "on 24/7"),
+    ("Heat pump tumble dryer", 1000, 190, "4 loads a week"),
+    ("Kettle", 3000, 180, "boiled ~5 times a day"),
+    ("Washing machine", 2100, 180, "5 loads a week"),
+    ("Set-top box / recorder", 20, 175, "left on 24/7"),
+    ("Portable air conditioner", 1000, 150, "summer use"),
+    ("TV, 55-inch LED", 100, 146, "4 hours a day"),
+    ("Hairdryer", 1800, 110, "10 minutes daily"),
+    ("Laptop", 50, 110, "6 hours a day"),
+    ("Air fryer", 1500, 110, "most days"),
+    ("Games console (in use)", 150, 110, "2 hours a day"),
+    ("Under-counter fridge", 90, 100, "on 24/7"),
+    ("Halogen bulb (50W)", 50, 90, "5 hours a day"),
+    ("Broadband router", 10, 88, "on 24/7"),
+    ("Slow cooker", 200, 85, "weekly, 8 hours"),
+    ("Microwave", 900, 55, "daily"),
+    ("Coffee machine (filter or pod)", 1000, 55, "daily"),
+    ("Heated clothes airer", 300, 50, "regular use"),
+    ("Iron", 2400, 30, "weekly"),
+    ("Smart speaker", 3, 26, "on 24/7"),
+    ("Soundbar", 30, 26, "4 hours a day"),
+    ("Vacuum cleaner", 900, 20, "weekly"),
+    ("LED bulb (10W)", 10, 18, "5 hours a day"),
+    ("Electric blanket", 100, 15, "winter nights"),
+    ("Toaster", 1000, 12, "daily"),
+    ("Phone charger", 5, 5, "overnight, daily"),
+]
+APPLIANCES.sort(key=lambda a: a[2], reverse=True)
+_ELEC = 0.2611
+def _appliance_rows():
+    out = []
+    for name, w, kwh, use in APPLIANCES:
+        cost = round(kwh * _ELEC)
+        out.append(
+            f'<tr><td>{name}</td>'
+            f'<td data-v="{w}">{w:,}</td>'
+            f'<td>{use}</td>'
+            f'<td data-v="{kwh}">{kwh:,}</td>'
+            f'<td data-v="{cost}">&pound;{cost:,}</td></tr>')
+    return "\n".join(out)
+
+_APP_HEAD = '''
+  <section class="section"><div class="wrap prose">
+    <style>
+      .ev-table{width:100%;border-collapse:collapse;margin:14px 0;font-size:.97rem}
+      .ev-table th,.ev-table td{border:1px solid var(--line);padding:9px 12px;text-align:left}
+      .ev-table th{background:var(--paper-alt,#f4f1ea);font-weight:600}
+      .ev-table td:not(:first-child),.ev-table th:not(:first-child){text-align:right}
+      .ev-note{font-size:.9rem;color:var(--ink-soft,#5b5b5b)}
+      #appTable th.srt{cursor:pointer;white-space:nowrap}
+      #appTable th.srt:after{content:" \\2195";opacity:.45;font-size:.85em}
+      #appTable th.srt:hover{color:var(--accent,#1a7f4b)}
+      @media(max-width:560px){.ev-table{font-size:.86rem}.ev-table th,.ev-table td{padding:7px 8px}}
+    </style>
+    <p class="lede">We took 46 common household appliances and worked out what each one actually costs to run for a year at the current price cap. The spread is the whole story: the most expensive thing in the average home costs several hundred pounds a year, the cheapest costs about the price of a coffee. Most energy advice has you fretting over the wrong end of this table.</p>
+
+    <p>Tap any column heading to sort. Costs use the Ofgem price cap of <strong>26.11p per kWh</strong> (July to September 2026), and the kilowatt-hours assume typical use, shown in the table. Your own figures will differ with how hard and how often you run each thing, but the running order rarely changes.</p>
+
+    <table class="ev-table" id="appTable">
+      <thead><tr>
+        <th>Appliance</th>
+        <th class="srt" data-c="1">Power (W)</th>
+        <th>Typical use</th>
+        <th class="srt" data-c="3">kWh / year</th>
+        <th class="srt" data-c="4">Cost / year</th>
+      </tr></thead>
+      <tbody>
+'''
+_APP_TAIL = '''
+      </tbody>
+    </table>
+    <p class="ev-note">At 26.11p per kWh, Ofgem price cap July to September 2026. Figures are typical full use; an old or hard-worked appliance costs more, an efficient or lightly used one less. The electric car and electric shower are per typical user. Worked examples, not a promise; measure your own with a <a href="using-a-plug-in-energy-monitor.html">plug-in monitor</a>.</p>
+
+    <h2>What the table actually tells you</h2>
+    <p>Three lessons fall straight out of sorting by yearly cost. First, the things that <strong>make heat</strong> dominate: showers, dryers, immersion heaters, panel heaters and the rest sit at the top, because turning electricity into heat is expensive and there is no efficient way around it. Second, a few modest-looking devices cost more than you would think simply because they <strong>never switch off</strong>, like a fridge-freezer, an aquarium or a set-top box left on around the clock. Third, the gadgets people are told to fret about, the phone charger and the standby light, are at the very bottom, costing about a pound a year each.</p>
+
+    <p>The practical takeaway is the one the whole site is built on: chase the top of the table, ignore the bottom. Unplugging your phone charger to save 1 pound a year while a tumble dryer quietly costs over 120 pounds is effort spent in exactly the wrong place. Put your own appliances through the <a href="appliance-running-cost.html">running cost calculator</a> to get your real numbers, and if the bill itself looks wrong, work through <a href="why-is-my-electricity-bill-so-high.html">why your electricity bill is so high</a>.</p>
+
+    <p>For the big users specifically: the <a href="heating.html">heating guides</a> cover electric heat and hot water, and <a href="economy-7-and-night-rates.html">Economy 7 and night rates</a> can cut the cost of anything you are able to run overnight.</p>
+
+    <script>
+    (function(){
+      var t=document.getElementById('appTable'); if(!t) return;
+      var tb=t.tBodies[0];
+      t.querySelectorAll('th.srt').forEach(function(th){
+        var asc=false;
+        th.addEventListener('click',function(){
+          var c=+th.getAttribute('data-c'); asc=!asc;
+          var rows=Array.prototype.slice.call(tb.rows);
+          rows.sort(function(a,b){
+            var x=+a.cells[c].getAttribute('data-v'), y=+b.cells[c].getAttribute('data-v');
+            return asc?x-y:y-x;
+          });
+          rows.forEach(function(r){tb.appendChild(r);});
+        });
+      });
+    })();
+    </script>
+  </div></section>
+'''
+PAGES["running-cost-of-every-appliance"] = dict(
+    title="What every appliance costs to run: the full UK list",
+    description="The yearly running cost of 46 common household appliances at the current UK price cap, from the hot tub and tumble dryer down to the phone charger. Sortable, with the sums shown.",
+    active="electricity",
+    blurb="Forty-six appliances, ranked by what they cost you a year. The gap between the top and the bottom is the whole point.",
+    body=_APP_HEAD + _appliance_rows() + _APP_TAIL,
+)
+
 GUIDES_ORDER = [
+    "running-cost-of-every-appliance",
     # Flagship batch - live today
     "is-it-cheaper-to-leave-heating-on-all-day", "what-temperature-should-i-set-my-thermostat",
     "cheaper-to-heat-one-room-or-whole-house", "heated-clothes-airer-running-cost",
